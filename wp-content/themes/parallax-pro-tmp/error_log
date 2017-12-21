@@ -1,4 +1,0 @@
-[12-Mar-2016 16:04:42 America/Denver] PHP Fatal error:  Call to undefined function get_template_directory() in /home2/explain3/public_html/wp-content/themes/parallax-pro/functions.php on line 3
-[12-Mar-2016 20:29:37 America/Denver] PHP Fatal error:  Call to undefined function get_template_directory() in /home2/explain3/public_html/wp-content/themes/parallax-pro/functions.php on line 3
-[13-Mar-2016 15:29:34 America/Denver] PHP Fatal error:  Call to undefined function get_template_directory() in /home2/explain3/public_html/wp-content/themes/parallax-pro/functions.php on line 3
-[13-Mar-2016 17:21:23 America/Denver] PHP Fatal error:  Call to undefined function get_template_directory() in /home2/explain3/public_html/wp-content/themes/parallax-pro/functions.php on line 3
