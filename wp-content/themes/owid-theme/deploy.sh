@@ -12,7 +12,7 @@ elif [ "$1" == "live" ]; then
   ENV="live"
   HOST="owid@terra"
   WORDPRESS_DIR="/home/owid/ourworldindata.org"
-  WORDPRESS_URL="https://ourworldindata.org"
+  WORDPRESS_URL="http://localhost:80"
   WORDPRESS_DB="owid_wordpress"
 
   # Prompt for confirmation if deploying to live
