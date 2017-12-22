@@ -38,6 +38,6 @@ then
     mv $FINAL_TARGET $OLD_REPO
     mv $TMP_NEW $FINAL_TARGET
     cd $FINAL_TARGET && yarn
-    node dist/src/deployHook.js $WORDPRESS_DB $WORDPRESS_URL $WORDPRESS_DIR
+    node dist/deployHook.js $WORDPRESS_DB $WORDPRESS_URL $WORDPRESS_DIR
 EOF
 fi
