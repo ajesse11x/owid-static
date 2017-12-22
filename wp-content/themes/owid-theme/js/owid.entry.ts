@@ -1,1 +1,1 @@
-import '../css/owid.scss'
+require('../css/style.scss')
