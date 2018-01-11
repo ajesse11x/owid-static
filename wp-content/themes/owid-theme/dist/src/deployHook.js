@@ -44,21 +44,25 @@ function main() {
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
-                    _a.trys.push([0, 3, , 4]);
                     baker = new WordpressBaker_1.WordpressBaker({});
-                    return [4 /*yield*/, baker.bakeAll()];
+                    _a.label = 1;
                 case 1:
-                    _a.sent();
-                    return [4 /*yield*/, baker.deploy("Code deployment update")];
+                    _a.trys.push([1, 4, 5, 6]);
+                    return [4 /*yield*/, baker.bakeAll()];
                 case 2:
                     _a.sent();
-                    baker.end();
-                    return [3 /*break*/, 4];
+                    return [4 /*yield*/, baker.deploy("Code deployment update")];
                 case 3:
+                    _a.sent();
+                    return [3 /*break*/, 6];
+                case 4:
                     err_1 = _a.sent();
                     console.error(err_1);
-                    return [3 /*break*/, 4];
-                case 4: return [2 /*return*/];
+                    return [3 /*break*/, 6];
+                case 5:
+                    baker.end();
+                    return [7 /*endfinally*/];
+                case 6: return [2 /*return*/];
             }
         });
     });

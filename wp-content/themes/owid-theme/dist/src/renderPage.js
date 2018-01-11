@@ -126,6 +126,7 @@ function renderBlogByPageNum(pageNum) {
                                 post.imageUrl = sortedPaths[sortedPaths.length - 3].replace(settings_1.WORDPRESS_DIR, '');
                             }
                             catch (err) {
+                                console.error(err);
                                 // Just use the big one
                             }
                         }
