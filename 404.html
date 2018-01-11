@@ -1,13 +1,21 @@
+<?php 
+    status_header(404); 
+    nocache_headers();
+?>
 <!doctype html>
 <html>
 <head>
-<title>404 Not Found</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta http-equiv="Content-Language" content="en-us">
-<meta name="robots" content="noindex, nofollow">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" media="all" href="https://owid.cloud/wp-content/themes/owid-theme/style.css?v=">
-<style>
+	<title>404 Not Found</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Language" content="en-us">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" media="all" href="<?php 
+		echo get_stylesheet_uri();
+    	echo '?v='.filemtime(get_stylesheet_directory() . '/style.css'); 
+    ?>">
+
+    <style>
     	html, body {
     		height: 100%;
     	}
@@ -42,16 +50,16 @@
     </style>
 </head>
 <body>
-<div>
-<h1>Sorry, that page doesn’t exist!</h1>
-<p>You can search Our World in Data below or <a href="https://ourworldindata.org">return to the homepage</a>.</p>
-<form action="https://google.com/search" method="GET">
-<input type="hidden" name="sitesearch" value="ourworldindata.org">
-<input id="search_q" type="search" name="q" placeholder="Search...">
-<input class="btn" id="search_submit" type="submit" value="Search">
-</form>
-</div>
-<script>
+	<div>
+      <h1>Sorry, that page doesn’t exist!</h1>
+      <p>You can search <?php bloginfo('name') ?> below or <a href="https://ourworldindata.org">return to the homepage</a>.</p>
+	<form action="https://google.com/search" method="GET">
+		<input type="hidden" name="sitesearch" value="ourworldindata.org">
+		<input id="search_q" type="search" name="q" placeholder="Search...">
+        <input class="btn" id="search_submit" type="submit" value="Search">
+	</form>
+	</div>
+    <script>
 		var query = window.location.pathname.split("/");
 		document.getElementById("search_q").value = query[query.length-1];
     </script>
