@@ -88,22 +88,6 @@ var WordpressBaker = /** @class */ (function () {
             });
         });
     };
-    WordpressBaker.prototype.bakeHeaders = function () {
-        return __awaiter(this, void 0, void 0, function () {
-            var props, headers;
-            return __generator(this, function (_a) {
-                switch (_a.label) {
-                    case 0:
-                        props = this.props;
-                        headers = "/identifyAdmin.png\n  Set-Cookie: isAdmin=true; Max-Age=2592000\n";
-                        return [4 /*yield*/, this.stageWrite(path.join(BAKED_DIR, "_headers"), headers)];
-                    case 1:
-                        _a.sent();
-                        return [2 /*return*/];
-                }
-            });
-        });
-    };
     WordpressBaker.prototype.bakePost = function (post) {
         return __awaiter(this, void 0, void 0, function () {
             var entries, formatted, html, outPath;
@@ -242,7 +226,7 @@ var WordpressBaker = /** @class */ (function () {
     WordpressBaker.prototype.bakeAssets = function () {
         return __awaiter(this, void 0, void 0, function () {
             return __generator(this, function (_a) {
-                shell.exec("rsync -havz --delete " + WORDPRESS_DIR + "/wp-content/themes/owid-theme/images/identifyAdmin.png " + BAKED_DIR + "/");
+                shell.exec("rsync -havz --delete " + WORDPRESS_DIR + "/wp-content/themes/owid-theme/identifyadmin.html " + BAKED_DIR + "/");
                 shell.exec("rsync -havz --delete " + WORDPRESS_DIR + "/wp-content " + BAKED_DIR + "/");
                 shell.exec("rsync -havz --delete " + WORDPRESS_DIR + "/wp-includes " + BAKED_DIR + "/");
                 shell.exec("rsync -havz --delete " + WORDPRESS_DIR + "/favicon* " + BAKED_DIR + "/");
@@ -259,20 +243,17 @@ var WordpressBaker = /** @class */ (function () {
                     case 0: return [4 /*yield*/, this.bakeRedirects()];
                     case 1:
                         _a.sent();
-                        return [4 /*yield*/, this.bakeHeaders()];
+                        return [4 /*yield*/, this.bakeAssets()];
                     case 2:
                         _a.sent();
-                        return [4 /*yield*/, this.bakeAssets()];
+                        return [4 /*yield*/, this.bakeFrontPage()];
                     case 3:
                         _a.sent();
-                        return [4 /*yield*/, this.bakeFrontPage()];
+                        return [4 /*yield*/, this.bakeBlog()];
                     case 4:
                         _a.sent();
-                        return [4 /*yield*/, this.bakeBlog()];
-                    case 5:
-                        _a.sent();
                         return [4 /*yield*/, this.bakePosts()];
-                    case 6:
+                    case 5:
                         _a.sent();
                         return [2 /*return*/];
                 }
