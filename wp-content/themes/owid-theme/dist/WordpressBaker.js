@@ -44,6 +44,7 @@ var lodash_1 = require("lodash");
 var shell = require("shelljs");
 var WordpressBaker = /** @class */ (function () {
     function WordpressBaker(props) {
+        this.stagedFiles = [];
         this.props = props;
         this.db = database_1.createConnection({ database: props.database });
     }
@@ -74,7 +75,7 @@ var WordpressBaker = /** @class */ (function () {
                         return [4 /*yield*/, fs.writeFile(path.join(props.outDir, "_redirects"), redirects.join("\n"))];
                     case 2:
                         _b.sent();
-                        console.log(outPath);
+                        this.stage(outPath);
                         return [2 /*return*/];
                 }
             });
@@ -108,14 +109,14 @@ var WordpressBaker = /** @class */ (function () {
                         return [4 /*yield*/, fs.writeFile(outPath, html)];
                     case 4:
                         _b.sent();
-                        console.log(outPath);
+                        this.stage(outPath);
                         return [3 /*break*/, 6];
                     case 5:
                         err_1 = _b.sent();
                         if (slug === "404") {
                             outPath = path.join(outDir, "404.html");
                             fs.writeFile(outPath, err_1.response.body);
-                            console.log(outPath);
+                            this.stage(outPath);
                         }
                         else {
                             console.error(err_1);
@@ -147,7 +148,7 @@ var WordpressBaker = /** @class */ (function () {
     WordpressBaker.prototype.bakePosts = function () {
         return __awaiter(this, void 0, void 0, function () {
             var _this = this;
-            var _a, outDir, forceUpdate, postsQuery, permalinks, rows, requestSlugs, postSlugs, _i, rows_2, row, slug, outPath, stat, existingSlugs, toRemove, _b, toRemove_1, slug;
+            var _a, outDir, forceUpdate, postsQuery, permalinks, rows, requestSlugs, postSlugs, _i, rows_2, row, slug, outPath, stat, existingSlugs, toRemove, _b, toRemove_1, slug, outPath;
             return __generator(this, function (_c) {
                 switch (_c.label) {
                     case 0:
@@ -213,10 +214,11 @@ var WordpressBaker = /** @class */ (function () {
                     case 10:
                         if (!(_b < toRemove_1.length)) return [3 /*break*/, 13];
                         slug = toRemove_1[_b];
-                        console.log("DELETING " + outDir + "/" + slug + ".html");
-                        return [4 /*yield*/, fs.unlink(outDir + "/" + slug + ".html")];
+                        outPath = outDir + "/" + slug + ".html";
+                        return [4 /*yield*/, fs.unlink(outPath)];
                     case 11:
                         _c.sent();
+                        this.stage(outPath, "DELETING " + outPath);
                         _c.label = 12;
                     case 12:
                         _b++;
@@ -258,7 +260,7 @@ var WordpressBaker = /** @class */ (function () {
                         return [4 /*yield*/, fs.writeFile(outPath, feed)];
                     case 6:
                         _b.sent();
-                        console.log(outPath);
+                        this.stage(outPath);
                         return [3 /*break*/, 8];
                     case 7:
                         err_2 = _b.sent();
@@ -303,22 +305,29 @@ var WordpressBaker = /** @class */ (function () {
             });
         });
     };
+    WordpressBaker.prototype.stage = function (outPath, msg) {
+        console.log(msg || outPath);
+        this.stagedFiles.push(outPath);
+    };
     WordpressBaker.prototype.exec = function (cmd) {
         console.log(cmd);
         shell.exec(cmd);
     };
     WordpressBaker.prototype.deploy = function (commitMsg, authorEmail, authorName) {
         return __awaiter(this, void 0, void 0, function () {
-            var outDir;
-            return __generator(this, function (_a) {
+            var outDir, _i, _a, files;
+            return __generator(this, function (_b) {
                 outDir = this.props.outDir;
+                for (_i = 0, _a = lodash_1.chunk(this.stagedFiles, 100); _i < _a.length; _i++) {
+                    files = _a[_i];
+                    this.exec("cd " + outDir + " && git add -A " + files.join(" "));
+                }
                 if (authorEmail && authorName && commitMsg) {
-                    this.exec("cd " + outDir + " && git add -A . && git commit --author='" + authorName + " <" + authorEmail + ">' -a -m '" + commitMsg + "'");
+                    this.exec("cd " + outDir + " && git add -A . && git commit --author='" + authorName + " <" + authorEmail + ">' -a -m '" + commitMsg + "' && git push origin master");
                 }
                 else {
-                    this.exec("cd " + outDir + " && git add -A . && git commit -a -m '" + commitMsg + "'");
+                    this.exec("cd " + outDir + " && git add -A . && git commit -a -m '" + commitMsg + "' && git push origin master");
                 }
-                this.exec("cd " + outDir + " && git push origin master");
                 return [2 /*return*/];
             });
         });

@@ -25,6 +25,8 @@ fi
 
 if [[ $REPLY =~ ^[Yy]$ ]] || [ "$1" != "live" ]
 then
+  ./node_modules/.bin/webpack -p
+
   TMP="/home/owid/tmp"
   OLD_REPO="$TMP/$ENV-owid-theme-old"
   SYNC_TARGET="$TMP/$ENV-owid-theme"
