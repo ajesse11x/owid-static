@@ -161,7 +161,7 @@ var WordpressBaker = /** @class */ (function () {
                     case 6:
                         _b.sent();
                         existingSlugs = glob.sync(BAKED_DIR + "/**/*.html").map(function (path) { return path.replace(BAKED_DIR + "/", '').replace(".html", ""); })
-                            .filter(function (path) { return !path.startsWith('wp-') && !path.startsWith('slides') && !path.startsWith('blog') && path !== "index" && path !== "404"; });
+                            .filter(function (path) { return !path.startsWith('wp-') && !path.startsWith('slides') && !path.startsWith('blog') && path !== "index" && path !== "identifyadmin" && path !== "404"; });
                         toRemove = lodash_1.without.apply(void 0, [existingSlugs].concat(postSlugs));
                         _a = 0, toRemove_1 = toRemove;
                         _b.label = 7;
