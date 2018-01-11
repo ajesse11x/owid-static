@@ -38,7 +38,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var WordpressBaker_1 = require("./WordpressBaker");
 var parseArgs = require("minimist");
 var argv = parseArgs(process.argv.slice(2));
-function main(database, wordpressUrl, wordpressDir) {
+function main() {
     return __awaiter(this, void 0, void 0, function () {
         var baker, err_1;
         return __generator(this, function (_a) {
@@ -63,5 +63,5 @@ function main(database, wordpressUrl, wordpressDir) {
         });
     });
 }
-main(argv._[0], argv._[1], argv._[2]);
+main();
 //# sourceMappingURL=deployHook.js.map

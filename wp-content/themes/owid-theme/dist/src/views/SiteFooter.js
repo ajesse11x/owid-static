@@ -65,6 +65,6 @@ exports.SiteFooter = function () {
                     React.createElement("a", { className: "inet-logo", href: "https://www.inet.ox.ac.uk/" },
                         React.createElement("img", { src: "/wp-content/themes/owid-theme/images/inet-oxford.png", alt: "INET Oxford logo" }))))),
         React.createElement("script", { src: settings.STATIC_ROOT + "/js/owid.js" }),
-        React.createElement("script", { src: "/grapher/embedCharts.js" }));
+        React.createElement("script", { src: settings.BAKED_URL + "/grapher/embedCharts.js" }));
 };
 //# sourceMappingURL=SiteFooter.js.map
