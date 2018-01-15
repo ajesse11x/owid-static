@@ -146,6 +146,7 @@ function formatPost(post) {
                             slug: post.slug,
                             title: post.title,
                             date: post.date,
+                            modifiedDate: post.modifiedDate,
                             authors: post.authors,
                             html: $.html(),
                             footnotes: footnotes,

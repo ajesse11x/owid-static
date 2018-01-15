@@ -13,6 +13,7 @@ exports.ArticlePage = function (props) {
     var pageTitle = post.title;
     var canonicalUrl = settings_1.BAKED_URL + "/" + post.slug;
     var pageDesc = post.excerpt;
+    var publishedYear = post.modifiedDate.getFullYear();
     return React.createElement("html", null,
         React.createElement(Head_1.Head, { pageTitle: pageTitle, pageDesc: pageDesc, canonicalUrl: canonicalUrl, imageUrl: post.imageUrl }),
         React.createElement("body", null,
@@ -32,7 +33,23 @@ exports.ArticlePage = function (props) {
                             React.createElement("div", { className: "authors-byline" },
                                 React.createElement("a", { href: "/about/#the-team" },
                                     "by ",
-                                    authorsText))),
+                                    authorsText),
+                                React.createElement("a", { className: "citation-note" },
+                                    React.createElement("sup", null, "[cite]"))),
+                            React.createElement("div", { className: "citation-guideline" },
+                                "OWID presents work for many different people and organizations. When citing this entry, please also cite the original data source. This entry can be cited as:",
+                                React.createElement("br", null),
+                                React.createElement("br", null),
+                                authorsText,
+                                " (",
+                                publishedYear,
+                                ") - \"",
+                                pageTitle,
+                                "\". ",
+                                React.createElement("em", null, "Published online at OurWorldInData.org."),
+                                " Retrieved from: '",
+                                canonicalUrl,
+                                "' [Online Resource]")),
                         React.createElement("div", { className: "article-content", dangerouslySetInnerHTML: { __html: post.html } }),
                         post.footnotes.length > 0 && React.createElement("footer", { className: "article-footer" },
                             React.createElement("h2", { id: "footnotes" }, "Footnotes"),
