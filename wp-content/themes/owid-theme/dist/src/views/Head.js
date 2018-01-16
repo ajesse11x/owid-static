@@ -12,6 +12,7 @@ exports.Head = function (props) {
         React.createElement("title", null, pageTitle),
         React.createElement("meta", { name: "description", content: pageDesc }),
         React.createElement("link", { rel: "canonical", href: canonicalUrl }),
+        React.createElement("link", { rel: "alternate", type: "application/atom+xml", href: "/atom.xml" }),
         React.createElement("meta", { property: "fb:app_id", content: "1149943818390250" }),
         React.createElement("meta", { property: "og:url", content: canonicalUrl }),
         React.createElement("meta", { property: "og:title", content: pageTitle }),

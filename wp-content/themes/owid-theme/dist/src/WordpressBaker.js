@@ -63,7 +63,7 @@ var WordpressBaker = /** @class */ (function () {
                     case 0:
                         props = this.props;
                         redirects = [
-                            "/feed/ /feed/index.xml 200",
+                            "/feed /atom.xml 200",
                             "/chart-builder/* /grapher/:splat 301",
                             "/grapher/public/* /grapher/:splat 301",
                             "/grapher/view/* /grapher/:splat 301",
@@ -253,8 +253,8 @@ var WordpressBaker = /** @class */ (function () {
                         _i++;
                         return [3 /*break*/, 2];
                     case 6:
-                        feed = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<feed xmlns=\"http://www.w3.org/2005/Atom\">\n    <title>Our World in Data</title>\n    <subtitle>Living conditions around the world are changing rapidly. Explore how and why.</subtitle>\n    <id>" + BAKED_URL + "/</id>\n    <link rel=\"self\" href=\"" + BAKED_URL + "/feed/\"/>\n    <link rel=\"alternate\" href=\"" + BAKED_URL + "\"/>\n    <updated>" + posts[0].date.toISOString() + "</updated>\n    " + posts.map(function (post) { return "<entry>\n        <title>" + post.title + "</title>\n        <id>" + BAKED_URL + "/" + post.slug + "</id>\n        <link rel=\"alternate\" href=\"" + BAKED_URL + "/" + post.slug + "\"/>\n        <published>" + post.modifiedDate.toISOString() + "</published>\n        <updated>" + post.modifiedDate.toISOString() + "</updated>\n        " + post.authors.map(function (author) { return "<author><name>" + author + "</name></author>"; }).join("") + "\n        <summary>" + post.excerpt + "</summary>\n    </entry>"; }).join("\n") + "\n</feed>\n";
-                        return [4 /*yield*/, this.stageWrite(BAKED_DIR + "/feed/index.xml", feed)];
+                        feed = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<feed xmlns=\"http://www.w3.org/2005/Atom\">\n    <title>Our World in Data</title>\n    <subtitle>Living conditions around the world are changing rapidly. Explore how and why.</subtitle>\n    <id>" + BAKED_URL + "/</id>\n    <link type=\"text/html\" rel=\"alternate\" href=\"" + BAKED_URL + "\"/>\n    <link type=\"application/atom+xml\" rel=\"self\" href=\"" + BAKED_URL + "/feed/\"/>\n    <updated>" + posts[0].date.toISOString() + "</updated>\n    " + posts.map(function (post) { return "<entry>\n        <title>" + post.title + "</title>\n        <id>" + BAKED_URL + "/" + post.slug + "</id>\n        <link rel=\"alternate\" href=\"" + BAKED_URL + "/" + post.slug + "\"/>\n        <published>" + post.modifiedDate.toISOString() + "</published>\n        <updated>" + post.modifiedDate.toISOString() + "</updated>\n        " + post.authors.map(function (author) { return "<author><name>" + author + "</name></author>"; }).join("") + "\n        <summary>" + post.excerpt + "</summary>\n    </entry>"; }).join("\n") + "\n</feed>\n";
+                        return [4 /*yield*/, this.stageWrite(BAKED_DIR + "/atom.xml", feed)];
                     case 7:
                         _c.sent();
                         return [2 /*return*/];

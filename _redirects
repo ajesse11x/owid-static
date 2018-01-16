@@ -1,4 +1,4 @@
-/feed/ /feed/index.xml 200
+/feed /atom.xml 200
 /chart-builder/* /grapher/:splat 301
 /grapher/public/* /grapher/:splat 301
 /grapher/view/* /grapher/:splat 301
