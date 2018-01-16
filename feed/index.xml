@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Our World in Data</title>
+    <description>Living conditions around the world are changing rapidly. Explore how and why.</description>
     <id>https://ourworldindata.org/</id>
     <link rel="self" href="https://ourworldindata.org/feed/"/>
     <link rel="alternate" href="https://ourworldindata.org"/>
