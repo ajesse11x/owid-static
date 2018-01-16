@@ -4,7 +4,7 @@
     <subtitle>Living conditions around the world are changing rapidly. Explore how and why.</subtitle>
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
-    <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/feed/"/>
+    <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
     <updated>2017-12-17T23:14:27.000Z</updated>
     <entry>
         <title>Child maltreatment and educational outcomes</title>
