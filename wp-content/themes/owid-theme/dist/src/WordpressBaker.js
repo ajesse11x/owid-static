@@ -45,7 +45,7 @@ var formatting_1 = require("./formatting");
 var ArticlePage_1 = require("./views/ArticlePage");
 var BlogPostPage_1 = require("./views/BlogPostPage");
 var settings = require("./settings");
-var BAKED_DIR = settings.BAKED_DIR, WORDPRESS_URL = settings.WORDPRESS_URL, WORDPRESS_DIR = settings.WORDPRESS_DIR, BLOG_POSTS_PER_PAGE = settings.BLOG_POSTS_PER_PAGE;
+var BAKED_DIR = settings.BAKED_DIR, BAKED_URL = settings.BAKED_URL, WORDPRESS_URL = settings.WORDPRESS_URL, WORDPRESS_DIR = settings.WORDPRESS_DIR, BLOG_POSTS_PER_PAGE = settings.BLOG_POSTS_PER_PAGE;
 var renderPage_1 = require("./renderPage");
 var React = require("react");
 var ReactDOMServer = require("react-dom/server");
@@ -209,17 +209,54 @@ var WordpressBaker = /** @class */ (function () {
                         i = 1;
                         _a.label = 2;
                     case 2:
-                        if (!(i <= numPages)) return [3 /*break*/, 5];
+                        if (!(i <= numPages)) return [3 /*break*/, 6];
                         slug = i === 1 ? 'blog' : "blog/page/" + i;
                         return [4 /*yield*/, renderPage_1.renderBlogByPageNum(i)];
                     case 3:
                         html = _a.sent();
-                        this.stageWrite(BAKED_DIR + "/" + slug + ".html", html);
-                        _a.label = 4;
+                        return [4 /*yield*/, this.stageWrite(BAKED_DIR + "/" + slug + ".html", html)];
                     case 4:
+                        _a.sent();
+                        _a.label = 5;
+                    case 5:
                         i++;
                         return [3 /*break*/, 2];
-                    case 5: return [2 /*return*/];
+                    case 6: return [2 /*return*/];
+                }
+            });
+        });
+    };
+    WordpressBaker.prototype.bakeRSS = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var postRows, posts, _i, postRows_1, row, fullPost, _a, _b, feed;
+            return __generator(this, function (_c) {
+                switch (_c.label) {
+                    case 0: return [4 /*yield*/, wpdb.query("SELECT * FROM wp_posts WHERE post_type='post' AND post_status='publish' ORDER BY post_date DESC LIMIT 10")];
+                    case 1:
+                        postRows = _c.sent();
+                        posts = [];
+                        _i = 0, postRows_1 = postRows;
+                        _c.label = 2;
+                    case 2:
+                        if (!(_i < postRows_1.length)) return [3 /*break*/, 6];
+                        row = postRows_1[_i];
+                        return [4 /*yield*/, wpdb.getFullPost(row)];
+                    case 3:
+                        fullPost = _c.sent();
+                        _b = (_a = posts).push;
+                        return [4 /*yield*/, formatting_1.formatPost(fullPost)];
+                    case 4:
+                        _b.apply(_a, [_c.sent()]);
+                        _c.label = 5;
+                    case 5:
+                        _i++;
+                        return [3 /*break*/, 2];
+                    case 6:
+                        feed = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<feed xmlns=\"http://www.w3.org/2005/Atom\">\n    <title>Our World in Data</title>\n    <id>" + BAKED_URL + "</id>\n    <link href=\"" + BAKED_URL + "\"/>\n    <updated>" + posts[0].date.toISOString() + "</updated>\n    " + posts.map(function (post) { return "<entry>\n        <title>" + post.title + "</title>\n        <published>" + post.modifiedDate.toISOString() + "</published>\n        <updated>" + post.modifiedDate.toISOString() + "</updated>\n        <author>" + post.authors.map(function (author) { return "<name>" + author + "</name>"; }).join() + "</author>\n        <link rel=\"alternate\" href=\"" + BAKED_URL + "/" + post.slug + "\"/>\n        <summary>" + post.excerpt + "</summary>\n    </entry>"; }).join("\n") + "\n</feed>\n";
+                        return [4 /*yield*/, this.stageWrite(BAKED_DIR + "/feed/index.xml", feed)];
+                    case 7:
+                        _c.sent();
+                        return [2 /*return*/];
                 }
             });
         });
@@ -244,17 +281,20 @@ var WordpressBaker = /** @class */ (function () {
                     case 0: return [4 /*yield*/, this.bakeRedirects()];
                     case 1:
                         _a.sent();
-                        return [4 /*yield*/, this.bakeAssets()];
+                        return [4 /*yield*/, this.bakeBlog()];
                     case 2:
                         _a.sent();
-                        return [4 /*yield*/, this.bakeFrontPage()];
+                        return [4 /*yield*/, this.bakeRSS()];
                     case 3:
                         _a.sent();
-                        return [4 /*yield*/, this.bakeBlog()];
+                        return [4 /*yield*/, this.bakeAssets()];
                     case 4:
                         _a.sent();
-                        return [4 /*yield*/, this.bakePosts()];
+                        return [4 /*yield*/, this.bakeFrontPage()];
                     case 5:
+                        _a.sent();
+                        return [4 /*yield*/, this.bakePosts()];
+                    case 6:
                         _a.sent();
                         return [2 /*return*/];
                 }
