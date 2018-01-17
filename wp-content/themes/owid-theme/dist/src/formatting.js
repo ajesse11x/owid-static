@@ -41,7 +41,7 @@ var wpautop = require('wpautop');
 var lodash_1 = require("lodash");
 var React = require("react");
 var ReactDOMServer = require("react-dom/server");
-var settings = require("./settings");
+var settings_1 = require("./settings");
 var wpdb_1 = require("./wpdb");
 var Tablepress_1 = require("./views/Tablepress");
 function romanize(num) {
@@ -54,11 +54,11 @@ function romanize(num) {
         roman = (key[+digits.pop() + (i * 10)] || "") + roman;
     return Array(+digits.join("") + 1).join("M") + roman;
 }
-function formatPost(post) {
+function formatPost(post, grapherExports) {
     return __awaiter(this, void 0, void 0, function () {
-        var html, footnotes, tables, $, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings;
-        return __generator(this, function (_a) {
-            switch (_a.label) {
+        var html, footnotes, tables, $, grapherIframes, _i, grapherIframes_1, el, src, chart, output, _a, _b, el, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings;
+        return __generator(this, function (_c) {
+            switch (_c.label) {
                 case 0:
                     html = post.content;
                     footnotes = [];
@@ -71,16 +71,16 @@ function formatPost(post) {
                     if (!html.match(/<!--raw-->/))
                         html = wpautop(html);
                     // Standardize protocols used in links
-                    if (settings.HTTPS_ONLY)
+                    if (settings_1.HTTPS_ONLY)
                         html = html.replace(new RegExp("http://", 'g'), "https://");
                     else
                         html = html.replace(new RegExp("https://", 'g'), "http://");
                     // Use relative urls wherever possible
-                    html = html.replace(new RegExp(settings.WORDPRESS_URL, 'g'), "")
+                    html = html.replace(new RegExp(settings_1.WORDPRESS_URL, 'g'), "")
                         .replace(new RegExp("https?://ourworldindata.org", 'g'), "");
                     return [4 /*yield*/, wpdb_1.getTables()];
                 case 1:
-                    tables = _a.sent();
+                    tables = _c.sent();
                     html = html.replace(/\[table\s+id=(\d+)\s*\/\]/g, function (match, tableId) {
                         var table = tables.get(tableId);
                         if (table)
@@ -88,17 +88,30 @@ function formatPost(post) {
                         else
                             return "UNKNOWN TABLE";
                     });
-                    // In the final production version, make sure we use https urls
+                    // These old things don't work with static generation, link them through to maxroser.com
                     html = html.replace(new RegExp("/wp-content/uploads/nvd3", 'g'), "https://www.maxroser.com/owidUploads/nvd3")
                         .replace(new RegExp("/wp-content/uploads/datamaps", 'g'), "https://www.maxroser.com/owidUploads/datamaps");
                     $ = cheerio.load(html);
-                    // Replace grapher iframes with iframeless embedding figure elements
-                    $("iframe").each(function (_, el) {
-                        var src = el.attribs['src'] || "";
-                        if (src.match(/\/grapher\//)) {
-                            $(el).replaceWith("<figure data-grapher-src=\"" + src.replace(/.*(?=\/grapher\/)/, '') + "\"/>");
+                    if (grapherExports) {
+                        grapherIframes = $("iframe").toArray().filter(function (el) { return (el.attribs['src'] || '').match(/\/grapher\//); });
+                        // Replace grapher iframes with iframeless embedding figure elements
+                        for (_i = 0, grapherIframes_1 = grapherIframes; _i < grapherIframes_1.length; _i++) {
+                            el = grapherIframes_1[_i];
+                            src = el.attribs['src'];
+                            chart = grapherExports.get(src);
+                            if (chart) {
+                                output = "<div class=\"interactivePreview\"><a href=\"" + src + "\" target=\"_blank\"><div><img src=\"" + chart.svgUrl + "\" data-grapher-src=\"" + src + "\"/></div></a></div>";
+                                $(el).replaceWith(output);
+                            }
                         }
-                    });
+                    }
+                    // Make all image links open in new tab
+                    for (_a = 0, _b = $("img").toArray(); _a < _b.length; _a++) {
+                        el = _b[_a];
+                        if (el.parent.tagName === "a") {
+                            el.parent.attribs['target'] = '_blank';
+                        }
+                    }
                     hasToc = post.type === 'page' && post.slug !== 'about';
                     openHeadingIndex = 0;
                     openSubheadingIndex = 0;

@@ -35,7 +35,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var WordpressBaker_1 = require("./WordpressBaker");
+var BakeWordpress_1 = require("./BakeWordpress");
 var parseArgs = require("minimist");
 var argv = parseArgs(process.argv.slice(2));
 function main(database, wordpressUrl, wordpressDir, email, name, postSlug) {
@@ -46,7 +46,7 @@ function main(database, wordpressUrl, wordpressDir, email, name, postSlug) {
                 case 0:
                     _a.trys.push([0, 3, , 4]);
                     console.log(database, wordpressUrl, wordpressDir, email, name, postSlug);
-                    baker = new WordpressBaker_1.WordpressBaker({});
+                    baker = new BakeWordpress_1.default({});
                     return [4 /*yield*/, baker.bakeAll()];
                 case 1:
                     _a.sent();

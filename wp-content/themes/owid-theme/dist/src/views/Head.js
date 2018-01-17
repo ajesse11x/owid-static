@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var settings = require("../settings");
+var settings_1 = require("../settings");
 var React = require("react");
 exports.Head = function (props) {
     var canonicalUrl = props.canonicalUrl;
     var pageTitle = props.pageTitle ? props.pageTitle + " - Our World in Data" : "Our World in Data";
     var pageDesc = props.pageDesc || "Living conditions around the world are changing rapidly. Explore how and why.";
-    var imageUrl = props.imageUrl || settings.BAKED_URL + "/wp-content/uploads/2016/06/OurWorldInData.png";
+    var imageUrl = props.imageUrl || settings_1.BAKED_URL + "/wp-content/uploads/2016/06/OurWorldInData.png";
     return React.createElement("head", null,
         React.createElement("meta", { name: "viewport", content: "width=device-width, initial-scale=1" }),
         React.createElement("title", null, pageTitle),
@@ -25,6 +25,6 @@ exports.Head = function (props) {
         React.createElement("meta", { name: "twitter:title", content: pageTitle }),
         React.createElement("meta", { name: "twitter:description", content: pageDesc }),
         React.createElement("meta", { name: "twitter:image", content: imageUrl }),
-        React.createElement("link", { rel: "stylesheet", href: settings.STATIC_ROOT + "/owid.css" }));
+        React.createElement("link", { rel: "stylesheet", href: settings_1.ASSETS_URL + "/owid.css" }));
 };
 //# sourceMappingURL=Head.js.map

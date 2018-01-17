@@ -90,6 +90,13 @@ var WordpressBaker = /** @class */ (function () {
             });
         });
     };
+    WordpressBaker.prototype.bakeCharts = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                return [2 /*return*/];
+            });
+        });
+    };
     WordpressBaker.prototype.bakePost = function (post) {
         return __awaiter(this, void 0, void 0, function () {
             var entries, formatted, html, outPath;
@@ -282,20 +289,23 @@ var WordpressBaker = /** @class */ (function () {
                     case 0: return [4 /*yield*/, this.bakeRedirects()];
                     case 1:
                         _a.sent();
-                        return [4 /*yield*/, this.bakeBlog()];
+                        return [4 /*yield*/, this.bakeCharts()];
                     case 2:
                         _a.sent();
-                        return [4 /*yield*/, this.bakeRSS()];
+                        return [4 /*yield*/, this.bakeBlog()];
                     case 3:
                         _a.sent();
-                        return [4 /*yield*/, this.bakeAssets()];
+                        return [4 /*yield*/, this.bakeRSS()];
                     case 4:
                         _a.sent();
-                        return [4 /*yield*/, this.bakeFrontPage()];
+                        return [4 /*yield*/, this.bakeAssets()];
                     case 5:
                         _a.sent();
-                        return [4 /*yield*/, this.bakePosts()];
+                        return [4 /*yield*/, this.bakeFrontPage()];
                     case 6:
+                        _a.sent();
+                        return [4 /*yield*/, this.bakePosts()];
+                    case 7:
                         _a.sent();
                         return [2 /*return*/];
                 }
@@ -349,5 +359,5 @@ var WordpressBaker = /** @class */ (function () {
     };
     return WordpressBaker;
 }());
-exports.WordpressBaker = WordpressBaker;
+exports.default = WordpressBaker;
 //# sourceMappingURL=WordpressBaker.js.map

@@ -35,7 +35,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var WordpressBaker_1 = require("./WordpressBaker");
+var BakeWordpress_1 = require("./BakeWordpress");
 var parseArgs = require("minimist");
 var argv = parseArgs(process.argv.slice(2));
 function main() {
@@ -44,7 +44,7 @@ function main() {
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
-                    baker = new WordpressBaker_1.WordpressBaker({});
+                    baker = new BakeWordpress_1.default({});
                     _a.label = 1;
                 case 1:
                     _a.trys.push([1, 4, 5, 6]);

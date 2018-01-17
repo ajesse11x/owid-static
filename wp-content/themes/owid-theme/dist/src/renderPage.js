@@ -49,9 +49,11 @@ var _ = require("lodash");
 var fs = require("fs-extra");
 var settings_1 = require("./settings");
 var formatting_1 = require("./formatting");
+var grapherUtil_1 = require("./grapherUtil");
+var cheerio = require("cheerio");
 function renderPageById(id) {
     return __awaiter(this, void 0, void 0, function () {
-        var rows, post, entries, formatted;
+        var rows, post, entries, $, grapherUrls, exportsByUrl, formatted;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0: return [4 /*yield*/, wpdb.query("\n        SELECT * FROM wp_posts AS post WHERE ID=?\n    ", [id])];
@@ -63,8 +65,16 @@ function renderPageById(id) {
                     return [4 /*yield*/, wpdb.getEntriesByCategory()];
                 case 3:
                     entries = _a.sent();
-                    return [4 /*yield*/, formatting_1.formatPost(post)];
+                    $ = cheerio.load(post.content);
+                    grapherUrls = $("iframe").toArray().filter(function (el) { return (el.attribs['src'] || '').match(/\/grapher\//); }).map(function (el) { return el.attribs['src']; });
+                    return [4 /*yield*/, grapherUtil_1.bakeGrapherUrls(grapherUrls, { silent: true })];
                 case 4:
+                    _a.sent();
+                    return [4 /*yield*/, grapherUtil_1.getGrapherExportsByUrl()];
+                case 5:
+                    exportsByUrl = _a.sent();
+                    return [4 /*yield*/, formatting_1.formatPost(post, exportsByUrl)];
+                case 6:
                     formatted = _a.sent();
                     if (rows[0].post_type === 'post')
                         return [2 /*return*/, ReactDOMServer.renderToStaticMarkup(React.createElement(BlogPostPage_1.BlogPostPage, { entries: entries, post: formatted }))];
