@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2017-12-17T23:14:27.000Z</updated>
+    <updated>2018-01-18T01:00:50.000Z</updated>
     <entry>
+        <title>What drives the gender pay gap?</title>
+        <id>https://ourworldindata.org/what-drives-the-gender-pay-gap</id>
+        <link rel="alternate" href="https://ourworldindata.org/what-drives-the-gender-pay-gap"/>
+        <published>2018-01-18T01:00:50.000Z</published>
+        <updated>2018-01-18T01:00:50.000Z</updated>
+        <author><name>Esteban Ortiz-Ospina</name></author><author><name>Max Roser</name></author>
+        <summary>In most countries, women tend to earn less than men. However, in most countries across the world these inequalities have been narrowing. In particular, many high-income countries, such as the US, have seen a large reductions in the last decades. In a companion blog post we provide a thorough description of these facts. Here we focus on the determinants: How did these reductions come about and why do substantial gaps remain?</summary>
+    </entry>
+<entry>
         <title>Child maltreatment and educational outcomes</title>
         <id>https://ourworldindata.org/child-maltreatment-and-educational-outcomes</id>
         <link rel="alternate" href="https://ourworldindata.org/child-maltreatment-and-educational-outcomes"/>
@@ -86,14 +95,5 @@
         <updated>2017-11-03T12:42:10.000Z</updated>
         <author><name>Esteban Ortiz-Ospina</name></author><author><name>Sandra Tzvetkova</name></author><author><name>Max Roser</name></author>
         <summary>In almost every country in the world, men are more likely to participate in labor markets than women. However, these gender differences in participation rates have been narrowing substantially in recent decades. In this post we discuss how and why these changes are taking place.</summary>
-    </entry>
-<entry>
-        <title>Working women: What determines female labor force participation?</title>
-        <id>https://ourworldindata.org/women-in-the-labor-force-determinants</id>
-        <link rel="alternate" href="https://ourworldindata.org/women-in-the-labor-force-determinants"/>
-        <published>2017-10-16T21:00:10.000Z</published>
-        <updated>2017-11-03T12:55:12.000Z</updated>
-        <author><name>Esteban Ortiz-Ospina</name></author><author><name>Sandra Tzvetkova</name></author><author><name>Max Roser</name></author>
-        <summary>In almost every country in the world, men are more likely to participate in labor markets than women. However, these gender differences have been narrowing substantially, and in most countries around the world the share of women who are part of the labor force is higher today than half a century ago. In this blog post we discuss the key factors driving this change (for an in-depth look at the change itself, including key facts and trends, see our companion blog post).</summary>
     </entry>
 </feed>
