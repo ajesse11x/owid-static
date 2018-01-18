@@ -44,6 +44,7 @@ var ReactDOMServer = require("react-dom/server");
 var settings_1 = require("./settings");
 var wpdb_1 = require("./wpdb");
 var Tablepress_1 = require("./views/Tablepress");
+var path = require("path");
 function romanize(num) {
     if (!+num)
         return "";
@@ -56,7 +57,7 @@ function romanize(num) {
 }
 function formatPost(post, grapherExports) {
     return __awaiter(this, void 0, void 0, function () {
-        var html, footnotes, tables, $, grapherIframes, _i, grapherIframes_1, el, src, chart, output, _a, _b, el, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings;
+        var html, footnotes, tables, $, grapherIframes, _i, grapherIframes_1, el, src, chart, output, uploadDex, _a, _b, el, src, upload, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings;
         return __generator(this, function (_c) {
             switch (_c.label) {
                 case 0:
@@ -105,11 +106,19 @@ function formatPost(post, grapherExports) {
                             }
                         }
                     }
-                    // Make all image links open in new tab
+                    return [4 /*yield*/, wpdb_1.getUploadedImages()];
+                case 2:
+                    uploadDex = _c.sent();
                     for (_a = 0, _b = $("img").toArray(); _a < _b.length; _a++) {
                         el = _b[_a];
+                        // Open full-size image in new tab
                         if (el.parent.tagName === "a") {
                             el.parent.attribs['target'] = '_blank';
+                        }
+                        src = el.attribs['src'] || "";
+                        upload = uploadDex.get(path.basename(src));
+                        if (upload && upload.variants.length) {
+                            el.attribs['srcset'] = upload.variants.map(function (v) { return v.url + " " + v.width + "w"; }).join(", ");
                         }
                     }
                     hasToc = post.type === 'page' && post.slug !== 'about';

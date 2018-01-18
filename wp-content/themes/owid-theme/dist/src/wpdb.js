@@ -36,11 +36,14 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var database_1 = require("./database");
-var settings = require("./settings");
+var settings_1 = require("./settings");
 var entities_1 = require("entities");
 var slugify = require('slugify');
+var path = require("path");
+var glob = require("glob");
+var _ = require("lodash");
 var wpdb = database_1.createConnection({
-    database: settings.WORDPRESS_DB_NAME
+    database: settings_1.WORDPRESS_DB_NAME
 });
 function query(queryStr, params) {
     return __awaiter(this, void 0, void 0, function () {
@@ -54,6 +57,50 @@ function end() {
     wpdb.end();
 }
 exports.end = end;
+var cachedUploadDex;
+function getUploadedImages() {
+    return __awaiter(this, void 0, void 0, function () {
+        var paths, uploadDex, _i, paths_1, filepath, filename, match, _1, dirpath, slug, dims, filetype, upload, _a, width, height;
+        return __generator(this, function (_b) {
+            if (cachedUploadDex)
+                return [2 /*return*/, cachedUploadDex];
+            paths = glob.sync(path.join(settings_1.WORDPRESS_DIR, 'wp-content/uploads/**/*'));
+            uploadDex = new Map();
+            for (_i = 0, paths_1 = paths; _i < paths_1.length; _i++) {
+                filepath = paths_1[_i];
+                filename = path.basename(filepath);
+                match = filepath.match(/(\/wp-content.*\/)([^\/]*?)-?(\d+x\d+)?\.(png|jpg|jpeg|gif)$/);
+                if (match) {
+                    _1 = match[0], dirpath = match[1], slug = match[2], dims = match[3], filetype = match[4];
+                    upload = uploadDex.get(slug);
+                    if (!upload) {
+                        upload = {
+                            slug: slug,
+                            originalUrl: path.join(dirpath, slug) + "." + filetype,
+                            variants: []
+                        };
+                        uploadDex.set(slug, upload);
+                    }
+                    if (dims) {
+                        _a = dims.split("x"), width = _a[0], height = _a[1];
+                        upload.variants.push({
+                            url: path.join(dirpath, filename),
+                            width: parseInt(width),
+                            height: parseInt(height)
+                        });
+                    }
+                    uploadDex.set(filename, upload);
+                }
+            }
+            uploadDex.forEach(function (upload) {
+                upload.variants = _.sortBy(upload.variants, function (v) { return v.width; });
+            });
+            cachedUploadDex = uploadDex;
+            return [2 /*return*/, uploadDex];
+        });
+    });
+}
+exports.getUploadedImages = getUploadedImages;
 // Retrieve a map of post ids to authors
 var cachedAuthorship;
 function getAuthorship() {
