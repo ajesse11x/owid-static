@@ -45,7 +45,7 @@ exports.SiteFooter = function () {
                     React.createElement("hr", null)),
                 React.createElement("div", { className: "column links" },
                     React.createElement("h6", null, "Links"),
-                    React.createElement("a", { href: "/" }, "Entries"),
+                    React.createElement("a", { href: "/#entries" }, "Entries"),
                     React.createElement("a", { href: "/blog" }, "Blog"),
                     React.createElement("a", { href: "/support" }, "Donate"),
                     React.createElement("a", { href: "/about" }, "About"),

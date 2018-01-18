@@ -39,7 +39,7 @@ exports.FrontPage = function (props) {
                         React.createElement("a", { className: "more", href: "/blog" }, "More \u2192")),
                     React.createElement("div", { id: "homepage-entries", className: "owid-data" },
                         React.createElement("h3", null,
-                            React.createElement("a", { href: "/entries" }, "Entries")),
+                            React.createElement("a", { id: "entries", href: "#entries" }, "Entries")),
                         React.createElement("p", null,
                             "Ongoing collections of research and data by topic. Entries marked with ",
                             React.createElement("span", { className: "star" }, "\u2B51"),
