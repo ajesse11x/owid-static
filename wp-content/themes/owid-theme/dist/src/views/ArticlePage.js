@@ -9,7 +9,7 @@ var formatting_1 = require("../formatting");
 var urlSlug = require('url-slug');
 exports.ArticlePage = function (props) {
     var entries = props.entries, post = props.post;
-    var authorsText = formatting_1.formatAuthors(post.authors);
+    var authorsText = formatting_1.formatAuthors(post.authors, true);
     var pageTitle = post.title;
     var canonicalUrl = settings_1.BAKED_URL + "/" + post.slug;
     var pageDesc = post.excerpt;

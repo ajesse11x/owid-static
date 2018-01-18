@@ -181,8 +181,8 @@ function formatPost(post, grapherExports) {
     });
 }
 exports.formatPost = formatPost;
-function formatAuthors(authors) {
-    if (authors.indexOf("Max Roser") === -1)
+function formatAuthors(authors, requireMax) {
+    if (requireMax && authors.indexOf("Max Roser") === -1)
         authors.push("Max Roser");
     var authorsText = authors.slice(0, -1).join(", ");
     if (authorsText.length == 0)
