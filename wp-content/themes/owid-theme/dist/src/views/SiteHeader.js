@@ -34,7 +34,7 @@ exports.SiteHeader = function (props) {
                     React.createElement("h2", null, "Entries")),
                 entries.map(function (category) {
                     return React.createElement("li", { className: "category" },
-                        React.createElement("a", null,
+                        React.createElement("a", { href: "/#" + category.slug },
                             React.createElement("span", null, category.name)),
                         React.createElement("div", { className: "subcategory-menu" },
                             React.createElement("div", { className: "submenu-title" }, category.name),
@@ -58,7 +58,7 @@ exports.SiteHeader = function (props) {
         React.createElement("div", { id: "category-nav", className: "desktop" },
             React.createElement("ul", null, entries.map(function (category) {
                 return React.createElement("li", { className: "category", title: category.name },
-                    React.createElement("a", null,
+                    React.createElement("a", { href: "/#" + category.slug },
                         React.createElement("span", null, category.name)),
                     React.createElement("ul", { className: "entries" },
                         React.createElement("li", null,

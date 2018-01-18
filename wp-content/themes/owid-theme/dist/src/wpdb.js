@@ -38,6 +38,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var database_1 = require("./database");
 var settings = require("./settings");
 var entities_1 = require("entities");
+var slugify = require('slugify');
 var wpdb = database_1.createConnection({
     database: settings.WORDPRESS_DB_NAME
 });
@@ -144,6 +145,7 @@ function getEntriesByCategory() {
                         });
                         return {
                             name: entities_1.decodeHTML(cat),
+                            slug: slugify(entities_1.decodeHTML(cat).toLowerCase()),
                             entries: entries
                         };
                     });
