@@ -29,7 +29,7 @@ exports.BlogPostPage = function (props) {
                                 " by ",
                                 formatting_1.formatAuthors(post.authors))),
                         React.createElement("div", { className: "article-content", dangerouslySetInnerHTML: { __html: post.html } }),
-                        React.createElement("footer", { className: "article-footer" },
+                        post.footnotes.length > 0 && React.createElement("footer", { className: "article-footer" },
                             React.createElement("h2", { id: "footnotes" }, "Footnotes"),
                             React.createElement("ol", { className: "side-matter side-matter-list", style: { 'list-style-type': 'decimal', opacity: 1 } }, post.footnotes.map(function (footnote, i) {
                                 return React.createElement("li", { id: "note-" + (i + 1), className: "side-matter side-matter-note", style: { 'margin-top': '0px' } },
