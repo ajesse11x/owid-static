@@ -62,8 +62,8 @@ function formatPost(post, grapherExports) {
             switch (_c.label) {
                 case 0:
                     html = post.content;
-                    // Remove comments and standardize paragraph spacing
-                    html = html.replace(/<![^>]+>/g, "").replace(/(\r?\n)(\r?\n)+/g, "\n\n");
+                    // Remove comments and standardize spacing
+                    html = html.replace(/<![^>]+>/g, "").replace(/\r\n/g, "\n").replace(/(\n\s*)(\n\s*)/g, "\n\n");
                     footnotes = [];
                     html = html.replace(/\[ref\]([\s\S]*?)\[\/ref\]/gm, function (_, footnote) {
                         footnotes.push(footnote);
@@ -95,9 +95,9 @@ function formatPost(post, grapherExports) {
                     html = html.replace(new RegExp("/wp-content/uploads/nvd3", 'g'), "https://www.maxroser.com/owidUploads/nvd3")
                         .replace(new RegExp("/wp-content/uploads/datamaps", 'g'), "https://www.maxroser.com/owidUploads/datamaps");
                     $ = cheerio.load(html);
+                    // Replace grapher iframes with static previews
                     if (grapherExports) {
                         grapherIframes = $("iframe").toArray().filter(function (el) { return (el.attribs['src'] || '').match(/\/grapher\//); });
-                        // Replace grapher iframes with iframeless embedding figure elements
                         for (_i = 0, grapherIframes_1 = grapherIframes; _i < grapherIframes_1.length; _i++) {
                             el = grapherIframes_1[_i];
                             src = el.attribs['src'];
