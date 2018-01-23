@@ -62,8 +62,8 @@ function formatPost(post, grapherExports) {
             switch (_c.label) {
                 case 0:
                     html = post.content;
-                    // Remove comments and standardize spacing
-                    html = html.replace(/<!--[^>]+-->/g, "").replace(/\r\n/g, "\n").replace(/(\n\s*)(\n\s*)/g, "\n\n");
+                    // Standardize spacing
+                    html = html.replace(/\r\n/g, "\n").replace(/(\n\s*)(\n\s*)/g, "\n\n");
                     footnotes = [];
                     html = html.replace(/\[ref\]([\s\S]*?)\[\/ref\]/gm, function (_, footnote) {
                         footnotes.push(footnote);
