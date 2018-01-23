@@ -25,6 +25,7 @@ exports.Head = function (props) {
         React.createElement("meta", { name: "twitter:title", content: pageTitle }),
         React.createElement("meta", { name: "twitter:description", content: pageDesc }),
         React.createElement("meta", { name: "twitter:image", content: imageUrl }),
-        React.createElement("link", { rel: "stylesheet", href: settings_1.ASSETS_URL + "/owid.css" }));
+        React.createElement("link", { rel: "stylesheet", href: settings_1.ASSETS_URL + "/owid.css" }),
+        props.children);
 };
 //# sourceMappingURL=Head.js.map

@@ -10,7 +10,7 @@ exports.FrontPage = function (props) {
     var entries = props.entries, posts = props.posts;
     return React.createElement("html", null,
         React.createElement(Head_1.Head, { canonicalUrl: settings.BAKED_URL }),
-        React.createElement("body", null,
+        React.createElement("body", { className: "FrontPage" },
             React.createElement(SiteHeader_1.SiteHeader, { entries: entries }),
             React.createElement("main", null,
                 React.createElement("div", { id: "homepage-cover" },

@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
 exports.SiteHeader = function (props) {
     var entries = props.entries;
-    return React.createElement("header", { className: "site-header" },
+    return React.createElement("header", { className: "SiteHeader" },
         React.createElement("nav", { id: "owid-topbar" },
             React.createElement("ul", { className: "desktop right" },
                 React.createElement("li", null,

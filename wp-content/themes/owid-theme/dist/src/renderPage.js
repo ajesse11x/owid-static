@@ -40,6 +40,7 @@ var ArticlePage_1 = require("./views/ArticlePage");
 var BlogPostPage_1 = require("./views/BlogPostPage");
 var BlogIndexPage_1 = require("./views/BlogIndexPage");
 var FrontPage_1 = require("./views/FrontPage");
+var SubscribePage_1 = require("./views/SubscribePage");
 var React = require("react");
 var ReactDOMServer = require("react-dom/server");
 var url = require("url");
@@ -113,6 +114,20 @@ function renderFrontPage() {
     });
 }
 exports.renderFrontPage = renderFrontPage;
+function renderSubscribePage() {
+    return __awaiter(this, void 0, void 0, function () {
+        var entries;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, wpdb.getEntriesByCategory()];
+                case 1:
+                    entries = _a.sent();
+                    return [2 /*return*/, ReactDOMServer.renderToStaticMarkup(React.createElement(SubscribePage_1.default, { entries: entries }))];
+            }
+        });
+    });
+}
+exports.renderSubscribePage = renderSubscribePage;
 function renderBlogByPageNum(pageNum) {
     return __awaiter(this, void 0, void 0, function () {
         var postsPerPage, allPosts, numPages, posts, _i, posts_1, post, pathname, paths, sortedPaths, entries;
@@ -152,40 +167,47 @@ function renderBlogByPageNum(pageNum) {
 exports.renderBlogByPageNum = renderBlogByPageNum;
 function main(target) {
     return __awaiter(this, void 0, void 0, function () {
-        var _a, _b, pageNum, _c, _d, _e, _f, err_1;
-        return __generator(this, function (_g) {
-            switch (_g.label) {
+        var _a, _b, _c, _d, pageNum, _e, _f, _g, _h, err_1;
+        return __generator(this, function (_j) {
+            switch (_j.label) {
                 case 0:
-                    _g.trys.push([0, 7, 8, 9]);
+                    _j.trys.push([0, 9, 10, 11]);
                     if (!(target === 'front')) return [3 /*break*/, 2];
                     _b = (_a = console).log;
                     return [4 /*yield*/, renderFrontPage()];
                 case 1:
-                    _b.apply(_a, [_g.sent()]);
-                    return [3 /*break*/, 6];
+                    _b.apply(_a, [_j.sent()]);
+                    return [3 /*break*/, 8];
                 case 2:
-                    if (!(target == "blog")) return [3 /*break*/, 4];
-                    pageNum = process.argv[3] ? parseInt(process.argv[3]) : 1;
+                    if (!(target === 'subscribe')) return [3 /*break*/, 4];
                     _d = (_c = console).log;
-                    return [4 /*yield*/, renderBlogByPageNum(pageNum === 0 ? 1 : pageNum)];
+                    return [4 /*yield*/, renderSubscribePage()];
                 case 3:
-                    _d.apply(_c, [_g.sent()]);
-                    return [3 /*break*/, 6];
+                    _d.apply(_c, [_j.sent()]);
+                    return [3 /*break*/, 8];
                 case 4:
+                    if (!(target == "blog")) return [3 /*break*/, 6];
+                    pageNum = process.argv[3] ? parseInt(process.argv[3]) : 1;
                     _f = (_e = console).log;
-                    return [4 /*yield*/, renderPageById(parseInt(target))];
+                    return [4 /*yield*/, renderBlogByPageNum(pageNum === 0 ? 1 : pageNum)];
                 case 5:
-                    _f.apply(_e, [_g.sent()]);
-                    _g.label = 6;
-                case 6: return [3 /*break*/, 9];
+                    _f.apply(_e, [_j.sent()]);
+                    return [3 /*break*/, 8];
+                case 6:
+                    _h = (_g = console).log;
+                    return [4 /*yield*/, renderPageById(parseInt(target))];
                 case 7:
-                    err_1 = _g.sent();
+                    _h.apply(_g, [_j.sent()]);
+                    _j.label = 8;
+                case 8: return [3 /*break*/, 11];
+                case 9:
+                    err_1 = _j.sent();
                     console.error(err_1);
-                    return [3 /*break*/, 9];
-                case 8:
+                    return [3 /*break*/, 11];
+                case 10:
                     wpdb.end();
                     return [7 /*endfinally*/];
-                case 9: return [2 /*return*/];
+                case 11: return [2 /*return*/];
             }
         });
     });
