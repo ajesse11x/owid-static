@@ -237,25 +237,25 @@ $(".citation-note").on('click', function() {
 	$(".citation-guideline").toggle();
 });
 
-$("a.side-matter-ref sup").removeAttr("title");
+$("a.ref sup").removeAttr("title");
 
-$("a.side-matter-ref sup").tooltip({
+$("a.ref sup").tooltip({
 	html: true,
 	delay: { show: 100, hide: 500 },
 	placement: 'auto right',
 	trigger: 'manual',
 	title: function() {
-		var selector = $(this).closest('a.side-matter-ref').attr('href');
-		return $(selector).find('.side-matter-text').html();
+		var selector = $(this).closest('a.ref').attr('href');
+		return $(selector).html();
 	}
 });
 
-$("a.side-matter-ref sup").on("mouseover", function() {
+$("a.ref sup").on("mouseover", function() {
 	var $sup = $(this);
 	$sup.tooltip('show');
 
 	$("body").on("mouseover.tooltip", function(evt) {
-		if (!$(evt.target).closest(".tooltip").length && !$(evt.target).closest(".side-matter-ref").length) {
+		if (!$(evt.target).closest(".tooltip").length && !$(evt.target).closest(".ref").length) {
 			$sup.tooltip('hide');
 			$('body').off('mouseover.tooltip');
 		}
@@ -275,7 +275,7 @@ if (numEmbeds > 5) {
 } else if (window.innerWidth > window.innerHeight) {
 	$(".interactivePreview img").each(function(i, el) {
 		var $img = $(el);
-		const height = $img.height()||598
+		var height = $img.height()||598
 		$img.closest('.interactivePreview').replaceWith('<iframe src="' + $img.attr("data-grapher-src") + '" style="height: ' + (height+2) + 'px"/>');
 	});
 }

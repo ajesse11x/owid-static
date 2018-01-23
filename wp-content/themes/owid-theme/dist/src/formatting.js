@@ -57,9 +57,9 @@ function romanize(num) {
 }
 function formatPost(post, grapherExports) {
     return __awaiter(this, void 0, void 0, function () {
-        var html, footnotes, tables, $, grapherIframes, _i, grapherIframes_1, el, src, chart, output, uploadDex, _a, _b, el, src, upload, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings;
-        return __generator(this, function (_c) {
-            switch (_c.label) {
+        var html, footnotes, tables, $, sectionStarts, _i, sectionStarts_1, start, $start, $contents, $wrapNode, grapherIframes, _a, grapherIframes_1, el, src, chart, output, uploadDex, _b, _c, el, src, upload, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings;
+        return __generator(this, function (_d) {
+            switch (_d.label) {
                 case 0:
                     html = post.content;
                     // Standardize spacing
@@ -68,7 +68,7 @@ function formatPost(post, grapherExports) {
                     html = html.replace(/\[ref\]([\s\S]*?)\[\/ref\]/gm, function (_, footnote) {
                         footnotes.push(footnote);
                         var i = footnotes.length;
-                        return "<a id=\"ref-" + i + "\" class=\"side-matter side-matter-ref\" href=\"#note-" + i + "\"><sup class=\"side-matter side-matter-sup\">" + i + "</sup></a>";
+                        return "<a id=\"ref-" + i + "\" class=\"ref\" href=\"#note-" + i + "\"><sup>" + i + "</sup></a>";
                     });
                     // Replicate wordpress formatting (thank gods there's an npm package)
                     if (!html.match(/<!--raw-->/))
@@ -83,7 +83,7 @@ function formatPost(post, grapherExports) {
                         .replace(new RegExp("https?://ourworldindata.org", 'g'), "");
                     return [4 /*yield*/, wpdb_1.getTables()];
                 case 1:
-                    tables = _c.sent();
+                    tables = _d.sent();
                     html = html.replace(/\[table\s+id=(\d+)\s*\/\]/g, function (match, tableId) {
                         var table = tables.get(tableId);
                         if (table)
@@ -95,11 +95,22 @@ function formatPost(post, grapherExports) {
                     html = html.replace(new RegExp("/wp-content/uploads/nvd3", 'g'), "https://www.maxroser.com/owidUploads/nvd3")
                         .replace(new RegExp("/wp-content/uploads/datamaps", 'g'), "https://www.maxroser.com/owidUploads/datamaps");
                     $ = cheerio.load(html);
+                    sectionStarts = [$("body").children().get(0)].concat($("h2").toArray());
+                    for (_i = 0, sectionStarts_1 = sectionStarts; _i < sectionStarts_1.length; _i++) {
+                        start = sectionStarts_1[_i];
+                        $start = $(start);
+                        $contents = $start.nextUntil("h2");
+                        $wrapNode = $("<section></section>");
+                        $contents.remove();
+                        $wrapNode.append($start.clone());
+                        $wrapNode.append($contents);
+                        $start.replaceWith($wrapNode);
+                    }
                     // Replace grapher iframes with static previews
                     if (grapherExports) {
                         grapherIframes = $("iframe").toArray().filter(function (el) { return (el.attribs['src'] || '').match(/\/grapher\//); });
-                        for (_i = 0, grapherIframes_1 = grapherIframes; _i < grapherIframes_1.length; _i++) {
-                            el = grapherIframes_1[_i];
+                        for (_a = 0, grapherIframes_1 = grapherIframes; _a < grapherIframes_1.length; _a++) {
+                            el = grapherIframes_1[_a];
                             src = el.attribs['src'];
                             chart = grapherExports.get(src);
                             if (chart) {
@@ -110,9 +121,9 @@ function formatPost(post, grapherExports) {
                     }
                     return [4 /*yield*/, wpdb_1.getUploadedImages()];
                 case 2:
-                    uploadDex = _c.sent();
-                    for (_a = 0, _b = $("img").toArray(); _a < _b.length; _a++) {
-                        el = _b[_a];
+                    uploadDex = _d.sent();
+                    for (_b = 0, _c = $("img").toArray(); _b < _c.length; _b++) {
+                        el = _c[_b];
                         // Open full-size image in new tab
                         if (el.parent.tagName === "a") {
                             el.parent.attribs['target'] = '_blank';
@@ -162,7 +173,7 @@ function formatPost(post, grapherExports) {
                             }
                         }
                         // Deep link
-                        $heading.attr('id', slug).prepend("<a class=\"deep-link\" href=\"#" + slug + "\"></a>");
+                        $heading.attr('id', slug);
                     });
                     return [2 /*return*/, {
                             id: post.id,
