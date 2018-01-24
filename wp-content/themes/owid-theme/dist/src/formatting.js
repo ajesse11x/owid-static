@@ -57,7 +57,7 @@ function romanize(num) {
 }
 function formatPost(post, grapherExports) {
     return __awaiter(this, void 0, void 0, function () {
-        var html, footnotes, tables, $, sectionStarts, _i, sectionStarts_1, start, $start, $contents, $wrapNode, grapherIframes, _a, grapherIframes_1, el, src, chart, output, uploadDex, _b, _c, el, src, upload, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings;
+        var html, footnotes, tables, $, sectionStarts, _i, sectionStarts_1, start, $start, $contents, $wrapNode, grapherIframes, _a, grapherIframes_1, el, src, chart, output, $p, uploadDex, _b, _c, el, src, upload, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings;
         return __generator(this, function (_d) {
             switch (_d.label) {
                 case 0:
@@ -126,7 +126,13 @@ function formatPost(post, grapherExports) {
                             chart = grapherExports.get(src);
                             if (chart) {
                                 output = "<div class=\"interactivePreview\"><a href=\"" + src + "\" target=\"_blank\"><div><img src=\"" + chart.svgUrl + "\" data-grapher-src=\"" + src + "\"/></div></a></div>";
-                                $(el).closest('p').replaceWith(output);
+                                $p = $(el).closest('p');
+                                if ($p.children().length > 1) {
+                                    $(el).remove();
+                                    $p.after(output);
+                                }
+                                else
+                                    $p.replaceWith(output);
                             }
                         }
                     }
@@ -143,6 +149,7 @@ function formatPost(post, grapherExports) {
                         upload = uploadDex.get(path.basename(src));
                         if (upload && upload.variants.length) {
                             el.attribs['srcset'] = upload.variants.map(function (v) { return v.url + " " + v.width + "w"; }).join(", ");
+                            el.attribs['sizes'] = "(min-width: 800px) 50vw, 100vw";
                         }
                     }
                     hasToc = post.type === 'page' && post.slug !== 'about';
@@ -194,7 +201,7 @@ function formatPost(post, grapherExports) {
                             date: post.date,
                             modifiedDate: post.modifiedDate,
                             authors: post.authors,
-                            html: $.html(),
+                            html: $("body").html(),
                             footnotes: footnotes,
                             excerpt: post.excerpt || $($("p")[0]).text(),
                             imageUrl: post.imageUrl,
