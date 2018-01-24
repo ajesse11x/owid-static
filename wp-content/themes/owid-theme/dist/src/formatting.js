@@ -38,7 +38,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var cheerio = require("cheerio");
 var urlSlug = require('url-slug');
 var wpautop = require('wpautop');
-var lodash_1 = require("lodash");
+var _ = require("lodash");
 var React = require("react");
 var ReactDOMServer = require("react-dom/server");
 var settings_1 = require("./settings");
@@ -57,9 +57,9 @@ function romanize(num) {
 }
 function formatPost(post, grapherExports) {
     return __awaiter(this, void 0, void 0, function () {
-        var html, footnotes, tables, $, sectionStarts, _i, sectionStarts_1, start, $start, $contents, $wrapNode, grapherIframes, _a, grapherIframes_1, el, src, chart, output, $p, uploadDex, _b, _c, el, src, upload, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings;
-        return __generator(this, function (_d) {
-            switch (_d.label) {
+        var html, footnotes, tables, $, sectionStarts, _i, sectionStarts_1, start, $start, $contents, $wrapNode, grapherIframes, _a, grapherIframes_1, el, src, chart, output, $p, _b, _c, p, $p, uploadDex, _d, _e, el, src, upload, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings;
+        return __generator(this, function (_f) {
+            switch (_f.label) {
                 case 0:
                     html = post.content;
                     // Strip comments
@@ -74,7 +74,7 @@ function formatPost(post, grapherExports) {
                             return "";
                     });
                     // Standardize spacing
-                    html = html.replace(/\r\n/g, "\n").replace(/(\n\s*)(\n\s*)/g, "\n\n");
+                    html = html.replace(/\r\n/g, "\n").replace(/\n+/g, "\n").replace(/\n/g, "\n\n");
                     footnotes = [];
                     html = html.replace(/\[ref\]([\s\S]*?)\[\/ref\]/gm, function (_, footnote) {
                         footnotes.push(footnote);
@@ -94,7 +94,7 @@ function formatPost(post, grapherExports) {
                         .replace(new RegExp("https?://ourworldindata.org", 'g'), "");
                     return [4 /*yield*/, wpdb_1.getTables()];
                 case 1:
-                    tables = _d.sent();
+                    tables = _f.sent();
                     html = html.replace(/\[table\s+id=(\d+)\s*\/\]/g, function (match, tableId) {
                         var table = tables.get(tableId);
                         if (table)
@@ -125,22 +125,25 @@ function formatPost(post, grapherExports) {
                             src = el.attribs['src'];
                             chart = grapherExports.get(src);
                             if (chart) {
-                                output = "<div class=\"interactivePreview\"><a href=\"" + src + "\" target=\"_blank\"><div><img src=\"" + chart.svgUrl + "\" data-grapher-src=\"" + src + "\"/></div></a></div>";
+                                output = "<div class=\"interactive\"><a href=\"" + src + "\" target=\"_blank\"><div><img src=\"" + chart.svgUrl + "\" data-grapher-src=\"" + src + "\"/></div></a></div>";
                                 $p = $(el).closest('p');
-                                if ($p.children().length > 1) {
-                                    $(el).remove();
-                                    $p.after(output);
-                                }
-                                else
-                                    $p.replaceWith(output);
+                                $(el).remove();
+                                $p.after(output);
                             }
                         }
                     }
+                    // Remove any empty elements
+                    for (_b = 0, _c = $("p").toArray(); _b < _c.length; _b++) {
+                        p = _c[_b];
+                        $p = $(p);
+                        if ($p.contents().length === 0)
+                            $p.remove();
+                    }
                     return [4 /*yield*/, wpdb_1.getUploadedImages()];
                 case 2:
-                    uploadDex = _d.sent();
-                    for (_b = 0, _c = $("img").toArray(); _b < _c.length; _b++) {
-                        el = _c[_b];
+                    uploadDex = _f.sent();
+                    for (_d = 0, _e = $("img").toArray(); _d < _e.length; _d++) {
+                        el = _e[_d];
                         // Open full-size image in new tab
                         if (el.parent.tagName === "a") {
                             el.parent.attribs['target'] = '_blank';
@@ -219,7 +222,7 @@ function formatAuthors(authors, requireMax) {
     if (authorsText.length == 0)
         authorsText = authors[0];
     else
-        authorsText += " and " + lodash_1.last(authors);
+        authorsText += " and " + _.last(authors);
     return authorsText;
 }
 exports.formatAuthors = formatAuthors;
