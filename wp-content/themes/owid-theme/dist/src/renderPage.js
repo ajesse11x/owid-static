@@ -57,30 +57,45 @@ function renderToHtmlPage(element) {
     return "<!doctype html>" + ReactDOMServer.renderToStaticMarkup(element);
 }
 exports.renderToHtmlPage = renderToHtmlPage;
-function renderPageById(id) {
+function renderPageById(id, isPreview) {
     return __awaiter(this, void 0, void 0, function () {
-        var rows, post, entries, $, grapherUrls, exportsByUrl, formatted;
+        var rows, err_1, post, entries, $, grapherUrls, exportsByUrl, formatted;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, wpdb.query("\n        SELECT * FROM wp_posts AS post WHERE ID=?\n    ", [id])];
+                case 0:
+                    if (!isPreview) return [3 /*break*/, 5];
+                    _a.label = 1;
                 case 1:
-                    rows = _a.sent();
-                    return [4 /*yield*/, wpdb.getFullPost(rows[0])];
+                    _a.trys.push([1, 3, , 4]);
+                    return [4 /*yield*/, wpdb.query("SELECT post.*, parent.post_type FROM wp_posts AS post JOIN wp_posts AS parent ON parent.ID=post.post_parent WHERE post.post_parent=? AND post.post_type='revision' ORDER BY post_modified DESC", [id])];
                 case 2:
+                    rows = _a.sent();
+                    return [3 /*break*/, 4];
+                case 3:
+                    err_1 = _a.sent();
+                    console.log(err_1);
+                    return [3 /*break*/, 4];
+                case 4: return [3 /*break*/, 7];
+                case 5: return [4 /*yield*/, wpdb.query("SELECT * FROM wp_posts AS post WHERE ID=?", [id])];
+                case 6:
+                    rows = _a.sent();
+                    _a.label = 7;
+                case 7: return [4 /*yield*/, wpdb.getFullPost(rows[0])];
+                case 8:
                     post = _a.sent();
                     return [4 /*yield*/, wpdb.getEntriesByCategory()];
-                case 3:
+                case 9:
                     entries = _a.sent();
                     $ = cheerio.load(post.content);
                     grapherUrls = $("iframe").toArray().filter(function (el) { return (el.attribs['src'] || '').match(/\/grapher\//); }).map(function (el) { return el.attribs['src']; });
                     return [4 /*yield*/, grapherUtil_1.bakeGrapherUrls(grapherUrls, { silent: true })];
-                case 4:
+                case 10:
                     _a.sent();
                     return [4 /*yield*/, grapherUtil_1.getGrapherExportsByUrl()];
-                case 5:
+                case 11:
                     exportsByUrl = _a.sent();
                     return [4 /*yield*/, formatting_1.formatPost(post, exportsByUrl)];
-                case 6:
+                case 12:
                     formatted = _a.sent();
                     if (rows[0].post_type === 'post')
                         return [2 /*return*/, renderToHtmlPage(React.createElement(BlogPostPage_1.BlogPostPage, { entries: entries, post: formatted }))];
@@ -164,9 +179,9 @@ function renderBlogByPageNum(pageNum) {
     });
 }
 exports.renderBlogByPageNum = renderBlogByPageNum;
-function main(target) {
+function main(target, isPreview) {
     return __awaiter(this, void 0, void 0, function () {
-        var _a, _b, _c, _d, pageNum, _e, _f, _g, _h, err_1;
+        var _a, _b, _c, _d, pageNum, _e, _f, _g, _h, err_2;
         return __generator(this, function (_j) {
             switch (_j.label) {
                 case 0:
@@ -194,14 +209,14 @@ function main(target) {
                     return [3 /*break*/, 8];
                 case 6:
                     _h = (_g = console).log;
-                    return [4 /*yield*/, renderPageById(parseInt(target))];
+                    return [4 /*yield*/, renderPageById(parseInt(target), isPreview)];
                 case 7:
                     _h.apply(_g, [_j.sent()]);
                     _j.label = 8;
                 case 8: return [3 /*break*/, 11];
                 case 9:
-                    err_1 = _j.sent();
-                    console.error(err_1);
+                    err_2 = _j.sent();
+                    console.error(err_2);
                     return [3 /*break*/, 11];
                 case 10:
                     wpdb.end();
@@ -212,5 +227,5 @@ function main(target) {
     });
 }
 if (require.main == module)
-    main(process.argv[2]);
+    main(process.argv[2], process.argv[3] === "preview");
 //# sourceMappingURL=renderPage.js.map
