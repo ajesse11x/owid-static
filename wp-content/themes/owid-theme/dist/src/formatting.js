@@ -62,6 +62,17 @@ function formatPost(post, grapherExports) {
             switch (_d.label) {
                 case 0:
                     html = post.content;
+                    // Strip comments
+                    html = html.replace(/<!--[^>]+-->/g, function (substring) {
+                        var args = [];
+                        for (var _i = 1; _i < arguments.length; _i++) {
+                            args[_i - 1] = arguments[_i];
+                        }
+                        if (substring.match(/raw/))
+                            return substring;
+                        else
+                            return "";
+                    });
                     // Standardize spacing
                     html = html.replace(/\r\n/g, "\n").replace(/(\n\s*)(\n\s*)/g, "\n\n");
                     footnotes = [];
