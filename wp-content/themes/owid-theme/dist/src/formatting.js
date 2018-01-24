@@ -45,6 +45,14 @@ var settings_1 = require("./settings");
 var wpdb_1 = require("./wpdb");
 var Tablepress_1 = require("./views/Tablepress");
 var path = require("path");
+//const compiler = require('markdown-to-jsx').compiler
+var MarkdownIt = require('markdown-it');
+var md = new MarkdownIt({ html: true, linkify: true });
+function parseMarkdown(content) {
+    //return compiler(content).props.children||[]
+    return md.render(content);
+}
+exports.parseMarkdown = parseMarkdown;
 function romanize(num) {
     if (!+num)
         return "";
@@ -55,7 +63,7 @@ function romanize(num) {
         roman = (key[+digits.pop() + (i * 10)] || "") + roman;
     return Array(+digits.join("") + 1).join("M") + roman;
 }
-function formatPostWordpress(post, html, grapherExports) {
+function formatPostLegacy(post, html, grapherExports) {
     return __awaiter(this, void 0, void 0, function () {
         var footnotes, tables, $, sectionStarts, _i, sectionStarts_1, start, $start, $contents, $wrapNode, grapherIframes, _a, grapherIframes_1, el, src, chart, output, $p, _b, _c, p, $p, uploadDex, _d, _e, el, src, upload, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings;
         return __generator(this, function (_f) {
@@ -195,7 +203,149 @@ function formatPostWordpress(post, html, grapherExports) {
         });
     });
 }
-exports.formatPostWordpress = formatPostWordpress;
+exports.formatPostLegacy = formatPostLegacy;
+function formatPostMarkdown(post, html, grapherExports) {
+    return __awaiter(this, void 0, void 0, function () {
+        var footnotes, tables, $, sectionStarts, _i, sectionStarts_2, start, $start, $contents, $wrapNode, grapherIframes, _a, grapherIframes_2, el, src, chart, output, _b, _c, p, $p, uploadDex, _d, _e, el, $el, src, upload, $a, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings;
+        return __generator(this, function (_f) {
+            switch (_f.label) {
+                case 0:
+                    // Remove starting tag
+                    html = html.replace(/^<!--markdown-->/, "");
+                    footnotes = [];
+                    html = html.replace(/\[ref\]([\s\S]*?)\[\/ref\]/gm, function (_, footnote) {
+                        footnotes.push(parseMarkdown(footnote));
+                        var i = footnotes.length;
+                        return "<a id=\"ref-" + i + "\" class=\"ref\" href=\"#note-" + i + "\"><sup>" + i + "</sup></a>";
+                    });
+                    return [4 /*yield*/, wpdb_1.getTables()];
+                case 1:
+                    tables = _f.sent();
+                    html = html.replace(/\[table\s+id=(\d+)\s*\/\]/g, function (match, tableId) {
+                        var table = tables.get(tableId);
+                        if (table)
+                            return ReactDOMServer.renderToStaticMarkup(React.createElement(Tablepress_1.default, { data: table.data }));
+                        else
+                            return "UNKNOWN TABLE";
+                    });
+                    html = parseMarkdown(html);
+                    // These old things don't work with static generation, link them through to maxroser.com
+                    html = html.replace(new RegExp("/wp-content/uploads/nvd3", 'g'), "https://www.maxroser.com/owidUploads/nvd3")
+                        .replace(new RegExp("/wp-content/uploads/datamaps", 'g'), "https://www.maxroser.com/owidUploads/datamaps");
+                    $ = cheerio.load(html);
+                    sectionStarts = [$("body").children().get(0)].concat($("h2").toArray());
+                    for (_i = 0, sectionStarts_2 = sectionStarts; _i < sectionStarts_2.length; _i++) {
+                        start = sectionStarts_2[_i];
+                        $start = $(start);
+                        $contents = $start.nextUntil("h2");
+                        $wrapNode = $("<section></section>");
+                        $contents.remove();
+                        $wrapNode.append($start.clone());
+                        $wrapNode.append($contents);
+                        $start.replaceWith($wrapNode);
+                    }
+                    // Replace grapher iframes with static previews
+                    if (grapherExports) {
+                        grapherIframes = $("iframe").toArray().filter(function (el) { return (el.attribs['src'] || '').match(/\/grapher\//); });
+                        for (_a = 0, grapherIframes_2 = grapherIframes; _a < grapherIframes_2.length; _a++) {
+                            el = grapherIframes_2[_a];
+                            src = el.attribs['src'];
+                            chart = grapherExports.get(src);
+                            if (chart) {
+                                output = "<div class=\"interactive\"><a href=\"" + src + "\" target=\"_blank\"><div><img src=\"" + chart.svgUrl + "\" data-grapher-src=\"" + src + "\"/></div></a></div>";
+                                $(el).replaceWith(output);
+                            }
+                        }
+                    }
+                    // Remove any empty elements
+                    for (_b = 0, _c = $("p").toArray(); _b < _c.length; _b++) {
+                        p = _c[_b];
+                        $p = $(p);
+                        if ($p.contents().length === 0)
+                            $p.remove();
+                    }
+                    return [4 /*yield*/, wpdb_1.getUploadedImages()];
+                case 2:
+                    uploadDex = _f.sent();
+                    for (_d = 0, _e = $("img").toArray(); _d < _e.length; _d++) {
+                        el = _e[_d];
+                        $el = $(el);
+                        src = el.attribs['src'] || "";
+                        upload = uploadDex.get(path.basename(src));
+                        if (upload && upload.variants.length) {
+                            el.attribs['srcset'] = upload.variants.map(function (v) { return v.url + " " + v.width + "w"; }).join(", ");
+                            el.attribs['sizes'] = "(min-width: 800px) 50vw, 100vw";
+                            // Link through to full size image
+                            if (el.parent.tagName === "a") {
+                                el.parent.attribs['target'] = '_blank';
+                            }
+                            else {
+                                $a = $("<a href=\"" + upload.originalUrl + "\" target=\"_blank\"></a>");
+                                $el.replaceWith($a);
+                                $a.append($el);
+                            }
+                        }
+                    }
+                    hasToc = post.type === 'page' && post.slug !== 'about';
+                    openHeadingIndex = 0;
+                    openSubheadingIndex = 0;
+                    tocHeadings = [];
+                    $("h1, h2, h3, h4").each(function (_, el) {
+                        var $heading = $(el);
+                        var headingText = $heading.text();
+                        // We need both the text and the html because may contain footnote
+                        var headingHtml = $heading.html();
+                        var slug = urlSlug(headingText);
+                        // Table of contents
+                        if (hasToc) {
+                            if ($heading.is("#footnotes") && footnotes.length > 0) {
+                                tocHeadings.push({ text: headingText, slug: "footnotes", isSubheading: false });
+                            }
+                            else if (!$heading.is('h1') && !$heading.is('h4')) {
+                                // Inject numbering into the text as well
+                                if ($heading.is('h2')) {
+                                    openHeadingIndex += 1;
+                                    openSubheadingIndex = 0;
+                                }
+                                else if ($heading.is('h3')) {
+                                    openSubheadingIndex += 1;
+                                }
+                                if (openHeadingIndex > 0) {
+                                    if ($heading.is('h2')) {
+                                        headingHtml = romanize(openHeadingIndex) + '. ' + headingHtml;
+                                        $heading.html(headingHtml);
+                                        tocHeadings.push({ text: $heading.text(), slug: slug, isSubheading: false });
+                                    }
+                                    else {
+                                        headingHtml = romanize(openHeadingIndex) + '.' + openSubheadingIndex + ' ' + headingHtml;
+                                        $heading.html(headingHtml);
+                                        tocHeadings.push({ text: $heading.text(), slug: slug, isSubheading: true });
+                                    }
+                                }
+                            }
+                        }
+                        // Deep link
+                        $heading.attr('id', slug);
+                    });
+                    return [2 /*return*/, {
+                            id: post.id,
+                            type: post.type,
+                            slug: post.slug,
+                            title: post.title,
+                            date: post.date,
+                            modifiedDate: post.modifiedDate,
+                            authors: post.authors,
+                            html: $("body").html(),
+                            footnotes: footnotes,
+                            excerpt: post.excerpt || $($("p")[0]).text(),
+                            imageUrl: post.imageUrl,
+                            tocHeadings: tocHeadings
+                        }];
+            }
+        });
+    });
+}
+exports.formatPostMarkdown = formatPostMarkdown;
 function formatPost(post, grapherExports) {
     return __awaiter(this, void 0, void 0, function () {
         var html, isRaw;
@@ -226,8 +376,11 @@ function formatPost(post, grapherExports) {
                         tocHeadings: []
                     }];
             }
+            else if (html.match(/^<!--markdown-->/)) {
+                return [2 /*return*/, formatPostMarkdown(post, html, grapherExports)];
+            }
             else {
-                return [2 /*return*/, formatPostWordpress(post, html, grapherExports)];
+                return [2 /*return*/, formatPostLegacy(post, html, grapherExports)];
             }
             return [2 /*return*/];
         });
