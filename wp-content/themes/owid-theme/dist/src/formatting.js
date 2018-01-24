@@ -126,7 +126,7 @@ function formatPost(post, grapherExports) {
                             chart = grapherExports.get(src);
                             if (chart) {
                                 output = "<div class=\"interactivePreview\"><a href=\"" + src + "\" target=\"_blank\"><div><img src=\"" + chart.svgUrl + "\" data-grapher-src=\"" + src + "\"/></div></a></div>";
-                                $(el).replaceWith(output);
+                                $(el).closest('p').replaceWith(output);
                             }
                         }
                     }
