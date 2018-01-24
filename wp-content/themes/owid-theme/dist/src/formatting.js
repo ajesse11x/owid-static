@@ -64,7 +64,7 @@ function formatPostWordpress(post, html, grapherExports) {
                     // Strip comments
                     html = html.replace(/<!--[^>]+-->/g, "");
                     // Standardize spacing
-                    html = html.replace(/\r\n/g, "\n").replace(/\n+/g, "\n").replace(/\n/g, "\n\n");
+                    html = html.replace(/&nbsp;/g, "").replace(/\r\n/g, "\n").replace(/\n+/g, "\n").replace(/\n/g, "\n\n");
                     footnotes = [];
                     html = html.replace(/\[ref\]([\s\S]*?)\[\/ref\]/gm, function (_, footnote) {
                         footnotes.push(footnote);
