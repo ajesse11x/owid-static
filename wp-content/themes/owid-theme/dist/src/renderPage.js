@@ -52,6 +52,11 @@ var settings_1 = require("./settings");
 var formatting_1 = require("./formatting");
 var grapherUtil_1 = require("./grapherUtil");
 var cheerio = require("cheerio");
+// Wrap ReactDOMServer to stick the doctype on
+function renderToHtmlPage(element) {
+    return "<!doctype html>" + ReactDOMServer.renderToStaticMarkup(element);
+}
+exports.renderToHtmlPage = renderToHtmlPage;
 function renderPageById(id) {
     return __awaiter(this, void 0, void 0, function () {
         var rows, post, entries, $, grapherUrls, exportsByUrl, formatted;
@@ -78,9 +83,9 @@ function renderPageById(id) {
                 case 6:
                     formatted = _a.sent();
                     if (rows[0].post_type === 'post')
-                        return [2 /*return*/, ReactDOMServer.renderToStaticMarkup(React.createElement(BlogPostPage_1.BlogPostPage, { entries: entries, post: formatted }))];
+                        return [2 /*return*/, renderToHtmlPage(React.createElement(BlogPostPage_1.BlogPostPage, { entries: entries, post: formatted }))];
                     else
-                        return [2 /*return*/, ReactDOMServer.renderToStaticMarkup(React.createElement(ArticlePage_1.ArticlePage, { entries: entries, post: formatted }))];
+                        return [2 /*return*/, renderToHtmlPage(React.createElement(ArticlePage_1.ArticlePage, { entries: entries, post: formatted }))];
                     return [2 /*return*/];
             }
         });
@@ -108,7 +113,7 @@ function renderFrontPage() {
                     return [4 /*yield*/, wpdb.getEntriesByCategory()];
                 case 3:
                     entries = _a.sent();
-                    return [2 /*return*/, ReactDOMServer.renderToStaticMarkup(React.createElement(FrontPage_1.FrontPage, { entries: entries, posts: posts }))];
+                    return [2 /*return*/, renderToHtmlPage(React.createElement(FrontPage_1.FrontPage, { entries: entries, posts: posts }))];
             }
         });
     });
@@ -116,14 +121,8 @@ function renderFrontPage() {
 exports.renderFrontPage = renderFrontPage;
 function renderSubscribePage() {
     return __awaiter(this, void 0, void 0, function () {
-        var entries;
         return __generator(this, function (_a) {
-            switch (_a.label) {
-                case 0: return [4 /*yield*/, wpdb.getEntriesByCategory()];
-                case 1:
-                    entries = _a.sent();
-                    return [2 /*return*/, ReactDOMServer.renderToStaticMarkup(React.createElement(SubscribePage_1.default, { entries: entries }))];
-            }
+            return [2 /*return*/, renderToHtmlPage(React.createElement(SubscribePage_1.default, null))];
         });
     });
 }
@@ -159,7 +158,7 @@ function renderBlogByPageNum(pageNum) {
                     return [4 /*yield*/, wpdb.getEntriesByCategory()];
                 case 2:
                     entries = _a.sent();
-                    return [2 /*return*/, ReactDOMServer.renderToStaticMarkup(React.createElement(BlogIndexPage_1.BlogIndexPage, { entries: entries, posts: posts, pageNum: pageNum, numPages: numPages }))];
+                    return [2 /*return*/, renderToHtmlPage(React.createElement(BlogIndexPage_1.BlogIndexPage, { entries: entries, posts: posts, pageNum: pageNum, numPages: numPages }))];
             }
         });
     });
