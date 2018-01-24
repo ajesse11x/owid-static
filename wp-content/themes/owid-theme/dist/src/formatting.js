@@ -55,24 +55,14 @@ function romanize(num) {
         roman = (key[+digits.pop() + (i * 10)] || "") + roman;
     return Array(+digits.join("") + 1).join("M") + roman;
 }
-function formatPost(post, grapherExports) {
+function formatPostWordpress(post, html, grapherExports) {
     return __awaiter(this, void 0, void 0, function () {
-        var html, footnotes, tables, $, sectionStarts, _i, sectionStarts_1, start, $start, $contents, $wrapNode, grapherIframes, _a, grapherIframes_1, el, src, chart, output, $p, _b, _c, p, $p, uploadDex, _d, _e, el, src, upload, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings;
+        var footnotes, tables, $, sectionStarts, _i, sectionStarts_1, start, $start, $contents, $wrapNode, grapherIframes, _a, grapherIframes_1, el, src, chart, output, $p, _b, _c, p, $p, uploadDex, _d, _e, el, src, upload, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings;
         return __generator(this, function (_f) {
             switch (_f.label) {
                 case 0:
-                    html = post.content;
                     // Strip comments
-                    html = html.replace(/<!--[^>]+-->/g, function (substring) {
-                        var args = [];
-                        for (var _i = 1; _i < arguments.length; _i++) {
-                            args[_i - 1] = arguments[_i];
-                        }
-                        if (substring.match(/raw/))
-                            return substring;
-                        else
-                            return "";
-                    });
+                    html = html.replace(/<!--[^>]+-->/g, "");
                     // Standardize spacing
                     html = html.replace(/\r\n/g, "\n").replace(/\n+/g, "\n").replace(/\n/g, "\n\n");
                     footnotes = [];
@@ -82,16 +72,7 @@ function formatPost(post, grapherExports) {
                         return "<a id=\"ref-" + i + "\" class=\"ref\" href=\"#note-" + i + "\"><sup>" + i + "</sup></a>";
                     });
                     // Replicate wordpress formatting (thank gods there's an npm package)
-                    if (!html.match(/<!--raw-->/))
-                        html = wpautop(html);
-                    // Standardize protocols used in links
-                    if (settings_1.HTTPS_ONLY)
-                        html = html.replace(new RegExp("http://", 'g'), "https://");
-                    else
-                        html = html.replace(new RegExp("https://", 'g'), "http://");
-                    // Use relative urls wherever possible
-                    html = html.replace(new RegExp(settings_1.WORDPRESS_URL, 'g'), "")
-                        .replace(new RegExp("https?://ourworldindata.org", 'g'), "");
+                    html = wpautop(html);
                     return [4 /*yield*/, wpdb_1.getTables()];
                 case 1:
                     tables = _f.sent();
@@ -211,6 +192,44 @@ function formatPost(post, grapherExports) {
                             tocHeadings: tocHeadings
                         }];
             }
+        });
+    });
+}
+exports.formatPostWordpress = formatPostWordpress;
+function formatPost(post, grapherExports) {
+    return __awaiter(this, void 0, void 0, function () {
+        var html, isRaw;
+        return __generator(this, function (_a) {
+            html = post.content;
+            // Standardize protocols used in links
+            if (settings_1.HTTPS_ONLY)
+                html = html.replace(new RegExp("http://", 'g'), "https://");
+            else
+                html = html.replace(new RegExp("https://", 'g'), "http://");
+            // Use relative urls wherever possible
+            html = html.replace(new RegExp(settings_1.WORDPRESS_URL, 'g'), "")
+                .replace(new RegExp("https?://ourworldindata.org", 'g'), "");
+            isRaw = html.match(/<!--raw-->/);
+            if (isRaw) {
+                return [2 /*return*/, {
+                        id: post.id,
+                        type: post.type,
+                        slug: post.slug,
+                        title: post.title,
+                        date: post.date,
+                        modifiedDate: post.modifiedDate,
+                        authors: post.authors,
+                        html: html,
+                        footnotes: [],
+                        excerpt: post.excerpt || "",
+                        imageUrl: post.imageUrl,
+                        tocHeadings: []
+                    }];
+            }
+            else {
+                return [2 /*return*/, formatPostWordpress(post, html, grapherExports)];
+            }
+            return [2 /*return*/];
         });
     });
 }
