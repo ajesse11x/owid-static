@@ -47,6 +47,7 @@ var Tablepress_1 = require("./views/Tablepress");
 var path = require("path");
 //const compiler = require('markdown-to-jsx').compiler
 var MarkdownIt = require('markdown-it');
+var mjAPI = require("mathjax-node");
 var md = new MarkdownIt({ html: true, linkify: true });
 function parseMarkdown(content) {
     //return compiler(content).props.children||[]
@@ -63,27 +64,84 @@ function romanize(num) {
         roman = (key[+digits.pop() + (i * 10)] || "") + roman;
     return Array(+digits.join("") + 1).join("M") + roman;
 }
+mjAPI.config({
+    MathJax: {}
+});
+mjAPI.start();
+function extractLatex(html) {
+    var latexBlocks = [];
+    html = html.replace(/\[latex\]([\s\S]*?)\[\/latex\]/gm, function (_, latex) {
+        latexBlocks.push(latex.replace("\\[", "").replace("\\]", "").replace(/\$\$/g, ""));
+        return "[latex]";
+    });
+    return [html, latexBlocks];
+}
+function formatLatex(html, latexBlocks) {
+    return __awaiter(this, void 0, void 0, function () {
+        var compiled, _i, latexBlocks_1, latex, result, err_1, i, _a;
+        return __generator(this, function (_b) {
+            switch (_b.label) {
+                case 0:
+                    if (!latexBlocks)
+                        _a = extractLatex(html), html = _a[0], latexBlocks = _a[1];
+                    compiled = [];
+                    _i = 0, latexBlocks_1 = latexBlocks;
+                    _b.label = 1;
+                case 1:
+                    if (!(_i < latexBlocks_1.length)) return [3 /*break*/, 6];
+                    latex = latexBlocks_1[_i];
+                    _b.label = 2;
+                case 2:
+                    _b.trys.push([2, 4, , 5]);
+                    return [4 /*yield*/, mjAPI.typeset({ math: latex, format: "TeX", svg: true })];
+                case 3:
+                    result = _b.sent();
+                    compiled.push(result.svg.replace("<svg", "<svg class=\"latex\""));
+                    return [3 /*break*/, 5];
+                case 4:
+                    err_1 = _b.sent();
+                    compiled.push(latex + " (parse error: " + err_1 + ")");
+                    return [3 /*break*/, 5];
+                case 5:
+                    _i++;
+                    return [3 /*break*/, 1];
+                case 6:
+                    i = -1;
+                    return [2 /*return*/, html.replace(/\[latex\]/g, function (_) {
+                            i += 1;
+                            return compiled[i];
+                        })];
+            }
+        });
+    });
+}
 function formatPostLegacy(post, html, grapherExports) {
     return __awaiter(this, void 0, void 0, function () {
-        var footnotes, tables, $, sectionStarts, _i, sectionStarts_1, start, $start, $contents, $wrapNode, grapherIframes, _a, grapherIframes_1, el, src, chart, output, $p, _b, _c, p, $p, uploadDex, _d, _e, el, src, upload, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings;
-        return __generator(this, function (_f) {
-            switch (_f.label) {
+        var latexBlocks, footnotes, tables, $, sectionStarts, _i, sectionStarts_1, start, $start, $contents, $wrapNode, grapherIframes, _a, grapherIframes_1, el, src, chart, output, $p, _b, _c, p, $p, uploadDex, _d, _e, el, src, upload, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings, _f;
+        return __generator(this, function (_g) {
+            switch (_g.label) {
                 case 0:
                     // Strip comments
                     html = html.replace(/<!--[^>]+-->/g, "");
                     // Standardize spacing
                     html = html.replace(/&nbsp;/g, "").replace(/\r\n/g, "\n").replace(/\n+/g, "\n").replace(/\n/g, "\n\n");
+                    _f = extractLatex(html), html = _f[0], latexBlocks = _f[1];
+                    // Replicate wordpress formatting (thank gods there's an npm package)
+                    html = wpautop(html);
+                    return [4 /*yield*/, formatLatex(html, latexBlocks)
+                        // Footnotes
+                    ];
+                case 1:
+                    html = _g.sent();
                     footnotes = [];
                     html = html.replace(/\[ref\]([\s\S]*?)\[\/ref\]/gm, function (_, footnote) {
                         footnotes.push(footnote);
                         var i = footnotes.length;
                         return "<a id=\"ref-" + i + "\" class=\"ref\" href=\"#note-" + i + "\"><sup>" + i + "</sup></a>";
                     });
-                    // Replicate wordpress formatting (thank gods there's an npm package)
-                    html = wpautop(html);
                     return [4 /*yield*/, wpdb_1.getTables()];
-                case 1:
-                    tables = _f.sent();
+                case 2:
+                    tables = _g.sent();
                     html = html.replace(/\[table\s+id=(\d+)\s*\/\]/g, function (match, tableId) {
                         var table = tables.get(tableId);
                         if (table)
@@ -129,8 +187,8 @@ function formatPostLegacy(post, html, grapherExports) {
                             $p.remove();
                     }
                     return [4 /*yield*/, wpdb_1.getUploadedImages()];
-                case 2:
-                    uploadDex = _f.sent();
+                case 3:
+                    uploadDex = _g.sent();
                     for (_d = 0, _e = $("img").toArray(); _d < _e.length; _d++) {
                         el = _e[_d];
                         // Open full-size image in new tab
@@ -218,8 +276,13 @@ function formatPostMarkdown(post, html, grapherExports) {
                         var i = footnotes.length;
                         return "<a id=\"ref-" + i + "\" class=\"ref\" href=\"#note-" + i + "\"><sup>" + i + "</sup></a>";
                     });
-                    return [4 /*yield*/, wpdb_1.getTables()];
+                    return [4 /*yield*/, formatLatex(html)
+                        // Insert [table id=foo] tablepress tables
+                    ];
                 case 1:
+                    html = _f.sent();
+                    return [4 /*yield*/, wpdb_1.getTables()];
+                case 2:
                     tables = _f.sent();
                     html = html.replace(/\[table\s+id=(\d+)\s*\/\]/g, function (match, tableId) {
                         var table = tables.get(tableId);
@@ -265,7 +328,7 @@ function formatPostMarkdown(post, html, grapherExports) {
                             $p.remove();
                     }
                     return [4 /*yield*/, wpdb_1.getUploadedImages()];
-                case 2:
+                case 3:
                     uploadDex = _f.sent();
                     for (_d = 0, _e = $("img").toArray(); _d < _e.length; _d++) {
                         el = _e[_d];
