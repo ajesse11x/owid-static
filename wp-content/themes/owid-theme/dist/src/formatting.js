@@ -439,7 +439,7 @@ function formatPost(post, grapherExports) {
                         tocHeadings: []
                     }];
             }
-            else if (true || html.match(/^<!--markdown-->/)) {
+            else if (html.match(/^<!--markdown-->/)) {
                 return [2 /*return*/, formatPostMarkdown(post, html, grapherExports)];
             }
             else {
