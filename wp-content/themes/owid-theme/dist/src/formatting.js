@@ -117,22 +117,22 @@ function formatLatex(html, latexBlocks) {
 }
 function formatPostLegacy(post, html, grapherExports) {
     return __awaiter(this, void 0, void 0, function () {
-        var latexBlocks, footnotes, tables, $, sectionStarts, _i, sectionStarts_1, start, $start, $contents, $wrapNode, grapherIframes, _a, grapherIframes_1, el, src, chart, output, $p, _b, _c, p, $p, uploadDex, _d, _e, el, src, upload, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings, _f;
-        return __generator(this, function (_g) {
-            switch (_g.label) {
+        var latexBlocks, footnotes, tables, $, sectionStarts, _i, sectionStarts_1, start, $start, $contents, $wrapNode, grapherIframes, _a, grapherIframes_1, el, src, chart, output, $p, _b, _c, iframe, _d, _e, p, $p, uploadDex, _f, _g, el, src, upload, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings, _h;
+        return __generator(this, function (_j) {
+            switch (_j.label) {
                 case 0:
                     // Strip comments
                     html = html.replace(/<!--[^>]+-->/g, "");
                     // Standardize spacing
                     html = html.replace(/&nbsp;/g, "").replace(/\r\n/g, "\n").replace(/\n+/g, "\n").replace(/\n/g, "\n\n");
-                    _f = extractLatex(html), html = _f[0], latexBlocks = _f[1];
+                    _h = extractLatex(html), html = _h[0], latexBlocks = _h[1];
                     // Replicate wordpress formatting (thank gods there's an npm package)
                     html = wpautop(html);
                     return [4 /*yield*/, formatLatex(html, latexBlocks)
                         // Footnotes
                     ];
                 case 1:
-                    html = _g.sent();
+                    html = _j.sent();
                     footnotes = [];
                     html = html.replace(/\[ref\]([\s\S]*?)\[\/ref\]/gm, function (_, footnote) {
                         footnotes.push(footnote);
@@ -141,7 +141,7 @@ function formatPostLegacy(post, html, grapherExports) {
                     });
                     return [4 /*yield*/, wpdb_1.getTables()];
                 case 2:
-                    tables = _g.sent();
+                    tables = _j.sent();
                     html = html.replace(/\[table\s+id=(\d+)\s*\/\]/g, function (match, tableId) {
                         var table = tables.get(tableId);
                         if (table)
@@ -179,18 +179,25 @@ function formatPostLegacy(post, html, grapherExports) {
                             }
                         }
                     }
+                    // Any remaining iframes: ensure https embeds
+                    if (settings_1.HTTPS_ONLY) {
+                        for (_b = 0, _c = $("iframe").toArray(); _b < _c.length; _b++) {
+                            iframe = _c[_b];
+                            iframe.attribs['src'] = iframe.attribs['src'].replace("http://", "https://");
+                        }
+                    }
                     // Remove any empty elements
-                    for (_b = 0, _c = $("p").toArray(); _b < _c.length; _b++) {
-                        p = _c[_b];
+                    for (_d = 0, _e = $("p").toArray(); _d < _e.length; _d++) {
+                        p = _e[_d];
                         $p = $(p);
                         if ($p.contents().length === 0)
                             $p.remove();
                     }
                     return [4 /*yield*/, wpdb_1.getUploadedImages()];
                 case 3:
-                    uploadDex = _g.sent();
-                    for (_d = 0, _e = $("img").toArray(); _d < _e.length; _d++) {
-                        el = _e[_d];
+                    uploadDex = _j.sent();
+                    for (_f = 0, _g = $("img").toArray(); _f < _g.length; _f++) {
+                        el = _g[_f];
                         // Open full-size image in new tab
                         if (el.parent.tagName === "a") {
                             el.parent.attribs['target'] = '_blank';
@@ -264,9 +271,9 @@ function formatPostLegacy(post, html, grapherExports) {
 exports.formatPostLegacy = formatPostLegacy;
 function formatPostMarkdown(post, html, grapherExports) {
     return __awaiter(this, void 0, void 0, function () {
-        var footnotes, tables, $, sectionStarts, _i, sectionStarts_2, start, $start, $contents, $wrapNode, grapherIframes, _a, grapherIframes_2, el, src, chart, output, _b, _c, p, $p, uploadDex, _d, _e, el, $el, src, upload, $a, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings;
-        return __generator(this, function (_f) {
-            switch (_f.label) {
+        var footnotes, tables, $, sectionStarts, _i, sectionStarts_2, start, $start, $contents, $wrapNode, grapherIframes, _a, grapherIframes_2, el, src, chart, output, _b, _c, iframe, _d, _e, p, $p, uploadDex, _f, _g, el, $el, src, upload, $a, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings;
+        return __generator(this, function (_h) {
+            switch (_h.label) {
                 case 0:
                     // Remove starting tag
                     html = html.replace(/^<!--markdown-->/, "");
@@ -280,10 +287,10 @@ function formatPostMarkdown(post, html, grapherExports) {
                         // Insert [table id=foo] tablepress tables
                     ];
                 case 1:
-                    html = _f.sent();
+                    html = _h.sent();
                     return [4 /*yield*/, wpdb_1.getTables()];
                 case 2:
-                    tables = _f.sent();
+                    tables = _h.sent();
                     html = html.replace(/\[table\s+id=(\d+)\s*\/\]/g, function (match, tableId) {
                         var table = tables.get(tableId);
                         if (table)
@@ -320,18 +327,25 @@ function formatPostMarkdown(post, html, grapherExports) {
                             }
                         }
                     }
+                    // Any remaining iframes: ensure https embeds
+                    if (settings_1.HTTPS_ONLY) {
+                        for (_b = 0, _c = $("iframe").toArray(); _b < _c.length; _b++) {
+                            iframe = _c[_b];
+                            iframe.attribs['src'] = iframe.attribs['src'].replace("http://", "https://");
+                        }
+                    }
                     // Remove any empty elements
-                    for (_b = 0, _c = $("p").toArray(); _b < _c.length; _b++) {
-                        p = _c[_b];
+                    for (_d = 0, _e = $("p").toArray(); _d < _e.length; _d++) {
+                        p = _e[_d];
                         $p = $(p);
                         if ($p.contents().length === 0)
                             $p.remove();
                     }
                     return [4 /*yield*/, wpdb_1.getUploadedImages()];
                 case 3:
-                    uploadDex = _f.sent();
-                    for (_d = 0, _e = $("img").toArray(); _d < _e.length; _d++) {
-                        el = _e[_d];
+                    uploadDex = _h.sent();
+                    for (_f = 0, _g = $("img").toArray(); _f < _g.length; _f++) {
+                        el = _g[_f];
                         $el = $(el);
                         src = el.attribs['src'] || "";
                         upload = uploadDex.get(path.basename(src));
@@ -414,11 +428,6 @@ function formatPost(post, grapherExports) {
         var html, isRaw;
         return __generator(this, function (_a) {
             html = post.content;
-            // Standardize protocols used in links
-            if (settings_1.HTTPS_ONLY)
-                html = html.replace(new RegExp("http://", 'g'), "https://");
-            else
-                html = html.replace(new RegExp("https://", 'g'), "http://");
             // Use relative urls wherever possible
             html = html.replace(new RegExp(settings_1.WORDPRESS_URL, 'g'), "")
                 .replace(new RegExp("https?://ourworldindata.org", 'g'), "");
