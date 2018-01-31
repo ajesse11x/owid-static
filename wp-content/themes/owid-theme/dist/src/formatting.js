@@ -248,7 +248,7 @@ function formatPostLegacy(post, html, grapherExports) {
                             }
                         }
                         // Deep link
-                        $heading.attr('id', slug);
+                        $heading.attr('id', slug).prepend("<a class=\"deep-link\" href=\"#" + slug + "\"></a>");
                     });
                     return [2 /*return*/, {
                             id: post.id,
