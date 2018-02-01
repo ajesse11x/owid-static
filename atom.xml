@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-01-31T16:30:54.000Z</updated>
+    <updated>2018-02-01T22:10:32.000Z</updated>
     <entry>
+        <title>How many people in the world die from cancer?</title>
+    <id>https://ourworldindata.org/how-many-people-in-the-world-die-from-cancer</id>
+        <link rel="alternate" href="https://ourworldindata.org/how-many-people-in-the-world-die-from-cancer"/>
+        <published>2018-02-01T22:10:32.000Z</published>
+        <updated>2018-02-01T22:22:41.000Z</updated>
+        <author><name>Hannah Ritchie</name></author>
+        <summary>Every sixth death in the world is due to cancer, making it the second leading cause of death (second only to cardiovascular diseases).1 In 2016, 8.9 million people are estimated to have died from the various forms of cancer. The Institute for Health Metrics and Evaluation (IHME) put relatively small error margins around this global figure: the lower and upper estimates extend from 8.75 to 9.1 million.2 Progress against many other causes of deaths and demographic drivers of increasing population size, life expectancy and — particularly in higher-income countries — aging populations mean that the total number of cancer deaths continues to increase. This is a very personal topic to many: nearly everyone knows or has lost someone dear to them from this collection of diseases.</summary>
+    </entry>
+<entry>
         <title>Learning for our Millennium? The changing face of education access, quality and uptake in Ethiopia</title>
     <id>https://ourworldindata.org/education-in-ethiopia-YL</id>
         <link rel="alternate" href="https://ourworldindata.org/education-in-ethiopia-YL"/>
@@ -86,14 +95,5 @@
         <updated>2017-12-20T19:01:55.000Z</updated>
         <author><name>Hannah Ritchie</name></author>
         <summary>This blog post draws on data and research discussed in our entry on Yields and Land Use in Agriculture, and Fertilizers and Pesticides.</summary>
-    </entry>
-<entry>
-        <title>Working women: Key facts and trends in female labor force participation</title>
-    <id>https://ourworldindata.org/female-labor-force-participation-key-facts</id>
-        <link rel="alternate" href="https://ourworldindata.org/female-labor-force-participation-key-facts"/>
-        <published>2017-10-16T21:00:41.000Z</published>
-        <updated>2017-11-03T12:42:10.000Z</updated>
-        <author><name>Esteban Ortiz-Ospina</name></author><author><name>Sandra Tzvetkova</name></author>
-        <summary>In almost every country in the world, men are more likely to participate in labor markets than women. However, these gender differences in participation rates have been narrowing substantially in recent decades. In this post we discuss how and why these changes are taking place.</summary>
     </entry>
 </feed>
