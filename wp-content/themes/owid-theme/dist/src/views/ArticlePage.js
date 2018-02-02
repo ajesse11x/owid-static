@@ -17,7 +17,7 @@ exports.ArticlePage = function (props) {
     return React.createElement("html", null,
         React.createElement(Head_1.Head, { pageTitle: pageTitle, pageDesc: pageDesc, canonicalUrl: canonicalUrl, imageUrl: post.imageUrl }),
         React.createElement("body", null,
-            React.createElement(SiteHeader_1.SiteHeader, { entries: entries }),
+            React.createElement(SiteHeader_1.SiteHeader, { entries: entries, activeSlug: post.slug }),
             React.createElement("main", null,
                 React.createElement("div", { className: "clearfix" + (post.tocHeadings.length > 0 ? " page-with-sidebar" : "") },
                     post.tocHeadings.length > 0 && React.createElement("div", { className: "entry-sidebar" },
