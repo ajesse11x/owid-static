@@ -52,7 +52,7 @@ exports.SiteHeader = function (props) {
                             React.createElement("div", { className: "submenu-title" }, category.name),
                             React.createElement("ul", null, category.entries.map(function (entry) {
                                 return React.createElement("li", null,
-                                    React.createElement("a", { className: entry.starred ? "starred" : undefined, href: "/" + entry.slug }, entry.title));
+                                    React.createElement("a", { className: entry.starred ? "starred" : undefined, title: entry.starred ? "Starred pages are our best and most complete entries." : undefined, href: "/" + entry.slug }, entry.title));
                             }))));
                 }),
                 React.createElement("li", { className: 'end-link' },
@@ -75,7 +75,7 @@ exports.SiteHeader = function (props) {
                             React.createElement("hr", null)),
                         category.entries.map(function (entry) {
                             return React.createElement("li", null,
-                                React.createElement("a", { className: entry.starred ? "starred" : undefined, href: "/" + entry.slug }, entry.title));
+                                React.createElement("a", { className: entry.starred ? "starred" : undefined, title: entry.starred ? "Starred pages are our best and most complete entries." : undefined, href: "/" + entry.slug }, entry.title));
                         })));
             }))),
         React.createElement("div", { id: "entries-nav", className: "desktop" }, mainCategory && [
@@ -84,7 +84,7 @@ exports.SiteHeader = function (props) {
             mainCategory.entries.map(function (entry) {
                 var classes = [];
                 return React.createElement("li", { className: entry === activeEntry ? "active" : undefined },
-                    React.createElement("a", { className: entry.starred ? "starred" : undefined, href: "/" + entry.slug }, entry.title));
+                    React.createElement("a", { className: entry.starred ? "starred" : undefined, title: entry.starred ? "Starred pages are our best and most complete entries." : undefined, href: "/" + entry.slug }, entry.title));
             })
         ]));
 };

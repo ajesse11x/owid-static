@@ -47,7 +47,7 @@ exports.FrontPage = function (props) {
                         React.createElement("ul", null, entries.map(function (category) { return React.createElement("li", null,
                             React.createElement("h4", { id: category.slug }, category.name),
                             React.createElement("div", { className: "link-container" }, category.entries.map(function (entry) {
-                                return React.createElement("a", { className: entry.starred ? "starred" : undefined, href: "/" + entry.slug }, entry.title);
+                                return React.createElement("a", { className: entry.starred ? "starred" : undefined, title: entry.starred ? "Starred pages are our best and most complete entries." : undefined, href: "/" + entry.slug }, entry.title);
                             }))); }))),
                     React.createElement("div", { className: "owid-data owid-presentations" },
                         React.createElement("h3", { id: "presentations" },
