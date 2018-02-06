@@ -11,6 +11,7 @@ exports.SiteFooter = function () {
             " publication about human civilization at a global scale."),
         React.createElement("nav", null,
             React.createElement("a", { href: "/about" }, "About"),
+            React.createElement("a", { href: "https://docs.google.com/forms/d/e/1FAIpQLScTaT03ggC7yo8KzRLvoCJY-5mtfuA6jOHheLLFtD5lSHkXlg/viewform" }, "Feedback"),
             React.createElement("a", { href: "/subscribe" }, "Subscribe"),
             React.createElement("a", { href: "https://twitter.com/OurWorldInData" }, "Twitter"),
             React.createElement("a", { href: "https://www.facebook.com/OurWorldinData" }, "Facebook"),
