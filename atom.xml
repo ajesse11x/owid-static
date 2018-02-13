@@ -5,17 +5,8 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-02-13T20:00:54.000Z</updated>
+    <updated>2018-02-08T16:25:37.000Z</updated>
     <entry>
-        <title>Population growth and famines</title>
-    <id>https://ourworldindata.org/population-growth-and-famines</id>
-        <link rel="alternate" href="https://ourworldindata.org/population-growth-and-famines"/>
-        <published>2018-02-13T20:00:54.000Z</published>
-        <updated>2018-02-13T20:00:54.000Z</updated>
-        <author><name>Joe Hasell</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on Famines.</summary>
-    </entry>
-<entry>
         <title>When will the world reach 'peak child'?</title>
     <id>https://ourworldindata.org/peak-child</id>
         <link rel="alternate" href="https://ourworldindata.org/peak-child"/>
@@ -95,5 +86,14 @@
         <updated>2017-10-30T21:54:39.000Z</updated>
         <author><name>Esteban Ortiz-Ospina</name></author><author><name>Nicolas Lippolis</name></author>
         <summary>As today’s developed countries grew richer, they experienced a process of ‘structural transformation’. This means they first went through a period of industrialization as the economic center of gravity shifted from agriculture to manufacturing, and then went through a period of deindustrialization, shifting the weight from manufacturing to services. In a companion blog post we discuss this pattern in more detail.</summary>
+    </entry>
+<entry>
+        <title>Measurement Matters – The decline of maternal mortality</title>
+    <id>https://ourworldindata.org/measurement-matters-the-decline-of-maternal-mortality</id>
+        <link rel="alternate" href="https://ourworldindata.org/measurement-matters-the-decline-of-maternal-mortality"/>
+        <published>2017-10-25T21:00:12.000Z</published>
+        <updated>2018-01-11T09:22:50.000Z</updated>
+        <author><name>Max Roser</name></author>
+        <summary>This short post draws on data and research discussed in our entry on Maternal Mortality.</summary>
     </entry>
 </feed>
