@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-02-19T15:10:50.000Z</updated>
+    <updated>2018-02-19T15:32:45.000Z</updated>
     <entry>
+        <title>How well do biological gender differences explain the gender pay gap?</title>
+    <id>https://ourworldindata.org/biology-pay-gap</id>
+        <link rel="alternate" href="https://ourworldindata.org/biology-pay-gap"/>
+        <published>2018-02-19T15:32:45.000Z</published>
+        <updated>2018-02-19T21:42:37.000Z</updated>
+        <author><name>Esteban Ortiz-Ospina</name></author>
+        <summary>This blog post benefitted greatly from research contributions provided by Sandra Tzvetkova.</summary>
+    </entry>
+<entry>
         <title>Why is there a gender pay gap?</title>
     <id>https://ourworldindata.org/what-drives-the-gender-pay-gap</id>
         <link rel="alternate" href="https://ourworldindata.org/what-drives-the-gender-pay-gap"/>
@@ -86,14 +95,5 @@
         <updated>2017-12-22T06:26:34.000Z</updated>
         <author><name>Max Roser</name></author><author><name>Hannah Ritchie</name></author>
         <summary>This blog post draws on data and research discussed in our entry on Energy Production & Changing Energy Sources.</summary>
-    </entry>
-<entry>
-        <title>How new vaccines can help with our antibiotic dependence</title>
-    <id>https://ourworldindata.org/vaccines-antibiotic-dependence</id>
-        <link rel="alternate" href="https://ourworldindata.org/vaccines-antibiotic-dependence"/>
-        <published>2017-11-18T20:52:06.000Z</published>
-        <updated>2018-01-25T04:11:15.000Z</updated>
-        <author><name>Samantha Vanderslott</name></author>
-        <summary>Antibiotics are antimicrobial drugs used to kill bacteria. Along with vaccines, antibiotics often top lists of the most important medical discoveries, with both interventions having a tremendous impact on illness and deaths from communicable diseases.1</summary>
     </entry>
 </feed>
