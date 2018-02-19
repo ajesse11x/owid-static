@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-02-19T15:00:12.000Z</updated>
+    <updated>2018-02-19T15:10:50.000Z</updated>
     <entry>
+        <title>Why is there a gender pay gap?</title>
+    <id>https://ourworldindata.org/what-drives-the-gender-pay-gap</id>
+        <link rel="alternate" href="https://ourworldindata.org/what-drives-the-gender-pay-gap"/>
+        <published>2018-02-19T15:10:50.000Z</published>
+        <updated>2018-02-19T21:42:07.000Z</updated>
+        <author><name>Esteban Ortiz-Ospina</name></author>
+        <summary>This blog post is closely related to a companion article where we discuss definitions and trends in the gender pay gap. It is also related to our articles exploring female labor force participation trends and determinants.</summary>
+    </entry>
+<entry>
         <title>Six key facts about the gender pay gap</title>
     <id>https://ourworldindata.org/six-facts-pay-gap</id>
         <link rel="alternate" href="https://ourworldindata.org/six-facts-pay-gap"/>
@@ -86,14 +95,5 @@
         <updated>2018-01-25T04:11:15.000Z</updated>
         <author><name>Samantha Vanderslott</name></author>
         <summary>Antibiotics are antimicrobial drugs used to kill bacteria. Along with vaccines, antibiotics often top lists of the most important medical discoveries, with both interventions having a tremendous impact on illness and deaths from communicable diseases.1</summary>
-    </entry>
-<entry>
-        <title>How do we reduce antibiotic resistance from livestock?</title>
-    <id>https://ourworldindata.org/antibiotic-resistance-from-livestock</id>
-        <link rel="alternate" href="https://ourworldindata.org/antibiotic-resistance-from-livestock"/>
-        <published>2017-11-16T12:40:37.000Z</published>
-        <updated>2017-12-05T14:51:36.000Z</updated>
-        <author><name>Hannah Ritchie</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on Meat and Seafood Production & Consumption.</summary>
     </entry>
 </feed>
