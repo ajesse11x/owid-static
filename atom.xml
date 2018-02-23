@@ -5,17 +5,8 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-02-23T21:37:25.000Z</updated>
+    <updated>2018-02-19T15:32:45.000Z</updated>
     <entry>
-        <title>Do famines 'check' population growth?</title>
-    <id>https://ourworldindata.org/do-famines-check-population-growth</id>
-        <link rel="alternate" href="https://ourworldindata.org/do-famines-check-population-growth"/>
-        <published>2018-02-23T21:37:25.000Z</published>
-        <updated>2018-02-23T21:37:25.000Z</updated>
-        <author><name>Joe Hasell</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on Famines.</summary>
-    </entry>
-<entry>
         <title>How well do biological gender differences explain the gender pay gap?</title>
     <id>https://ourworldindata.org/biology-pay-gap</id>
         <link rel="alternate" href="https://ourworldindata.org/biology-pay-gap"/>
@@ -95,5 +86,14 @@
         <updated>2017-12-19T01:28:06.000Z</updated>
         <author><name>Esteban Ortiz-Ospina</name></author>
         <summary>This blog post draws on data and research discussed in our entry on Children's Rights.</summary>
+    </entry>
+<entry>
+        <title>A sense of units and scale for electrical energy production and consumption</title>
+    <id>https://ourworldindata.org/scale-for-electricity</id>
+        <link rel="alternate" href="https://ourworldindata.org/scale-for-electricity"/>
+        <published>2017-11-22T14:50:03.000Z</published>
+        <updated>2017-12-22T06:26:34.000Z</updated>
+        <author><name>Max Roser</name></author><author><name>Hannah Ritchie</name></author>
+        <summary>This blog post draws on data and research discussed in our entry on Energy Production & Changing Energy Sources.</summary>
     </entry>
 </feed>
