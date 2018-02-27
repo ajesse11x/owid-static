@@ -117,22 +117,22 @@ function formatLatex(html, latexBlocks) {
 }
 function formatPostLegacy(post, html, grapherExports) {
     return __awaiter(this, void 0, void 0, function () {
-        var latexBlocks, footnotes, tables, $, sectionStarts, _i, sectionStarts_1, start, $start, $contents, $wrapNode, grapherIframes, _a, grapherIframes_1, el, src, chart, output, $p, _b, _c, iframe, _d, _e, p, $p, uploadDex, _f, _g, el, src, upload, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings, _h;
-        return __generator(this, function (_j) {
-            switch (_j.label) {
+        var latexBlocks, footnotes, tables, $, sectionStarts, _i, sectionStarts_1, start, $start, $contents, $wrapNode, grapherIframes, _a, grapherIframes_1, el, src, chart, output, $p, _b, _c, iframe, _d, _e, p, $p, _f, _g, table, $table, $div, uploadDex, _h, _j, el, src, upload, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings, _k;
+        return __generator(this, function (_l) {
+            switch (_l.label) {
                 case 0:
                     // Strip comments
                     html = html.replace(/<!--[^>]+-->/g, "");
                     // Standardize spacing
                     html = html.replace(/&nbsp;/g, "").replace(/\r\n/g, "\n").replace(/\n+/g, "\n").replace(/\n/g, "\n\n");
-                    _h = extractLatex(html), html = _h[0], latexBlocks = _h[1];
+                    _k = extractLatex(html), html = _k[0], latexBlocks = _k[1];
                     // Replicate wordpress formatting (thank gods there's an npm package)
                     html = wpautop(html);
                     return [4 /*yield*/, formatLatex(html, latexBlocks)
                         // Footnotes
                     ];
                 case 1:
-                    html = _j.sent();
+                    html = _l.sent();
                     footnotes = [];
                     html = html.replace(/\[ref\]([\s\S]*?)\[\/ref\]/gm, function (_, footnote) {
                         footnotes.push(footnote);
@@ -141,7 +141,7 @@ function formatPostLegacy(post, html, grapherExports) {
                     });
                     return [4 /*yield*/, wpdb_1.getTables()];
                 case 2:
-                    tables = _j.sent();
+                    tables = _l.sent();
                     html = html.replace(/\[table\s+id=(\d+)\s*\/\]/g, function (match, tableId) {
                         var table = tables.get(tableId);
                         if (table)
@@ -193,11 +193,19 @@ function formatPostLegacy(post, html, grapherExports) {
                         if ($p.contents().length === 0)
                             $p.remove();
                     }
+                    // Wrap tables so we can do overflow-x: scroll if needed
+                    for (_f = 0, _g = $("table").toArray(); _f < _g.length; _f++) {
+                        table = _g[_f];
+                        $table = $(table);
+                        $div = $("<div class='tableContainer'></div>");
+                        $table.after($div);
+                        $div.append($table);
+                    }
                     return [4 /*yield*/, wpdb_1.getUploadedImages()];
                 case 3:
-                    uploadDex = _j.sent();
-                    for (_f = 0, _g = $("img").toArray(); _f < _g.length; _f++) {
-                        el = _g[_f];
+                    uploadDex = _l.sent();
+                    for (_h = 0, _j = $("img").toArray(); _h < _j.length; _h++) {
+                        el = _j[_h];
                         // Open full-size image in new tab
                         if (el.parent.tagName === "a") {
                             el.parent.attribs['target'] = '_blank';
