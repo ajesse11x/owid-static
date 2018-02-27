@@ -7,7 +7,7 @@ exports.SiteFooter = function () {
         React.createElement("div", null,
             React.createElement("a", { href: "/", className: "logo" }, "Our World in Data"),
             " is a ",
-            React.createElement("a", { href: "https://creativecommons.org/licenses/by-sa/3.0/au/" }, "creative commons"),
+            React.createElement("a", { href: "https://creativecommons.org/licenses/by-sa/4.0/" }, "creative commons"),
             " publication about human civilization at a global scale."),
         React.createElement("nav", null,
             React.createElement("a", { href: "/about" }, "About"),
