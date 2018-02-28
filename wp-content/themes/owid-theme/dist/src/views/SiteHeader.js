@@ -28,8 +28,6 @@ exports.SiteHeader = function (props) {
                         React.createElement("input", { type: "hidden", name: "sitesearch", value: "ourworldindata.org" }),
                         React.createElement("input", { type: "search", name: "q", placeholder: "Search..." }))),
                 React.createElement("li", null,
-                    React.createElement("a", { href: "/sdgs", title: "Sustainable Development Goals" }, "SDGs")),
-                React.createElement("li", null,
                     React.createElement("a", { href: "/blog" }, "Blog")),
                 React.createElement("li", null,
                     React.createElement("a", { href: "/about" }, "About")),
@@ -57,10 +55,6 @@ exports.SiteHeader = function (props) {
                                     React.createElement("a", { className: entry.starred ? "starred" : undefined, title: entry.starred ? "Starred pages are our best and most complete entries." : undefined, href: "/" + entry.slug }, entry.title));
                             }))));
                 }),
-                React.createElement("li", { className: "end-link" },
-                    React.createElement("a", { href: "/sdgs" }, "SDGs")),
-                React.createElement("li", { className: "end-link" },
-                    React.createElement("a", { href: "/blog" }, "Blog")),
                 React.createElement("li", { className: 'end-link' },
                     React.createElement("a", { href: '/about' }, "About")),
                 React.createElement("li", { className: 'end-link' },
