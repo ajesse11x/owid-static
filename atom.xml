@@ -25,6 +25,15 @@
         <summary>This post introduces our Sustainable Development Goal (SDG) Tracker.</summary>
     </entry>
 <entry>
+        <title>How and why should we study ‘economic complexity’?</title>
+    <id>https://ourworldindata.org/how-and-why-econ-complexity</id>
+        <link rel="alternate" href="https://ourworldindata.org/how-and-why-econ-complexity"/>
+        <published>2018-02-27T00:08:57.000Z</published>
+        <updated>2018-03-06T00:46:23.000Z</updated>
+        <author><name>Esteban Ortiz-Ospina</name></author><author><name>Diana Beltekian</name></author>
+        <summary>Our World in Data presents the empirical evidence on global development in articles dedicated to specific topics. This blog post is related to our article on industrialization in developing countries.</summary>
+    </entry>
+<entry>
         <title>Measuring education: What data is available?</title>
     <id>https://ourworldindata.org/measuring-education-what-data-is-available</id>
         <link rel="alternate" href="https://ourworldindata.org/measuring-education-what-data-is-available"/>
@@ -86,14 +95,5 @@
         <updated>2018-02-08T19:46:56.000Z</updated>
         <author><name>Max Roser</name></author>
         <summary>This blog post draws on data and research discussed in our entry on Future World Population Growth.</summary>
-    </entry>
-<entry>
-        <title>How many people in the world die from cancer?</title>
-    <id>https://ourworldindata.org/how-many-people-in-the-world-die-from-cancer</id>
-        <link rel="alternate" href="https://ourworldindata.org/how-many-people-in-the-world-die-from-cancer"/>
-        <published>2018-02-01T22:10:32.000Z</published>
-        <updated>2018-02-02T04:17:53.000Z</updated>
-        <author><name>Hannah Ritchie</name></author>
-        <summary>Every sixth death in the world is due to cancer, making it the second leading cause of death (second only to cardiovascular diseases).1 In 2016, 8.9 million people are estimated to have died from the various forms of cancer. The Institute for Health Metrics and Evaluation (IHME) put relatively small error margins around this global figure: the lower and upper estimates extend from 8.75 to 9.1 million.2 Progress against many other causes of deaths and demographic drivers of increasing population size, life expectancy and — particularly in higher-income countries — aging populations mean that the total number of cancer deaths continues to increase. This is a very personal topic to many: nearly everyone knows or has lost someone dear to them from this collection of diseases.</summary>
     </entry>
 </feed>
