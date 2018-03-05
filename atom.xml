@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-02-28T19:42:11.000Z</updated>
+    <updated>2018-03-05T18:41:31.000Z</updated>
     <entry>
+        <title>Extreme poverty is falling: How is poverty changing for higher poverty lines?</title>
+    <id>https://ourworldindata.org/extreme-poverty-in-the-extreme-how-has-poverty-changed-at-higher-poverty-lines-around-the-world</id>
+        <link rel="alternate" href="https://ourworldindata.org/extreme-poverty-in-the-extreme-how-has-poverty-changed-at-higher-poverty-lines-around-the-world"/>
+        <published>2018-03-05T18:41:31.000Z</published>
+        <updated>2018-03-05T21:13:40.000Z</updated>
+        <author><name>Esteban Ortiz-Ospina</name></author><author><name>Diana Beltekian</name></author>
+        <summary>This blog post draws on data and research discussed in our entry on Global Extreme Poverty.</summary>
+    </entry>
+<entry>
         <title>Introducing the Our World in Data 'Sustainable Development Goal (SDG) Tracker'</title>
     <id>https://ourworldindata.org/sdg-tracker</id>
         <link rel="alternate" href="https://ourworldindata.org/sdg-tracker"/>
@@ -86,14 +95,5 @@
         <updated>2018-02-02T04:17:53.000Z</updated>
         <author><name>Hannah Ritchie</name></author>
         <summary>Every sixth death in the world is due to cancer, making it the second leading cause of death (second only to cardiovascular diseases).1 In 2016, 8.9 million people are estimated to have died from the various forms of cancer. The Institute for Health Metrics and Evaluation (IHME) put relatively small error margins around this global figure: the lower and upper estimates extend from 8.75 to 9.1 million.2 Progress against many other causes of deaths and demographic drivers of increasing population size, life expectancy and — particularly in higher-income countries — aging populations mean that the total number of cancer deaths continues to increase. This is a very personal topic to many: nearly everyone knows or has lost someone dear to them from this collection of diseases.</summary>
-    </entry>
-<entry>
-        <title>Learning for our Millennium? The changing face of education access, quality and uptake in Ethiopia</title>
-    <id>https://ourworldindata.org/education-in-ethiopia-YL</id>
-        <link rel="alternate" href="https://ourworldindata.org/education-in-ethiopia-YL"/>
-        <published>2018-01-31T16:30:54.000Z</published>
-        <updated>2018-02-08T16:21:23.000Z</updated>
-        <author><name>Guest Post</name></author>
-        <summary>This is a guest post by Anastasia Bow-Bertrand, Kristine Briones, and Marta Favara from the Young Lives study at the University of Oxford.</summary>
     </entry>
 </feed>
