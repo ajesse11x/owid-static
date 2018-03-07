@@ -268,7 +268,7 @@ function getFeaturedImages() {
 exports.getFeaturedImages = getFeaturedImages;
 function getFullPost(row) {
     return __awaiter(this, void 0, void 0, function () {
-        var authorship, featuredImages, permalinks;
+        var authorship, featuredImages, permalinks, postId;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0: return [4 /*yield*/, getAuthorship()];
@@ -280,6 +280,7 @@ function getFullPost(row) {
                     return [4 /*yield*/, getPermalinks()];
                 case 3:
                     permalinks = _a.sent();
+                    postId = row.post_status === "inherit" ? row.post_parent : row.ID;
                     return [2 /*return*/, {
                             id: row.ID,
                             type: row.post_type,
@@ -287,7 +288,7 @@ function getFullPost(row) {
                             title: row.post_title,
                             date: new Date(row.post_date_gmt),
                             modifiedDate: new Date(row.post_modified_gmt),
-                            authors: authorship.get(row.ID) || [],
+                            authors: authorship.get(postId) || [],
                             content: row.post_content,
                             excerpt: row.post_excerpt,
                             imageUrl: featuredImages.get(row.ID)
