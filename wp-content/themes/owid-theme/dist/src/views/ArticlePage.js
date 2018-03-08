@@ -37,7 +37,7 @@ exports.ArticlePage = function (props) {
                                 React.createElement("a", { className: "citation-note js-only" },
                                     React.createElement("sup", null, "[cite]"))),
                             React.createElement("div", { className: "citation-guideline" },
-                                "OWID presents work for many different people and organizations. When citing this entry, please also cite the original data source. This entry can be cited as:",
+                                "Our articles and data visualizations rely on work from many different people and organizations. When citing this entry, please also cite the underlying data sources. This entry can be cited as:",
                                 React.createElement("br", null),
                                 React.createElement("br", null),
                                 authorsText,
