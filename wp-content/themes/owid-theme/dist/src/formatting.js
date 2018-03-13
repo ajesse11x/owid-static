@@ -172,7 +172,7 @@ function formatPostLegacy(post, html, grapherExports) {
                             src = el.attribs['src'];
                             chart = grapherExports.get(src);
                             if (chart) {
-                                output = "<div class=\"interactive\"><a href=\"" + src + "\" target=\"_blank\"><div><img src=\"" + chart.svgUrl + "\" data-grapher-src=\"" + src + "\"/></div></a></div>";
+                                output = "<figure data-grapher-src=\"" + src + "\" class=\"grapherPreview\"><a href=\"" + src + "\" target=\"_blank\"><div><img src=\"" + chart.svgUrl + "\"/></div></a></div>";
                                 $p = $(el).closest('p');
                                 $(el).remove();
                                 $p.after(output);
