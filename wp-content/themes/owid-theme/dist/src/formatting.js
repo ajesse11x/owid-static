@@ -279,7 +279,7 @@ function formatPostLegacy(post, html, grapherExports) {
 exports.formatPostLegacy = formatPostLegacy;
 function formatPostMarkdown(post, html, grapherExports) {
     return __awaiter(this, void 0, void 0, function () {
-        var footnotes, tables, $, sectionStarts, _i, sectionStarts_2, start, $start, $contents, $wrapNode, grapherIframes, _a, grapherIframes_2, el, src, chart, output, _b, _c, iframe, _d, _e, p, $p, uploadDex, _f, _g, el, $el, src, upload, $a, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings;
+        var footnotes, tables, $, sectionStarts, _i, sectionStarts_2, start, $start, $contents, $wrapNode, grapherIframes, _a, grapherIframes_2, el, src, chart, output, $p, _b, _c, iframe, _d, _e, p, $p, uploadDex, _f, _g, el, $el, src, upload, $a, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings;
         return __generator(this, function (_h) {
             switch (_h.label) {
                 case 0:
@@ -330,8 +330,10 @@ function formatPostMarkdown(post, html, grapherExports) {
                             src = el.attribs['src'];
                             chart = grapherExports.get(src);
                             if (chart) {
-                                output = "<div class=\"interactive\"><a href=\"" + src + "\" target=\"_blank\"><div><img src=\"" + chart.svgUrl + "\" data-grapher-src=\"" + src + "\"/></div></a></div>";
-                                $(el).replaceWith(output);
+                                output = "<figure data-grapher-src=\"" + src + "\" class=\"grapherPreview\"><a href=\"" + src + "\" target=\"_blank\"><div><img src=\"" + chart.svgUrl + "\"/></div></a></div>";
+                                $p = $(el).closest('p');
+                                $(el).remove();
+                                $p.after(output);
                             }
                         }
                     }
