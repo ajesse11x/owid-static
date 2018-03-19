@@ -5,13 +5,13 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-03-12T14:00:09.000Z</updated>
+    <updated>2018-03-12T10:00:09.000Z</updated>
     <entry>
         <title>What does a famine declaration declare?</title>
     <id>https://ourworldindata.org/what-does-a-famine-declaration-declare</id>
         <link rel="alternate" href="https://ourworldindata.org/what-does-a-famine-declaration-declare"/>
-        <published>2018-03-12T14:00:09.000Z</published>
-        <updated>2018-03-12T14:11:36.000Z</updated>
+        <published>2018-03-12T10:00:09.000Z</published>
+        <updated>2018-03-12T10:11:36.000Z</updated>
         <author><name>Joe Hasell</name></author>
         <summary>This blog post draws on data and research discussed in our entry on Famine.</summary>
     </entry>
@@ -19,8 +19,8 @@
         <title>Extreme poverty is falling: How is poverty changing for higher poverty lines?</title>
     <id>https://ourworldindata.org/poverty-at-higher-poverty-lines</id>
         <link rel="alternate" href="https://ourworldindata.org/poverty-at-higher-poverty-lines"/>
-        <published>2018-03-05T18:41:31.000Z</published>
-        <updated>2018-03-05T22:00:57.000Z</updated>
+        <published>2018-03-05T13:41:31.000Z</published>
+        <updated>2018-03-05T17:00:57.000Z</updated>
         <author><name>Esteban Ortiz-Ospina</name></author><author><name>Diana Beltekian</name></author>
         <summary>This blog post draws on data and research discussed in our entry on Global Extreme Poverty.</summary>
     </entry>
@@ -28,8 +28,8 @@
         <title>Introducing the Our World in Data 'Sustainable Development Goal (SDG) Tracker'</title>
     <id>https://ourworldindata.org/sdg-tracker</id>
         <link rel="alternate" href="https://ourworldindata.org/sdg-tracker"/>
-        <published>2018-02-28T19:42:11.000Z</published>
-        <updated>2018-03-01T16:11:29.000Z</updated>
+        <published>2018-02-28T14:42:11.000Z</published>
+        <updated>2018-03-01T11:11:29.000Z</updated>
         <author><name>Max Roser</name></author><author><name>Hannah Ritchie</name></author>
         <summary>This post introduces our Sustainable Development Goal (SDG) Tracker.</summary>
     </entry>
@@ -37,8 +37,8 @@
         <title>How and why should we study ‘economic complexity’?</title>
     <id>https://ourworldindata.org/how-and-why-econ-complexity</id>
         <link rel="alternate" href="https://ourworldindata.org/how-and-why-econ-complexity"/>
-        <published>2018-02-27T00:08:57.000Z</published>
-        <updated>2018-03-06T02:21:54.000Z</updated>
+        <published>2018-02-26T19:08:57.000Z</published>
+        <updated>2018-03-05T21:21:54.000Z</updated>
         <author><name>Esteban Ortiz-Ospina</name></author><author><name>Diana Beltekian</name></author>
         <summary>Our World in Data presents the empirical evidence on global development in articles dedicated to specific topics. This blog post is related to our article on industrialization in developing countries.</summary>
     </entry>
@@ -46,8 +46,8 @@
         <title>Measuring education: What data is available?</title>
     <id>https://ourworldindata.org/measuring-education-what-data-is-available</id>
         <link rel="alternate" href="https://ourworldindata.org/measuring-education-what-data-is-available"/>
-        <published>2018-02-23T21:26:10.000Z</published>
-        <updated>2018-02-23T23:06:27.000Z</updated>
+        <published>2018-02-23T16:26:10.000Z</published>
+        <updated>2018-02-23T18:06:27.000Z</updated>
         <author><name>Max Roser</name></author>
         <summary>The idea for this document is to give an overview of the metrics that are used to monitor the educational structure of populations especially in international comparisons. As the focus is on international comparisons I have made sure to list all the metrics and datasets that are included in the World Bank's extensive EdStats data catalogue. With all the many measures on attainment and enrollment, in gross and net rates, ISCED levels, etc. etc. it can be difficult to understand what education data actually refers to. I hope this document is useful as a reference for some.</summary>
     </entry>
@@ -55,8 +55,8 @@
         <title>How well do biological gender differences explain the gender pay gap?</title>
     <id>https://ourworldindata.org/biology-pay-gap</id>
         <link rel="alternate" href="https://ourworldindata.org/biology-pay-gap"/>
-        <published>2018-02-19T15:32:45.000Z</published>
-        <updated>2018-02-26T10:51:01.000Z</updated>
+        <published>2018-02-19T10:32:45.000Z</published>
+        <updated>2018-02-26T05:51:01.000Z</updated>
         <author><name>Esteban Ortiz-Ospina</name></author>
         <summary>This blog post benefitted greatly from research contributions provided by Sandra Tzvetkova.</summary>
     </entry>
@@ -64,8 +64,8 @@
         <title>Why is there a gender pay gap?</title>
     <id>https://ourworldindata.org/what-drives-the-gender-pay-gap</id>
         <link rel="alternate" href="https://ourworldindata.org/what-drives-the-gender-pay-gap"/>
-        <published>2018-02-19T15:10:50.000Z</published>
-        <updated>2018-02-19T21:42:07.000Z</updated>
+        <published>2018-02-19T10:10:50.000Z</published>
+        <updated>2018-02-19T16:42:07.000Z</updated>
         <author><name>Esteban Ortiz-Ospina</name></author>
         <summary>This blog post is closely related to a companion article where we discuss definitions and trends in the gender pay gap. It is also related to our articles exploring female labor force participation trends and determinants.</summary>
     </entry>
@@ -73,8 +73,8 @@
         <title>Six key facts about the gender pay gap</title>
     <id>https://ourworldindata.org/six-facts-pay-gap</id>
         <link rel="alternate" href="https://ourworldindata.org/six-facts-pay-gap"/>
-        <published>2018-02-19T15:00:12.000Z</published>
-        <updated>2018-02-19T21:41:30.000Z</updated>
+        <published>2018-02-19T10:00:12.000Z</published>
+        <updated>2018-02-19T16:41:30.000Z</updated>
         <author><name>Esteban Ortiz-Ospina</name></author>
         <summary>Our World in Data presents the empirical evidence on global development in entries dedicated to specific topics. This blog post is closely related to a companion article where we discuss the drivers of the gender pay gap. It is also related to our articles exploring female labor force participation trends and determinants.</summary>
     </entry>
@@ -82,8 +82,8 @@
         <title>Is it fair to compare terrorism and disaster with other causes of death?</title>
     <id>https://ourworldindata.org/is-it-fair-to-compare-terrorism-and-disaster-with-other-causes-of-death</id>
         <link rel="alternate" href="https://ourworldindata.org/is-it-fair-to-compare-terrorism-and-disaster-with-other-causes-of-death"/>
-        <published>2018-02-14T16:51:48.000Z</published>
-        <updated>2018-02-14T17:30:26.000Z</updated>
+        <published>2018-02-14T11:51:48.000Z</published>
+        <updated>2018-02-14T12:30:26.000Z</updated>
         <author><name>Hannah Ritchie</name></author>
         <summary>This blog post draws on data and research discussed in our entries on Causes of Death, Terrorism, and Natural Catastrophes.</summary>
     </entry>
@@ -91,8 +91,8 @@
         <title>What does the world die from?</title>
     <id>https://ourworldindata.org/what-does-the-world-die-from</id>
         <link rel="alternate" href="https://ourworldindata.org/what-does-the-world-die-from"/>
-        <published>2018-02-14T16:50:47.000Z</published>
-        <updated>2018-03-16T23:35:56.000Z</updated>
+        <published>2018-02-14T11:50:47.000Z</published>
+        <updated>2018-03-16T19:35:56.000Z</updated>
         <author><name>Hannah Ritchie</name></author>
         <summary>This blog post draws on data and research discussed in our new entry on Causes of Death.</summary>
     </entry>
