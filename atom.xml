@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-03-22T15:06:35.000Z</updated>
+    <updated>2018-03-26T09:08:33.000Z</updated>
     <entry>
+        <title>The missing economic measure: Wealth</title>
+    <id>https://ourworldindata.org/the-missing-economic-measure-wealth</id>
+        <link rel="alternate" href="https://ourworldindata.org/the-missing-economic-measure-wealth"/>
+        <published>2018-03-26T09:08:33.000Z</published>
+        <updated>2018-03-26T15:36:19.000Z</updated>
+        <author><name>Sandra Tzvetkova</name></author><author><name>Cameron Hepburn</name></author>
+        <summary>GDP – or Gross Domestic Product – is a statistical figure so engrained in our understanding of the economy that it is often taken to be indicative of how well a country and its people are doing. But what does GDP actually tell us, and why is it increasingly seen as an incomplete and sometimes misleading measure of both economic activity and wellbeing? In this blog post, we answer this question and discuss a ‘new’, albeit historically older measure which is gaining traction as a much-needed supplement to GDP: national wealth.</summary>
+    </entry>
+<entry>
         <title>Why do far fewer people die in famines today?</title>
     <id>https://ourworldindata.org/why-do-far-fewer-people-die-in-famines-today</id>
         <link rel="alternate" href="https://ourworldindata.org/why-do-far-fewer-people-die-in-famines-today"/>
@@ -86,14 +95,5 @@
         <updated>2018-02-19T16:42:07.000Z</updated>
         <author><name>Esteban Ortiz-Ospina</name></author>
         <summary>This blog post is closely related to a companion article where we discuss definitions and trends in the gender pay gap. It is also related to our articles exploring female labor force participation trends and determinants.</summary>
-    </entry>
-<entry>
-        <title>Six key facts about the gender pay gap</title>
-    <id>https://ourworldindata.org/six-facts-pay-gap</id>
-        <link rel="alternate" href="https://ourworldindata.org/six-facts-pay-gap"/>
-        <published>2018-02-19T10:00:12.000Z</published>
-        <updated>2018-02-19T16:41:30.000Z</updated>
-        <author><name>Esteban Ortiz-Ospina</name></author>
-        <summary>Our World in Data presents the empirical evidence on global development in entries dedicated to specific topics. This blog post is closely related to a companion article where we discuss the drivers of the gender pay gap. It is also related to our articles exploring female labor force participation trends and determinants.</summary>
     </entry>
 </feed>
