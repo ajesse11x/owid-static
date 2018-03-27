@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-03-25 17:02:23+0000\n"
+"PO-Revision-Date: 2018-03-26 07:23:31+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -4607,13 +4607,13 @@ msgstr "Verwalten von <a href=\"%1$s\">Widgets</a> oder <a href=\"%2$s\">Menüs<
 msgid "Don&#8217;t forget to click &#8220;Save Changes&#8221; when you&#8217;re done!"
 msgstr "Vergiss nicht, auf &#8222;Änderungen speichern&#8220; zu klicken, wenn du fertig bist!"
 
-#: wp-admin/edit-tags.php:250
-msgid "<strong>Parent</strong> &mdash; Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have child categories for Bebop and Big Band. Totally optional. To create a subcategory, just choose another category from the Parent dropdown."
-msgstr "<strong>Eltern</strong> &mdash; Das sind übergeordnete Kategorien, die im Gegensatz zu Schlagwörtern hierarchisch angeordnet werden können. Du kannst zum Beispiel eine Kategorie Jazz anlegen sowie die Kategorien Bebop und Big Band. Wie du willst. Da die beiden letzteren Verfeinerungen der Kategorie Jazz darstellen, wähle für beide die Kategorie Jazz als übergeordnete Kategorie aus dem Dropdown-Menü."
-
 #: wp-admin/widgets.php:71
 msgid "When changing themes, there is often some variation in the number and setup of widget areas/sidebars and sometimes these conflicts make the transition a bit less smooth. If you changed themes and seem to be missing widgets, scroll down on this screen to the Inactive Widgets area, where all of your widgets and their settings will have been saved."
 msgstr "Wenn du Themes wechselst, gibt es häufig Unterschiede in der Anzahl und Benennung der Widgetbereiche. Dies kann den Übergang etwas schwierig machen. Wenn du nach einem Themewechsel ein Widget vermisst, dann schaue im Bereich <strong>Inaktive Widgets</strong>, wo alle Widgets und ihre Einstellungen gespeichert sind."
+
+#: wp-admin/edit-tags.php:250
+msgid "<strong>Parent</strong> &mdash; Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have child categories for Bebop and Big Band. Totally optional. To create a subcategory, just choose another category from the Parent dropdown."
+msgstr "<strong>Eltern</strong> &mdash; Das sind übergeordnete Kategorien, die im Gegensatz zu Schlagwörtern hierarchisch angeordnet werden können. Du kannst zum Beispiel eine Kategorie Jazz anlegen sowie die Kategorien Bebop und Big Band. Wie du willst. Da die beiden letzteren Verfeinerungen der Kategorie Jazz darstellen, wähle für beide die Kategorie Jazz als übergeordnete Kategorie aus dem Dropdown-Menü."
 
 #: wp-admin/custom-background.php:90
 msgid "To use a background image, simply upload it or choose an image that has already been uploaded to your Media Library by clicking the &#8220;Choose Image&#8221; button. You can display a single instance of your image, or tile it to fill the screen. You can have your background fixed in place, so your site content moves on top of it, or you can have it scroll with your site."
@@ -4780,10 +4780,6 @@ msgstr "Erlaubt Suchmaschinen, diese Website zu indexieren."
 msgid "If you want to install a plugin that you&#8217;ve downloaded elsewhere, click the Upload Plugin button above the plugins list. You will be prompted to upload the .zip package, and once uploaded, you can activate the new plugin."
 msgstr "Möchtest du ein Plugin installieren, das du irgendwo heruntergeladen hast, kannst du es hier hochladen. Im Dateidialog wählst du dann die passende zip-Datei aus und sobald diese hochgeladen wurde, kannst du das Plugin aktivieren."
 
-#: wp-admin/plugin-install.php:90
-msgid "If you know what you&#8217;re looking for, Search is your best bet. The Search screen has options to search the WordPress Plugin Directory for a particular Term, Author, or Tag. You can also search the directory by selecting popular tags. Tags in larger type mean more plugins have been labeled with that tag."
-msgstr "Wenn du weißt, wonach du suchst, dann nutze die Suchfunktion. Damit kannst du im offiziellen WordPress.org Plugin-Verzeichnis nach bestimmten Begriffen, Autoren oder (englischen) Schlagwörtern suchen. Du kannst dich auch von der Liste populärer Schlagwörter inspirieren lassen. Die Schlagwörter erscheinen umso größer, je häufiger sie vergeben wurden."
-
 #: wp-admin/includes/plugin-install.php:325
 msgid "If you have marked plugins as favorites on WordPress.org, you can browse them here."
 msgstr "Falls du (oder ein anderes Mitglied) Plugins auf WordPress.org als Favoriten markiert hast, kannst du sie hier durchsuchen."
@@ -4791,6 +4787,10 @@ msgstr "Falls du (oder ein anderes Mitglied) Plugins auf WordPress.org als Favor
 #: wp-admin/includes/plugin-install.php:329 wp-admin/theme-install.php:188
 msgid "Your WordPress.org username:"
 msgstr "Benutzername bei WordPress.org:"
+
+#: wp-admin/plugin-install.php:90
+msgid "If you know what you&#8217;re looking for, Search is your best bet. The Search screen has options to search the WordPress Plugin Directory for a particular Term, Author, or Tag. You can also search the directory by selecting popular tags. Tags in larger type mean more plugins have been labeled with that tag."
+msgstr "Wenn du weißt, wonach du suchst, dann nutze die Suchfunktion. Damit kannst du im offiziellen WordPress.org Plugin-Verzeichnis nach bestimmten Begriffen, Autoren oder (englischen) Schlagwörtern suchen. Du kannst dich auch von der Liste populärer Schlagwörter inspirieren lassen. Die Schlagwörter erscheinen umso größer, je häufiger sie vergeben wurden."
 
 #: wp-admin/includes/plugin-install.php:331 wp-admin/theme-install.php:191
 msgid "Get Favorites"
@@ -5783,7 +5783,7 @@ msgstr "Wenn gewünscht, kann WordPress diverse Dienste automatisch beim Veröff
 
 #: wp-admin/options-writing.php:29
 msgid "Post Via Email"
-msgstr "Via E-Mail schreiben"
+msgstr "Beitrag per E-Mail veröffentlichen"
 
 #: wp-admin/options-discussion.php:22
 msgid "This screen provides many options for controlling the management and display of comments and links to your posts/pages. So many, in fact, they won&#8217;t all fit here! :) Use the documentation links to get information on what each discussion setting does."
@@ -5859,10 +5859,6 @@ msgstr "In der Spalte <strong>Autor</strong> werden Daten wie der Name, E-Mail-A
 msgid "Many people take advantage of keyboard shortcuts to moderate their comments more quickly. Use the link to the side to learn more."
 msgstr "Um Kommentare schneller zu moderieren kannst du, wie viele andere Benutzer auch, Tastaturkürzel verwenden. Nutze den Link auf der Seite zur Dokumentation, um die entsprechenden Tastaturkürzel nachzuschlagen."
 
-#: wp-admin/edit-form-advanced.php:396 wp-admin/edit.php:237
-msgid "Pages are similar to posts in that they have a title, body text, and associated metadata, but they are different in that they are not part of the chronological blog stream, kind of like permanent posts. Pages are not categorized or tagged, but can have a hierarchy. You can nest pages under other pages by making one the &#8220;Parent&#8221; of the other, creating a group of pages."
-msgstr "Seiten sind Beiträgen recht ähnlich. Sie haben einen Titel, Inhalt und weitere Metadaten. Sie erscheinen jedoch nicht im chronologischen Blog-Stream und können auch nicht mit Kategorien und Schlagwörtern verknüpft werden. Dafür können Seiten hierarchisch angeordnet beziehungsweise verschachtelt werden, indem einer Seite &#8222;Eltern&#8220; verpasst werden, also eine andere Seite als übergeordnete Seite festgelegt wird."
-
 #: wp-admin/edit-comments.php:169
 msgid "You can manage comments made on your site similar to the way you manage posts and other content. This screen is customizable in the same ways as other management screens, and you can act on comments using the on-hover action links or the Bulk Actions."
 msgstr "Du kannst Kommentare auf die gleiche Art und Weise verwalten, wie du es auch mit Beiträgen tust. Diese Ansicht ist genauso anpassbar wie die anderen Bereiche und Kommentare lassen sich bei Mauszeigerkontakt durch Links zum Genehmigen, Antworten, Bearbeiten, etc. verwalten; oder mit Hilfe der diversen Möglichkeiten der Sammelaktionen."
@@ -5870,6 +5866,10 @@ msgstr "Du kannst Kommentare auf die gleiche Art und Weise verwalten, wie du es 
 #: wp-admin/edit.php:244
 msgid "You can also perform the same types of actions, including narrowing the list by using the filters, acting on a page using the action links that appear when you hover over a row, or using the Bulk Actions menu to edit the metadata for multiple pages at once."
 msgstr "Du kannst auch die gleichen Arten von Aktionen ausführen, z.B. die Liste einschränken, indem du die Filter verwendest, auf einer Seite mit den Aktionslinks arbeiten, die angezeigt werden, wenn du mit der Maus über eine Zeile fährst, oder das Sammelaktionen-Menü verwenden, um die Metadaten für mehrere Seiten gleichzeitig zu bearbeiten."
+
+#: wp-admin/edit-form-advanced.php:396 wp-admin/edit.php:237
+msgid "Pages are similar to posts in that they have a title, body text, and associated metadata, but they are different in that they are not part of the chronological blog stream, kind of like permanent posts. Pages are not categorized or tagged, but can have a hierarchy. You can nest pages under other pages by making one the &#8220;Parent&#8221; of the other, creating a group of pages."
+msgstr "Seiten sind Beiträgen recht ähnlich. Sie haben einen Titel, Inhalt und weitere Metadaten. Sie erscheinen jedoch nicht im chronologischen Blog-Stream und können auch nicht mit Kategorien und Schlagwörtern verknüpft werden. Dafür können Seiten hierarchisch angeordnet beziehungsweise verschachtelt werden, indem einer Seite &#8222;Eltern&#8220; verpasst werden, also eine andere Seite als übergeordnete Seite festgelegt wird."
 
 #: wp-admin/link-manager.php:54
 msgid "Links may be separated into Link Categories; these are different than the categories used on your posts."
@@ -6005,7 +6005,7 @@ msgstr "Konnte die Tabelle %1$s nicht optimieren. Fehler: %2$s"
 #. translators: %s: table name
 #: wp-admin/maint/repair.php:136
 msgid "Successfully optimized the %s table."
-msgstr "Tabelle %s wurde erfolgreich optimiert."
+msgstr "Die Tabelle %s wurde erfolgreich optimiert."
 
 #. translators: %s: table name
 #: wp-admin/maint/repair.php:129
@@ -6186,31 +6186,15 @@ msgstr "Rolle"
 msgid "Changed roles."
 msgstr "Rollen gewechselt."
 
-#: wp-admin/comment.php:50 wp-admin/custom-background.php:96
-#: wp-admin/custom-header.php:122 wp-admin/edit-comments.php:184
-#: wp-admin/edit-form-advanced.php:391 wp-admin/edit-form-advanced.php:406
-#: wp-admin/edit-form-advanced.php:423 wp-admin/edit-link-form.php:64
-#: wp-admin/edit-tags.php:263 wp-admin/edit.php:227 wp-admin/edit.php:248
-#: wp-admin/export.php:53 wp-admin/import.php:28 wp-admin/includes/ms.php:995
-#: wp-admin/index.php:95 wp-admin/link-manager.php:65 wp-admin/media-new.php:55
-#: wp-admin/media.php:82 wp-admin/my-sites.php:46 wp-admin/nav-menus.php:570
-#: wp-admin/options-discussion.php:27 wp-admin/options-general.php:44
-#: wp-admin/options-media.php:33 wp-admin/options-permalink.php:43
-#: wp-admin/options-reading.php:37 wp-admin/options-writing.php:44
-#: wp-admin/plugin-editor.php:134 wp-admin/plugin-install.php:97
-#: wp-admin/plugins.php:436 wp-admin/revision.php:119
-#: wp-admin/theme-editor.php:44 wp-admin/theme-install.php:119
-#: wp-admin/themes.php:117 wp-admin/tools.php:22 wp-admin/update-core.php:584
-#: wp-admin/upload.php:65 wp-admin/upload.php:211 wp-admin/user-edit.php:60
-#: wp-admin/user-new.php:219 wp-admin/users.php:66 wp-admin/widgets.php:75
-msgid "For more information:"
-msgstr "Für mehr Information:"
-
 #: wp-admin/menu.php:227 wp-admin/menu.php:229 wp-admin/user-edit.php:215
 #: wp-admin/users.php:493
 msgctxt "user"
 msgid "Add New"
 msgstr "Neu hinzufügen"
+
+#: wp-admin/menu.php:225
+msgid "All Users"
+msgstr "Alle Benutzer"
 
 #: wp-admin/edit-tag-form.php:264
 #: wp-admin/includes/class-wp-links-list-table.php:82
@@ -6229,10 +6213,6 @@ msgstr "Neu hinzufügen"
 #: wp-admin/themes.php:499 wp-admin/widgets.php:320
 msgid "Delete"
 msgstr "Löschen"
-
-#: wp-admin/menu.php:225
-msgid "All Users"
-msgstr "Alle Benutzer"
 
 #: wp-admin/includes/class-wp-media-list-table.php:673
 #: wp-admin/includes/class-wp-media-list-table.php:732
@@ -6276,6 +6256,26 @@ msgstr[1] "Verfügbare Aktualisierungen <span class=\"count\">(%s)</span>"
 #: wp-admin/users.php:510
 msgid "Search Users"
 msgstr "Benutzer suchen"
+
+#: wp-admin/comment.php:50 wp-admin/custom-background.php:96
+#: wp-admin/custom-header.php:122 wp-admin/edit-comments.php:184
+#: wp-admin/edit-form-advanced.php:391 wp-admin/edit-form-advanced.php:406
+#: wp-admin/edit-form-advanced.php:423 wp-admin/edit-link-form.php:64
+#: wp-admin/edit-tags.php:263 wp-admin/edit.php:227 wp-admin/edit.php:248
+#: wp-admin/export.php:53 wp-admin/import.php:28 wp-admin/includes/ms.php:995
+#: wp-admin/index.php:95 wp-admin/link-manager.php:65 wp-admin/media-new.php:55
+#: wp-admin/media.php:82 wp-admin/my-sites.php:46 wp-admin/nav-menus.php:570
+#: wp-admin/options-discussion.php:27 wp-admin/options-general.php:44
+#: wp-admin/options-media.php:33 wp-admin/options-permalink.php:43
+#: wp-admin/options-reading.php:37 wp-admin/options-writing.php:44
+#: wp-admin/plugin-editor.php:134 wp-admin/plugin-install.php:97
+#: wp-admin/plugins.php:436 wp-admin/revision.php:119
+#: wp-admin/theme-editor.php:44 wp-admin/theme-install.php:119
+#: wp-admin/themes.php:117 wp-admin/tools.php:22 wp-admin/update-core.php:584
+#: wp-admin/upload.php:65 wp-admin/upload.php:211 wp-admin/user-edit.php:60
+#: wp-admin/user-new.php:219 wp-admin/users.php:66 wp-admin/widgets.php:75
+msgid "For more information:"
+msgstr "Für weitere Informationen:"
 
 #: wp-admin/edit-form-advanced.php:371
 msgid "Customizing This Display"
@@ -6346,10 +6346,6 @@ msgstr ""
 "Bitte klicke auf den folgenden Link, um dein Benutzerkonto zu aktivieren:\n"
 "%%s"
 
-#: wp-admin/includes/theme.php:259
-msgid "Full Width Template"
-msgstr "Seitentemplate für volle Seitenbreite"
-
 #: wp-admin/includes/theme.php:257
 msgid "Featured Images"
 msgstr "Beitragsbilder"
@@ -6357,6 +6353,10 @@ msgstr "Beitragsbilder"
 #: wp-admin/includes/meta-boxes.php:422 wp-admin/includes/theme.php:260
 msgid "Post Formats"
 msgstr "Beitragsformate"
+
+#: wp-admin/includes/theme.php:259
+msgid "Full Width Template"
+msgstr "Vorlage mit voller Breite"
 
 #: wp-admin/includes/theme.php:256
 msgid "Featured Image Header"
@@ -6637,15 +6637,15 @@ msgid ""
 "\n"
 "As a new WordPress user, you should go to <a href=\"%s\">your dashboard</a> to delete this page and create new pages for your content. Have fun!"
 msgstr ""
-"Dies ist eine Beispiel-Seite. Sie unterscheidet sich von Beiträgen, da sie stets an der selben Stelle bleibt und (bei den meisten Themes) in der Navigation angezeigt wird. Die meisten Leute starten mit einem Impressum oder einer &#8222;Über uns&#8220;-Seite mit einer Vorstellung für mögliche Besucher der Website.  Dort könnte zum Beispiel stehen:\n"
+"Dies ist eine Beispiel-Seite. Sie unterscheidet sich von Beiträgen, da sie stets an der selben Stelle bleibt und (bei den meisten Themes) in der Navigation angezeigt wird. Die meisten Leute starten mit einem Impressum oder einer &#8222;Über uns&#8220;-Seite mit einer Vorstellung für mögliche Besucher der Website. Dort könnte zum Beispiel stehen:\n"
 "\n"
 "<blockquote>Hallo! Tagsüber arbeite ich als Fahrradkurier, nachts bin ich ein aufstrebender Schauspieler und dies hier ist meine Website. Ich lebe in Berlin, habe einen großen Hund namens Jack, mag Pi&#241;a Coladas, jedoch weniger (ohne Schirm) im Regen stehen gelassen zu werden.</blockquote>\n"
 "\n"
 "...oder sowas wie:\n"
 "\n"
-"<blockquote>Unsere Firma XYZ wurde 1971 gegründet und hat seither eine Menge hochqualitativen ABC für die Öffentlichkeit produziert. Ansässig in Gotham City, hat XYZ mittlerweile über 2,000 Mitarbeiter und entwickelt immer wieder großartige Dinge für die ganze Gotham Gemeinschaft.</blockquote>\n"
+"<blockquote>Unsere Firma XYZ wurde 1971 gegründet und hat seither eine Menge hochqualitativen ABC für die Öffentlichkeit produziert. Ansässig in Gotham City, hat XYZ mittlerweile über 2.000 Mitarbeiter und entwickelt immer wieder großartige Dinge für die ganze Gotham-Gemeinschaft.</blockquote>\n"
 "\n"
-"Als neuer WordPress-Nutzer solltest du das <a href=\"%s\">Dashboard</a> aufrufen, um diese Seite zu löschen und statt dessen eine neue Seite mit deinen eigenen Inhalten erstellen. Viel Spaß!"
+"Als neuer WordPress-Benutzer solltest du das <a href=\"%s\">Dashboard</a> aufrufen, um diese Seite zu löschen und statt dessen eine neue Seite mit deinen eigenen Inhalten erstellen. Viel Spaß!"
 
 #: wp-admin/user-edit.php:400
 msgid "Super admin privileges cannot be removed because this user has the network admin email."
@@ -6800,7 +6800,7 @@ msgstr "E-Mail-Adresse oder Benutzername"
 
 #: wp-admin/themes.php:139
 msgid "Search Installed Themes"
-msgstr "Suche installierte Themes"
+msgstr "Installierte Themes durchsuchen"
 
 #: wp-admin/update-core.php:358
 msgid "<strong>Please Note:</strong> Any customizations you have made to theme files will be lost. Please consider using <a href=\"%s\">child themes</a> for modifications."
@@ -6930,14 +6930,6 @@ msgstr "Zuschneiden und veröffentlichen"
 msgid "XFN stands for <a href=\"http://gmpg.org/xfn/\">XHTML Friends Network</a>, which is optional. WordPress allows the generation of XFN attributes to show how you are related to the authors/owners of the site to which you are linking."
 msgstr "XFN steht für <a href=\"http://gmpg.org/xfn/\">XHTML Friends Network</a> und ist eine freiwillige Angabe. WordPress erlaubt durch die Verwendung des XFN-Attributs anzugeben in welchem Verhältnis du zum Autor/Inhaber der von dir verlinkten Website stehst."
 
-#: wp-admin/includes/file.php:1696
-msgid "FTP/SSH Username"
-msgstr "FTP/SSH Benutzername"
-
-#: wp-admin/includes/file.php:1697
-msgid "FTP/SSH Password"
-msgstr "FTP/SSH Passwort"
-
 #: wp-admin/includes/file.php:1700
 msgid "FTP Username"
 msgstr "FTP-Benutzername"
@@ -6945,6 +6937,14 @@ msgstr "FTP-Benutzername"
 #: wp-admin/includes/file.php:1701
 msgid "FTP Password"
 msgstr "FTP-Passwort"
+
+#: wp-admin/includes/file.php:1696
+msgid "FTP/SSH Username"
+msgstr "FTP-/SSH-Benutzername"
+
+#: wp-admin/includes/file.php:1697
+msgid "FTP/SSH Password"
+msgstr "FTP-/SSH-Passwort"
 
 #: wp-admin/options-permalink.php:31
 msgid "When you assign multiple categories or tags to a post, only one can show up in the permalink: the lowest numbered category. This applies if your custom structure includes <code>%category%</code> or <code>%tag%</code>."
@@ -7335,7 +7335,7 @@ msgstr "Bei Mauszeigerkontakt mit einem Eintrag in der Beitragsliste werden zus�
 
 #: wp-admin/plugins.php:559
 msgid "Search Installed Plugins"
-msgstr "Installierte Plugins suchen"
+msgstr "Installierte Plugins durchsuchen"
 
 #: wp-admin/nav-menus.php:612
 msgid "Your theme supports one menu. Select which menu you would like to use."
@@ -8169,10 +8169,6 @@ msgstr "X &#8212; Keine Jugendfreigabe"
 msgid "Blank"
 msgstr "Kein Avatar"
 
-#: wp-admin/options-discussion.php:231
-msgid "Gravatar Logo"
-msgstr "Gravatar Logo"
-
 #: wp-admin/options-discussion.php:232
 msgid "Identicon (Generated)"
 msgstr "Identicon (automatisch generiert)"
@@ -8317,10 +8313,6 @@ msgstr "Formatierung"
 #: wp-admin/options-writing.php:66
 msgid "WordPress should correct invalidly nested XHTML automatically"
 msgstr "WordPress soll falsch verschachteltes XHTML automatisch korrigieren."
-
-#: wp-admin/options-writing.php:116
-msgid "Post via email"
-msgstr "Via E-Mail schreiben"
 
 #: wp-admin/options-writing.php:131
 msgid "Port"
@@ -8476,10 +8468,6 @@ msgstr "%s Abfragen"
 #: wp-admin/upgrade.php:117
 msgid "%s seconds"
 msgstr "%s Sekunden"
-
-#: wp-admin/includes/user.php:517
-msgid "Use https"
-msgstr "Benutze https"
 
 #: wp-admin/includes/user.php:518
 msgid "Always use https when visiting the admin"
@@ -8901,6 +8889,11 @@ msgstr "Du versuchst ein Element zu bearbeiten, welches nicht existiert. Möglic
 msgid "You attempted to edit an attachment that doesn&#8217;t exist. Perhaps it was deleted?"
 msgstr "Du versuchst einen Anhang zu bearbeiten, der nicht existiert. Möglicherweise wurde er gelöscht?"
 
+#. translators: 1, 2, 3: examples of random email addresses
+#: wp-admin/options-writing.php:120
+msgid "To post to WordPress by email you must set up a secret email account with POP3 access. Any mail received at this address will be posted, so it&#8217;s a good idea to keep this address very secret. Here are three random strings you could use: %1$s, %2$s, %3$s."
+msgstr "Um Beiträge in WordPress via E-Mail zu veröffentlichen, musst du ein geheimes E-Mail-Konto mit POP3-Zugang einrichten. Jede E-Mail, die an diese Adresse geschickt wird, wird auf deiner Website veröffentlicht. Halte deshalb diese Adresse strengstens geheim. Hier drei Beispiele zufälliger Zeichenketten, die du verwenden könntest: %1$s, %2$s, %3$s."
+
 #: wp-admin/options-reading.php:79
 msgid "A <a href=\"%s\">static page</a> (select below)"
 msgstr "Eine <a href=\"%s\">statische Seite</a> (unten auswählen)"
@@ -8928,11 +8921,6 @@ msgstr "<strong>FEHLER</strong>: Bitte gib eine E-Mail-Adresse ein."
 #: wp-admin/includes/theme-install.php:143
 msgid "If you have a theme in a .zip format, you may install it by uploading it here."
 msgstr "Wenn du ein Theme im .zip-Format hast, kannst du es hier hochladen und somit installieren."
-
-#. translators: 1, 2, 3: examples of random email addresses
-#: wp-admin/options-writing.php:120
-msgid "To post to WordPress by email you must set up a secret email account with POP3 access. Any mail received at this address will be posted, so it&#8217;s a good idea to keep this address very secret. Here are three random strings you could use: %1$s, %2$s, %3$s."
-msgstr "Um Beiträge in WordPress via E-Mail zu veröffentlichen, musst du ein geheimes E-Mail-Konto mit POP3-Zugang einrichten. Jede E-Mail, die an diese Adresse geschickt wird, wird auf deiner Website veröffentlicht. Halte deshalb diese Adresse strengstens geheim. Hier drei Beispiele zufälliger Zeichenketten, die du verwenden könntest: %1$s, %2$s, %3$s."
 
 #: wp-admin/includes/theme.php:252
 msgid "Custom Colors"
@@ -9058,6 +9046,10 @@ msgstr "Wenn du deine %s-Datei temporär beschreibbar machst, um die rewrite-Reg
 msgid "If you temporarily make your site&#8217;s root directory writable for us to generate the %s file automatically, do not forget to revert the permissions after the file has been created."
 msgstr "Wenn du das Stammverzeichnis deiner Website kurzfristig beschreibbar machst, um die Datei %s automatisch erstellen zu lassen, dann vergiss nicht, die Berechtigungen zurückzusetzen, nachdem die Datei angelegt wurde."
 
+#: wp-admin/options-discussion.php:160
+msgid "When a comment contains any of these words in its content, name, URL, email, or IP address, it will be held in the <a href=\"edit-comments.php?comment_status=moderated\">moderation queue</a>. One word or IP address per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
+msgstr "Wenn ein Kommentar im Inhalt, Namen, URL, E-Mail-Adresse oder der IP-Adresse eines der unten aufgeführten Wörter oder Werte enthält, dann schiebe diesen Kommentar zum Freischalten in die <a href=\"edit-comments.php?comment_status=moderated\">Warteschlange</a>. Ein Wort oder IP-Adresse pro Zeile. Wortteile werden auch berücksichtigt, also wird durch &#8222;press&#8220; auch &#8222;WordPress&#8220; gefiltert."
+
 #: wp-admin/options-discussion.php:169
 msgid "When a comment contains any of these words in its content, name, URL, email, or IP address, it will be put in the trash. One word or IP address per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
 msgstr "Wenn ein Kommentar im Inhalt, Namen, URL, E-Mail-Adresse oder der IP-Adresse eines der unten aufgeführten Wörter oder Werte enthält, dann wird er als Spam markiert. Ein Wort oder IP-Adresse pro Zeile. Wortteile werden auch berücksichtigt, also wird durch &#8222;press&#8220; auch &#8222;WordPress&#8220; gefiltert."
@@ -9077,10 +9069,6 @@ msgstr "Diese Datei existiert nicht! Überprüfe bitte die Schreibweise und vers
 #: wp-admin/includes/file.php:460 wp-admin/plugin-editor.php:105
 msgid "No such file exists! Double check the name and try again."
 msgstr "Diese Datei existiert nicht! Überprüfe bitte die Schreibweise und versuche es nochmal."
-
-#: wp-admin/options-discussion.php:160
-msgid "When a comment contains any of these words in its content, name, URL, email, or IP address, it will be held in the <a href=\"edit-comments.php?comment_status=moderated\">moderation queue</a>. One word or IP address per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
-msgstr "Wenn ein Kommentar im Inhalt, Namen, URL, E-Mail-Adresse oder der IP-Adresse eines der unten aufgeführten Wörter oder Werte enthält, dann schiebe diesen Kommentar zum Freischalten in die <a href=\"edit-comments.php?comment_status=moderated\">Warteschlange</a>. Ein Wort oder IP-Adresse pro Zeile. Wortteile werden auch berücksichtigt, also wird durch &#8222;press&#8220; auch &#8222;WordPress&#8220; gefiltert."
 
 #: wp-admin/includes/class-wp-themes-list-table.php:191
 msgid ""
@@ -9115,6 +9103,18 @@ msgstr "Kompatibilität mit WordPress %1$s: %2$d&nbsp;%% (%3$d „funktioniert�
 #: wp-admin/update-core.php:266 wp-admin/update-core.php:276
 msgid "Compatibility with WordPress %1$s: 100%% (according to its author)"
 msgstr "Kompatibilität mit WordPress %1$s: 100&nbsp;%% (laut Autor)"
+
+#: wp-admin/options-discussion.php:231
+msgid "Gravatar Logo"
+msgstr "Gravatar-Logo"
+
+#: wp-admin/includes/user.php:517
+msgid "Use https"
+msgstr "Https verwenden"
+
+#: wp-admin/options-writing.php:116
+msgid "Post via email"
+msgstr "Beitrag per E-Mail veröffentlichen"
 
 #: wp-admin/includes/class-theme-upgrader.php:70
 msgid "Theme installed successfully."
@@ -9781,14 +9781,6 @@ msgstr "Benutzername/Passwort für %s ist nicht korrekt"
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:58
 msgid "The ssh2 PHP extension is not available"
 msgstr "Die SSH2-PHP-Erweiterung ist nicht verfügbar"
-
-#: wp-admin/includes/class-wp-filesystem-ssh2.php:93
-msgid "SSH2 username is required"
-msgstr "SSH2 Benutzername (erforderlich)"
-
-#: wp-admin/includes/class-wp-filesystem-ssh2.php:102
-msgid "SSH2 password is required"
-msgstr "SSH2 Passwort (erforderlich)"
 
 #. translators: %s: command
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:200
@@ -10932,6 +10924,14 @@ msgstr "Zuletzt geändert am %1$s um %2$s&nbsp;Uhr"
 #: wp-admin/edit-form-advanced.php:654 wp-admin/includes/ajax-actions.php:2353
 msgid "Last edited by %1$s on %2$s at %3$s"
 msgstr "Zuletzt geändert von %1$s am %2$s um %3$s&nbsp;Uhr"
+
+#: wp-admin/includes/class-wp-filesystem-ssh2.php:93
+msgid "SSH2 username is required"
+msgstr "SSH2-Benutzername (erforderlich)"
+
+#: wp-admin/includes/class-wp-filesystem-ssh2.php:102
+msgid "SSH2 password is required"
+msgstr "SSH2-Passwort (erforderlich)"
 
 #: wp-admin/includes/media.php:2456 wp-admin/includes/nav-menu.php:361
 #: wp-admin/includes/nav-menu.php:649
