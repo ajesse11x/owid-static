@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-04-03T08:30:54.000Z</updated>
+    <updated>2018-04-06T10:58:39.000Z</updated>
     <entry>
+        <title>Shrink emissions, not the economy!</title>
+    <id>https://ourworldindata.org/shrink-emissions-not-the-economy</id>
+        <link rel="alternate" href="https://ourworldindata.org/shrink-emissions-not-the-economy"/>
+        <published>2018-04-06T10:58:39.000Z</published>
+        <updated>2018-04-06T11:01:57.000Z</updated>
+        <author><name>Guest Post</name></author>
+        <summary>This is a guest post by Linus Mattauch1, Alexander Radebach2, Jan Siegmeier2, and Simona Sulikova1.</summary>
+    </entry>
+<entry>
         <title>Does population growth lead to hunger and famine?</title>
     <id>https://ourworldindata.org/population-growth-and-famines</id>
         <link rel="alternate" href="https://ourworldindata.org/population-growth-and-famines"/>
@@ -86,14 +95,5 @@
         <updated>2018-03-01T11:11:29.000Z</updated>
         <author><name>Max Roser</name></author><author><name>Hannah Ritchie</name></author>
         <summary>This post introduces our Sustainable Development Goal (SDG) Tracker.</summary>
-    </entry>
-<entry>
-        <title>Measuring education: What data is available?</title>
-    <id>https://ourworldindata.org/measuring-education-what-data-is-available</id>
-        <link rel="alternate" href="https://ourworldindata.org/measuring-education-what-data-is-available"/>
-        <published>2018-02-23T16:26:10.000Z</published>
-        <updated>2018-02-23T18:06:27.000Z</updated>
-        <author><name>Max Roser</name></author>
-        <summary>The idea for this document is to give an overview of the metrics that are used to monitor the educational structure of populations especially in international comparisons. As the focus is on international comparisons I have made sure to list all the metrics and datasets that are included in the World Bank's extensive EdStats data catalogue. With all the many measures on attainment and enrollment, in gross and net rates, ISCED levels, etc. etc. it can be difficult to understand what education data actually refers to. I hope this document is useful as a reference for some.</summary>
     </entry>
 </feed>
