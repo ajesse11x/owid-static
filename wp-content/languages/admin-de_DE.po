@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-03-30 16:57:45+0000\n"
+"PO-Revision-Date: 2018-04-13 10:04:34+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -5350,10 +5350,6 @@ msgstr "Datenbank-Passwort"
 msgid "Database host"
 msgstr "Datenbank-Server"
 
-#: wp-admin/setup-config.php:197
-msgid "Database Name"
-msgstr "Datenbank Name"
-
 #: wp-admin/setup-config.php:203
 msgctxt "example username"
 msgid "username"
@@ -5410,6 +5406,10 @@ msgstr "Die Datei %1$s existiert bereits. Falls du die Konfiguration erneut vorn
 #: wp-admin/setup-config.php:71
 msgid "The file %1$s already exists one level above your WordPress installation. If you need to reset any of the configuration items in this file, please delete it first. You may try <a href=\"%2$s\">installing now</a>."
 msgstr "Die Datei %1$s existiert bereits in einem Ordner oberhalb der WordPress-Installation. Falls du die Konfiguration erneut vornehmen musst, dann lösche bitte erst die Datei und starte eine <a href=\"%2$s\">erneute Installation</a>."
+
+#: wp-admin/setup-config.php:197
+msgid "Database Name"
+msgstr "Datenbank-Name"
 
 #. translators: %s: wp-config.php
 #: wp-admin/maint/repair.php:37
