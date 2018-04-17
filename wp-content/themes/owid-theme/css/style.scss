@@ -869,7 +869,7 @@ body.single-post .site-content {
 }
 
 body.single-post article {
-	max-width: 980px;
+	max-width: 900px;
 	margin: auto;
 }
 
@@ -966,6 +966,10 @@ h1.entry-title > a:hover {
 	margin-bottom: 20px;
 	font-size: 0.7em;
 	text-align: center;
+
+	> p:last-child {
+		margin-bottom: 0;
+	}
 }
 
 main {
@@ -1047,6 +1051,11 @@ span.star, .owid-data a.starred:after {
 .article-content a,
 .article-footer a {
 	color: #0645ad;
+}
+
+.article-content a:visited ,
+.article-footer a:visited {
+	color: #0b0080;
 }
 
 .article-content a:hover,
@@ -1807,7 +1816,7 @@ hr.datasources-hr {
 /* Upscale some of the text on larger viewports */
 @media (min-width: 768px) {
 	.article-header > h1 {
-		font-size: 50px;
+		font-size: 45px;
 	}
 }
 
@@ -1818,7 +1827,7 @@ hr.datasources-hr {
 	}*/
 
 	.article-content > section > h2 {
-		font-size: 36px;
+		font-size: 32px;
 	}
 }
 
