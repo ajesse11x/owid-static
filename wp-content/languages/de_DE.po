@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-04-16 20:08:33+0000\n"
+"PO-Revision-Date: 2018-04-17 15:02:33+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -108,7 +108,7 @@ msgstr "&#8222;Weiter&#8220; klicken, um deinem neuen Menü Links hinzuzufügen.
 #. translators: %s: a list of valid video file extensions
 #: wp-includes/widgets/class-wp-widget-media-video.php:44
 msgid "Sorry, we can&#8217;t load the video at the supplied URL. Please check that the URL is for a supported video file (%s) or stream (e.g. YouTube and Vimeo)."
-msgstr "Leider kann das Video mit der angegebenen URL nicht geladen werden. Bitte prüfe, ob die URL auf eine unterstützte Videodatei (%s) oder einen Stream (z.B. YouTube oder Vimeo) verweist."
+msgstr "Leider kann das Video mit der angegebenen URL nicht geladen werden. Bitte prüfe, ob die URL auf eine unterstützte Videodatei (%s) oder einen Stream (z.&nbsp;B. YouTube oder Vimeo) verweist."
 
 #: wp-includes/script-loader.php:691
 msgctxt "post action/button label"
