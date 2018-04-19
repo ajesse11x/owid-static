@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-04-17 15:09:38+0000\n"
+"PO-Revision-Date: 2018-04-18 15:23:35+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1744,7 +1744,7 @@ msgstr "WordPress bietet die Möglichkeit, individuelle URL-Strukturen für dein
 
 #: wp-admin/options-permalink.php:29
 msgid "Permalinks can contain useful information, such as the post date, title, or other elements. You can choose from any of the suggested permalink formats, or you can craft your own if you select Custom Structure."
-msgstr "Permalinks können hilfreiche Informationen wie z. B. das Beitragsdatum, den Beitragstitel oder  weitere Eigenschaften enthalten. Du kannst eins der vorgegebenen Permalink-Formate nutzen oder erstelle eine Permalink-Struktur nach deinen Wünschen."
+msgstr "Permalinks können hilfreiche Informationen wie z.&nbsp;B. das Beitragsdatum, den Beitragstitel oder  weitere Eigenschaften enthalten. Du kannst eins der vorgegebenen Permalink-Formate nutzen oder erstelle eine Permalink-Struktur nach deinen Wünschen."
 
 #. translators: %s: wp-config.php
 #: wp-admin/setup-config.php:374
@@ -2439,7 +2439,7 @@ msgstr "<a href=\"https://codex.wordpress.org/Revision_Management\">Revisions-Ma
 
 #: wp-admin/edit-form-advanced.php:431
 msgid "You can also embed media from many popular websites including Twitter, YouTube, Flickr and others by pasting the media URL on its own line into the content of your post/page. Please refer to the Codex to <a href=\"https://codex.wordpress.org/Embeds\">learn more about embeds</a>."
-msgstr "Du kannst auch Medien von populären Websites wie z. B. Twitter, YouTube, Flickr und anderen Portalen einbinden, indem du die URL der Medien in einer einzelnen Zeile innerhalb des Textinhaltes einfügst. Bitte schau auch in den Codex, um zu <a href=\"https://codex.wordpress.org/Embeds\">lernen, wie externe Medien eingebettet werden</a>."
+msgstr "Du kannst auch Medien von populären Websites wie z.&nbsp;B. Twitter, YouTube, Flickr und anderen Portalen einbinden, indem du die URL der Medien in einer einzelnen Zeile innerhalb des Textinhaltes einfügst. Bitte schau auch in den Codex, um zu <a href=\"https://codex.wordpress.org/Embeds\">lernen, wie externe Medien eingebettet werden</a>."
 
 #: wp-admin/includes/dashboard.php:1615
 msgid "https://codex.wordpress.org/First_Steps_With_WordPress"
@@ -5660,7 +5660,7 @@ msgstr "Verfügbare Aktionen"
 
 #: wp-admin/edit.php:223
 msgid "When using Bulk Edit, you can change the metadata (categories, author, etc.) for all selected posts at once. To remove a post from the grouping, just click the x next to its name in the Bulk Edit area that appears."
-msgstr "Beim Massenbearbeiten von Beiträgen kannst du für mehrere Beiträge auf einmal z. B. die Kategoriezuordnung, Schlagwörter, Autor, Veröffentlichungsstatus und mehr verändern. Um einen Beitrag nachträglich von der Massenbearbeitung zu entfernen, klicke auf das kleine X-Symbol neben dem Titel."
+msgstr "Beim Massenbearbeiten von Beiträgen kannst du für mehrere Beiträge auf einmal z.&nbsp;B. die Kategoriezuordnung, Schlagwörter, Autor, Veröffentlichungsstatus und mehr verändern. Um einen Beitrag nachträglich von der Massenbearbeitung zu entfernen, klicke auf das kleine X-Symbol neben dem Titel."
 
 #: wp-admin/import.php:197
 msgid "If the importer you need is not listed, <a href=\"%s\">search the plugin directory</a> to see if an importer is available."
@@ -9687,7 +9687,7 @@ msgstr "Vorschau der Änderungen"
 
 #: wp-admin/includes/media.php:2588
 msgid "Link text, e.g. &#8220;Ransom Demands (PDF)&#8221;"
-msgstr "Link-Text, z. B. &#8222;Rotkäppchen II – Der Wolf schlägt zurück (PDF)&#8220;"
+msgstr "Link-Text, z.&nbsp;B. &#8222;Rotkäppchen II – Der Wolf schlägt zurück (PDF)&#8220;"
 
 #: wp-admin/includes/media.php:2619
 msgid "Link to image"
