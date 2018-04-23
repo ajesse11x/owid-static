@@ -16,6 +16,15 @@
         <summary>In recent months we have been working on a new entry on Mental Health. This entry is now available to explore.</summary>
     </entry>
 <entry>
+        <title>Long-run trends in military spending and personnel: four key facts from new data</title>
+    <id>https://ourworldindata.org/military-long-run-perspective</id>
+        <link rel="alternate" href="https://ourworldindata.org/military-long-run-perspective"/>
+        <published>2018-04-22T17:49:21.000Z</published>
+        <updated>2018-04-23T15:27:56.000Z</updated>
+        <author><name>Esteban Ortiz-Ospina</name></author>
+        <summary>This blog post draws on data and research discussed in our entry on Military Spending, and it is also closely related to our entry on Public Spending.</summary>
+    </entry>
+<entry>
         <title>We're hiring! Why I work at OWID and why you should consider joining our research team</title>
     <id>https://ourworldindata.org/health-colleague</id>
         <link rel="alternate" href="https://ourworldindata.org/health-colleague"/>
@@ -86,14 +95,5 @@
         <updated>2018-03-29T08:31:26.000Z</updated>
         <author><name>Esteban Ortiz-Ospina</name></author><author><name>Diana Beltekian</name></author>
         <summary>Our World in Data presents the empirical evidence on global development in articles dedicated to specific topics. This blog post is related to our article on industrialization in developing countries.</summary>
-    </entry>
-<entry>
-        <title>What does a famine declaration declare?</title>
-    <id>https://ourworldindata.org/what-does-a-famine-declaration-declare</id>
-        <link rel="alternate" href="https://ourworldindata.org/what-does-a-famine-declaration-declare"/>
-        <published>2018-03-12T10:00:09.000Z</published>
-        <updated>2018-03-12T10:11:36.000Z</updated>
-        <author><name>Joe Hasell</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on Famine.</summary>
     </entry>
 </feed>
