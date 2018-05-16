@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-05-16T09:20:00.000Z</updated>
+    <updated>2018-05-16T09:21:35.000Z</updated>
     <entry>
+        <title>How common is alcohol and drug dependency across the world?</title>
+    <id>https://ourworldindata.org/alcohol-and-drug-dependency</id>
+        <link rel="alternate" href="https://ourworldindata.org/alcohol-and-drug-dependency"/>
+        <published>2018-05-16T09:21:35.000Z</published>
+        <updated>2018-05-16T09:25:59.000Z</updated>
+        <author><name>Hannah Ritchie</name></author>
+        <summary>This blog post draws on data and research discussed in our entry on Substance Use and Alcohol Consumption.</summary>
+    </entry>
+<entry>
         <title>Global mental health: five key insights which emerge from the data</title>
     <id>https://ourworldindata.org/global-mental-health</id>
         <link rel="alternate" href="https://ourworldindata.org/global-mental-health"/>
@@ -14,15 +23,6 @@
         <updated>2018-05-16T09:25:19.000Z</updated>
         <author><name>Hannah Ritchie</name></author>
         <summary>This blog post draws on data and research discussed in our entries on Mental Health and Substance Use.</summary>
-    </entry>
-<entry>
-        <title>How common is alcohol and drug dependency across the world?</title>
-    <id>https://ourworldindata.org/alcohol-and-drug-dependency</id>
-        <link rel="alternate" href="https://ourworldindata.org/alcohol-and-drug-dependency"/>
-        <published>2018-04-30T14:07:35.000Z</published>
-        <updated>2018-05-16T09:10:27.000Z</updated>
-        <author><name>Hannah Ritchie</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on Substance Use and Alcohol Consumption.</summary>
     </entry>
 <entry>
         <title>How is the world doing in its fight against vaccine preventable diseases?</title>
