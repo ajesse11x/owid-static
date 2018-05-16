@@ -61,6 +61,15 @@
         <summary>This is a guest post by Linus Mattauch1, Alexander Radebach2, Jan Siegmeier2, and Simona Sulikova1.</summary>
     </entry>
 <entry>
+        <title>Global mental health: five key insights which emerge from the data</title>
+    <id>https://ourworldindata.org/global-mental-health</id>
+        <link rel="alternate" href="https://ourworldindata.org/global-mental-health"/>
+        <published>2018-04-04T12:11:00.000Z</published>
+        <updated>2018-05-16T09:10:48.000Z</updated>
+        <author><name>Hannah Ritchie</name></author>
+        <summary>This blog post draws on data and research discussed in our entries on Mental Health and Substance Use.</summary>
+    </entry>
+<entry>
         <title>Does population growth lead to hunger and famine?</title>
     <id>https://ourworldindata.org/population-growth-and-famines</id>
         <link rel="alternate" href="https://ourworldindata.org/population-growth-and-famines"/>
@@ -86,14 +95,5 @@
         <updated>2018-03-26T15:36:55.000Z</updated>
         <author><name>Sandra Tzvetkova</name></author><author><name>Cameron Hepburn</name></author>
         <summary>GDP – or Gross Domestic Product – is a statistical figure so engrained in our understanding of the economy that it is often taken to be indicative of how well a country and its people are doing. But what does GDP actually tell us, and why is it increasingly seen as an incomplete and sometimes misleading measure of both economic activity and wellbeing? In this blog post, we answer this question and discuss a ‘new’, albeit historically older measure which is gaining traction as a much-needed supplement to GDP: national wealth.</summary>
-    </entry>
-<entry>
-        <title>Why do far fewer people die in famines today?</title>
-    <id>https://ourworldindata.org/why-do-far-fewer-people-die-in-famines-today</id>
-        <link rel="alternate" href="https://ourworldindata.org/why-do-far-fewer-people-die-in-famines-today"/>
-        <published>2018-03-22T15:06:35.000Z</published>
-        <updated>2018-05-09T16:39:25.000Z</updated>
-        <author><name>Joe Hasell</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on Famines.</summary>
     </entry>
 </feed>
