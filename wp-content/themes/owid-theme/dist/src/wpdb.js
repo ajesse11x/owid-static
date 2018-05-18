@@ -42,6 +42,9 @@ var slugify = require('slugify');
 var path = require("path");
 var glob = require("glob");
 var _ = require("lodash");
+var util_1 = require("util");
+var imageSizeStandard = require("image-size");
+var imageSize = util_1.promisify(imageSizeStandard);
 var wpdb = database_1.createConnection({
     database: settings_1.WORDPRESS_DB_NAME
 });
@@ -60,17 +63,25 @@ exports.end = end;
 var cachedUploadDex;
 function getUploadedImages() {
     return __awaiter(this, void 0, void 0, function () {
-        var paths, uploadDex, _i, paths_1, filepath, filename, match, _1, dirpath, slug, dims, filetype, upload, _a, width, height;
-        return __generator(this, function (_b) {
-            if (cachedUploadDex)
-                return [2 /*return*/, cachedUploadDex];
-            paths = glob.sync(path.join(settings_1.WORDPRESS_DIR, 'wp-content/uploads/**/*'));
-            uploadDex = new Map();
-            for (_i = 0, paths_1 = paths; _i < paths_1.length; _i++) {
-                filepath = paths_1[_i];
-                filename = path.basename(filepath);
-                match = filepath.match(/(\/wp-content.*\/)([^\/]*?)-?(\d+x\d+)?\.(png|jpg|jpeg|gif)$/);
-                if (match) {
+        var paths, uploadDex, _i, paths_1, filepath, filename, match, dimensions, _1, dirpath, slug, dims, filetype, upload;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0:
+                    if (cachedUploadDex)
+                        return [2 /*return*/, cachedUploadDex];
+                    paths = glob.sync(path.join(settings_1.WORDPRESS_DIR, 'wp-content/uploads/**/*'));
+                    uploadDex = new Map();
+                    _i = 0, paths_1 = paths;
+                    _a.label = 1;
+                case 1:
+                    if (!(_i < paths_1.length)) return [3 /*break*/, 4];
+                    filepath = paths_1[_i];
+                    filename = path.basename(filepath);
+                    match = filepath.match(/(\/wp-content.*\/)([^\/]*?)-?(\d+x\d+)?\.(png|jpg|jpeg|gif)$/);
+                    if (!match) return [3 /*break*/, 3];
+                    return [4 /*yield*/, imageSize(filepath)];
+                case 2:
+                    dimensions = _a.sent();
                     _1 = match[0], dirpath = match[1], slug = match[2], dims = match[3], filetype = match[4];
                     upload = uploadDex.get(slug);
                     if (!upload) {
@@ -81,22 +92,23 @@ function getUploadedImages() {
                         };
                         uploadDex.set(slug, upload);
                     }
-                    if (dims) {
-                        _a = dims.split("x"), width = _a[0], height = _a[1];
-                        upload.variants.push({
-                            url: path.join(dirpath, filename),
-                            width: parseInt(width),
-                            height: parseInt(height)
-                        });
-                    }
+                    upload.variants.push({
+                        url: path.join(dirpath, filename),
+                        width: dimensions.width,
+                        height: dimensions.height
+                    });
                     uploadDex.set(filename, upload);
-                }
+                    _a.label = 3;
+                case 3:
+                    _i++;
+                    return [3 /*break*/, 1];
+                case 4:
+                    uploadDex.forEach(function (upload) {
+                        upload.variants = _.sortBy(upload.variants, function (v) { return v.width; });
+                    });
+                    cachedUploadDex = uploadDex;
+                    return [2 /*return*/, uploadDex];
             }
-            uploadDex.forEach(function (upload) {
-                upload.variants = _.sortBy(upload.variants, function (v) { return v.width; });
-            });
-            cachedUploadDex = uploadDex;
-            return [2 /*return*/, uploadDex];
         });
     });
 }
