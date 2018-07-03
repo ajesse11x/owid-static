@@ -214,42 +214,13 @@ function getEntriesByCategory() {
     });
 }
 exports.getEntriesByCategory = getEntriesByCategory;
-var cachedPermalinks;
-function getCustomPermalinks() {
-    return __awaiter(this, void 0, void 0, function () {
-        var rows, permalinks, _i, rows_2, row;
-        return __generator(this, function (_a) {
-            switch (_a.label) {
-                case 0:
-                    if (cachedPermalinks)
-                        return [2 /*return*/, cachedPermalinks];
-                    return [4 /*yield*/, wpdb.query("SELECT post_id, meta_value FROM wp_postmeta WHERE meta_key='custom_permalink'")];
-                case 1:
-                    rows = _a.sent();
-                    permalinks = new Map();
-                    for (_i = 0, rows_2 = rows; _i < rows_2.length; _i++) {
-                        row = rows_2[_i];
-                        permalinks.set(row.post_id, row.meta_value);
-                    }
-                    cachedPermalinks = permalinks;
-                    return [2 /*return*/, permalinks];
-            }
-        });
-    });
-}
-exports.getCustomPermalinks = getCustomPermalinks;
 function getPermalinks() {
     return __awaiter(this, void 0, void 0, function () {
-        var permalinks;
         return __generator(this, function (_a) {
-            switch (_a.label) {
-                case 0: return [4 /*yield*/, getCustomPermalinks()];
-                case 1:
-                    permalinks = _a.sent();
-                    return [2 /*return*/, {
-                            get: function (ID, post_name) { return (permalinks.get(ID) || post_name).replace(/\/$/, ""); }
-                        }];
-            }
+            return [2 /*return*/, {
+                    // Strip trailing slashes, and convert -- into / to allow custom subdirs like /about/media-coverage
+                    get: function (ID, post_name) { return post_name.replace(/\/+$/g, "").replace(/--/g, "/"); }
+                }];
         });
     });
 }
@@ -257,7 +228,7 @@ exports.getPermalinks = getPermalinks;
 var cachedFeaturedImages;
 function getFeaturedImages() {
     return __awaiter(this, void 0, void 0, function () {
-        var rows, featuredImages, _i, rows_3, row;
+        var rows, featuredImages, _i, rows_2, row;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
@@ -267,8 +238,8 @@ function getFeaturedImages() {
                 case 1:
                     rows = _a.sent();
                     featuredImages = new Map();
-                    for (_i = 0, rows_3 = rows; _i < rows_3.length; _i++) {
-                        row = rows_3[_i];
+                    for (_i = 0, rows_2 = rows; _i < rows_2.length; _i++) {
+                        row = rows_2[_i];
                         featuredImages.set(row.post_id, row.guid);
                     }
                     cachedFeaturedImages = featuredImages;
@@ -349,7 +320,7 @@ exports.getBlogIndex = getBlogIndex;
 var cachedTables;
 function getTables() {
     return __awaiter(this, void 0, void 0, function () {
-        var optRows, tableToPostIds, rows, tableContents, _i, rows_4, row, tableId, data;
+        var optRows, tableToPostIds, rows, tableContents, _i, rows_3, row, tableId, data;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
@@ -363,8 +334,8 @@ function getTables() {
                 case 2:
                     rows = _a.sent();
                     tableContents = new Map();
-                    for (_i = 0, rows_4 = rows; _i < rows_4.length; _i++) {
-                        row = rows_4[_i];
+                    for (_i = 0, rows_3 = rows; _i < rows_3.length; _i++) {
+                        row = rows_3[_i];
                         tableContents.set(row.ID, row.post_content);
                     }
                     cachedTables = new Map();
