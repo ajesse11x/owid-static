@@ -37,7 +37,7 @@ exports.SiteHeader = function (props) {
                     React.createElement("a", { href: "/support" }, "Donate"))),
             React.createElement("ul", { className: "mobile" },
                 React.createElement("li", { className: "nav-button" },
-                    React.createElement("a", { href: "/search", "data-expand": "#search-dropdown" },
+                    React.createElement("a", { href: "https://google.com/search?q=site:ourworldindata.org", "data-expand": "#search-dropdown" },
                         React.createElement("i", { className: 'fac fac-search' }))),
                 React.createElement("li", { className: "nav-button" },
                     React.createElement("a", { href: "/", "data-expand": "#topics-dropdown", className: 'mobile' },
