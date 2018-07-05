@@ -14,7 +14,7 @@
 /grapher/public/* /grapher/:splat 301
 /grapher/view/* /grapher/:splat 301
 /grapher/* https://owid-grapher.netlify.com/grapher/:splat 200
-/slidestest/* https://owid-slides.netlify.com/:splat 200
+/slidestest/* https://owid-slides.netlify.com/slides/:splat 200
 /fertility-rates/ https://ourworldindata.org/fertility-rate 301
 /inequality-between-world-citizens/ https://ourworldindata.org/global-economic-inequality 301
 /minorities-violence-racial-tolerance/ https://ourworldindata.org/treatment-of-minorities 301
