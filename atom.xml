@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-07-03T08:35:40.000Z</updated>
+    <updated>2018-07-04T17:41:31.000Z</updated>
     <entry>
+        <title>Have you used Our World in Data for teaching? You can help us!</title>
+    <id>https://ourworldindata.org/have-you-used-our-world-in-data-for-teaching-you-can-help-us</id>
+        <link rel="alternate" href="https://ourworldindata.org/have-you-used-our-world-in-data-for-teaching-you-can-help-us"/>
+        <published>2018-07-04T17:41:31.000Z</published>
+        <updated>2018-07-06T15:04:37.000Z</updated>
+        <author><name>Esteban Ortiz-Ospina</name></author>
+        <summary></summary>
+    </entry>
+<entry>
         <title>Global education: 7 slide decks with key charts on progress and challenges</title>
     <id>https://ourworldindata.org/global-education-slides</id>
         <link rel="alternate" href="https://ourworldindata.org/global-education-slides"/>
@@ -86,14 +95,5 @@
         <updated>2018-04-24T21:15:48.000Z</updated>
         <author><name>Samantha Vanderslott</name></author>
         <summary>This week – 24-30 April – is World Immunization Week. The theme of this year's World Immunization Week is collective action to protect every person in the world from "vaccine-preventable diseases" (VPDs). VPDs are 25 viral and bacterial diseases listed by the World Health Organization (WHO) that can be prevented by vaccination. </summary>
-    </entry>
-<entry>
-        <title>Mental health - new entry now online</title>
-    <id>https://ourworldindata.org/mental-health-new-entry-now-online</id>
-        <link rel="alternate" href="https://ourworldindata.org/mental-health-new-entry-now-online"/>
-        <published>2018-04-23T12:20:27.000Z</published>
-        <updated>2018-04-23T13:58:41.000Z</updated>
-        <author><name>Hannah Ritchie</name></author>
-        <summary>In recent months we have been working on a new entry on Mental Health. This entry is now available to explore.</summary>
     </entry>
 </feed>
