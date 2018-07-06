@@ -9,7 +9,10 @@
 /slides/Max_PPT_presentations/* https://www.maxroser.com/slides/Max_PPT_presentations/:splat 302
 /slides/Max_Interactive_Presentations/* https://www.maxroser.com/slides/Max_Interactive_Presentations/:splat 302
 /entries /#entries 302
-/data/food-agriculture/land-use-in-agriculture /yields-and-land-use-in-agriculture 301
+/data/food-agriculture/* /:splat 301
+/data/political-regimes/* /:splat 301
+/data/population-growth-vital-statistics/* /:splat 301
+/data/growth-and-distribution-of-prosperity/* /:splat 301
 /chart-builder/* /grapher/:splat 301
 /grapher/public/* /grapher/:splat 301
 /grapher/view/* /grapher/:splat 301
@@ -50,4 +53,3 @@
 /skill-premium-income-by-education /returns-to-education 301
 /higher-education /tertiary-education 301
 /military-long-run-perspective/ /military-long-run-spending-perspective/ 301
-/delete/ / 301
