@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-07-06 12:59:15+0000\n"
+"PO-Revision-Date: 2018-07-10 10:18:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1232,7 +1232,7 @@ msgstr "Homepage: %s"
 
 #: wp-admin/options-permalink.php:256
 msgid "Available tags:"
-msgstr "Verfügbare Schlagwörter:"
+msgstr "Verfügbare Platzhalter:"
 
 #. translators: %s: permalink structure tag
 #: wp-admin/options-permalink.php:252
@@ -3977,7 +3977,7 @@ msgstr "Willkommen"
 #. translators: %s: placeholder that must come at the start of the URL
 #: wp-admin/options-permalink.php:283
 msgid "If you like, you may enter custom structures for your category and tag URLs here. For example, using <code>topics</code> as your category base would make your category links like <code>%s/topics/uncategorized/</code>. If you leave these blank the defaults will be used."
-msgstr "Wenn du magst, kannst du hier benutzerdefinierte Permalinkstrukturen für deine Kategorien und Schlagwörter <abbr title=\"Universal Resource Locator\">URL</abbr>s anlegen. Zum Beispiel <code>thema</code> als Kategoriebasis; dies lässt die Links bspw. so aussehen <code>%s/thema/allgemein/</code>. Falls du das Feld leer lässt, werden die Standardwerte verwendet."
+msgstr "Wenn du magst, kannst du hier benutzerdefinierte Permalinkstrukturen für die <abbr title=\"Universal Resource Locator\">URL</abbr>s deiner Kategorien und Schlagwörter anlegen. Zum Beispiel lässt <code>thema</code> als deine Kategorie-Basis die Links so aussehen <code>%s/thema/allgemein/</code>. Falls du das Feld leer lässt, werden die Standardwerte verwendet."
 
 #: wp-admin/credits.php:124
 msgid "Release Lead"
