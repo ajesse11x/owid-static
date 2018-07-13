@@ -218,8 +218,8 @@ function getPermalinks() {
     return __awaiter(this, void 0, void 0, function () {
         return __generator(this, function (_a) {
             return [2 /*return*/, {
-                    // Strip trailing slashes, and convert -- into / to allow custom subdirs like /about/media-coverage
-                    get: function (ID, post_name) { return post_name.replace(/\/+$/g, "").replace(/--/g, "/"); }
+                    // Strip trailing slashes, and convert __ into / to allow custom subdirs like /about/media-coverage
+                    get: function (ID, post_name) { return post_name.replace(/\/+$/g, "").replace(/--/g, "/").replace(/__/g, "/"); }
                 }];
         });
     });
