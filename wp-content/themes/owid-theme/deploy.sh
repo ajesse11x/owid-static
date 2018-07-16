@@ -42,6 +42,6 @@ then
     cd $FINAL_TARGET
     yarn
     ./node_modules/.bin/tsc
-    #node dist/src/deployHook.js
+    node dist/src/deployHook.js
 EOF
 fi

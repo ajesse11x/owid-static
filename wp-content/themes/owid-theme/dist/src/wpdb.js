@@ -123,7 +123,7 @@ function getAuthorship() {
                 case 0:
                     if (cachedAuthorship)
                         return [2 /*return*/, cachedAuthorship];
-                    return [4 /*yield*/, wpdb.query("\n        SELECT object_id, terms.description FROM wp_term_relationships AS rels\n        LEFT JOIN wp_term_taxonomy AS terms ON terms.term_taxonomy_id=rels.term_taxonomy_id \n        WHERE terms.taxonomy='author'\n    ")];
+                    return [4 /*yield*/, wpdb.query("\n        SELECT object_id, terms.description FROM wp_term_relationships AS rels\n        LEFT JOIN wp_term_taxonomy AS terms ON terms.term_taxonomy_id=rels.term_taxonomy_id \n        WHERE terms.taxonomy='author'\n        ORDER BY rels.term_order ASC\n    ")];
                 case 1:
                     authorRows = _a.sent();
                     authorship = new Map();
