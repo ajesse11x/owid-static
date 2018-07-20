@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-07-10T10:40:42.000Z</updated>
+    <updated>2018-07-10T13:05:17.000Z</updated>
     <entry>
+        <title>Smallpox is the only human disease to be eradicated - here's how the world achieved it</title>
+    <id>https://ourworldindata.org/smallpox-is-the-only-human-disease-to-be-eradicated-heres-how-the-world-achieved-it</id>
+        <link rel="alternate" href="https://ourworldindata.org/smallpox-is-the-only-human-disease-to-be-eradicated-heres-how-the-world-achieved-it"/>
+        <published>2018-07-10T13:05:17.000Z</published>
+        <updated>2018-07-20T13:17:42.000Z</updated>
+        <author><name>Sophie Ochmann</name></author><author><name>Hannah Ritchie</name></author>
+        <summary>This blog post draws on data and research discussed in our entry on Smallpox, which we published simultaneously with this blog post and where you find much more detail on the disease, its global history, and the vaccine that ended the disease.</summary>
+    </entry>
+<entry>
         <title>The past and future of global change – Max's slides for his talk at the UN</title>
     <id>https://ourworldindata.org/max-un-slides</id>
         <link rel="alternate" href="https://ourworldindata.org/max-un-slides"/>
@@ -29,7 +38,7 @@
     <id>https://ourworldindata.org/global-education-slides</id>
         <link rel="alternate" href="https://ourworldindata.org/global-education-slides"/>
         <published>2018-07-03T08:35:40.000Z</published>
-        <updated>2018-07-03T17:13:37.000Z</updated>
+        <updated>2018-07-19T20:53:51.000Z</updated>
         <author><name>Esteban Ortiz-Ospina</name></author>
         <summary>We have made a new set of presentation slides on education. We cover many aspects – schooling, learning, teaching, governance and much more.</summary>
     </entry>
@@ -86,14 +95,5 @@
         <updated>2018-05-16T09:25:19.000Z</updated>
         <author><name>Hannah Ritchie</name></author>
         <summary>This blog post draws on data and research discussed in our entries on Mental Health and Substance Use.</summary>
-    </entry>
-<entry>
-        <title>How is the world doing in its fight against vaccine preventable diseases?</title>
-    <id>https://ourworldindata.org/vaccine-preventable-diseases</id>
-        <link rel="alternate" href="https://ourworldindata.org/vaccine-preventable-diseases"/>
-        <published>2018-04-24T11:19:24.000Z</published>
-        <updated>2018-04-24T21:15:48.000Z</updated>
-        <author><name>Samantha Vanderslott</name></author>
-        <summary>This week – 24-30 April – is World Immunization Week. The theme of this year's World Immunization Week is collective action to protect every person in the world from "vaccine-preventable diseases" (VPDs). VPDs are 25 viral and bacterial diseases listed by the World Health Organization (WHO) that can be prevented by vaccination. </summary>
     </entry>
 </feed>
