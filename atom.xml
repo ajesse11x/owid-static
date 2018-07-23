@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-07-20T13:05:17.000Z</updated>
+    <updated>2018-07-23T06:04:11.000Z</updated>
     <entry>
+        <title>Our World in Data for teaching – what we are learning from your feedback</title>
+    <id>https://ourworldindata.org/owid-for-teaching-feedback</id>
+        <link rel="alternate" href="https://ourworldindata.org/owid-for-teaching-feedback"/>
+        <published>2018-07-23T06:04:11.000Z</published>
+        <updated>2018-07-23T19:49:12.000Z</updated>
+        <author><name>Esteban Ortiz-Ospina</name></author>
+        <summary>At Our World in Data we recently opened a public survey to understand how people use our work for teaching. To date, 92 educators based at institutions across the world have taken our survey. In this short blog post we want to share with you what we've learned so far from this exercise, and what we plan to do to improve.</summary>
+    </entry>
+<entry>
         <title>Smallpox is the only human disease to be eradicated - here's how the world achieved it</title>
     <id>https://ourworldindata.org/smallpox-is-the-only-human-disease-to-be-eradicated-heres-how-the-world-achieved-it</id>
         <link rel="alternate" href="https://ourworldindata.org/smallpox-is-the-only-human-disease-to-be-eradicated-heres-how-the-world-achieved-it"/>
@@ -86,14 +95,5 @@
         <updated>2018-05-16T09:25:59.000Z</updated>
         <author><name>Hannah Ritchie</name></author>
         <summary>This blog post draws on data and research discussed in our entry on Substance Use and Alcohol Consumption.</summary>
-    </entry>
-<entry>
-        <title>Global mental health: five key insights which emerge from the data</title>
-    <id>https://ourworldindata.org/global-mental-health</id>
-        <link rel="alternate" href="https://ourworldindata.org/global-mental-health"/>
-        <published>2018-05-16T09:20:00.000Z</published>
-        <updated>2018-05-16T09:25:19.000Z</updated>
-        <author><name>Hannah Ritchie</name></author>
-        <summary>This blog post draws on data and research discussed in our entries on Mental Health and Substance Use.</summary>
     </entry>
 </feed>
