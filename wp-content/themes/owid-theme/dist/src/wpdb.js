@@ -83,14 +83,14 @@ function getUploadedImages() {
                 case 2:
                     dimensions = _a.sent();
                     _1 = match[0], dirpath = match[1], slug = match[2], dims = match[3], filetype = match[4];
-                    upload = uploadDex.get(slug);
+                    upload = uploadDex.get(dirpath + slug);
                     if (!upload) {
                         upload = {
                             slug: slug,
                             originalUrl: path.join(dirpath, slug) + "." + filetype,
                             variants: []
                         };
-                        uploadDex.set(slug, upload);
+                        uploadDex.set(dirpath + slug, upload);
                     }
                     upload.variants.push({
                         url: path.join(dirpath, filename),
