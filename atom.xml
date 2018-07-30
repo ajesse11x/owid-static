@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-07-27T06:50:18.000Z</updated>
+    <updated>2018-07-27T17:00:18.000Z</updated>
     <entry>
+        <title>Most of us are wrong about how the world has changed (especially those who are pessimistic about the future)</title>
+    <id>https://ourworldindata.org/wrong-about-the-world</id>
+        <link rel="alternate" href="https://ourworldindata.org/wrong-about-the-world"/>
+        <published>2018-07-27T17:00:18.000Z</published>
+        <updated>2018-07-30T12:42:39.000Z</updated>
+        <author><name>Max Roser</name></author>
+        <summary>At Our World in Data we aim to bring together the empirical data and research to show how living conditions around the world are changing. Is that necessary?</summary>
+    </entry>
+<entry>
         <title>Global education quality in 4 charts</title>
     <id>https://ourworldindata.org/edu-quality-key-facts</id>
         <link rel="alternate" href="https://ourworldindata.org/edu-quality-key-facts"/>
@@ -86,14 +95,5 @@
         <updated>2018-06-05T09:21:10.000Z</updated>
         <author><name>Esteban Ortiz-Ospina</name></author><author><name>Diana Beltekian</name></author>
         <summary>Our World in Data presents the empirical evidence on global development in entries dedicated to specific topics.</summary>
-    </entry>
-<entry>
-        <title>What’s happening to life expectancy in Britain?</title>
-    <id>https://ourworldindata.org/whats-happening-to-life-expectancy-in-britain</id>
-        <link rel="alternate" href="https://ourworldindata.org/whats-happening-to-life-expectancy-in-britain"/>
-        <published>2018-05-31T14:58:58.000Z</published>
-        <updated>2018-06-08T14:03:56.000Z</updated>
-        <author><name>Esteban Ortiz-Ospina</name></author><author><name>Hannah Ritchie</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on Life Expectancy.</summary>
     </entry>
 </feed>
