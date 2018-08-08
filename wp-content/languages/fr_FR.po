@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-07-30 16:09:50+0000\n"
+"PO-Revision-Date: 2018-08-06 12:21:34+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -57,7 +57,7 @@ msgstr "L’utilisateur actuel peut changer l’auteur de ce contenu."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2185
 msgid "The current user can sticky this post."
-msgstr "L’utilisateur actuel peut épingler ce contenu."
+msgstr "L’utilisateur actuel peut épingler cet article."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2168
 msgid "The current user can publish this post."
@@ -460,7 +460,7 @@ msgstr "Les miens"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:259
 msgid "Whether or not the post type can be viewed."
-msgstr "Si le type de contenu peut être vu ou pas."
+msgstr "Si le type de publication peut être vu ou pas."
 
 #: wp-includes/functions.php:2621
 msgid "The link you followed has expired."
@@ -1981,7 +1981,7 @@ msgstr "Vous devez définir un paramètre d’inclusion pour ordonner avec <em l
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:283
 msgid "All features, supported by the post type."
-msgstr "Toutes les fonctionnalités, supportées par le type de contenu."
+msgstr "Toutes les fonctionnalités, supportées par le type de publication."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:76
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:98
@@ -2181,28 +2181,28 @@ msgstr "Nécessite la valeur \"true\", car les révisions ne supportent pas la s
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:298
 msgid "REST base route for the post type."
-msgstr "Route de base REST pour le type de contenu."
+msgstr "Route de base REST pour le type de publication."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:51
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:277
 msgid "An alphanumeric identifier for the post type."
-msgstr "Un identificateur alphanumérique pour le type de contenu."
+msgstr "Un identificateur alphanumérique pour le type de publication."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:265
 msgid "Human-readable labels for the post type for various contexts."
-msgstr "Libellés lisibles par un humain pour le type de contenu dans divers contextes."
+msgstr "Libellés lisibles par un humain pour le type de publication dans divers contextes."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:253
 msgid "Whether or not the post type should have children."
-msgstr "Définir si le type de contenu doit avoir des enfants ou non."
+msgstr "Définir si le type de publication doit avoir des enfants ou non."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:247
 msgid "A human-readable description of the post type."
-msgstr "Une description du type de contenu lisible par l’humain. "
+msgstr "Une description du type de publication lisible par l’humain. "
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:241
 msgid "All capabilities used by the post type."
-msgstr "Toutes les permissions utilisées par le type de contenu."
+msgstr "Toutes les permissions utilisées par le type de publication."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:51
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:305
@@ -2306,11 +2306,11 @@ msgstr "Le type associé avec la taxonomie."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:271
 msgid "The title for the post type."
-msgstr "Le titre pour le type de contenu."
+msgstr "Le titre pour le type de publication."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:127
 msgid "Cannot view post type."
-msgstr "Impossible d’affiche le type de contenu."
+msgstr "Impossible d’afficher le type de publication."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:269
 msgid "The title for the status."
@@ -2828,7 +2828,7 @@ msgstr "Le champ de commentaire dépasse la longueur maximum autorisée."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:289
 msgid "Taxonomies associated with post type."
-msgstr "Taxinomies associées avec ce type de contenu."
+msgstr "Taxonomies associées avec ce type de publication."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2386
 msgid "Limit result set to posts with one or more specific slugs."
@@ -3031,7 +3031,7 @@ msgstr "Nécessite la valeur \"true\", car l’utilisateur ne supporte pas la su
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:347
 msgid "Limit results to taxonomies associated with a specific post type."
-msgstr "Limiter les résultats aux taxinomies associées un type de contenu spécifique."
+msgstr "Limiter les résultats aux taxonomies associées un type de publication spécifique."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:311
 msgid "Whether or not the term cloud should be displayed."
@@ -3281,7 +3281,7 @@ msgstr "Un identificateur alphanumérique pour l’utilisateur."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:299
 msgid "Whether to include posts in the edit listing for their post type."
-msgstr "Détermine s’il faut inclure les articles dans le listing de modifications pour leur type de contenu."
+msgstr "Détermine s’il faut inclure les articles dans la liste de modifications pour leur type de publication."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-statuses-controller.php:293
 msgid "Whether posts with this status should be publicly-queryable."
@@ -4545,7 +4545,7 @@ msgstr "Les routes doivent posséder un espace de noms en lien avec le nom et la
 
 #: wp-includes/post.php:1241
 msgid "Unregistering a built-in post type is not allowed"
-msgstr "Vous ne pouvez supprimer un type de contenu par défaut"
+msgstr "Vous ne pouvez supprimer un type de publication par défaut"
 
 #: wp-includes/post.php:264
 msgctxt "post status"
@@ -5151,7 +5151,7 @@ msgstr "Archives des articles"
 #: wp-includes/customize/class-wp-customize-nav-menu-item-setting.php:320
 #: wp-includes/nav-menu.php:799
 msgid "Post Type Archive"
-msgstr "Archive du type de contenus"
+msgstr "Archive du type de publication"
 
 #: wp-includes/ms-functions.php:599
 msgid "Site names can only contain lowercase letters (a-z) and numbers."
@@ -5374,7 +5374,7 @@ msgstr "Désolé, vous n’avez pas l’autorisation de modifier les options du 
 #: wp-includes/capabilities.php:83 wp-includes/capabilities.php:153
 #: wp-includes/capabilities.php:221 wp-includes/capabilities.php:258
 msgid "The post type %1$s is not registered, so it may not be reliable to check the capability \"%2$s\" against a post of that type."
-msgstr "Le type de contenu %1$s n’est pas enregistré. Il n’est donc pas possible de vérifier de manière fiable que la permission « %2$s » correspond à ce type de contenu."
+msgstr "Le type de publication %1$s n’est pas enregistré. Il n’est donc pas possible de vérifier de manière fiable que la permission « %2$s » correspond à ce type de publication."
 
 #. translators: 1: "type => link", 2: "taxonomy => link_category"
 #. translators: 1: caller_get_posts, 2: ignore_sticky_posts
@@ -6242,7 +6242,7 @@ msgstr "<strong>Impossible de trouver le site %1$s.</strong> Nous avons cherché
 
 #: wp-includes/post.php:1190 wp-includes/post.php:1191
 msgid "Post type names must be between 1 and 20 characters in length."
-msgstr "Le nom d’un type de contenu doit contenir entre 1 et 20 caractères."
+msgstr "Le nom d’un type de publication doit contenir entre 1 et 20 caractères."
 
 #. translators: revision date format, see https://secure.php.net/date
 #: wp-includes/post-template.php:1709 wp-includes/post-template.php:1745
@@ -7586,7 +7586,7 @@ msgstr "Justifier"
 
 #: wp-includes/class-wp-editor.php:1230
 msgid "Paste is now in plain text mode. Contents will now be pasted as plain text until you toggle this option off."
-msgstr "Coller est maintenant en mode texte. Les contenus seront dorénavant collés en mode texte jusqu&#8216;à ce que cette option soit annulée."
+msgstr "Coller est maintenant en mode texte. Les contenus seront dorénavant collés en mode texte jusqu’à ce que cette option soit annulée."
 
 #: wp-includes/class-wp-editor.php:1040
 msgid "Decrease indent"
@@ -8752,7 +8752,7 @@ msgstr "Les derniers articles"
 #: wp-includes/class-wp-xmlrpc-server.php:1387
 #: wp-includes/class-wp-xmlrpc-server.php:5299
 msgid "The post type may not be changed."
-msgstr "Ce type de contenu ne peut pas être supprimé."
+msgstr "Ce type de publication ne peut pas être supprimé."
 
 #: wp-includes/class-wp-xmlrpc-server.php:513
 msgid "Image default align"
@@ -8794,7 +8794,7 @@ msgstr ", "
 #: wp-includes/class-wp-xmlrpc-server.php:1490
 #: wp-includes/class-wp-xmlrpc-server.php:1514
 msgid "Sorry, one of the given taxonomies is not supported by the post type."
-msgstr "Désolé, l’une des taxinomies données n’est pas reconnue par ce type de contenu."
+msgstr "Désolé, l’une des taxinomies données n’est pas reconnue par ce type de publication."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1493
 #: wp-includes/class-wp-xmlrpc-server.php:1517
@@ -8804,7 +8804,7 @@ msgstr "Désolé, vous n’avez pas l’autorisation d’assigner un terme à l�
 #: wp-includes/class-wp-xmlrpc-server.php:1399
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1111
 msgid "Sorry, you are not allowed to create private posts in this post type."
-msgstr "Désolé, vous n’avez pas l’autorisation de créer des contenus privés avec ce type de contenu."
+msgstr "Désolé, vous n’avez pas l’autorisation de créer des contenus privés avec ce type de publication."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1418
 #: wp-includes/class-wp-xmlrpc-server.php:5010
@@ -8815,7 +8815,7 @@ msgstr "Désolé, vous n’avez pas l’autorisation de créer des contenus sous
 
 #: wp-includes/class-wp-xmlrpc-server.php:1413
 msgid "Sorry, you are not allowed to create password protected posts in this post type."
-msgstr "Désolé, vous n’avez pas l’autorisation de créer des contenus protégés par mot de passe avec ce type de contenu."
+msgstr "Désolé, vous n’avez pas l’autorisation de créer des contenus protégés par mot de passe avec ce type de publication."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1715
 #: wp-includes/class-wp-xmlrpc-server.php:4863
@@ -8849,7 +8849,7 @@ msgstr "Identifiant utilisateur non valide."
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:131
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:134
 msgid "Sorry, you are not allowed to edit posts in this post type."
-msgstr "Désolé, vous n’avez pas l’autorisation de modifier les entrées dans ce type de contenu."
+msgstr "Désolé, vous n’avez pas l’autorisation de modifier les entrées dans ce type de publication."
 
 #: wp-includes/general-template.php:1011 wp-includes/general-template.php:1480
 msgctxt "monthly archives date format"
@@ -10109,12 +10109,12 @@ msgstr "Désolé, vous n’avez pas l’autorisation de mettre à jour des artic
 #: wp-includes/class-wp-xmlrpc-server.php:5359 wp-includes/post.php:1234
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:123
 msgid "Invalid post type."
-msgstr "Type de contenu non valide."
+msgstr "Type de publication non valide."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1404
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1117
 msgid "Sorry, you are not allowed to publish posts in this post type."
-msgstr "Désolé, vous n’avez pas l’autorisation de publier des articles avec ce type de contenu."
+msgstr "Désolé, vous n’avez pas l’autorisation de publier des articles avec ce type de publication."
 
 #: wp-includes/class-wp-xmlrpc-server.php:4781
 #: wp-includes/class-wp-xmlrpc-server.php:4853
@@ -10622,7 +10622,7 @@ msgstr "Impossible de mettre à jour l’article dans la base de données"
 
 #: wp-includes/post.php:3227
 msgid "Content, title, and excerpt are empty."
-msgstr "Le contenu de l’article, le titre et l’extrait sont vides."
+msgstr "Le contenu, le titre et l’extrait sont vides."
 
 #: wp-includes/post.php:267
 msgid "Trash <span class=\"count\">(%s)</span>"

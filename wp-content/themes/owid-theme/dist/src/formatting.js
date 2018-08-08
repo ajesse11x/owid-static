@@ -436,9 +436,9 @@ function formatPost(post, grapherExports) {
         var html, isRaw;
         return __generator(this, function (_a) {
             html = post.content;
-            // Use relative urls wherever possible
-            html = html.replace(new RegExp(settings_1.WORDPRESS_URL, 'g'), "")
-                .replace(new RegExp("https?://ourworldindata.org", 'g'), "");
+            // Standardize urls
+            html = html.replace(new RegExp(settings_1.WORDPRESS_URL, 'g'), settings_1.BAKED_URL)
+                .replace(new RegExp("https?://ourworldindata.org", 'g'), settings_1.BAKED_URL);
             isRaw = html.match(/<!--raw-->/);
             if (isRaw) {
                 return [2 /*return*/, {
