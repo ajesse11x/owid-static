@@ -150,8 +150,8 @@ function formatPostLegacy(post, html, grapherExports) {
                             return "UNKNOWN TABLE";
                     });
                     // These old things don't work with static generation, link them through to maxroser.com
-                    html = html.replace(new RegExp("/wp-content/uploads/nvd3", 'g'), "https://www.maxroser.com/owidUploads/nvd3")
-                        .replace(new RegExp("/wp-content/uploads/datamaps", 'g'), "https://www.maxroser.com/owidUploads/datamaps");
+                    html = html.replace(new RegExp("https://ourworldindata.org/wp-content/uploads/nvd3", 'g'), "https://www.maxroser.com/owidUploads/nvd3")
+                        .replace(new RegExp("https://ourworldindata.org/wp-content/uploads/datamaps", 'g'), "https://www.maxroser.com/owidUploads/datamaps");
                     $ = cheerio.load(html);
                     sectionStarts = [$("body").children().get(0)].concat($("h2").toArray());
                     for (_i = 0, sectionStarts_1 = sectionStarts; _i < sectionStarts_1.length; _i++) {
