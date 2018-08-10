@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-08-08 10:11:37+0000\n"
+"PO-Revision-Date: 2018-08-09 21:58:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -417,7 +417,7 @@ msgstr "Contenu embarqué depuis d’autres sites"
 
 #: wp-admin/includes/misc.php:1731
 msgid "If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day."
-msgstr "En modifiant ou en publiant un article, un cookie supplémentaire sera enregistré dans votre navigateur. Ce cookie ne comprend aucune donnée personnelle. Il indique simplement l’ID de l’article que vous venez de modifier. Il expire au bout d’un jour."
+msgstr "En modifiant ou en publiant une publication, un cookie supplémentaire sera enregistré dans votre navigateur. Ce cookie ne comprend aucune donnée personnelle. Il indique simplement l’ID de la publication que vous venez de modifier. Il expire au bout d’un jour."
 
 #: wp-admin/includes/misc.php:1730
 msgid "When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select &quot;Remember Me&quot;, your login will persist for two weeks. If you log out of your account, the login cookies will be removed."
@@ -1383,7 +1383,7 @@ msgstr "%s (slug de catégorie. Les sous-catégories imbriquées apparaissent so
 #. translators: %s: permalink structure tag
 #: wp-admin/options-permalink.php:232
 msgid "%s (The sanitized post title (slug).)"
-msgstr "%s (Le titre normalisé de l’article (slug).)"
+msgstr "%s (Le titre normalisé de la publication, ou slug)"
 
 #. translators: %s: permalink structure tag
 #: wp-admin/options-permalink.php:230
@@ -2282,7 +2282,7 @@ msgstr "%1$s, %2$s"
 
 #: wp-admin/edit-form-advanced.php:443
 msgid "<strong>Publish</strong> &mdash; You can set the terms of publishing your post in the Publish box. For Status, Visibility, and Publish (immediately), click on the Edit link to reveal more options. Visibility includes options for password-protecting a post or making it stay at the top of your blog indefinitely (sticky). The Password protected option allows you to set an arbitrary password for each post. The Private option hides the post from everyone except editors and administrators. Publish (immediately) allows you to set a future or past date and time, so you can schedule a post to be published in the future or backdate a post."
-msgstr "<strong>Publier</strong> - Vous pouvez définir la manière dont votre article est publié dans le bloc « Publier ». Pour « État », « Visibilité », et « Publier (tout de suite) », un clic sur le lien « Modifier » affichera plus d’options. « Visibilité » inclut des options pour protéger l’article avec un mot de passe ou faire en sorte qu’il reste haut de page indéfiniment (en avant). L’option de protection par mot de passe vous permet de protéger chacun de vos articles avec un mot de passe. L’option « Privé » cache l’article pour tout le monde, sauf aux Éditeurs et Administrateurs. « Publier (tout de suite) » vous permet de planifier la publication de votre article à une date précise, dans le futur ou le passé ; cela vous permet d’écrire à l’avance des articles à publier, ou de les antidater."
+msgstr "<strong>Publier</strong> - Vous pouvez définir la manière dont votre publication est mise en ligne dans le bloc « Publier ». Pour « État », « Visibilité », et « Publier (tout de suite) », un clic sur le lien « Modifier » affichera plus d’options. « Visibilité » inclut des options pour protéger la publication avec un mot de passe ou faire en sorte qu’il reste haut de page indéfiniment (en avant). L’option de protection par mot de passe vous permet de protéger chacune de vos publications avec un mot de passe. L’option « Privé » cache la publication pour tout le monde, sauf aux Éditeurs et Administrateurs. « Publier (tout de suite) » vous permet de planifier la sortie de votre publication à une date précise, dans le futur ou le passé ; cela vous permet d’écrire à l’avance les publications à mettre en ligne, ou de les antidater."
 
 #. translators: %s: edit page url
 #: wp-admin/user-new.php:265
@@ -3147,7 +3147,7 @@ msgstr "Contenu à exporter"
 
 #: wp-admin/edit.php:202
 msgid "You can view posts in a simple title list or with an excerpt using the Screen Options tab."
-msgstr "Vous pouvez voir la liste des articles en titre simple ou avec un extrait à l’aide du bouton « Options de l’écran »."
+msgstr "Vous pouvez voir la liste des publication en titre simple ou avec un extrait à l’aide du bouton « Options de l’écran »."
 
 #. translators: %s: default category
 #: wp-admin/edit-tags.php:548
@@ -5526,7 +5526,7 @@ msgstr "Insertion du média"
 
 #: wp-admin/edit-form-advanced.php:367
 msgid "The title field and the big Post Editing Area are fixed in place, but you can reposition all the other boxes using drag and drop. You can also minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
-msgstr "Le champ du titre et la zone d’édition de l’article sont inamovibles, mais vous pouvez déplacer toutes les autres blocs par simple glisser/déposer. Vous pouvez également les fermer/ouvrir en cliquant sur la barre de titre de chaque boite. Utilisez l’onglet « Options de l’écran » pour masquer d’autres boites (Extrait, Envoyer des rétroliens, Champs personnalisés, Discussion, Slug, Auteur) ou pour choisir un affichage sur une ou deux colonnes pour cet écran."
+msgstr "Le champ du titre et la zone d’édition de la publication sont inamovibles, mais vous pouvez déplacer toutes les autres blocs par simple glisser/déposer. Vous pouvez également les fermer/ouvrir en cliquant sur la barre de titre de chaque boite. Utilisez l’onglet « Options de l’écran » pour masquer d’autres boites (Extrait, Envoyer des rétroliens, Champs personnalisés, Discussion, Slug, Auteur) ou pour choisir un affichage sur une ou deux colonnes pour cet écran."
 
 #: wp-admin/custom-header.php:118
 msgid "Don&#8217;t forget to click &#8220;Save Changes&#8221; when you&#8217;re done!"
@@ -6792,7 +6792,7 @@ msgstr "« <strong>Modifier</strong> » vous envoie sur l’écran de modificati
 
 #: wp-admin/edit.php:212
 msgid "<strong>Edit</strong> takes you to the editing screen for that post. You can also reach that screen by clicking on the post title."
-msgstr "<strong>Modifier</strong> vous envoie sur l’écran de modification de cet article. Vous pouvez également vous rendre sur cet écran en cliquant sur le titre de l’article."
+msgstr "<strong>Modifier</strong> vous envoie sur l’écran de modification de cette publication. Vous pouvez également vous rendre sur cet écran en cliquant sur le titre de la publication."
 
 #: wp-admin/edit.php:213
 msgid "<strong>Quick Edit</strong> provides inline access to the metadata of your post, allowing you to update post details without leaving this screen."
@@ -6808,7 +6808,7 @@ msgstr "Passer la souris au-dessus d’une ligne de la liste des utilisateurs, f
 
 #: wp-admin/edit.php:215
 msgid "<strong>Preview</strong> will show you what your draft post will look like if you publish it. View will take you to your live site to view the post. Which link is available depends on your post&#8217;s status."
-msgstr "<strong>Aperçu</strong> vous donnera une idée de ce à quoi votre brouillon ressemble si vous le publiez tel quel. <strong>Afficher</strong> vous enverra sur votre site, à l’adresse de l’article. L’action disponible dépend de l’état de votre article."
+msgstr "<strong>Aperçu</strong> vous donnera une idée de ce à quoi votre brouillon ressemble si vous le publiez tel quel. <strong>Afficher</strong> vous enverra sur votre site, à l’adresse de la publication. L’action disponible dépend de l’état de votre publication."
 
 #: wp-admin/users.php:41
 msgid "You can hide/display columns based on your needs and decide how many users to list per screen using the Screen Options tab."
@@ -6882,7 +6882,7 @@ msgstr "L’archive n’a pas pu être installée."
 
 #: wp-admin/includes/media.php:1086
 msgid "Attachment Post URL"
-msgstr "Adresse de l’article du fichier joint"
+msgstr "Adresse de la page du fichier joint"
 
 #: wp-admin/menu.php:67
 msgctxt "admin menu"
@@ -7948,7 +7948,7 @@ msgstr "N’oubliez pas de cliquer sur « Enregistrer les modifications » qua
 
 #: wp-admin/user-new.php:213
 msgid "Editors can publish posts, manage posts as well as manage other people&#8217;s posts, etc."
-msgstr "Les éditeurs peuvent publier et gérer leurs propres articles, ainsi que ceux des autres membres, etc."
+msgstr "Les éditeurs peuvent publier et gérer leurs propres publication, ainsi que ceux des autres membres, etc."
 
 #: wp-admin/user-edit.php:51
 msgid "Remember to click the Update Profile button when you are finished."
@@ -8212,7 +8212,7 @@ msgstr "<strong>%s</strong> &mdash; Vous pouvez associer une image à votre arti
 
 #: wp-admin/edit.php:210
 msgid "Hovering over a row in the posts list will display action links that allow you to manage your post. You can perform the following actions:"
-msgstr "Passer la souris au-dessus d’une ligne de la liste d’articles, fera s’afficher des liens vous permettant de gérer l’article. Vous pouvez lancer les actions suivantes :"
+msgstr "Passer la souris au-dessus d’une ligne de la liste des publications fera s’afficher des liens vous permettant de gérer la publication. Vous pouvez lancer les actions suivantes :"
 
 #: wp-admin/users.php:39
 msgid "You can customize the display of this screen in a number of ways:"
@@ -8220,7 +8220,7 @@ msgstr "Vous pouvez personnaliser l’affichage de cet écran de plusieurs mani�
 
 #: wp-admin/edit.php:200
 msgid "You can hide/display columns based on your needs and decide how many posts to list per screen using the Screen Options tab."
-msgstr "Vous pouvez afficher/masquer les colonnes en fonction de vos besoins, et décider du nombre d’articles à afficher par écran à l’aide de l’onglet « Options de l’écran »."
+msgstr "Vous pouvez afficher/masquer les colonnes en fonction de vos besoins, et décider du nombre de publications à afficher par écran à l’aide de l’onglet « Options de l’écran »."
 
 #: wp-admin/edit.php:203
 msgid "You can refine the list to show only posts in a specific category or from a specific month by using the dropdown menus above the posts list. Click the Filter button after making your selection. You also can refine the list by clicking on the post author, category or tag in the posts list."
@@ -9326,7 +9326,7 @@ msgstr "Le texte complet"
 
 #: wp-admin/options-reading.php:103 wp-admin/options-reading.php:104
 msgid "For each article in a feed, show"
-msgstr "Pour chaque article d’un flux, fournir"
+msgstr "Pour chaque publication d’un flux, fournir"
 
 #: wp-admin/options-reading.php:99
 msgid "Syndication feeds show the most recent"
@@ -9663,7 +9663,7 @@ msgstr "Réglages par défaut des articles"
 
 #: wp-admin/edit-form-advanced.php:468 wp-admin/options-discussion.php:14
 msgid "Discussion Settings"
-msgstr "Réglages des discussions"
+msgstr "Réglages de discussion"
 
 #: wp-admin/includes/class-wp-users-list-table.php:149
 #: wp-admin/includes/deprecated.php:569
@@ -10717,7 +10717,7 @@ msgstr "Ajouter un fichier média depuis votre ordinateur"
 #: wp-admin/includes/media.php:1498 wp-admin/includes/media.php:2625
 #: wp-admin/includes/media.php:2631
 msgid "Insert into Post"
-msgstr "Insérer dans l’article"
+msgstr "Insérer dans la publication"
 
 #: wp-admin/includes/media.php:1477
 msgid "Upload date:"
@@ -11895,7 +11895,7 @@ msgstr "L’élément n’a pas été mis à jour."
 
 #: wp-admin/includes/ajax-actions.php:1694
 msgid "Saving is disabled: %s is currently editing this post."
-msgstr "Enregistrement automatique désactivé : %s modifie actuellement cet article."
+msgstr "Enregistrement automatique désactivé : %s modifie actuellement cette publication."
 
 #: wp-admin/includes/ajax-actions.php:1694
 msgid "Saving is disabled: %s is currently editing this page."
