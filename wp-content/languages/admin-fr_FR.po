@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-08-09 21:58:43+0000\n"
+"PO-Revision-Date: 2018-08-12 05:35:33+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2282,7 +2282,7 @@ msgstr "%1$s, %2$s"
 
 #: wp-admin/edit-form-advanced.php:443
 msgid "<strong>Publish</strong> &mdash; You can set the terms of publishing your post in the Publish box. For Status, Visibility, and Publish (immediately), click on the Edit link to reveal more options. Visibility includes options for password-protecting a post or making it stay at the top of your blog indefinitely (sticky). The Password protected option allows you to set an arbitrary password for each post. The Private option hides the post from everyone except editors and administrators. Publish (immediately) allows you to set a future or past date and time, so you can schedule a post to be published in the future or backdate a post."
-msgstr "<strong>Publier</strong> - Vous pouvez définir la manière dont votre publication est mise en ligne dans le bloc « Publier ». Pour « État », « Visibilité », et « Publier (tout de suite) », un clic sur le lien « Modifier » affichera plus d’options. « Visibilité » inclut des options pour protéger la publication avec un mot de passe ou faire en sorte qu’il reste haut de page indéfiniment (en avant). L’option de protection par mot de passe vous permet de protéger chacune de vos publications avec un mot de passe. L’option « Privé » cache la publication pour tout le monde, sauf aux Éditeurs et Administrateurs. « Publier (tout de suite) » vous permet de planifier la sortie de votre publication à une date précise, dans le futur ou le passé ; cela vous permet d’écrire à l’avance les publications à mettre en ligne, ou de les antidater."
+msgstr "<strong>Publier</strong> - Vous pouvez définir la manière dont votre publication est mise en ligne dans la section « Publier ». Pour « État », « Visibilité », et « Publier (tout de suite) », un clic sur le lien « Modifier » affichera plus d’options. « Visibilité » inclut des options pour protéger la publication avec un mot de passe ou faire en sorte qu’il reste haut de page indéfiniment (en avant). L’option de protection par mot de passe vous permet de protéger chacune de vos publications avec un mot de passe. L’option « Privé » cache la publication pour tout le monde, sauf aux Éditeurs et Administrateurs. « Publier (tout de suite) » vous permet de planifier la sortie de votre publication à une date précise, dans le futur ou le passé ; cela vous permet d’écrire à l’avance les publications à mettre en ligne, ou de les antidater."
 
 #. translators: %s: edit page url
 #: wp-admin/user-new.php:265
@@ -2939,7 +2939,7 @@ msgstr "Obtenir la version %s"
 
 #: wp-admin/includes/template.php:1067
 msgid "Toggle panel: %s"
-msgstr "Ouvrir/fermer le bloc %s"
+msgstr "Ouvrir/fermer la section %s"
 
 #: wp-admin/includes/post.php:1645
 msgid "Saving revision&hellip;"
@@ -3052,7 +3052,7 @@ msgstr[1] "%s colonnes"
 
 #: wp-admin/includes/class-wp-screen.php:1013
 msgid "Boxes"
-msgstr "Blocs"
+msgstr "Sections"
 
 #: wp-admin/includes/class-wp-screen.php:904
 msgid "Additional settings"
@@ -4395,7 +4395,7 @@ msgstr "<strong>D’un coup d’œil</strong> - Affiche un résumé du contenu d
 
 #: wp-admin/index.php:57
 msgid "<strong>Box Controls</strong> &mdash; Click the title bar of the box to expand or collapse it. Some boxes added by plugins may have configurable content, and will show a &#8220;Configure&#8221; link in the title bar if you hover over it."
-msgstr "<strong>Contrôles des blocs</strong> &mdash; Cliquez sur la barre de titre d’un bloc pour l’ouvrir ou le fermer. Certains blocs ajoutés par des extensions peuvent avoir un contenu configurable, et afficheront donc un lien « Configurer » dans la barre de titre lors du survol de la souris."
+msgstr "<strong>Contrôles des sections</strong> &mdash; Cliquez sur la barre de titre d’une section pour l’ouvrir ou la fermer. Certaines sections ajoutées par des extensions peuvent avoir un contenu configurable, et afficheront donc un lien « Configurer » dans la barre de titre lors du survol de la souris."
 
 #: wp-admin/users.php:52
 msgid "<strong>Remove</strong> allows you to remove a user from your site. It does not delete their content. You can also remove multiple users at once by using Bulk Actions."
@@ -4520,7 +4520,7 @@ msgstr "D’un coup d’œil"
 
 #: wp-admin/options-reading.php:33
 msgid "When this setting is in effect, a reminder is shown in the At a Glance box of the Dashboard that says, &#8220;Search Engines Discouraged,&#8221; to remind you that your site is not being crawled."
-msgstr "Lorsque ce réglage est actif, un rappel est affiché dans le bloc \"D’un coup d’œil\" du Tableau de bord, indiquant que \"Moteurs de recherche refusés\" pour que vous n’oubliez pas que votre site n’est pas parcouru."
+msgstr "Lorsque ce réglage est actif, un rappel est affiché dans la section « D’un coup d’œil » du Tableau de bord, indiquant « Moteurs de recherche refusés » pour que vous n’oubliez pas que votre site n’est pas parcouru."
 
 #: wp-admin/includes/theme.php:250
 msgid "Accessibility Ready"
@@ -4661,7 +4661,7 @@ msgstr "<strong>Activité</strong> &mdash; Affiche les articles programmés, ceu
 
 #: wp-admin/index.php:55
 msgid "<strong>Screen Options</strong> &mdash; Use the Screen Options tab to choose which Dashboard boxes to show."
-msgstr "<strong>Options de l’écran</strong> &mdash; Utilisez l’onglet Options de l’écran pour choisir les blocs à afficher dans le Tableau de bord."
+msgstr "<strong>Options de l’écran</strong> &mdash; Utilisez l’onglet Options de l’écran pour choisir les sections à afficher dans le Tableau de bord."
 
 #: wp-admin/post.php:72
 msgid "Unable to submit this form, please refresh and try again."
@@ -5302,7 +5302,7 @@ msgstr "Ajoutez un ou plusieurs éléments à la fois en <strong>cochant la case
 
 #: wp-admin/nav-menus.php:544
 msgid "Each navigation menu may contain a mix of links to pages, categories, custom URLs or other content types. Menu links are added by selecting items from the expanding boxes in the left-hand column below."
-msgstr "Chaque menu de navigation peut contenir un mélange de liens vers des pages, des catégories, des urls personnalisées ou d’autres types de contenu. Les liens de menu sont ajoutés en sélectionnant un élément dans l’un des blocs situés dans la colonne de gauche ci-dessous."
+msgstr "Chaque menu de navigation peut contenir un mélange de liens vers des pages, des catégories, des URL personnalisées ou d’autres types de contenu. Les liens de menu sont ajoutés en sélectionnant un élément dans l’une des sections situées dans la colonne de gauche ci-dessous."
 
 #: wp-admin/nav-menus.php:540
 msgid "Menu Management"
@@ -5318,7 +5318,7 @@ msgstr "Pour modifier un menu existant, <strong>choisissez un menu depuis la lis
 
 #: wp-admin/nav-menus.php:533
 msgid "The menu management box at the top of the screen is used to control which menu is opened in the editor below."
-msgstr "Le bloc de gestion des menus, en haut de l’écran, est utilisé pour contrôler le menu qui est ouvert dans l’éditeur ci-dessous."
+msgstr "La section de gestion des menus, en haut de l’écran, est utilisé pour contrôler le menu qui est ouvert dans l’éditeur ci-dessous."
 
 #: wp-admin/nav-menus.php:525
 msgid "Add, organize, and modify individual menu items"
@@ -5526,7 +5526,7 @@ msgstr "Insertion du média"
 
 #: wp-admin/edit-form-advanced.php:367
 msgid "The title field and the big Post Editing Area are fixed in place, but you can reposition all the other boxes using drag and drop. You can also minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
-msgstr "Le champ du titre et la zone d’édition de la publication sont inamovibles, mais vous pouvez déplacer toutes les autres blocs par simple glisser/déposer. Vous pouvez également les fermer/ouvrir en cliquant sur la barre de titre de chaque boite. Utilisez l’onglet « Options de l’écran » pour masquer d’autres boites (Extrait, Envoyer des rétroliens, Champs personnalisés, Discussion, Slug, Auteur) ou pour choisir un affichage sur une ou deux colonnes pour cet écran."
+msgstr "Le champ du titre et la zone d’édition de la publication sont inamovibles, mais vous pouvez déplacer toutes les autres sections par simple glisser/déposer. Vous pouvez également les fermer/ouvrir en cliquant sur la barre de titre de chaque section. Utilisez l’onglet « Options de l’écran » pour masquer d’autres sections (Extrait, Envoyer des rétroliens, Champs personnalisés, Discussion, Slug, Auteur) ou pour choisir un affichage sur une ou deux colonnes pour cet écran."
 
 #: wp-admin/custom-header.php:118
 msgid "Don&#8217;t forget to click &#8220;Save Changes&#8221; when you&#8217;re done!"
@@ -5807,7 +5807,7 @@ msgstr "Vous pouvez choisir une image d’en-tête personnalisée en la téléve
 
 #: wp-admin/edit-form-advanced.php:397
 msgid "Creating a Page is very similar to creating a Post, and the screens can be customized in the same way using drag and drop, the Screen Options tab, and expanding/collapsing boxes as you choose. This screen also has the distraction-free writing space, available in both the Visual and Text modes via the Fullscreen buttons. The Page editor mostly works the same as the Post editor, but there are some Page-specific features in the Page Attributes box."
-msgstr "Le processus de création d’une page reste très proche de celui d’un article, et les écrans respectifs peuvent être personnalisés de la même manière, par le biais de glisser/déposer, de l’onglet « Option de l’écran », et en ouvrant/fermant les blocs selon vos besoins. Cet écran dispose également du mode « aucune distraction », tant dans le mode Visuel que dans le mode Texte, via les boutons « Plein écran ». L’éditeur de page fonctionne globalement comme celui des articles, mais dispose de certaines spécificités, disponibles dans le bloc « Attributs de page » :"
+msgstr "Le processus de création d’une page reste très proche de celui d’un article, et les écrans respectifs peuvent être personnalisés de la même manière, par le biais de glisser/déposer, de l’onglet « Option de l’écran », et en ouvrant/fermant les sections selon vos besoins. Cet écran dispose également du mode « aucune distraction », tant dans le mode Visuel que dans le mode Texte, via les boutons « Plein écran ». L’éditeur de page fonctionne globalement comme celui des articles, mais dispose de certaines spécificités, disponibles dans la section « Attributs de page » :"
 
 #: wp-admin/edit-tags.php:227
 msgid "You can delete Link Categories in the Bulk Action pull-down, but that action does not delete the links within the category. Instead, it moves them to the default Link Category."
@@ -6712,7 +6712,7 @@ msgstr "Widgets manquants"
 
 #: wp-admin/edit-tags.php:224
 msgid "You can assign keywords to your posts using <strong>tags</strong>. Unlike categories, tags have no hierarchy, meaning there&#8217;s no relationship from one tag to another."
-msgstr "Vous pouvez assigner des <strong>étiquettes</strong> à vos articles via le bloc dédié. Au contraire des catégories, les étiquettes n’ont pas de hiérarchie, ce qui signifie qu’elles ne peuvent pas être liés entre elles."
+msgstr "Vous pouvez assigner des <strong>étiquettes</strong> à vos articles via la section dédiée. Au contraire des catégories, les étiquettes n’ont pas de hiérarchie, ce qui signifie qu’elles ne peuvent pas être liés entre elles."
 
 #: wp-admin/widgets.php:60
 msgid "Removing and Reusing"
@@ -6997,7 +6997,7 @@ msgstr "Vous pouvez utiliser les contrôles suivants pour organiser l’écran d
 
 #: wp-admin/index.php:56
 msgid "<strong>Drag and Drop</strong> &mdash; To rearrange the boxes, drag and drop by clicking on the title bar of the selected box and releasing when you see a gray dotted-line rectangle appear in the location you want to place the box."
-msgstr "<strong>Glisser/déposer</strong> - Pour réarranger les blocs, glissez/déposez-les en cliquant sur la barre de titre du bloc sélectionné, et relâchez-la lorsque vous apercevez un rectangle avec une bordure grise à l’emplacement où vous souhaitez placer le bloc."
+msgstr "<strong>Glisser/déposer</strong> - Pour réarranger les sections, glissez/déposez-les en cliquant sur la barre de titre de la section sélectionnée, et relâchez-la lorsque vous apercevez un rectangle avec une bordure grise à l’emplacement où vous souhaitez placer la section."
 
 #: wp-admin/index.php:50
 msgid "Navigation"
@@ -7503,7 +7503,7 @@ msgstr "Cet écran liste tous les utilisateurs actuels de votre site. Chaque uti
 
 #: wp-admin/index.php:65
 msgid "The boxes on your Dashboard screen are:"
-msgstr "Les blocs de l’écran du tableau de bord sont :"
+msgstr "Les sections de l’écran du tableau de bord sont :"
 
 #: wp-admin/includes/upgrade.php:242
 msgid "Sample Page"
@@ -7679,7 +7679,7 @@ msgstr "Cet écran vous permet de modifier les 4 champs des métadonnées des fi
 
 #: wp-admin/edit-form-advanced.php:417 wp-admin/media.php:76
 msgid "For images only, you can click on Edit Image under the thumbnail to expand out an inline image editor with icons for cropping, rotating, or flipping the image as well as for undoing and redoing. The boxes on the right give you more options for scaling the image, for cropping it, and for cropping the thumbnail in a different way than you crop the original image. You can click on Help in those boxes to get more information."
-msgstr "Pour les images (et seulement elles), vous pouvez cliquer sur « Modifier l’Image », sous la miniature, afin de faire apparaître un éditeur d’image, vous permettant de recadrer, d’appliquer une rotation ou d’inverser une image, ainsi que de défaire et refaire vos modifications. Les blocs sur la droite vous donnent accès à d’autres options pour le changement d’échelle, le recadrage et même le recadrage de la miniature, qui peut être différent de celui de l’image originale. Cliquez sur le bouton Aide de ces blocs pour obtenir plus d’informations."
+msgstr "Pour les images (et seulement elles), vous pouvez cliquer sur « Modifier l’Image », sous la miniature, afin de faire apparaître un éditeur d’image, vous permettant de recadrer, d’appliquer une rotation ou d’inverser une image, ainsi que de défaire et refaire vos modifications. Les sections sur la droite vous donnent accès à d’autres options pour le changement d’échelle, le recadrage et même le recadrage de la miniature, qui peut être différent de celui de l’image originale. Cliquez sur le bouton « Aide » de ces sections pour obtenir plus d’informations."
 
 #: wp-admin/edit-form-advanced.php:418 wp-admin/media.php:77
 msgid "Note that you crop the image by clicking on it (the Crop icon is already selected) and dragging the cropping frame to select the desired part. Then click Save to retain the cropping."
@@ -7968,7 +7968,7 @@ msgstr "Si besoin, vous pouvez modifier les informations laissées dans un comme
 
 #: wp-admin/comment.php:46
 msgid "You can also moderate the comment from this screen using the Status box, where you can also change the timestamp of the comment."
-msgstr "Vous pouvez également modérer le commentaire depuis cet écran, à l’aide du bloc État, d’où vous pouvez également changer l’horodatage du commentaire."
+msgstr "Vous pouvez également modérer le commentaire depuis cet écran, à l’aide de la section « État », d’où vous pouvez également changer l’horodatage du commentaire."
 
 #: wp-admin/options-general.php:29
 msgid "The WordPress URL and the Site URL can be the same (example.com) or different; for example, having the WordPress core files (example.com/wordpress) in a subdirectory instead of the root directory."
@@ -7995,7 +7995,7 @@ msgstr "UTC signifie « Temps universel coordonné »."
 
 #: wp-admin/edit-link-form.php:59
 msgid "The boxes for link name, web address, and description have fixed positions, while the others may be repositioned using drag and drop. You can also hide boxes you don&#8217;t use in the Screen Options tab, or minimize boxes by clicking on the title bar of the box."
-msgstr "Les blocs pour le nom, l’adresse web et la description sont fixes, tandis que les autres peuvent être repositionnés par glisser/déposer. Vous pouvez également masquer les blocs que vous n’utilisez pas via l’onglet « Options de l’écran », et fermer les blocs en cliquant sur leur barre de titre."
+msgstr "Les sections pour le nom, l’adresse web et la description sont fixes, tandis que les autres peuvent être repositionnées par glisser/déposer. Vous pouvez également masquer les sections que vous n’utilisez pas via l’onglet « Options de l’écran », et fermer les sections en cliquant sur leur barre de titre."
 
 #: wp-admin/update-core.php:187
 msgid "An updated version of WordPress is available."
@@ -8031,7 +8031,7 @@ msgstr "Retour aux importateurs"
 
 #: wp-admin/edit-link-form.php:58
 msgid "You can add or edit links on this screen by entering information in each of the boxes. Only the link&#8217;s web address and name (the text you want to display on your site as the link) are required fields."
-msgstr "Vous pouvez ajouter ou modifier des liens sur cet écran, en saisissant dans chacun des blocs. Seuls sont nécessaires les champs « Adresse web » et « Nom » (le texte que vous voulez voir affiché sur votre site pour cette adresse)."
+msgstr "Vous pouvez ajouter ou modifier des liens sur cet écran, en saisissant dans chacune des sections. Seuls sont nécessaires les champs « Adresse web » et « Nom » (le texte que vous voulez voir affiché sur votre site pour cette adresse)."
 
 #: wp-admin/edit-tags.php:555
 msgid "Categories can be selectively converted to tags using the <a href=\"%s\">category to tag converter</a>."

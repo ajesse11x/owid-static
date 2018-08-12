@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-08-06 12:21:34+0000\n"
+"PO-Revision-Date: 2018-08-12 05:36:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -4529,7 +4529,7 @@ msgstr "Vous ne pouvez supprimer une taxonomie interne"
 
 #: wp-includes/script-loader.php:676
 msgid "Drag boxes here"
-msgstr "Glissez les blocs ici"
+msgstr "Glissez les sections ici"
 
 #: wp-includes/script-loader.php:572
 msgid "(Untitled)"
@@ -7052,7 +7052,7 @@ msgstr "Mots : %s"
 #: wp-includes/class-wp-editor.php:1224
 msgctxt "editor button"
 msgid "Show blocks"
-msgstr "Montrer les blocs"
+msgstr "Montrer les sections"
 
 #: wp-includes/class-wp-editor.php:1220
 msgctxt "TinyMCE"
@@ -7228,7 +7228,7 @@ msgstr "Div"
 #: wp-includes/class-wp-editor.php:1014
 msgctxt "TinyMCE"
 msgid "Blocks"
-msgstr "Blocs"
+msgstr "Sections"
 
 #: wp-includes/class-wp-editor.php:1176
 msgctxt "table column"
@@ -10829,7 +10829,7 @@ msgstr "Désolé, les identifiants doivent aussi avoir des lettres !"
 
 #: wp-includes/ms-functions.php:473
 msgid "You cannot use that email address to signup. We are having problems with them blocking some of our email. Please use another email provider."
-msgstr "Vous ne pouvez pas vous inscrire avec cette adresse de messagerie. Nous avons rencontré des problèmes de la part de ce service. Merci d&#8217;en utiliser un autre."
+msgstr "Vous ne pouvez pas vous inscrire avec cette adresse de messagerie. Nous avons rencontré des problèmes de la part de ce service. Veuillez en utiliser un autre."
 
 #: wp-includes/ms-functions.php:266
 msgid "That user does not exist."
