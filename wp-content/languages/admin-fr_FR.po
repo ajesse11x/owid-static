@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-08-16 14:44:56+0000\n"
+"PO-Revision-Date: 2018-08-18 07:44:40+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1096,7 +1096,7 @@ msgstr "https://fr.wordpress.org/plugins/gutenberg/"
 
 #: wp-admin/about.php:337
 msgid "WordPress is working on a new way to create and control your content and we&#8217;d love to have your help. Interested in being an <a href=\"%s\">early tester</a> or getting involved with the Gutenberg project? <a href=\"%s\">Contribute on GitHub</a>."
-msgstr "WordPress travaille sur une nouvelle façon de créer et de contrôler votre contenu et votre aide serait la bienvenue. Vous êtes intéressé·e pour <a href=\"%s\"> bêta tester</a> ou pour vous impliquer dans le projet Gutenberg ? <a href=\"%s\">Contribuer sur GitHub</a>."
+msgstr "WordPress travaille sur une nouvelle façon de créer et de contrôler votre contenu et votre aide serait la bienvenue. Vous êtes intéressé·e pour <a href=\"%s\">bêta tester</a> ou pour vous impliquer dans le projet Gutenberg ? <a href=\"%s\">Contribuer sur GitHub</a>."
 
 #. translators: %s: handshake emoji
 #: wp-admin/about.php:331
