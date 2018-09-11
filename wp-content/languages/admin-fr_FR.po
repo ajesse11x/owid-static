@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-09-03 18:56:41+0000\n"
+"PO-Revision-Date: 2018-09-10 07:48:09+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3678,7 +3678,7 @@ msgstr "Autrement, vous pouvez parcourir les thèmes mis en avant, populaires, o
 
 #: wp-admin/themes.php:78
 msgid "The search for installed themes will search for terms in their name, description, author, or tag."
-msgstr "La recherche parmi les thèmes installés se fait sur leurs noms, leurs descriptions, leurs auteurs et leurs étiquettes."
+msgstr "La recherche parmi les thèmes installés se fait sur leur nom, leur description, leur auteur et leurs étiquettes."
 
 #: wp-admin/options-general.php:314
 msgid "enter a custom date format in the following field"
@@ -4540,7 +4540,7 @@ msgstr "Le thème en cours de prévisualisation est totalement interactif &mdash
 
 #: wp-admin/themes.php:105
 msgid "Tap or hover on any theme then click the Live Preview button to see a live preview of that theme and change theme options in a separate, full-screen view. You can also find a Live Preview button at the bottom of the theme details screen. Any installed theme can be previewed and customized in this way."
-msgstr "Touchez ou survolez n’importe quel thème puis cliquez sur le bouton Prévisualisation pour voir une prévisualisation de ce thème et changer les options du thème dans un vie séparée et plein écran. Vous pouvez également trouver un bouton Prévisualisation au bas de l’écran de détails du thème. Tout thème installé peut être prévisualisé et personnalisé de cette manière."
+msgstr "Touchez ou survolez n’importe quel thème puis cliquez sur le bouton « Prévisualisation » pour avoir un aperçu de celui-ci et ses changer les options dans une vue séparée et plein écran. Vous pouvez également trouver un bouton « Prévisualisation » en bas de l’écran de détails du thème. Tout thème installé peut être prévisualisé et personnalisé de cette manière."
 
 #: wp-admin/themes.php:77
 msgid "The current theme is displayed highlighted as the first theme."
@@ -4915,7 +4915,7 @@ msgstr "<strong>En cliquant sur le titre de n’importe élément du menu</stron
 #. themes
 #: wp-admin/nav-menus.php:522
 msgid "Menus can be displayed in locations defined by your theme, even used in sidebars by adding a &#8220;Navigation Menu&#8221; widget on the <a href=\"%1$s\">Widgets</a> screen. If your theme does not support the navigation menus feature (the default themes, %2$s and %3$s, do), you can learn about adding this support by following the Documentation link to the side."
-msgstr "Les menus peuvent être affichés à des emplacements définis par votre thème, et même dans les barres latérales grâce au widget « Menus personnalisés » de l’écran <a href=\"%1$s\">Widgets</a>. Si votre thème ne reconnaît pas encore cette fonctionnalité (les thèmes par défaut, %2$s and %3$s, les intègrent très bien), vous pouvez apprendre à ajouter cette reconnaissance vous-même en suivant le lien de documentation situé sur le côté."
+msgstr "Les menus peuvent être affichés à des emplacements définis par votre thème, et même dans les colonnes latérales grâce au widget « Menus personnalisés » de l’écran <a href=\"%1$s\">Widgets</a>. Si votre thème ne reconnaît pas encore cette fonctionnalité (les thèmes par défaut, %2$s and %3$s, les intègrent très bien), vous pouvez apprendre à ajouter cette reconnaissance vous-même en suivant le lien de documentation situé sur le côté."
 
 #: wp-admin/nav-menus.php:517
 msgid "Your theme does not natively support menus, but you can use them in sidebars by adding a &#8220;Navigation Menu&#8221; widget on the <a href=\"%s\">Widgets</a> screen."
@@ -5212,7 +5212,7 @@ msgstr "Depuis cet écran, vous pouvez visualiser, comparer et rétablir les ré
 
 #: wp-admin/revision.php:107
 msgid "Revisions are saved copies of your post or page, which are periodically created as you update your content. The red text on the left shows the content that was removed. The green text on the right shows the content that was added."
-msgstr "Les révisions sont des copies de votre article ou votre page, périodiquement créées tandis que vous modifiez votre contenu. Sur la gauche, le texte en rouge indique le contenu qui a été enlevé. Sur la droite, le texte en vert indique le contenu qui a été ajouté."
+msgstr "Les révisions sont des copies de votre article ou votre page, périodiquement créées tandis que vous modifiez votre contenu. Sur la gauche, le texte en rouge indique le contenu qui a été retiré. Sur la droite, le texte en vert indique le contenu qui a été ajouté."
 
 #: wp-admin/revision.php:106
 msgid "This screen is used for managing your content revisions."
@@ -5314,11 +5314,11 @@ msgstr "Vous pouvez assigner un emplacement du thème à chaque menu en <strong>
 
 #: wp-admin/nav-menus.php:534
 msgid "To edit an existing menu, <strong>choose a menu from the drop down and click Select</strong>"
-msgstr "Pour modifier un menu existant, <strong>choisissez un menu depuis la liste déroulant et cliquez sur Sélectionner</strong>"
+msgstr "Pour modifier un menu existant, <strong>choisissez un menu depuis la liste déroulante et cliquez sur Sélectionner</strong>"
 
 #: wp-admin/nav-menus.php:533
 msgid "The menu management box at the top of the screen is used to control which menu is opened in the editor below."
-msgstr "La section de gestion des menus, en haut de l’écran, est utilisé pour contrôler le menu qui est ouvert dans l’éditeur ci-dessous."
+msgstr "La section de gestion des menus, en haut de l’écran, est utilisée pour contrôler le menu qui est ouvert dans l’éditeur ci-dessous."
 
 #: wp-admin/nav-menus.php:525
 msgid "Add, organize, and modify individual menu items"
@@ -5510,7 +5510,7 @@ msgstr "Gérez vos <a href=\"%1$s\">widgets</a> ou vos <a href=\"%2$s\">menus</a
 
 #: wp-admin/widgets.php:71
 msgid "When changing themes, there is often some variation in the number and setup of widget areas/sidebars and sometimes these conflicts make the transition a bit less smooth. If you changed themes and seem to be missing widgets, scroll down on this screen to the Inactive Widgets area, where all of your widgets and their settings will have been saved."
-msgstr "En changeant de thèmes, il y a souvent des variations sur le nombre et l’agencement des zones de widgets et des barres latérales, et parfois tout cela entre en conflit, rendant la transition moins aisée. Si vous avec changé de thème et que certains widgets semblent manquer, faites défiler cet écran jusqu’en bas pour les retrouver dans la zone des widgets inactifs, où ils ont été conservés avec leurs derniers réglages."
+msgstr "En changeant de thème, il y a souvent des variations sur le nombre et l’agencement des zones de widgets et des colonnes latérales, et parfois tout cela entre en conflit, rendant la transition moins aisée. Si vous avez changé de thème et que certains widgets semblent manquer, faites défiler cet écran jusqu’en bas pour les retrouver dans la zone des widgets inactifs, où ils ont été conservés avec leurs derniers réglages."
 
 #: wp-admin/edit-tags.php:250
 msgid "<strong>Parent</strong> &mdash; Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have child categories for Bebop and Big Band. Totally optional. To create a subcategory, just choose another category from the Parent dropdown."
@@ -5522,7 +5522,7 @@ msgstr "Plusieurs sections de cet écran vous permettez de régler la manière d
 
 #: wp-admin/edit-form-advanced.php:435
 msgid "Inserting Media"
-msgstr "Insertion du média"
+msgstr "Insertion de média"
 
 #: wp-admin/edit-form-advanced.php:367
 msgid "The title field and the big Post Editing Area are fixed in place, but you can reposition all the other boxes using drag and drop. You can also minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
@@ -6696,7 +6696,7 @@ msgstr "Cet écran offre plusieurs options pour contrôler la gestion et l’aff
 
 #: wp-admin/user-edit.php:46
 msgid "You can change your password, turn on keyboard shortcuts, change the color scheme of your WordPress administration screens, and turn off the WYSIWYG (Visual) editor, among other things. You can hide the Toolbar (formerly called the Admin Bar) from the front end of your site, however it cannot be disabled on the admin screens."
-msgstr "Vous pouvez modifier votre mot de passe, activer les raccourcis clavier, modifier la combinaison de couleurs des écrans de l’administration, et désactiver l’éditeur visuel (WYSIWYG), entre autres choses. Vous pouvez également masquer la barre d’outils (anciennement « barre d’administration ») sur la partie publique de votre site, mais elle ne peut pas être enlevée des écrans d’administration."
+msgstr "Vous pouvez modifier votre mot de passe, activer les raccourcis clavier, modifier le jeu de couleurs des écrans de l’administration de votre WordPress, et désactiver l’éditeur visuel (WYSIWYG), entre autres choses. Vous pouvez également masquer la barre d’outils (anciennement « barre d’administration ») sur l’interface publique de votre site, mais elle ne peut pas être désactivée sur les écrans d’administration."
 
 #: wp-admin/widgets.php:100
 msgid "This sidebar is no longer available and does not show anywhere on your site. Remove each of the widgets below to fully remove this inactive sidebar."
@@ -7550,7 +7550,7 @@ msgstr ""
 
 #: wp-admin/user-edit.php:400
 msgid "Super admin privileges cannot be removed because this user has the network admin email."
-msgstr "Les privilèges de super-admin ne peuvent pas être enlevés, car cet utilisateur est celui avec l’adresse de messagerie administrative du réseau."
+msgstr "Les privilèges de super-admin ne peuvent pas être retirés, car cet utilisateur est celui avec l’adresse de messagerie administrative du réseau."
 
 #: wp-admin/includes/class-wp-themes-list-table.php:105
 msgid "You only have one theme installed right now. Live a little! You can choose from over 1,000 free themes in the WordPress Theme Directory at any time: just click on the <a href=\"%s\">Install Themes</a> tab above."
@@ -7691,7 +7691,7 @@ msgstr "Pensez bien à cliquer sur le bouton « Mettre à jour le fichier » a
 
 #: wp-admin/widgets.php:56
 msgid "The Available Widgets section contains all the widgets you can choose from. Once you drag a widget into a sidebar, it will open to allow you to configure its settings. When you are happy with the widget settings, click the Save button and the widget will go live on your site. If you click Delete, it will remove the widget."
-msgstr "La section « Widgets disponibles » contient tous les widgets que vous pouvez utiliser. Une fois le widget glissé dans la colonne latérale, il s’ouvrira pour vous permettre d’en modifier les réglages. Quand vos réglages vous satisfont, cliquez sur le bouton « Enregistrer » et le widget sera lancé sur votre site. Si vous cliquez sur « Supprimer », le widget sera enlevé du site."
+msgstr "La section « Widgets disponibles » contient tous les widgets que vous pouvez utiliser. Une fois le widget glissé dans la colonne latérale, il s’ouvrira pour vous permettre d’en modifier les réglages. Quand vos réglages vous satisfont, cliquez sur le bouton « Enregistrer » et le widget sera lancé sur votre site. Si vous cliquez sur « Supprimer », le widget sera retiré du site."
 
 #: wp-admin/user-new.php:335
 msgid "Email or Username"
@@ -7871,7 +7871,7 @@ msgstr "Pour ajouter un nouvel utilisateur à votre site, cliquez sur le bouton 
 
 #: wp-admin/widgets.php:62
 msgid "If you want to remove the widget but save its setting for possible future use, just drag it into the Inactive Widgets area. You can add them back anytime from there. This is especially helpful when you switch to a theme with fewer or different widget areas."
-msgstr "Si vous voulez enlever le widget, mais conserver ses réglages pour un possible usage futur, glissez-le simplement dans la zone « Widgets désactivés ». De là, vous pouvez les rajouter n’importe quand. C’est particulièrement utile quand vous passez à un thème avec moins de zones à widgets, ou des zones différentes."
+msgstr "Si vous voulez retirer le widget, mais conserver ses réglages pour un possible usage futur, glissez-le simplement dans la zone « Widgets désactivés ». De là, vous pouvez les ajouter à nouveau n’importe quand. C’est particulièrement utile quand vous passez à un thème avec moins de zones à widgets, ou des zones différentes."
 
 #: wp-admin/options-general.php:26
 msgid "Most themes display the site title at the top of every page, in the title bar of the browser, and as the identifying name for syndicated feeds. The tagline is also displayed by many themes."
