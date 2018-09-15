@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-09-04 05:17:01+0000\n"
+"PO-Revision-Date: 2018-09-13 20:27:09+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -581,7 +581,7 @@ msgstr "%s a pris la main et personnalise actuellement."
 
 #: wp-includes/script-loader.php:573
 msgid "Looks like something&#8217;s gone wrong. Wait a couple seconds, and then try again."
-msgstr "Il semble que quelque chose se passe mal. Attendez deux secondes puis essayez à nouveau."
+msgstr "Il semble que quelque chose se passe mal. Attendez deux secondes puis veuillez réessayer."
 
 #: wp-includes/class-wp-customize-manager.php:4161
 msgid "Take over"
@@ -1547,7 +1547,7 @@ msgstr "Aucune modification enregistrée, il n’y a donc rien à mettre à la c
 
 #: wp-includes/class-wp-customize-manager.php:3007
 msgid "There was an authentication problem. Please reload and try again."
-msgstr "Il y a eu un problème d’authentification. Veuillez recharger et essayer à nouveau."
+msgstr "Il y a eu un problème d’authentification. Veuillez recharger et réessayer."
 
 #. translators: %s: number of invalid settings
 #: wp-includes/class-wp-customize-manager.php:2707
@@ -1675,7 +1675,7 @@ msgstr "Assister à un évènement  à venir proche de chez vous."
 
 #: wp-includes/script-loader.php:1191
 msgid "An error occurred. Please try again."
-msgstr "Une erreur est survenue. Veuillez essayer à nouveau."
+msgstr "Une erreur est survenue. Veuillez réessayer plus tard."
 
 #: wp-includes/script-loader.php:1190
 msgid "Enter your closest city to find nearby events."
@@ -10549,7 +10549,7 @@ msgstr "Une erreur est survenue lors du téléversement. Veuillez réessayer plu
 
 #: wp-includes/script-loader.php:290
 msgid "This file is empty. Please try another."
-msgstr "Le fichier est vide. Merci d’en essayer un autre."
+msgstr "Le fichier est vide. Veuillez en essayer un autre."
 
 #: wp-includes/script-loader.php:288
 msgid "You have attempted to queue too many files."
