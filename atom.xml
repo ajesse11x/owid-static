@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-09-20T14:00:51.000Z</updated>
+    <updated>2018-09-20T14:03:24.000Z</updated>
     <entry>
+        <title>We have put together a new dataset with long-run literacy rates by country</title>
+    <id>https://ourworldindata.org/new-literacy-dataset</id>
+        <link rel="alternate" href="https://ourworldindata.org/new-literacy-dataset"/>
+        <published>2018-09-20T14:03:24.000Z</published>
+        <updated>2018-09-25T14:18:59.000Z</updated>
+        <author><name>Esteban Ortiz-Ospina</name></author>
+        <summary>This blog post draws on data and research discussed in our entry on Literacy, which we have just updated.</summary>
+    </entry>
+<entry>
         <title>Now it is possible to take stock - did the world achieve the Millennium Development Goals?</title>
     <id>https://ourworldindata.org/millennium-development-goals</id>
         <link rel="alternate" href="https://ourworldindata.org/millennium-development-goals"/>
@@ -86,14 +95,5 @@
         <updated>2018-08-01T09:27:34.000Z</updated>
         <author><name>Esteban Ortiz-Ospina</name></author>
         <summary>Over the last century countries around the world have made huge progress in the expansion of schooling: While in 1870 there were just a few countries in which the average person had more than 4 years of education, today there are few countries in which the population has less education than that. This expansion continues until today – just in the last two decades the number of out-of-school children almost halved globally.</summary>
-    </entry>
-<entry>
-        <title>Our World in Data for teaching – what we are learning from your feedback</title>
-    <id>https://ourworldindata.org/owid-for-teaching-feedback</id>
-        <link rel="alternate" href="https://ourworldindata.org/owid-for-teaching-feedback"/>
-        <published>2018-07-23T06:04:11.000Z</published>
-        <updated>2018-07-23T19:55:48.000Z</updated>
-        <author><name>Esteban Ortiz-Ospina</name></author>
-        <summary>At Our World in Data we recently opened a public survey to understand how people use our work for teaching. To date, 92 educators based at institutions across the world have taken our survey. In this short blog post we want to share with you what we've learned so far from this exercise, and what we plan to do to improve.</summary>
     </entry>
 </feed>
