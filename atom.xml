@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-09-25T06:03:24.000Z</updated>
+    <updated>2018-09-27T12:34:35.000Z</updated>
     <entry>
+        <title>How urban is the world?</title>
+    <id>https://ourworldindata.org/how-urban-is-the-world</id>
+        <link rel="alternate" href="https://ourworldindata.org/how-urban-is-the-world"/>
+        <published>2018-09-27T12:34:35.000Z</published>
+        <updated>2018-09-27T21:59:27.000Z</updated>
+        <author><name>Hannah Ritchie</name></author>
+        <summary>This blog post draws on data and research discussed in our entry on Urbanization.</summary>
+    </entry>
+<entry>
         <title>We have put together a new dataset with long-run literacy rates by country</title>
     <id>https://ourworldindata.org/new-literacy-dataset</id>
         <link rel="alternate" href="https://ourworldindata.org/new-literacy-dataset"/>
@@ -86,14 +95,5 @@
         <updated>2018-07-30T13:12:16.000Z</updated>
         <author><name>Max Roser</name></author>
         <summary>At Our World in Data we aim to bring together the empirical data and research to show how living conditions around the world are changing. Is that necessary?</summary>
-    </entry>
-<entry>
-        <title>Global education quality in 4 charts</title>
-    <id>https://ourworldindata.org/edu-quality-key-facts</id>
-        <link rel="alternate" href="https://ourworldindata.org/edu-quality-key-facts"/>
-        <published>2018-07-27T06:50:18.000Z</published>
-        <updated>2018-08-01T09:27:34.000Z</updated>
-        <author><name>Esteban Ortiz-Ospina</name></author>
-        <summary>Over the last century countries around the world have made huge progress in the expansion of schooling: While in 1870 there were just a few countries in which the average person had more than 4 years of education, today there are few countries in which the population has less education than that. This expansion continues until today – just in the last two decades the number of out-of-school children almost halved globally.</summary>
     </entry>
 </feed>
