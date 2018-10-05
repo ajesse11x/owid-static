@@ -16,15 +16,6 @@
         <summary>The Internet's history goes back some decades by now – email has been around since the 1960s, file sharing since at least the 1970s, and TCP/IP was standardized in 1982. But it was the creation of the world wide web in 1989 that revolutionized our history of communication. The inventor of the world wide web was the English scientist Tim Berners-Lee who created a system to share information through a network of computers. At the time he was working for the European physics laboratory CERN in the Swiss Alps.</summary>
     </entry>
 <entry>
-        <title>What were the world's deadliest earthquakes?</title>
-    <id>https://ourworldindata.org/the-worlds-deadliest-earthquakes</id>
-        <link rel="alternate" href="https://ourworldindata.org/the-worlds-deadliest-earthquakes"/>
-        <published>2018-10-02T15:34:57.000Z</published>
-        <updated>2018-10-05T10:22:08.000Z</updated>
-        <author><name>Hannah Ritchie</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on Natural Catastrophes.</summary>
-    </entry>
-<entry>
         <title>How urban is the world?</title>
     <id>https://ourworldindata.org/how-urban-is-the-world</id>
         <link rel="alternate" href="https://ourworldindata.org/how-urban-is-the-world"/>
@@ -95,5 +86,14 @@
         <updated>2018-08-10T08:14:58.000Z</updated>
         <author><name>Guest Post</name></author>
         <summary>This is a guest post by Franziska Funke1 and Linus Mattauch2.</summary>
+    </entry>
+<entry>
+        <title>Global data on taxes - the new OECD tax revenue database</title>
+    <id>https://ourworldindata.org/the-new-oecd-global-revenue-statistics-database</id>
+        <link rel="alternate" href="https://ourworldindata.org/the-new-oecd-global-revenue-statistics-database"/>
+        <published>2018-08-01T09:30:47.000Z</published>
+        <updated>2018-08-01T09:47:24.000Z</updated>
+        <author><name>Diana Beltekian</name></author>
+        <summary>In June this year, the OECD launched the Global Revenue Statistics Database (GRSD); a publicly available resource providing detailed and comparable tax revenue information for 80 countries around the world.1</summary>
     </entry>
 </feed>
