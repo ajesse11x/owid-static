@@ -2,9 +2,8 @@
 	the_post();
 
 	// Redirect from admin site for live urls
-	if (!is_preview() && strpos(get_the_permalink(), "https://owid.cloud") !== false) {
-		$url = str_replace("https://owid.cloud", "https://ourworldindata.org", get_the_permalink());
-		wp_redirect($url, 302);
+	if (!is_preview() && strpos($_SERVER['REQUEST_URI'], "https://owid.cloud") !== false) {
+		$url = str_replace("https://owid.cloud", "https://ourworldindata.org", $_SERVER['REQUEST_URI']);		wp_redirect($url, 302);
 		exit;
 	}
 
