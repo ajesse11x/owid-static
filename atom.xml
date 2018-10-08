@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-10-05T12:00:57.000Z</updated>
+    <updated>2018-10-08T11:59:30.000Z</updated>
     <entry>
+        <title>Twice as long – life expectancy around the world</title>
+    <id>https://ourworldindata.org/life-expectancy-globally</id>
+        <link rel="alternate" href="https://ourworldindata.org/life-expectancy-globally"/>
+        <published>2018-10-08T11:59:30.000Z</published>
+        <updated>2018-10-08T12:48:00.000Z</updated>
+        <author><name>Max Roser</name></author>
+        <summary>This blog post draws on data and research discussed in our entry on Life Expectancy.</summary>
+    </entry>
+<entry>
         <title>What were the world's deadliest earthquakes?</title>
     <id>https://ourworldindata.org/the-worlds-deadliest-earthquakes</id>
         <link rel="alternate" href="https://ourworldindata.org/the-worlds-deadliest-earthquakes"/>
@@ -86,14 +95,5 @@
         <updated>2018-10-06T13:56:59.000Z</updated>
         <author><name>Esteban Ortiz-Ospina</name></author>
         <summary>Over the last years we heard from many teachers and lecturers who use our work in their teaching, and in our recent survey we learned (here) more about what you need from us for teaching.</summary>
-    </entry>
-<entry>
-        <title>Why do women live longer than men?</title>
-    <id>https://ourworldindata.org/why-do-women-live-longer-than-men</id>
-        <link rel="alternate" href="https://ourworldindata.org/why-do-women-live-longer-than-men"/>
-        <published>2018-08-14T06:30:38.000Z</published>
-        <updated>2018-08-15T03:50:00.000Z</updated>
-        <author><name>Esteban Ortiz-Ospina</name></author><author><name>Diana Beltekian</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on Life Expectancy and Child Mortality.</summary>
     </entry>
 </feed>
