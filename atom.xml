@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-10-08T11:59:30.000Z</updated>
+    <updated>2018-10-16T12:50:00.000Z</updated>
     <entry>
+        <title>Income vs. population: how should we compare CO₂ emissions?</title>
+    <id>https://ourworldindata.org/co2-by-income-region</id>
+        <link rel="alternate" href="https://ourworldindata.org/co2-by-income-region"/>
+        <published>2018-10-16T12:50:00.000Z</published>
+        <updated>2018-10-16T12:51:24.000Z</updated>
+        <author><name>Hannah Ritchie</name></author>
+        <summary>This blog post draws on data and research discussed in our entry on CO2 and other Greenhouse Gas Emissions.</summary>
+    </entry>
+<entry>
         <title>Twice as long – life expectancy around the world</title>
     <id>https://ourworldindata.org/life-expectancy-globally</id>
         <link rel="alternate" href="https://ourworldindata.org/life-expectancy-globally"/>
@@ -86,14 +95,5 @@
         <updated>2018-09-28T03:35:09.000Z</updated>
         <author><name>Hannah Ritchie</name></author>
         <summary>This post draws on data and research discussed in our entry on Plastic Pollution.</summary>
-    </entry>
-<entry>
-        <title>New Teaching Notes from Our World in Data</title>
-    <id>https://ourworldindata.org/teaching-notes</id>
-        <link rel="alternate" href="https://ourworldindata.org/teaching-notes"/>
-        <published>2018-08-29T20:35:22.000Z</published>
-        <updated>2018-10-06T13:56:59.000Z</updated>
-        <author><name>Esteban Ortiz-Ospina</name></author>
-        <summary>Over the last years we heard from many teachers and lecturers who use our work in their teaching, and in our recent survey we learned (here) more about what you need from us for teaching.</summary>
     </entry>
 </feed>
