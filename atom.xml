@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-10-29T13:00:08.000Z</updated>
+    <updated>2018-10-31T13:42:44.000Z</updated>
     <entry>
+        <title>The world is much better; The world is awful; The world can be much better</title>
+    <id>https://ourworldindata.org/the-world-is-much-better-the-world-is-awful-the-world-can-be-much-better</id>
+        <link rel="alternate" href="https://ourworldindata.org/the-world-is-much-better-the-world-is-awful-the-world-can-be-much-better"/>
+        <published>2018-10-31T13:42:44.000Z</published>
+        <updated>2018-10-31T13:54:20.000Z</updated>
+        <author><name>Max Roser</name></author>
+        <summary>The world is much better. The world is awful. The world can be much better. All three statements are true.</summary>
+    </entry>
+<entry>
         <title>From commonplace to rarer tragedy - declining child mortality across the world</title>
     <id>https://ourworldindata.org/child-mortality-global-overview</id>
         <link rel="alternate" href="https://ourworldindata.org/child-mortality-global-overview"/>
@@ -86,14 +95,5 @@
         <updated>2018-10-22T16:44:15.000Z</updated>
         <author><name>Esteban Ortiz-Ospina</name></author>
         <summary>Job opportunity</summary>
-    </entry>
-<entry>
-        <title>The internet's history has just begun</title>
-    <id>https://ourworldindata.org/internet-history-just-begun</id>
-        <link rel="alternate" href="https://ourworldindata.org/internet-history-just-begun"/>
-        <published>2018-10-03T07:46:37.000Z</published>
-        <updated>2018-10-03T08:49:08.000Z</updated>
-        <author><name>Max Roser</name></author>
-        <summary>The Internet's history goes back some decades by now – email has been around since the 1960s, file sharing since at least the 1970s, and TCP/IP was standardized in 1982. But it was the creation of the world wide web in 1989 that revolutionized our history of communication. The inventor of the world wide web was the English scientist Tim Berners-Lee who created a system to share information through a network of computers. At the time he was working for the European physics laboratory CERN in the Swiss Alps.</summary>
     </entry>
 </feed>
