@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-10-31T01:42:44.000Z</updated>
+    <updated>2018-11-01T18:02:08.000Z</updated>
     <entry>
+        <title>We've updated our entry on Trade and Globalization</title>
+    <id>https://ourworldindata.org/weve-updated-our-entry-on-trade-and-globalization</id>
+        <link rel="alternate" href="https://ourworldindata.org/weve-updated-our-entry-on-trade-and-globalization"/>
+        <published>2018-11-01T18:02:08.000Z</published>
+        <updated>2018-11-01T23:17:40.000Z</updated>
+        <author><name>Esteban Ortiz-Ospina</name></author>
+        <summary>Over the last couple of months we have been expanding and updating our entry on international trade and globalization. The new version is here: OurWorldInData.org/trade-and-globalization </summary>
+    </entry>
+<entry>
         <title>The world is much better; The world is awful; The world can be much better</title>
     <id>https://ourworldindata.org/much-better-awful-can-be-better</id>
         <link rel="alternate" href="https://ourworldindata.org/much-better-awful-can-be-better"/>
@@ -86,14 +95,5 @@
         <updated>2018-10-05T12:27:50.000Z</updated>
         <author><name>Hannah Ritchie</name></author>
         <summary>This blog post draws on data and research discussed in our entry on Natural Catastrophes.</summary>
-    </entry>
-<entry>
-        <title>Do you want to work with us and write for Our World in Data? Here's how you can apply!</title>
-    <id>https://ourworldindata.org/researchers-join-us</id>
-        <link rel="alternate" href="https://ourworldindata.org/researchers-join-us"/>
-        <published>2018-10-05T09:14:52.000Z</published>
-        <updated>2018-10-22T16:44:15.000Z</updated>
-        <author><name>Esteban Ortiz-Ospina</name></author>
-        <summary>Job opportunity</summary>
     </entry>
 </feed>
