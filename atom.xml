@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-11-01T18:02:08.000Z</updated>
+    <updated>2018-11-05T14:30:50.000Z</updated>
     <entry>
+        <title>What makes a disease eradicable?</title>
+    <id>https://ourworldindata.org/what-makes-a-disease-eradicable</id>
+        <link rel="alternate" href="https://ourworldindata.org/what-makes-a-disease-eradicable"/>
+        <published>2018-11-05T14:30:50.000Z</published>
+        <updated>2018-11-05T14:38:33.000Z</updated>
+        <author><name>Sophie Ochmann</name></author>
+        <summary>This blog post draws on data and research discussed in our entry on the Eradication of Diseases.</summary>
+    </entry>
+<entry>
         <title>We've updated our entry on Trade and Globalization</title>
     <id>https://ourworldindata.org/weve-updated-our-entry-on-trade-and-globalization</id>
         <link rel="alternate" href="https://ourworldindata.org/weve-updated-our-entry-on-trade-and-globalization"/>
@@ -86,14 +95,5 @@
         <updated>2018-10-08T12:48:39.000Z</updated>
         <author><name>Max Roser</name></author>
         <summary>This blog post draws on data and research discussed in our entry on Life Expectancy.</summary>
-    </entry>
-<entry>
-        <title>What were the world's deadliest earthquakes?</title>
-    <id>https://ourworldindata.org/the-worlds-deadliest-earthquakes</id>
-        <link rel="alternate" href="https://ourworldindata.org/the-worlds-deadliest-earthquakes"/>
-        <published>2018-10-05T12:00:57.000Z</published>
-        <updated>2018-10-05T12:27:50.000Z</updated>
-        <author><name>Hannah Ritchie</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on Natural Catastrophes.</summary>
     </entry>
 </feed>
