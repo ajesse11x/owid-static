@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2018-11-05T14:30:50.000Z</updated>
+    <updated>2018-11-08T10:12:54.000Z</updated>
     <entry>
+        <title>Can the world eradicate another disease?</title>
+    <id>https://ourworldindata.org/can-the-world-eradicate-another-disease</id>
+        <link rel="alternate" href="https://ourworldindata.org/can-the-world-eradicate-another-disease"/>
+        <published>2018-11-08T10:12:54.000Z</published>
+        <updated>2018-11-08T14:37:26.000Z</updated>
+        <author><name>Sophie Ochmann</name></author>
+        <summary>This blog post draws on data and research discussed in our entry on the Eradication of Diseases.</summary>
+    </entry>
+<entry>
         <title>What makes a disease eradicable?</title>
     <id>https://ourworldindata.org/what-makes-a-disease-eradicable</id>
         <link rel="alternate" href="https://ourworldindata.org/what-makes-a-disease-eradicable"/>
@@ -86,14 +95,5 @@
         <updated>2018-10-17T08:30:28.000Z</updated>
         <author><name>Hannah Ritchie</name></author>
         <summary>This blog post draws on data and research discussed in our entry on CO2 and other Greenhouse Gas Emissions.</summary>
-    </entry>
-<entry>
-        <title>Twice as long – life expectancy around the world</title>
-    <id>https://ourworldindata.org/life-expectancy-globally</id>
-        <link rel="alternate" href="https://ourworldindata.org/life-expectancy-globally"/>
-        <published>2018-10-08T11:59:30.000Z</published>
-        <updated>2018-10-08T12:48:39.000Z</updated>
-        <author><name>Max Roser</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on Life Expectancy.</summary>
     </entry>
 </feed>
