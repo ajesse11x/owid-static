@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-12-14 14:17:29+0000\n"
+"PO-Revision-Date: 2018-12-28 17:11:33+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3037,10 +3037,6 @@ msgstr "Beitrag bearbeiten"
 #: wp-includes/revision.php:35
 msgid "Content"
 msgstr "Inhalt"
-
-#: wp-includes/media.php:3495 wp-includes/media.php:3516
-msgid "Add Media"
-msgstr "Medien hinzufügen"
 
 #: wp-includes/script-loader.php:706 wp-includes/post.php:748
 #: wp-includes/post.php:768
@@ -6575,6 +6571,10 @@ msgstr "Der aktuelle Benutzer kann Begriffe in der Taxonomie %s zuordnen."
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2222
 msgid "The current user can create terms in the %s taxonomy."
 msgstr "Der aktuelle Benutzer kann Begriffe in der Taxonomie %s erstellen."
+
+#: wp-includes/media.php:3495 wp-includes/media.php:3516
+msgid "Add Media"
+msgstr "Dateien hinzufügen"
 
 #: wp-includes/comment-template.php:1082 wp-includes/comment-template.php:2231
 msgctxt "noun"
