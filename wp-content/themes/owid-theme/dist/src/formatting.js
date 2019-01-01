@@ -14,8 +14,8 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     function step(op) {
         if (f) throw new TypeError("Generator is already executing.");
         while (_) try {
-            if (f = 1, y && (t = y[op[0] & 2 ? "return" : op[0] ? "throw" : "next"]) && !(t = t.call(y, op[1])).done) return t;
-            if (y = 0, t) op = [0, t.value];
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
             switch (op[0]) {
                 case 0: case 1: t = op; break;
                 case 4: _.label++; return { value: op[1], done: false };
@@ -57,7 +57,9 @@ function romanize(num) {
     return Array(+digits.join("") + 1).join("M") + roman;
 }
 mjAPI.config({
-    MathJax: {}
+    MathJax: {
+    // traditional MathJax configuration
+    }
 });
 mjAPI.start();
 function extractLatex(html) {
@@ -70,7 +72,7 @@ function extractLatex(html) {
 }
 function formatLatex(html, latexBlocks) {
     return __awaiter(this, void 0, void 0, function () {
-        var compiled, _i, latexBlocks_1, latex, result, err_1, i, _a;
+        var _a, compiled, _i, latexBlocks_1, latex, result, err_1, i;
         return __generator(this, function (_b) {
             switch (_b.label) {
                 case 0:
@@ -109,7 +111,7 @@ function formatLatex(html, latexBlocks) {
 }
 function formatWordpressPost(post, html, grapherExports) {
     return __awaiter(this, void 0, void 0, function () {
-        var latexBlocks, footnotes, tables, $, sectionStarts, _i, sectionStarts_1, start, $start, $contents, $wrapNode, grapherIframes, _a, grapherIframes_1, el, src, chart, output, $p, _b, _c, iframe, _d, _e, p, $p, _f, _g, table, $table, $div, uploadDex, _h, _j, el, $el, src, upload, $a, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings, _k;
+        var _a, latexBlocks, footnotes, tables, $, sectionStarts, _i, sectionStarts_1, start, $start, $contents, $wrapNode, grapherIframes, _b, grapherIframes_1, el, src, chart, output, $p, _c, _d, iframe, _e, _f, p, $p, _g, _h, table, $table, $div, uploadDex, _j, _k, el, $el, src, upload, $a, hasToc, openHeadingIndex, openSubheadingIndex, tocHeadings;
         return __generator(this, function (_l) {
             switch (_l.label) {
                 case 0:
@@ -117,7 +119,7 @@ function formatWordpressPost(post, html, grapherExports) {
                     html = html.replace(/<!--[^>]+-->/g, "");
                     // Standardize spacing
                     html = html.replace(/&nbsp;/g, "").replace(/\r\n/g, "\n").replace(/\n+/g, "\n").replace(/\n/g, "\n\n");
-                    _k = extractLatex(html), html = _k[0], latexBlocks = _k[1];
+                    _a = extractLatex(html), html = _a[0], latexBlocks = _a[1];
                     // Replicate wordpress formatting (thank gods there's an npm package)
                     html = wpautop(html);
                     return [4 /*yield*/, formatLatex(html, latexBlocks)
@@ -159,8 +161,8 @@ function formatWordpressPost(post, html, grapherExports) {
                     // Replace grapher iframes with static previews
                     if (grapherExports) {
                         grapherIframes = $("iframe").toArray().filter(function (el) { return (el.attribs['src'] || '').match(/\/grapher\//); });
-                        for (_a = 0, grapherIframes_1 = grapherIframes; _a < grapherIframes_1.length; _a++) {
-                            el = grapherIframes_1[_a];
+                        for (_b = 0, grapherIframes_1 = grapherIframes; _b < grapherIframes_1.length; _b++) {
+                            el = grapherIframes_1[_b];
                             src = el.attribs['src'];
                             chart = grapherExports.get(src);
                             if (chart) {
@@ -173,21 +175,21 @@ function formatWordpressPost(post, html, grapherExports) {
                     }
                     // Any remaining iframes: ensure https embeds
                     if (settings_1.HTTPS_ONLY) {
-                        for (_b = 0, _c = $("iframe").toArray(); _b < _c.length; _b++) {
-                            iframe = _c[_b];
+                        for (_c = 0, _d = $("iframe").toArray(); _c < _d.length; _c++) {
+                            iframe = _d[_c];
                             iframe.attribs['src'] = iframe.attribs['src'].replace("http://", "https://");
                         }
                     }
                     // Remove any empty elements
-                    for (_d = 0, _e = $("p").toArray(); _d < _e.length; _d++) {
-                        p = _e[_d];
+                    for (_e = 0, _f = $("p").toArray(); _e < _f.length; _e++) {
+                        p = _f[_e];
                         $p = $(p);
                         if ($p.contents().length === 0)
                             $p.remove();
                     }
                     // Wrap tables so we can do overflow-x: scroll if needed
-                    for (_f = 0, _g = $("table").toArray(); _f < _g.length; _f++) {
-                        table = _g[_f];
+                    for (_g = 0, _h = $("table").toArray(); _g < _h.length; _g++) {
+                        table = _h[_g];
                         $table = $(table);
                         $div = $("<div class='tableContainer'></div>");
                         $table.after($div);
@@ -196,8 +198,8 @@ function formatWordpressPost(post, html, grapherExports) {
                     return [4 /*yield*/, wpdb_1.getUploadedImages()];
                 case 3:
                     uploadDex = _l.sent();
-                    for (_h = 0, _j = $("img").toArray(); _h < _j.length; _h++) {
-                        el = _j[_h];
+                    for (_j = 0, _k = $("img").toArray(); _j < _k.length; _j++) {
+                        el = _k[_j];
                         $el = $(el);
                         // Open full-size image in new tab
                         if (el.parent.tagName === "a") {
