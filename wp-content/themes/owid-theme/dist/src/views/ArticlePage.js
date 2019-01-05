@@ -3,10 +3,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var settings_1 = require("../settings");
 var React = require("react");
 var Head_1 = require("./Head");
+var CitationMeta_1 = require("./CitationMeta");
 var SiteHeader_1 = require("./SiteHeader");
 var SiteFooter_1 = require("./SiteFooter");
 var formatting_1 = require("../formatting");
 var urlSlug = require('url-slug');
+var _ = require("lodash");
 exports.ArticlePage = function (props) {
     var entries = props.entries, post = props.post;
     var authorsText = formatting_1.formatAuthors(post.authors, true);
@@ -14,8 +16,10 @@ exports.ArticlePage = function (props) {
     var canonicalUrl = settings_1.BAKED_URL + "/" + post.slug;
     var pageDesc = post.excerpt;
     var publishedYear = post.modifiedDate.getFullYear();
+    var allEntries = _.flatten(_.values(entries).map(function (c) { return c.entries; }));
+    var isEntry = _.includes(allEntries.map(function (e) { return e.slug; }), post.slug);
     return React.createElement("html", null,
-        React.createElement(Head_1.Head, { pageTitle: pageTitle, pageDesc: pageDesc, canonicalUrl: canonicalUrl, imageUrl: post.imageUrl }),
+        React.createElement(Head_1.Head, { pageTitle: pageTitle, pageDesc: pageDesc, canonicalUrl: canonicalUrl, imageUrl: post.imageUrl }, isEntry && React.createElement(CitationMeta_1.CitationMeta, { title: pageTitle, authors: post.authors, date: post.modifiedDate })),
         React.createElement("body", null,
             React.createElement(SiteHeader_1.SiteHeader, { entries: entries, activeSlug: post.slug }),
             React.createElement("main", null,
@@ -23,8 +27,8 @@ exports.ArticlePage = function (props) {
                     post.tocHeadings.length > 0 && React.createElement("div", { className: "entry-sidebar" },
                         React.createElement("nav", { className: "entry-toc" },
                             React.createElement("h3", null, "Contents"),
-                            React.createElement("ol", null, post.tocHeadings.map(function (heading) {
-                                return React.createElement("li", { className: heading.isSubheading ? "subsection" : "section" },
+                            React.createElement("ol", null, post.tocHeadings.map(function (heading, i) {
+                                return React.createElement("li", { key: i, className: heading.isSubheading ? "subsection" : "section" },
                                     React.createElement("a", { href: "#" + heading.slug }, heading.text));
                             })))),
                     React.createElement("article", { className: "page" },
@@ -54,7 +58,7 @@ exports.ArticlePage = function (props) {
                         post.footnotes.length > 0 && React.createElement("footer", { className: "article-footer" },
                             React.createElement("h3", { id: "footnotes" }, "Footnotes"),
                             React.createElement("ol", { className: "footnotes" }, post.footnotes.map(function (footnote, i) {
-                                return React.createElement("li", { id: "note-" + (i + 1) },
+                                return React.createElement("li", { key: "note-" + (i + 1), id: "note-" + (i + 1) },
                                     React.createElement("p", { dangerouslySetInnerHTML: { __html: footnote } }));
                             })))))),
             React.createElement("div", { id: "wpadminbar", style: { display: 'none' } },
