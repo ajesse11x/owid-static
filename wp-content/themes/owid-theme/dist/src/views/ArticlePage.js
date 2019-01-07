@@ -10,7 +10,7 @@ var formatting_1 = require("../formatting");
 var urlSlug = require('url-slug');
 var _ = require("lodash");
 exports.ArticlePage = function (props) {
-    var entries = props.entries, post = props.post;
+    var entries = props.entries, post = props.post, formattingOptions = props.formattingOptions;
     var authorsText = formatting_1.formatAuthors(post.authors, true);
     var pageTitle = post.title;
     var canonicalUrl = settings_1.BAKED_URL + "/" + post.slug;
@@ -20,7 +20,7 @@ exports.ArticlePage = function (props) {
     var isEntry = _.includes(allEntries.map(function (e) { return e.slug; }), post.slug);
     return React.createElement("html", null,
         React.createElement(Head_1.Head, { pageTitle: pageTitle, pageDesc: pageDesc, canonicalUrl: canonicalUrl, imageUrl: post.imageUrl }, isEntry && React.createElement(CitationMeta_1.CitationMeta, { title: pageTitle, authors: post.authors, date: post.modifiedDate })),
-        React.createElement("body", null,
+        React.createElement("body", { className: formattingOptions.bodyClassName || "" },
             React.createElement(SiteHeader_1.SiteHeader, { entries: entries, activeSlug: post.slug }),
             React.createElement("main", null,
                 React.createElement("div", { className: "clearfix" + (post.tocHeadings.length > 0 ? " page-with-sidebar" : "") },

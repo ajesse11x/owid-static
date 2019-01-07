@@ -34,6 +34,8 @@ exports.SiteHeader = function (props) {
                 React.createElement("li", null,
                     React.createElement("a", { href: "/about" }, "About")),
                 React.createElement("li", null,
+                    React.createElement("a", { href: "/teaching" }, "Teaching")),
+                React.createElement("li", null,
                     React.createElement("a", { href: "/support" }, "Donate"))),
             React.createElement("ul", { className: "mobile" },
                 React.createElement("li", { className: "nav-button" },
