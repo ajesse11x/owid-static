@@ -277,7 +277,7 @@ address a:hover {
 }
 
 /* Site Header - Desktop */
-@media only screen and (min-width: 920px) {
+@media only screen and (min-width: 1060px) {
 	.SiteHeader .mobile {
 		display: none;
 	}
@@ -425,7 +425,7 @@ address a:hover {
 
 /* Site Header - Mobile */
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 1060px) {
 	.SiteHeader .desktop {
 		display: none;
 	}
@@ -1051,19 +1051,19 @@ span.star, .owid-data a.starred:after {
 	padding-right: 5px;
 }
 
+@mixin owid-link {
+	color: #3366cc;
+	&:visited {
+		color: #5a3696;
+	}
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
 .article-content a,
 .article-footer a {
-	color: #3366cc;
-}
-
-.article-content a:visited ,
-.article-footer a:visited {
-	color: #5a3696;
-}
-
-.article-content a:hover,
-.article-footer a:hover {
-	text-decoration: underline;
+	@include owid-link; 
 }
 
 /* Homepage
@@ -2359,7 +2359,7 @@ a.ref sup {
 
 /* Hide feedback button on mobile */
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 1060px) {
 	#un-button {
 		display: none !important;
 	}
@@ -2406,6 +2406,48 @@ html:not(.js) {
 	}
 }
 
+.ChartsIndexPage main {
+	padding: 0 3vw;
+	margin-bottom: 100px;
 
-/* SDGs */
+	.chartsHeader {
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
 
+	input[type=search] {
+		width: 100%;
+		padding: 10px;
+	}
+
+	h2 {
+		font-size: 0.9em;
+		color: #444;
+		margin-top: 1.1em;
+		margin-bottom: 0.1em;
+	}
+
+    ul {
+        display: flex;
+		flex-wrap: wrap;
+    }
+
+    ul > li {
+        list-style-type: none;
+		flex: 1 1 400px;
+		padding: 0.1em 0;
+		padding-right: 0.1em;
+		font-size: 0.8em;
+	}
+
+	/* Make the ending lines look nice */
+	/* https://stackoverflow.com/questions/18744164/flex-box-align-last-row-to-grid */
+	ul::after {
+		content: "";
+		flex: 1 0 400px;
+	}
+
+	a {
+	    @include owid-link;
+	}
+}
