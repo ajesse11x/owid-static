@@ -1,8 +1,8 @@
 /.well-known/* https://owid.cloud/.well-known/:splat 200
 /feed /atom.xml 302
-/wp-admin/* https://owid.cloud/wp-admin/:splat 302
-/wp-login.php https://owid.cloud/wp-login.php 302
-/grapher/admin/* https://owid.cloud/grapher/admin/:splat 302
+/wp-admin/* https://owid.cloud/wp-admin/:splat 301
+/wp-login.php https://owid.cloud/wp-login.php 301
+/grapher/admin/* https://owid.cloud/grapher/admin/:splat 301
 /roser/* https://www.maxroser.com/roser/:splat 302
 /wp-content/uploads/nvd3/* https://www.maxroser.com/owidUploads/nvd3/:splat 302
 /wp-content/uploads/datamaps/* https://www.maxroser.com/owidUploads/datamaps/:splat 302

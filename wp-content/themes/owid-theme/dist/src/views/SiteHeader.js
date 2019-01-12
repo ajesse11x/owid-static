@@ -62,6 +62,8 @@ exports.SiteHeader = function (props) {
                             }))));
                 }),
                 React.createElement("li", { className: "end-link" },
+                    React.createElement("a", { href: "/charts" }, "Charts")),
+                React.createElement("li", { className: "end-link" },
                     React.createElement("a", { href: "https://sdg-tracker.org" }, "SDGs")),
                 React.createElement("li", { className: "end-link" },
                     React.createElement("a", { href: "/blog" }, "Blog")),
