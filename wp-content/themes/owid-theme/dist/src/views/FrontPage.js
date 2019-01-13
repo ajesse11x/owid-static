@@ -71,10 +71,7 @@ exports.FrontPage = function (props) {
                             React.createElement("a", { href: "https://www.facebook.com/OurWorldinData" },
                                 React.createElement("i", { className: "fac fac-facebook" })),
                             React.createElement("a", { href: "/feed/" },
-                                React.createElement("i", { className: "fac fac-feed" }))),
-                        React.createElement("a", { className: "twitter-timeline", "data-height": "600", href: "https://twitter.com/MaxCRoser" }, "Tweets by MaxCRoser"),
-                        " ",
-                        React.createElement("script", { async: true, src: "//platform.twitter.com/widgets.js" })))),
+                                React.createElement("i", { className: "fac fac-feed" })))))),
             React.createElement(SiteFooter_1.SiteFooter, null)));
 };
 //# sourceMappingURL=FrontPage.js.map
