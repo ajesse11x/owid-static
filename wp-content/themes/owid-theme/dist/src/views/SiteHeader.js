@@ -1,26 +1,35 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
-var _ = require("lodash");
 var free_solid_svg_icons_1 = require("@fortawesome/free-solid-svg-icons");
 var react_fontawesome_1 = require("@fortawesome/react-fontawesome");
-// XXX this menu is pretty old and should be redone at some stage
-exports.SiteHeader = function (props) {
-    var entries = props.entries;
-    var activeCategories = [];
-    var activeEntry = undefined;
-    for (var _i = 0, entries_1 = entries; _i < entries_1.length; _i++) {
-        var category = entries_1[_i];
-        for (var _a = 0, _b = category.entries; _a < _b.length; _a++) {
-            var entry = _b[_a];
-            if (entry.slug === props.activeSlug) {
-                activeCategories.push(category);
-                if (!activeEntry)
-                    activeEntry = entry;
-            }
-        }
-    }
-    var mainCategory = activeCategories[0];
+var entities_1 = require("entities");
+var slugify = require('slugify');
+exports.SiteHeader = function () {
+    var categoryOrder = [
+        "Population",
+        "Health",
+        "Food",
+        "Energy",
+        "Environment",
+        "Technology",
+        "Growth &amp; Inequality",
+        "Work &amp; Life",
+        "Public Sector",
+        "Global Connections",
+        "War &amp; Peace",
+        "Politics",
+        "Violence &amp; Rights",
+        "Education",
+        "Media",
+        "Culture"
+    ];
+    var categories = categoryOrder.map(function (cat) {
+        return {
+            name: entities_1.decodeHTML(cat),
+            slug: slugify(entities_1.decodeHTML(cat).toLowerCase())
+        };
+    });
     return React.createElement("header", { className: "SiteHeader" },
         React.createElement("nav", { id: "owid-topbar" },
             React.createElement("a", { className: "logo", href: "/" }, "Our World in Data"),
@@ -43,63 +52,16 @@ exports.SiteHeader = function (props) {
                     React.createElement("a", { href: "/support" }, "Donate"))),
             React.createElement("ul", { className: "mobile" },
                 React.createElement("li", { className: "nav-button" },
-                    React.createElement("a", { href: "https://google.com/search?q=site:ourworldindata.org", "data-expand": "#search-dropdown" },
+                    React.createElement("a", { "data-expand": "#search-dropdown" },
                         React.createElement(react_fontawesome_1.FontAwesomeIcon, { icon: free_solid_svg_icons_1.faSearch }))),
                 React.createElement("li", { className: "nav-button" },
-                    React.createElement("a", { href: "/", "data-expand": "#topics-dropdown", className: 'mobile' },
+                    React.createElement("a", { "data-expand": "#topics-dropdown", className: 'mobile' },
                         React.createElement(react_fontawesome_1.FontAwesomeIcon, { icon: free_solid_svg_icons_1.faBars }))))),
-        React.createElement("div", { id: "topics-dropdown", className: "mobile" },
-            React.createElement("ul", null,
-                React.createElement("li", { className: "header" },
-                    React.createElement("h2", null, "Entries")),
-                entries.map(function (category) {
-                    return React.createElement("li", { key: category.slug, className: "category" },
-                        React.createElement("a", { href: "/#" + category.slug },
-                            React.createElement("span", null, category.name)),
-                        React.createElement("div", { className: "subcategory-menu" },
-                            React.createElement("div", { className: "submenu-title" }, category.name),
-                            React.createElement("ul", null, category.entries.map(function (entry) {
-                                return React.createElement("li", { key: entry.slug },
-                                    React.createElement("a", { className: entry.starred ? "starred" : undefined, title: entry.starred ? "Starred pages are our best and most complete entries." : undefined, href: "/" + entry.slug }, entry.title));
-                            }))));
-                }),
-                React.createElement("li", { className: "end-link" },
-                    React.createElement("a", { href: "/charts" }, "Charts")),
-                React.createElement("li", { className: "end-link" },
-                    React.createElement("a", { href: "https://sdg-tracker.org" }, "SDGs")),
-                React.createElement("li", { className: "end-link" },
-                    React.createElement("a", { href: "/blog" }, "Blog")),
-                React.createElement("li", { className: 'end-link' },
-                    React.createElement("a", { href: '/about' }, "About")),
-                React.createElement("li", { className: 'end-link' },
-                    React.createElement("a", { href: '/teaching' }, "Teaching")),
-                React.createElement("li", { className: 'end-link' },
-                    React.createElement("a", { href: '/support' }, "Donate")))),
-        React.createElement("div", { id: "search-dropdown", className: "mobile" },
-            React.createElement("form", { id: "search-nav", action: "https://google.com/search", method: "GET" },
-                React.createElement("input", { type: "hidden", name: "sitesearch", value: "ourworldindata.org" }),
-                React.createElement("input", { type: "search", name: "q", placeholder: "Search..." }))),
         React.createElement("div", { id: "category-nav", className: "desktop" },
-            React.createElement("ul", null, entries.map(function (category) {
-                return React.createElement("li", { key: category.slug, className: "category" + (_.includes(activeCategories, category) ? " active" : ""), title: category.name },
+            React.createElement("ul", null, categories.map(function (category) {
+                return React.createElement("li", { key: category.slug, className: "category", title: category.name },
                     React.createElement("a", { href: "/#" + category.slug },
-                        React.createElement("span", null, category.name)),
-                    React.createElement("ul", { className: "entries" },
-                        React.createElement("li", null,
-                            React.createElement("hr", null)),
-                        category.entries.map(function (entry) {
-                            return React.createElement("li", { key: entry.slug },
-                                React.createElement("a", { className: entry.starred ? "starred" : undefined, title: entry.starred ? "Starred pages are our best and most complete entries." : undefined, href: "/" + entry.slug }, entry.title));
-                        })));
-            }))),
-        React.createElement("div", { id: "entries-nav", className: "desktop" }, mainCategory && [
-            React.createElement("li", { key: 0 },
-                React.createElement("hr", null)),
-            mainCategory.entries.map(function (entry) {
-                var classes = [];
-                return React.createElement("li", { key: entry.slug, className: entry === activeEntry ? "active" : undefined },
-                    React.createElement("a", { className: entry.starred ? "starred" : undefined, title: entry.starred ? "Starred pages are our best and most complete entries." : undefined, href: "/" + entry.slug }, entry.title));
-            })
-        ]));
+                        React.createElement("span", null, category.name)));
+            }))));
 };
 //# sourceMappingURL=SiteHeader.js.map

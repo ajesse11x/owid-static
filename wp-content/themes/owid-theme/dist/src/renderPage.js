@@ -61,17 +61,14 @@ function renderToHtmlPage(element) {
 exports.renderToHtmlPage = renderToHtmlPage;
 function renderChartsPage() {
     return __awaiter(this, void 0, void 0, function () {
-        var entries, chartItems, chartTags, _i, chartItems_1, c, chartsById, _a, chartTags_1, ct, c;
+        var chartItems, chartTags, _i, chartItems_1, c, chartsById, _a, chartTags_1, ct, c;
         return __generator(this, function (_b) {
             switch (_b.label) {
-                case 0: return [4 /*yield*/, wpdb.getEntriesByCategory()];
+                case 0: return [4 /*yield*/, grapherDb.query("SELECT id, config->>\"$.slug\" AS slug, config->>\"$.title\" AS title FROM charts")];
                 case 1:
-                    entries = _b.sent();
-                    return [4 /*yield*/, grapherDb.query("SELECT id, config->>\"$.slug\" AS slug, config->>\"$.title\" AS title FROM charts")];
-                case 2:
                     chartItems = _b.sent();
                     return [4 /*yield*/, grapherDb.query("\n        SELECT ct.chartId, ct.tagId, t.name as tagName, t.parentId as tagParentId FROM chart_tags ct\n        JOIN charts c ON c.id=ct.chartId\n        JOIN tags t ON t.id=ct.tagId\n    ")];
-                case 3:
+                case 2:
                     chartTags = _b.sent();
                     for (_i = 0, chartItems_1 = chartItems; _i < chartItems_1.length; _i++) {
                         c = chartItems_1[_i];
@@ -87,7 +84,7 @@ function renderChartsPage() {
                         if (c)
                             c.tags.push({ id: ct.tagId, name: ct.tagName });
                     }
-                    return [2 /*return*/, renderToHtmlPage(React.createElement(ChartsIndexPage_1.ChartsIndexPage, { entries: entries, chartItems: chartItems }))];
+                    return [2 /*return*/, renderToHtmlPage(React.createElement(ChartsIndexPage_1.ChartsIndexPage, { chartItems: chartItems }))];
             }
         });
     });
@@ -128,6 +125,20 @@ function renderPageById(id, isPreview) {
     });
 }
 exports.renderPageById = renderPageById;
+function renderMenuJson() {
+    return __awaiter(this, void 0, void 0, function () {
+        var categories;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, wpdb.getEntriesByCategory()];
+                case 1:
+                    categories = _a.sent();
+                    return [2 /*return*/, JSON.stringify({ categories: categories })];
+            }
+        });
+    });
+}
+exports.renderMenuJson = renderMenuJson;
 function renderPage(postRow) {
     return __awaiter(this, void 0, void 0, function () {
         var post, entries, $, grapherUrls, exportsByUrl, formattingOptions, formatted;
@@ -154,7 +165,7 @@ function renderPage(postRow) {
                 case 5:
                     formatted = _a.sent();
                     if (postRow.post_type === 'post')
-                        return [2 /*return*/, renderToHtmlPage(React.createElement(BlogPostPage_1.BlogPostPage, { entries: entries, post: formatted, formattingOptions: formattingOptions }))];
+                        return [2 /*return*/, renderToHtmlPage(React.createElement(BlogPostPage_1.BlogPostPage, { post: formatted, formattingOptions: formattingOptions }))];
                     else
                         return [2 /*return*/, renderToHtmlPage(React.createElement(ArticlePage_1.ArticlePage, { entries: entries, post: formatted, formattingOptions: formattingOptions }))];
                     return [2 /*return*/];
@@ -199,7 +210,7 @@ function renderSubscribePage() {
 exports.renderSubscribePage = renderSubscribePage;
 function renderBlogByPageNum(pageNum) {
     return __awaiter(this, void 0, void 0, function () {
-        var postsPerPage, allPosts, numPages, posts, _i, posts_1, post, pathname, paths, sortedPaths, entries;
+        var postsPerPage, allPosts, numPages, posts, _i, posts_1, post, pathname, paths, sortedPaths;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
@@ -225,10 +236,7 @@ function renderBlogByPageNum(pageNum) {
                             }
                         }
                     }
-                    return [4 /*yield*/, wpdb.getEntriesByCategory()];
-                case 2:
-                    entries = _a.sent();
-                    return [2 /*return*/, renderToHtmlPage(React.createElement(BlogIndexPage_1.BlogIndexPage, { entries: entries, posts: posts, pageNum: pageNum, numPages: numPages }))];
+                    return [2 /*return*/, renderToHtmlPage(React.createElement(BlogIndexPage_1.BlogIndexPage, { posts: posts, pageNum: pageNum, numPages: numPages }))];
             }
         });
     });
