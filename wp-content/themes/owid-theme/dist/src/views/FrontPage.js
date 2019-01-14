@@ -42,7 +42,7 @@ exports.FrontPage = function (props) {
                     React.createElement("div", { id: "homepage-latest" },
                         React.createElement("h3", null,
                             React.createElement("a", { href: "/grapher/latest" }, "Latest Visualization")),
-                        React.createElement("iframe", { src: "/grapher/latest", width: "100%", height: "660px" })),
+                        React.createElement("figure", { "data-grapher-src": "https://ourworldindata.org/grapher/latest", style: { height: "660px" } })),
                     React.createElement("div", { id: "homepage-blog" },
                         React.createElement("h3", null,
                             React.createElement("a", { href: "/blog" }, "Blog")),
