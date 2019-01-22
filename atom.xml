@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2019-01-22T05:00:24.000Z</updated>
+    <updated>2019-01-22T20:19:33.000Z</updated>
     <entry>
+        <title>We are looking for a short-term designer to redesign our site</title>
+    <id>https://ourworldindata.org/designer-needed</id>
+        <link rel="alternate" href="https://ourworldindata.org/designer-needed"/>
+        <published>2019-01-22T20:19:33.000Z</published>
+        <updated>2019-01-22T23:30:19.000Z</updated>
+        <author><name>Daniel Gavrilov</name></author><author><name>Max Roser</name></author><author><name>Jaiden Mispy</name></author>
+        <summary>For years we focused on research, our database, and our visualization tool and we haven't thought much about design and usability. This needs to change and over the last weeks Daniel and Jaiden – our two web developers in the team – together with the rest of the team have made our plans for how to restructure our content and discussed what our redesign should achieve. But we are not designers and this is why we are reaching out.</summary>
+    </entry>
+<entry>
         <title>How many internet users does each country have?</title>
     <id>https://ourworldindata.org/how-many-internet-users-does-each-country-have</id>
         <link rel="alternate" href="https://ourworldindata.org/how-many-internet-users-does-each-country-have"/>
@@ -86,14 +95,5 @@
         <updated>2019-01-22T19:30:43.000Z</updated>
         <author><name>Sophie Ochmann</name></author>
         <summary>This blog post draws on data and research discussed in our entry on the Eradication of Diseases.</summary>
-    </entry>
-<entry>
-        <title>We've updated our entry on Trade and Globalization</title>
-    <id>https://ourworldindata.org/weve-updated-our-entry-on-trade-and-globalization</id>
-        <link rel="alternate" href="https://ourworldindata.org/weve-updated-our-entry-on-trade-and-globalization"/>
-        <published>2018-11-01T18:02:08.000Z</published>
-        <updated>2019-01-22T17:52:43.000Z</updated>
-        <author><name>Esteban Ortiz-Ospina</name></author>
-        <summary>Over the last couple of months we have been expanding and updating our entry on international trade and globalization. The new version is here: OurWorldInData.org/trade-and-globalization </summary>
     </entry>
 </feed>
