@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2019-01-21T05:05:51.000Z</updated>
+    <updated>2019-01-22T05:00:24.000Z</updated>
     <entry>
+        <title>How many internet users does each country have?</title>
+    <id>https://ourworldindata.org/how-many-internet-users-does-each-country-have</id>
+        <link rel="alternate" href="https://ourworldindata.org/how-many-internet-users-does-each-country-have"/>
+        <published>2019-01-22T05:00:24.000Z</published>
+        <updated>2019-01-21T17:44:37.000Z</updated>
+        <author><name>Hannah Ritchie</name></author>
+        <summary>This blog post draws on data and research discussed in our entry on the Internet.</summary>
+    </entry>
+<entry>
         <title>The number of children dying each year has more than halved since 1990</title>
     <id>https://ourworldindata.org/global-child-deaths-have-halved-since-1990</id>
         <link rel="alternate" href="https://ourworldindata.org/global-child-deaths-have-halved-since-1990"/>
@@ -86,14 +95,5 @@
         <updated>2018-11-01T23:17:40.000Z</updated>
         <author><name>Esteban Ortiz-Ospina</name></author>
         <summary>Over the last couple of months we have been expanding and updating our entry on international trade and globalization. The new version is here: OurWorldInData.org/trade-and-globalization </summary>
-    </entry>
-<entry>
-        <title>The world is much better; The world is awful; The world can be much better</title>
-    <id>https://ourworldindata.org/much-better-awful-can-be-better</id>
-        <link rel="alternate" href="https://ourworldindata.org/much-better-awful-can-be-better"/>
-        <published>2018-10-31T01:42:44.000Z</published>
-        <updated>2018-10-31T20:55:10.000Z</updated>
-        <author><name>Max Roser</name></author>
-        <summary>The world is much better. The world is awful. The world can be much better. All three statements are true.</summary>
     </entry>
 </feed>
