@@ -5,17 +5,8 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2019-01-23T05:00:27.000Z</updated>
+    <updated>2019-01-22T20:19:33.000Z</updated>
     <entry>
-        <title>How many children are not in school?</title>
-    <id>https://ourworldindata.org/how-many-children-are-not-in-school</id>
-        <link rel="alternate" href="https://ourworldindata.org/how-many-children-are-not-in-school"/>
-        <published>2019-01-23T05:00:27.000Z</published>
-        <updated>2019-01-23T00:23:17.000Z</updated>
-        <author><name>Hannah Ritchie</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on the Global Rise of Education.</summary>
-    </entry>
-<entry>
         <title>We are looking for a short-term designer to redesign our site</title>
     <id>https://ourworldindata.org/designer-needed</id>
         <link rel="alternate" href="https://ourworldindata.org/designer-needed"/>
@@ -95,5 +86,14 @@
         <updated>2019-01-22T17:51:23.000Z</updated>
         <author><name>Sophie Ochmann</name></author>
         <summary>This blog post draws on data and research discussed in our entry on the Eradication of Diseases.</summary>
+    </entry>
+<entry>
+        <title>What makes a disease eradicable?</title>
+    <id>https://ourworldindata.org/what-makes-a-disease-eradicable</id>
+        <link rel="alternate" href="https://ourworldindata.org/what-makes-a-disease-eradicable"/>
+        <published>2018-11-05T14:30:50.000Z</published>
+        <updated>2019-01-22T19:30:43.000Z</updated>
+        <author><name>Sophie Ochmann</name></author>
+        <summary>This blog post draws on data and research discussed in our entry on the Eradication of Diseases.</summary>
     </entry>
 </feed>
