@@ -5,8 +5,26 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2019-01-25T05:02:40.000Z</updated>
+    <updated>2019-01-29T05:00:56.000Z</updated>
     <entry>
+        <title>Number of rough sleepers in England has increased more than 250% since 2010</title>
+    <id>https://ourworldindata.org/homelessness-rise-england</id>
+        <link rel="alternate" href="https://ourworldindata.org/homelessness-rise-england"/>
+        <published>2019-01-29T05:00:56.000Z</published>
+        <updated>2019-01-29T18:27:27.000Z</updated>
+        <author><name>Hannah Ritchie</name></author>
+        <summary>This blog post draws on data and research discussed in our entry on Homelessness.</summary>
+    </entry>
+<entry>
+        <title>The death of UK coal in five charts</title>
+    <id>https://ourworldindata.org/death-uk-coal</id>
+        <link rel="alternate" href="https://ourworldindata.org/death-uk-coal"/>
+        <published>2019-01-28T05:00:43.000Z</published>
+        <updated>2019-01-28T16:57:11.000Z</updated>
+        <author><name>Hannah Ritchie</name></author>
+        <summary>This blog post draws on data and research discussed in our entries on Fossil Fuels and Energy Production & Changing Sources.</summary>
+    </entry>
+<entry>
         <title>Our World in Data is at Y Combinator</title>
     <id>https://ourworldindata.org/owid-at-ycombinator</id>
         <link rel="alternate" href="https://ourworldindata.org/owid-at-ycombinator"/>
@@ -25,15 +43,6 @@
         <summary>This blog post draws on data and research discussed in our entry on the Global Rise of Education.</summary>
     </entry>
 <entry>
-        <title>We are looking for a short-term designer to redesign our site</title>
-    <id>https://ourworldindata.org/designer-needed</id>
-        <link rel="alternate" href="https://ourworldindata.org/designer-needed"/>
-        <published>2019-01-22T20:19:33.000Z</published>
-        <updated>2019-01-23T05:31:23.000Z</updated>
-        <author><name>Daniel Gavrilov</name></author><author><name>Max Roser</name></author><author><name>Jaiden Mispy</name></author>
-        <summary>For years we focused on research, our database, and our visualization tool and we haven't thought much about design and usability. This needs to change and over the last weeks Daniel and Jaiden – our two web developers in the team – together with the rest of the team have made our plans for how to restructure our content and discussed what our redesign should achieve. But we are not designers and this is why we are reaching out.</summary>
-    </entry>
-<entry>
         <title>How many internet users does each country have?</title>
     <id>https://ourworldindata.org/how-many-internet-users-does-each-country-have</id>
         <link rel="alternate" href="https://ourworldindata.org/how-many-internet-users-does-each-country-have"/>
@@ -47,7 +56,7 @@
     <id>https://ourworldindata.org/global-child-deaths-have-halved-since-1990</id>
         <link rel="alternate" href="https://ourworldindata.org/global-child-deaths-have-halved-since-1990"/>
         <published>2019-01-21T05:05:51.000Z</published>
-        <updated>2019-01-22T17:42:36.000Z</updated>
+        <updated>2019-01-28T05:12:21.000Z</updated>
         <author><name>Hannah Ritchie</name></author>
         <summary>This blog post draws on data and research discussed in our entry on Child Mortality.</summary>
     </entry>
@@ -86,14 +95,5 @@
         <updated>2019-01-22T17:47:49.000Z</updated>
         <author><name>Hannah Ritchie</name></author>
         <summary>This blog post draws on data and research discussed in our entry on CO2 and other Greenhouse Gas Emissions.</summary>
-    </entry>
-<entry>
-        <title>Is income inequality rising around the world?</title>
-    <id>https://ourworldindata.org/income-inequality-since-1990</id>
-        <link rel="alternate" href="https://ourworldindata.org/income-inequality-since-1990"/>
-        <published>2018-11-19T10:00:46.000Z</published>
-        <updated>2019-01-22T17:50:26.000Z</updated>
-        <author><name>Joe Hasell</name></author>
-        <summary>Rising levels of inequality has become a key political issue in recent years; "the defining issue of our time," as Barack Obama described it back in 2013. It was at the heart of the Occupy movement protests, and has received a huge amount of attention in the media and in policy circles. But much of this discussion has focussed on what's been happening in rich countries, in particular upon trends seen in the US. We tend to hear less about inequality in the rest of the world.</summary>
     </entry>
 </feed>
