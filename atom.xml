@@ -5,8 +5,17 @@
     <id>https://ourworldindata.org/</id>
     <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
     <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2019-01-29T05:00:56.000Z</updated>
+    <updated>2019-02-04T07:00:19.000Z</updated>
     <entry>
+        <title>Cancer death rates are falling; five-year survival rates are rising</title>
+    <id>https://ourworldindata.org/cancer-death-rates-are-falling-five-year-survival-rates-are-rising</id>
+        <link rel="alternate" href="https://ourworldindata.org/cancer-death-rates-are-falling-five-year-survival-rates-are-rising"/>
+        <published>2019-02-04T07:00:19.000Z</published>
+        <updated>2019-02-04T17:37:09.000Z</updated>
+        <author><name>Hannah Ritchie</name></author>
+        <summary>This blog post draws on data and research discussed in our entry on Cancer.</summary>
+    </entry>
+<entry>
         <title>Number of rough sleepers in England has increased more than 250% since 2010</title>
     <id>https://ourworldindata.org/homelessness-rise-england</id>
         <link rel="alternate" href="https://ourworldindata.org/homelessness-rise-england"/>
@@ -86,14 +95,5 @@
         <updated>2019-01-22T17:47:24.000Z</updated>
         <author><name>Hannah Ritchie</name></author>
         <summary>This blog post draws on data and research discussed in our entry on CO₂ and other Greenhouse Gas Emissions.</summary>
-    </entry>
-<entry>
-        <title>Global inequalities in CO₂ emissions, based on consumption</title>
-    <id>https://ourworldindata.org/global-inequalities-co2-consumption</id>
-        <link rel="alternate" href="https://ourworldindata.org/global-inequalities-co2-consumption"/>
-        <published>2018-12-04T16:20:51.000Z</published>
-        <updated>2019-01-22T17:47:49.000Z</updated>
-        <author><name>Hannah Ritchie</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on CO2 and other Greenhouse Gas Emissions.</summary>
     </entry>
 </feed>
