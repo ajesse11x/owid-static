@@ -98,13 +98,13 @@
     }
 
     ul.Supporters {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0 1rem;
     }
 
     ul.Supporters > li {
         list-style-type: none;
-        flex: 1 0 200px;
     }
 
     #links h2 {
