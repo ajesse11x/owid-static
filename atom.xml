@@ -1,99 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Our World in Data</title>
-    <subtitle>Living conditions around the world are changing rapidly. Explore how and why.</subtitle>
-    <id>https://ourworldindata.org/</id>
-    <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
-    <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-    <updated>2019-02-05T05:46:54.000Z</updated>
-    <entry>
-        <title>How do we know the history of extreme poverty?</title>
+<title>Our World in Data</title>
+<subtitle>Living conditions around the world are changing rapidly. Explore how and why.</subtitle>
+<id>https://ourworldindata.org/</id>
+<link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
+<link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
+<updated>2019-02-05T05:46:54.000Z</updated>
+<entry>
+    <title><![CDATA[How do we know the history of extreme poverty?]]></title>
     <id>https://ourworldindata.org/extreme-history-methods</id>
-        <link rel="alternate" href="https://ourworldindata.org/extreme-history-methods"/>
-        <published>2019-02-05T05:46:54.000Z</published>
-        <updated>2019-02-09T20:38:24.000Z</updated>
-        <author><name>Joe Hasell</name></author><author><name>Max Roser</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on Global Extreme Poverty</summary>
-    </entry>
+    <link rel="alternate" href="https://ourworldindata.org/extreme-history-methods"/>
+    <published>2019-02-05T05:46:54.000Z</published>
+    <updated>2019-02-09T20:38:24.000Z</updated>
+    <author><name>Joe Hasell</name></author><author><name>Max Roser</name></author>
+    <summary><![CDATA[This blog post draws on data and research discussed in our entry on Global Extreme Poverty]]></summary>
+</entry>
 <entry>
-        <title>Cancer death rates are falling; five-year survival rates are rising</title>
+    <title><![CDATA[Cancer death rates are falling; five-year survival rates are rising]]></title>
     <id>https://ourworldindata.org/cancer-death-rates-are-falling-five-year-survival-rates-are-rising</id>
-        <link rel="alternate" href="https://ourworldindata.org/cancer-death-rates-are-falling-five-year-survival-rates-are-rising"/>
-        <published>2019-02-04T07:00:19.000Z</published>
-        <updated>2019-02-04T19:24:10.000Z</updated>
-        <author><name>Hannah Ritchie</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on Cancer.</summary>
-    </entry>
+    <link rel="alternate" href="https://ourworldindata.org/cancer-death-rates-are-falling-five-year-survival-rates-are-rising"/>
+    <published>2019-02-04T07:00:19.000Z</published>
+    <updated>2019-02-04T19:24:10.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[This blog post draws on data and research discussed in our entry on Cancer.]]></summary>
+</entry>
 <entry>
-        <title>Number of rough sleepers in England has increased more than 250% since 2010</title>
+    <title><![CDATA[Number of rough sleepers in England has increased more than 250% since 2010]]></title>
     <id>https://ourworldindata.org/homelessness-rise-england</id>
-        <link rel="alternate" href="https://ourworldindata.org/homelessness-rise-england"/>
-        <published>2019-01-29T05:00:56.000Z</published>
-        <updated>2019-01-29T18:27:27.000Z</updated>
-        <author><name>Hannah Ritchie</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on Homelessness.</summary>
-    </entry>
+    <link rel="alternate" href="https://ourworldindata.org/homelessness-rise-england"/>
+    <published>2019-01-29T05:00:56.000Z</published>
+    <updated>2019-01-29T18:27:27.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[This blog post draws on data and research discussed in our entry on Homelessness.]]></summary>
+</entry>
 <entry>
-        <title>The death of UK coal in five charts</title>
+    <title><![CDATA[The death of UK coal in five charts]]></title>
     <id>https://ourworldindata.org/death-uk-coal</id>
-        <link rel="alternate" href="https://ourworldindata.org/death-uk-coal"/>
-        <published>2019-01-28T05:00:43.000Z</published>
-        <updated>2019-01-28T16:57:11.000Z</updated>
-        <author><name>Hannah Ritchie</name></author>
-        <summary>This blog post draws on data and research discussed in our entries on Fossil Fuels and Energy Production & Changing Sources.</summary>
-    </entry>
+    <link rel="alternate" href="https://ourworldindata.org/death-uk-coal"/>
+    <published>2019-01-28T05:00:43.000Z</published>
+    <updated>2019-01-28T16:57:11.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[This blog post draws on data and research discussed in our entries on Fossil Fuels and Energy Production & Changing Sources.]]></summary>
+</entry>
 <entry>
-        <title>Our World in Data is at Y Combinator</title>
+    <title><![CDATA[Our World in Data is at Y Combinator]]></title>
     <id>https://ourworldindata.org/owid-at-ycombinator</id>
-        <link rel="alternate" href="https://ourworldindata.org/owid-at-ycombinator"/>
-        <published>2019-01-25T05:02:40.000Z</published>
-        <updated>2019-01-25T18:52:39.000Z</updated>
-        <author><name>Max Roser</name></author><author><name>Hannah Ritchie</name></author><author><name>Esteban Ortiz-Ospina</name></author><author><name>Jaiden Mispy</name></author><author><name>Joe Hasell</name></author><author><name>Daniel Gavrilov</name></author>
-        <summary>Usually we write to you from Oxford where it’s often cold and dark. Not this time: for 10 weeks this winter we are in California instead.</summary>
-    </entry>
+    <link rel="alternate" href="https://ourworldindata.org/owid-at-ycombinator"/>
+    <published>2019-01-25T05:02:40.000Z</published>
+    <updated>2019-01-25T18:52:39.000Z</updated>
+    <author><name>Max Roser</name></author><author><name>Hannah Ritchie</name></author><author><name>Esteban Ortiz-Ospina</name></author><author><name>Jaiden Mispy</name></author><author><name>Joe Hasell</name></author><author><name>Daniel Gavrilov</name></author>
+    <summary><![CDATA[Usually we write to you from Oxford where it’s often cold and dark. Not this time: for 10 weeks this winter we are in California instead.]]></summary>
+</entry>
 <entry>
-        <title>How many children are not in school?</title>
+    <title><![CDATA[How many children are not in school?]]></title>
     <id>https://ourworldindata.org/how-many-children-are-not-in-school</id>
-        <link rel="alternate" href="https://ourworldindata.org/how-many-children-are-not-in-school"/>
-        <published>2019-01-23T05:00:27.000Z</published>
-        <updated>2019-01-23T13:41:05.000Z</updated>
-        <author><name>Hannah Ritchie</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on the Global Rise of Education.</summary>
-    </entry>
+    <link rel="alternate" href="https://ourworldindata.org/how-many-children-are-not-in-school"/>
+    <published>2019-01-23T05:00:27.000Z</published>
+    <updated>2019-01-23T13:41:05.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[This blog post draws on data and research discussed in our entry on the Global Rise of Education.]]></summary>
+</entry>
 <entry>
-        <title>How many internet users does each country have?</title>
+    <title><![CDATA[How many internet users does each country have?]]></title>
     <id>https://ourworldindata.org/how-many-internet-users-does-each-country-have</id>
-        <link rel="alternate" href="https://ourworldindata.org/how-many-internet-users-does-each-country-have"/>
-        <published>2019-01-22T05:00:24.000Z</published>
-        <updated>2019-01-23T14:29:11.000Z</updated>
-        <author><name>Hannah Ritchie</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on the Internet.</summary>
-    </entry>
+    <link rel="alternate" href="https://ourworldindata.org/how-many-internet-users-does-each-country-have"/>
+    <published>2019-01-22T05:00:24.000Z</published>
+    <updated>2019-01-23T14:29:11.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[This blog post draws on data and research discussed in our entry on the Internet.]]></summary>
+</entry>
 <entry>
-        <title>The number of children dying each year has more than halved since 1990</title>
+    <title><![CDATA[The number of children dying each year has more than halved since 1990]]></title>
     <id>https://ourworldindata.org/global-child-deaths-have-halved-since-1990</id>
-        <link rel="alternate" href="https://ourworldindata.org/global-child-deaths-have-halved-since-1990"/>
-        <published>2019-01-21T05:05:51.000Z</published>
-        <updated>2019-01-28T05:12:21.000Z</updated>
-        <author><name>Hannah Ritchie</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on Child Mortality.</summary>
-    </entry>
+    <link rel="alternate" href="https://ourworldindata.org/global-child-deaths-have-halved-since-1990"/>
+    <published>2019-01-21T05:05:51.000Z</published>
+    <updated>2019-01-28T05:12:21.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[This blog post draws on data and research discussed in our entry on Child Mortality.]]></summary>
+</entry>
 <entry>
-        <title>Number of people in the world without electricity falls below one billion</title>
+    <title><![CDATA[Number of people in the world without electricity falls below one billion]]></title>
     <id>https://ourworldindata.org/number-of-people-in-the-world-without-electricity-access-falls-below-one-billion</id>
-        <link rel="alternate" href="https://ourworldindata.org/number-of-people-in-the-world-without-electricity-access-falls-below-one-billion"/>
-        <published>2019-01-18T05:00:09.000Z</published>
-        <updated>2019-01-22T17:44:04.000Z</updated>
-        <author><name>Hannah Ritchie</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on Energy Production & Changing Energy Sources.</summary>
-    </entry>
+    <link rel="alternate" href="https://ourworldindata.org/number-of-people-in-the-world-without-electricity-access-falls-below-one-billion"/>
+    <published>2019-01-18T05:00:09.000Z</published>
+    <updated>2019-01-22T17:44:04.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[This blog post draws on data and research discussed in our entry on Energy Production & Changing Energy Sources.]]></summary>
+</entry>
 <entry>
-        <title>India's population growth will come to an end: the number of children has already peaked</title>
+    <title><![CDATA[India's population growth will come to an end: the number of children has already peaked]]></title>
     <id>https://ourworldindata.org/indias-population-growth-will-come-to-an-end</id>
-        <link rel="alternate" href="https://ourworldindata.org/indias-population-growth-will-come-to-an-end"/>
-        <published>2019-01-15T11:00:14.000Z</published>
-        <updated>2019-01-22T17:44:40.000Z</updated>
-        <author><name>Hannah Ritchie</name></author>
-        <summary>This blog post draws on data and research discussed in our entry on World Population Growth and Future Population Growth.</summary>
-    </entry>
+    <link rel="alternate" href="https://ourworldindata.org/indias-population-growth-will-come-to-an-end"/>
+    <published>2019-01-15T11:00:14.000Z</published>
+    <updated>2019-01-22T17:44:40.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[This blog post draws on data and research discussed in our entry on World Population Growth and Future Population Growth.]]></summary>
+</entry>
 </feed>
