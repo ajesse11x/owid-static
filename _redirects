@@ -223,7 +223,7 @@
 /grapher/lymphatic-filariasis /grapher/lymphatic-filariasis-treated-population-and-population-that-requires-treatment-but-is-not-treated 302
 /grapher/tax-reduction-in-inequality /grapher/tax-reduction-in-income-inequality 302
 /grapher/co2-emissions-by-source-million-tonnes /grapher/CO2-by-source 302
-/grapher/co2-emissions-million-tonnes-co2 /grapher/annual-co-emissions-per-country 302
+/grapher/co2-emissions-million-tonnes-co2 /grapher/annual-co2-emissions-per-country 302
 /grapher/co2-emissions-per-capita-tonnes-per-year /grapher/co-emissions-per-capita 302
 /grapher/solar-pv-prices-2016-int--per-watt /grapher/solar-pv-prices 302
 /grapher/solar-pv-cumulative-capacity-mw /grapher/solar-pv-cumulative-capacity 302
@@ -235,11 +235,11 @@
 /grapher/co2-emissions-per-capita-vs-the-share-of-people-living-in-poverty /grapher/co-emissions-per-capita-vs-the-share-of-people-living-in-extreme-poverty 302
 /grapher/test--carbon-intensity /grapher/carbon-emission-intensity 302
 /grapher/installed-renewable-energy-capacity-by-technology /grapher/installed-global-renewable-energy-capacity-by-technology 302
-/grapher/annual-co2-emissions /grapher/annual-co-emissions-per-country 302
+/grapher/annual-co2-emissions /grapher/annual-co2-emissions-per-country 302
 /grapher/co2-emissions-per-capita-vs-gdp-per-capita-ppp-international- /grapher/co-emissions-per-capita-vs-gdp-per-capita-international- 302
 /grapher/carbon-intensity-of-economies /grapher/carbon-emission-intensity-of-economies 302
 /grapher/carbon-intensity /grapher/carbon-emission-intensity 302
-/grapher/annual-co2-emissions-per-countryy /grapher/annual-co-emissions-per-country 302
+/grapher/annual-co2-emissions-per-countryy /grapher/annual-co2-emissions-per-country 302
 /grapher/annual-co2-emissions-by-region /grapher/annual-co-emissions-by-region 302
 /grapher/cumulative-co2-emissions /grapher/cumulative-co-emissions 302
 /grapher/global-co2-concentration-ppm /grapher/global-co-concentration-ppm 302
@@ -762,3 +762,4 @@
 /grapher/nitrous-oxide-emissions-by-sector-gg-coe /grapher/nitrous-oxide-emissions-by-sector 302
 /grapher/global-carbon-dioxide-emissions-by-sector-gg-co /grapher/global-carbon-dioxide-emissions-by-sector 302
 /grapher/global-greenhouse-gas-emissions-by-sector /grapher/greenhouse-gas-emissions-by-sector 302
+/grapher/annual-co-emissions-per-country /grapher/annual-co2-emissions-per-country 302
