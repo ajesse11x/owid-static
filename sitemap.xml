@@ -126,7 +126,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/food-prices</loc>
-        <lastmod>2019-02-05</lastmod>
+        <lastmod>2019-02-21</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/human-height</loc>
@@ -12211,5 +12211,9 @@
     <url>
         <loc>https://ourworldindata.org/grapher/alcohol-by-type-1890</loc>
         <lastmod>2019-02-14</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/wheat-prices-in-england</loc>
+        <lastmod>2019-02-21</lastmod>
     </url>
 </urlset>
