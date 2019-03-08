@@ -163,8 +163,7 @@
 /entries__trashed/tertiary-education /tertiary-education 301
 /entries__trashed/literacy /literacy 301
 /entries__trashed/books /books 301
-/about__coverage /about__audience-and-coverage 301
-/about__audience-and-coverage /about__coverage 301
+/about__audience-and-coverage /coverage 301
 /entries__trashed/international-trade-old / 301
 / / 301
 /we-are-hiring-do-you-want-to-join-our-team-as-a-web-developer /hiring-developer 301
@@ -172,6 +171,7 @@
 /about__why-are-we-working-on-our-world-in-data /motivation 301
 /about__coverage /coverage 301
 /about__media-coverage /coverage 301
+/about__owid-grapher /owid-grapher 301
 /media-coverage /coverage 301
 /grapher/latest /grapher/share-of-children-vaccinated-against-measles 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
