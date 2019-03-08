@@ -67,7 +67,6 @@
 /faqs-on-plastics /faqs-on-plastics2 301
 /faqs-on-plastics2 / 301
 /faqs-on-plastics /faq-on-plastics 301
-/about/media-coverage a:3:{s:8:"url_from";s:35:"https://ourworldindata.org/coverage";s:11:"url_notfrom";s:0:"";s:6:"server";s:0:"";} 301
 /tebbens-et-al-2011-estimation-of-the-number-of-paralytic-polio-cases /estimating-total-global-paralytic-polio-cases 301
 /volatility-of-food-prices /food-prices#food-price-volatility 301
 /agricultural-employment /employment-in-agriculture 301
@@ -172,6 +171,7 @@
 /our-motivation / 301
 /about__why-are-we-working-on-our-world-in-data /motivation 301
 /about__coverage /coverage 301
+/about__media-coverage /coverage 301
 /media-coverage /coverage 301
 /grapher/latest /grapher/share-of-children-vaccinated-against-measles 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
