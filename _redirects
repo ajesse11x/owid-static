@@ -238,10 +238,10 @@
 /grapher/the-decline-of-child-mortality-by-HAQ-endpoints /grapher/HAQ-by-level-of-healthcare-spending-endpoints 302
 /grapher/global-carbon-budget-for-a-2c-world /grapher/global-carbon-budget-for-a-two-degree-world 302
 /grapher/child-mortality-rate-ihme-vs-un-cme-estimates /grapher/child-mortality-rate-ihme-vs-un-estimates 302
-/grapher/population-growth-rate-by-world-regions-1955-2015-and-projections-through-2100 /grapher/population-growth-rate-by-world-region-1955-2015-and-projections-through-2100 302
-/grapher/population-growth-rate-by-world-region-1955-2015-projections-2020-2100 /grapher/population-growth-rate-by-world-region-1955-2015-and-projections-through-2100 302
-/grapher/population-growth-rate-by-world-region-1955-2015-and-projection-for-2020-2100 /grapher/population-growth-rate-by-world-region-1955-2015-and-projections-through-2100 302
-/grapher/population-growth-rate-by-world-region-1955-2015-and-projections-for-2020-2100 /grapher/population-growth-rate-by-world-region-1955-2015-and-projections-through-2100 302
+/grapher/population-growth-rate-by-world-regions-1955-2015-and-projections-through-2100 /grapher/population-growth-rate-by-level-of-development 302
+/grapher/population-growth-rate-by-world-region-1955-2015-projections-2020-2100 /grapher/population-growth-rate-by-level-of-development 302
+/grapher/population-growth-rate-by-world-region-1955-2015-and-projection-for-2020-2100 /grapher/population-growth-rate-by-level-of-development 302
+/grapher/population-growth-rate-by-world-region-1955-2015-and-projections-for-2020-2100 /grapher/population-growth-rate-by-level-of-development 302
 /grapher/the-decline-of-child-mortality-vs-share-of-vaccinated-children /grapher/child-mortality-vs-share-of-children-immunized-against-diphtheria-pertussis-and-typhoid 302
 /grapher/child-mortality-vs-share-of-vaccinated-children /grapher/child-mortality-vs-share-of-children-immunized-against-diphtheria-pertussis-and-typhoid 302
 /grapher/co2-emissions-embedded-in-trade-as-a-share-of-domestic-emissions /grapher/co-emissions-in-imported-goods-as-a-share-of-domestic-emissions 302
@@ -744,3 +744,4 @@
 /grapher/uk-government-debt-as-a-percentage-of-gdp-19952017 /grapher/uk-government-debt-as-a-percentage-of-gdp-17272016 302
 /grapher/uk-government-debt-as-a-percentage-of-gdp-19272016 /grapher/uk-government-debt-as-a-percentage-of-gdp-17272016 302
 /grapher/p90-of-incomeconsumption-distribution-vs-p10-of-incomeconsumption-distribution /grapher/p90-vs-p10-logs 302
+/grapher/population-growth-rate-by-world-region-1955-2015-and-projections-through-2100 /grapher/population-growth-rate-by-level-of-development 302
