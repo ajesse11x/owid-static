@@ -16,15 +16,6 @@
     <summary><![CDATA[A couple of months ago, a group of leading economists published a research paper studying cross-country differences in character traits like patience, risk aversion, reciprocity, altruism, and trust.1]]></summary>
 </entry>
 <entry>
-    <title><![CDATA[We are hiring! Do you want to join our team as a web developer?]]></title>
-    <id>https://ourworldindata.org/hiring-developer</id>
-    <link rel="alternate" href="https://ourworldindata.org/hiring-developer"/>
-    <published>2019-03-05T20:54:31.000Z</published>
-    <updated>2019-03-16T16:25:14.000Z</updated>
-    <author><name>Max Roser</name></author>
-    <summary><![CDATA[We from Our World in Data are currently at Y Combinator in Silicon Valley as one of the few academic non-profits ever to be selected. The experience here helped us develop a clear vision for our work in the coming year and it became evident that we can do better if we find one more team member to work with us.]]></summary>
-</entry>
-<entry>
     <title><![CDATA[How do we know the history of extreme poverty?]]></title>
     <id>https://ourworldindata.org/extreme-history-methods</id>
     <link rel="alternate" href="https://ourworldindata.org/extreme-history-methods"/>
@@ -95,5 +86,14 @@
     <updated>2019-01-28T05:12:21.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[This blog post draws on data and research discussed in our entry on Child Mortality.]]></summary>
+</entry>
+<entry>
+    <title><![CDATA[Number of people in the world without electricity falls below one billion]]></title>
+    <id>https://ourworldindata.org/number-of-people-in-the-world-without-electricity-access-falls-below-one-billion</id>
+    <link rel="alternate" href="https://ourworldindata.org/number-of-people-in-the-world-without-electricity-access-falls-below-one-billion"/>
+    <published>2019-01-18T05:00:09.000Z</published>
+    <updated>2019-01-22T17:44:04.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[This blog post draws on data and research discussed in our entry on Energy Production & Changing Energy Sources.]]></summary>
 </entry>
 </feed>
