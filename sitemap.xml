@@ -12508,8 +12508,8 @@
         <lastmod>2018-11-28</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/child-mortality-2010-vs-2017</loc>
-        <lastmod>2019-01-15</lastmod>
+        <loc>https://ourworldindata.org/grapher/child-mortality-2010-vs-2017-slope</loc>
+        <lastmod>2019-04-21</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/co2-emissions-2016-vs-1990</loc>
@@ -13078,5 +13078,9 @@
     <url>
         <loc>https://ourworldindata.org/grapher/distribution-of-population-poverty-thresholds</loc>
         <lastmod>2019-04-20</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/child-mortality-2010-vs-2017-slope</loc>
+        <lastmod>2019-04-21</lastmod>
     </url>
 </urlset>
