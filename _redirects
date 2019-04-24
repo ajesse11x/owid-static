@@ -585,7 +585,7 @@
 /grapher/number-suffering-from-mental-and-substance-use-disorders /grapher/number-with-mental-and-substance-use-disorders 302
 /grapher/number-suffering-from-mental-and-substance-disorders-by-type /grapher/number-with-mental-and-neurodevelopmental-disorders-by-type 302
 /grapher/share-suffering-from-mental-and-substance-disorders /grapher/share-with-mental-and-substance-disorders 302
-/grapher/share-suffering-from-mental-or-substance-disorders-males-vs-females /grapher/share-with-mental-or-substance-disorders-males-vs-females 302
+/grapher/share-suffering-from-mental-or-substance-disorders-males-vs-females /grapher/share-with-mental-or-substance-disorders-by-sex 302
 /grapher/number-with-mental-and-substance-disorders-by-type /grapher/number-with-mental-and-neurodevelopmental-disorders-by-type 302
 /grapher/drinking-water-services-coverage /grapher/drinking-water-services-coverage-urban 302
 /grapher/drinking-water-service-coverage-in-urban-areas /grapher/drinking-water-service-coverage 302
@@ -752,3 +752,4 @@
 /grapher/child-mortality-2010-vs-2017 /grapher/child-mortality-2010-vs-2017-slope 302
 /grapher/child-mortality-2010-vs-2017-slope /grapher/child-mortality-1990-vs-2017-slope 302
 /grapher/cancer-death-rates-per-100000 /grapher/cancer-death-rates 302
+/grapher/share-with-mental-or-substance-disorders-males-vs-females /grapher/share-with-mental-or-substance-disorders-by-sex 302
