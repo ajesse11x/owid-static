@@ -753,7 +753,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/extreme-poverty</loc>
-        <lastmod>2019-04-22</lastmod>
+        <lastmod>2019-04-25</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/homicides</loc>
@@ -12629,7 +12629,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/historys-hockey-stick-gross-domestic-product-per-capita-using-the-ratio-scale-1990</loc>
-        <lastmod>2019-03-15</lastmod>
+        <lastmod>2019-04-25</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/northern-hemisphere-temperatures-over-the-long-run---deviation-from-1951-1980-mean-temperature-c</loc>
@@ -13105,6 +13105,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/democracy-vs-govt-effectiveness</loc>
+        <lastmod>2019-04-25</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/total-tax-revenue-gdp-vs-democracy</loc>
         <lastmod>2019-04-25</lastmod>
     </url>
 </urlset>
