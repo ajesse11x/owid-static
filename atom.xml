@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-04-25T09:40:51.000Z</updated>
+<updated>2019-04-26T11:00:24.000Z</updated>
+<entry>
+    <title><![CDATA[Oceans, land and deep subsurface: how is life distributed across environments?]]></title>
+    <id>https://ourworldindata.org/life-by-environment</id>
+    <link rel="alternate" href="https://ourworldindata.org/life-by-environment"/>
+    <published>2019-04-26T11:00:24.000Z</published>
+    <updated>2019-04-26T09:11:09.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[We looked at how global biomass is distributed between taxonomic kingdoms here. How is it distributed between environments?]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Net Results: We are winning the fight against malaria and you can help]]></title>
     <id>https://ourworldindata.org/malaria-net-results</id>
@@ -29,9 +38,9 @@
     <id>https://ourworldindata.org/life-on-earth</id>
     <link rel="alternate" href="https://ourworldindata.org/life-on-earth"/>
     <published>2019-04-24T11:00:43.000Z</published>
-    <updated>2019-04-24T19:20:32.000Z</updated>
+    <updated>2019-04-26T11:10:54.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[Our planet is home to an incredible diversity of organisms. What does the earth's biodiversity look like in the big picture?]]></summary>
+    <summary><![CDATA[How is life on Earth distributed across the taxonomic kingdoms? How much is plant, animal, bacteria or fungi? Humans make up just 0.01% of life: but we've had much larger impacts on shaping the animal kingdom. Livestock now outweighs wild mammals and birds ten-fold.]]></summary>
 </entry>
 <entry>
     <title><![CDATA[Child mortality: achieving the global goal for 2030 would be a huge achievement – but we are currently far away]]></title>
@@ -86,14 +95,5 @@
     <updated>2019-02-04T19:24:10.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[This blog post draws on data and research discussed in our entry on Cancer.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Number of rough sleepers in England has increased more than 250% since 2010]]></title>
-    <id>https://ourworldindata.org/homelessness-rise-england</id>
-    <link rel="alternate" href="https://ourworldindata.org/homelessness-rise-england"/>
-    <published>2019-01-29T05:00:56.000Z</published>
-    <updated>2019-01-29T18:27:27.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[This blog post draws on data and research discussed in our entry on Homelessness.]]></summary>
 </entry>
 </feed>
