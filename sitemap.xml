@@ -13077,7 +13077,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/statutory-corporate-income-tax-rate</loc>
-        <lastmod>2019-05-04</lastmod>
+        <lastmod>2019-05-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/the-household-debt-to-income-ratio-and-house-prices-in-the-us-19502017</loc>
@@ -13093,6 +13093,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/the-growth-rate-of-productivity-over-the-long-run-14002009</loc>
+        <lastmod>2019-05-06</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/statutory-corporate-income-tax-rate-2000vs2018</loc>
         <lastmod>2019-05-06</lastmod>
     </url>
 </urlset>
