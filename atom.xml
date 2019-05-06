@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-04-29T10:10:15.000Z</updated>
+<updated>2019-05-06T11:00:48.000Z</updated>
+<entry>
+    <title><![CDATA[As the world's poorest economies are stagnating half a billion are expected to be in extreme poverty in 2030]]></title>
+    <id>https://ourworldindata.org/extreme-poverty-projections</id>
+    <link rel="alternate" href="https://ourworldindata.org/extreme-poverty-projections"/>
+    <published>2019-05-06T11:00:48.000Z</published>
+    <updated>2019-05-06T11:39:48.000Z</updated>
+    <author><name>Max Roser</name></author>
+    <summary><![CDATA[This blog post draws on data and research discussed in our entry on Global Extreme Poverty.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Top incomes: more women, but still very male-dominated]]></title>
     <id>https://ourworldindata.org/top-incomes-more-women-but-still-very-male-dominated</id>
@@ -89,14 +98,5 @@
     <updated>2019-04-26T22:25:15.000Z</updated>
     <author><name>Esteban Ortiz-Ospina</name></author>
     <summary><![CDATA[Researchers recently used a survey to ask people across countries about their willingness to postpone rewards. After validating questions with incentivised experiments, here is what they found.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[How do we know the history of extreme poverty?]]></title>
-    <id>https://ourworldindata.org/extreme-history-methods</id>
-    <link rel="alternate" href="https://ourworldindata.org/extreme-history-methods"/>
-    <published>2019-02-05T05:46:54.000Z</published>
-    <updated>2019-03-07T19:42:04.000Z</updated>
-    <author><name>Joe Hasell</name></author><author><name>Max Roser</name></author>
-    <summary><![CDATA[This blog post draws on data and research discussed in our entry on Global Extreme Poverty]]></summary>
 </entry>
 </feed>
