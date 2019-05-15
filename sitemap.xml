@@ -7029,7 +7029,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-by-risk-under5s</loc>
-        <lastmod>2019-04-24</lastmod>
+        <lastmod>2019-05-15</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-risk-factor-5-14years</loc>
@@ -13229,6 +13229,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/diarrheal-diseases-vs-sanitation</loc>
+        <lastmod>2019-05-15</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/diarrheal-diseases-vs-handwashing-facilities</loc>
         <lastmod>2019-05-15</lastmod>
     </url>
 </urlset>
