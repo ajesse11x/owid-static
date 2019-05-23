@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-05-06T11:00:48.000Z</updated>
+<updated>2019-05-23T10:00:45.000Z</updated>
+<entry>
+    <title><![CDATA[The world population is changing: For the first time there are more people over 64 than children younger than 5]]></title>
+    <id>https://ourworldindata.org/population-aged-65-outnumber-children</id>
+    <link rel="alternate" href="https://ourworldindata.org/population-aged-65-outnumber-children"/>
+    <published>2019-05-23T10:00:45.000Z</published>
+    <updated>2019-05-23T11:36:10.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[This blog post draws on data and research discussed in our entry on World Population Growth.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[As the world's poorest economies are stagnating half a billion are expected to be in extreme poverty in 2030]]></title>
     <id>https://ourworldindata.org/extreme-poverty-projections</id>
@@ -89,14 +98,5 @@
     <updated>2019-04-25T13:58:15.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[China has been the world's most populous country for a long time. But it's soon to be overtaken by India. The UN projects that by 2024 India will be the world's most populous country. What do future population trends look like around the world? Explore the data.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Which are the most patient countries in the world?]]></title>
-    <id>https://ourworldindata.org/which-are-the-most-patient-countries-in-the-world</id>
-    <link rel="alternate" href="https://ourworldindata.org/which-are-the-most-patient-countries-in-the-world"/>
-    <published>2019-04-09T06:00:03.000Z</published>
-    <updated>2019-04-26T22:25:15.000Z</updated>
-    <author><name>Esteban Ortiz-Ospina</name></author>
-    <summary><![CDATA[Researchers recently used a survey to ask people across countries about their willingness to postpone rewards. After validating questions with incentivised experiments, here is what they found.]]></summary>
 </entry>
 </feed>
