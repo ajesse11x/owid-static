@@ -600,10 +600,8 @@
 /grapher/econimpact15c-felixpretis /grapher/econimpact15c 302
 /grapher/countries-with-gender-equal-inheritance-for-women /grapher/map-gender-equal-inheritance 302
 /grapher/number-with-mental-health-disorders /grapher/number-with-mental-health-disorders-by-sex 302
-/grapher/deaths-from-alcohol-and-drug-use-disorders /grapher/mortality-from-alcohol-and-drug-use-disorders 302
 /grapher/prevalence-of-anemia-in-children-1990-2011 /grapher/prevalence-of-anemia-in-children 302
 /grapher/lung-cancer-death-rates-long-term /grapher/lung-cancer-death-rates-males 302
-/grapher/life-expectancy-at-birth /grapher/life-expectancy-at-birth-oecd 302
 /grapher/maximum-antarctic-ozone-hole-area /grapher/antarctic-ozone-hole-area 302
 /grapher/global-number-of-reported-dracunculiasis-cases /grapher/global-number-of-reported-guinea-worm-cases 302
 /grapher/total-caloric-production-kilocalories-per-person-per-day /grapher/caloric-production 302
@@ -629,7 +627,6 @@
 /grapher/overdose-deaths-due-to-opioids-in-the-us-1999-2015 /grapher/drug-overdose-death-rates 302
 /grapher/overdose-deaths-due-to-opioids-usa /grapher/drug-overdose-death-rates 302
 /grapher/number-an-eating-disorder-countrywith /grapher/number-with-eating-disorder-country 302
-/grapher/international-migrant-stock /grapher/international-migrant-stock-total 302
 /grapher/value-of-imports-and-exports /grapher/exports-gdp-cepii 302
 /grapher/mortality-from-non-communicable-diseases /grapher/mortality-from-ncds-sdgs 302
 /grapher/births-attended-by-health-staff /grapher/births-attended-by-health-staff-sdgs 302
@@ -705,7 +702,6 @@
 /grapher/coal-production-in-the-united-kingdom-1700-2016 /grapher/coal-production-in-the-united-kingdom 302
 /grapher/employment-in-the-coal-industry-in-the-united-kingdom-1873-2016 /grapher/employment-in-the-coal-industry-in-the-united-kingdom 302
 /grapher/carbon-dioxide-co-emissions-by-sector-or-source /grapher/carbon-dioxide-co2-emissions-by-sector-or-source 302
-/grapher/share-with-depression /grapher/share-with-depression-by-gdp-pc 302
 /grapher/the-maternal-mortality-ratio-in-1990-and-2015 /grapher/the-maternal-mortality-ratio-in-1990-and-2016 302
 /grapher/number-of-new-neonatal-tetanus-cases-who-2017-per-1000000-people /grapher/new-neonatal-tetanus-cases-per-million 302
 /grapher/nitrous-oxide-emissions-by-sector-gg-coe /grapher/nitrous-oxide-emissions-by-sector 302
@@ -722,7 +718,6 @@
 /grapher/uk-government-debt-as-a-percentage-of-gdp-19272016 /grapher/uk-government-debt-as-a-percentage-of-gdp-17272016 302
 /grapher/p90-of-incomeconsumption-distribution-vs-p10-of-incomeconsumption-distribution /grapher/p90-vs-p10-logs 302
 /grapher/population-growth-rate-by-world-region-1955-2015-and-projections-through-2100 /grapher/population-growth-rate-by-level-of-development 302
-/grapher/population-by-age-group-to-2100 /grapher/dependency-age-groups-to-2100 302
 /grapher/sex-ratio-by-age-males-per-100-females /grapher/sex-ratio-by-age 302
 /grapher/infectious-disease-death-rates-per-100000 /grapher/infectious-disease-death-rates 302
 /grapher/child-mortality-2010-vs-2017 /grapher/child-mortality-2010-vs-2017-slope 302
