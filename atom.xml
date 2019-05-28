@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-05-24T10:00:47.000Z</updated>
+<updated>2019-05-28T13:48:01.000Z</updated>
+<entry>
+    <title><![CDATA[Population momentum: If the number of children is not growing, why is the population still increasing?]]></title>
+    <id>https://ourworldindata.org/population-momentum</id>
+    <link rel="alternate" href="https://ourworldindata.org/population-momentum"/>
+    <published>2019-05-28T13:48:01.000Z</published>
+    <updated>2019-05-28T13:49:38.000Z</updated>
+    <author><name>Max Roser</name></author>
+    <summary><![CDATA[This blog post draws on data and research discussed in our entry on World Population Growth.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Child mortality is an everyday tragedy of enormous scale that rarely makes the headlines]]></title>
     <id>https://ourworldindata.org/child-mortality-everyday-tragedy-no-headlines</id>
@@ -89,14 +98,5 @@
     <summary><![CDATA[15,000 children die on average every single day. Reducing child mortality is a key target of the Sustainable Development Goals (SDGs). What would it take for the world to reach it?
 
 ]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[The global population pyramid: How global demography has changed and what we can expect for the 21st century]]></title>
-    <id>https://ourworldindata.org/global-population-pyramid</id>
-    <link rel="alternate" href="https://ourworldindata.org/global-population-pyramid"/>
-    <published>2019-04-18T11:00:07.000Z</published>
-    <updated>2019-04-18T15:48:32.000Z</updated>
-    <author><name>Max Roser</name></author>
-    <summary><![CDATA[This blog post draws on data and research discussed in our entry on World Population Growth and Future Population Growth.]]></summary>
 </entry>
 </feed>
