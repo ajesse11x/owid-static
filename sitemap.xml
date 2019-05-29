@@ -1057,7 +1057,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/corruption</loc>
-        <lastmod>2019-05-10</lastmod>
+        <lastmod>2019-05-29</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/government-spending</loc>
@@ -13349,6 +13349,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/mean-years-of-schooling-1</loc>
+        <lastmod>2019-05-29</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/average-years-of-schooling-vs-corruption-perception-index-1</loc>
         <lastmod>2019-05-29</lastmod>
     </url>
 </urlset>
