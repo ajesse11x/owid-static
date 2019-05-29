@@ -13325,7 +13325,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/suffrage</loc>
-        <lastmod>2019-05-28</lastmod>
+        <lastmod>2019-05-29</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/fertility-rate-complete-gapminder</loc>
@@ -13333,6 +13333,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/compulsory-voting</loc>
+        <lastmod>2019-05-29</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/elected-officials-index</loc>
         <lastmod>2019-05-29</lastmod>
     </url>
 </urlset>
