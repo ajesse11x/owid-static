@@ -1109,7 +1109,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/child-mortality-globally</loc>
-        <lastmod>2019-01-22</lastmod>
+        <lastmod>2019-06-03</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/homelessness</loc>
@@ -2890,10 +2890,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/natural-population-growth</loc>
         <lastmod>2019-03-25</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/child-mortality-by-country</loc>
-        <lastmod>2019-01-15</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-multi-poverty</loc>
@@ -12538,10 +12534,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/new-neonatal-tetanus-cases-per-million</loc>
         <lastmod>2019-02-05</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/child-mortality-cme</loc>
-        <lastmod>2019-01-15</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/vaccinated-vs-neonatal-tetanus-incidence-x</loc>
