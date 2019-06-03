@@ -3497,7 +3497,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/child-mortality-1970-vs-now</loc>
-        <lastmod>2019-01-15</lastmod>
+        <lastmod>2019-06-03</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/coal-proved-reserves</loc>
@@ -12164,10 +12164,6 @@
         <lastmod>2018-10-05</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/child-mortality-vs-gdp-per-capita</loc>
-        <lastmod>2019-01-15</lastmod>
-    </url>
-    <url>
         <loc>https://ourworldindata.org/grapher/owid-visitors-annual</loc>
         <lastmod>2018-10-08</lastmod>
     </url>
@@ -12476,12 +12472,8 @@
         <lastmod>2018-11-27</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/child-mortality-2017-vs-1990</loc>
-        <lastmod>2018-11-28</lastmod>
-    </url>
-    <url>
         <loc>https://ourworldindata.org/grapher/child-mortality-2010-vs-2017-slope</loc>
-        <lastmod>2019-04-21</lastmod>
+        <lastmod>2019-06-03</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/co2-emissions-2016-vs-1990</loc>
