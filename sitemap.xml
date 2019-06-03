@@ -2197,7 +2197,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/population-growth-vs-child-mortality</loc>
-        <lastmod>2019-05-13</lastmod>
+        <lastmod>2019-06-03</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/incidence-of-child-labour-in-italy</loc>
@@ -2494,6 +2494,10 @@
     <url>
         <loc>https://ourworldindata.org/grapher/percentage-of-persons-without-health-insurance-coverage-us</loc>
         <lastmod>2018-09-21</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/fertility-vs-child-mortality-family-planning-policy</loc>
+        <lastmod>2019-06-03</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/birth-rate-the-number-of-births-per-1000-people-in-the-population</loc>
