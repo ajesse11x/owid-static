@@ -729,7 +729,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/child-mortality</loc>
-        <lastmod>2019-06-03</lastmod>
+        <lastmod>2019-06-07</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/vaccination</loc>
@@ -13312,7 +13312,7 @@
         <lastmod>2019-06-06</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/child-mortality-complete</loc>
+        <loc>https://ourworldindata.org/grapher/child-mortality-complete-gapminder</loc>
         <lastmod>2019-06-07</lastmod>
     </url>
 </urlset>
