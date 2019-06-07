@@ -13257,7 +13257,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/fertility-rate-complete-gapminder</loc>
-        <lastmod>2019-05-28</lastmod>
+        <lastmod>2019-06-07</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/compulsory-voting</loc>
@@ -13316,7 +13316,7 @@
         <lastmod>2019-06-07</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/child-mortality-complete</loc>
+        <loc>https://ourworldindata.org/grapher/child-mortality-complete-gapminder</loc>
         <lastmod>2019-06-07</lastmod>
     </url>
 </urlset>
