@@ -12364,27 +12364,7 @@
         <lastmod>2018-11-21</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/successful-and-unsuccessful-terrorist-attacks</loc>
-        <lastmod>2018-11-22</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/suicide-terrorist-attacks</loc>
-        <lastmod>2018-11-22</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/share-of-terrorist-incidents-with-suicide</loc>
-        <lastmod>2018-11-22</lastmod>
-    </url>
-    <url>
         <loc>https://ourworldindata.org/grapher/deaths-from-terrorist-attacks</loc>
-        <lastmod>2018-11-22</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/share-of-terrorist-incidents-fatal</loc>
-        <lastmod>2018-11-22</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/average-fatalities-per-terrorist-attack</loc>
         <lastmod>2018-11-22</lastmod>
     </url>
     <url>
@@ -12394,10 +12374,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/terrorism-vs-conflict-deaths-share</loc>
         <lastmod>2019-06-07</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/fatalities-per-terrorist-attack-comparison</loc>
-        <lastmod>2018-11-22</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/global-primary-energy-share</loc>
@@ -13337,7 +13313,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/youth-mortality-rate</loc>
-        <lastmod>2019-06-06</lastmod>
+        <lastmod>2019-06-07</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/terrorist-attacks-by-region</loc>
