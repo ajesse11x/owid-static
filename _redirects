@@ -745,7 +745,11 @@
 /grapher/average-years-of-schooling-vs-corruption-perception-index /grapher/average-years-of-schooling-vs-corruption-perception-index-1 302
 /grapher/correlation-between-education-in-the-past-and-democracy-today-1 /grapher/correlation-between-education-and-democracy-1 302
 /grapher/correlation-between-education-and-democracy-today-1 /grapher/correlation-between-education-and-democracy-1 302
-/grapher/regime-type-vs-human-rights-protection-score /grapher/political-regime-type-vs-human-rights-protection-score 302
+/grapher/regime-type-vs-human-rights-protection-score /grapher/political-regime-type-vs-human-rights-score 302
 /grapher/political-regime /grapher/political-regimes 302
 /grapher/child-mortality-complete /grapher/child-mortality-complete-gapminder 302
 /grapher/human-rights-protection /grapher/human-rights-scores 302
+/grapher/human-rights-rating-vs-gdp /grapher/human-rights-score-vs-gdp-per-capita 302
+/grapher/human-rights-score-vs-gdp /grapher/human-rights-score-vs-gdp-per-capita 302
+/grapher/political-regime-type-vs-human-rights-protection-score /grapher/political-regime-type-vs-human-rights-score 302
+/grapher/human-rights-vs-the-political-regime /grapher/human-rights-score-vs-political-regime-type 302
