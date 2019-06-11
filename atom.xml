@@ -25,6 +25,15 @@
     <summary><![CDATA[50 years ago the average woman in world had five children. Since then, this figure has more than halved. Yet the global population is still rising – why is this the case?]]></summary>
 </entry>
 <entry>
+    <title><![CDATA[Mortality in the past – around half died as children]]></title>
+    <id>https://ourworldindata.org/child-mortality-in-the-past</id>
+    <link rel="alternate" href="https://ourworldindata.org/child-mortality-in-the-past"/>
+    <published>2019-05-28T10:20:52.000Z</published>
+    <updated>2019-06-11T16:54:05.000Z</updated>
+    <author><name>Max Roser</name></author>
+    <summary><![CDATA[This blog post draws on data and research discussed in our entry on Child Mortality.]]></summary>
+</entry>
+<entry>
     <title><![CDATA[Child mortality is an everyday tragedy of enormous scale that rarely makes the headlines]]></title>
     <id>https://ourworldindata.org/child-mortality-everyday-tragedy-no-headlines</id>
     <link rel="alternate" href="https://ourworldindata.org/child-mortality-everyday-tragedy-no-headlines"/>
@@ -87,14 +96,5 @@
     <updated>2019-04-25T11:49:51.000Z</updated>
     <author><name>Max Roser</name></author>
     <summary><![CDATA[This blog post draws on data and research discussed in our entry on Malaria.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Humans make up just 0.01% of Earth's life – what's the rest?]]></title>
-    <id>https://ourworldindata.org/life-on-earth</id>
-    <link rel="alternate" href="https://ourworldindata.org/life-on-earth"/>
-    <published>2019-04-24T11:00:43.000Z</published>
-    <updated>2019-05-05T15:54:12.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[How is life on Earth distributed across the taxonomic kingdoms? Humans make up just 0.01% of life: but we've had much larger impacts on shaping the animal kingdom. Livestock now outweighs wild mammals and birds ten-fold.]]></summary>
 </entry>
 </feed>
