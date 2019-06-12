@@ -248,7 +248,6 @@
 /grapher/co2-emissions-embedded-in-trade-as-a-share-of-domestic-emissions /grapher/co-emissions-in-imported-goods-as-a-share-of-domestic-emissions 302
 /grapher/co-emissions-embedded-in-trade-as-a-share-of-domestic-emissions /grapher/co-emissions-in-imported-goods-as-a-share-of-domestic-emissions 302
 /grapher/military-expenditure-of-gdp /grapher/military-expenditure-as-share-of-gdp 302
-/grapher/child-mortality-rate-ihme /grapher/child-mortality-rate 302
 /grapher/the-decline-of-child-mortality-by-level-of-prosperity-regression /grapher/child-mortality-byvs-level-of-prosperity-regression 302
 /grapher/fertilizer-vs-crop-yield /grapher/cereal-crop-yield-vs-fertilizer-application 302
 /grapher/number-of-human-genome-base-pairs-sequenced-per-million-us /grapher/number-of-human-genome-base-pairs-sequenced-per-us 302
@@ -754,3 +753,4 @@
 /grapher/political-regime-type-vs-human-rights-protection-score /grapher/political-regime-type-vs-human-rights-score 302
 /grapher/human-rights-vs-the-political-regime /grapher/human-rights-score-vs-political-regime-type 302
 /grapher/proportion-of-important-sites-for-terrestrial-biodiversity-covered-by-protected-areas /grapher/protected-terrestrial-biodiversity-sites 302
+/grapher/child-mortality-rate /grapher/child-mortality-rate-ihme 302
