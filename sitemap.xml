@@ -3932,8 +3932,8 @@
         <lastmod>2018-03-15</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/share-of-children-under-5-who-received-diarrhea-treatment</loc>
-        <lastmod>2018-03-15</lastmod>
+        <loc>https://ourworldindata.org/grapher/children-who-receive-ors</loc>
+        <lastmod>2019-06-12</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/prevalence-of-vitamin-a-deficiency-in-children</loc>
@@ -13306,10 +13306,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/violent-deaths-in-conflicts-and-one-sided-violence-vs-terrorism-deaths</loc>
         <lastmod>2019-06-07</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/share-children-receiving-ors</loc>
-        <lastmod>2019-06-12</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/life-expectancy-vs-liberal-democracy-index</loc>
