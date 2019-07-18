@@ -5,15 +5,87 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-06-11T10:20:52.000Z</updated>
+<updated>2019-07-17T06:29:24.000Z</updated>
+<entry>
+    <title><![CDATA[Are we happier when we spend more time with others?]]></title>
+    <id>https://ourworldindata.org/happiness-and-friends</id>
+    <link rel="alternate" href="https://ourworldindata.org/happiness-and-friends"/>
+    <published>2019-07-17T06:29:24.000Z</published>
+    <updated>2019-07-17T17:13:04.000Z</updated>
+    <author><name>Esteban Ortiz-Ospina</name></author>
+    <summary><![CDATA[In 1938, a group of Harvard researchers decided to start a research program to track the lives of a group of young men, in what eventually became one of the longest and most famous longitudinal studies of its kind. The idea was to track the development of a group of teenage boys through periodic interviews and medical checkups, with the aim of understanding how their health and well-being evolved as they grew up.1]]></summary>
+</entry>
+<entry>
+    <title><![CDATA[How important are social relations for our health and well-being?]]></title>
+    <id>https://ourworldindata.org/social-relations-health-and-well-being</id>
+    <link rel="alternate" href="https://ourworldindata.org/social-relations-health-and-well-being"/>
+    <published>2019-07-17T05:10:21.000Z</published>
+    <updated>2019-07-17T17:12:23.000Z</updated>
+    <author><name>Esteban Ortiz-Ospina</name></author>
+    <summary><![CDATA[Dr. Vivek Murthy, former Surgeon General of the United States, recently wrote: “Loneliness and weak social connections are associated with a reduction in lifespan similar to that caused by smoking 15 cigarettes a day”.]]></summary>
+</entry>
+<entry>
+    <title><![CDATA[More than 8 out of 10 people in the world will live in Asia or Africa by 2100]]></title>
+    <id>https://ourworldindata.org/region-population-2100</id>
+    <link rel="alternate" href="https://ourworldindata.org/region-population-2100"/>
+    <published>2019-07-15T09:00:02.000Z</published>
+    <updated>2019-07-17T08:42:38.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[This blog post draws on data and research discussed in our entry on World Population Growth.]]></summary>
+</entry>
+<entry>
+    <title><![CDATA[How I use Our World in Data in my work as a high school teacher]]></title>
+    <id>https://ourworldindata.org/how-use-owid-for-high-school-teaching</id>
+    <link rel="alternate" href="https://ourworldindata.org/how-use-owid-for-high-school-teaching"/>
+    <published>2019-07-04T13:00:10.000Z</published>
+    <updated>2019-07-04T13:08:41.000Z</updated>
+    <author><name>Guest Post</name></author>
+    <summary><![CDATA[At Our World in Data we get lots of useful feedback from users: suggestions for topics we should cover, questions, and often feedback from policymakers, journalists, researchers and teachers who use us in their work.]]></summary>
+</entry>
+<entry>
+    <title><![CDATA[How I use Our World in Data in my work as a medical doctor]]></title>
+    <id>https://ourworldindata.org/how-i-use-our-world-in-data-in-my-work-as-a-medical-doctor</id>
+    <link rel="alternate" href="https://ourworldindata.org/how-i-use-our-world-in-data-in-my-work-as-a-medical-doctor"/>
+    <published>2019-07-03T13:32:39.000Z</published>
+    <updated>2019-07-03T17:10:45.000Z</updated>
+    <author><name>Guest Post</name></author>
+    <summary><![CDATA[]]></summary>
+</entry>
+<entry>
+    <title><![CDATA[Which countries achieved economic growth? And why does it matter?]]></title>
+    <id>https://ourworldindata.org/economic-growth-since-1950</id>
+    <link rel="alternate" href="https://ourworldindata.org/economic-growth-since-1950"/>
+    <published>2019-06-25T15:01:24.000Z</published>
+    <updated>2019-07-03T09:22:12.000Z</updated>
+    <author><name>Max Roser</name></author>
+    <summary><![CDATA[South Koreans are on average 32-times richer than in 1950; Romanians 20-times; Chinese 16-times. Other countries stagnated and remained poor. We look at how incomes have changed around the world and why it matters.]]></summary>
+</entry>
+<entry>
+    <title><![CDATA[Does democracy lead to better health?]]></title>
+    <id>https://ourworldindata.org/democracy-health</id>
+    <link rel="alternate" href="https://ourworldindata.org/democracy-health"/>
+    <published>2019-06-24T12:00:50.000Z</published>
+    <updated>2019-06-28T14:01:49.000Z</updated>
+    <author><name>Esteban Ortiz-Ospina</name></author>
+    <summary><![CDATA[There is a cross-country correlation between democracy (elections, freedom of expression, equality before law etc.) and population health. We take a look at these correlations and whether there is good evidence to suggest causality.]]></summary>
+</entry>
+<entry>
+    <title><![CDATA[Two centuries of rapid global population growth will come to an end]]></title>
+    <id>https://ourworldindata.org/world-population-growth-past-future</id>
+    <link rel="alternate" href="https://ourworldindata.org/world-population-growth-past-future"/>
+    <published>2019-06-18T09:00:41.000Z</published>
+    <updated>2019-06-26T15:48:33.000Z</updated>
+    <author><name>Max Roser</name></author>
+    <summary><![CDATA[Global population has increased rapidly – particularly over the past 100 years. But this growth is temporary: we take a look at population growth over the past few centuries and what we can expect for the future, drawing on the latest UN Population Prospect projections. It maps the transition from rapid growth to a new equilibrium. ]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Mortality in the past – around half died as children]]></title>
     <id>https://ourworldindata.org/child-mortality-in-the-past</id>
     <link rel="alternate" href="https://ourworldindata.org/child-mortality-in-the-past"/>
     <published>2019-06-11T10:20:52.000Z</published>
-    <updated>2019-06-12T04:28:58.000Z</updated>
+    <updated>2019-06-26T16:10:06.000Z</updated>
     <author><name>Max Roser</name></author>
-    <summary><![CDATA[This blog post draws on data and research discussed in our entry on Child Mortality.]]></summary>
+    <summary><![CDATA[In our long history, how likely was it that our ancestors died as children? Historical studies suggest that around one-quarter of infants died in their first year of life and around half of all children died before they reached the end of puberty. It's only in the very recent past that we've seen dramatic improvements.]]></summary>
 </entry>
 <entry>
     <title><![CDATA[Does the news reflect what we die from?]]></title>
@@ -23,78 +95,5 @@
     <updated>2019-06-02T12:55:07.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[There is a large disconnect between what gets covered in the media and the day-to-day reality for most. How do causes of death in the US match with media coverage and what people search for online?]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Population momentum: If the number of children is not growing, why is the population still increasing?]]></title>
-    <id>https://ourworldindata.org/population-momentum</id>
-    <link rel="alternate" href="https://ourworldindata.org/population-momentum"/>
-    <published>2019-05-28T13:48:01.000Z</published>
-    <updated>2019-05-30T12:50:45.000Z</updated>
-    <author><name>Max Roser</name></author>
-    <summary><![CDATA[50 years ago the average woman in world had five children. Since then, this figure has more than halved. Yet the global population is still rising – why is this the case?]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Child mortality is an everyday tragedy of enormous scale that rarely makes the headlines]]></title>
-    <id>https://ourworldindata.org/child-mortality-everyday-tragedy-no-headlines</id>
-    <link rel="alternate" href="https://ourworldindata.org/child-mortality-everyday-tragedy-no-headlines"/>
-    <published>2019-05-24T10:00:47.000Z</published>
-    <updated>2019-05-30T12:49:07.000Z</updated>
-    <author><name>Max Roser</name></author>
-    <summary><![CDATA[5.4 million children under 5 die every year – that's 15,000 every day. Yet this is an everyday tragedy that never makes the headlines.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[The world population is changing: For the first time there are more people over 64 than children younger than 5]]></title>
-    <id>https://ourworldindata.org/population-aged-65-outnumber-children</id>
-    <link rel="alternate" href="https://ourworldindata.org/population-aged-65-outnumber-children"/>
-    <published>2019-05-23T10:00:45.000Z</published>
-    <updated>2019-05-27T13:38:22.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[The human population has been a young one for most of its history: high fertility rates and short lifespans mean children have accounted for a large share of the population. But the world is ageing: there are now more people older than 64 than younger than 5 years old. This marks a historic demographic change.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[As the world's poorest economies are stagnating half a billion are expected to be in extreme poverty in 2030]]></title>
-    <id>https://ourworldindata.org/extreme-poverty-projections</id>
-    <link rel="alternate" href="https://ourworldindata.org/extreme-poverty-projections"/>
-    <published>2019-05-06T11:00:48.000Z</published>
-    <updated>2019-05-31T14:18:28.000Z</updated>
-    <author><name>Max Roser</name></author>
-    <summary><![CDATA[The world has committed to ending extreme poverty by 2030. But projections suggest we're far off track: although global extreme poverty is expected to continue to fall, an estimated 500 million will still live in extreme poverty in 2030. ]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Top incomes: more women, but still very male-dominated]]></title>
-    <id>https://ourworldindata.org/top-incomes-more-women-but-still-very-male-dominated</id>
-    <link rel="alternate" href="https://ourworldindata.org/top-incomes-more-women-but-still-very-male-dominated"/>
-    <published>2019-04-29T10:10:15.000Z</published>
-    <updated>2019-04-29T10:13:30.000Z</updated>
-    <author><name>Joe Hasell</name></author>
-    <summary><![CDATA[How hard is it for women to make it to the top? Recent research using income tax data from a number of high-income countries casts light on this. Although improving, we see that women are still very under-represented at the top of the income distribution.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Oceans, land and deep subsurface: how is life distributed across environments?]]></title>
-    <id>https://ourworldindata.org/life-by-environment</id>
-    <link rel="alternate" href="https://ourworldindata.org/life-by-environment"/>
-    <published>2019-04-26T11:00:24.000Z</published>
-    <updated>2019-05-05T15:59:17.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[Where do we find life on earth? Despite being vast, the oceans are home to just 1% of life – but the majority of animals. See how the different lifeforms are split across these global environments.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Net Results: We are winning the fight against malaria and you can help]]></title>
-    <id>https://ourworldindata.org/malaria-net-results</id>
-    <link rel="alternate" href="https://ourworldindata.org/malaria-net-results"/>
-    <published>2019-04-25T09:40:51.000Z</published>
-    <updated>2019-04-30T10:26:57.000Z</updated>
-    <author><name>Max Roser</name></author>
-    <summary><![CDATA[The last few decades have been extraordinarily successful in the fight against malaria. But we still need to – and can – do much more. See our global progress & why GiveWell recommends to donate to organizations that fight malaria.
-]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Malaria was common across half the world – since then it has been eliminated in many regions]]></title>
-    <id>https://ourworldindata.org/malaria-past-prevalence</id>
-    <link rel="alternate" href="https://ourworldindata.org/malaria-past-prevalence"/>
-    <published>2019-04-25T09:21:07.000Z</published>
-    <updated>2019-04-25T11:49:51.000Z</updated>
-    <author><name>Max Roser</name></author>
-    <summary><![CDATA[This blog post draws on data and research discussed in our entry on Malaria.]]></summary>
 </entry>
 </feed>
