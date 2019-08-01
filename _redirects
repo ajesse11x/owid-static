@@ -540,10 +540,10 @@
 /grapher/countries-that-adopt-and-implement-guarantees-for-public-access-to-information /grapher/countries-that-adopt-guarantees-for-public-access-to-information 302
 /grapher/countries-with-national-human-rights-institutions-in-compliance-with-the-paris-principles /grapher/countries-in-compliance-with-paris-principles 302
 /grapher/progress-in-multistakeholder-monitoring-frameoworks /grapher/progress-in-multistakeholder-monitoring-frameworks 302
-/grapher/annual-number-of-deaths-by-cause-percent /grapher/share-of-deaths-by-cause-2016 302
+/grapher/annual-number-of-deaths-by-cause-percent /grapher/share-of-deaths-by-cause 302
 /grapher/annual-deaths-by-cause-percent-2001 /grapher/share-of-deaths-by-cause-2001 302
 /grapher/annual-deaths-by-cause-percent-2011 /grapher/share-of-deaths-by-cause-2011 302
-/grapher/annual-deaths-by-cause-percent-2016 /grapher/share-of-deaths-by-cause-2016 302
+/grapher/annual-deaths-by-cause-percent-2016 /grapher/share-of-deaths-by-cause 302
 /grapher/dalys-from-mental-health-and-substance-use-disorder-by-age /grapher/dalys-from-mental-and-substance-disorder-by-age 302
 /grapher/share-suffering-from-depressive-disorders /grapher/share-with-depression 302
 /grapher/disease-burden-from-non-communicable-diseases /grapher/disease-burden-from-ncds 302
@@ -760,3 +760,4 @@
 /grapher/mean-years-of-schooling-selected-countries /grapher/mean-years-of-schooling-long-run 302
 /grapher/so-emissions-million-tonnes-per-year /grapher/so-emissions-tonnes-per-year 302
 /grapher/number-of-departures /grapher/number-of-departures-per-1000 302
+/grapher/share-of-deaths-by-cause-2016 /grapher/share-of-deaths-by-cause 302
