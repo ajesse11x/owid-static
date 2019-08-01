@@ -5,7 +5,25 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-07-31T12:00:15.000Z</updated>
+<updated>2019-08-01T08:30:11.000Z</updated>
+<entry>
+    <title><![CDATA[How many people support vaccination across the world?]]></title>
+    <id>https://ourworldindata.org/support-for-vaccination</id>
+    <link rel="alternate" href="https://ourworldindata.org/support-for-vaccination"/>
+    <published>2019-08-01T08:30:11.000Z</published>
+    <updated>2019-08-01T08:58:03.000Z</updated>
+    <author><name>Hannah Ritchie</name></author><author><name>Samantha Vanderslott</name></author>
+    <summary><![CDATA[This blog post draws on data and research discussed in our entry on Vaccination.]]></summary>
+</entry>
+<entry>
+    <title><![CDATA[Skepticism to vaccines and what to do about it]]></title>
+    <id>https://ourworldindata.org/vaccine-skepticism</id>
+    <link rel="alternate" href="https://ourworldindata.org/vaccine-skepticism"/>
+    <published>2019-08-01T08:30:06.000Z</published>
+    <updated>2019-08-01T08:58:42.000Z</updated>
+    <author><name>Samantha Vanderslott</name></author>
+    <summary><![CDATA[This blog post draws on data and research discussed in our entry on Vaccination.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[We're hiring! Why I work at OWID and why you should consider joining our research team]]></title>
     <id>https://ourworldindata.org/health-colleague</id>
@@ -77,23 +95,5 @@
     <updated>2019-06-28T14:01:49.000Z</updated>
     <author><name>Esteban Ortiz-Ospina</name></author>
     <summary><![CDATA[There is a cross-country correlation between democracy (elections, freedom of expression, equality before law etc.) and population health. We take a look at these correlations and whether there is good evidence to suggest causality.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Two centuries of rapid global population growth will come to an end]]></title>
-    <id>https://ourworldindata.org/world-population-growth-past-future</id>
-    <link rel="alternate" href="https://ourworldindata.org/world-population-growth-past-future"/>
-    <published>2019-06-18T09:00:41.000Z</published>
-    <updated>2019-06-26T15:48:33.000Z</updated>
-    <author><name>Max Roser</name></author>
-    <summary><![CDATA[Global population has increased rapidly – particularly over the past 100 years. But this growth is temporary: we take a look at population growth over the past few centuries and what we can expect for the future, drawing on the latest UN Population Prospect projections. It maps the transition from rapid growth to a new equilibrium. ]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Mortality in the past – around half died as children]]></title>
-    <id>https://ourworldindata.org/child-mortality-in-the-past</id>
-    <link rel="alternate" href="https://ourworldindata.org/child-mortality-in-the-past"/>
-    <published>2019-06-11T10:20:52.000Z</published>
-    <updated>2019-06-26T16:10:06.000Z</updated>
-    <author><name>Max Roser</name></author>
-    <summary><![CDATA[In our long history, how likely was it that our ancestors died as children? Historical studies suggest that around one-quarter of infants died in their first year of life and around half of all children died before they reached the end of puberty. It's only in the very recent past that we've seen dramatic improvements.]]></summary>
 </entry>
 </feed>
