@@ -1733,7 +1733,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/how-many-internet-users-does-each-country-have</loc>
-        <lastmod>2019-01-23</lastmod>
+        <lastmod>2019-08-01</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/death-uk-coal</loc>
@@ -12558,10 +12558,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-internet-users-by-country</loc>
         <lastmod>2019-01-18</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/number-of-internet-users-bar</loc>
-        <lastmod>2019-08-01</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/coal-output-uk-tonnes</loc>
