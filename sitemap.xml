@@ -2728,10 +2728,6 @@
         <lastmod>2018-03-15</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/prevalence-of-undernourishment-yellowred</loc>
-        <lastmod>2019-04-17</lastmod>
-    </url>
-    <url>
         <loc>https://ourworldindata.org/grapher/average-years-of-schooling-vs-corruption-perception-index</loc>
         <lastmod>2019-05-08</lastmod>
     </url>
@@ -13538,5 +13534,9 @@
     <url>
         <loc>https://ourworldindata.org/grapher/daily-hours-spent-with-digital-media-per-adult-user</loc>
         <lastmod>2019-08-01</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/share-undernourished-2000-2017</loc>
+        <lastmod>2019-08-02</lastmod>
     </url>
 </urlset>
