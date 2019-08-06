@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-08-01T08:30:11.000Z</updated>
+<updated>2019-08-06T08:30:43.000Z</updated>
+<entry>
+    <title><![CDATA[How does the sex ratio at birth vary across the world?]]></title>
+    <id>https://ourworldindata.org/sex-ratio-at-birth</id>
+    <link rel="alternate" href="https://ourworldindata.org/sex-ratio-at-birth"/>
+    <published>2019-08-06T08:30:43.000Z</published>
+    <updated>2019-08-06T08:39:34.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[This blog post draws on data and research discussed in our entry on Gender Ratio.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[How many people support vaccination across the world?]]></title>
     <id>https://ourworldindata.org/support-for-vaccination</id>
@@ -86,14 +95,5 @@
     <updated>2019-07-03T09:22:12.000Z</updated>
     <author><name>Max Roser</name></author>
     <summary><![CDATA[South Koreans are on average 32-times richer than in 1950; Romanians 20-times; Chinese 16-times. Other countries stagnated and remained poor. We look at how incomes have changed around the world and why it matters.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Does democracy lead to better health?]]></title>
-    <id>https://ourworldindata.org/democracy-health</id>
-    <link rel="alternate" href="https://ourworldindata.org/democracy-health"/>
-    <published>2019-06-24T12:00:50.000Z</published>
-    <updated>2019-06-28T14:01:49.000Z</updated>
-    <author><name>Esteban Ortiz-Ospina</name></author>
-    <summary><![CDATA[There is a cross-country correlation between democracy (elections, freedom of expression, equality before law etc.) and population health. We take a look at these correlations and whether there is good evidence to suggest causality.]]></summary>
 </entry>
 </feed>
