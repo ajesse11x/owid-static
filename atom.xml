@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-08-06T17:20:32.000Z</updated>
+<updated>2019-08-08T08:00:17.000Z</updated>
+<entry>
+    <title><![CDATA[Where in the world are children dying?]]></title>
+    <id>https://ourworldindata.org/where-are-children-dying</id>
+    <link rel="alternate" href="https://ourworldindata.org/where-are-children-dying"/>
+    <published>2019-08-08T08:00:17.000Z</published>
+    <updated>2019-08-08T09:28:41.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[This blog post draws on data and research discussed in our entry on Child & Infant Mortality.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Introducing the new Our World in Data child mortality series]]></title>
     <id>https://ourworldindata.org/introducing-the-child-mortality-series</id>
@@ -86,14 +95,5 @@
     <updated>2019-07-27T11:05:34.000Z</updated>
     <author><name>Guest Post</name></author>
     <summary><![CDATA[Many lecturers and teachers use Our World in Data in their teaching. This spans a range of levels from primary school to post-graduate university education. Matthew Cone, a US high-school teacher shares how he uses OWID with his pupils.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[How I use Our World in Data in my work as a medical doctor]]></title>
-    <id>https://ourworldindata.org/how-i-use-our-world-in-data-in-my-work-as-a-medical-doctor</id>
-    <link rel="alternate" href="https://ourworldindata.org/how-i-use-our-world-in-data-in-my-work-as-a-medical-doctor"/>
-    <published>2019-07-03T13:32:39.000Z</published>
-    <updated>2019-07-27T10:51:56.000Z</updated>
-    <author><name>Guest Post</name></author>
-    <summary><![CDATA[Our World in Data gets lots of feedback on how our work is used by policymakers, journalists, researchers and the public. But sometimes we get feedback from people who us in ways we could never have imagined. Dr Jill Gordon shares her experiences on how she uses OWID in her work as a medical doctor. ]]></summary>
 </entry>
 </feed>
