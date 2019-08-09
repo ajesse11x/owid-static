@@ -734,7 +734,7 @@
 /grapher/child-mortality-vs-prenatal-care /grapher/infant-mortality-vs-prenatal-care 302
 /grapher/change-in-male-height-from-1896-to-1996 /grapher/change-in-male-height 302
 /grapher/child-mortality-WDI /grapher/child-mortality-igme 302
-/grapher/u5mr-1970-vs-2015 /grapher/u5mr-1960-vs-2017 302
+/grapher/u5mr-1970-vs-2015 /grapher/u5mr-vs-2017 302
 /grapher/test /grapher/suffrage 302
 /grapher/mean-years-of-schooling /grapher/mean-years-of-schooling-1 302
 /grapher/average-years-of-schooling-vs-corruption-perception-index /grapher/average-years-of-schooling-vs-corruption-perception-index-1 302
@@ -760,3 +760,4 @@
 /grapher/number-of-departures /grapher/number-of-departures-per-1000 302
 /grapher/share-of-deaths-by-cause-2016 /grapher/share-of-deaths-by-cause 302
 /grapher/causes-of-death-in-under-5s /grapher/causes-of-death-in-children-under-5 302
+/grapher/u5mr-1960-vs-2017 /grapher/u5mr-vs-2017 302
