@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-08-16T14:00:26.000Z</updated>
+<updated>2019-08-22T04:58:27.000Z</updated>
+<entry>
+    <title><![CDATA[Rotavirus vaccine - an effective tool that prevents children dying from diarrhea]]></title>
+    <id>https://ourworldindata.org/rotavirus-vaccine</id>
+    <link rel="alternate" href="https://ourworldindata.org/rotavirus-vaccine"/>
+    <published>2019-08-22T04:58:27.000Z</published>
+    <updated>2019-08-22T08:14:18.000Z</updated>
+    <author><name>Bernadeta Dadonaite</name></author><author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[This blog post is part of our Child Mortality Series and draws on data and research discussed in our entry on Child & Infant Mortality.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[More than half a million children die from diarrhea each year. How do we prevent this?]]></title>
     <id>https://ourworldindata.org/childhood-diarrheal-diseases</id>
@@ -86,14 +95,5 @@
     <updated>2019-07-27T12:28:57.000Z</updated>
     <author><name>Esteban Ortiz-Ospina</name></author>
     <summary><![CDATA[Are we happier when we spend more time with others? Studies suggest social relations are key factor in happiness & life satisfaction. We take a closer look at the evidence for how much social connections matter for happiness.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[How important are social relations for our health and well-being?]]></title>
-    <id>https://ourworldindata.org/social-relations-health-and-well-being</id>
-    <link rel="alternate" href="https://ourworldindata.org/social-relations-health-and-well-being"/>
-    <published>2019-07-17T05:10:21.000Z</published>
-    <updated>2019-07-27T12:15:26.000Z</updated>
-    <author><name>Esteban Ortiz-Ospina</name></author>
-    <summary><![CDATA[Loneliness has been reported to be as lethal as '15 cigarettes a day'. What is the evidence for this? We take a deeper look at the data and research on the link between loneliness and health and wellbeing.]]></summary>
 </entry>
 </feed>
