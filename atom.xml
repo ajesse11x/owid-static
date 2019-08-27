@@ -5,7 +5,25 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-08-22T04:58:27.000Z</updated>
+<updated>2019-08-27T11:10:00.000Z</updated>
+<entry>
+    <title><![CDATA[Diarrheal diseases are still a leading cause of child deaths: How many more lives could ORT save?]]></title>
+    <id>https://ourworldindata.org/how-many-lives-saved-ort</id>
+    <link rel="alternate" href="https://ourworldindata.org/how-many-lives-saved-ort"/>
+    <published>2019-08-27T11:10:00.000Z</published>
+    <updated>2019-08-27T13:25:44.000Z</updated>
+    <author><name>Bernadeta Dadonaite</name></author>
+    <summary><![CDATA[Diarrheal diseases remain one of the leading causes of deaths in children. One simple intervention – oral rehydration therapy (ORT) – has saved millions of children in recent decades. Yet it can still do more. We look at the future potential of ORT; barriers to its use; and how many lives it could potentially save.]]></summary>
+</entry>
+<entry>
+    <title><![CDATA[Oral rehydration therapy: a low-tech solution that has saved millions of lives]]></title>
+    <id>https://ourworldindata.org/oral-rehydration-therapy</id>
+    <link rel="alternate" href="https://ourworldindata.org/oral-rehydration-therapy"/>
+    <published>2019-08-27T11:00:13.000Z</published>
+    <updated>2019-08-27T11:55:24.000Z</updated>
+    <author><name>Bernadeta Dadonaite</name></author>
+    <summary><![CDATA[The world has made significant progress in recent decades in reducing deaths from diarrheal diseases, particularly for children. One of the most successful interventions has been oral rehydration therapy (ORT): a simple salt, water and sugar solution. We look at what ORT is, how it was developed, and how many lives it might have saved.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Rotavirus vaccine - an effective tool that prevents children dying from diarrhea]]></title>
     <id>https://ourworldindata.org/rotavirus-vaccine</id>
@@ -77,23 +95,5 @@
     <updated>2019-08-22T09:34:05.000Z</updated>
     <author><name>Samantha Vanderslott</name></author>
     <summary><![CDATA[92% of people in the world think vaccines are important for children to have. But in some countries, skepticism about their safety is as high – in some cases every 3rd person. What effect do public attitudes have on vaccine coverage rates, and what can we do about skepticism to vaccines?]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[We're hiring! Why I work at OWID and why you should consider joining our research team]]></title>
-    <id>https://ourworldindata.org/health-colleague</id>
-    <link rel="alternate" href="https://ourworldindata.org/health-colleague"/>
-    <published>2019-07-31T12:00:15.000Z</published>
-    <updated>2019-07-31T13:40:55.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[Now that Our World in Data has secured four years of funding, we're looking to expand our small team. We're on the search for a postdoctoral researcher in the area of global health and population sciences. At a high level, we're looking for someone with experience in handling, analyzing and presenting data and with a background in global health, demography, population sciences, epidemiology, or public health. You can find the nitty-gritty details of the role and application process here.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Are we happier when we spend more time with others?]]></title>
-    <id>https://ourworldindata.org/happiness-and-friends</id>
-    <link rel="alternate" href="https://ourworldindata.org/happiness-and-friends"/>
-    <published>2019-07-17T06:29:24.000Z</published>
-    <updated>2019-07-27T12:28:57.000Z</updated>
-    <author><name>Esteban Ortiz-Ospina</name></author>
-    <summary><![CDATA[Are we happier when we spend more time with others? Studies suggest social relations are key factor in happiness & life satisfaction. We take a closer look at the evidence for how much social connections matter for happiness.]]></summary>
 </entry>
 </feed>
