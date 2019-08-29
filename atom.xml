@@ -5,13 +5,13 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-08-28T09:55:41.000Z</updated>
+<updated>2019-08-28T10:55:41.000Z</updated>
 <entry>
     <title><![CDATA[Global Inequality of Opportunity]]></title>
     <id>https://ourworldindata.org/global-inequality-of-opportunity</id>
     <link rel="alternate" href="https://ourworldindata.org/global-inequality-of-opportunity"/>
-    <published>2019-08-28T09:55:41.000Z</published>
-    <updated>2019-08-28T18:23:14.000Z</updated>
+    <published>2019-08-28T10:55:41.000Z</published>
+    <updated>2019-08-28T19:23:14.000Z</updated>
     <author><name>Max Roser</name></author>
     <summary><![CDATA[Living conditions are vastly unequal between different places in our world today. Today’s global inequality of opportunity means that what matters most for your living conditions is the good or bad luck of your place of birth. We look at how where you're born is the strongest determinant of your standard of living, whether in life expectancy, income or education.]]></summary>
 </entry>
@@ -19,8 +19,8 @@
     <title><![CDATA[Diarrheal diseases are still a leading cause of child deaths: How many more lives could ORT save?]]></title>
     <id>https://ourworldindata.org/how-many-lives-saved-ort</id>
     <link rel="alternate" href="https://ourworldindata.org/how-many-lives-saved-ort"/>
-    <published>2019-08-27T11:10:00.000Z</published>
-    <updated>2019-08-27T14:39:36.000Z</updated>
+    <published>2019-08-27T12:10:00.000Z</published>
+    <updated>2019-08-27T15:39:36.000Z</updated>
     <author><name>Bernadeta Dadonaite</name></author>
     <summary><![CDATA[Diarrheal diseases remain one of the leading causes of deaths in children. One simple intervention – oral rehydration therapy (ORT) – has saved millions of children in recent decades. Yet it can still do more. We look at the future potential of ORT; barriers to its use; and how many lives it could potentially save.]]></summary>
 </entry>
@@ -28,8 +28,8 @@
     <title><![CDATA[Oral rehydration therapy: a low-tech solution that has saved millions of lives]]></title>
     <id>https://ourworldindata.org/oral-rehydration-therapy</id>
     <link rel="alternate" href="https://ourworldindata.org/oral-rehydration-therapy"/>
-    <published>2019-08-27T11:00:13.000Z</published>
-    <updated>2019-08-27T14:38:18.000Z</updated>
+    <published>2019-08-27T12:00:13.000Z</published>
+    <updated>2019-08-27T15:38:18.000Z</updated>
     <author><name>Bernadeta Dadonaite</name></author>
     <summary><![CDATA[The world has made significant progress in recent decades in reducing deaths from diarrheal diseases, particularly for children. One of the most successful interventions has been oral rehydration therapy (ORT): a simple salt, water and sugar solution. We look at what ORT is, how it was developed, and how many lives it might have saved.]]></summary>
 </entry>
@@ -37,8 +37,8 @@
     <title><![CDATA[Rotavirus vaccine - an effective tool that prevents children dying from diarrhea]]></title>
     <id>https://ourworldindata.org/rotavirus-vaccine</id>
     <link rel="alternate" href="https://ourworldindata.org/rotavirus-vaccine"/>
-    <published>2019-08-22T04:58:27.000Z</published>
-    <updated>2019-08-23T07:49:18.000Z</updated>
+    <published>2019-08-22T05:58:27.000Z</published>
+    <updated>2019-08-23T08:49:18.000Z</updated>
     <author><name>Bernadeta Dadonaite</name></author><author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[Diarrheal diseases are one the largest killers of children, responsible for more than half a million child deaths in 2017. Rotavirus is the leading cause of diarrheal deaths in children. There is, however, an effective tool against it: the rotavirus vaccine. We look at rotavirus vaccine coverage across the world; the estimated number of lives saved and its potential to save more children.]]></summary>
 </entry>
@@ -46,8 +46,8 @@
     <title><![CDATA[More than half a million children die from diarrhea each year. How do we prevent this?]]></title>
     <id>https://ourworldindata.org/childhood-diarrheal-diseases</id>
     <link rel="alternate" href="https://ourworldindata.org/childhood-diarrheal-diseases"/>
-    <published>2019-08-16T14:00:26.000Z</published>
-    <updated>2019-08-22T09:42:16.000Z</updated>
+    <published>2019-08-16T15:00:26.000Z</published>
+    <updated>2019-08-22T10:42:16.000Z</updated>
     <author><name>Bernadeta Dadonaite</name></author>
     <summary><![CDATA[Despite being treatable and preventable, 1.6 million people died from diarrheal diseases in 2017; one-third were children under five years old. This makes it one of the largest killers of children. Here we look at where and why children are dying from diarrrheal diseases, and what we can do stop this.]]></summary>
 </entry>
@@ -55,8 +55,8 @@
     <title><![CDATA[What are children dying from and what can we do about it?]]></title>
     <id>https://ourworldindata.org/what-are-children-dying-from-and-what-can-we-do-about-it</id>
     <link rel="alternate" href="https://ourworldindata.org/what-are-children-dying-from-and-what-can-we-do-about-it"/>
-    <published>2019-08-09T11:00:15.000Z</published>
-    <updated>2019-08-27T13:40:44.000Z</updated>
+    <published>2019-08-09T12:00:15.000Z</published>
+    <updated>2019-08-27T14:40:44.000Z</updated>
     <author><name>Bernadeta Dadonaite</name></author>
     <summary><![CDATA[15,000 children under five years old die every day. To reduce this figure we need to understand what children are dying from, and what interventions are available to stop this. Here we look at the number of children dying by each cause – from pneumonia to diarrheal diseases, malaria and malnutrition. We also present the range of interventions that are available to prevent children from dying.]]></summary>
 </entry>
@@ -64,8 +64,8 @@
     <title><![CDATA[Where in the world are children dying?]]></title>
     <id>https://ourworldindata.org/where-are-children-dying</id>
     <link rel="alternate" href="https://ourworldindata.org/where-are-children-dying"/>
-    <published>2019-08-08T08:00:17.000Z</published>
-    <updated>2019-08-22T09:21:11.000Z</updated>
+    <published>2019-08-08T09:00:17.000Z</published>
+    <updated>2019-08-22T10:21:11.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[15,000 children under five years old die every day. If we want to save as many children as possible, we need to first understand where children are dying. Here we look at how countries compare in the number of child deaths, and how this has changed over the past few decades.]]></summary>
 </entry>
@@ -73,8 +73,8 @@
     <title><![CDATA[Introducing the new Our World in Data child mortality series]]></title>
     <id>https://ourworldindata.org/introducing-the-child-mortality-series</id>
     <link rel="alternate" href="https://ourworldindata.org/introducing-the-child-mortality-series"/>
-    <published>2019-08-06T17:20:32.000Z</published>
-    <updated>2019-08-22T09:19:11.000Z</updated>
+    <published>2019-08-06T18:20:32.000Z</published>
+    <updated>2019-08-22T10:19:11.000Z</updated>
     <author><name>Hannah Ritchie</name></author><author><name>Bernadeta Dadonaite</name></author><author><name>Max Roser</name></author>
     <summary><![CDATA[Child mortality – one of the most important aspects of development – has always been a focus for us. But in our new Our World in Data series we want to go further than this: exploring in detail the differences in child mortality across the world; what children are dying from; and what we can really do about it.]]></summary>
 </entry>
@@ -82,8 +82,8 @@
     <title><![CDATA[How does the sex ratio at birth vary across the world?]]></title>
     <id>https://ourworldindata.org/sex-ratio-at-birth</id>
     <link rel="alternate" href="https://ourworldindata.org/sex-ratio-at-birth"/>
-    <published>2019-08-06T08:30:43.000Z</published>
-    <updated>2019-08-22T09:16:49.000Z</updated>
+    <published>2019-08-06T09:30:43.000Z</published>
+    <updated>2019-08-22T10:16:49.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[How does sex ratio at birth vary across the world? We might expect that naturally an equal number of boys and girls are born, but this is not the case. There are biological reasons why more boys than girls are born each year: around 105 boys per 100 girls. But in countries with a strong son preference, the sex ratio is even more skewed.]]></summary>
 </entry>
@@ -91,8 +91,8 @@
     <title><![CDATA[How many people support vaccination across the world?]]></title>
     <id>https://ourworldindata.org/support-for-vaccination</id>
     <link rel="alternate" href="https://ourworldindata.org/support-for-vaccination"/>
-    <published>2019-08-01T08:30:11.000Z</published>
-    <updated>2019-08-22T09:25:34.000Z</updated>
+    <published>2019-08-01T09:30:11.000Z</published>
+    <updated>2019-08-22T10:25:34.000Z</updated>
     <author><name>Hannah Ritchie</name></author><author><name>Samantha Vanderslott</name></author>
     <summary><![CDATA[Vaccines have provided some of the greatest interventions to global health to date. But attitudes to vaccination – whether they are safe, effective and important – are often divisive. Here we look at results from the largest global survey to date – the Wellcome Global Monitor – on attitudes to vaccination across the world. 92% of the world thinks vaccines are important for children to have, but in some countries skepticism on their safety is as high as 1-in-3.]]></summary>
 </entry>
