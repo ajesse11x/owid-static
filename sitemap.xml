@@ -689,7 +689,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/about</loc>
-        <lastmod>2019-08-23</lastmod>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/working-hours</loc>
@@ -917,7 +917,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/coverage</loc>
-        <lastmod>2019-08-27</lastmod>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/optimism-pessimism</loc>
@@ -953,11 +953,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/owid-grapher</loc>
-        <lastmod>2019-06-03</lastmod>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/jobs</loc>
-        <lastmod>2019-06-25</lastmod>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/burden-of-disease</loc>
@@ -1069,7 +1069,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/how-to-use-our-world-in-data</loc>
-        <lastmod>2019-08-19</lastmod>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/recent-improvements-in-government-revenue-data</loc>
@@ -1241,7 +1241,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/motivation</loc>
-        <lastmod>2019-03-08</lastmod>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/how-we-chose-our-data-sources</loc>
@@ -1561,7 +1561,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/teaching</loc>
-        <lastmod>2019-07-15</lastmod>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/max-un-slides</loc>
@@ -1761,7 +1761,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/donations-faq</loc>
-        <lastmod>2019-08-19</lastmod>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/thank-you</loc>
@@ -1773,19 +1773,19 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/team</loc>
-        <lastmod>2019-08-11</lastmod>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/former-team-members</loc>
-        <lastmod>2019-08-11</lastmod>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/supporters</loc>
-        <lastmod>2019-08-28</lastmod>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/faqs</loc>
-        <lastmod>2019-03-11</lastmod>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/which-are-the-most-patient-countries-in-the-world</loc>
@@ -1845,7 +1845,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/full-stack-developer</loc>
-        <lastmod>2019-08-19</lastmod>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/population-aged-65-outnumber-children</loc>
@@ -3813,7 +3813,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/capture-fisheries-vs-aquaculture-farmed-fish-production</loc>
-        <lastmod>2018-03-15</lastmod>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-deaths-from-natural-disasters</loc>
@@ -8477,7 +8477,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/fish-stocks-within-sustainable-levels</loc>
-        <lastmod>2018-03-15</lastmod>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/protected-terrestrial-biodiversity-sites</loc>
@@ -13774,5 +13774,9 @@
     <url>
         <loc>https://ourworldindata.org/grapher/total-deaths-from-air-pollution</loc>
         <lastmod>2019-09-03</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/capture-and-aquaculture-production</loc>
+        <lastmod>2019-09-04</lastmod>
     </url>
 </urlset>
