@@ -889,7 +889,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/fertility-rate</loc>
-        <lastmod>2019-07-29</lastmod>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/energy-production-and-changing-energy-sources</loc>
@@ -1953,7 +1953,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/50-years-ago-the-average-woman-had-five-children-since-then-the-number-has-halved</loc>
-        <lastmod>2019-09-03</lastmod>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/which-countries-smoke-most</loc>
@@ -1962,6 +1962,10 @@
     <url>
         <loc>https://ourworldindata.org/who-smokes-more-men-or-women</loc>
         <lastmod>2019-09-02</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/untitled-reusable-block</loc>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/suicide-rates-by-country</loc>
@@ -4497,7 +4501,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-of-global-habitable-land-needed-for-agriculture-if-everyone-had-the-diet-of</loc>
-        <lastmod>2018-03-15</lastmod>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/dietary-land-use-vs-beef-consumption</loc>
@@ -5325,7 +5329,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/total-alcohol-consumption-per-capita-litres-of-pure-alcohol</loc>
-        <lastmod>2019-08-28</lastmod>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/prevalence-of-obesity-in-adults-by-region</loc>
@@ -13573,7 +13577,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/conflict-death-rate</loc>
-        <lastmod>2019-07-31</lastmod>
+        <lastmod>2019-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/tourist-departures-per-1000-vs-gdp</loc>
@@ -13777,6 +13781,14 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/capture-and-aquaculture-production</loc>
+        <lastmod>2019-09-04</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/exclusive-breastfeeding</loc>
+        <lastmod>2019-09-04</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/direct-conflict-deaths</loc>
         <lastmod>2019-09-04</lastmod>
     </url>
 </urlset>
