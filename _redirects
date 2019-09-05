@@ -143,6 +143,7 @@
 /donate/faq /donations-faq 301
 /donate/thank-you /thank-you 301
 /jobs/full-stack-developer /full-stack-developer 301
+/50-years-ago-the-average-woman-had-five-children-since-then-the-number-has-halved /global-fertility-has-halved 301
 /grapher/latest /grapher/share-of-children-vaccinated-against-measles 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221 /grapher/share-of-the-population-suffering-from-depression 302
@@ -770,3 +771,5 @@
 /grapher/share-social-protection-in-government-exp-oecd-2015 /grapher/share-social-protection-in-government-exp-oecd-2013 302
 /grapher/share-of-men-who-are-smoking-by-level-of-prosperity /grapher/share-of-adults-who-are-smoking-by-level-of-prosperity 302
 /grapher/percentage-of-infants-under-5-months-of-age-who-are-fed-exclusively-with-breast-milk /grapher/exclusive-breastfeeding 302
+/grapher/share-of-children-who-received-the-final-dose-of-hib-vaccine /grapher/hib-vaccine 302
+/grapher/percentage-of-children-under-5-with-symptoms-of-pneumonia-taken-for-care-to-a-health-provider /grapher/pneumonia-careseeking 302
