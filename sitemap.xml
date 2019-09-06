@@ -1053,7 +1053,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/taxation</loc>
-        <lastmod>2019-09-04</lastmod>
+        <lastmod>2019-09-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/corruption</loc>
@@ -13346,6 +13346,10 @@
     <url>
         <loc>https://ourworldindata.org/grapher/un-igme-vs-un-desa</loc>
         <lastmod>2019-05-22</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/revenue-from-corporate-income-taxes-gdp</loc>
+        <lastmod>2019-09-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/suffrage</loc>
