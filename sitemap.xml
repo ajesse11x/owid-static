@@ -721,7 +721,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/world-population-growth</loc>
-        <lastmod>2019-09-05</lastmod>
+        <lastmod>2019-09-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/future-population-growth</loc>
@@ -1964,6 +1964,10 @@
         <lastmod>2019-09-05</lastmod>
     </url>
     <url>
+        <loc>https://ourworldindata.org/most-densely-populated-countries</loc>
+        <lastmod>2019-09-06</lastmod>
+    </url>
+    <url>
         <loc>https://ourworldindata.org/untitled-reusable-block</loc>
         <lastmod>2019-09-04</lastmod>
     </url>
@@ -2018,6 +2022,10 @@
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-13</loc>
         <lastmod>2019-09-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/untitled-reusable-block-14</loc>
+        <lastmod>2019-09-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/suicide-rates-by-country</loc>
