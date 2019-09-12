@@ -729,7 +729,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/child-mortality</loc>
-        <lastmod>2019-09-03</lastmod>
+        <lastmod>2019-09-12</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/vaccination</loc>
@@ -2042,6 +2042,10 @@
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-16</loc>
         <lastmod>2019-09-11</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/parents-losing-their-child</loc>
+        <lastmod>2019-09-12</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/suicide-rates-by-country</loc>
