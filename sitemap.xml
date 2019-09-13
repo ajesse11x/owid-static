@@ -1281,7 +1281,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/agricultural-land-by-global-diets</loc>
-        <lastmod>2019-01-22</lastmod>
+        <lastmod>2019-09-13</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/meat-and-seafood-production-consumption</loc>
@@ -13906,6 +13906,14 @@
     <url>
         <loc>https://ourworldindata.org/grapher/pneumonia-risk-factors</loc>
         <lastmod>2019-09-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/macroplastics-in-ocean</loc>
+        <lastmod>2019-09-13</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/microplastics-in-ocean</loc>
+        <lastmod>2019-09-13</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/life-expectancy-by-world-region</loc>
