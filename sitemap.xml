@@ -745,7 +745,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/life-expectancy</loc>
-        <lastmod>2019-09-06</lastmod>
+        <lastmod>2019-09-15</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/smoking</loc>
@@ -2141,7 +2141,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/life-expectancy</loc>
-        <lastmod>2019-07-06</lastmod>
+        <lastmod>2019-09-15</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/maternal-mortality-rate-per-100000-live-births-around-the-world</loc>
@@ -13914,10 +13914,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/microplastics-in-ocean</loc>
         <lastmod>2019-09-13</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/life-expectancy-by-world-region</loc>
-        <lastmod>2019-09-12</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/tuberculosis-deaths-region</loc>
