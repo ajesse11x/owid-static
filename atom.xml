@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-09-13T11:00:15.000Z</updated>
+<updated>2019-09-16T13:08:53.000Z</updated>
+<entry>
+    <title><![CDATA[How many women die in childbirth?]]></title>
+    <id>https://ourworldindata.org/how-many-women-die-in-childbirth</id>
+    <link rel="alternate" href="https://ourworldindata.org/how-many-women-die-in-childbirth"/>
+    <published>2019-09-16T13:08:53.000Z</published>
+    <updated>2019-09-16T13:16:27.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[For most of our history, pregnancy and childbirth were dangerous for both baby and mother. Whilst maternal mortality has decreased significantly in recent decades, more than 300,000 women die from pregnancy every year.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[The world now produces more seafood from fish farms than wild catch]]></title>
     <id>https://ourworldindata.org/rise-of-aquaculture</id>
@@ -86,14 +95,5 @@
     <updated>2019-08-28T19:23:14.000Z</updated>
     <author><name>Max Roser</name></author>
     <summary><![CDATA[Living conditions are vastly unequal between different places in our world today. Today’s global inequality of opportunity means that what matters most for your living conditions is the good or bad luck of your place of birth. We look at how where you’re born is the strongest determinant of your standard of living, whether in life expectancy, income or education.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Diarrheal diseases are still a leading cause of child deaths: How many more lives could ORT save?]]></title>
-    <id>https://ourworldindata.org/how-many-lives-saved-ort</id>
-    <link rel="alternate" href="https://ourworldindata.org/how-many-lives-saved-ort"/>
-    <published>2019-08-27T12:10:00.000Z</published>
-    <updated>2019-08-27T15:39:36.000Z</updated>
-    <author><name>Bernadeta Dadonaite</name></author>
-    <summary><![CDATA[Diarrheal diseases remain one of the leading causes of deaths in children. One simple intervention – oral rehydration therapy (ORT) – has saved millions of children in recent decades. Yet it can still do more. We look at the future potential of ORT; barriers to its use; and how many lives it could potentially save.]]></summary>
 </entry>
 </feed>
