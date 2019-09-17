@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-09-16T13:08:53.000Z</updated>
+<updated>2019-09-17T09:34:36.000Z</updated>
+<entry>
+    <title><![CDATA[Where are women most at risk of dying in childbirth?]]></title>
+    <id>https://ourworldindata.org/risk-of-dying-in-childbirth</id>
+    <link rel="alternate" href="https://ourworldindata.org/risk-of-dying-in-childbirth"/>
+    <published>2019-09-17T09:34:36.000Z</published>
+    <updated>2019-09-17T10:01:30.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[Pregnancy and childbirth are much safer for women today than in the past. But maternal mortality rates are still high in many countries in the world. A woman is 300 to 400 times more likely to die per pregnancy in poor countries than in rich.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[How many women die in childbirth?]]></title>
     <id>https://ourworldindata.org/how-many-women-die-in-childbirth</id>
@@ -86,14 +95,5 @@
     <updated>2019-09-05T11:48:35.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Global Inequality of Opportunity]]></title>
-    <id>https://ourworldindata.org/global-inequality-of-opportunity</id>
-    <link rel="alternate" href="https://ourworldindata.org/global-inequality-of-opportunity"/>
-    <published>2019-08-28T10:55:41.000Z</published>
-    <updated>2019-08-28T19:23:14.000Z</updated>
-    <author><name>Max Roser</name></author>
-    <summary><![CDATA[Living conditions are vastly unequal between different places in our world today. Today’s global inequality of opportunity means that what matters most for your living conditions is the good or bad luck of your place of birth. We look at how where you’re born is the strongest determinant of your standard of living, whether in life expectancy, income or education.]]></summary>
 </entry>
 </feed>
