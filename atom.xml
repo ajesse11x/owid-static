@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Our World in Data</title>
-<subtitle>Research and data to make progress against the world’s largest problems.</subtitle>
+<subtitle>Research and data to make progress against the world’s largest problems</subtitle>
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
@@ -80,19 +80,19 @@
 </entry>
 <entry>
     <title><![CDATA[50 years ago the average woman had five children, since then the number has halved]]></title>
-    <id>https://ourworldindata.org/fertility-rate#50-years-ago-the-average-woman-had-five-children-since-then-the-number-has-halved</id>
-    <link rel="alternate" href="https://ourworldindata.org/fertility-rate#50-years-ago-the-average-woman-had-five-children-since-then-the-number-has-halved"/>
+    <id>https://ourworldindata.org/global-fertility-has-halved</id>
+    <link rel="alternate" href="https://ourworldindata.org/global-fertility-has-halved"/>
     <published>2019-09-03T11:00:30.000Z</published>
-    <updated>2019-09-04T16:18:18.000Z</updated>
+    <updated>2019-09-18T12:22:07.000Z</updated>
     <author><name>Max Roser</name></author>
     <summary><![CDATA[]]></summary>
 </entry>
 <entry>
     <title><![CDATA[Who smokes more, men or women?]]></title>
-    <id>https://ourworldindata.org/smoking#who-smokes-more-men-or-women</id>
-    <link rel="alternate" href="https://ourworldindata.org/smoking#who-smokes-more-men-or-women"/>
+    <id>https://ourworldindata.org/who-smokes-more-men-or-women</id>
+    <link rel="alternate" href="https://ourworldindata.org/who-smokes-more-men-or-women"/>
     <published>2019-09-02T16:25:40.000Z</published>
-    <updated>2019-09-05T11:50:18.000Z</updated>
+    <updated>2019-09-18T12:16:27.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[]]></summary>
 </entry>
