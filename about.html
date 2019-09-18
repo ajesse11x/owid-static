@@ -1,924 +1,139 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>About - Our World in Data</title>
-    <meta
-      name="description"
-      content="Research and data to make progress against the world’s largest problems."
-    />
-    <link rel="canonical" href="https://ourworldindata.org/about" />
-    <link rel="alternate" type="application/atom+xml" href="/atom.xml" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <meta property="fb:app_id" content="1149943818390250" />
-    <meta property="og:url" content="https://ourworldindata.org/about" />
-    <meta property="og:title" content="About" />
-    <meta
-      property="og:description"
-      content="Research and data to make progress against the world’s largest problems."
-    />
-    <meta
-      property="og:image"
-      content="https://ourworldindata.org/default-thumbnail.jpg"
-    />
-    <meta property="og:site_name" content="Our World in Data" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@OurWorldInData" />
-    <meta name="twitter:creator" content="@OurWorldInData" />
-    <meta name="twitter:title" content="About" />
-    <meta
-      name="twitter:description"
-      content="Research and data to make progress against the world’s largest problems."
-    />
-    <meta
-      name="twitter:image"
-      content="https://ourworldindata.org/default-thumbnail.jpg"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Playfair+Display:400,700"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://ourworldindata.org/assets/css/commons.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://ourworldindata.org/assets/css/owid.css"
-    />
-  </head>
-  <body class="LongFormPage">
-    <header class="site-header">
-      <div class="wrapper site-navigation-bar">
-        <div class="site-logo">
-          <a href="/"
-            >Our World<br />
-            in Data</a
-          >
-        </div>
-        <nav class="site-navigation lg-only">
-          <div class="topics-button-wrapper">
-            <a href="/#entries" class="topics-button"
-              ><div class="label">Research <br /><strong>by topic</strong></div>
-              <div class="icon">
-                <svg width="12" height="6">
-                  <path d="M0,0 L12,0 L6,6 Z" fill="currentColor"></path>
-                </svg></div
-            ></a>
-          </div>
-          <div>
-            <div class="site-primary-navigation">
-              <form class="HeaderSearch" action="/search" method="GET">
-                <input type="search" name="q" placeholder="Search..." />
-                <div class="icon">
-                  <svg
-                    aria-hidden="true"
-                    focusable="false"
-                    data-prefix="fas"
-                    data-icon="search"
-                    class="svg-inline--fa fa-search fa-w-16 "
-                    role="img"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 512 512"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
-                    ></path>
-                  </svg>
-                </div>
-              </form>
-              <ul class="site-primary-links">
-                <li>
-                  <a
-                    href="/blog"
-                    data-track-click="true"
-                    data-track-note="header-navigation"
-                    >Latest</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="/about"
-                    data-track-click="true"
-                    data-track-note="header-navigation"
-                    >About</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="/donate"
-                    data-track-click="true"
-                    data-track-note="header-navigation"
-                    >Donate</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="site-secondary-navigation">
-              <ul class="site-secondary-links">
-                <li>
-                  <a
-                    href="/charts"
-                    data-track-click="true"
-                    data-track-note="header-navigation"
-                    >All charts</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://sdg-tracker.org"
-                    data-track-click="true"
-                    data-track-note="header-navigation"
-                    >Sustainable Development Goals Tracker</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        <ul class="site-social-links lg-only">
-          <li>
-            <a
-              href="https://twitter.com/ourworldindata"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Follow us on Twitter"
-              data-track-click="true"
-              data-track-note="header-navigation"
-              ><svg
-                aria-hidden="true"
-                focusable="false"
-                data-prefix="fab"
-                data-icon="twitter"
-                class="svg-inline--fa fa-twitter fa-w-16 "
-                role="img"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-              >
-                <path
-                  fill="currentColor"
-                  d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
-                ></path></svg
-            ></a>
-          </li>
-          <li>
-            <a
-              href="https://www.facebook.com/OurWorldinData/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Subscribe to our Facebook page"
-              data-track-click="true"
-              data-track-note="header-navigation"
-              ><svg
-                aria-hidden="true"
-                focusable="false"
-                data-prefix="fab"
-                data-icon="facebook-square"
-                class="svg-inline--fa fa-facebook-square fa-w-14 "
-                role="img"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 448 512"
-              >
-                <path
-                  fill="currentColor"
-                  d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"
-                ></path></svg
-            ></a>
-          </li>
-          <li>
-            <a
-              href="/subscribe"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Subscribe to our newsletter"
-              data-track-click="true"
-              data-track-note="header-navigation"
-              ><svg
-                aria-hidden="true"
-                focusable="false"
-                data-prefix="fas"
-                data-icon="envelope"
-                class="svg-inline--fa fa-envelope fa-w-16 "
-                role="img"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-              >
-                <path
-                  fill="currentColor"
-                  d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
-                ></path></svg
-            ></a>
-          </li>
-        </ul>
-        <div class="site-navigation sm-only">
-          <button
-            data-track-click="true"
-            data-track-note="mobile-search-button"
-          >
-            <svg
-              aria-hidden="true"
-              focusable="false"
-              data-prefix="fas"
-              data-icon="search"
-              class="svg-inline--fa fa-search fa-w-16 "
-              role="img"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 512 512"
-            >
-              <path
-                fill="currentColor"
-                d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
-              ></path>
-            </svg></button
-          ><button
-            data-track-click="true"
-            data-track-note="mobile-hamburger-button"
-          >
-            <svg
-              aria-hidden="true"
-              focusable="false"
-              data-prefix="fas"
-              data-icon="bars"
-              class="svg-inline--fa fa-bars fa-w-14 "
-              role="img"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 448 512"
-            >
-              <path
-                fill="currentColor"
-                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
-              ></path>
-            </svg>
-          </button>
-        </div>
-      </div>
-    </header>
-    <div class="site-subnavigation">
-      <div class="site-subnavigation-scroll">
-        <ul class="site-subnavigation-links">
-          <li class="current"><a href="/about">About</a></li>
-          <li><a href="/motivation">Motivation</a></li>
-          <li><a href="/team">Team</a></li>
-          <li><a href="/jobs">Jobs</a></li>
-          <li><a href="/coverage">Audience &amp; Coverage</a></li>
-          <li><a href="/supporters">Supporters</a></li>
-          <li><a href="/faqs">FAQs</a></li>
-          <li><a href="/about/how-to-use-our-world-in-data">How-Tos</a></li>
-          <li><a href="/owid-grapher">Grapher</a></li>
-          <li><a href="/about#contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-    <main>
-      <article class="page">
-        <header class="articleHeader">
-          <h1 class="entry-title">About</h1>
-          <div class="authors-byline"><a href="/team">by Max Roser</a></div>
-        </header>
-        <div class="contentContainer">
-          <div class="contentAndFootnotes">
-            <div class="article-content">
-              <!-- formatting-options raw:true subnavId:about subnavCurrentId:about -->
-              <style>
-                @media (min-width: 800px) {
-                  ul.TeamMembers > li:not(.Director) {
-                    width: 47%;
-                  }
-
-                  ul.TeamMembers > li.Director {
-                    font-size: 1.1em;
-                  }
-                }
-
-                .authors-byline {
-                  display: none;
-                }
-
-                article.page {
-                  max-width: 1046px;
-                }
-
-                .AboutPage h2 {
-                  text-align: left;
-                  font-size: 32px;
-                }
-
-                .AboutPage a {
-                  color: #5b7fff;
-                  border-bottom: 0 !important;
-                  background-image: none !important;
-                  padding: 0 !important;
-                  word-break: break-word;
-                }
-
-                .AboutPage h3 {
-                  margin-top: 1.8em;
-                  margin-bottom: 0.8em;
-                  font-size: 16px;
-                  font-weight: bold;
-                  text-transform: uppercase;
-                  font-family: Arial;
-                  border-bottom: 1px solid #999;
-                }
-
-                .AboutPage h4 {
-                  text-align: left;
-                  margin-top: 1.8em;
-                  margin-bottom: 0em;
-                  font-size: 18px;
-                  font-family: “playfair display”;
-                }
-
-                #links h2 {
-                  font-size: 1.4em;
-                }
-
-                #legal h2 {
-                  font-size: 1.4em;
-                }
-
-                #legal p {
-                  font-size: 0.7em;
-                }
-
-                p.small {
-                  font-size: 0.7em;
-                }
-              </style>
-              <div class="AboutPage no-sidebar">
-                <p>
-                  Poverty, disease, hunger, climate change, war, existential
-                  risks, and inequality: The world faces many great and
-                  terrifying problems at the same time. It is these large
-                  problems that our work at Our World in Data focuses on.
-                </p>
-                <p>
-                  The world has the resources to do much better. And thanks to
-                  the work of thousands of researchers around the world who
-                  dedicate their lives to studying the world&rsquo;s largest
-                  problems we often have a good understanding of them. But we
-                  believe that a key reason why we fail to achieve the progress
-                  we are capable of is that we do not make enough use of this
-                  existing research and data: the important knowledge is often
-                  stored in inaccessible databases, locked away behind paywalls
-                  and buried under jargon in academic papers.&nbsp;
-                </p>
-                <p>
-                  The goal of our work is to make the knowledge on the big
-                  problems accessible and understandable. As we say on
-                  <a href="https://ourworldindata.org/">our homepage</a>, Our
-                  World in Data is about
-                  <strong
-                    ><em
-                      >Research and data to make progress against the
-                      world&rsquo;s largest problems.</em
-                    ></strong
-                  >
-                </p>
-                <h4><strong>It is possible to change the world</strong></h4>
-                <p>
-                  To work towards a better future, we need to understand how and
-                  why the world has changed in the past. There are two reasons
-                  for this:
-                </p>
-                <p>
-                  It shows us that progress is possible. The historical data and
-                  research shows that it is possible to change the world. In
-                  many important ways global living conditions
-                  <a
-                    href="https://ourworldindata.org/a-history-of-global-living-conditions-in-5-charts/"
-                    >have improved</a
-                  >. While we believe this is one of the most important facts to
-                  know about the world we live in, it is one that is known by
-                  surprisingly few.
-                  <a href="https://ourworldindata.org/wrong-about-the-world"
-                    >Many believe</a
-                  >
-                  that the world is stagnating or getting worse in aspects where
-                  the opposite is true.&nbsp;
-                </p>
-                <p>
-                  The second reason is that it allows us to learn. Progress is
-                  possible, but it is not a given. If we want to know how to
-                  reduce suffering and tackle the world&rsquo;s problems we
-                  should learn from what was and was not successful in the past.
-                </p>
-                <h4>
-                  <strong
-                    >A publication to see the large problems the world faces and
-                    the powerful changes that reshape our world</strong
-                  >
-                </h4>
-                <p>
-                  To contribute to positive change, we need to know our world as
-                  well as possible. We cannot know our world from the daily news
-                  alone. Because the news focuses on current events it largely
-                  fails to report the long-lasting, forceful changes that
-                  reshape our world, as well as the large, long-standing
-                  problems that continue to confront us.
-                </p>
-                <p>
-                  To understand issues that are affecting billions, we need
-                  data. We need to carefully measure what we care about and make
-                  the results accessible in an understandable and public
-                  platform. This allows everyone to see the state of the world
-                  today, track where we are making progress, and where we are
-                  falling behind. The publication we are building has this goal.
-                  Through interactive data visualizations we can see how the
-                  world has changed; by summarizing the scientific literature we
-                  can understand why.
-                </p>
-                <h4>
-                  <strong
-                    >Comprehensive perspective on global living conditions and
-                    the earth&rsquo;s environment</strong
-                  >
-                </h4>
-                <p>
-                  We take a broad perspective, covering an extensive range of
-                  aspects that matter for our lives. Measuring economic growth
-                  is not enough. The
-                  <a href="https://ourworldindata.org/#entries">entries</a> on
-                  Our World in Data are dedicated to a large range of global
-                  problems in health, education, violence, political power,
-                  human rights, war, poverty, inequality, energy, hunger, and
-                  humanity&#8217;s impact on the environment.&nbsp;
-                </p>
-                <p>
-                  Covering all of these aspects in one resource makes it
-                  possible to understand how long-run global trends are
-                  interlinked.
-                </p>
-                <h4><strong>Measuring what matters</strong></h4>
-                <p>
-                  On the closely integrated website
-                  <a href="https://sdg-tracker.org/">SDG-Tracker.org</a> we
-                  present the data and research on the UN&rsquo;s Sustainable
-                  Development Goals (SDGs). In 2015, all countries in the world
-                  signed up to reach the SDGs by 2030 and we built this site to
-                  track progress towards them. Our SDG-Tracker is a widely
-                  accessed publication that presents all the latest available
-                  data on the 232 SDG-Indicators with which the 17 Goals are
-                  assessed.
-                </p>
-                <p>
-                  This is the core of our mission and extends beyond the SDGs.
-                  We all, the citizens of this world, are investing vast
-                  resources towards the ambitious goal of making the world a
-                  better place: we dedicate our lives to medical care and
-                  education, we are developing new technologies, we are spending
-                  large sums of money on infrastructure and the education of the
-                  next generation. What we do not do enough is to investigate
-                  whether these efforts are actually getting us closer to
-                  achieving our goals.
-                </p>
-                <p>
-                  If the world wants to be serious about achieving progress we
-                  need to be much more serious about measuring what matters.
-                </p>
-                <h4>
-                  <strong
-                    >Our World in Data is based on the work of others &ndash;
-                    and should in turn be a base for others</strong
-                  >
-                </h4>
-                <p>
-                  The research we publish here is not only the work of our small
-                  <a href="https://ourworldindata.org/team">team</a>. Instead we
-                  rely on the work of a global community of scholars and
-                  wherever possible we see our role as presenting the best
-                  available research and data in an understandable and
-                  accessible way. Only when we find that important questions
-                  have not yet been answered do we do the necessary research
-                  ourselves and fill in the gaps.
-                </p>
-                <p>
-                  Newton said, &#8220;If I have seen further than others, it is
-                  because I&rsquo;ve stood on the shoulders of giants.&#8221;
-                  This is how science should work. Those who want to understand
-                  the world should be able to stand on the shoulders of those
-                  who came before them. A key part of our mission is therefore
-                  to build an infrastructure that makes research and data openly
-                  available and useful for all.
-                </p>
-                <h4>
-                  <strong
-                    >Building the infrastructure to make data and research
-                    accessible and understandable</strong
-                  >
-                </h4>
-                <p>
-                  The web allows us to publish in a way that was unimaginable
-                  just a few years ago: distribution is free and research and
-                  data can be explored through interactive documents. Yet much
-                  of today&rsquo;s research is published in a format essentially
-                  the same as that made available by Gutenberg&rsquo;s printing
-                  press, 500 years ago.&nbsp;
-                </p>
-                <p>
-                  To make research and data as accessible as possible we are a
-                  team in which researchers are collaborating with developers.
-                  Together we are building the infrastructure that allows
-                  everyone in the world to understand how we make progress
-                  against our most pressing problems.
-                </p>
-                <p>
-                  If you want to join us as a developer or researcher, see
-                  <a href="https://ourworldindata.org/jobs">our Jobs page</a>.
-                </p>
-                <h4><strong>Our World in Data is a public good</strong></h4>
-                <p>
-                  We have big plans for the coming decades, but we are already
-                  having an impact. More than a million readers come to our site
-                  every month. We receive very regular
-                  <a href="https://ourworldindata.org/coverage#coverage"
-                    >coverage in the media</a
-                  >, our publication is informing many writers in their often
-                  widely read work, our writing is widely shared through social
-                  media, and we are regularly cited in top journals including
-                  <em>Science</em> and <em>Nature</em>.&nbsp;
-                </p>
-                <p>
-                  For many relevant search queries &ndash; &lsquo;CO2
-                  emissions&rsquo;, &lsquo;world poverty&rsquo;, &lsquo;child
-                  mortality&rsquo;, &lsquo;population growth&rsquo; &ndash; we
-                  are one of the top search results in many parts of the world.
-                  And our work is
-                  <a href="https://ourworldindata.org/coverage#teaching"
-                    >commonly used as teaching material</a
-                  >
-                  in schools and universities.
-                </p>
-                <p>
-                  We design our work with the aim of generating an impact beyond
-                  what our team can achieve directly. By producing charts and
-                  data that can be freely downloaded and embedded in
-                  others&rsquo; work, we support and empower colleagues in
-                  policy, media and civil society also working on the problems
-                  we focus on.&nbsp;
-                </p>
-                <p>
-                  This is why all the work we ever do is made available in its
-                  entirety as a public good.
-                </p>
-                <ul>
-                  <li>
-                    Visualizations and text are licensed under
-                    <a href="https://creativecommons.org/licenses/by/4.0/"
-                      >CC BY</a
-                    >
-                    and may be freely used for any purpose.&nbsp;
-                  </li>
-                  <li>The data is available for download.&nbsp;</li>
-                  <li>
-                    And all code we write is open-sourced under the
-                    <a href="https://opensource.org/licenses/MIT"
-                      >MIT license</a
-                    >
-                    and can be found
-                    <a href="https://github.com/owid">on GitHub</a>.&nbsp;
-                  </li>
-                </ul>
-                <p>Feel free to make use of anything you find here.</p>
-                <h4><strong>Based at Oxford</strong></h4>
-                <p>
-                  Our World in Data and the SDG-Tracker are collaborative
-                  efforts between researchers at the University of Oxford, who
-                  are the scientific editors of the website content; and the
-                  non-profit organization
-                  <a href="https://global-change-data-lab.org/"
-                    >Global Change Data Lab</a
-                  >, who publishes and maintains the website and the data tools
-                  that make our work possible. At the University of Oxford we
-                  are based at the
-                  <a
-                    href="https://www.oxfordmartin.ox.ac.uk/research/programmes/global-development"
-                    >Oxford Martin Programme on Global Development</a
-                  >.
-                </p>
-                <h4><strong>Financed by donations and grants</strong></h4>
-                <p>
-                  We are a nonprofit that is building a public good. This means
-                  that funding is a key concern for making our daily work
-                  possible. We rely on donations and grants. You find a list of
-                  our supporters
-                  <a href="https://ourworldindata.org/supporters">here</a
-                  >.&nbsp;
-                </p>
-                <p>
-                  If you care about the big problems in the world, you believe
-                  that our open platform contributes to solving them, and you
-                  can support our work please get in touch with us.
-                </p>
-                <p>
-                  If you&#8217;d like to make a donation to support our work you
-                  can do so
-                  <a href="https://ourworldindata.org/donate">here</a>. Thank
-                  you very much!
-                </p>
-
-                <h2 id="contact">Contact</h2>
-
-                <p>
-                  <strong
-                    >If you want to use data or visualizations from the site,
-                    you don&#8217;t need to contact us</strong
-                  >: please just go ahead and do so! The
-                  <a href="https://creativecommons.org/licenses/by/4.0/"
-                    >terms of our license</a
-                  >
-                  only require attribution.
-                </p>
-
-                <p>
-                  For anything else, you can email us at
-                  <a href="mailto:info@ourworldindata.org"
-                    >info@ourworldindata.org</a
-                  >
-                  or fill in our
-                  <a href="https://ourworldindata.org/feedback">Feedback form</a
-                  >.
-                </p>
-
-                <section id="legal">
-                  <h2>Legal disclaimer</h2>
-                  <p>
-                    To the fullest extent permitted by the applicable law,
-                    <em>Our World in Data</em> offers the websites and services
-                    as-is and makes no representations or warranties of any kind
-                    concerning the websites or services, express, implied,
-                    statutory or otherwise, including, without limitation,
-                    warranties of title, merchantibility, fitness for a
-                    particular purpose, or noninfringement.
-                    <em>Our World in Data</em> does not warrant that the
-                    functions or content contained on the website or services
-                    will be uninterrupted or error-free, that defects will be
-                    corrected, or that <em>Our World in Data</em> servers are
-                    free of viruses or other harmful components.
-                    <em>Our World in Data</em> does not warrant or make any
-                    representation regarding use or the result of use of the
-                    content in terms of accuracy, reliability, or otherwise.
-                  </p>
-
-                  <p>
-                    Except to the extent required by applicable law and then
-                    only to that extent, in no event will
-                    <em>Our World in Data</em>, or the people working on and
-                    related to this website (“the
-                    <em>Our World in Data</em> parties”) be liable to you on any
-                    legal theory for any incidental, direct, indirect, punitive,
-                    actual, consequential, special, exemplary or other damages,
-                    including without limitation, loss of revenue or income,
-                    lost profits, pain and suffering, emotional distress, cost
-                    of substitute goods or services, or similar damages suffered
-                    or incurred by you or any third party that arise in
-                    connection with the websites or services (or the termination
-                    thereof for any reason), even if the
-                    <em>Our World in Data</em> parties have been advised of the
-                    possibility of such damages.
-                  </p>
-
-                  <p>
-                    The <em>Our World in Data</em> parties shall not be
-                    responsible or liable whatsoever in any manner for any
-                    content posted on the websites or services (including claims
-                    of infringement relating to content posted on the websites
-                    or services, for your use of the websites and services, or
-                    for the conduct of third parties whether on the websites, in
-                    connection with the services or otherwise relating to the
-                    websites or services.
-                  </p>
-                </section>
-              </div>
-              <!--/raw-->
-            </div>
-            <footer class="article-footer"></footer>
-          </div>
-        </div>
-      </article>
-    </main>
-    <div id="wpadminbar" style="display:none">
-      <div
-        class="quicklinks"
-        id="wp-toolbar"
-        role="navigation"
-        aria-label="Toolbar"
-      >
-        <ul id="wp-admin-bar-root-default" class="ab-top-menu">
-          <li id="wp-admin-bar-site-name" class="menupop">
-            <a class="ab-item" aria-haspopup="true" href="/wp-admin/"
-              >Wordpress</a
-            >
-          </li>
-          <li id="wp-admin-bar-edit">
-            <a
-              class="ab-item"
-              href="https://owid.cloud/wp-admin/post.php?post=92&amp;action=edit"
-              >Edit Page</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-    <section class="donate-footer">
-      <div class="wrapper">
-        <div class="owid-row flex-align-center">
-          <div class="owid-col owid-col--lg-3 owid-padding-bottom--sm-3">
-            <p>Our World in Data is free and accessible for everyone.</p>
-            <p>Help us do this work by making a donation.</p>
-          </div>
-          <div class="owid-col owid-col--lg-1">
-            <a
-              href="/donate"
-              class="owid-button donate-button"
-              data-track-click="true"
-              data-track-note="donate-footer"
-              ><span class="label">Donate now</span
-              ><span class="icon"
-                ><svg
-                  aria-hidden="true"
-                  focusable="false"
-                  data-prefix="fas"
-                  data-icon="angle-right"
-                  class="svg-inline--fa fa-angle-right fa-w-8 "
-                  role="img"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 256 512"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
-                  ></path></svg></span
-            ></a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="site-footer">
-      <div class="wrapper">
-        <div class="owid-row">
-          <div class="owid-col owid-col--lg-1">
-            <ul>
-              <li>
-                <a
-                  href="/about"
-                  data-track-click="true"
-                  data-track-note="footer-navigation"
-                  >About</a
-                >
-              </li>
-              <li>
-                <a
-                  href="/about#contact"
-                  data-track-click="true"
-                  data-track-note="footer-navigation"
-                  >Contact</a
-                >
-              </li>
-              <li>
-                <a
-                  href="/jobs"
-                  data-track-click="true"
-                  data-track-note="footer-navigation"
-                  >Jobs</a
-                >
-              </li>
-              <li>
-                <a
-                  href="/supporters"
-                  data-track-click="true"
-                  data-track-note="footer-navigation"
-                  >Supporters</a
-                >
-              </li>
-              <li>
-                <a
-                  href="/about/how-to-use-our-world-in-data"
-                  data-track-click="true"
-                  data-track-note="footer-navigation"
-                  >How to use</a
-                >
-              </li>
-              <li>
-                <a
-                  href="/donate"
-                  data-track-click="true"
-                  data-track-note="footer-navigation"
-                  >Donate</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="owid-col owid-col--lg-1">
-            <ul>
-              <li>
-                <a
-                  href="/blog"
-                  data-track-click="true"
-                  data-track-note="footer-navigation"
-                  >Latest research</a
-                >
-              </li>
-              <li>
-                <a
-                  href="/charts"
-                  data-track-click="true"
-                  data-track-note="footer-navigation"
-                  >All charts</a
-                >
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <a
-                  href="https://twitter.com/OurWorldInData"
-                  data-track-click="true"
-                  data-track-note="footer-navigation"
-                  >Twitter</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.facebook.com/OurWorldinData"
-                  data-track-click="true"
-                  data-track-note="footer-navigation"
-                  >Facebook</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://github.com/owid"
-                  data-track-click="true"
-                  data-track-note="footer-navigation"
-                  >GitHub</a
-                >
-              </li>
-              <li>
-                <a
-                  href="/feed"
-                  data-track-click="true"
-                  data-track-note="footer-navigation"
-                  >RSS Feed</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="owid-col owid-col--lg-1">
-            <div class="logos">
-              <a
-                href="https://www.oxfordmartin.ox.ac.uk/research/programmes/global-development"
-                class="partner-logo"
-                data-track-click="true"
-                data-track-note="footer-navigation"
-                ><img
-                  src="/oxford-logo-rect.png"
-                  alt="University of Oxford logo"/></a
-              ><a
-                href="https://global-change-data-lab.org/"
-                class="partner-logo"
-                data-track-click="true"
-                data-track-note="footer-navigation"
-                ><img
-                  src="/gcdl-logo.png"
-                  alt="Global Change Data Lab logo"/></a
-              ><a
-                href="/owid-at-ycombinator"
-                class="partner-logo"
-                data-track-click="true"
-                data-track-note="footer-navigation"
-                ><img src="/yc-logo.png" alt="Y Combinator logo"
-              /></a>
-            </div>
-          </div>
-          <div class="owid-col flex-2">
-            <div class="legal">
-              <p>
-                License: All of Our World in Data is completely open access and
-                all work is licensed under the
-                <a href="https://creativecommons.org/licenses/by/4.0/"
-                  >Creative Commons BY license</a
-                >. You have the permission to use, distribute, and reproduce in
-                any medium, provided the source and authors are credited.
-              </p>
-              <p>
-                Please consult our full
-                <a href="/about#legal">legal disclaimer</a>.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="injectFeedback"></div>
-      <script src="https://ourworldindata.org/assets/js/commons.js"></script
-      ><script src="https://ourworldindata.org/assets/js/owid.js"></script
-      ><script>
-        runHeaderMenus();
-        runFeedback();
-        if (!document.querySelector(".ChartPage")) {
-          Grapher.embedAll();
+<!doctype html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"/><title>About - Our World in Data</title><meta name="description" content="Research and data to make progress against the world’s largest problems."/><link rel="canonical" href="https://ourworldindata.org/about"/><link rel="alternate" type="application/atom+xml" href="/atom.xml"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><meta property="fb:app_id" content="1149943818390250"/><meta property="og:url" content="https://ourworldindata.org/about"/><meta property="og:title" content="About"/><meta property="og:description" content="Research and data to make progress against the world’s largest problems."/><meta property="og:image" content="https://ourworldindata.org/default-thumbnail.jpg"/><meta property="og:site_name" content="Our World in Data"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@OurWorldInData"/><meta name="twitter:creator" content="@OurWorldInData"/><meta name="twitter:title" content="About"/><meta name="twitter:description" content="Research and data to make progress against the world’s largest problems."/><meta name="twitter:image" content="https://ourworldindata.org/default-thumbnail.jpg"/><link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Playfair+Display:400,700" rel="stylesheet"/><link rel="stylesheet" href="https://ourworldindata.org/assets/css/commons.css"/><link rel="stylesheet" href="https://ourworldindata.org/assets/css/owid.css"/></head><body class="LongFormPage"><header class="site-header"><div class="wrapper site-navigation-bar"><div class="site-logo"><a href="/">Our World<br/> in Data</a></div><nav class="site-navigation lg-only"><div class="topics-button-wrapper"><a href="/#entries" class="topics-button"><div class="label">Research <br/><strong>by topic</strong></div><div class="icon"><svg width="12" height="6"><path d="M0,0 L12,0 L6,6 Z" fill="currentColor"></path></svg></div></a></div><div><div class="site-primary-navigation"><form class="HeaderSearch" action="/search" method="GET"><input type="search" name="q" placeholder="Search..."/><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg></div></form><ul class="site-primary-links"><li><a href="/blog" data-track-click="true" data-track-note="header-navigation">Latest</a></li><li><a href="/about" data-track-click="true" data-track-note="header-navigation">About</a></li><li><a href="/donate" data-track-click="true" data-track-note="header-navigation">Donate</a></li></ul></div><div class="site-secondary-navigation"><ul class="site-secondary-links"><li><a href="/charts" data-track-click="true" data-track-note="header-navigation">All charts</a></li><li><a href="https://sdg-tracker.org" data-track-click="true" data-track-note="header-navigation">Sustainable Development Goals Tracker</a></li></ul></div></div></nav><ul class="site-social-links lg-only"><li><a href="https://twitter.com/ourworldindata" target="_blank" rel="noopener noreferrer" title="Follow us on Twitter" data-track-click="true" data-track-note="header-navigation"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></a></li><li><a href="https://www.facebook.com/OurWorldinData/" target="_blank" rel="noopener noreferrer" title="Subscribe to our Facebook page" data-track-click="true" data-track-note="header-navigation"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-square" class="svg-inline--fa fa-facebook-square fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path></svg></a></li><li><a href="/subscribe" target="_blank" rel="noopener noreferrer" title="Subscribe to our newsletter" data-track-click="true" data-track-note="header-navigation"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" class="svg-inline--fa fa-envelope fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg></a></li></ul><div class="site-navigation sm-only"><button data-track-click="true" data-track-note="mobile-search-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg></button><button data-track-click="true" data-track-note="mobile-hamburger-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg></button></div></div></header><div class="site-subnavigation"><div class="site-subnavigation-scroll"><ul class="site-subnavigation-links"><li class="current"><a href="/about">About</a></li><li><a href="/motivation">Motivation</a></li><li><a href="/team">Team</a></li><li><a href="/jobs">Jobs</a></li><li><a href="/coverage">Audience &amp; Coverage</a></li><li><a href="/supporters">Supporters</a></li><li><a href="/faqs">FAQs</a></li><li><a href="/about/how-to-use-our-world-in-data">How-Tos</a></li><li><a href="/owid-grapher">Grapher</a></li><li><a href="/about#contact">Contact</a></li></ul></div></div><main><article class="page"><header class="articleHeader"><h1 class="entry-title">About</h1><div class="authors-byline"><a href="/team">by Max Roser</a></div></header><div class="contentContainer"><div class="contentAndFootnotes"><div class="article-content">
+<!-- formatting-options raw:true subnavId:about subnavCurrentId:about -->
+<style>
+    @media (min-width: 800px) {
+        ul.TeamMembers > li:not(.Director) {
+            width: 47%;
         }
-      </script>
-    </footer>
-  </body>
-</html>
+
+        ul.TeamMembers > li.Director {
+            font-size: 1.1em;
+        }
+    }
+
+    .authors-byline {
+        display: none;
+    }
+
+    article.page {
+        max-width: 1046px;
+    }
+
+
+    .AboutPage h2 {
+        text-align: left;
+        font-size: 32px;
+    }
+
+
+
+    .AboutPage a {
+        color: #5B7FFF;
+        border-bottom: 0 !important;
+        background-image: none !important;
+        padding: 0 !important;
+        word-break: break-word;
+    }
+    
+    .AboutPage h3 {
+        margin-top: 1.8em;
+        margin-bottom: 0.8em;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: Arial;
+        border-bottom: 1px solid #999;
+    }
+
+    .AboutPage h4 {
+        text-align: left;
+        margin-top: 1.8em;
+        margin-bottom: 0em;
+        font-size: 18px;
+        font-family: “playfair display”;
+    }
+
+    #links h2 {
+        font-size: 1.4em;
+    }
+
+    #legal h2 {
+        font-size: 1.4em;
+    }
+
+    #legal p {
+        font-size: 0.7em;
+    }
+
+    p.small {
+        font-size: 0.7em;
+    }
+</style>
+<div class="AboutPage no-sidebar">
+<p>Poverty, disease, hunger, climate change, war, existential risks, and inequality: The world faces many great and terrifying problems at the same time. It is these large problems that our work at Our World in Data focuses on.</p>
+<p>The world has the resources to do much better. And thanks to the work of thousands of researchers around the world who dedicate their lives to studying the world&rsquo;s largest problems we often have a good understanding of them. But we believe that a key reason why we fail to achieve the progress we are capable of is that we do not make enough use of this existing research and data: the important knowledge is often stored in inaccessible databases, locked away behind paywalls and buried under jargon in academic papers.&nbsp;</p>
+<p>The goal of our work is to make the knowledge on the big problems accessible and understandable. As we say on <a href="https://ourworldindata.org/">our homepage</a>, Our World in Data is about <strong><em>Research and data to make progress against the world&rsquo;s largest problems.</em></strong></p>
+<h4><strong>It is possible to change the world</strong></h4>
+<p>To work towards a better future, we need to understand how and why the world has changed in the past. There are two reasons for this:</p>
+<p>It shows us that progress is possible. The historical data and research shows that it is possible to change the world. In many important ways global living conditions <a href="https://ourworldindata.org/a-history-of-global-living-conditions-in-5-charts/">have improved</a>. While we believe this is one of the most important facts to know about the world we live in, it is one that is known by surprisingly few. <a href="https://ourworldindata.org/wrong-about-the-world">Many believe</a> that the world is stagnating or getting worse in aspects where the opposite is true.&nbsp;</p>
+<p>The second reason is that it allows us to learn. Progress is possible, but it is not a given. If we want to know how to reduce suffering and tackle the world&rsquo;s problems we should learn from what was and was not successful in the past.</p>
+<h4><strong>A publication to see the large problems the world faces and the powerful changes that reshape our world</strong></h4>
+<p>To contribute to positive change, we need to know our world as well as possible. We cannot know our world from the daily news alone. Because the news focuses on current events it largely fails to report the long-lasting, forceful changes that reshape our world, as well as the large, long-standing problems that continue to confront us.</p>
+<p>To understand issues that are affecting billions, we need data. We need to carefully measure what we care about and make the results accessible in an understandable and public platform. This allows everyone to see the state of the world today, track where we are making progress, and where we are falling behind. The publication we are building has this goal. Through interactive data visualizations we can see how the world has changed; by summarizing the scientific literature we can understand why.</p>
+<h4><strong>Comprehensive perspective on global living conditions and the earth&rsquo;s environment</strong></h4>
+<p>We take a broad perspective, covering an extensive range of aspects that matter for our lives. Measuring economic growth is not enough. The <a href="https://ourworldindata.org/#entries">entries</a> on Our World in Data are dedicated to a large range of global problems in health, education, violence, political power, human rights, war, poverty, inequality, energy, hunger, and humanity&#8217;s impact on the environment.&nbsp;</p>
+<p>Covering all of these aspects in one resource makes it possible to understand how long-run global trends are interlinked.</p>
+<h4><strong>Measuring what matters</strong></h4>
+<p>On the closely integrated website <a href="https://sdg-tracker.org/">SDG-Tracker.org</a> we present the data and research on the UN&rsquo;s Sustainable Development Goals (SDGs). In 2015, all countries in the world signed up to reach the SDGs by 2030 and we built this site to track progress towards them. Our SDG-Tracker is a widely accessed publication that presents all the latest available data on the 232 SDG-Indicators with which the 17 Goals are assessed.</p>
+<p>This is the core of our mission and extends beyond the SDGs. We all, the citizens of this world, are investing vast resources towards the ambitious goal of making the world a better place: we dedicate our lives to medical care and education, we are developing new technologies, we are spending large sums of money on infrastructure and the education of the next generation. What we do not do enough is to investigate whether these efforts are actually getting us closer to achieving our goals.</p>
+<p>If the world wants to be serious about achieving progress we need to be much more serious about measuring what matters.</p>
+<h4><strong>Our World in Data is based on the work of others &ndash; and should in turn be a base for others</strong></h4>
+<p>The research we publish here is not only the work of our small <a href="https://ourworldindata.org/team">team</a>. Instead we rely on the work of a global community of scholars and wherever possible we see our role as presenting the best available research and data in an understandable and accessible way. Only when we find that important questions have not yet been answered do we do the necessary research ourselves and fill in the gaps.</p>
+<p>Newton said, &#8220;If I have seen further than others, it is because I&rsquo;ve stood on the shoulders of giants.&#8221; This is how science should work. Those who want to understand the world should be able to stand on the shoulders of those who came before them. A key part of our mission is therefore to build an infrastructure that makes research and data openly available and useful for all.</p>
+<h4><strong>Building the infrastructure to make data and research accessible and understandable</strong></h4>
+<p>The web allows us to publish in a way that was unimaginable just a few years ago: distribution is free and research and data can be explored through interactive documents. Yet much of today&rsquo;s research is published in a format essentially the same as that made available by Gutenberg&rsquo;s printing press, 500 years ago.&nbsp;</p>
+<p>To make research and data as accessible as possible we are a team in which researchers are collaborating with developers. Together we are building the infrastructure that allows everyone in the world to understand how we make progress against our most pressing problems.</p>
+<p>If you want to join us as a developer or researcher, see <a href="https://ourworldindata.org/jobs">our Jobs page</a>.</p>
+<h4><strong>Our World in Data is a public good</strong></h4>
+<p>We have big plans for the coming decades, but we are already having an impact. More than a million readers come to our site every month. We receive very regular <a href="https://ourworldindata.org/coverage#coverage">coverage in the media</a>, our publication is informing many writers in their often widely read work, our writing is widely shared through social media, and we are regularly cited in top journals including <em>Science</em> and <em>Nature</em>.&nbsp;</p>
+<p>For many relevant search queries &ndash; &lsquo;CO2 emissions&rsquo;, &lsquo;world poverty&rsquo;, &lsquo;child mortality&rsquo;, &lsquo;population growth&rsquo; &ndash; we are one of the top search results in many parts of the world. And our work is <a href="https://ourworldindata.org/coverage#teaching">commonly used as teaching material</a> in schools and universities.</p>
+<p>We design our work with the aim of generating an impact beyond what our team can achieve directly. By producing charts and data that can be freely downloaded and embedded in others&rsquo; work, we support and empower colleagues in policy, media and civil society also working on the problems we focus on.&nbsp;</p>
+<p>This is why all the work we ever do is made available in its entirety as a public good.</p>
+<ul>
+<li>Visualizations and text are licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY</a> and may be freely used for any purpose.&nbsp;</li>
+<li>The data is available for download.&nbsp;</li>
+<li>And all code we write is open-sourced under the <a href="https://opensource.org/licenses/MIT">MIT license</a> and can be found <a href="https://github.com/owid">on GitHub</a>.&nbsp;</li>
+</ul>
+<p>Feel free to make use of anything you find here.</p>
+<h4><strong>Based at Oxford</strong></h4>
+<p>Our World in Data and the SDG-Tracker are collaborative efforts between researchers at the University of Oxford, who are the scientific editors of the website content; and the non-profit organization <a href="https://global-change-data-lab.org/">Global Change Data Lab</a>, who publishes and maintains the website and the data tools that make our work possible. At the University of Oxford we are based at the <a href="https://www.oxfordmartin.ox.ac.uk/research/programmes/global-development">Oxford Martin Programme on Global Development</a>.</p>
+<h4><strong>Financed by donations and grants</strong></h4>
+<p>We are a nonprofit that is building a public good. This means that funding is a key concern for making our daily work possible. We rely on donations and grants. You find a list of our supporters <a href="https://ourworldindata.org/supporters">here</a>.&nbsp;</p>
+<p>If you care about the big problems in the world, you believe that our open platform contributes to solving them, and you can support our work please get in touch with us.</p>
+<p>If you&#8217;d like to make a donation to support our work you can do so <a href="https://ourworldindata.org/donate">here</a>. Thank you very much!</p>
+
+<h2 id="contact">Contact</h2>
+
+<p><strong>If you want to use data or visualizations from the site, you don&#8217;t need to contact us</strong>: please just go ahead and do so! The <a href="https://creativecommons.org/licenses/by/4.0/">terms of our license</a> only require attribution.</p>
+
+<p>For anything else, you can email us at <a href="mailto:info@ourworldindata.org">info@ourworldindata.org</a> or fill in our <a href="https://ourworldindata.org/feedback">Feedback form</a>.</p>
+
+
+    <section id="legal">
+        <h2>Legal disclaimer</h2>
+        <p>To the fullest extent permitted by the applicable law, <em>Our World in Data</em> offers the websites and services as-is and makes no representations or warranties of any kind concerning the websites or services, express, implied, statutory or otherwise, including, without limitation, warranties of title, merchantibility, fitness for a particular purpose, or noninfringement. <em>Our World in Data</em> does not warrant that the functions or content contained on the website or services will be uninterrupted or error-free, that defects will be corrected, or that <em>Our World in Data</em> servers are free of viruses or other harmful components. <em>Our World in Data</em> does not warrant or make any representation regarding use or the result of use of the content in terms of accuracy, reliability, or otherwise.</p>
+
+
+        <p>Except to the extent required by applicable law and then only to that extent, in no event will <em>Our World in Data</em>, or the people working on and related to this website (“the <em>Our World in Data</em> parties”) be liable to you on any legal theory for any incidental, direct, indirect, punitive, actual, consequential, special, exemplary or other damages, including without limitation, loss of revenue or income, lost profits, pain and suffering, emotional distress, cost of substitute goods or services, or similar damages suffered or incurred by you or any third party that arise in connection with the websites or services (or the termination thereof for any reason), even if the <em>Our World in Data</em> parties have been advised of the possibility of such damages.</p>
+
+        <p>The <em>Our World in Data</em> parties shall not be responsible or liable whatsoever in any manner for any content posted on the websites or services (including claims of infringement relating to content posted on the websites or services, for your use of the websites and services, or for the conduct of third parties whether on the websites, in connection with the services or otherwise relating to the websites or services.</p>
+    </section>
+</div>
+<!--/raw-->
+</div><footer class="article-footer"></footer></div></div></article></main><div id="wpadminbar" style="display:none"><div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar"><ul id="wp-admin-bar-root-default" class="ab-top-menu"><li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="/wp-admin/">Wordpress</a></li> <li id="wp-admin-bar-edit"><a class="ab-item" href="https://owid.cloud/wp-admin/post.php?post=92&amp;action=edit">Edit Page</a></li></ul></div></div><section class="donate-footer"><div class="wrapper"><div class="owid-row flex-align-center"><div class="owid-col owid-col--lg-3 owid-padding-bottom--sm-3"><p>Our World in Data is free and accessible for everyone.</p><p>Help us do this work by making a donation.</p></div><div class="owid-col owid-col--lg-1"><a href="/donate" class="owid-button donate-button" data-track-click="true" data-track-note="donate-footer"><span class="label">Donate now</span><span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-8 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg></span></a></div></div></div></section><footer class="site-footer"><div class="wrapper"><div class="owid-row"><div class="owid-col owid-col--lg-1"><ul><li><a href="/about" data-track-click="true" data-track-note="footer-navigation">About</a></li><li><a href="/about#contact" data-track-click="true" data-track-note="footer-navigation">Contact</a></li><li><a href="/jobs" data-track-click="true" data-track-note="footer-navigation">Jobs</a></li><li><a href="/supporters" data-track-click="true" data-track-note="footer-navigation">Supporters</a></li><li><a href="/about/how-to-use-our-world-in-data" data-track-click="true" data-track-note="footer-navigation">How to use</a></li><li><a href="/donate" data-track-click="true" data-track-note="footer-navigation">Donate</a></li></ul></div><div class="owid-col owid-col--lg-1"><ul><li><a href="/blog" data-track-click="true" data-track-note="footer-navigation">Latest research</a></li><li><a href="/charts" data-track-click="true" data-track-note="footer-navigation">All charts</a></li></ul><ul><li><a href="https://twitter.com/OurWorldInData" data-track-click="true" data-track-note="footer-navigation">Twitter</a></li><li><a href="https://www.facebook.com/OurWorldinData" data-track-click="true" data-track-note="footer-navigation">Facebook</a></li><li><a href="https://github.com/owid" data-track-click="true" data-track-note="footer-navigation">GitHub</a></li><li><a href="/feed" data-track-click="true" data-track-note="footer-navigation">RSS Feed</a></li></ul></div><div class="owid-col owid-col--lg-1"><div class="logos"><a href="https://www.oxfordmartin.ox.ac.uk/research/programmes/global-development" class="partner-logo" data-track-click="true" data-track-note="footer-navigation"><img src="/oxford-logo-rect.png" alt="University of Oxford logo"/></a><a href="https://global-change-data-lab.org/" class="partner-logo" data-track-click="true" data-track-note="footer-navigation"><img src="/gcdl-logo.png" alt="Global Change Data Lab logo"/></a><a href="/owid-at-ycombinator" class="partner-logo" data-track-click="true" data-track-note="footer-navigation"><img src="/yc-logo.png" alt="Y Combinator logo"/></a></div></div><div class="owid-col flex-2"><div class="legal"><p>License: All of Our World in Data is completely open access and all work is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY license</a>. You have the permission to use, distribute, and reproduce in any medium, provided the source and authors are credited.</p><p>Please consult our full <a href="/about#legal">legal disclaimer</a>.</p></div></div></div></div><div class="injectFeedback"></div><script src="https://ourworldindata.org/assets/js/commons.js"></script><script src="https://ourworldindata.org/assets/js/owid.js"></script><script>
+                runHeaderMenus();
+                runFeedback();
+                if (!document.querySelector(".ChartPage")) {
+                    Grapher.embedAll();
+                }
+            </script></footer></body></html>
