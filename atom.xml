@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-09-17T09:34:36.000Z</updated>
+<updated>2019-09-18T10:00:44.000Z</updated>
+<entry>
+    <title><![CDATA[The rise of social media]]></title>
+    <id>https://ourworldindata.org/rise-of-social-media</id>
+    <link rel="alternate" href="https://ourworldindata.org/rise-of-social-media"/>
+    <published>2019-09-18T10:00:44.000Z</published>
+    <updated>2019-09-18T10:49:31.000Z</updated>
+    <author><name>Esteban Ortiz-Ospina</name></author>
+    <summary><![CDATA[]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Where are women most at risk of dying in childbirth?]]></title>
     <id>https://ourworldindata.org/risk-of-dying-in-childbirth</id>
@@ -84,15 +93,6 @@
     <link rel="alternate" href="https://ourworldindata.org/smoking#who-smokes-more-men-or-women"/>
     <published>2019-09-02T16:25:40.000Z</published>
     <updated>2019-09-05T11:50:18.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[In which countries do people smoke the most?]]></title>
-    <id>https://ourworldindata.org/smoking#in-which-countries-do-people-smoke-the-most</id>
-    <link rel="alternate" href="https://ourworldindata.org/smoking#in-which-countries-do-people-smoke-the-most"/>
-    <published>2019-09-02T16:21:48.000Z</published>
-    <updated>2019-09-05T11:48:35.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[]]></summary>
 </entry>
