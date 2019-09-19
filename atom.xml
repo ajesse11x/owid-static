@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-09-18T10:00:44.000Z</updated>
+<updated>2019-09-19T10:53:53.000Z</updated>
+<entry>
+    <title><![CDATA[Talent is everywhere, opportunity is not. We are all losing out because of this.]]></title>
+    <id>https://ourworldindata.org/talent-is-everywhere-opportunity-is-not</id>
+    <link rel="alternate" href="https://ourworldindata.org/talent-is-everywhere-opportunity-is-not"/>
+    <published>2019-09-19T10:53:53.000Z</published>
+    <updated>2019-09-19T11:44:46.000Z</updated>
+    <author><name>Max Roser</name></author>
+    <summary><![CDATA[The world needs ideas and innovation to make progress against the many problems we face. Creative and talented people that can contribute to this important work are everywhere, but the opportunity to develop is limited to only a small number of well-off children. As a consequence of this, we all – the entire world population – are missing out on the creativity and innovations that would enrich our world and help us move forward.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[The rise of social media]]></title>
     <id>https://ourworldindata.org/rise-of-social-media</id>
@@ -85,15 +94,6 @@
     <published>2019-09-03T11:00:30.000Z</published>
     <updated>2019-09-18T12:22:07.000Z</updated>
     <author><name>Max Roser</name></author>
-    <summary><![CDATA[]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Who smokes more, men or women?]]></title>
-    <id>https://ourworldindata.org/who-smokes-more-men-or-women</id>
-    <link rel="alternate" href="https://ourworldindata.org/who-smokes-more-men-or-women"/>
-    <published>2019-09-02T16:25:40.000Z</published>
-    <updated>2019-09-18T12:16:27.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[]]></summary>
 </entry>
 </feed>
