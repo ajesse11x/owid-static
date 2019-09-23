@@ -137,7 +137,6 @@
 /about/owid-grapher /owid-grapher 301
 /media-coverage /coverage 301
 /yields-and-land-use-in-agriculture /crop-yields 301
-/yields-and-land-use-in-agriculture /crop-yields 301
 /about/how-to-use-our-world-in-data /how-to-use-our-world-in-data 301
 /about/how-we-chose-our-data-sources /how-we-chose-our-data-sources 301
 /about/list-of-all-data-entries /list-of-all-data-entries 301
@@ -149,6 +148,7 @@
 /meat-and-seafood-production-consumption /meat-production 301
 /substance-use /drug-use 301
 /grapher/life-expectancy-globally-since-1770 /grapher/life-expectancy?tab=chart&time=1770..2015&country=Africa+Asia+Europe+Latin%20America%20and%20the%20Caribbean+Northern%20America+OWID_WRL+Americas+Oceania 301
+/migration /grapher/international-migrant-stock 307
 /grapher/latest /grapher/share-of-children-vaccinated-against-measles 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221 /grapher/share-of-the-population-suffering-from-depression 302

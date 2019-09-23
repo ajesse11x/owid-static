@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-09-19T10:53:53.000Z</updated>
+<updated>2019-09-20T10:55:38.000Z</updated>
+<entry>
+    <title><![CDATA[If we can make maternal deaths as rare as they are in the healthiest countries we can save almost 300,000 mothers each year]]></title>
+    <id>https://ourworldindata.org/saving-maternal-lives</id>
+    <link rel="alternate" href="https://ourworldindata.org/saving-maternal-lives"/>
+    <published>2019-09-20T10:55:38.000Z</published>
+    <updated>2019-09-20T11:13:00.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[Maternal mortality was much more common in the past. Today, the number of women that die in childbirth is much lower, but there are still large inequalities across the world. If we can make maternal deaths as rare as they are in the healthiest countries we can save almost 300,000 mothers each year.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Talent is everywhere, opportunity is not. We are all losing out because of this.]]></title>
     <id>https://ourworldindata.org/talent-is-everywhere-opportunity-is-not</id>
@@ -85,15 +94,6 @@
     <published>2019-09-06T07:48:51.000Z</published>
     <updated>2019-09-19T15:17:36.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[50 years ago the average woman had five children, since then the number has halved]]></title>
-    <id>https://ourworldindata.org/global-fertility-has-halved</id>
-    <link rel="alternate" href="https://ourworldindata.org/global-fertility-has-halved"/>
-    <published>2019-09-03T11:00:30.000Z</published>
-    <updated>2019-09-18T12:22:07.000Z</updated>
-    <author><name>Max Roser</name></author>
     <summary><![CDATA[]]></summary>
 </entry>
 </feed>

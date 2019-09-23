@@ -713,7 +713,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/democracy</loc>
-        <lastmod>2019-09-10</lastmod>
+        <lastmod>2019-09-23</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/employment-in-agriculture</loc>
@@ -824,8 +824,8 @@
         <lastmod>2019-08-28</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/yields-and-land-use-in-agriculture</loc>
-        <lastmod>2019-08-04</lastmod>
+        <loc>https://ourworldindata.org/crop-yields</loc>
+        <lastmod>2019-09-20</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/fertilizer-and-pesticides</loc>
@@ -837,7 +837,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/maternal-mortality</loc>
-        <lastmod>2019-09-17</lastmod>
+        <lastmod>2019-09-20</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/malaria</loc>
@@ -853,7 +853,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/indoor-air-pollution</loc>
-        <lastmod>2019-06-25</lastmod>
+        <lastmod>2019-09-20</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/hiv-aids</loc>
@@ -893,7 +893,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/energy-production-and-changing-energy-sources</loc>
-        <lastmod>2019-08-28</lastmod>
+        <lastmod>2019-09-20</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/natural-disasters</loc>
@@ -913,7 +913,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions</loc>
-        <lastmod>2019-08-04</lastmod>
+        <lastmod>2019-09-23</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/coverage</loc>
@@ -1713,7 +1713,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/number-of-people-in-the-world-without-electricity-access-falls-below-one-billion</loc>
-        <lastmod>2019-05-08</lastmod>
+        <lastmod>2019-09-20</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/indias-population-growth-will-come-to-an-end</loc>
@@ -2097,6 +2097,22 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/age-structure</loc>
+        <lastmod>2019-09-20</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/saving-maternal-lives</loc>
+        <lastmod>2019-09-20</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/untitled-reusable-block-24</loc>
+        <lastmod>2019-09-20</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/energy-access</loc>
+        <lastmod>2019-09-20</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/untitled-reusable-block-25</loc>
         <lastmod>2019-09-20</lastmod>
     </url>
     <url>
@@ -2601,7 +2617,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/productivity-vs-annual-hours-worked</loc>
-        <lastmod>2018-03-25</lastmod>
+        <lastmod>2019-09-20</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/work-hours-per-week</loc>
@@ -3753,7 +3769,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/maternal-mortality</loc>
-        <lastmod>2019-09-19</lastmod>
+        <lastmod>2019-09-22</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/hypothetical-number-of-deaths-from-energy-production</loc>
@@ -8145,7 +8161,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/weekly-work-hours-vs-gdp-per-capita</loc>
-        <lastmod>2018-03-15</lastmod>
+        <lastmod>2019-09-20</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/gross-oda-for-medical-research-and-basic-heath-sectors</loc>
@@ -12661,7 +12677,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/electricity-per-capita</loc>
-        <lastmod>2018-12-13</lastmod>
+        <lastmod>2019-09-20</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/the-number-of-deaths-from-tetanus-by-world-region</loc>
@@ -13978,5 +13994,9 @@
     <url>
         <loc>https://ourworldindata.org/grapher/average-income-or-consumption-in-lowest-quintile-vs-gdp-per-capita</loc>
         <lastmod>2019-09-19</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/relative-change-in-maternal-mortality</loc>
+        <lastmod>2019-09-20</lastmod>
     </url>
 </urlset>
