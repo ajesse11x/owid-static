@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-09-20T10:55:38.000Z</updated>
+<updated>2019-09-24T09:00:48.000Z</updated>
+<entry>
+    <title><![CDATA[Where does our plastic accumulate in the ocean and what does that mean for the future?]]></title>
+    <id>https://ourworldindata.org/where-does-plastic-accumulate</id>
+    <link rel="alternate" href="https://ourworldindata.org/where-does-plastic-accumulate"/>
+    <published>2019-09-24T09:00:48.000Z</published>
+    <updated>2019-09-24T09:17:02.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[An estimated 8 million tonnes of plastic enter our oceans each year. But the plastic we find in our surface waters is more than 100-fold lower. This is the ‘missing plastic’ problem. So, where does our plastic accumulate in the ocean and what does this mean for the future?]]></summary>
+</entry>
 <entry>
     <title><![CDATA[If we can make maternal deaths as rare as they are in the healthiest countries we can save almost 300,000 mothers each year]]></title>
     <id>https://ourworldindata.org/saving-maternal-lives</id>
@@ -86,14 +95,5 @@
     <updated>2019-09-09T16:33:51.000Z</updated>
     <author><name>Esteban Ortiz-Ospina</name></author>
     <summary><![CDATA[Social media platforms like Facebook reach one-in-three people in the world. In most rich countries the proportion of young people using online social networks exceeds 90%. What does the research tell us about the causal impact of social media use on our well-being?]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Which countries are most densely populated?]]></title>
-    <id>https://ourworldindata.org/most-densely-populated-countries</id>
-    <link rel="alternate" href="https://ourworldindata.org/most-densely-populated-countries"/>
-    <published>2019-09-06T07:48:51.000Z</published>
-    <updated>2019-09-19T15:17:36.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[]]></summary>
 </entry>
 </feed>
