@@ -7125,7 +7125,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-without-access-water-source</loc>
-        <lastmod>2018-03-15</lastmod>
+        <lastmod>2019-09-26</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/polio-rate-of-cases-vs-vaccination-coverage</loc>
@@ -14038,5 +14038,9 @@
     <url>
         <loc>https://ourworldindata.org/grapher/number-without-access-to-improved-sanitation</loc>
         <lastmod>2019-09-25</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/number-without-improved-water</loc>
+        <lastmod>2019-09-26</lastmod>
     </url>
 </urlset>
