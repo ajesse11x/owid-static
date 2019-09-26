@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-09-24T09:00:48.000Z</updated>
+<updated>2019-09-26T10:00:16.000Z</updated>
+<entry>
+    <title><![CDATA[12 key metrics to understand  the state of the world]]></title>
+    <id>https://ourworldindata.org/12-key-metrics</id>
+    <link rel="alternate" href="https://ourworldindata.org/12-key-metrics"/>
+    <published>2019-09-26T10:00:16.000Z</published>
+    <updated>2019-09-26T10:52:56.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[At Our World in Data we present data and research – across more than 3000 charts – on the world’s largest problems. But some metrics are core to our work: here we present 12 that are key to understanding the state of the world.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Where does our plastic accumulate in the ocean and what does that mean for the future?]]></title>
     <id>https://ourworldindata.org/where-does-plastic-accumulate</id>
@@ -86,14 +95,5 @@
     <updated>2019-09-19T10:33:31.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Are Facebook and other social media platforms bad for our well-being?]]></title>
-    <id>https://ourworldindata.org/social-media-wellbeing</id>
-    <link rel="alternate" href="https://ourworldindata.org/social-media-wellbeing"/>
-    <published>2019-09-09T15:20:55.000Z</published>
-    <updated>2019-09-09T16:33:51.000Z</updated>
-    <author><name>Esteban Ortiz-Ospina</name></author>
-    <summary><![CDATA[Social media platforms like Facebook reach one-in-three people in the world. In most rich countries the proportion of young people using online social networks exceeds 90%. What does the research tell us about the causal impact of social media use on our well-being?]]></summary>
 </entry>
 </feed>
