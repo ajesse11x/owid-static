@@ -837,7 +837,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/maternal-mortality</loc>
-        <lastmod>2019-09-20</lastmod>
+        <lastmod>2019-09-27</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/malaria</loc>
@@ -893,7 +893,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/energy-production-and-changing-energy-sources</loc>
-        <lastmod>2019-09-20</lastmod>
+        <lastmod>2019-09-26</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/natural-disasters</loc>
@@ -1061,7 +1061,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/government-spending</loc>
-        <lastmod>2019-08-30</lastmod>
+        <lastmod>2019-09-26</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/how-global-inequality-has-changed-from-2003-to-2013</loc>
@@ -1356,8 +1356,8 @@
         <lastmod>2019-01-22</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/water-use-sanitation</loc>
-        <lastmod>2019-09-25</lastmod>
+        <loc>https://ourworldindata.org/water-use-stress</loc>
+        <lastmod>2019-09-26</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/genuine-savings-other-measures-of-savinginvestment</loc>
@@ -1949,23 +1949,23 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/global-fertility-has-halved</loc>
-        <lastmod>2019-09-18</lastmod>
+        <lastmod>2019-09-26</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/which-countries-smoke-most</loc>
-        <lastmod>2019-09-18</lastmod>
+        <lastmod>2019-09-26</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/who-smokes-more-men-or-women</loc>
-        <lastmod>2019-09-18</lastmod>
+        <lastmod>2019-09-26</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/most-densely-populated-countries</loc>
-        <lastmod>2019-09-19</lastmod>
+        <lastmod>2019-09-26</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/births-and-deaths</loc>
-        <lastmod>2019-09-19</lastmod>
+        <lastmod>2019-09-26</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block</loc>
@@ -1993,7 +1993,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-6</loc>
-        <lastmod>2019-09-18</lastmod>
+        <lastmod>2019-09-26</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-7</loc>
@@ -2041,7 +2041,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/parents-losing-their-child</loc>
-        <lastmod>2019-09-13</lastmod>
+        <lastmod>2019-09-26</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/rise-of-aquaculture</loc>
@@ -2069,11 +2069,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/risk-of-dying-in-childbirth</loc>
-        <lastmod>2019-09-18</lastmod>
+        <lastmod>2019-09-27</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-19</loc>
-        <lastmod>2019-09-17</lastmod>
+        <lastmod>2019-09-27</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-20</loc>
@@ -2146,6 +2146,10 @@
     <url>
         <loc>https://ourworldindata.org/water-access</loc>
         <lastmod>2019-09-26</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/our-world-in-data-history</loc>
+        <lastmod>2019-09-27</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/suicide-rates-by-country</loc>
@@ -14033,7 +14037,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/relative-change-in-maternal-mortality</loc>
-        <lastmod>2019-09-20</lastmod>
+        <lastmod>2019-09-27</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/consumption-co2-emissions</loc>
@@ -14050,5 +14054,17 @@
     <url>
         <loc>https://ourworldindata.org/grapher/number-without-improved-water</loc>
         <lastmod>2019-09-26</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/age-standardized-deaths-from-all-causes</loc>
+        <lastmod>2019-09-27</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/maternal-mortality-vs-fertility</loc>
+        <lastmod>2019-09-27</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/change-maternal-mortality-by-income-group</loc>
+        <lastmod>2019-09-27</lastmod>
     </url>
 </urlset>

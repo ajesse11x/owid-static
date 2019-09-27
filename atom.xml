@@ -5,13 +5,22 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-09-26T10:00:16.000Z</updated>
+<updated>2019-09-26T17:26:21.000Z</updated>
 <entry>
-    <title><![CDATA[12 key metrics to understand  the state of the world]]></title>
+    <title><![CDATA[The history of Our World in Data]]></title>
+    <id>https://ourworldindata.org/our-world-in-data-history</id>
+    <link rel="alternate" href="https://ourworldindata.org/our-world-in-data-history"/>
+    <published>2019-09-26T17:26:21.000Z</published>
+    <updated>2019-09-27T08:10:48.000Z</updated>
+    <author><name>Max Roser</name></author>
+    <summary><![CDATA[Our World in Data has been a project many years in the making. Here we detail the history of how the project got started, its evolution over the years and where we are today as a team.]]></summary>
+</entry>
+<entry>
+    <title><![CDATA[12 key metrics to understand the state of the world]]></title>
     <id>https://ourworldindata.org/12-key-metrics</id>
     <link rel="alternate" href="https://ourworldindata.org/12-key-metrics"/>
     <published>2019-09-26T10:00:16.000Z</published>
-    <updated>2019-09-26T10:52:56.000Z</updated>
+    <updated>2019-09-26T12:06:01.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[At Our World in Data we present data and research – across more than 3000 charts – on the world’s largest problems. But some metrics are core to our work: here we present 12 that are key to understanding the state of the world.]]></summary>
 </entry>
@@ -56,7 +65,7 @@
     <id>https://ourworldindata.org/risk-of-dying-in-childbirth</id>
     <link rel="alternate" href="https://ourworldindata.org/risk-of-dying-in-childbirth"/>
     <published>2019-09-17T09:34:36.000Z</published>
-    <updated>2019-09-18T10:00:39.000Z</updated>
+    <updated>2019-09-27T14:37:47.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[Pregnancy and childbirth are much safer for women today than in the past. But maternal mortality rates are still high in many countries in the world. A woman is 300 to 400 times more likely to die per pregnancy in poor countries than in rich.]]></summary>
 </entry>
@@ -83,17 +92,8 @@
     <id>https://ourworldindata.org/parents-losing-their-child</id>
     <link rel="alternate" href="https://ourworldindata.org/parents-losing-their-child"/>
     <published>2019-09-12T11:00:17.000Z</published>
-    <updated>2019-09-13T15:22:09.000Z</updated>
+    <updated>2019-09-26T12:23:24.000Z</updated>
     <author><name>Max Roser</name></author>
-    <summary><![CDATA[]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[How many people die and how many are born each year?]]></title>
-    <id>https://ourworldindata.org/births-and-deaths</id>
-    <link rel="alternate" href="https://ourworldindata.org/births-and-deaths"/>
-    <published>2019-09-11T09:22:17.000Z</published>
-    <updated>2019-09-19T10:33:31.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[]]></summary>
+    <summary><![CDATA[The death of a child has always been the most tragic calamity mothers and fathers could experience. How common was it that parents saw their children die?]]></summary>
 </entry>
 </feed>
