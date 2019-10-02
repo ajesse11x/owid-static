@@ -782,4 +782,6 @@
 /grapher/population-by-country-gapminder+un /grapher/population 302
 /grapher/number-using-safely-managed-drinking-water /grapher/number-using-safe-water 302
 /grapher/child-deaths-in-the-1st-year-of-life /grapher/infant-deaths 302
-/grapher/percentage-of-workers-current-job-personal-contacts /grapher/job-and-personal-contacts 302
+/grapher/percentage-of-workers-current-job-personal-contacts /grapher/jobs-and-personal-contacts-europe 302
+/grapher/methods-workers-current-jobs-pellizzari-2010 /grapher/job-search-methods-europe 302
+/grapher/job-and-personal-contacts /grapher/jobs-and-personal-contacts-europe 302
