@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-10-01T16:00:19.000Z</updated>
+<updated>2019-10-03T09:45:01.000Z</updated>
+<entry>
+    <title><![CDATA[Who emits the most CO2 today?]]></title>
+    <id>https://ourworldindata.org/annual-co2-emissions</id>
+    <link rel="alternate" href="https://ourworldindata.org/annual-co2-emissions"/>
+    <published>2019-10-03T09:45:01.000Z</published>
+    <updated>2019-10-03T10:03:56.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[Which countries emit the most CO2 today? How do annual emissions vary across the world?]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Who has contributed most to global CO2 emissions?]]></title>
     <id>https://ourworldindata.org/contributed-most-global-co2</id>
@@ -86,14 +95,5 @@
     <updated>2019-09-16T13:16:27.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[For most of our history, pregnancy and childbirth were dangerous for both baby and mother. Whilst maternal mortality has decreased significantly in recent decades, more than 300,000 women die from pregnancy every year.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[The world now produces more seafood from fish farms than wild catch]]></title>
-    <id>https://ourworldindata.org/rise-of-aquaculture</id>
-    <link rel="alternate" href="https://ourworldindata.org/rise-of-aquaculture"/>
-    <published>2019-09-13T11:00:15.000Z</published>
-    <updated>2019-09-16T13:35:43.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[Growing demand for seafood has placed increasing pressures on wild fish populations. One innovation has helped to alleviate some of the pressure on wild fish catch: aquaculture, the practice of fish and seafood farming. Aquaculture production has now overtaken wild fish catch.]]></summary>
 </entry>
 </feed>
