@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-10-03T09:45:01.000Z</updated>
+<updated>2019-10-04T08:50:13.000Z</updated>
+<entry>
+    <title><![CDATA[Where in the world do people emit the most CO2?]]></title>
+    <id>https://ourworldindata.org/per-capita-co2</id>
+    <link rel="alternate" href="https://ourworldindata.org/per-capita-co2"/>
+    <published>2019-10-04T08:50:13.000Z</published>
+    <updated>2019-10-04T09:15:55.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[There are large inequalities in the carbon footprint of people across the world. How do countries across the world compare? Where in the world do people emit the most CO2?]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Who emits the most CO2 today?]]></title>
     <id>https://ourworldindata.org/annual-co2-emissions</id>
@@ -86,14 +95,5 @@
     <updated>2019-09-27T14:37:47.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[Pregnancy and childbirth are much safer for women today than in the past. But maternal mortality rates are still high in many countries in the world. A woman is 300 to 400 times more likely to die per pregnancy in poor countries than in rich.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[How many women die in childbirth?]]></title>
-    <id>https://ourworldindata.org/how-many-women-die-in-childbirth</id>
-    <link rel="alternate" href="https://ourworldindata.org/how-many-women-die-in-childbirth"/>
-    <published>2019-09-16T13:08:53.000Z</published>
-    <updated>2019-09-16T13:16:27.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[For most of our history, pregnancy and childbirth were dangerous for both baby and mother. Whilst maternal mortality has decreased significantly in recent decades, more than 300,000 women die from pregnancy every year.]]></summary>
 </entry>
 </feed>
