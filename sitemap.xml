@@ -14327,4 +14327,12 @@
         <loc>https://ourworldindata.org/grapher/scarcity-water-protein-poore</loc>
         <lastmod>2019-10-08</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/land-use-kcal-poore</loc>
+        <lastmod>2019-10-08</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/ghg-kcal-poore</loc>
+        <lastmod>2019-10-08</lastmod>
+    </url>
 </urlset>
