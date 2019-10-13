@@ -828,8 +828,8 @@
         <lastmod>2019-09-25</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/fertilizer-and-pesticides</loc>
-        <lastmod>2019-02-05</lastmod>
+        <loc>https://ourworldindata.org/fertilizer</loc>
+        <lastmod>2019-10-13</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/list-of-all-data-entries</loc>
@@ -2322,6 +2322,10 @@
     <url>
         <loc>https://ourworldindata.org/privacy-policy</loc>
         <lastmod>2019-10-09</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/25393</loc>
+        <lastmod>2019-10-13</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/pesticides</loc>
@@ -5329,7 +5333,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/pesticide-use-per-hectare-of-cropland</loc>
-        <lastmod>2018-03-15</lastmod>
+        <lastmod>2019-10-13</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/main-religion-of-the-country-in</loc>
