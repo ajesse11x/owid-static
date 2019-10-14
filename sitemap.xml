@@ -14388,15 +14388,15 @@
         <lastmod>2019-10-14</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/mortality-rates-due-to-neonatal-asphyxia-and-trauma</loc>
-        <lastmod>2019-10-14</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/neonatal-mortality-due-to-sepsis-and-other-neonatal-infections</loc>
+        <loc>https://ourworldindata.org/grapher/mortality-neonatal-asphyxia-and-trauma</loc>
         <lastmod>2019-10-14</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/congenital-birth-defect-mortality-rates-in-children-under-5</loc>
+        <lastmod>2019-10-14</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/protein-energy-malnutrition-mortality-rates-in-children</loc>
         <lastmod>2019-10-14</lastmod>
     </url>
 </urlset>
