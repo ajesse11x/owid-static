@@ -957,7 +957,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/jobs</loc>
-        <lastmod>2019-09-04</lastmod>
+        <lastmod>2019-10-16</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/burden-of-disease</loc>
@@ -1549,7 +1549,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/urbanization</loc>
-        <lastmod>2019-02-05</lastmod>
+        <lastmod>2019-10-16</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/sdg-tracker-update</loc>
@@ -1661,7 +1661,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/trade-and-econ-growth</loc>
-        <lastmod>2019-01-22</lastmod>
+        <lastmod>2019-10-16</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/the-worlds-deadliest-earthquakes</loc>
@@ -1685,7 +1685,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/trade-and-globalization</loc>
-        <lastmod>2019-05-28</lastmod>
+        <lastmod>2019-10-16</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/co2-by-income-region</loc>
@@ -1749,7 +1749,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/owid-at-ycombinator</loc>
-        <lastmod>2019-02-20</lastmod>
+        <lastmod>2019-10-16</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/researcher-job</loc>
@@ -1849,7 +1849,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/full-stack-developer</loc>
-        <lastmod>2019-09-04</lastmod>
+        <lastmod>2019-10-16</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/population-aged-65-outnumber-children</loc>
@@ -2334,6 +2334,10 @@
     <url>
         <loc>https://ourworldindata.org/pesticides</loc>
         <lastmod>2019-10-13</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/we-won-the-lovie-award</loc>
+        <lastmod>2019-10-16</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/suicide-rates-by-country</loc>
