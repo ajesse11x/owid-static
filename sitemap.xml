@@ -14411,4 +14411,8 @@
         <loc>https://ourworldindata.org/grapher/tuberculosis-mortality-rates</loc>
         <lastmod>2019-10-18</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/tuberculosis-mortality-rates-excludes-people-who-are-also-infected-with-hiv</loc>
+        <lastmod>2019-10-18</lastmod>
+    </url>
 </urlset>
