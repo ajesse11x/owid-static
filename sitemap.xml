@@ -3509,15 +3509,15 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/cumulative-co-emissions</loc>
-        <lastmod>2019-07-19</lastmod>
+        <lastmod>2019-10-26</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/co-emissions-per-capita</loc>
-        <lastmod>2019-09-25</lastmod>
+        <lastmod>2019-10-26</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/annual-co2-emissions-per-country</loc>
-        <lastmod>2019-09-25</lastmod>
+        <lastmod>2019-10-26</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-air-pollution-per-100000</loc>
@@ -4117,7 +4117,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/co-emissions-embedded-in-global-trade</loc>
-        <lastmod>2019-10-23</lastmod>
+        <lastmod>2019-10-26</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-of-children-younger-than-5-who-suffer-from-stunting</loc>
@@ -13769,7 +13769,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/consumption-co2-per-capita</loc>
-        <lastmod>2019-09-25</lastmod>
+        <lastmod>2019-10-26</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/children-per-woman-un-compared-with-usa</loc>
@@ -14229,7 +14229,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/consumption-co2-emissions</loc>
-        <lastmod>2019-09-30</lastmod>
+        <lastmod>2019-10-26</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/prod-cons-co2-per-capita</loc>
@@ -14445,6 +14445,6 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/imported-or-exported-co-emissions-per-capita</loc>
-        <lastmod>2019-10-23</lastmod>
+        <lastmod>2019-10-26</lastmod>
     </url>
 </urlset>
