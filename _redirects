@@ -401,7 +401,7 @@
 /grapher/children-out-of-school-vs-hours-worked-by-children /grapher/working-children-out-of-school-ages-7-14-vs-hours-worked-by-children-ages-7-14 302
 /grapher/number-of-people-who-are-undernourished-world /grapher/global-population-defined-as-undernourished 302
 /grapher/number-of-people-undernourished-and-with-adquate-caloric-intake /grapher/number-of-people-defined-as-undernourished 302
-/grapher/book-titles-per-capita /grapher/the-number-of-new-book-titles-published-per-year-per-1-million-inhabitants 302
+/grapher/book-titles-per-capita /grapher/new-books-per-million 302
 /grapher/children-in-employment-vs-weekly-hours-worked-by-children /grapher/children-in-employment-ages-7-14-vs-weekly-hours-worked-by-children-ages-7-14 302
 /grapher/children-in-employment-vs-weekly-hours-worked-by-children-7-14 /grapher/children-in-employment-ages-7-14-vs-weekly-hours-worked-by-children-ages-7-14 302
 /grapher/working-children-out-of-school-vs-hours-worked-by-children /grapher/working-children-out-of-school-ages-7-14-vs-hours-worked-by-children-ages-7-14 302
@@ -795,3 +795,4 @@
 /grapher/job-and-personal-contacts /grapher/jobs-and-personal-contacts-europe 302
 /grapher/mortality-rates-due-to-neonatal-asphyxia-and-trauma /grapher/mortality-neonatal-asphyxia-and-trauma 302
 /grapher/life-expectancy-at-birth /grapher/life-expectancy 302
+/grapher/the-number-of-new-book-titles-published-per-year-per-1-million-inhabitants /grapher/new-books-per-million 302
