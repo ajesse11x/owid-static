@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-10-16T17:08:12.000Z</updated>
+<updated>2019-11-04T11:00:05.000Z</updated>
+<entry>
+    <title><![CDATA[What are the environmental impacts of food and agriculture? Introducing our new Our World in Data series]]></title>
+    <id>https://ourworldindata.org/environmental-impacts-of-food</id>
+    <link rel="alternate" href="https://ourworldindata.org/environmental-impacts-of-food"/>
+    <published>2019-11-04T11:00:05.000Z</published>
+    <updated>2019-11-04T11:03:59.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[]]></summary>
+</entry>
 <entry>
     <title><![CDATA[We won the Lovie Award!]]></title>
     <id>https://ourworldindata.org/we-won-the-lovie-award</id>
@@ -86,14 +95,5 @@
     <updated>2019-09-20T11:13:00.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[Maternal mortality was much more common in the past. Today, the number of women that die in childbirth is much lower, but there are still large inequalities across the world. If we can make maternal deaths as rare as they are in the healthiest countries we can save almost 300,000 mothers each year.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Talent is everywhere, opportunity is not. We are all losing out because of this.]]></title>
-    <id>https://ourworldindata.org/talent-is-everywhere-opportunity-is-not</id>
-    <link rel="alternate" href="https://ourworldindata.org/talent-is-everywhere-opportunity-is-not"/>
-    <published>2019-09-19T10:53:53.000Z</published>
-    <updated>2019-09-19T18:37:43.000Z</updated>
-    <author><name>Max Roser</name></author>
-    <summary><![CDATA[The world needs ideas and innovation to make progress against the many problems we face. Creative and talented people that can contribute to this important work are everywhere, but the opportunity to develop is limited to only a small number of well-off children. As a consequence of this, we all – the entire world population – are missing out on the creativity and innovations that would enrich our world and help us move forward.]]></summary>
 </entry>
 </feed>
