@@ -741,7 +741,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/happiness-and-life-satisfaction</loc>
-        <lastmod>2019-10-30</lastmod>
+        <lastmod>2019-11-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/life-expectancy</loc>
@@ -789,7 +789,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/civil-wars</loc>
-        <lastmod>2019-10-13</lastmod>
+        <lastmod>2019-11-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/genocides</loc>
@@ -1201,11 +1201,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/collective-pessimism-and-our-inability-to-guess-the-happiness-of-others</loc>
-        <lastmod>2019-01-22</lastmod>
+        <lastmod>2019-11-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/there-is-a-happiness-gap-between-east-and-west-germany</loc>
-        <lastmod>2019-10-30</lastmod>
+        <lastmod>2019-11-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/happiness-and-income-inequality</loc>
@@ -1373,7 +1373,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/causes-of-death</loc>
-        <lastmod>2019-10-30</lastmod>
+        <lastmod>2019-11-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/six-facts-pay-gap</loc>
@@ -1841,7 +1841,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/full-stack-developer</loc>
-        <lastmod>2019-10-16</lastmod>
+        <lastmod>2019-11-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/population-aged-65-outnumber-children</loc>
@@ -2421,7 +2421,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-86</loc>
-        <lastmod>2019-10-30</lastmod>
+        <lastmod>2019-11-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-87</loc>
@@ -2484,7 +2484,7 @@
         <lastmod>2019-11-01</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/auto-draft</loc>
+        <loc>https://ourworldindata.org/diarrheal-diseases</loc>
         <lastmod>2019-11-04</lastmod>
     </url>
     <url>
@@ -2545,6 +2545,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-113</loc>
+        <lastmod>2019-11-04</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/untitled-reusable-block-114</loc>
         <lastmod>2019-11-04</lastmod>
     </url>
     <url>
@@ -14381,7 +14385,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/pneumonia-risk-factors</loc>
-        <lastmod>2019-09-30</lastmod>
+        <lastmod>2019-11-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/macroplastics-in-ocean</loc>
@@ -14669,6 +14673,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/pneumonia-mortality-by-age</loc>
+        <lastmod>2019-11-04</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/deaths-from-pneumonia-in-people-aged-70-and-older-by-risk-factor</loc>
         <lastmod>2019-11-04</lastmod>
     </url>
 </urlset>
