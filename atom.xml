@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-11-04T11:00:05.000Z</updated>
+<updated>2019-11-06T17:00:25.000Z</updated>
+<entry>
+    <title><![CDATA[Food production is responsible for one-quarter of  the world’s greenhouse gas emissions]]></title>
+    <id>https://ourworldindata.org/food-ghg-emissions</id>
+    <link rel="alternate" href="https://ourworldindata.org/food-ghg-emissions"/>
+    <published>2019-11-06T17:00:25.000Z</published>
+    <updated>2019-11-06T17:20:52.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[One-quarter of the world’s greenhouse gas emissions result from food and agriculture. What are the main contributors to food’s emissions?]]></summary>
+</entry>
 <entry>
     <title><![CDATA[What are the environmental impacts of food and agriculture? Introducing our new Our World in Data series]]></title>
     <id>https://ourworldindata.org/environmental-impacts-of-food</id>
@@ -88,14 +97,5 @@ What are food’s environmental impacts?]]></summary>
     <updated>2019-09-25T21:37:25.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[An estimated 8 million tonnes of plastic enter our oceans each year. But the plastic we find in our surface waters is more than 100-fold lower. This is the ‘missing plastic’ problem. So, where does our plastic accumulate in the ocean and what does this mean for the future?]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[If we can make maternal deaths as rare as they are in the healthiest countries we can save almost 300,000 mothers each year]]></title>
-    <id>https://ourworldindata.org/saving-maternal-lives</id>
-    <link rel="alternate" href="https://ourworldindata.org/saving-maternal-lives"/>
-    <published>2019-09-20T10:55:38.000Z</published>
-    <updated>2019-09-20T11:13:00.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[Maternal mortality was much more common in the past. Today, the number of women that die in childbirth is much lower, but there are still large inequalities across the world. If we can make maternal deaths as rare as they are in the healthiest countries we can save almost 300,000 mothers each year.]]></summary>
 </entry>
 </feed>
