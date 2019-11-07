@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-11-06T17:00:25.000Z</updated>
+<updated>2019-11-07T11:40:41.000Z</updated>
+<entry>
+    <title><![CDATA[The importance of social networks for innovation and productivity]]></title>
+    <id>https://ourworldindata.org/social-networks-innovation-and-productivity</id>
+    <link rel="alternate" href="https://ourworldindata.org/social-networks-innovation-and-productivity"/>
+    <published>2019-11-07T11:40:41.000Z</published>
+    <updated>2019-11-07T11:41:59.000Z</updated>
+    <author><name>Esteban Ortiz-Ospina</name></author>
+    <summary><![CDATA[Social networks facilitate the diffusion of ideas across individuals and firms, and because of this, they play an important role in productivity growth. In this post we explain how this works.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Food production is responsible for one-quarter of  the world’s greenhouse gas emissions]]></title>
     <id>https://ourworldindata.org/food-ghg-emissions</id>
@@ -88,14 +97,5 @@ What are food’s environmental impacts?]]></summary>
     <updated>2019-10-02T18:18:05.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[At Our World in Data we present data and research – across more than 3000 charts – on the world’s largest problems. But some metrics are core to our work: here we present 12 that are key to understanding the state of the world.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Where does our plastic accumulate in the ocean and what does that mean for the future?]]></title>
-    <id>https://ourworldindata.org/where-does-plastic-accumulate</id>
-    <link rel="alternate" href="https://ourworldindata.org/where-does-plastic-accumulate"/>
-    <published>2019-09-24T09:00:48.000Z</published>
-    <updated>2019-09-25T21:37:25.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[An estimated 8 million tonnes of plastic enter our oceans each year. But the plastic we find in our surface waters is more than 100-fold lower. This is the ‘missing plastic’ problem. So, where does our plastic accumulate in the ocean and what does this mean for the future?]]></summary>
 </entry>
 </feed>
