@@ -597,7 +597,6 @@
 /grapher/share-of-out-of-pocket-expenditure-on-healthcare-by-country /grapher/share-of-out-of-pocket-expenditure-on-healthcare 302
 /grapher/share-of-women-ages-15-49-using-modern-contraceptive-methods /grapher/share-of-women-using-modern-contraceptive-methods 302
 /grapher/fire-deaths-by-age-group /grapher/fire-deaths-by-age 302
-/grapher/population-by-per-capita-household-income /grapher/population-by-per-capita-household-consumption 302
 /grapher/have-countries-completed-a-population-census-in-last-10-years /grapher/completeness-population-census 302
 /grapher/deaths-from-mental-and-substance-abuse-disorders /grapher/deaths-from-substance-use-disorders 302
 /grapher/annual-deaths-from-mental-and-substance-abuse-disorders /grapher/annual-deaths-from-mental-and-substance-use-disorders 302
@@ -847,4 +846,4 @@
 /grapher/pneumonia-death-rates-70 /grapher/pneumonia-death-rates-age-standardized 302
 /grapher/causes-of-death-in-children-under-5-stacked /grapher/causes-of-death-in-children-under-5-bar 302
 /grapher/population-by-per-capita-household-consumption /grapher/distribution-of-population-poverty-thresholds 302
-/grapher/https://ourworldindata.org/grapher/population-by-per-capita-household-income /grapher/distribution-of-population-poverty-thresholds 302
+/grapher/population-by-per-capita-household-income /grapher/distribution-of-population-poverty-thresholds 302
