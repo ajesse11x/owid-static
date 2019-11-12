@@ -6,46 +6,17 @@
 <path stroke-width="1" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"/>
 </g>
 </g>
-</svg> shortcodes everywhere on the site. Attribute tags are allowed: [latex attrs]&#x2026;[/latex].</p><p>
+</svg> shortcodes everywhere on the site. Attribute tags are allowed: [latex attrs]&#x2026;[/latex].<br></p><p><br>
 
-x^2 + y^2 &amp;= 1
+x^2 + y^2 &amp;= 1<br>
 
-y &amp;= \sqrt{1 &#x2013; x^2}
+y &amp;= \sqrt{1 &#x2013; x^2}<br>
 
- (Could not format equation due to MathJax error)</p><p>At first, we sample $f(x)$ in the $N$ ($N$ is odd) equidistant points around $x^*$:</p><p>\[</p><p>f_k = f(x_k),\: x_k = x^*+kh,\: k=-\frac{N-1}{2},\dots,\frac{N-1}{2}</p><p>\]</p><p>where $h$ is some step.</p><p>Then we interpolate points $\{(x_k,f_k)\}$ by polynomial</p><p>\begin{equation}&#xA0;\label{eq:poly}</p><p>P_{N-1}(x)=\sum_{j=0}^{N-1}{a_jx^j}</p><p>\end{equation}</p><p>Its coefficients $\{a_j\}$ are found as a solution of system of linear equations:</p><p>\begin{equation}&#xA0;\label{eq:sys}</p><p>\left\{ P_{N-1}(x_k) = f_k\right\},\quad k=-\frac{N-1}{2},\dots,\frac{N-1}{2}</p><p>\end{equation}</p><p>Here are references to existing equations: (\ref{eq:poly}), (\ref{eq:sys}).</p><p>Here is reference to non-existing equation (\ref{eq:unknown}).</p><p>&#xA0;</p><p>&#xA0;</p><p>&#xA0;</p><p>For the display environments, equation numbering is automatic, but this may be overridden and the number set explicitly with <span class="ql-code">\tag{..}</span> placed within the display expression.</p><p>A number of options may be set for an expression with attribute tags such as <span class="ql-code"> size, color, background, align</span>, as arguments of <span class="ql-code">\quicklatex{}</span> placed within the expression:</p><div class="ql-examples">\[
-<p>\quicklatex{color=&#x201D;#00ff00&#x2033; size=25}</p>
-<p>\boxed{f(x)=\int_1^{\infty}\frac{1}{x^2}\,\mathrm{d}x=1}</p>
-<p>\]</p></div><div class="ql-examples"></div><div class="ql-examples">
+ (Could not format equation due to MathJax error)</p><p>At first, we sample $f(x)$ in the $N$ ($N$ is odd) equidistant points around $x^*$:<br>\[<br>f_k = f(x_k),\: x_k = x^*+kh,\: k=-\frac{N-1}{2},\dots,\frac{N-1}{2}<br>\]<br>where $h$ is some step.<br>Then we interpolate points $\{(x_k,f_k)\}$ by polynomial<br>\begin{equation}&#xA0;\label{eq:poly}<br>P_{N-1}(x)=\sum_{j=0}^{N-1}{a_jx^j}<br>\end{equation}<br>Its coefficients $\{a_j\}$ are found as a solution of system of linear equations:<br>\begin{equation}&#xA0;\label{eq:sys}<br>\left\{ P_{N-1}(x_k) = f_k\right\},\quad k=-\frac{N-1}{2},\dots,\frac{N-1}{2}<br>\end{equation}<br>Here are references to existing equations: (\ref{eq:poly}), (\ref{eq:sys}).<br>Here is reference to non-existing equation (\ref{eq:unknown}).</p><p>For the display environments, equation numbering is automatic, but this may be overridden and the number set explicitly with <span class="ql-code">\tag{..}</span> placed within the display expression.</p><p>A number of options may be set for an expression with attribute tags such as <span class="ql-code"> size, color, background, align</span>, as arguments of <span class="ql-code">\quicklatex{}</span> placed within the expression:</p><div class="ql-examples">\[<br>\quicklatex{color=&#x201D;#00ff00&#x2033; size=25}<br>\boxed{f(x)=\int_1^{\infty}\frac{1}{x^2}\,\mathrm{d}x=1}<br>\]</div><div class="ql-examples">&#xA0;</div><div class="ql-examples">
 <p>Compilation of an expression may be suppressed, showing instead the LaTeX source, by preceding the expression with a <span class="ql-code">!</span>.</p>
 <p>For mathematical graphs you may use <span class="ql-code">tikzpicture</span> and <span class="ql-code">pgfplots</span>, e.g. :</p>
-<div class="ql-examples">\begin{tikzpicture}
-<p>[+preamble]</p>
-<p>\usepackage{pgfplots}</p>
-<p>\pgfplotsset{compat=newest}</p>
-<p>[/preamble]</p>
-<p>\begin{axis}</p>
-<p>\addplot3[surf,domain=0:360,samples=40] {cos(x)*cos(y)};</p>
-<p>\end{axis}</p>
-<p>\end{tikzpicture}</p></div>
-</div><p>&#xA0;</p></div><div class="wp-block-column"></div></div></section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="ql-examples">\begin{tikzpicture}<br>[+preamble]<br>\usepackage{pgfplots}<br>\pgfplotsset{compat=newest}<br>[/preamble]<br>\begin{axis}<br>\addplot3[surf,domain=0:360,samples=40] {cos(x)*cos(y)};<br>\end{axis}<br>\end{tikzpicture}</div>
+</div></div><div class="wp-block-column"></div></div></section>
 
 
 
