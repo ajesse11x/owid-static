@@ -205,6 +205,7 @@
 /grapher/child-mortality-rate-per-1000-live-births /grapher/child-mortality-around-the-world 301
 /grapher/154 /grapher/political-regime 301
 /uploads/2017/12/Deaths-by-catastrophe-type.png /uploads/2019/11/Annual-deaths-by-natural-disaster.png 301
+/hdi /human-development-index 301
 /grapher/latest /grapher/share-of-children-vaccinated-against-measles 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221 /grapher/share-of-the-population-suffering-from-depression 302
@@ -845,3 +846,5 @@
 /grapher/the-number-of-new-book-titles-published-per-year-per-1-million-inhabitants /grapher/new-books-per-million 302
 /grapher/pneumonia-death-rates-70 /grapher/pneumonia-death-rates-age-standardized 302
 /grapher/causes-of-death-in-children-under-5-stacked /grapher/causes-of-death-in-children-under-5-bar 302
+/grapher/population-by-per-capita-household-consumption /grapher/distribution-of-population-poverty-thresholds 302
+/grapher/https://ourworldindata.org/grapher/population-by-per-capita-household-income /grapher/distribution-of-population-poverty-thresholds 302
