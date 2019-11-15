@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-11-12T11:00:05.000Z</updated>
+<updated>2019-11-15T11:00:52.000Z</updated>
+<entry>
+    <title><![CDATA[The importance of personal relations for economic outcomes]]></title>
+    <id>https://ourworldindata.org/personal-relations-econ-outcomes</id>
+    <link rel="alternate" href="https://ourworldindata.org/personal-relations-econ-outcomes"/>
+    <published>2019-11-15T11:00:52.000Z</published>
+    <updated>2019-11-15T11:15:00.000Z</updated>
+    <author><name>Esteban Ortiz-Ospina</name></author>
+    <summary><![CDATA[Social connections matter for economic outcomes. Personal relations, even those that we maintain for non-economic reasons, often give us access to information and provide us with social collateral for economic transactions]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Pneumonia — no child should die from a disease we can prevent]]></title>
     <id>https://ourworldindata.org/child-deaths-from-pneumonia</id>
@@ -88,14 +97,5 @@ What are food’s environmental impacts?]]></summary>
     <updated>2019-10-07T14:42:16.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[Which countries emit the most CO2 today? How do annual emissions vary across the world?]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Who has contributed most to global CO2 emissions?]]></title>
-    <id>https://ourworldindata.org/contributed-most-global-co2</id>
-    <link rel="alternate" href="https://ourworldindata.org/contributed-most-global-co2"/>
-    <published>2019-10-01T16:00:19.000Z</published>
-    <updated>2019-10-05T12:06:26.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[There’s not only significant variability in how much CO2 countries emit across the world today. There are also large differences in how much each has emitted in the past. Who has contributed most to global CO2 since 1750?]]></summary>
 </entry>
 </feed>
