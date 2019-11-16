@@ -619,7 +619,6 @@
 /grapher/smoking-consumption-per-person-per-day /grapher/consumption-per-smoker-per-day-bounds 302
 /grapher/daily-smoking-prevalence-for-men-and-women-of-all-age /grapher/daily-smoking-prevalence 302
 /grapher/daily-smoking-prevalence-for-both-women-and-men-of-all-ages /grapher/daily-smoking-prevalence-bounds 302
-/grapher/number-of-daily-smokers-both-men-and-women-of-all-ages /grapher/number-of-daily-smokers-bounds 302
 /grapher/number-of-daily-smokers /grapher/number-of-daily-smokers-gender 302
 /grapher/number-suffering-from-depression-by-country /grapher/number-with-depression-by-country 302
 /grapher/share-suffering-from-depression /grapher/share-with-depression 302
