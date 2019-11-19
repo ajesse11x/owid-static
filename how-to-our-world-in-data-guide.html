@@ -92,6 +92,7 @@
 </li>
 <li>Cite using APA conventions&#xA0;&#x2013; other citation styles should be converted to APA.</li>
 </ul>
+
 <h4 id="html-headings-and-formatting"><a class="deep-link" href="#html-headings-and-formatting"></a>HTML headings and formatting</h4>
 <p>It is recommended that all data entries should be edited directly in HTML to prevent unexpected formatting issues not apparent in&#xA0;the WYSIWYG editor. When creating new data entries, it is possible to copy and paste the HTML code from another page &#x2013; for example, from the&#xA0;<strong><a href="https://ourworldindata.org/page-template/">page template</a></strong>.</p>
 <p><strong>HTML headers</strong></p>
@@ -144,8 +145,7 @@
 <p>&lt;/ul&gt;</p>
 <p>&lt;hr class=&#x201D;datasources-hr&#x201D; /&gt;</p>
 <p><em>An example from the terrorism data entry is:</em></p>
-<blockquote><p>
-</p><p>&lt;h5&gt; International Terrorism: Attributes of Terrorist Events (ITERATE) &lt;/h5&gt;</p>
+<blockquote><p>&lt;h5&gt; International Terrorism: Attributes of Terrorist Events (ITERATE) &lt;/h5&gt;</p>
 <p>&lt;ul&gt;</p>
 <p>&lt;li&gt;&lt;strong&gt;Data&lt;/strong&gt;: International terrorist incidents&lt;/li&gt;</p>
 <p>&lt;li&gt;&lt;strong&gt;Geographical coverage:&lt;/strong&gt; Global by country&lt;/li&gt;</p>
@@ -164,6 +164,8 @@
 <p><b>2) LaTeX on an entire page:</b></p><b>
 </b><p><b></b></p>
 <p>If we really need to include a lot of LaTeX on a page then you can write <em>latexpage in squared brackets &#x201C;[]&#x201D;</em> on the top of the page.<a href="https://ourworldindata.org/uploads/2016/02/ourworldindata_screen-shot-2016-02-11-at-11.27.32.png" target="_blank"><img class="aligncenter wp-image-6964 size-full" src="https://ourworldindata.org/uploads/2016/02/ourworldindata_screen-shot-2016-02-11-at-11.27.32.png" alt="Screen Shot 2016-02-11 at 11.27.32" width="127" height="38"></a>You then do not need the latex .. /latex shortcodes in any paragraph.</p>
+
+
 <h3 id="handling-links"><a class="deep-link" href="#handling-links"></a>Handling Links</h3>
 <h4 id="general-conventions"><a class="deep-link" href="#general-conventions"></a>General conventions</h4>
 <p>Links to other websites or data entries can be added using the WordPress tool or by directly writing the HTML code. Links are standardized in the following way.</p>
@@ -175,8 +177,10 @@
 <p><strong>Link within OWID:</strong> Links within OWID should not open in a new tab. The text displayed for the link should be the name of the section or entry being linked to. For example:</p>
 <p>&#x2013; Link to the Data Sources section should appear as <a href="/quality-of-education-drop-out-rates/#data-sources">Data Sources</a>:</p>
 <p>&lt;a href=&#x201D;/quality-of-education-drop-out-rates/#data-sources&#x201D;&gt;Data Sources &lt;/a&gt;</p>
+
 <h4 id="fixing-broken-links"><a class="deep-link" href="#fixing-broken-links"></a>Fixing broken Links</h4>
 <p>Links and references to external sources can eventually become invalid for a variety of reasons. Perhaps their author moves between institutions, or the source does a big redesign of their site layout. Broken links on Our World in Data are periodically tested and logged by the <a href="/wp-admin/tools.php?page=view-broken-links">Broken Link Checker</a>. Hovering a link and selecting &#x201C;Edit URL&#x201D; within the link checker interface will let you replace it. In most cases, the automatically suggested archive.org replacement will be appropriate. However if the original page contained complex embedded content or was e.g. a link to buy a book then it may not be amenable to archival and you&#x2019;ll want to fully replace it.</p>
+
 <h4 id="use-meaningful-text-on-links"><a class="deep-link" href="#use-meaningful-text-on-links"></a>Use meaningful text on links</h4>
 <p>The text on the link should&#xA0;be meaningful so that even if the link breaks it stays useful for the reader. This means that we should not write &#x2018;More information can be found <a href="http://data.unicef.org/resources/trends-maternal-mortality-1990-2015/">here</a>&#x2018; but instead we should always write something like &#x2018;More information on the measurement of maternal mortality rate can be found in the UNICEF report &#x2018;<a href="http://data.unicef.org/resources/trends-maternal-mortality-1990-2015/">Trends in Maternal Mortality: 1990 to 2015</a>&#x2018; published on November 12, 2015&#x2019;.</p>
 <h3 id="handling-images"><a class="deep-link" href="#handling-images"></a>Handling images</h3>
@@ -193,9 +197,11 @@
 <p>Two dates should be included, as shown in the example below:</p>
 <p>&#x2013; The date when the data was published.</p>
 <p>&#x2013; And the date when we made the visualization was made.</p>
+
 <p>This approach to dating images should allow users to track and differentiate between old and update versions of the same chart.</p>
 <p><a href="https://ourworldindata.org/uploads/2018/08/Land-use-graphic.png" target="_blank"><img class="aligncenter size-large wp-image-20283" src="https://ourworldindata.org/uploads/2018/08/Land-use-graphic-750x525.png" alt="Land use graphic" width="750" height="525"></a></p>
 <p>&#xA0;</p>
+
 <h3 id="handling-references"><a class="deep-link" href="#handling-references"></a>Handling references</h3>
 <p>References are a key element of all data entries and should be used to indicate the source of any quotes, facts or images. All&#xA0;references will appear at the end of the data entry in a standardised way. HTML does not have a built in reference feature&#xA0;however OWID makes use of the WordPress plugin Side Matter to create references.</p>
 <p>To provide a reference, two <em>ref</em> tags should be placed around the source, with the first tag placed at the intended location of the superscript number indicating a reference. One easy way to correctly format references is to search for the source on <a href="https://scholar.google.co.uk">Google Scholar</a> and click cite (see Figure below). As already mentioned, we should stick to APA citation guidelines (second option in Google Scholar in the Figure below).</p>
@@ -205,6 +211,8 @@
 <p><a href="https://ourworldindata.org/uploads/2016/02/Screen-Shot-2016-12-13-at-16.24.14.png" target="_blank"><img class="aligncenter size-large wp-image-9705" src="https://ourworldindata.org/uploads/2016/02/Screen-Shot-2016-12-13-at-16.24.14-750x108.png" alt="Screen shot 2016 12 13 at 16.24.14" width="750" height="108" srcset="https://ourworldindata.org/uploads/2016/02/Screen-Shot-2016-12-13-at-16.24.14-750x108.png 750w, https://ourworldindata.org/uploads/2016/02/Screen-Shot-2016-12-13-at-16.24.14-150x22.png 150w, https://ourworldindata.org/uploads/2016/02/Screen-Shot-2016-12-13-at-16.24.14-400x58.png 400w, https://ourworldindata.org/uploads/2016/02/Screen-Shot-2016-12-13-at-16.24.14-768x111.png 768w, https://ourworldindata.org/uploads/2016/02/Screen-Shot-2016-12-13-at-16.24.14.png 984w" sizes="(max-width: 750px) 100vw, 750px"></a></p>
 <p>Notice that these tags are not the same as the usual HTML &lt;/&gt; type tags.</p>
 <p><strong>If the source is a journal article, it is important to link the citation to the journal page where it is hosted (e.g. &#xA0;JSTOR), or when possible, an open access source (Google Scholar usually provides an alternative).</strong></p>
+
+
 <h3 id="producing-tables-in-html"><a class="deep-link" href="#producing-tables-in-html"></a>Producing tables in HTML</h3>
 <p>Generally we try to avoid tables and think of a way to display the information visually. However there are cases in which (a small) table is useful. In these cases we use the WordPress Plugin <a href="https://wordpress.org/plugins/tablepress/">TablePress</a>.</p>
 <p>In the editor you click on TablePress (in the left column) and then on &#x2018;add new table&#x2019;.</p>
@@ -213,61 +221,35 @@
 <p>In the editor you have to give the table a h6-headline and add the sources in the same way as for the images &#x2013; attached to headline.</p>
 <p>If everything works it looks like this:</p>
 <h6>Age of Marriage of Women and Marital Fertility in Europe before 1790<a id="ref-4" class="ref" href="#note-4"><sup>4</sup></a>
+
 <div class="tableContainer"><table id="tablepress-59" class="tablepress tablepress-id-59">
 <thead>
 <tr class="row-1 odd">
-<th class="column-1">Country or Region</th>
-<th class="column-2">Mean age at first marriage</th>
-<th class="column-3">Births per married women</th>
-<th class="column-4">Percentage never married</th>
-<th class="column-5">Total fertility rate</th>
+	<th class="column-1">Country or Region</th><th class="column-2">Mean age at first marriage</th><th class="column-3">Births per married women</th><th class="column-4">Percentage never married</th><th class="column-5">Total fertility rate</th>
 </tr>
 </thead>
 <tbody class="row-hover">
 <tr class="row-2 even">
-<td class="column-1">Belgium</td>
-<td class="column-2">24.9</td>
-<td class="column-3">6.8</td>
-<td class="column-4">&#x2014;</td>
-<td class="column-5">6.2</td>
+	<td class="column-1">Belgium</td><td class="column-2">24.9</td><td class="column-3">6.8</td><td class="column-4">&#x2014;</td><td class="column-5">6.2</td>
 </tr>
 <tr class="row-3 odd">
-<td class="column-1">France</td>
-<td class="column-2">25.3</td>
-<td class="column-3">6.5</td>
-<td class="column-4">10</td>
-<td class="column-5">5.8</td>
+	<td class="column-1">France</td><td class="column-2">25.3</td><td class="column-3">6.5</td><td class="column-4">10</td><td class="column-5">5.8</td>
 </tr>
 <tr class="row-4 even">
-<td class="column-1">Germany</td>
-<td class="column-2">26.6</td>
-<td class="column-3">5.6</td>
-<td class="column-4">&#x2014;</td>
-<td class="column-5">5.1</td>
+	<td class="column-1">Germany</td><td class="column-2">26.6</td><td class="column-3">5.6</td><td class="column-4">&#x2014;</td><td class="column-5">5.1</td>
 </tr>
 <tr class="row-5 odd">
-<td class="column-1">England</td>
-<td class="column-2">25.2</td>
-<td class="column-3">5.4</td>
-<td class="column-4">12</td>
-<td class="column-5">4.9</td>
+	<td class="column-1">England</td><td class="column-2">25.2</td><td class="column-3">5.4</td><td class="column-4">12</td><td class="column-5">4.9</td>
 </tr>
 <tr class="row-6 even">
-<td class="column-1">Netherlands</td>
-<td class="column-2">26.5</td>
-<td class="column-3">5.4</td>
-<td class="column-4">&#x2014;</td>
-<td class="column-5">4.9</td>
+	<td class="column-1">Netherlands</td><td class="column-2">26.5</td><td class="column-3">5.4</td><td class="column-4">&#x2014;</td><td class="column-5">4.9</td>
 </tr>
 <tr class="row-7 odd">
-<td class="column-1">Scandinavia</td>
-<td class="column-2">26.1</td>
-<td class="column-3">5.1</td>
-<td class="column-4">14</td>
-<td class="column-5">4.5</td>
+	<td class="column-1">Scandinavia</td><td class="column-2">26.1</td><td class="column-3">5.1</td><td class="column-4">14</td><td class="column-5">4.5</td>
 </tr>
 </tbody>
 </table></div>
+
 </h6><h3 id="writing-blog-posts"><a class="deep-link" href="#writing-blog-posts"></a>Writing blog posts</h3>
 <p>Blog posts should always start with the following statement:</p>
 <hr>
@@ -291,6 +273,8 @@
 <p>spelled out only when it is first used: 198.7 international-$</p>
 <p>then always: 198.7 int-$</p>
 <p>(Please correct it wherever it is spelled differently.)</p>
+
+
 <h2 id="owid-grapher"><a class="deep-link" href="#owid-grapher"></a>OWID Grapher</h2>
 <p>This second part explains how to use, and the available capabilities of, the Our World in Data Grapher&#x2014;the tool we developed for data visualization. General information and a video of how to use the Grapher can be found in a <a href="https://ourworldindata.org/owid-grapher/">dedicated page</a>.</p>
 <h3 id="b1-uploading-datasets"><a class="deep-link" href="#b1-uploading-datasets"></a>B1 Uploading Datasets</h3>

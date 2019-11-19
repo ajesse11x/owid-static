@@ -749,7 +749,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/smoking</loc>
-        <lastmod>2019-11-16</lastmod>
+        <lastmod>2019-11-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/extreme-poverty</loc>
@@ -793,7 +793,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/genocides</loc>
-        <lastmod>2019-11-04</lastmod>
+        <lastmod>2019-11-18</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/military-spending</loc>
@@ -853,7 +853,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/indoor-air-pollution</loc>
-        <lastmod>2019-11-14</lastmod>
+        <lastmod>2019-11-18</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/hiv-aids</loc>
@@ -897,7 +897,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/eradication-of-diseases</loc>
-        <lastmod>2019-11-18</lastmod>
+        <lastmod>2019-11-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/human-development-index</loc>
@@ -969,7 +969,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/financing-healthcare</loc>
-        <lastmod>2019-10-26</lastmod>
+        <lastmod>2019-11-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/malaria-is-killing-fewer-people</loc>
@@ -1237,7 +1237,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/history-of-our-world-in-data</loc>
-        <lastmod>2019-11-02</lastmod>
+        <lastmod>2019-11-18</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/life-expectancy-how-is-it-calculated-and-how-should-it-be-interpreted</loc>
@@ -2913,7 +2913,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/map-of-genocides-and-politicides-around-the-world</loc>
-        <lastmod>2018-03-15</lastmod>
+        <lastmod>2019-11-18</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-active-genocides-and-politicides-around-the-world</loc>
@@ -2921,7 +2921,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/map-of-genocide-and-politicide-deaths-around-the-world</loc>
-        <lastmod>2019-04-05</lastmod>
+        <lastmod>2019-11-18</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-of-us-households-with-basic-electrical-appliances</loc>
@@ -3129,7 +3129,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/healthcare-expenditure-vs-gdp</loc>
-        <lastmod>2018-03-15</lastmod>
+        <lastmod>2019-11-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/life-expectancy-vs-healthcare-expenditure</loc>
@@ -3309,7 +3309,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/public-health-insurance-coverage</loc>
-        <lastmod>2018-03-15</lastmod>
+        <lastmod>2019-11-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/percentage-of-persons-without-health-insurance-coverage-us</loc>
@@ -4429,7 +4429,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/how-much-we-think-we-spend-on-healthcare-vs-how-much-we-actually-do</loc>
-        <lastmod>2018-03-15</lastmod>
+        <lastmod>2019-11-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-of-out-of-pocket-expenditure-vs-gdp-per-capita</loc>
@@ -8337,7 +8337,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/suicide-vs-homicide-rate</loc>
-        <lastmod>2019-04-24</lastmod>
+        <lastmod>2019-11-18</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/aviation-fatalities-per-million-passengers</loc>
@@ -15050,5 +15050,29 @@
     <url>
         <loc>https://ourworldindata.org/grapher/suicide-death-rates-by-sex</loc>
         <lastmod>2019-11-18</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/suicide-rate-1990-2017</loc>
+        <lastmod>2019-11-18</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/prevalence-of-lymphatic-filariasis</loc>
+        <lastmod>2019-11-18</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/suicide-deaths-firearms</loc>
+        <lastmod>2019-11-19</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/infant-mortality-rate</loc>
+        <lastmod>2019-11-19</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/number-of-neonatal-deaths</loc>
+        <lastmod>2019-11-19</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/number-of-infant-deaths</loc>
+        <lastmod>2019-11-19</lastmod>
     </url>
 </urlset>
