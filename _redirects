@@ -254,15 +254,15 @@
 /grapher/so2-emissions-million-tonnes-by-country /grapher/so-emissions-tonnes-per-year 302
 /grapher/weekly-hours-dedicated-to-home-production-in-the-usa-by-gender-and-demographic-group /grapher/weekly-hours-dedicated-to-home-production-in-the-usa-by-women 302
 /grapher/weekly-hours-dedicated-to-home-production-in-the-usa-by-employment-and-marital-status /grapher/weekly-hours-dedicated-to-home-production-in-the-usa-by-women 302
-/grapher/death-rate-vs-gdp /grapher/death-rate-from-particulate-pollution-vs-gdp-per-capita 302
+/grapher/death-rate-vs-gdp /grapher/outdoor-pollution-rate-vs-gdp 302
 /grapher/disability-adjusted-life-years-daly-number-from-ambient-pm25-air-pollution /grapher/dalys-particulate-matter 302
 /grapher/weekly-hours-dedicated-to-home-production-in-the-usa-by-demographic-group /grapher/weekly-hours-dedicated-to-home-production-in-the-usa-by-women 302
 /grapher/weekly-hours-dedicated-to-home-production-in-the-usa-by-men /grapher/weekly-hours-dedicated-to-home-production-in-the-usa-by-gender 302
 /grapher/productivity-vs-work-hours /grapher/productivity-vs-annual-hours-worked 302
 /grapher/disability-adjusted-life-years-dalys-lost-from-ambient-pm25-air-pollution /grapher/dalys-particulate-matter 302
 /grapher/age-standardised-death-rate-from-ambient-pm25-air-pollution-per-100000 /grapher/death-rates-from-ambient-particulate-air-pollution 302
-/grapher/age-standardized-death-rate-from-pm25-pollution-per-100000-vs-gdp-per-capita-int- /grapher/death-rate-from-particulate-pollution-vs-gdp-per-capita 302
-/grapher/death-rate-from-particulate-pollution-per-100000-vs-gdp-per-capita-int- /grapher/death-rate-from-particulate-pollution-vs-gdp-per-capita 302
+/grapher/age-standardized-death-rate-from-pm25-pollution-per-100000-vs-gdp-per-capita-int- /grapher/outdoor-pollution-rate-vs-gdp 302
+/grapher/death-rate-from-particulate-pollution-per-100000-vs-gdp-per-capita-int- /grapher/outdoor-pollution-rate-vs-gdp 302
 /grapher/lymphatic-filariasis /grapher/lymphatic-filariasis-treated-population-and-population-that-requires-treatment-but-is-not-treated 302
 /grapher/tax-reduction-in-inequality /grapher/tax-reduction-in-income-inequality 302
 /grapher/co2-emissions-by-source-million-tonnes /grapher/CO2-by-source 302
@@ -754,7 +754,7 @@
 /grapher/the-role-of-agriculture-in-the-fluctuations-of-the-aggregate-economy-in-britain-15501700 /grapher/the-role-of-agriculture-in-the-fluctuations-of-the-aggregate-economy-in-britain 302
 /grapher/inflation-and-presidential-election-victory-in-the-us-19122012 /grapher/inflation-and-presidential-election-victory-in-the-us 302
 /grapher/the-household-debt-to-income-ratio-and-house-prices-in-the-us-19502015 /grapher/the-household-debt-to-income-ratio-and-house-prices-in-the-us 302
-/grapher/death-rate-from-particulate-pollution-per-100000-vs-gdp-per-capita /grapher/death-rate-from-particulate-pollution-vs-gdp-per-capita 302
+/grapher/death-rate-from-particulate-pollution-per-100000-vs-gdp-per-capita /grapher/outdoor-pollution-rate-vs-gdp 302
 /grapher/prevalence-of-anemia-in-pregnant-women-1995-2011 /grapher/prevalence-of-anemia-in-pregnant-women 302
 /grapher/number-of-people-in-the-world-with-and-without-electricity-access /grapher/number-of-people-with-and-without-electricity-access 302
 /grapher/coal-output-per-worker-in-the-united-kingdom-1873-2016 /grapher/coal-output-per-worker-in-the-united-kingdom 302
@@ -848,3 +848,4 @@
 /grapher/population-by-per-capita-household-consumption /grapher/distribution-of-population-poverty-thresholds 302
 /grapher/population-by-per-capita-household-income /grapher/distribution-of-population-poverty-thresholds 302
 /grapher/share-of-one-person-households-vs-gdp-per-capita-int- /grapher/one-person-households-vs-gdp-per-capita 302
+/grapher/death-rate-from-particulate-pollution-vs-gdp-per-capita /grapher/outdoor-pollution-rate-vs-gdp 302
