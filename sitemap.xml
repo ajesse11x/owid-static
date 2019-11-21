@@ -13617,7 +13617,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/trachoma-prevalence-age-standardized-ihme</loc>
-        <lastmod>2019-04-24</lastmod>
+        <lastmod>2019-11-21</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/population-growth-rate-with-and-without-migration</loc>
@@ -15157,6 +15157,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-obesity</loc>
+        <lastmod>2019-11-21</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-vs-share-obesity</loc>
         <lastmod>2019-11-21</lastmod>
     </url>
 </urlset>
