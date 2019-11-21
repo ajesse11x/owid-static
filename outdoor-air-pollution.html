@@ -1,0 +1,636 @@
+<!doctype html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Outdoor Air Pollution - Our World in Data</title><meta name="description" content="Related research entries"/><link rel="canonical" href="https://ourworldindata.org/outdoor-air-pollution"/><link rel="alternate" type="application/atom+xml" href="/atom.xml"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><meta property="fb:app_id" content="1149943818390250"/><meta property="og:url" content="https://ourworldindata.org/outdoor-air-pollution"/><meta property="og:title" content="Outdoor Air Pollution"/><meta property="og:description" content="Related research entries"/><meta property="og:image" content="https://ourworldindata.org/app/uploads/2019/11/share-deaths-outdoor-pollution-768x542.png"/><meta property="og:site_name" content="Our World in Data"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@OurWorldInData"/><meta name="twitter:creator" content="@OurWorldInData"/><meta name="twitter:title" content="Outdoor Air Pollution"/><meta name="twitter:description" content="Related research entries"/><meta name="twitter:image" content="https://ourworldindata.org/app/uploads/2019/11/share-deaths-outdoor-pollution-768x542.png"/><link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Playfair+Display:400,700" rel="stylesheet"/><link rel="stylesheet" href="https://ourworldindata.org/assets/css/commons.css"/><link rel="stylesheet" href="https://ourworldindata.org/assets/css/owid.css"/></head><body class=""><header class="site-header"><div class="wrapper site-navigation-bar"><div class="site-logo"><a href="/">Our World<br/> in Data</a></div><nav class="site-navigation md-up"><div class="topics-button-wrapper"><a href="/#entries" class="topics-button"><div class="label">Research <br/><strong>by topic</strong></div><div class="icon"><svg width="12" height="6"><path d="M0,0 L12,0 L6,6 Z" fill="currentColor"></path></svg></div></a></div><div><div class="site-primary-navigation"><form class="HeaderSearch" action="/search" method="GET"><input type="search" name="q" placeholder="Search..."/><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg></div></form><ul class="site-primary-links"><li><a href="/blog" data-track-click="true" data-track-note="header-navigation">Latest</a></li><li><a href="/about" data-track-click="true" data-track-note="header-navigation">About</a></li><li><a href="/donate" data-track-click="true" data-track-note="header-navigation">Donate</a></li></ul></div><div class="site-secondary-navigation"><ul class="site-secondary-links"><li><a href="/charts" data-track-click="true" data-track-note="header-navigation">All charts</a></li><li><a href="https://sdg-tracker.org" data-track-click="true" data-track-note="header-navigation">Sustainable Development Goals Tracker</a></li></ul></div></div></nav><ul class="site-social-links md-up"><li><a href="https://twitter.com/ourworldindata" target="_blank" rel="noopener noreferrer" title="Follow us on Twitter" data-track-click="true" data-track-note="header-navigation"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></a></li><li><a href="https://www.facebook.com/OurWorldinData/" target="_blank" rel="noopener noreferrer" title="Subscribe to our Facebook page" data-track-click="true" data-track-note="header-navigation"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-square" class="svg-inline--fa fa-facebook-square fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path></svg></a></li><li><a href="/subscribe" target="_blank" rel="noopener noreferrer" title="Subscribe to our newsletter" data-track-click="true" data-track-note="header-navigation"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" class="svg-inline--fa fa-envelope fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg></a></li></ul><div class="site-navigation sm-only"><button data-track-click="true" data-track-note="mobile-search-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg></button><button data-track-click="true" data-track-note="mobile-hamburger-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg></button></div></div></header><main><article class="page"><header class="article-header with-sidebar"><h1 class="entry-title">Outdoor Air Pollution</h1><div class="authors-byline"><a href="/team">by Hannah Ritchie and Max Roser</a></div></header><div class="contentContainer"><aside class="entry-sidebar"><nav class="entry-toc"><ul><li><a href="#">Outdoor Air Pollution</a></li><li class="section nosubs"><a href="#summary">Summary</a></li><li class="section"><a href="#outdoor-air-pollution-is-one-of-the-leading-risk-factors-for-premature-death">Outdoor air pollution is one of the leading risk factors for premature death</a></li><li class="subsection"><a href="#outdoor-air-pollution-is-responsible-for-3-4-million-early-deaths-each-year">Outdoor air pollution is responsible for 3.4 million early deaths each year</a></li><li class="section nosubs"><a href="#the-global-distribution-of-deaths-from-outdoor-air-pollution">The global distribution of deaths from outdoor air pollution</a></li><li class="section nosubs"><a href="#outdoor-air-pollution-deaths-by-age">Outdoor air pollution deaths by age</a></li><li class="section nosubs"><a href="#how-are-deaths-from-outdoor-air-pollution-changing">How are deaths from outdoor air pollution changing?</a></li><li class="section"><a href="#exposure-to-air-pollution-across-the-world">Exposure to air pollution across the world</a></li><li class="subsection"><a href="#concentrations-of-air-pollution">Concentrations of air pollution</a></li><li class="subsection"><a href="#share-exposed-to-air-pollution-above-who-limits">Share exposed to air pollution above WHO limits</a></li><li class="subsection"><a href="#exposure-to-air-pollution-over-time">Exposure to air pollution over time</a></li><li class="section nosubs"><a href="#the-long-term-decline-of-air-pollution-in-rich-countries">The long-term decline of air pollution in rich countries</a></li><li class="section"><a href="#how-to-make-progress-against-outdoor-air-pollution">How to make progress against outdoor air pollution?</a></li><li class="subsection"><a href="#link-between-exposure-to-pollution-and-death-rates">Link between exposure to pollution and death rates</a></li><li class="subsection"><a href="#outdoor-air-pollution-tends-to-rise-with-industrialization-before-falling">Outdoor air pollution tends to rise with industrialization before falling</a></li><li class="section nosubs"><a href="#definitions-and-measurement">Definitions and Measurement</a></li><li class="section nosubs"><a href="#data-sources">Data Sources</a></li><li class="section nosubs"><a href="#references">References</a></li></ul></nav></aside><div class="contentAndFootnotes"><div class="article-content"><section><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><div class="wp-block-owid-summary">
+		<h2 id="summary"><a class="deep-link" href="#summary"></a>Summary</h2>
+		
+
+<ul><li>Outdoor air pollution is one of the leading risk factors for premature death. It&#x2019;s responsible for 3.4 million deaths each year.</li><li>6% of global deaths are attributed to outdoor air pollution. In some countries it&#x2019;s responsible for as many as 1-in-10 deaths.</li><li>Death rates from outdoor air pollution vary by a factor of 10 across the world. Death rates are typically highest in middle-income countries.</li><li>Older populations have the highest death rates from outdoor air pollution.</li><li>Globally, and in most countries, the <em>number</em> of deaths from air pollution have increased. Population growth and ageing populations have been key drivers in this.</li><li>Death rates have increased in around half of countries, and fallen in half.</li><li>Particulate matter exposure is highest across low-to-middle income countries.</li><li>95% of the world population are exposed to mean concentrations of particulate matter which exceed the WHO recommended limit of 10 micrograms per cubic meter.</li><li></li></ul>
+
+
+	</div><p><strong>Related research entries</strong></p><p><a href="https://ourworldindata.org/air-pollution">Air pollution</a> &#x2013; in addition to outdoor air pollution, indoor air pollution is also a major global problem. In this entry we provide an overview of the data and research on both forms of air pollution.</p><p><a href="https://ourworldindata.org/indoor-air-pollution">Indoor air pollution</a> &#x2013; indoor air pollution is also a major health problem, especially for poorer households across the world. </p><p><a href="https://ourworldindata.org/energy-access">Energy access</a> &#x2013; how does access to electricity and clean cooking fuels compare across the world?</p><p><a href="https://ourworldindata.org/fossil-fuels">Fossil fuels</a> &#x2013; how is the production and consumption of fossil fuels changing?</p><p><a href="https://ourworldindata.org/causes-of-death">Causes of death</a> &#x2013; what are people across the world dying from?</p></div><div class="wp-block-column"></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><h2 id="outdoor-air-pollution-is-one-of-the-leading-risk-factors-for-premature-death"><a class="deep-link" href="#outdoor-air-pollution-is-one-of-the-leading-risk-factors-for-premature-death"></a>Outdoor air pollution is one of the leading risk factors for premature death</h2><h3 id="outdoor-air-pollution-is-responsible-for-3-4-million-early-deaths-each-year"><a class="deep-link" href="#outdoor-air-pollution-is-responsible-for-3-4-million-early-deaths-each-year"></a>Outdoor air pollution is responsible for 3.4 million early deaths each year</h3><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><p>Outdoor air pollution is one of the world&#x2019;s largest health and environmental problems.</p><p>The <em>Global Burden of Disease</em> is a major global study on the causes and risk factors for death and disease published in the medical journal <em>The Lancet</em>.<a id="ref-1" class="ref" href="#note-1"><sup>1</sup></a> These estimates of the annual number of deaths attributed to a wide range of risk factors are shown here. This chart is shown for the global total, but can be explored for any country or region using the &#x201C;change country&#x201D; toggle.</p><p>Outdoor air pollution is a risk factor for several of the world&#x2019;s leading causes of death, including stroke, heart disease, lung cancer, and respiratory diseases, such as asthma.<a id="ref-2" class="ref" href="#note-2"><sup>2</sup></a> In the chart we see that it is one of the leading risk factors for death globally. </p><p>According to the <em>Global Burden of Disease</em> study 3.4 million people died prematurely in 2017 as a result of outdoor air pollution. To put this into context: this was more than three times the <a href="https://ourworldindata.org/grapher/annual-number-of-deaths-by-cause">number who died</a> from <a href="https://ourworldindata.org/hiv-aids">HIV/AIDS</a> and over eight times the number of <a href="https://ourworldindata.org/homicides">homicides</a>.<a id="ref-3" class="ref" href="#note-3"><sup>3</sup></a></p></div><div class="wp-block-column"><figure data-grapher-src="https://ourworldindata.org/grapher/number-of-deaths-by-risk-factor" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/number-of-deaths-by-risk-factor" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/number-of-deaths-by-risk-factor_v12_850x600.svg" width="850" height="600" alt="Number of deaths by risk factor v12 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><h2 id="the-global-distribution-of-deaths-from-outdoor-air-pollution"><a class="deep-link" href="#the-global-distribution-of-deaths-from-outdoor-air-pollution"></a>The global distribution of deaths from outdoor air pollution</h2><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="6-of-global-deaths-are-attributed-to-outdoor-air-pollution"><a class="deep-link" href="#6-of-global-deaths-are-attributed-to-outdoor-air-pollution"></a>6% of global deaths are attributed to outdoor air pollution</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><p>An estimated 3.4 million people died prematurely as a result of outdoor air pollution in 2017. This was 6% of global deaths.</p><p>In some countries, it accounts for 10% of deaths, or higher.</p><p>In the map here we see the share of annual deaths attributed to outdoor air pollution across the world. In 2017 this ranged from less than 2% across many countries in Sub-Saharan Africa; 2-3% across North America and Oceania; 4-6% across much of Europe and Latin America; and higher than 6% across many countries in Asia, North Africa and the Middle East.<br><br>At the highest end of the scale around 1-in-10 deaths were attributed to outdoor air pollution. In Egypt this share was 12%; in Turkey and China it was 10%; and 8% in India. </p><p>When we compare the share of deaths attributed to outdoor air pollution either over time or between countries, we are not only comparing the extent of outdoor air pollution, but its severity <em>in the context</em> of other risk factors for death. Air pollution&#x2019;s share does not only depend on how many die prematurely from it, but what else people are dying from and how this is changing.</p><blockquote class="wp-block-quote"><p><strong>Related chart &#x2013; the <em>number</em> of premature deaths from outdoor air pollution.</strong> <a href="https://ourworldindata.org/grapher/absolute-number-of-deaths-from-outdoor-air-pollution">This map</a> shows the distribution of the number of early deaths from outdoor air pollution across the world. </p></blockquote></div><div class="wp-block-column"><figure data-grapher-src="https://ourworldindata.org/grapher/share-deaths-outdoor-pollution" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/share-deaths-outdoor-pollution" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/share-deaths-outdoor-pollution_v3_850x600.svg" width="850" height="600" alt="Share deaths outdoor pollution v3 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure></div></div><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="death-rates-tend-to-be-highest-across-middle-income-countries"><a class="deep-link" href="#death-rates-tend-to-be-highest-across-middle-income-countries"></a>Death rates tend to be highest across middle-income countries</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><p>Death rates from outdoor air pollution give us an accurate comparison of differences in its mortality impacts between countries and over time. In contrast to the <em>share</em> of deaths that we studied before, death rates are not influenced by how other causes or risk factors for death are changing.</p><p>In this map we see death rates from outdoor air pollution across the world. Death rates measure the number of deaths per 100,000 people in a given country or region.</p><p>What becomes clear is the large differences in death rates between countries: there is a ten-fold difference between the highest rates globally. In Egypt, which had the highest death rate in 2017, 114 deaths per 100,000 individuals were attributed to outdoor air pollution. In Sweden, Finland and New Zealand the death rate was less than 10 per 100,000 &#x2013; this is more than ten times lower than in Egypt.<br><br>Death rates are particularly high across middle income countries &#x2013; following Egypt, many countries across Asia and Central Europe have high death rates including India, China, Pakistan and Bangladesh.</p><p class="has-text-color has-vivid-red-color">This distribution is reflected in the patterns we see when we look at death rates versus income <strong>[LINK]</strong>. Death rates tend to rise as countries shift from low to middle-income through industrialization, before falling again at higher incomes as both air pollution and overall health systems improve.</p></div><div class="wp-block-column"><figure data-grapher-src="https://ourworldindata.org/grapher/outdoor-pollution-death-rate" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/outdoor-pollution-death-rate" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/outdoor-pollution-death-rate_v2_850x600.svg" width="850" height="600" alt="Outdoor pollution death rate v2 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><h2 id="outdoor-air-pollution-deaths-by-age"><a class="deep-link" href="#outdoor-air-pollution-deaths-by-age"></a>Outdoor air pollution deaths by age</h2><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="death-rates-from-outdoor-air-pollution-are-highest-in-older-populations"><a class="deep-link" href="#death-rates-from-outdoor-air-pollution-are-highest-in-older-populations"></a>Death rates from outdoor air pollution are highest in older populations</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><p>Outdoor air pollution is a risk factor for many of the world&#x2019;s leading <a href="https://ourworldindata.org/causes-of-death">causes of death</a>: stroke, heart disease, lung cancer, and respiratory diseases.<a id="ref-4" class="ref" href="#note-4"><sup>4</sup></a> Most are defined as non-communicable diseases (NCDs) &#x2013; illness which is most common in older populations. Outdoor air pollution often exacerbates or accelerates the extent of NCDs, which can result in premature death.</p><p>This means the burden of air pollution is also most prevalent for older individuals. In the chart here we see death rates from outdoor air pollution by age group. Populations aged 70 years and older are clearly at much higher risk of premature mortality from outdoor air pollution. This, of course, does not result from acute exposure but from chronic exposure over their lifetimes.</p><p>The differences in death rates by age can be explored for any country and region using the &#x201C;change country&#x201D; toggle on the interactive chart. But overall we find a very consistent pattern of much higher death rates in the oldest of the population.</p><blockquote class="wp-block-quote"><p><strong>Related chart &#x2013; the <em>number</em> of deaths from outdoor air pollution by age.</strong> <a href="https://ourworldindata.org/grapher/number-outdoor-pollution-deaths-by-age">This chart</a> shows the breakdown of annual deaths attributed to outdoor air pollution by age. This data can be explored for all countries and regions.</p></blockquote></div><div class="wp-block-column"><figure data-grapher-src="https://ourworldindata.org/grapher/outdoor-pollution-rates-by-age" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/outdoor-pollution-rates-by-age" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/outdoor-pollution-rates-by-age_v1_850x600.svg" width="850" height="600" alt="Outdoor pollution rates by age v1 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><h2 id="how-are-deaths-from-outdoor-air-pollution-changing"><a class="deep-link" href="#how-are-deaths-from-outdoor-air-pollution-changing"></a>How are deaths from outdoor air pollution changing?</h2><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><p>Globally, the number of deaths from outdoor air pollution <a href="https://ourworldindata.org/grapher/annual-deaths-from-outdoor-air-pollution-by-region">has increased significantly</a> in recent decades. In 1990, the <em>Global Burden of Disease</em> study estimates the annual number of premature deaths was 2 million. By 2017 this had increased to 3.4 million.</p><p>But it&#x2019;s important to note the main driver of this increase: the combination of growing and ageing populations exposed to air pollution. When we look at the <a href="https://ourworldindata.org/grapher/outdoor-pollution-death-rate?tab=chart&amp;country=OWID_WRL">global death rate</a> from outdoor air pollution (which is age-standardized, so corrects for ageing populations) we see that it has <em>fallen</em> since 1990: from 55 to 44 deaths per 100,000.</p></div><div class="wp-block-column"></div></div><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="increases-in-the-size-and-ageing-of-populations-exposed-to-outdoor-air-pollution-means-the-number-of-deaths-have-increased-in-most-countries"><a class="deep-link" href="#increases-in-the-size-and-ageing-of-populations-exposed-to-outdoor-air-pollution-means-the-number-of-deaths-have-increased-in-most-countries"></a>Increases in the size and ageing of populations exposed to outdoor air pollution means the number of deaths have increased in most countries</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><p>The global number of deaths from outdoor air pollution have increase. But in which countries have deaths increased? Have some seen a decline?</p><p>In the scatterplot we see the comparison between the number of deaths from outdoor air pollution in 1990 (shown on the y-axis) and the number in 2017 (on the x-axis). The grey line here represents parity: a country which lies along this line had the same number of deaths in both years. Countries which lie above the grey line had a higher number of deaths in 1990 (meaning they&#x2019;ve since declined); and countries below had a higher number in 2017 (meaning they&#x2019;ve increased in recent decades).</p><p>We see that the number of deaths have increased in most countries in the world. The main exceptions are countries across Europe &#x2013; if you hover over this region in the legend you see these countries highlighted &#x2013;, Australia and New Zealand. For most other countries, the number of deaths has increased. As we see in the next section this is not always the result of increased death rates from air pollution, but is instead the result of growing and <a href="https://ourworldindata.org/age-structure">ageing populations</a>.</p></div><div class="wp-block-column"><figure data-grapher-src="https://ourworldindata.org/grapher/outdoor-pollution-deaths-1990-2017" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/outdoor-pollution-deaths-1990-2017" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/outdoor-pollution-deaths-1990-2017_v1_850x600.svg" width="850" height="600" alt="Outdoor pollution deaths 1990 2017 v1 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure></div></div><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="death-rates-from-outdoor-air-pollution-have-fallen-in-around-half-of-countries"><a class="deep-link" href="#death-rates-from-outdoor-air-pollution-have-fallen-in-around-half-of-countries"></a>Death rates from outdoor air pollution have fallen in around half of countries</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><p>The total number of deaths from outdoor air pollution have increased in most countries in recent decades. In some cases this has occurred because death rates from air pollution have increased. But in many cases, the largest driver of this change has been <a href="https://ourworldindata.org/world-population-growth">population growth</a> and <a href="https://ourworldindata.org/age-structure">ageing populations</a>.</p><p>Globally the death rate from outdoor air pollution <a href="https://ourworldindata.org/grapher/outdoor-pollution-death-rate?tab=chart&amp;country=OWID_WRL">has fallen</a> from 55 to 44 deaths per 100,000 since 1990. Where in the world have death <em>rates</em> increased and decreased?</p><p>In the scatterplot we see the comparison between the death rate from outdoor air pollution in 1990 (shown on the y-axis) and the rate in 2017 (on the x-axis). The grey line here represents parity: a country which lies along this line had the same death rate in both years. Countries which lie above the grey line had a higher death rate in 1990 (meaning they&#x2019;ve since declined); and countries below had a higher rate in 2017 (meaning they&#x2019;ve increased in recent decades).</p><p>Here we see that death rates have increased in around half of all countries, and declined in the other half. Regardless of region, rates have typically fallen across high-income countries: almost all in Europe, Canada, the United States, Australia, New Zealand, Japan, Israel and South Korea among others. But rates have also fallen across upper-middle income countries too, including China and Brazil. In low and lower-middle income countries, rates have increased over this period.</p></div><div class="wp-block-column"><figure data-grapher-src="https://ourworldindata.org/grapher/ambient-pollution-death-rates-2017-1990" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/ambient-pollution-death-rates-2017-1990" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/ambient-pollution-death-rates-2017-1990_v5_850x600.svg" width="850" height="600" alt="Ambient pollution death rates 2017 1990 v5 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><h2 id="exposure-to-air-pollution-across-the-world"><a class="deep-link" href="#exposure-to-air-pollution-across-the-world"></a>Exposure to air pollution across the world</h2><h3 id="concentrations-of-air-pollution"><a class="deep-link" href="#concentrations-of-air-pollution"></a>Concentrations of air pollution</h3><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><p>Alongside ozone pollution, the main contributor to poor health from air pollution is particulate matter. In particular, very small particles of matter &#x2013; <a href="https://laqm.defra.gov.uk/public-health/pm25.html">often termed</a> &#x2018;PM<sub>2.5</sub>&#x2018;, which is particles with a size (diameter) of less than 2.5 micrometres (&#xB5;m). Smaller particles tend to have more adverse health effects because they can enter airways and affect the respiratory system. </p><p>How does exposure to PM<sub>2.5</sub> vary across the world? In the map we see the distribution of the population-weighted mean exposure to PM<sub>2.5</sub> each year. We see a greater than ten-fold difference in exposure between countries.</p><p>Pollution exposure is high in many low-to-middle income countries across Africa and Asia. In particular, concentrations are very high across North Africa, partly owed to drier conditions with more sand and dust sources. There, exposure can reach as high as 200&#xB5;g per cubic meter. Compare this with Sweden where exposure levels are 5&#xB5;g/m<sup>3</sup> &#x2013; 40 times lower.</p></div><div class="wp-block-column"><figure data-grapher-src="https://ourworldindata.org/grapher/PM25-air-pollution" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/PM25-air-pollution" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/PM25-air-pollution_v7_850x600.svg" width="850" height="600" alt="Pm25 air pollution v7 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure></div></div><h3 id="share-exposed-to-air-pollution-above-who-limits"><a class="deep-link" href="#share-exposed-to-air-pollution-above-who-limits"></a>Share exposed to air pollution above WHO limits</h3><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><p>In order to limit the adverse health impacts of air pollution, the World Health Organization (WHO) lays out clear recommendations for exposure to air pollution &#x2013; these are its so-called Air Quality Guidelines (AQG).<a id="ref-5" class="ref" href="#note-5"><sup>5</sup></a> The WHO defines these AQG (for various air pollutants) based an assessment of the epidemiological linking pollution exposure to its health consequences.</p><p>The negative health consequences of air pollution increase with increased exposure. There is little evidence that there is a threshold below which no health impacts occur from exposure to PM<sub>2.5</sub>. In other words, there is no &#x201C;safe limit&#x201D; where we can expect the health impacts to be zero. The WHO make clear in their guidelines that limiting exposure to their guideline value cannot guarantee zero health consequences; it will, however, greatly minimize these impacts.</p><p>The WHO have set a AQG annual average concentration for PM<sub>2.5</sub> of 10 micrograms per cubic meter (10&#xB5;g/m<sup>3</sup>).<a id="ref-6" class="ref" href="#note-6"><sup>6</sup></a> This threshold presents the lower end of the range over which significant effects on survival were observed in the American Cancer Society&#x2019;s study on the pollution-health relationship.<a id="ref-7" class="ref" href="#note-7"><sup>7</sup></a> </p><p>In the map here we see the share of populations across the world who are exposed to PM<sub>2.5</sub> concentrations which exceed this WHO guideline of 10&#xB5;g/m<sup>3</sup>.</p><p>95% of the world population have a mean annual exposure which exceeds WHO guidelines. This is not only the case for low-to-middle income countries, but also for many high-income countries. In many countries in Europe &#x2013; the UK, Germany and France for example &#x2013; most of the population exceed this threshold.</p><p>The countries where a much lower share of the population are exposed to this level of pollution tend to have a much lower <a href="https://ourworldindata.org/most-densely-populated-countries">population density</a> &#x2013; they are high-income countries (meaning they typically have less polluted air than low-to-middle income countries) but also have a smaller percentage of the population living in <a href="https://ourworldindata.org/urbanization">highly-dense cities</a>. Examples of this are Canada, New Zealand, Australia, Norway and the United States.</p></div><div class="wp-block-column"><figure data-grapher-src="https://ourworldindata.org/grapher/share-above-who-pollution-guidelines" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/share-above-who-pollution-guidelines" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/share-above-who-pollution-guidelines_v1_850x600.svg" width="850" height="600" alt="Share above who pollution guidelines v1 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure></div></div><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="share-exposure-to-air-pollution-above-who-interim-target-levels"><a class="deep-link" href="#share-exposure-to-air-pollution-above-who-interim-target-levels"></a>Share exposure to air pollution above WHO interim target levels</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><p>Although the ultimate aim is to reduce air pollution levels to below the WHO&#x2019;s guideline value of 10&#xB5;g/m<sup>3</sup>, it has also set three interim target levels at higher concentrations. Many countries are currently far from 10&#xB5;g/m<sup>3</sup> &#x2013; interim targets therefore provide attainable steps of progress towards this guideline. </p><p>The three interim target levels are set at an annual mean exposure of 35&#xB5;g/m<sup>3</sup>, 25&#xB5;g/m<sup>3</sup>, and 15&#xB5;g/m<sup>3</sup>. <a id="ref-8" class="ref" href="#note-8"><sup>8</sup></a> Reducing mean exposure from the first to the second interim target level (35 to 25&#xB5;g/m<sup>3</sup>) is expected to reduce the risk of premature mortality by around 6%; moving from the second to the third target level (25 to 15&#xB5;g/m<sup>3</sup>) reduces this risk by a further 6%. Overall, the risk of premature mortality with exposure at the first interim target level (35&#xB5;g/m<sup>3</sup>) is expected to increase the risk of premature mortality by 15% relative to the guideline value of 10&#xB5;g/m<sup>3</sup>.</p><p>In the visualization we see the share of the population which is exposed to air pollution levels which exceed each of these interim targets, in addition to the 10&#xB5;g/m<sup>3</sup> guideline. Note that you can explore this data across countries using the &#x201C;change country&#x201D; toggle on the chart.</p><p>If we take the UK as an example: we see that most people are exposed to air pollution levels above the 10&#xB5;g/m<sup>3</sup> guideline; almost no one exceeds the 1st or 2nd interim target level of 35 or 25&#xB5;g/m<sup>3</sup>; and it has made significant progress on reducing the share of people exposed to levels above the 3rd interim target of 15&#xB5;g/m<sup>3</sup>. This is a pattern consistent across many high-income countries: most of the population have exposure in the range of 10 to 15&#xB5;g/m<sup>3</sup>, with many countries struggling to reduce pollution levels below 10&#xB5;g/m<sup>3</sup>.</p><p>In most low-to-middle income countries, much of the population is still exposed to pollution levels above the 1st interim target (35&#xB5;g/m<sup>3</sup>). In India, for example, 90% exceed this first target level, and 99% exceed the 2nd interim target.</p></div><div class="wp-block-column"><figure data-grapher-src="https://ourworldindata.org/grapher/exposure-pollution-above-who-targets" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/exposure-pollution-above-who-targets" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/exposure-pollution-above-who-targets_v1_850x600.svg" width="850" height="600" alt="Exposure pollution above who targets v1 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure></div></div><h3 id="exposure-to-air-pollution-over-time"><a class="deep-link" href="#exposure-to-air-pollution-over-time"></a>Exposure to air pollution over time</h3><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><p>Concentrations of air pollution are high across many countries in the world today. But has this been getting better or worse?</p><p>In the scatterplot we see the comparison of exposure to PM<sub>2.5</sub> in 1990 (shown on the y-axis) and exposure in 2016 (on the x-axis). The grey line here represents parity: a country which lies along this line had the same pollution concentration in both years. Countries which lie above the grey line had higher pollution in 1990 (meaning levels have improved since); and countries below had higher pollution in 2017 (meaning it&#x2019;s increased in recent decades).</p><p>Here we see a very strong regional split: pollution levels have fallen across most of Europe, North and South America (most lie above the grey line) whilst pollution has increased in recent decades across most countries in Asia and Africa. </p></div><div class="wp-block-column"><figure data-grapher-src="https://ourworldindata.org/grapher/pm-exposure-1990-2016" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/pm-exposure-1990-2016" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/pm-exposure-1990-2016_v1_850x600.svg" width="850" height="600" alt="Pm exposure 1990 2016 v1 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><h2 id="the-long-term-decline-of-air-pollution-in-rich-countries"><a class="deep-link" href="#the-long-term-decline-of-air-pollution-in-rich-countries"></a>The long-term decline of air pollution in rich countries</h2><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="decline-of-air-pollution-in-the-united-states"><a class="deep-link" href="#decline-of-air-pollution-in-the-united-states"></a>Decline of air pollution in the United States</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"></div><div class="wp-block-column"><figure data-grapher-src="https://ourworldindata.org/grapher/emissions-of-air-pollutants?time=1970..2016" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/emissions-of-air-pollutants?time=1970..2016" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/emissions-of-air-pollutants-ea2b19acfedf3627dc3bb6e60d3f9446_v8_850x600.svg" width="850" height="600" alt="Emissions of air pollutants ea2b19acfedf3627dc3bb6e60d3f9446 v8 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure></div></div><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="decline-of-air-pollution-in-the-uk"><a class="deep-link" href="#decline-of-air-pollution-in-the-uk"></a>Decline of air pollution in the UK</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><blockquote class="wp-block-quote"><p><strong>Related charts &#x2013; the absolute decline in emissions of air pollutants.</strong> <a href="https://ourworldindata.org/grapher/air-pollutant-emissions?time=1970..2016">This chart</a> shows the decline in absolute emissions of nitrous oxides, sulphur dioxide and volatile organic compounds in the UK. <a href="https://ourworldindata.org/grapher/emissions-of-particulate-matter?time=1970..2016">This chart</a> shows the absolute reduction in emissions of particulate matter.</p></blockquote></div><div class="wp-block-column"><figure data-grapher-src="https://ourworldindata.org/grapher/emissions-of-air-pollutants?time=1970..2016&amp;country=GBR" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/emissions-of-air-pollutants?time=1970..2016&amp;country=GBR" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/emissions-of-air-pollutants-01a1275a939f4a287c6024c99300eea6_v8_850x600.svg" width="850" height="600" alt="Emissions of air pollutants 01a1275a939f4a287c6024c99300eea6 v8 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><h2 id="how-to-make-progress-against-outdoor-air-pollution"><a class="deep-link" href="#how-to-make-progress-against-outdoor-air-pollution"></a>How to make progress against outdoor air pollution?</h2><h3 id="link-between-exposure-to-pollution-and-death-rates"><a class="deep-link" href="#link-between-exposure-to-pollution-and-death-rates"></a>Link between exposure to pollution and death rates</h3><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><p>A key driver in addressing air pollution issues is the burden it has on human health. What determines the likelihood that a given individual will die prematurely from pollution-related illness? <br><br>It seems intuitive that the health impacts of air pollution would be strongly linked to the concentration of local pollutants (i.e. the exposure). But are there other factors at play? <br><br>In the visualization we see the death rate from outdoor particulate matter pollution (on the y-axis) plotted against the population-weighted exposure to particulate matter (PM<sub>2.5</sub>) concentrations (on the x-axis).  The bubble size is represent of <a href="https://ourworldindata.org/economic-growth">average income</a> (GDP per capita).</p><p>Indeed, we see an overall correlation: the death rate from air pollution is higher in countries that have a higher level of pollution. There is also an important regional divide: most European, North American and Latin American countries cluster near the origin at low pollution levels and low death rates. Nearly all countries with either a high death rate or high pollution concentration (or both) are in Africa or&#xA0;Asia.</p><p>But what about some of the outliers? How do some countries with a high level of PM<sub>2.5</sub> pollution manage to maintain significantly lower death rates than we&#x2019;d expect? Countries such as Qatar, Saudi Arabia, Oman, Kuwait, and the UAE have a comparably lower risk of premature death, despite high levels of pollution. They do, however, have a significantly higher GDP per capita than their neighbours (as evidenced by bubble size). We&#x2019;d therefore expect that overall health, wellbeing and healthcare/medical standards in these nations significantly reduce the risk of mortality from respiratory illness. </p><p>The influence of GDP and quality of life is also likely to explain the other extreme, where countries such as Afghanistan and the Central African Republic have a very high death rate, despite having mid-range pollution levels. With low GDP levels, overall health and healthcare quality is likely to increase the burden of pollution-related disease.</p><p>Furthermore, many of the outliers on the right of the graphic (with high levels of particulate pollution and lower death rates) lie in the Middle East and North Africa. Drier conditions here mean the source of pollutants may be notably different from elsewhere: much of the local air pollution could be derived from dust and sand particles as opposed to anthropogenic sources of industry and agriculture. If proximal sand and dust sources have less severe impacts on health, this may explain the strong outliers from this world region.</p><p>If we want to reduce death rates from air pollution there are two important elements to tackle: a decline in the exposure to pollution, and improving overall health conditions and healthcare across the world.</p></div><div class="wp-block-column"><figure data-grapher-src="https://ourworldindata.org/grapher/death-rate-from-pm25-vs-pm25-concentration" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/death-rate-from-pm25-vs-pm25-concentration" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/death-rate-from-pm25-vs-pm25-concentration_v13_850x600.svg" width="850" height="600" alt="Death rate from pm25 vs pm25 concentration v13 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure></div></div><h3 id="outdoor-air-pollution-tends-to-rise-with-industrialization-before-falling"><a class="deep-link" href="#outdoor-air-pollution-tends-to-rise-with-industrialization-before-falling"></a>Outdoor air pollution tends to rise with industrialization before falling</h3><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"></div><div class="wp-block-column"><figure data-grapher-src="https://ourworldindata.org/grapher/air-pollution-london-vs-delhi" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/air-pollution-london-vs-delhi" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/air-pollution-london-vs-delhi_v2_850x600.svg" width="850" height="600" alt="Air pollution london vs delhi v2 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure><figure data-grapher-src="https://ourworldindata.org/grapher/outdoor-pollution-rate-vs-gdp" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/outdoor-pollution-rate-vs-gdp" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/outdoor-pollution-rate-vs-gdp_v8_850x600.svg" width="850" height="600" alt="Outdoor pollution rate vs gdp v8 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><h2 id="definitions-and-measurement"><a class="deep-link" href="#definitions-and-measurement"></a>Definitions and Measurement</h2><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="how-do-we-measure-more-particulate-matter-pm-and-ozone-o3-trends"><a class="deep-link" href="#how-do-we-measure-more-particulate-matter-pm-and-ozone-o3-trends"></a>How do we measure more Particulate Matter (PM) and ozone (O<sub>3</sub>)&#xA0;trends?</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><p>Most high-income countries have fairly well-developed air quality monitoring and reporting networks at the ground-level- these generally provide consistent hourly readings of air quality. These measurements are, however, often limited to major city centres.</p><p>Many low- and middle-income countries lack sufficient data coverage altogether. To provide an extensive and consistent view of air pollution levels across a given country, and for global comparison, we therefore have to rely on additional methods of measurement. Data is therefore collected through a combination of satellite observations, global air transport models, local meteorological conditions, and local ground measurements where available. Exposure to PM2.5 and O<sub>3</sub> is then calculated across grid cells of 0.1 x 0.1 degrees longitude and latitude (11km x 11km at the equator). With data on population density within each grid cell, we can then calculate the population-weighted average exposure of the population of a given country.</p><p>In the case of ozone, meteorological data is used to report a seasonal average concentration for summer (when concentrations are highest).</p></div><div class="wp-block-column"></div></div><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="how-do-we-estimate-the-number-of-deaths-and-dalys-lost-from-air-pollution"><a class="deep-link" href="#how-do-we-estimate-the-number-of-deaths-and-dalys-lost-from-air-pollution"></a>How do we estimate the number of deaths and DALYs lost from air pollution?</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><p>It&#x2019;s important to emphasize the difficulties in directly attributing deaths to air pollution. A &#x2018;death&#x2019; from air pollution <a rel="noopener noreferrer" href="https://www.stateofglobalair.org/data/methods" target="_blank">is defined</a> as someone who dies prematurely (could be in the range of months or years) than would be expected in the absence of air pollution. In many cases, air pollution exacerbates pre-existing cardiorespiratory illnesses&#x2014;individuals suffering from asthma, for example, are particularly vulnerable. We link pollution concentrations to health risks using empirical exposure-response relationships and their relation to mortality rates.<a id="ref-9" class="ref" href="#note-9"><sup>9</sup></a></p><p>Absolute number of deaths gives no indication of the age at which an individual died prematurely. For this, we use a measure of Disability-Adjusted Life Years (DALYs) lost. DALYs lost provide an overall measure of the loss of healthy life expectancy and are calculated as the sum of the healthy years of life lost from a premature death linked to a pollution-related illness, and the years lived with disability caused by the attributable&#xA0;disease attributable to air pollution. The DALYs of a child who suffered mortality from a pollution-related illness will be significantly higher than an older individual.</p></div><div class="wp-block-column"></div></div><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="how-do-we-estimate-the-death-and-daly-loss-rate-from-air-pollution"><a class="deep-link" href="#how-do-we-estimate-the-death-and-daly-loss-rate-from-air-pollution"></a>How do we estimate the death and DALY loss&#xA0;<em>rate</em>&#xA0;from air pollution?</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><p>The death and DALY loss rate of air pollution is measured as the number of deaths per 100,000 people. This is calculated based on a country&#x2019;s population size for a given year.</p></div><div class="wp-block-column"></div></div><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="why-do-we-need-age-standardized-death-rates"><a class="deep-link" href="#why-do-we-need-age-standardized-death-rates"></a>Why do we need age-standardized death rates?</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><p>Death and DALY loss rates are reported as age-standardized figures to allow for a fair cross-comparison of mortality and morbidity risk between countries and through time. Age-standardization normalises death rates to a set population structure (population size and age) to cancel out variation which would occur between countries based on population demographics. If rates were not age-standardized, a country with a larger or older population would report higher death rates than a smaller or younger country, even if levels of pollution exposure were the same.</p></div><div class="wp-block-column"></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><h2 id="data-sources"><a class="deep-link" href="#data-sources"></a>Data Sources</h2><div class="wp-block-columns has-2-columns is-style-sticky-right"><div class="wp-block-column"><h5>IHME Global Burden of Disease</h5><ul><li><strong>Data</strong>: Annual deaths, death rates and disease burden</li><li><strong>Geographical coverage: </strong>Global &#x2013; by country</li><li><strong>Time span: </strong>1990 to 2017</li><li><strong>Available at:&#xA0;</strong><a href="http://www.healthdata.org/results/data-visualizations" target="_blank" rel="noopener noreferrer">http://www.healthdata.org/results/data-visualizations</a></li></ul><hr class="wp-block-separator datasources-hr"><h5>State of Global Air</h5><ul><li><strong>Data</strong>: National average PM2.5 and ozone (O3) concentrations, 1990-2015</li><li><strong>Geographical coverage: </strong>Global &#x2013; by country</li><li><strong>Time span:&#xA0;</strong>1990 onwards</li><li><strong>Available at:</strong>&#xA0;<a rel="noopener noreferrer" href="https://www.stateofglobalair.org/data" target="_blank">https://www.stateofglobalair.org/data</a></li></ul><hr class="wp-block-separator datasources-hr"><h5>State of Global Air</h5><ul><li><strong>Data</strong>: Age-standardized death rates, DALY rates, absolute number of deaths, and absolute DALY from PM2.5 exposure</li><li><strong>Geographical coverage: </strong>Global &#x2013; by country</li><li><strong>Time span:&#xA0;</strong>1990 onwards</li><li><strong>Available at:</strong>&#xA0;<a rel="noopener noreferrer" href="https://www.stateofglobalair.org/data" target="_blank">https://www.stateofglobalair.org/data</a></li></ul></div><div class="wp-block-column"></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div><footer class="article-footer"><div class="has-2-columns"><div class="wp-block-column"><h3 id="references">References</h3><ol class="references"><li id="note-1"><p>The latest study can be found at the website of the Lancet here: <a href="https://www.thelancet.com/gbd">TheLancet.com/GBD</a></p>
+
+
+
+<p>The 2017 study was published as GBD 2017 Risk Factor Collaborators – &#8220;Global, regional, and national comparative risk assessment of 84 behavioural, environmental and occupational, and metabolic risks or clusters of risks for 195 countries and territories, 1990-2017: a systematic analysis for the Global Burden of Disease Study 2017&#8221; and is online <a href="http://www.healthdata.org/research-article/global-regional-and-national-comparative-risk-assessment-84-behavioral-0">here</a>.</p></li><li id="note-2"><p>WHO (2018) – Fact sheet  – Ambient air quality and health. Updated May 2018. Online <a href="https://www.who.int/en/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health">here</a>.</p></li><li id="note-3"><p>The <em>Global Burden of Disease</em> study estimates that just under 1 million – 954,000 – died from HIV/AIDS in 2017. The 3.4 million deaths from outdoor air pollution is therefore more than 3 times higher than this figures. Just over 400,000 – 405,000 – died from homicide in 2017; pollution deaths were therefore more than eight times this figure.</p></li><li id="note-4"><p>WHO (2018) – Fact sheet  – Ambient air quality and health. Updated May 2018. Online <a href="https://www.who.int/en/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health">here</a>.</p></li><li id="note-5"><p>World Health Organization. (2006).&nbsp;<em><a href="https://apps.who.int/iris/bitstream/handle/10665/69477/WHO_SDE_PHE_OEH_06.02_eng.pdf">WHO Air quality guidelines for particulate matter, ozone, nitrogen dioxide and sulfur dioxide: global update 2005: summary of risk assessment</a></em>&nbsp;(No. WHO/SDE/PHE/OEH/06.02). Geneva: World Health Organization.</p></li><li id="note-6"><p>World Health Organization. (2006).&nbsp;<em><a href="https://apps.who.int/iris/bitstream/handle/10665/69477/WHO_SDE_PHE_OEH_06.02_eng.pdf">WHO Air quality guidelines for particulate matter, ozone, nitrogen dioxide and sulfur dioxide: global update 2005: summary of risk assessment</a></em>&nbsp;(No. WHO/SDE/PHE/OEH/06.02). Geneva: World Health Organization.</p></li><li id="note-7"><p>Pope CA et al. (2002). <a href="https://jamanetwork.com/journals/jama/article-abstract/194704">Lung cancer, cardiopulmonary mortality, and long-term exposure to fine particulate air pollution</a>. <em>Journal of the American Medical Association</em>, 287:1132–1141.</p></li><li id="note-8"><p>World Health Organization. (2006).&nbsp;<em><a href="https://apps.who.int/iris/bitstream/handle/10665/69477/WHO_SDE_PHE_OEH_06.02_eng.pdf">WHO Air quality guidelines for particulate matter, ozone, nitrogen dioxide and sulfur dioxide: global update 2005: summary of risk assessment</a></em>&nbsp;(No. WHO/SDE/PHE/OEH/06.02). Geneva: World Health Organization.</p></li><li id="note-9"><p>Cohen, A. J., Brauer, M. &amp; Burnett, R. T. Estimates and 25-year trends of the global burden of disease attributable to ambient air pollution: An analysis of data from the Global burden of Diseases Study 2015. Lancet In press, 1–12 (2017). Available at: <a href="http://dx.doi.org/10.1016/S0140-6736(17)30505-6">doi:10.1016/S0140-6736(17)30505-6</a></p></li></ol></div><div class="wp-block-column"></div></div></footer></div></div></article></main><div id="wpadminbar" style="display:none"><div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar"><ul id="wp-admin-bar-root-default" class="ab-top-menu"><li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="/wp/wp-admin/">Wordpress</a></li> <li id="wp-admin-bar-edit"><a class="ab-item" href="https://owid.cloud/wp/wp-admin/post.php?post=27460&amp;action=edit">Edit Page</a></li></ul></div></div><section class="donate-footer"><div class="wrapper"><div class="owid-row flex-align-center"><div class="owid-col owid-col--lg-3 owid-padding-bottom--sm-3"><p>Our World in Data is free and accessible for everyone.</p><p>Help us do this work by making a donation.</p></div><div class="owid-col owid-col--lg-1"><a href="/donate" class="owid-button donate-button" data-track-click="true" data-track-note="donate-footer"><span class="label">Donate now</span><span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-8 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg></span></a></div></div></div></section><footer class="site-footer"><div class="wrapper"><div class="owid-row"><div class="owid-col owid-col--lg-1"><ul><li><a href="/about" data-track-click="true" data-track-note="footer-navigation">About</a></li><li><a href="/about#contact" data-track-click="true" data-track-note="footer-navigation">Contact</a></li><li><a href="/feedback" data-track-click="true" data-track-note="footer-navigation">Feedback</a></li><li><a href="/jobs" data-track-click="true" data-track-note="footer-navigation">Jobs</a></li><li><a href="/supporters" data-track-click="true" data-track-note="footer-navigation">Supporters</a></li><li><a href="/about/how-to-use-our-world-in-data" data-track-click="true" data-track-note="footer-navigation">How to use</a></li><li><a href="/donate" data-track-click="true" data-track-note="footer-navigation">Donate</a></li><li><a href="/privacy-policy" data-track-click="true" data-track-note="footer-navigation">Privacy policy</a></li></ul></div><div class="owid-col owid-col--lg-1"><ul><li><a href="/blog" data-track-click="true" data-track-note="footer-navigation">Latest research</a></li><li><a href="/charts" data-track-click="true" data-track-note="footer-navigation">All charts</a></li></ul><ul><li><a href="https://twitter.com/OurWorldInData" data-track-click="true" data-track-note="footer-navigation">Twitter</a></li><li><a href="https://www.facebook.com/OurWorldinData" data-track-click="true" data-track-note="footer-navigation">Facebook</a></li><li><a href="https://github.com/owid" data-track-click="true" data-track-note="footer-navigation">GitHub</a></li><li><a href="/feed" data-track-click="true" data-track-note="footer-navigation">RSS Feed</a></li></ul></div><div class="owid-col owid-col--lg-1"><div class="logos"><a href="https://www.oxfordmartin.ox.ac.uk/research/programmes/global-development" class="partner-logo" data-track-click="true" data-track-note="footer-navigation"><img src="/oxford-logo-rect.png" alt="University of Oxford logo"/></a><a href="https://global-change-data-lab.org/" class="partner-logo" data-track-click="true" data-track-note="footer-navigation"><img src="/gcdl-logo.png" alt="Global Change Data Lab logo"/></a><a href="/owid-at-ycombinator" class="partner-logo" data-track-click="true" data-track-note="footer-navigation"><img src="/yc-logo.png" alt="Y Combinator logo"/></a></div></div><div class="owid-col flex-2"><div class="legal"><p>License: All of Our World in Data is completely open access and all work is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY license</a>. You have the permission to use, distribute, and reproduce in any medium, provided the source and authors are credited.</p><p>Please consult our full <a href="/about#legal">legal disclaimer</a>.</p></div></div></div></div><div class="injectFeedback"></div><script src="https://ourworldindata.org/assets/js/commons.js"></script><script src="https://ourworldindata.org/assets/js/owid.js"></script><script>
+                runHeaderMenus();
+                runFeedback();
+                runCookieNotice();
+                if (!document.querySelector(".ChartPage")) {
+                    Grapher.embedAll();
+                }
+            </script></footer></body></html>
