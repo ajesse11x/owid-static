@@ -1137,7 +1137,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/air-pollution</loc>
-        <lastmod>2019-11-21</lastmod>
+        <lastmod>2019-11-22</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/air-pollution-post</loc>
@@ -1465,7 +1465,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/drug-use</loc>
-        <lastmod>2019-11-21</lastmod>
+        <lastmod>2019-11-22</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/economic-inequality-by-gender</loc>
@@ -6813,11 +6813,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/biofuels-production-by-region</loc>
-        <lastmod>2018-03-15</lastmod>
+        <lastmod>2019-11-22</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/solar-energy-consumption-by-region</loc>
-        <lastmod>2018-03-15</lastmod>
+        <lastmod>2019-11-22</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/solar-energy-consumption</loc>
@@ -6833,7 +6833,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/renewable-energy-consumption</loc>
-        <lastmod>2018-03-15</lastmod>
+        <lastmod>2019-11-22</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/gross-domestic-product</loc>
@@ -6841,7 +6841,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/wind-energy-consumption-by-region</loc>
-        <lastmod>2018-03-15</lastmod>
+        <lastmod>2019-11-22</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/wind-energy-consumption-terawatt-hours-twh</loc>
@@ -6877,7 +6877,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/hydro-consumption-by-region</loc>
-        <lastmod>2018-03-15</lastmod>
+        <lastmod>2019-11-22</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/hydropower-consumption</loc>
@@ -13233,7 +13233,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/historys-hockey-stick-worldwide-historical-gross-domestic-product-percapita-1990</loc>
-        <lastmod>2019-06-13</lastmod>
+        <lastmod>2019-11-22</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/gini-index-of-consumption-in-2015-vs-1990-gcip-survey-years-only</loc>
@@ -13257,7 +13257,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/historys-hockey-stick-gross-domestic-product-per-capita-using-the-ratio-scale-1990</loc>
-        <lastmod>2019-05-02</lastmod>
+        <lastmod>2019-11-22</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/northern-hemisphere-temperatures-over-the-long-run---deviation-from-1951-1980-mean-temperature-c</loc>
@@ -15185,6 +15185,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-from-whooping-cough-by-age</loc>
+        <lastmod>2019-11-22</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/deaths-due-to-illicit-drug-use-by-age</loc>
         <lastmod>2019-11-22</lastmod>
     </url>
 </urlset>
