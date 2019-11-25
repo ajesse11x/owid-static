@@ -15315,4 +15315,8 @@
         <loc>https://ourworldindata.org/grapher/fossil-fuel-subsidies-gdp</loc>
         <lastmod>2019-11-25</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/fossil-fuel-subsidies-per-capita</loc>
+        <lastmod>2019-11-25</lastmod>
+    </url>
 </urlset>
