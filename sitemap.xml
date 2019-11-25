@@ -3353,7 +3353,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/trust-attitudes-in-the-us</loc>
-        <lastmod>2018-09-21</lastmod>
+        <lastmod>2019-11-25</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/human-rights-score-vs-gdp-per-capita</loc>
@@ -15353,6 +15353,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/national-statistical-legislation</loc>
+        <lastmod>2019-11-25</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/resources-statistical-capacity</loc>
         <lastmod>2019-11-25</lastmod>
     </url>
 </urlset>
