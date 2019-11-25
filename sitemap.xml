@@ -8961,7 +8961,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/tariff-rate-applied-weighted-mean-all-products</loc>
-        <lastmod>2018-03-15</lastmod>
+        <lastmod>2019-11-25</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/exports-of-goods-and-services-income</loc>
@@ -8969,7 +8969,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/tariff-rates</loc>
-        <lastmod>2018-03-15</lastmod>
+        <lastmod>2019-11-25</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/completeness-population-census</loc>
@@ -15349,6 +15349,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/govt-expenditure-share-budget</loc>
+        <lastmod>2019-11-25</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/national-statistical-legislation</loc>
         <lastmod>2019-11-25</lastmod>
     </url>
 </urlset>
