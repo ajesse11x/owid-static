@@ -15515,4 +15515,8 @@
         <loc>https://ourworldindata.org/grapher/death-rates-sanitation</loc>
         <lastmod>2019-11-29</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rates-from-unsafe-sanitation-vs-gdp-per-capita</loc>
+        <lastmod>2019-11-29</lastmod>
+    </url>
 </urlset>
