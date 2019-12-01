@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-11-25T11:18:34.000Z</updated>
+<updated>2019-12-01T08:00:00.000Z</updated>
+<entry>
+    <title><![CDATA[Antiretroviral therapy has saved millions of lives from AIDS and could save more]]></title>
+    <id>https://ourworldindata.org/art-lives-saved</id>
+    <link rel="alternate" href="https://ourworldindata.org/art-lives-saved"/>
+    <published>2019-12-01T08:00:00.000Z</published>
+    <updated>2019-12-01T08:10:00.000Z</updated>
+    <author><name>Bernadeta Dadonaite</name></author>
+    <summary><![CDATA[38 million people had HIV/AIDS in 2018. A couple of decades ago, the chances of surviving more than ten years with HIV were slim. Today, thanks to antiretroviral therapy (ART), people with HIV/AIDS can expect to live long lives. How many lives has ART saved?]]></summary>
+</entry>
 <entry>
     <title><![CDATA[We’ve just updated our Sustainable Development Goals Tracker]]></title>
     <id>https://ourworldindata.org/update-sdg-tracker-2019</id>
@@ -88,14 +97,5 @@ What are food’s environmental impacts?]]></summary>
     <updated>2019-10-23T10:24:20.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[CO2 emissions are typically measured in terms of ‘production’. But how do emissions compare when we adjust for trade? Which countries export the most CO2 and which offshore their emissions?]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Where in the world do people emit the most CO2?]]></title>
-    <id>https://ourworldindata.org/per-capita-co2</id>
-    <link rel="alternate" href="https://ourworldindata.org/per-capita-co2"/>
-    <published>2019-10-04T08:50:13.000Z</published>
-    <updated>2019-10-04T09:15:55.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[There are large inequalities in the carbon footprint of people across the world. How do countries across the world compare? Where in the world do people emit the most CO2?]]></summary>
 </entry>
 </feed>
