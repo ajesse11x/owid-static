@@ -2765,7 +2765,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-160</loc>
-        <lastmod>2019-11-25</lastmod>
+        <lastmod>2019-12-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-161</loc>
@@ -15561,6 +15561,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-deaths-unsafe-water</loc>
+        <lastmod>2019-12-02</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rates-unsafe-water</loc>
         <lastmod>2019-12-02</lastmod>
     </url>
 </urlset>
