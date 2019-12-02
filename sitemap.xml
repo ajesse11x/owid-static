@@ -14609,7 +14609,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/hib-vaccine</loc>
-        <lastmod>2019-09-05</lastmod>
+        <lastmod>2019-12-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/children-woman-death-vs-survival-1</loc>
@@ -15565,6 +15565,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rates-unsafe-water</loc>
+        <lastmod>2019-12-02</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rates-unsafe-water-vs-gdp</loc>
         <lastmod>2019-12-02</lastmod>
     </url>
 </urlset>
