@@ -408,7 +408,7 @@
 /grapher/domestic-cereal-allocation-distribution-to-food-feed-and-other-uses-tonnes-per-year /grapher/cereal-distribution-to-uses 302
 /grapher/vegetable-consumption-per-capita-kgyear /grapher/vegetable-consumption-per-capita 302
 /grapher/fruit-consumption-per-capita-kgyear /grapher/fruit-consumption-per-capita 302
-/grapher/land-cover-distribution-thousand-hectares /grapher/land-cover-distribution-percentage-land-area 302
+/grapher/land-cover-distribution-thousand-hectares /grapher/land-use 302
 /grapher/annual-food-expenditure-per-person-vs-gdp-per-capita-2015 /grapher/annual-food-expenditure-per-person-vs-gdp-per-capita 302
 /grapher/fertility-vs-human-development-index /grapher/children-per-woman-vs-human-development-index 302
 /grapher/output-of-key-service-sectors-in-england-and-the-uk /grapher/output-of-key-service-and-industrial-sectors-in-england-and-the-uk 302
@@ -851,3 +851,4 @@
 /grapher/population-by-per-capita-household-income /grapher/distribution-of-population-poverty-thresholds 302
 /grapher/share-of-one-person-households-vs-gdp-per-capita-int- /grapher/one-person-households-vs-gdp-per-capita 302
 /grapher/death-rate-from-particulate-pollution-vs-gdp-per-capita /grapher/outdoor-pollution-rate-vs-gdp 302
+/grapher/land-cover-distribution-percentage-land-area /grapher/land-use 302
