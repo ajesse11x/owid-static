@@ -10,7 +10,12 @@
 
         try {
             window.App = {};
-            window.ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure });
+            var view = window.ChartView.bootstrap({
+                jsonConfig: jsonConfig,
+                containerNode: figure,
+                queryStr: window.location.search
+            });
+            view.bindToWindow();
         } catch (err) {
             figure.innerHTML = "<img src=\"/grapher/exports/projections-of-the-rate-of-no-education-based-on-current-global-education-trends-1970-2050.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");

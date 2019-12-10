@@ -10,7 +10,12 @@
 
         try {
             window.App = {};
-            window.ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure });
+            var view = window.ChartView.bootstrap({
+                jsonConfig: jsonConfig,
+                containerNode: figure,
+                queryStr: window.location.search
+            });
+            view.bindToWindow();
         } catch (err) {
             figure.innerHTML = "<img src=\"/grapher/exports/divergence-of-gdp-per-capita-among-latecomers-to-the-capitalist-revolution-18002016.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");

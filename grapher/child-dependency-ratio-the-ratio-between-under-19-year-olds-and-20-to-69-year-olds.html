@@ -10,7 +10,12 @@
 
         try {
             window.App = {};
-            window.ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure });
+            var view = window.ChartView.bootstrap({
+                jsonConfig: jsonConfig,
+                containerNode: figure,
+                queryStr: window.location.search
+            });
+            view.bindToWindow();
         } catch (err) {
             figure.innerHTML = "<img src=\"/grapher/exports/child-dependency-ratio-the-ratio-between-under-19-year-olds-and-20-to-69-year-olds.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");

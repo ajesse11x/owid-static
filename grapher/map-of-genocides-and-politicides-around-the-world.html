@@ -14,7 +14,12 @@ Red indicates an active conflict while yellow indicates no currently conflict.</
 
         try {
             window.App = {};
-            window.ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure });
+            var view = window.ChartView.bootstrap({
+                jsonConfig: jsonConfig,
+                containerNode: figure,
+                queryStr: window.location.search
+            });
+            view.bindToWindow();
         } catch (err) {
             figure.innerHTML = "<img src=\"/grapher/exports/map-of-genocides-and-politicides-around-the-world.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");

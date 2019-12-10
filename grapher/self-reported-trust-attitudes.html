@@ -14,7 +14,12 @@ Possible answers were &quot;Most people can be trusted&quot;, &quot;Don&#x27;t k
 
         try {
             window.App = {};
-            window.ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure });
+            var view = window.ChartView.bootstrap({
+                jsonConfig: jsonConfig,
+                containerNode: figure,
+                queryStr: window.location.search
+            });
+            view.bindToWindow();
         } catch (err) {
             figure.innerHTML = "<img src=\"/grapher/exports/self-reported-trust-attitudes.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");

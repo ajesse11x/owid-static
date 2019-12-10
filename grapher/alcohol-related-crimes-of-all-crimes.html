@@ -14,7 +14,12 @@ And second, all those crimes in which the consumption of alcohol is thought to h
 
         try {
             window.App = {};
-            window.ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure });
+            var view = window.ChartView.bootstrap({
+                jsonConfig: jsonConfig,
+                containerNode: figure,
+                queryStr: window.location.search
+            });
+            view.bindToWindow();
         } catch (err) {
             figure.innerHTML = "<img src=\"/grapher/exports/alcohol-related-crimes-of-all-crimes.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");

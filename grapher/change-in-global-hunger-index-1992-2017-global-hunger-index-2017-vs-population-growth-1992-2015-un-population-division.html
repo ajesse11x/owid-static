@@ -10,7 +10,12 @@
 
         try {
             window.App = {};
-            window.ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure });
+            var view = window.ChartView.bootstrap({
+                jsonConfig: jsonConfig,
+                containerNode: figure,
+                queryStr: window.location.search
+            });
+            view.bindToWindow();
         } catch (err) {
             figure.innerHTML = "<img src=\"/grapher/exports/change-in-global-hunger-index-1992-2017-global-hunger-index-2017-vs-population-growth-1992-2015-un-population-division.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");

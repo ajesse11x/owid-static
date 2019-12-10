@@ -14,7 +14,12 @@ Observations correspond to 2016 data (or the year before/after if 2016 missing)<
 
         try {
             window.App = {};
-            window.ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure });
+            var view = window.ChartView.bootstrap({
+                jsonConfig: jsonConfig,
+                containerNode: figure,
+                queryStr: window.location.search
+            });
+            view.bindToWindow();
         } catch (err) {
             figure.innerHTML = "<img src=\"/grapher/exports/primary-edu-spending-vs-overall-edu-spending.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");

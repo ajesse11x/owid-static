@@ -14,7 +14,12 @@ Spirits are distilled alcoholic drinks and include gin, rum, whisky, tequila and
 
         try {
             window.App = {};
-            window.ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure });
+            var view = window.ChartView.bootstrap({
+                jsonConfig: jsonConfig,
+                containerNode: figure,
+                queryStr: window.location.search
+            });
+            view.bindToWindow();
         } catch (err) {
             figure.innerHTML = "<img src=\"/grapher/exports/spirits-consumption-per-person.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");

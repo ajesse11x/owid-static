@@ -14,7 +14,12 @@ The remaining share therefore represents deaths which would be expected to have 
 
         try {
             window.App = {};
-            window.ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure });
+            var view = window.ChartView.bootstrap({
+                jsonConfig: jsonConfig,
+                containerNode: figure,
+                queryStr: window.location.search
+            });
+            view.bindToWindow();
         } catch (err) {
             figure.innerHTML = "<img src=\"/grapher/exports/share-of-cancer-deaths-attributed-to-risk-factors.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");

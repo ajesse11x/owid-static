@@ -10,7 +10,12 @@
 
         try {
             window.App = {};
-            window.ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure });
+            var view = window.ChartView.bootstrap({
+                jsonConfig: jsonConfig,
+                containerNode: figure,
+                queryStr: window.location.search
+            });
+            view.bindToWindow();
         } catch (err) {
             figure.innerHTML = "<img src=\"/grapher/exports/gdp-per-capita-from-the-world-bank-in-constant-2011-international-vs-gdp-per-capita-from-the-maddison-project-in-2011us-single-benchmarks.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");

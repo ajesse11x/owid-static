@@ -10,7 +10,12 @@
 
         try {
             window.App = {};
-            window.ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure });
+            var view = window.ChartView.bootstrap({
+                jsonConfig: jsonConfig,
+                containerNode: figure,
+                queryStr: window.location.search
+            });
+            view.bindToWindow();
         } catch (err) {
             figure.innerHTML = "<img src=\"/grapher/exports/deaths-rates-from-diarrheal-diseases-in-people-aged-70-and-older-by-attributable-to-risk-factor.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");

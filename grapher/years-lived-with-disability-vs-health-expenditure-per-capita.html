@@ -14,7 +14,12 @@ Versus average health expenditure per capita, measured in 2011 international-$.<
 
         try {
             window.App = {};
-            window.ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure });
+            var view = window.ChartView.bootstrap({
+                jsonConfig: jsonConfig,
+                containerNode: figure,
+                queryStr: window.location.search
+            });
+            view.bindToWindow();
         } catch (err) {
             figure.innerHTML = "<img src=\"/grapher/exports/years-lived-with-disability-vs-health-expenditure-per-capita.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");

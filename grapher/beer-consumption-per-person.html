@@ -14,7 +14,12 @@ Beer contains around 5% of pure alcohol per volume so that one liter of beer con
 
         try {
             window.App = {};
-            window.ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure });
+            var view = window.ChartView.bootstrap({
+                jsonConfig: jsonConfig,
+                containerNode: figure,
+                queryStr: window.location.search
+            });
+            view.bindToWindow();
         } catch (err) {
             figure.innerHTML = "<img src=\"/grapher/exports/beer-consumption-per-person.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");

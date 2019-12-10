@@ -14,7 +14,12 @@ DALYs measure the total burden of disease – both from years of life lost due t
 
         try {
             window.App = {};
-            window.ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure });
+            var view = window.ChartView.bootstrap({
+                jsonConfig: jsonConfig,
+                containerNode: figure,
+                queryStr: window.location.search
+            });
+            view.bindToWindow();
         } catch (err) {
             figure.innerHTML = "<img src=\"/grapher/exports/disease-burden-rates-from-cancers.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");

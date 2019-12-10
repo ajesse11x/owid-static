@@ -14,7 +14,12 @@ Colors represent different world regions. Observations correspond to 2016 data (
 
         try {
             window.App = {};
-            window.ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure });
+            var view = window.ChartView.bootstrap({
+                jsonConfig: jsonConfig,
+                containerNode: figure,
+                queryStr: window.location.search
+            });
+            view.bindToWindow();
         } catch (err) {
             figure.innerHTML = "<img src=\"/grapher/exports/share-edu-spending-gdp-vs-share-edu-total-spending.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");

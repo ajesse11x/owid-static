@@ -14,7 +14,12 @@ Data shown for children younger than 14 years. </p><img src="https://ourworldind
 
         try {
             window.App = {};
-            window.ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure });
+            var view = window.ChartView.bootstrap({
+                jsonConfig: jsonConfig,
+                containerNode: figure,
+                queryStr: window.location.search
+            });
+            view.bindToWindow();
         } catch (err) {
             figure.innerHTML = "<img src=\"/grapher/exports/number-of-new-hiv-child-infections-vs-number-of-infections-averted-due-to-pmtct.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
