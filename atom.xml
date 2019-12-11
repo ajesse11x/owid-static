@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-12-01T08:00:00.000Z</updated>
+<updated>2019-12-10T21:19:40.000Z</updated>
+<entry>
+    <title><![CDATA[The rise of living alone: how one-person households are becoming increasingly common around the world]]></title>
+    <id>https://ourworldindata.org/living-alone</id>
+    <link rel="alternate" href="https://ourworldindata.org/living-alone"/>
+    <published>2019-12-10T21:19:40.000Z</published>
+    <updated>2019-12-11T17:30:24.000Z</updated>
+    <author><name>Esteban Ortiz-Ospina</name></author>
+    <summary><![CDATA[One-person households are becoming increasingly common across the world. In this post we explore the data behind this trend.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Antiretroviral therapy has saved millions of lives from AIDS and could save more]]></title>
     <id>https://ourworldindata.org/art-lives-saved</id>
@@ -88,14 +97,5 @@ What are food’s environmental impacts?]]></summary>
     <updated>2019-11-14T13:49:38.000Z</updated>
     <author><name>Max Roser</name></author>
     <summary><![CDATA[]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[How do CO2 emissions compare when we adjust for trade?]]></title>
-    <id>https://ourworldindata.org/consumption-based-co2</id>
-    <link rel="alternate" href="https://ourworldindata.org/consumption-based-co2"/>
-    <published>2019-10-07T06:00:27.000Z</published>
-    <updated>2019-12-03T15:19:52.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[CO2 emissions are typically measured in terms of ‘production’. But how do emissions compare when we adjust for trade? Which countries export the most CO2 and which offshore their emissions?]]></summary>
 </entry>
 </feed>
