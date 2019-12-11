@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-12-10T21:19:40.000Z</updated>
+<updated>2019-12-11T14:58:33.000Z</updated>
+<entry>
+    <title><![CDATA[Are people more likely to be lonely in so-called ‘individualistic’ societies?]]></title>
+    <id>https://ourworldindata.org/lonely-not-alone</id>
+    <link rel="alternate" href="https://ourworldindata.org/lonely-not-alone"/>
+    <published>2019-12-11T14:58:33.000Z</published>
+    <updated>2019-12-11T17:35:32.000Z</updated>
+    <author><name>Esteban Ortiz-Ospina</name></author>
+    <summary><![CDATA[In countries such as Denmark and Switzerland, it is very common for people to live alone; but contrary to what many believe, this does not translate into higher loneliness. Loneliness and aloneness are not the same.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[The rise of living alone: how one-person households are becoming increasingly common around the world]]></title>
     <id>https://ourworldindata.org/living-alone</id>
@@ -88,14 +97,5 @@
     <summary><![CDATA[Feeding the  world whilst reducing food’s impact on the environment is one of our greatest challenges in the coming decades.
 
 What are food’s environmental impacts?]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[We won the Lovie Award!]]></title>
-    <id>https://ourworldindata.org/we-won-the-lovie-award</id>
-    <link rel="alternate" href="https://ourworldindata.org/we-won-the-lovie-award"/>
-    <published>2019-10-16T17:08:12.000Z</published>
-    <updated>2019-11-14T13:49:38.000Z</updated>
-    <author><name>Max Roser</name></author>
-    <summary><![CDATA[]]></summary>
 </entry>
 </feed>
