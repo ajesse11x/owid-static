@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-12-11T14:58:33.000Z</updated>
+<updated>2019-12-11T15:39:34.000Z</updated>
+<entry>
+    <title><![CDATA[Is there a loneliness epidemic?]]></title>
+    <id>https://ourworldindata.org/loneliness-epidemic</id>
+    <link rel="alternate" href="https://ourworldindata.org/loneliness-epidemic"/>
+    <published>2019-12-11T15:39:34.000Z</published>
+    <updated>2019-12-11T17:52:12.000Z</updated>
+    <author><name>Esteban Ortiz-Ospina</name></author>
+    <summary><![CDATA[The media claims we are experiencing a ‘loneliness epidemic’. What is the evidence for this?]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Are people more likely to be lonely in so-called ‘individualistic’ societies?]]></title>
     <id>https://ourworldindata.org/lonely-not-alone</id>
@@ -86,16 +95,5 @@
     <updated>2019-11-19T11:58:22.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[One-quarter of the world’s greenhouse gas emissions result from food and agriculture. What are the main contributors to food’s emissions?]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[What are the environmental impacts of food and agriculture?]]></title>
-    <id>https://ourworldindata.org/environmental-impacts-of-food</id>
-    <link rel="alternate" href="https://ourworldindata.org/environmental-impacts-of-food"/>
-    <published>2019-11-04T11:00:05.000Z</published>
-    <updated>2019-12-03T13:46:35.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[Feeding the  world whilst reducing food’s impact on the environment is one of our greatest challenges in the coming decades.
-
-What are food’s environmental impacts?]]></summary>
 </entry>
 </feed>
