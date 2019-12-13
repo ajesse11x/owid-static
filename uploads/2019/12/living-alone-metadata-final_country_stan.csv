@@ -1,4 +1,4 @@
-country,year,un_source,percent_of_1person_hh,source
+country,year,un_source,percentof1phh,source
 Afghanistan,2015,DHS,0.189425072,"United Nations Database on Household Size and Composition, 2018"
 Albania,2011,DYB,8.274421193,"United Nations Database on Household Size and Composition, 2018"
 Angola,2007,DHS,4.082941892,"United Nations Database on Household Size and Composition, 2018"
@@ -207,6 +207,11 @@ Dominican Republic,1999,DHS,8.146564136,"United Nations Database on Household Si
 Dominican Republic,2002,DHS,11.03890575,"United Nations Database on Household Size and Composition, 2018"
 Dominican Republic,2007,DHS,12.22506648,"United Nations Database on Household Size and Composition, 2018"
 Dominican Republic,2013,DHS,14.33210278,"United Nations Database on Household Size and Composition, 2018"
+EU average,2011,N/A,30.67809149,OECD
+East Germany,1950,N/A,21.67,Deutschland in Daten
+East Germany,1964,N/A,27.22,Deutschland in Daten
+East Germany,1971,N/A,25.98,Deutschland in Daten
+East Germany,1981,N/A,26.55,Deutschland in Daten
 Ecuador,1974,IPUMS,6.938578841,"United Nations Database on Household Size and Composition, 2018"
 Ecuador,1982,IPUMS,7.687129694,"United Nations Database on Household Size and Composition, 2018"
 Ecuador,1990,IPUMS,7.636873528,"United Nations Database on Household Size and Composition, 2018"
@@ -249,6 +254,7 @@ European Union (28 countries),2015,N/A,32.3,Eurostat EU-SILC
 European Union (28 countries),2016,N/A,32.5,Eurostat EU-SILC
 European Union (28 countries),2017,N/A,32.8,Eurostat EU-SILC
 European Union (28 countries),2018,N/A,33,Eurostat EU-SILC
+Eurozone average,2011,N/A,30.77480446,OECD
 Fiji,1976,IPUMS,3.205128205,"United Nations Database on Household Size and Composition, 2018"
 Fiji,1986,IPUMS,3.619322278,"United Nations Database on Household Size and Composition, 2018"
 Fiji,1996,IPUMS,3.98353565,"United Nations Database on Household Size and Composition, 2018"
@@ -288,6 +294,20 @@ Gabon,2000,DHS,19.28867044,"United Nations Database on Household Size and Compos
 Gabon,2012,DHS,22.42201356,"United Nations Database on Household Size and Composition, 2018"
 Gambia,2013,DHS,8.385145997,"United Nations Database on Household Size and Composition, 2018"
 Georgia,2002,DYB,16.30066331,"United Nations Database on Household Size and Composition, 2018"
+German Reich,1864,N/A,10.72,Deutschland in Daten
+German Reich,1867,N/A,7.12,Deutschland in Daten
+German Reich,1871,N/A,5.57,Deutschland in Daten
+German Reich,1875,N/A,5.65,Deutschland in Daten
+German Reich,1880,N/A,5.66,Deutschland in Daten
+German Reich,1885,N/A,6.22,Deutschland in Daten
+German Reich,1890,N/A,6.67,Deutschland in Daten
+German Reich,1895,N/A,6.8,Deutschland in Daten
+German Reich,1900,N/A,7.15,Deutschland in Daten
+German Reich,1905,N/A,7.31,Deutschland in Daten
+German Reich,1910,N/A,7.32,Deutschland in Daten
+German Reich,1925,N/A,6.72,Deutschland in Daten
+German Reich,1933,N/A,8.38,Deutschland in Daten
+German Reich,1939,N/A,9.76,Deutschland in Daten
 Germany,2005,N/A,37.1,Eurostat EU-SILC
 Germany,2006,N/A,38.1,Eurostat EU-SILC
 Germany,2007,N/A,38.4,Eurostat EU-SILC
@@ -613,6 +633,7 @@ Norway,2015,N/A,44.3,Eurostat EU-SILC
 Norway,2016,N/A,44.8,Eurostat EU-SILC
 Norway,2017,N/A,47,Eurostat EU-SILC
 Norway,2018,N/A,45.8,Eurostat EU-SILC
+OECD-32 average,2011,N/A,30.55992676,OECD
 Pakistan,1991,DHS,2.947397578,"United Nations Database on Household Size and Composition, 2018"
 Pakistan,2006,DHS,1.272279818,"United Nations Database on Household Size and Composition, 2018"
 Pakistan,2013,DHS,1.079464084,"United Nations Database on Household Size and Composition, 2018"
@@ -922,6 +943,37 @@ Venezuela,2001,IPUMS,7.562009966,"United Nations Database on Household Size and 
 Vietnam,1989,IPUMS,4.986699995,"United Nations Database on Household Size and Composition, 2018"
 Vietnam,1999,IPUMS,4.356472697,"United Nations Database on Household Size and Composition, 2018"
 Vietnam,2009,IPUMS,7.281823706,"United Nations Database on Household Size and Composition, 2018"
+West Germany,1950,N/A,19.39,Deutschland in Daten
+West Germany,1956,N/A,19.17,Deutschland in Daten
+West Germany,1957,N/A,18.3,Deutschland in Daten
+West Germany,1961,N/A,20.61,Deutschland in Daten
+West Germany,1962,N/A,22.35,Deutschland in Daten
+West Germany,1963,N/A,22.65,Deutschland in Daten
+West Germany,1964,N/A,23.25,Deutschland in Daten
+West Germany,1965,N/A,24.25,Deutschland in Daten
+West Germany,1966,N/A,23.89,Deutschland in Daten
+West Germany,1967,N/A,24.97,Deutschland in Daten
+West Germany,1968,N/A,25.15,Deutschland in Daten
+West Germany,1969,N/A,25.82,Deutschland in Daten
+West Germany,1970,N/A,25.13,Deutschland in Daten
+West Germany,1971,N/A,26.72,Deutschland in Daten
+West Germany,1972,N/A,26.15,Deutschland in Daten
+West Germany,1973,N/A,26.13,Deutschland in Daten
+West Germany,1974,N/A,27.19,Deutschland in Daten
+West Germany,1975,N/A,27.63,Deutschland in Daten
+West Germany,1976,N/A,28.68,Deutschland in Daten
+West Germany,1977,N/A,29.22,Deutschland in Daten
+West Germany,1978,N/A,29.28,Deutschland in Daten
+West Germany,1979,N/A,30.03,Deutschland in Daten
+West Germany,1980,N/A,30.2,Deutschland in Daten
+West Germany,1981,N/A,30.8,Deutschland in Daten
+West Germany,1982,N/A,31.28,Deutschland in Daten
+West Germany,1985,N/A,33.61,Deutschland in Daten
+West Germany,1986,N/A,34.32,Deutschland in Daten
+West Germany,1987,N/A,34.64,Deutschland in Daten
+West Germany,1988,N/A,34.9,Deutschland in Daten
+West Germany,1989,N/A,35.28,Deutschland in Daten
+West Germany,1990,N/A,34.96,Deutschland in Daten
 Yemen,1991,DHS,3.162343185,"United Nations Database on Household Size and Composition, 2018"
 Yemen,2013,DHS,1.866618848,"United Nations Database on Household Size and Composition, 2018"
 Zambia,1992,DHS,6.59172065,"United Nations Database on Household Size and Composition, 2018"
@@ -934,6 +986,3 @@ Zimbabwe,1999,DHS,15.56173872,"United Nations Database on Household Size and Com
 Zimbabwe,2005,DHS,10.15553456,"United Nations Database on Household Size and Composition, 2018"
 Zimbabwe,2010,DHS,11.66068559,"United Nations Database on Household Size and Composition, 2018"
 Zimbabwe,2015,DHS,12.37347575,"United Nations Database on Household Size and Composition, 2018"
-OECD-32 average,2011,N/A,30.55992676,OECD
-EU average,2011,N/A,30.67809149,OECD
-Eurozone average,2011,N/A,30.77480446,OECD
