@@ -143,7 +143,6 @@
 /donate/faq /donations-faq 301
 /donate/thank-you /thank-you 301
 /jobs/full-stack-developer /full-stack-developer 301
-/life-expectancy-globally /life-expectancy#twice-as-long-life-expectancy-around-the-world 301
 /meat-and-seafood-production-consumption /meat-production 301
 /meat-and-seafood-production-consumption /meat-production 301
 /grapher/life-expectancy-globally-since-1770 /grapher/life-expectancy?tab=chart&time=1770..2015&country=Africa+Asia+Europe+Latin%20America%20and%20the%20Caribbean+Northern%20America+OWID_WRL+Americas+Oceania 301
@@ -154,7 +153,6 @@
 /our-world-in-data-history /history-of-our-world-in-data 301
 /50-years-ago-the-average-woman-had-five-children-since-then-the-number-has-halved /global-fertility-has-halved 301
 /land-cover/ /land-use 301
-/life-expectancy-globally /life-expectancy 301
 /null / 301
 /grapher/historys-hockey-stick-gross-domestic-product-per-capita-in-five-countries-10002015 /grapher/world-gdp-over-the-last-two-millennia 301
 /gdp-growth-over-the-very-long-run/#world-maps-of-gdp-per-capita-1-2008-max-roserref /grapher/world-gdp-over-the-last-two-millennia 301
