@@ -709,7 +709,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/literacy</loc>
-        <lastmod>2019-11-12</lastmod>
+        <lastmod>2020-01-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/democracy</loc>
@@ -745,7 +745,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/life-expectancy</loc>
-        <lastmod>2019-12-22</lastmod>
+        <lastmod>2020-01-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/smoking</loc>
@@ -888,8 +888,8 @@
         <lastmod>2019-10-30</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/energy-production-and-changing-energy-sources</loc>
-        <lastmod>2019-10-25</lastmod>
+        <loc>https://ourworldindata.org/energy</loc>
+        <lastmod>2020-01-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/natural-disasters</loc>
@@ -913,7 +913,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/coverage</loc>
-        <lastmod>2019-12-18</lastmod>
+        <lastmod>2020-01-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/optimism-pessimism</loc>
@@ -1797,7 +1797,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/economic-growth-since-1950</loc>
-        <lastmod>2019-10-30</lastmod>
+        <lastmod>2020-01-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/estimates-of-the-number-of-missing-women-in-the-world</loc>
@@ -2429,7 +2429,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-89</loc>
-        <lastmod>2019-10-30</lastmod>
+        <lastmod>2020-01-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-90</loc>
@@ -2545,7 +2545,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/pneumonia</loc>
-        <lastmod>2019-12-24</lastmod>
+        <lastmod>2020-01-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-114</loc>
@@ -2589,7 +2589,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-123</loc>
-        <lastmod>2019-11-12</lastmod>
+        <lastmod>2020-01-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-124</loc>
@@ -3593,7 +3593,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-food-exports</loc>
-        <lastmod>2018-03-15</lastmod>
+        <lastmod>2020-01-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-manufacture-exports</loc>
@@ -4505,7 +4505,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/primary-energy-consumption-by-source-and-region</loc>
-        <lastmod>2019-11-22</lastmod>
+        <lastmod>2020-01-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/crude-oil-prices</loc>
@@ -13049,7 +13049,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/exports-from-western-europe-to-other-regions</loc>
-        <lastmod>2018-11-06</lastmod>
+        <lastmod>2020-01-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/exports-within-western-europe</loc>
@@ -14605,11 +14605,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/pneumonia-and-lower-respiratory-diseases-deaths</loc>
-        <lastmod>2019-12-24</lastmod>
+        <lastmod>2020-01-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/pneumonia-death-rates-in-children-under-5</loc>
-        <lastmod>2019-12-13</lastmod>
+        <lastmod>2020-01-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-deaths-from-pneumonia-in-children-under-5</loc>
@@ -14961,7 +14961,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/pneumonia-mortality-by-age</loc>
-        <lastmod>2019-12-13</lastmod>
+        <lastmod>2020-01-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-from-pneumonia-in-people-aged-70-and-older-by-risk-factor</loc>
@@ -14977,7 +14977,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/pneumonia-death-rates-age-standardized</loc>
-        <lastmod>2019-12-13</lastmod>
+        <lastmod>2020-01-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/child-deaths-from-malaria</loc>
@@ -15690,5 +15690,9 @@
     <url>
         <loc>https://ourworldindata.org/grapher/co2-mitigation-2c</loc>
         <lastmod>2019-12-13</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/primary-energy-cons-by-source</loc>
+        <lastmod>2020-01-06</lastmod>
     </url>
 </urlset>
