@@ -729,7 +729,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/child-mortality</loc>
-        <lastmod>2020-01-08</lastmod>
+        <lastmod>2020-01-13</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/vaccination</loc>
@@ -15734,5 +15734,9 @@
     <url>
         <loc>https://ourworldindata.org/grapher/share-of-births-outside-marriage</loc>
         <lastmod>2020-01-09</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/share-of-single-parent-families</loc>
+        <lastmod>2020-01-13</lastmod>
     </url>
 </urlset>
