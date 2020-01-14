@@ -5,9 +5,9 @@ Albania,2000,28.5,Survey,2000 MICS_HH,23.9,Survey,2000 MICS
 Albania,2002,26.9,Survey,2002 RHS,22.9,Survey,2002 RHS
 Albania,2008,28.799999,Survey,2008-2009 DHS,24.6,Survey,2008-2009 DHS
 Albania,2017,30.799999,Survey,2017-2018 DHS,24.200001,Survey,2017-2018 DHS
-Algeria,2002,33,Survey,2002 MCH,29.5,Survey,2002 MCH
-Algeria,2006,33.400002,Survey,2006 MICS,29.700001,Survey,2006 MICS
-Algeria,2012,32.400002,Survey,2012 MICS_HH,28.200001,Survey,2012 MICS
+Algeria,1977,25.299999,Census,1977 Census,,N/A,N/A
+Algeria,1987,27.700001,Census,1987 Census,,N/A,N/A
+Algeria,2008,32.900002,Census,2008 Census,,N/A,N/A
 American Samoa,1974,26.200001,Census,1974 Census,23.299999,Census,1974 Census
 American Samoa,1990,28.299999,Census,1990 Census,25.700001,Census,1990 Census
 Angola,2001,24.1,Survey,2001 MICS_HH,20.299999,Survey,2001 MICS
@@ -27,33 +27,46 @@ Aruba,1981,27.4,Census,1981 Census,25.5,Census,1981 Census
 Aruba,1991,28.799999,Census,1991 Census,26.200001,Census,1991 Census
 Aruba,2000,29.9,Census,2000 Census,26.799999,Census,2000 Census
 Aruba,2010,31.200001,Census,2010 Census,28.5,Census,2010 Census
-Australia,1971,24.4,Census,1971 Census,21.5,Census,1971 Census
-Australia,1976,24.4,Census,1976 Census,22,Census,1976 Census
-Australia,1981,25.700001,Census,1981 Census,23.5,Census,1981 Census
-Australia,1986,27.1,Census,1986 Census,24.799999,Census,1986 Census
-Australia,1996,29.9,Census,1996 Census,27.700001,Census,1996 Census
-Australia,2001,31,Census,2001 Census,28.9,Census,2001 Census
-Australia,2006,31.6,Census,2006 Census,29.700001,Census,2006 Census
-Australia,2011,31.4,Census,2011 Census,29.9,Census,2011 Census
-Australia,2016,31.200001,Census,2016 Census,29.9,Census,2016 Census
-Austria,1971,26,Census,1971 Census,21.9,Census,1971 Census
-Austria,1981,26.9,Census,1981 Census,23.5,Census,1981 Census
-Austria,1991,28.9,Census,1991 Census,26.1,Census,1991 Census
-Austria,2001,29.5,Census,2001 Census,26.6,Census,2001 Census
-Austria,2011,29.799999,Census,2011 Census,27.1,Census,2011 Census
-Azerbaijan,2000,27.299999,Survey,2000 MICS_HH,23.9,Survey,2000 MICS
-Azerbaijan,2006,26.700001,Survey,2006 DHS,23.1,Survey,2006 DHS
+Australia,1988,27.9,UNSD Estimate,1988 Estimate,25.5,UNSD Estimate,1988 Estimate
+Australia,1989,28.1,UNSD Estimate,1989 Estimate,25.799999,UNSD Estimate,1989 Estimate
+Australia,1990,28.4,UNSD Estimate,1990 Estimate,26,UNSD Estimate,1990 Estimate
+Australia,1992,28.6,UNSD Estimate,1992 Estimate,26.4,UNSD Estimate,1992 Estimate
+Australia,1993,28.9,UNSD Estimate,1993 Estimate,26.700001,UNSD Estimate,1993 Estimate
+Australia,1994,29.200001,UNSD Estimate,1994 Estimate,27,UNSD Estimate,1994 Estimate
+Australia,1997,30.200001,UNSD Estimate,1997 Estimate,28,UNSD Estimate,1997 Estimate
+Australia,1999,30.700001,UNSD Estimate,1999 Estimate,28.5,UNSD Estimate,1999 Estimate
+Australia,2006,31.799999,UNSD Estimate,2006 Estimate,29.9,UNSD Estimate,2006 Estimate
+Austria,1970,26.4,UNSD Estimate,1970 Estimate,22.299999,UNSD Estimate,1970 Estimate
+Austria,1972,26.1,UNSD Estimate,1972 Estimate,21.9,UNSD Estimate,1972 Estimate
+Austria,1973,26.200001,UNSD Estimate,1973 Estimate,22,UNSD Estimate,1973 Estimate
+Austria,1974,26.299999,UNSD Estimate,1974 Estimate,22.1,UNSD Estimate,1974 Estimate
+Austria,1975,26.4,UNSD Estimate,1975 Estimate,22.299999,UNSD Estimate,1975 Estimate
+Austria,1976,26.5,UNSD Estimate,1976 Estimate,22.4,UNSD Estimate,1976 Estimate
+Austria,1977,26.700001,UNSD Estimate,1977 Estimate,22.700001,UNSD Estimate,1977 Estimate
+Austria,1978,26.9,UNSD Estimate,1978 Estimate,23,UNSD Estimate,1978 Estimate
+Austria,1979,27.1,UNSD Estimate,1979 Estimate,23.299999,UNSD Estimate,1979 Estimate
+Austria,1980,27.299999,UNSD Estimate,1980 Estimate,23.6,UNSD Estimate,1980 Estimate
+Austria,1981,27.4,UNSD Estimate,1981 Estimate,23.799999,UNSD Estimate,1981 Estimate
+Austria,1982,27.6,UNSD Estimate,1982 Estimate,24.1,UNSD Estimate,1982 Estimate
+Azerbaijan,2012,28.200001,UNSD Estimate,2012 Estimate,24.299999,UNSD Estimate,2012 Estimate
+Azerbaijan,2013,28.200001,UNSD Estimate,2013 Estimate,24.299999,UNSD Estimate,2013 Estimate
+Azerbaijan,2014,28.200001,UNSD Estimate,2014 Estimate,24.299999,UNSD Estimate,2014 Estimate
+Azerbaijan,2015,28.1,UNSD Estimate,2015 Estimate,24.299999,UNSD Estimate,2015 Estimate
+Azerbaijan,2016,28.1,UNSD Estimate,2016 Estimate,24.200001,UNSD Estimate,2016 Estimate
+Azerbaijan,2017,28.1,UNSD Estimate,2017 Estimate,24.200001,UNSD Estimate,2017 Estimate
+Azerbaijan,2018,28.1,UNSD Estimate,2018 Estimate,24.200001,UNSD Estimate,2018 Estimate
 Bahamas,1970,26,Census,1970 Census,22.4,Census,1970 Census
 Bahamas,1980,27.299999,Census,1980 Census,24.799999,Census,1980 Census
 Bahamas,1990,29.1,Census,1990 Census,27.200001,Census,1990 Census
 Bahamas,2000,29.9,Census,2000 Census,27.4,Census,2000 Census
 Bahamas,2010,30.6,Census,2010 Census,27.9,Census,2010 Census
-Bahrain,1989,28.799999,Survey,1989 CHS,,N/A,N/A
-Bahrain,1995,29.6,Survey,1995 FHS,,N/A,N/A
-Bangladesh,1975,24,Survey,1975-1976 WFS,16.700001,Survey,1975-1976 WFS
-Bangladesh,2004,25.6,Survey,2004 DHS,18.700001,Survey,2004 DHS
-Bangladesh,2007,25.6,Survey,2007 DHS,18.4,Survey,2007 DHS
-Bangladesh,2011,25.5,Survey,2011 DHS,18.6,Survey,2011 DHS
+Bahrain,1991,28.4,Census,1991 Census,25.6,Census,1991 Census
+Bahrain,2001,30,Census,2001 Census,26.299999,Census,2001 Census
+Bangladesh,1974,24,Census,1974 Census,,N/A,N/A
+Bangladesh,1981,23.9,Census,1981 Census,,N/A,N/A
+Bangladesh,1991,24.9,Census,1991 Census,,N/A,N/A
+Bangladesh,2001,25.299999,Census,2001 Census,,N/A,N/A
+Bangladesh,2011,25.200001,Census,2011 Census,18.6,Survey,2011 DHS
 Barbados,1970,31.700001,Census,1970 Census,28.5,Census,1970 Census
 Barbados,1980,32.700001,Census,1980 Census,30.4,Census,1980 Census
 Barbados,1990,34.299999,Census,1990 Census,31.799999,Census,1990 Census
@@ -62,10 +75,13 @@ Belarus,1979,24.6,Census,1979 Census,21.299999,Census,1979 Census
 Belarus,1989,24.5,Census,1989 Census,21.9,Census,1989 Census
 Belarus,1999,25.4,Census,1999 Census,22.799999,Census,1999 Census
 Belarus,2009,26.9,Census,2009 Census,24.6,Census,2009 Census
-Belgium,1970,24.200001,Census,1970 Census,21.4,Census,1970 Census
-Belgium,1981,24.799999,Census,1981 Census,22.4,Census,1981 Census
-Belgium,2001,30.9,Census,2001 Census,28.4,Census,2001 Census
-Belgium,2011,28.6,Census,2011 Census,26.299999,Census,2011 Census
+Belgium,1991,27.5,UNSD Estimate,1991 Estimate,25.1,UNSD Estimate,1991 Estimate
+Belgium,1999,31.200001,UNSD Estimate,1999 Estimate,28.700001,UNSD Estimate,1999 Estimate
+Belgium,2000,30.700001,UNSD Estimate,2000 Estimate,28.200001,UNSD Estimate,2000 Estimate
+Belgium,2004,32,UNSD Estimate,2004 Estimate,29.5,UNSD Estimate,2004 Estimate
+Belgium,2006,32.200001,UNSD Estimate,2006 Estimate,29.799999,UNSD Estimate,2006 Estimate
+Belgium,2007,32.599998,UNSD Estimate,2007 Estimate,30.200001,UNSD Estimate,2007 Estimate
+Belgium,2009,33,UNSD Estimate,2009 Estimate,30.700001,UNSD Estimate,2009 Estimate
 Belize,1970,26,Census,1970 Census,22.6,Census,1970 Census
 Belize,1980,26.200001,Census,1980 Census,23.9,Census,1980 Census
 Belize,1991,28.4,Census,1991 Census,26.200001,Census,1991 Census
@@ -107,10 +123,11 @@ Brunei,1971,26.299999,Census,1971 Census,22.4,Census,1971 Census
 Brunei,1981,26.5,Census,1981 Census,23.6,Census,1981 Census
 Brunei,1991,27.299999,Census,1991 Census,25.1,Census,1991 Census
 Brunei,2011,29.299999,Census,2011 Census,26.1,Census,2011 Census
-Bulgaria,1975,24.5,Census,1975 Census,20.799999,Census,1975 Census
-Bulgaria,1985,24.9,Census,1985 Census,21.1,Census,1985 Census
-Bulgaria,2001,27.5,Census,2001 Census,24.200001,Census,2001 Census
-Bulgaria,2011,29.799999,Census,2011 Census,26.200001,Census,2011 Census
+Bulgaria,2014,34.900002,UNSD Estimate,2014 Estimate,31.700001,UNSD Estimate,2014 Estimate
+Bulgaria,2015,35.200001,UNSD Estimate,2015 Estimate,32,UNSD Estimate,2015 Estimate
+Bulgaria,2016,35.400002,UNSD Estimate,2016 Estimate,32.299999,UNSD Estimate,2016 Estimate
+Bulgaria,2017,35.599998,UNSD Estimate,2017 Estimate,32.5,UNSD Estimate,2017 Estimate
+Bulgaria,2018,35.700001,UNSD Estimate,2018 Estimate,32.599998,UNSD Estimate,2018 Estimate
 Burkina Faso,1960,26.4,Survey,1960-1961 ED,16.799999,Survey,1960-1961 ED
 Burkina Faso,1984,25.700001,Survey,1984 ED,18.5,Survey,1984 ED
 Burkina Faso,1991,27.6,Survey,1991 ED,19,Survey,1991 ED
@@ -139,16 +156,36 @@ Cameroon,2000,28.1,Survey,2000 MICS_HH,22.700001,Survey,2000 MICS_HH
 Cameroon,2004,25,Survey,2004 DHS,20.1,Survey,2004 DHS
 Cameroon,2011,27.200001,Survey,2011 DHS-MICS,21.299999,Survey,2011 DHS-MICS
 Cameroon,2014,28.5,Survey,2014 MICS,22.200001,Survey,2014 MICS
-Canada,1971,24.4,Census,1971 Census,22,Census,1971 Census
-Canada,1976,24.4,Census,1976 Census,22.299999,Census,1976 Census
-Canada,1981,25.200001,Census,1981 Census,23.1,Census,1981 Census
-Canada,1986,26.5,Census,1986 Census,24.299999,Census,1986 Census
-Canada,1991,29.4,Census,1991 Census,27.1,Census,1991 Census
-Canada,1996,28.5,Census,1996 Census,26,Census,1996 Census
-Canada,2001,28.700001,Census,2001 Census,26.299999,Census,2001 Census
-Canada,2006,28.6,Census,2006 Census,26.6,Census,2006 Census
-Canada,2011,28.6,Census,2011 Census,26.9,Census,2011 Census
-Canada,2016,28.700001,Census,2016 Census,27.200001,Census,2016 Census
+Canada,1977,24.700001,UNSD Estimate,1977 Estimate,22.6,UNSD Estimate,1977 Estimate
+Canada,1979,25.200001,UNSD Estimate,1979 Estimate,23.1,UNSD Estimate,1979 Estimate
+Canada,1980,25.5,UNSD Estimate,1980 Estimate,23.4,UNSD Estimate,1980 Estimate
+Canada,1982,25.5,UNSD Estimate,1982 Estimate,23.299999,UNSD Estimate,1982 Estimate
+Canada,1983,25.700001,UNSD Estimate,1983 Estimate,24.6,UNSD Estimate,1983 Estimate
+Canada,1984,26,UNSD Estimate,1984 Estimate,23.799999,UNSD Estimate,1984 Estimate
+Canada,1985,26.299999,UNSD Estimate,1985 Estimate,24.1,UNSD Estimate,1985 Estimate
+Canada,1986,26.9,UNSD Estimate,1986 Estimate,24.700001,UNSD Estimate,1986 Estimate
+Canada,1987,26.9,UNSD Estimate,1987 Estimate,24.6,UNSD Estimate,1987 Estimate
+Canada,1988,27.200001,UNSD Estimate,1988 Estimate,24.9,UNSD Estimate,1988 Estimate
+Canada,1989,27.6,UNSD Estimate,1989 Estimate,25.200001,UNSD Estimate,1989 Estimate
+Canada,1990,27.9,UNSD Estimate,1990 Estimate,25.5,UNSD Estimate,1990 Estimate
+Canada,1991,27.700001,UNSD Estimate,1991 Estimate,25.200001,UNSD Estimate,1991 Estimate
+Canada,1992,28.1,UNSD Estimate,1992 Estimate,25.6,UNSD Estimate,1992 Estimate
+Canada,1993,28.5,UNSD Estimate,1993 Estimate,25.9,UNSD Estimate,1993 Estimate
+Canada,1994,28.9,UNSD Estimate,1994 Estimate,26.200001,UNSD Estimate,1994 Estimate
+Canada,1995,29.299999,UNSD Estimate,1995 Estimate,26.6,UNSD Estimate,1995 Estimate
+Canada,1996,29.6,UNSD Estimate,1996 Estimate,26.9,UNSD Estimate,1996 Estimate
+Canada,1997,29.1,UNSD Estimate,1997 Estimate,26.4,UNSD Estimate,1997 Estimate
+Canada,1998,29.1,UNSD Estimate,1998 Estimate,26.4,UNSD Estimate,1998 Estimate
+Canada,1999,29.299999,UNSD Estimate,1999 Estimate,26.5,UNSD Estimate,1999 Estimate
+Canada,2000,29.4,UNSD Estimate,2000 Estimate,26.6,UNSD Estimate,2000 Estimate
+Canada,2001,29.5,UNSD Estimate,2001 Estimate,26.799999,UNSD Estimate,2001 Estimate
+Canada,2002,29.6,UNSD Estimate,2002 Estimate,26.799999,UNSD Estimate,2002 Estimate
+Canada,2003,29.299999,UNSD Estimate,2003 Estimate,26.700001,UNSD Estimate,2003 Estimate
+Canada,2004,29.4,UNSD Estimate,2004 Estimate,26.799999,UNSD Estimate,2004 Estimate
+Canada,2006,29.5,UNSD Estimate,2006 Estimate,26.9,UNSD Estimate,2006 Estimate
+Canada,2013,28.799999,UNSD Estimate,2013 Estimate,27.1,UNSD Estimate,2013 Estimate
+Canada,2015,28.799999,UNSD Estimate,2015 Estimate,27.1,UNSD Estimate,2015 Estimate
+Canada,2016,28.799999,UNSD Estimate,2016 Estimate,27.200001,UNSD Estimate,2016 Estimate
 Cayman Islands,1970,25.4,Census,1970 Census,19.700001,Census,1970 Census
 Cayman Islands,1979,27.299999,Census,1979 Census,25.5,Census,1979 Census
 Cayman Islands,1989,27.6,Census,1989 Census,25.200001,Census,1989 Census
@@ -164,10 +201,17 @@ Channel Islands,1981,26.5,Census,1981 Census,24.6,Census,1981 Census
 Channel Islands,1986,28.200001,Census,1986 Census,26.799999,Census,1986 Census
 Channel Islands,1991,29.299999,Census,1991 Census,28.200001,Census,1991 Census
 Channel Islands,2001,31.299999,Census,2001 Census,29.700001,Census,2001 Census
-Chile,1970,25.700001,Census,1970 Census,23.4,Census,1970 Census
-Chile,1982,25.700001,Census,1982 Census,23.6,Census,1982 Census
-Chile,1992,25.799999,Census,1992 Census,23.4,Census,1992 Census
-Chile,2002,27.700001,Census,2002 Census,24.6,Census,2002 Census
+Chile,1971,25.700001,UNSD Estimate,1971 Estimate,23.4,UNSD Estimate,1971 Estimate
+Chile,1976,25.4,UNSD Estimate,1976 Estimate,23.4,UNSD Estimate,1976 Estimate
+Chile,1977,25.299999,UNSD Estimate,1977 Estimate,23.4,UNSD Estimate,1977 Estimate
+Chile,1978,25.200001,UNSD Estimate,1978 Estimate,23.4,UNSD Estimate,1978 Estimate
+Chile,1979,25.700001,UNSD Estimate,1979 Estimate,23.299999,UNSD Estimate,1979 Estimate
+Chile,1980,25.700001,UNSD Estimate,1980 Estimate,23.299999,UNSD Estimate,1980 Estimate
+Chile,1981,25.700001,UNSD Estimate,1981 Estimate,23.299999,UNSD Estimate,1981 Estimate
+Chile,1982,25.700001,UNSD Estimate,1982 Estimate,23.299999,UNSD Estimate,1982 Estimate
+Chile,1983,25.700001,UNSD Estimate,1983 Estimate,23.299999,UNSD Estimate,1983 Estimate
+Chile,1984,25.700001,UNSD Estimate,1984 Estimate,23.299999,UNSD Estimate,1984 Estimate
+Chile,1985,25.700001,UNSD Estimate,1985 Estimate,23.299999,UNSD Estimate,1985 Estimate
 China,1995,24.200001,Survey,1995 One-percent Survey,22.6,Survey,1995 One-percent Survey
 China,2005,25.6,Survey,2005 One-percent Survey,23.5,Survey,2005 One-percent Survey
 China,2013,26.200001,Survey,2013 Annual APC,24.4,Survey,2013 Annual APC
@@ -209,10 +253,17 @@ Cook Islands,1981,26.200001,Census,1981 Census,25.6,Census,1981 Census
 Cook Islands,1986,28.5,Census,1986 Census,27.700001,Census,1986 Census
 Cook Islands,1996,31.200001,Census,1996 Census,29.6,Census,1996 Census
 Cook Islands,2006,27.9,Census,2006 Census,28,Census,2006 Census
-Costa Rica,1973,25.4,Census,1973 Census,21.700001,Census,1973 Census
-Costa Rica,1984,25.1,Census,1984 Census,22.200001,Census,1984 Census
-Costa Rica,2000,26,Census,2000 Census,22.200001,Census,2000 Census
-Costa Rica,2011,27,Census,2011 Census,23.9,Census,2011 Census
+Costa Rica,2003,26.9,UNSD Estimate,2003 Estimate,23.4,UNSD Estimate,2003 Estimate
+Costa Rica,2006,27,UNSD Estimate,2006 Estimate,23.6,UNSD Estimate,2006 Estimate
+Costa Rica,2007,27.6,UNSD Estimate,2007 Estimate,24.1,UNSD Estimate,2007 Estimate
+Costa Rica,2009,27.9,UNSD Estimate,2009 Estimate,24.4,UNSD Estimate,2009 Estimate
+Costa Rica,2010,27.799999,UNSD Estimate,2010 Estimate,24.200001,UNSD Estimate,2010 Estimate
+Costa Rica,2013,29.1,UNSD Estimate,2013 Estimate,26.6,UNSD Estimate,2013 Estimate
+Costa Rica,2014,28.799999,UNSD Estimate,2014 Estimate,25.700001,UNSD Estimate,2014 Estimate
+Costa Rica,2015,28.1,UNSD Estimate,2015 Estimate,24.9,UNSD Estimate,2015 Estimate
+Costa Rica,2016,28.299999,UNSD Estimate,2016 Estimate,25.299999,UNSD Estimate,2016 Estimate
+Costa Rica,2017,28.6,UNSD Estimate,2017 Estimate,25.9,UNSD Estimate,2017 Estimate
+Costa Rica,2018,29.200001,UNSD Estimate,2018 Estimate,26.4,UNSD Estimate,2018 Estimate
 Croatia,1991,28,Census,1991 Census,23.799999,Census,1991 Census
 Croatia,2001,29.799999,Census,2001 Census,26.200001,Census,2001 Census
 Croatia,2011,30.200001,Census,2011 Census,27.4,Census,2011 Census
@@ -225,11 +276,26 @@ Cyprus,1976,26.299999,Census,1976 Census,24.200001,Census,1976 Census
 Cyprus,1992,27,Census,1992 Census,23.1,Census,1992 Census
 Cyprus,2001,28.700001,Census,2001 Census,25.200001,Census,2001 Census
 Cyprus,2011,29.299999,Census,2011 Census,26.4,Census,2011 Census
-Czech Republic,1970,24.299999,Census,1970 Census,21.200001,Census,1970 Census
-Czech Republic,1980,24.6,Census,1980 Census,21.299999,Census,1980 Census
-Czech Republic,1991,25.200001,Census,1991 Census,21.9,Census,1991 Census
-Czech Republic,2001,28.6,Census,2001 Census,25.799999,Census,2001 Census
-Czech Republic,2011,31.1,Census,2011 Census,28.5,Census,2011 Census
+Czech Republic,1991,25.299999,UNSD Estimate,1991 Estimate,22,UNSD Estimate,1991 Estimate
+Czech Republic,1993,25.6,UNSD Estimate,1993 Estimate,22.5,UNSD Estimate,1993 Estimate
+Czech Republic,1994,26,UNSD Estimate,1994 Estimate,23,UNSD Estimate,1994 Estimate
+Czech Republic,1995,26.4,UNSD Estimate,1995 Estimate,23.4,UNSD Estimate,1995 Estimate
+Czech Republic,1996,26.799999,UNSD Estimate,1996 Estimate,23.9,UNSD Estimate,1996 Estimate
+Czech Republic,2002,29.200001,UNSD Estimate,2002 Estimate,26.6,UNSD Estimate,2002 Estimate
+Czech Republic,2004,30.1,UNSD Estimate,2004 Estimate,27.6,UNSD Estimate,2004 Estimate
+Czech Republic,2005,30.5,UNSD Estimate,2005 Estimate,28.1,UNSD Estimate,2005 Estimate
+Czech Republic,2006,30.9,UNSD Estimate,2006 Estimate,28.5,UNSD Estimate,2006 Estimate
+Czech Republic,2007,31.200001,UNSD Estimate,2007 Estimate,28.9,UNSD Estimate,2007 Estimate
+Czech Republic,2008,31.6,UNSD Estimate,2008 Estimate,29.299999,UNSD Estimate,2008 Estimate
+Czech Republic,2009,32.099998,UNSD Estimate,2009 Estimate,29.799999,UNSD Estimate,2009 Estimate
+Czech Republic,2011,32.599998,UNSD Estimate,2011 Estimate,30.200001,UNSD Estimate,2011 Estimate
+Czech Republic,2012,32.900002,UNSD Estimate,2012 Estimate,30.4,UNSD Estimate,2012 Estimate
+Czech Republic,2013,33.299999,UNSD Estimate,2013 Estimate,30.9,UNSD Estimate,2013 Estimate
+Czech Republic,2014,33.700001,UNSD Estimate,2014 Estimate,31.299999,UNSD Estimate,2014 Estimate
+Czech Republic,2015,34.099998,UNSD Estimate,2015 Estimate,31.700001,UNSD Estimate,2015 Estimate
+Czech Republic,2016,34.400002,UNSD Estimate,2016 Estimate,32,UNSD Estimate,2016 Estimate
+Czech Republic,2017,34.599998,UNSD Estimate,2017 Estimate,32.299999,UNSD Estimate,2017 Estimate
+Czech Republic,2018,34.799999,UNSD Estimate,2018 Estimate,32.400002,UNSD Estimate,2018 Estimate
 Cote d'Ivoire,1994,28.1,Survey,1994 DHS,20.9,Survey,1994 DHS
 Cote d'Ivoire,1998,28,Survey,1998-1999 DHS,21.9,Survey,1998-1999 DHS
 Cote d'Ivoire,2000,29.200001,Survey,2000 MICS_HH,22.799999,Survey,2000 MICS
@@ -241,10 +307,48 @@ Democratic Republic of Congo,1991,24.6,Survey,1991 Survey,19.700001,Survey,1991 
 Democratic Republic of Congo,2001,26.799999,Survey,2001 MICS_HH,21,Survey,2001 MICS
 Democratic Republic of Congo,2007,25.200001,Survey,2007 DHS,20.799999,Survey,2007 DHS
 Democratic Republic of Congo,2013,25.5,Survey,2013-2014 DHS,20.9,Survey,2013-2014 DHS
-Denmark,1970,25.1,Census,1970 Census,22.1,Census,1970 Census
-Denmark,1981,28.4,Census,1981 Census,25.6,Census,1981 Census
-Denmark,1991,27.299999,Census,1991 Census,24.5,Census,1991 Census
-Denmark,2011,27.4,Census,2011 Census,25.4,Census,2011 Census
+Denmark,1970,25.1,UNSD Estimate,1970 Estimate,22,UNSD Estimate,1970 Estimate
+Denmark,1971,25.1,UNSD Estimate,1971 Estimate,22.200001,UNSD Estimate,1971 Estimate
+Denmark,1972,25.4,UNSD Estimate,1972 Estimate,22.4,UNSD Estimate,1972 Estimate
+Denmark,1973,25.700001,UNSD Estimate,1973 Estimate,22.700001,UNSD Estimate,1973 Estimate
+Denmark,1974,26,UNSD Estimate,1974 Estimate,23.1,UNSD Estimate,1974 Estimate
+Denmark,1975,26.200001,UNSD Estimate,1975 Estimate,23.4,UNSD Estimate,1975 Estimate
+Denmark,1976,26.5,UNSD Estimate,1976 Estimate,23.700001,UNSD Estimate,1976 Estimate
+Denmark,1977,26.9,UNSD Estimate,1977 Estimate,24,UNSD Estimate,1977 Estimate
+Denmark,1978,27.200001,UNSD Estimate,1978 Estimate,24.299999,UNSD Estimate,1978 Estimate
+Denmark,1979,27.6,UNSD Estimate,1979 Estimate,24.799999,UNSD Estimate,1979 Estimate
+Denmark,1980,28,UNSD Estimate,1980 Estimate,25.200001,UNSD Estimate,1980 Estimate
+Denmark,1982,28.9,UNSD Estimate,1982 Estimate,26.1,UNSD Estimate,1982 Estimate
+Denmark,1983,29.4,UNSD Estimate,1983 Estimate,26.700001,UNSD Estimate,1983 Estimate
+Denmark,1984,29.799999,UNSD Estimate,1984 Estimate,27.1,UNSD Estimate,1984 Estimate
+Denmark,1985,30.200001,UNSD Estimate,1985 Estimate,27.5,UNSD Estimate,1985 Estimate
+Denmark,1986,30.6,UNSD Estimate,1986 Estimate,27.9,UNSD Estimate,1986 Estimate
+Denmark,1987,30.9,UNSD Estimate,1987 Estimate,28.299999,UNSD Estimate,1987 Estimate
+Denmark,1988,31.200001,UNSD Estimate,1988 Estimate,28.6,UNSD Estimate,1988 Estimate
+Denmark,1990,31.9,UNSD Estimate,1990 Estimate,29.299999,UNSD Estimate,1990 Estimate
+Denmark,1992,32.299999,UNSD Estimate,1992 Estimate,29.799999,UNSD Estimate,1992 Estimate
+Denmark,1994,27.700001,UNSD Estimate,1994 Estimate,25,UNSD Estimate,1994 Estimate
+Denmark,1995,27.700001,UNSD Estimate,1995 Estimate,25,UNSD Estimate,1995 Estimate
+Denmark,1996,27.700001,UNSD Estimate,1996 Estimate,25.1,UNSD Estimate,1996 Estimate
+Denmark,1997,27.700001,UNSD Estimate,1997 Estimate,25.1,UNSD Estimate,1997 Estimate
+Denmark,2001,32.900002,UNSD Estimate,2001 Estimate,30.700001,UNSD Estimate,2001 Estimate
+Denmark,2002,32.799999,UNSD Estimate,2002 Estimate,30.799999,UNSD Estimate,2002 Estimate
+Denmark,2003,32.900002,UNSD Estimate,2003 Estimate,30.9,UNSD Estimate,2003 Estimate
+Denmark,2004,32.799999,UNSD Estimate,2004 Estimate,30.799999,UNSD Estimate,2004 Estimate
+Denmark,2005,32.799999,UNSD Estimate,2005 Estimate,30.799999,UNSD Estimate,2005 Estimate
+Denmark,2006,32.799999,UNSD Estimate,2006 Estimate,30.9,UNSD Estimate,2006 Estimate
+Denmark,2007,32.799999,UNSD Estimate,2007 Estimate,30.9,UNSD Estimate,2007 Estimate
+Denmark,2008,32.700001,UNSD Estimate,2008 Estimate,30.799999,UNSD Estimate,2008 Estimate
+Denmark,2009,32.700001,UNSD Estimate,2009 Estimate,30.799999,UNSD Estimate,2009 Estimate
+Denmark,2010,32.700001,UNSD Estimate,2010 Estimate,30.799999,UNSD Estimate,2010 Estimate
+Denmark,2011,32.799999,UNSD Estimate,2011 Estimate,31,UNSD Estimate,2011 Estimate
+Denmark,2012,33,UNSD Estimate,2012 Estimate,31.1,UNSD Estimate,2012 Estimate
+Denmark,2013,33.200001,UNSD Estimate,2013 Estimate,31.299999,UNSD Estimate,2013 Estimate
+Denmark,2014,33.299999,UNSD Estimate,2014 Estimate,31.5,UNSD Estimate,2014 Estimate
+Denmark,2015,33.400002,UNSD Estimate,2015 Estimate,31.700001,UNSD Estimate,2015 Estimate
+Denmark,2016,33.599998,UNSD Estimate,2016 Estimate,31.799999,UNSD Estimate,2016 Estimate
+Denmark,2017,33.700001,UNSD Estimate,2017 Estimate,31.9,UNSD Estimate,2017 Estimate
+Denmark,2018,33.599998,UNSD Estimate,2018 Estimate,31.9,UNSD Estimate,2018 Estimate
 Djibouti,1991,29.299999,Survey,1991 ICS,26.799999,Survey,1991 ICS
 Djibouti,2002,30.799999,Survey,2002 FHS,27.700001,Survey,2002 FHS
 Djibouti,2012,33,Survey,2012 FHS,29.9,Survey,2012 FHS
@@ -255,10 +359,11 @@ Dominica,2001,36.5,Census,2001 Census,32.5,Census,2001 Census
 Dominican Republic,1996,25.5,Survey,1996 DHS,21.299999,Survey,1996 DHS
 Dominican Republic,1999,24.299999,Survey,1999 DHS,21.6,Survey,1999 DHS
 Dominican Republic,2000,26.1,Survey,2000 MICS_HH,21.4,Survey,2000 MICS
+Dominican Republic,2002,26.1,Survey,2002 DHS,21,Survey,2002 DHS
 Dominican Republic,2007,25.4,Survey,2007 DHS,21,Survey,2007 DHS
 Dominican Republic,2013,24.799999,Survey,2013 DHS,21,Survey,2013 DHS
 Ecuador,1974,25,Census,1974 Census,,N/A,N/A
-Ecuador,1982,24.799999,Census,1982 Census,,N/A,N/A
+Ecuador,1982,24.799999,Census,1982 Census,22,Survey,1982 ESMIVD
 Ecuador,1990,25.200001,Census,1990 Census,,N/A,N/A
 Ecuador,2001,24.6,Census,2001 Census,,N/A,N/A
 Ecuador,2010,25,Census,2010 Census,,N/A,N/A
@@ -277,8 +382,9 @@ Equatorial Guinea,2000,28.799999,Survey,2000 MICS_HH,21.299999,Survey,2000 MICS
 Equatorial Guinea,2011,26.1,Survey,2011 DHS,20.5,Survey,2011 DHS
 Eritrea,1995,25.299999,Survey,1995 DHS,19.5,Survey,1995 DHS
 Eritrea,2002,29.1,Survey,2002 DHS,20.6,Survey,2002 DHS
-Estonia,2000,26.700001,Census,2000 Census,24.5,Census,2000 Census
-Estonia,2011,28.6,Census,2011-2012 Census,25.700001,Census,2011-2012 Census
+Estonia,2014,35.200001,UNSD Estimate,2014 Estimate,32.799999,UNSD Estimate,2014 Estimate
+Estonia,2017,36.099998,UNSD Estimate,2017 Estimate,33.5,UNSD Estimate,2017 Estimate
+Estonia,2018,36.299999,UNSD Estimate,2018 Estimate,33.599998,UNSD Estimate,2018 Estimate
 Swaziland,2000,30.1,Survey,2000 MICS_HH,23.799999,Survey,2000 MICS
 Swaziland,2006,30,Survey,2006-2007 DHS,26,Survey,2006-2007 DHS
 Ethiopia,1964,26.200001,Survey,1964-1967 NSS Rural,19,Survey,1964-1967 NSS Rural
@@ -288,25 +394,83 @@ Ethiopia,2000,25.799999,Survey,2000 DHS,20.6,Survey,2000 DHS
 Ethiopia,2005,25.700001,Survey,2005 DHS,20.9,Survey,2005 DHS
 Ethiopia,2010,25.700001,Survey,2011 DHS,21.200001,Survey,2011 DHS
 Ethiopia,2016,25.799999,Survey,2016 DHS,21.299999,Survey,2016 DHS
-Faeroe Islands,1970,26,Census,1970 Census,21.4,Census,1970 Census
-Faeroe Islands,1977,27.200001,Census,1977 Census,23.6,Census,1977 Census
-Faeroe Islands,2011,33.299999,Census,2011 Census,30.700001,Census,2011 Census
+Faeroe Islands,1991,30.9,UNSD Estimate,1991 Estimate,28.200001,UNSD Estimate,1991 Estimate
+Faeroe Islands,1992,31,UNSD Estimate,1992 Estimate,28.299999,UNSD Estimate,1992 Estimate
+Faeroe Islands,2013,33.599998,UNSD Estimate,2013 Estimate,31,UNSD Estimate,2013 Estimate
+Faeroe Islands,2014,34.599998,UNSD Estimate,2014 Estimate,31.700001,UNSD Estimate,2014 Estimate
+Faeroe Islands,2015,34,UNSD Estimate,2015 Estimate,30.9,UNSD Estimate,2015 Estimate
+Faeroe Islands,2016,34,UNSD Estimate,2016 Estimate,30.799999,UNSD Estimate,2016 Estimate
+Faeroe Islands,2017,34.099998,UNSD Estimate,2017 Estimate,30.9,UNSD Estimate,2017 Estimate
+Faeroe Islands,2018,34.099998,UNSD Estimate,2018 Estimate,31,UNSD Estimate,2018 Estimate
 Falkland Islands,2016,29.799999,Census,2016 Census,29,Census,2016 Census
 Fiji,1976,24.700001,Census,1976 Census,21.700001,Census,1976 Census
 Fiji,1986,25.299999,Census,1986 Census,22.5,Census,1986 Census
 Fiji,2007,27.700001,Census,2007 Census,24.1,Census,2007 Census
-Finland,1970,25.6,Census,1970 Census,22.5,Census,1970 Census
-Finland,1975,26,Census,1975 Census,23.299999,Census,1975 Census
-Finland,1980,27.1,Census,1980 Census,24.6,Census,1980 Census
-Finland,1985,28.5,Census,1985 Census,26.1,Census,1985 Census
-Finland,1990,30.299999,Census,1990 Census,27.9,Census,1990 Census
-Finland,2000,32.400002,Census,2000 Census,30.299999,Census,2000 Census
-Finland,2010,31.9,Census,2010 Census,30.200001,Census,2010 Census
-France,1975,25.299999,Census,1975 Census,23,Census,1975 Census
-France,1982,26.4,Census,1982 Census,24.4,Census,1982 Census
-France,1990,29.799999,Census,1990 Census,27.700001,Census,1990 Census
-France,1999,32.200001,Census,1999 Census,30.1,Census,1999 Census
-France,2009,27.700001,Census,2011 Census,25.6,Census,2011 Census
+Finland,1972,25.700001,UNSD Estimate,1972 Estimate,22.799999,UNSD Estimate,1972 Estimate
+Finland,1973,25.799999,UNSD Estimate,1973 Estimate,22.9,UNSD Estimate,1973 Estimate
+Finland,1974,25.9,UNSD Estimate,1974 Estimate,23.1,UNSD Estimate,1974 Estimate
+Finland,1976,26.200001,UNSD Estimate,1976 Estimate,23.6,UNSD Estimate,1976 Estimate
+Finland,1977,26.4,UNSD Estimate,1977 Estimate,23.799999,UNSD Estimate,1977 Estimate
+Finland,1978,26.6,UNSD Estimate,1978 Estimate,24.1,UNSD Estimate,1978 Estimate
+Finland,1979,26.799999,UNSD Estimate,1979 Estimate,24.299999,UNSD Estimate,1979 Estimate
+Finland,1981,27.299999,UNSD Estimate,1981 Estimate,24.9,UNSD Estimate,1981 Estimate
+Finland,1982,27.6,UNSD Estimate,1982 Estimate,25.200001,UNSD Estimate,1982 Estimate
+Finland,1983,27.9,UNSD Estimate,1983 Estimate,25.4,UNSD Estimate,1983 Estimate
+Finland,1984,28.200001,UNSD Estimate,1984 Estimate,25.799999,UNSD Estimate,1984 Estimate
+Finland,1985,28.6,UNSD Estimate,1985 Estimate,26.1,UNSD Estimate,1985 Estimate
+Finland,1986,28.9,UNSD Estimate,1986 Estimate,26.5,UNSD Estimate,1986 Estimate
+Finland,1987,29.299999,UNSD Estimate,1987 Estimate,26.799999,UNSD Estimate,1987 Estimate
+Finland,1989,29.799999,UNSD Estimate,1989 Estimate,27.299999,UNSD Estimate,1989 Estimate
+Finland,1991,30.6,UNSD Estimate,1991 Estimate,28.200001,UNSD Estimate,1991 Estimate
+Finland,1994,31.5,UNSD Estimate,1994 Estimate,29,UNSD Estimate,1994 Estimate
+Finland,1995,31.6,UNSD Estimate,1995 Estimate,29.200001,UNSD Estimate,1995 Estimate
+Finland,1996,31.9,UNSD Estimate,1996 Estimate,29.6,UNSD Estimate,1996 Estimate
+Finland,1997,32.099998,UNSD Estimate,1997 Estimate,29.799999,UNSD Estimate,1997 Estimate
+Finland,1998,32.200001,UNSD Estimate,1998 Estimate,30,UNSD Estimate,1998 Estimate
+Finland,2003,32.400002,UNSD Estimate,2003 Estimate,30.5,UNSD Estimate,2003 Estimate
+Finland,2004,32.400002,UNSD Estimate,2004 Estimate,30.5,UNSD Estimate,2004 Estimate
+Finland,2005,32.299999,UNSD Estimate,2005 Estimate,30.5,UNSD Estimate,2005 Estimate
+Finland,2006,32.299999,UNSD Estimate,2006 Estimate,30.5,UNSD Estimate,2006 Estimate
+Finland,2007,32.200001,UNSD Estimate,2007 Estimate,30.5,UNSD Estimate,2007 Estimate
+Finland,2008,32.099998,UNSD Estimate,2008 Estimate,30.4,UNSD Estimate,2008 Estimate
+Finland,2009,32,UNSD Estimate,2009 Estimate,30.299999,UNSD Estimate,2009 Estimate
+Finland,2010,31.9,UNSD Estimate,2010 Estimate,30.200001,UNSD Estimate,2010 Estimate
+Finland,2011,31.9,UNSD Estimate,2011 Estimate,30.1,UNSD Estimate,2011 Estimate
+Finland,2012,31.9,UNSD Estimate,2012 Estimate,30.1,UNSD Estimate,2012 Estimate
+Finland,2013,31.9,UNSD Estimate,2013 Estimate,30.1,UNSD Estimate,2013 Estimate
+Finland,2014,32,UNSD Estimate,2014 Estimate,30.200001,UNSD Estimate,2014 Estimate
+Finland,2015,32.099998,UNSD Estimate,2015 Estimate,30.299999,UNSD Estimate,2015 Estimate
+Finland,2016,32.299999,UNSD Estimate,2016 Estimate,30.5,UNSD Estimate,2016 Estimate
+Finland,2017,32.5,UNSD Estimate,2017 Estimate,30.6,UNSD Estimate,2017 Estimate
+Finland,2018,32.599998,UNSD Estimate,2018 Estimate,30.700001,UNSD Estimate,2018 Estimate
+France,1970,25.200001,UNSD Estimate,1970 Estimate,22.299999,UNSD Estimate,1970 Estimate
+France,1971,25,UNSD Estimate,1971 Estimate,22.299999,UNSD Estimate,1971 Estimate
+France,1972,24.9,UNSD Estimate,1972 Estimate,22.200001,UNSD Estimate,1972 Estimate
+France,1973,24.700001,UNSD Estimate,1973 Estimate,22.200001,UNSD Estimate,1973 Estimate
+France,1974,24.6,UNSD Estimate,1974 Estimate,22.1,UNSD Estimate,1974 Estimate
+France,1975,24.5,UNSD Estimate,1975 Estimate,22.1,UNSD Estimate,1975 Estimate
+France,1976,24.5,UNSD Estimate,1976 Estimate,22.200001,UNSD Estimate,1976 Estimate
+France,1977,24.6,UNSD Estimate,1977 Estimate,22.299999,UNSD Estimate,1977 Estimate
+France,1978,24.700001,UNSD Estimate,1978 Estimate,22.5,UNSD Estimate,1978 Estimate
+France,1979,24.9,UNSD Estimate,1979 Estimate,22.700001,UNSD Estimate,1979 Estimate
+France,1980,25.1,UNSD Estimate,1980 Estimate,23,UNSD Estimate,1980 Estimate
+France,1981,25.4,UNSD Estimate,1981 Estimate,23.200001,UNSD Estimate,1981 Estimate
+France,1982,26.200001,UNSD Estimate,1982 Estimate,24.200001,UNSD Estimate,1982 Estimate
+France,1983,26.5,UNSD Estimate,1983 Estimate,24.6,UNSD Estimate,1983 Estimate
+France,1984,26.9,UNSD Estimate,1984 Estimate,25,UNSD Estimate,1984 Estimate
+France,1985,26.6,UNSD Estimate,1985 Estimate,24.700001,UNSD Estimate,1985 Estimate
+France,1986,27,UNSD Estimate,1986 Estimate,25.1,UNSD Estimate,1986 Estimate
+France,1987,27.5,UNSD Estimate,1987 Estimate,25.6,UNSD Estimate,1987 Estimate
+France,1988,27.9,UNSD Estimate,1988 Estimate,26,UNSD Estimate,1988 Estimate
+France,1989,28.4,UNSD Estimate,1989 Estimate,26.4,UNSD Estimate,1989 Estimate
+France,1990,28.799999,UNSD Estimate,1990 Estimate,26.799999,UNSD Estimate,1990 Estimate
+France,1991,29.200001,UNSD Estimate,1991 Estimate,27.200001,UNSD Estimate,1991 Estimate
+France,2000,32.299999,UNSD Estimate,2000 Estimate,30.200001,UNSD Estimate,2000 Estimate
+France,2001,32.599998,UNSD Estimate,2001 Estimate,30.5,UNSD Estimate,2001 Estimate
+France,2003,32.900002,UNSD Estimate,2003 Estimate,31,UNSD Estimate,2003 Estimate
+France,2005,33,UNSD Estimate,2005 Estimate,31,UNSD Estimate,2005 Estimate
+France,2012,33.599998,UNSD Estimate,2012 Estimate,32,UNSD Estimate,2012 Estimate
+France,2013,33.700001,UNSD Estimate,2013 Estimate,32,UNSD Estimate,2013 Estimate
 French Guiana,1982,30.200001,Census,1982 Census,27.5,Census,1982 Census
 French Guiana,1999,34.200001,Census,1999 Census,31.700001,Census,1999 Census
 French Guiana,2006,33.700001,Census,2006 Census,32,Census,2006 Census
@@ -322,8 +486,20 @@ Georgia,1979,26,Census,1979 Census,22.5,Census,1979 Census
 Georgia,1989,26.1,Census,1989 Census,22.4,Census,1989 Census
 Georgia,2002,28,Census,2002 Census,23.700001,Census,2002 Census
 Georgia,2014,27.4,Census,2014 Census,22.799999,Census,2014 Census
-Germany,1987,29,Census,1987 Census,26,Census,1987 Census
-Germany,2011,29.799999,Census,2011 Census,27.299999,Census,2011 Census
+Germany,1990,28.9,UNSD Estimate,1990 Estimate,26.1,UNSD Estimate,1990 Estimate
+Germany,1991,29.299999,UNSD Estimate,1991 Estimate,26.5,UNSD Estimate,1991 Estimate
+Germany,1992,29.6,UNSD Estimate,1992 Estimate,26.799999,UNSD Estimate,1992 Estimate
+Germany,1993,30,UNSD Estimate,1993 Estimate,27.200001,UNSD Estimate,1993 Estimate
+Germany,1994,30.299999,UNSD Estimate,1994 Estimate,27.5,UNSD Estimate,1994 Estimate
+Germany,2001,32.599998,UNSD Estimate,2001 Estimate,30.1,UNSD Estimate,2001 Estimate
+Germany,2004,33.299999,UNSD Estimate,2004 Estimate,30.5,UNSD Estimate,2004 Estimate
+Germany,2006,33.599998,UNSD Estimate,2006 Estimate,31,UNSD Estimate,2006 Estimate
+Germany,2012,34.200001,UNSD Estimate,2012 Estimate,31.9,UNSD Estimate,2012 Estimate
+Germany,2013,34.200001,UNSD Estimate,2013 Estimate,32,UNSD Estimate,2013 Estimate
+Germany,2014,33.599998,UNSD Estimate,2014 Estimate,31.200001,UNSD Estimate,2014 Estimate
+Germany,2015,33.700001,UNSD Estimate,2015 Estimate,31.4,UNSD Estimate,2015 Estimate
+Germany,2016,33.799999,UNSD Estimate,2016 Estimate,31.5,UNSD Estimate,2016 Estimate
+Germany,2018,33.900002,UNSD Estimate,2018 Estimate,31.700001,UNSD Estimate,2018 Estimate
 Ghana,1993,26.200001,Survey,1993 DHS,20.5,Survey,1993 DHS
 Ghana,1998,26.6,Survey,1998 DHS,21,Survey,1998 DHS
 Ghana,2003,26.6,Survey,2003 DHS,22.4,Survey,2003 DHS
@@ -339,8 +515,36 @@ Greece,1981,27.6,Census,1981 Census,22.5,Census,1981 Census
 Greece,1991,29.4,Census,1991 Census,24.5,Census,1991 Census
 Greece,2001,31.299999,Census,2001 Census,26.9,Census,2001 Census
 Greece,2011,32.799999,Census,2011 Census,29.200001,Census,2011 Census
-Greenland,1970,29.299999,Census,1970 Census,25,Census,1970 Census
-Greenland,1976,31,Census,1976 Census,26.9,Census,1976 Census
+Greenland,1974,30.1,UNSD Estimate,1974 Estimate,25.4,UNSD Estimate,1974 Estimate
+Greenland,1975,30.4,UNSD Estimate,1975 Estimate,25.799999,UNSD Estimate,1975 Estimate
+Greenland,1976,30.9,UNSD Estimate,1976 Estimate,26.5,UNSD Estimate,1976 Estimate
+Greenland,1977,31.1,UNSD Estimate,1977 Estimate,27,UNSD Estimate,1977 Estimate
+Greenland,1978,31.5,UNSD Estimate,1978 Estimate,27.5,UNSD Estimate,1978 Estimate
+Greenland,1979,31.799999,UNSD Estimate,1979 Estimate,27.6,UNSD Estimate,1979 Estimate
+Greenland,1980,31.9,UNSD Estimate,1980 Estimate,27.9,UNSD Estimate,1980 Estimate
+Greenland,1981,32.299999,UNSD Estimate,1981 Estimate,28.200001,UNSD Estimate,1981 Estimate
+Greenland,1982,32.5,UNSD Estimate,1982 Estimate,28.5,UNSD Estimate,1982 Estimate
+Greenland,1983,32.700001,UNSD Estimate,1983 Estimate,29,UNSD Estimate,1983 Estimate
+Greenland,1984,32.900002,UNSD Estimate,1984 Estimate,29.4,UNSD Estimate,1984 Estimate
+Greenland,1985,33.200001,UNSD Estimate,1985 Estimate,29.6,UNSD Estimate,1985 Estimate
+Greenland,1986,33.5,UNSD Estimate,1986 Estimate,29.9,UNSD Estimate,1986 Estimate
+Greenland,1987,33.900002,UNSD Estimate,1987 Estimate,30.299999,UNSD Estimate,1987 Estimate
+Greenland,1988,34.099998,UNSD Estimate,1988 Estimate,30.700001,UNSD Estimate,1988 Estimate
+Greenland,1990,34.099998,UNSD Estimate,1990 Estimate,31,UNSD Estimate,1990 Estimate
+Greenland,1991,34.200001,UNSD Estimate,1991 Estimate,31.1,UNSD Estimate,1991 Estimate
+Greenland,1992,34.200001,UNSD Estimate,1992 Estimate,31.200001,UNSD Estimate,1992 Estimate
+Greenland,1997,33.700001,UNSD Estimate,1997 Estimate,31.5,UNSD Estimate,1997 Estimate
+Greenland,1998,33.700001,UNSD Estimate,1998 Estimate,31.299999,UNSD Estimate,1998 Estimate
+Greenland,1999,33.5,UNSD Estimate,1999 Estimate,31.299999,UNSD Estimate,1999 Estimate
+Greenland,2009,33.700001,UNSD Estimate,2009 Estimate,30.9,UNSD Estimate,2009 Estimate
+Greenland,2010,33.700001,UNSD Estimate,2010 Estimate,31.200001,UNSD Estimate,2010 Estimate
+Greenland,2011,33.799999,UNSD Estimate,2011 Estimate,31.5,UNSD Estimate,2011 Estimate
+Greenland,2012,33.900002,UNSD Estimate,2012 Estimate,31.6,UNSD Estimate,2012 Estimate
+Greenland,2013,34,UNSD Estimate,2013 Estimate,31.700001,UNSD Estimate,2013 Estimate
+Greenland,2014,34.099998,UNSD Estimate,2014 Estimate,32,UNSD Estimate,2014 Estimate
+Greenland,2015,34.200001,UNSD Estimate,2015 Estimate,32.299999,UNSD Estimate,2015 Estimate
+Greenland,2016,34.5,UNSD Estimate,2016 Estimate,32.400002,UNSD Estimate,2016 Estimate
+Greenland,2018,34.700001,UNSD Estimate,2018 Estimate,32.900002,UNSD Estimate,2018 Estimate
 Grenada,1970,31.5,Census,1970 Census,28.200001,Census,1970 Census
 Grenada,1981,33.299999,Census,1981 Census,29.4,Census,1981 Census
 Grenada,1991,34.400002,Census,1991 Census,31,Census,1991 Census
@@ -368,21 +572,99 @@ Haiti,2012,28.299999,Survey,2012 DHS-MICS,23.700001,Survey,2012 DHS-MICS
 Haiti,2016,28.700001,Survey,2016 DHS,24.9,Survey,2016 DHS
 Honduras,1974,24.4,Census,1974 Census,,N/A,N/A
 Honduras,1988,24.700001,Census,1988 Census,,N/A,N/A
-Honduras,2001,24.700001,Census,2001 Census,,N/A,N/A
-Hungary,1970,24.799999,Census,1970 Census,20.9,Census,1970 Census
-Hungary,1980,24.799999,Census,1980 Census,21,Census,1980 Census
-Hungary,1990,25.700001,Census,1990 Census,22.200001,Census,1990 Census
-Hungary,2001,28.700001,Census,2001 Census,25.799999,Census,2001 Census
-Hungary,2011,30.5,Census,2011 Census,28,Census,2011 Census
-Iceland,2011,29.6,Census,2011 Census,27.5,Census,2011 Census
-India,1971,22.700001,Census,1971 Census,17.700001,Census,1971 Census
-India,1981,23.4,Census,1981 Census,18.700001,Census,1981 Census
-India,1991,24,Census,1991 Census,19.299999,Census,1991 Census
-India,2001,24.799999,Census,2001 Census,20.200001,Census,2001 Census
-India,2011,24.9,Census,2011 Census,20.700001,Census,2011 Census
+Honduras,2001,24.700001,Census,2001 Census,20.4,Survey,2001 ENESF
+Hungary,1971,24.700001,UNSD Estimate,1971 Estimate,21,UNSD Estimate,1971 Estimate
+Hungary,1972,24.700001,UNSD Estimate,1972 Estimate,21,UNSD Estimate,1972 Estimate
+Hungary,1973,24.700001,UNSD Estimate,1973 Estimate,21,UNSD Estimate,1973 Estimate
+Hungary,1974,24.700001,UNSD Estimate,1974 Estimate,21.1,UNSD Estimate,1974 Estimate
+Hungary,1975,24.700001,UNSD Estimate,1975 Estimate,21.1,UNSD Estimate,1975 Estimate
+Hungary,1976,24.700001,UNSD Estimate,1976 Estimate,21.1,UNSD Estimate,1976 Estimate
+Hungary,1977,24.700001,UNSD Estimate,1977 Estimate,21.1,UNSD Estimate,1977 Estimate
+Hungary,1978,24.799999,UNSD Estimate,1978 Estimate,21.1,UNSD Estimate,1978 Estimate
+Hungary,1979,24.9,UNSD Estimate,1979 Estimate,21.1,UNSD Estimate,1979 Estimate
+Hungary,1980,24.799999,UNSD Estimate,1980 Estimate,21.1,UNSD Estimate,1980 Estimate
+Hungary,1981,25,UNSD Estimate,1981 Estimate,21.200001,UNSD Estimate,1981 Estimate
+Hungary,1982,25.200001,UNSD Estimate,1982 Estimate,21.299999,UNSD Estimate,1982 Estimate
+Hungary,1983,25.299999,UNSD Estimate,1983 Estimate,21.4,UNSD Estimate,1983 Estimate
+Hungary,1984,25.4,UNSD Estimate,1984 Estimate,21.6,UNSD Estimate,1984 Estimate
+Hungary,1985,25.5,UNSD Estimate,1985 Estimate,21.700001,UNSD Estimate,1985 Estimate
+Hungary,1986,25.6,UNSD Estimate,1986 Estimate,21.799999,UNSD Estimate,1986 Estimate
+Hungary,1987,25.700001,UNSD Estimate,1987 Estimate,22,UNSD Estimate,1987 Estimate
+Hungary,1988,25.9,UNSD Estimate,1988 Estimate,22.200001,UNSD Estimate,1988 Estimate
+Hungary,1989,26.1,UNSD Estimate,1989 Estimate,22.4,UNSD Estimate,1989 Estimate
+Hungary,1991,26.299999,UNSD Estimate,1991 Estimate,22.799999,UNSD Estimate,1991 Estimate
+Hungary,1992,26.5,UNSD Estimate,1992 Estimate,23.1,UNSD Estimate,1992 Estimate
+Hungary,1993,26.799999,UNSD Estimate,1993 Estimate,23.4,UNSD Estimate,1993 Estimate
+Hungary,1994,27.1,UNSD Estimate,1994 Estimate,23.799999,UNSD Estimate,1994 Estimate
+Hungary,1995,27.5,UNSD Estimate,1995 Estimate,24.200001,UNSD Estimate,1995 Estimate
+Hungary,1996,27.799999,UNSD Estimate,1996 Estimate,24.700001,UNSD Estimate,1996 Estimate
+Hungary,1997,28.200001,UNSD Estimate,1997 Estimate,25.1,UNSD Estimate,1997 Estimate
+Hungary,1998,28.5,UNSD Estimate,1998 Estimate,25.5,UNSD Estimate,1998 Estimate
+Hungary,1999,28.299999,UNSD Estimate,1999 Estimate,24.700001,UNSD Estimate,1999 Estimate
+Hungary,2000,29.299999,UNSD Estimate,2000 Estimate,26.5,UNSD Estimate,2000 Estimate
+Hungary,2001,29.9,UNSD Estimate,2001 Estimate,26.9,UNSD Estimate,2001 Estimate
+Hungary,2002,30.299999,UNSD Estimate,2002 Estimate,27.4,UNSD Estimate,2002 Estimate
+Hungary,2003,30.6,UNSD Estimate,2003 Estimate,27.9,UNSD Estimate,2003 Estimate
+Hungary,2004,31,UNSD Estimate,2004 Estimate,28.299999,UNSD Estimate,2004 Estimate
+Hungary,2005,31.299999,UNSD Estimate,2005 Estimate,28.799999,UNSD Estimate,2005 Estimate
+Hungary,2006,31.700001,UNSD Estimate,2006 Estimate,29.299999,UNSD Estimate,2006 Estimate
+Hungary,2007,32,UNSD Estimate,2007 Estimate,29.700001,UNSD Estimate,2007 Estimate
+Hungary,2008,32.400002,UNSD Estimate,2008 Estimate,30.200001,UNSD Estimate,2008 Estimate
+Hungary,2009,32.799999,UNSD Estimate,2009 Estimate,30.700001,UNSD Estimate,2009 Estimate
+Hungary,2010,33.299999,UNSD Estimate,2010 Estimate,31.1,UNSD Estimate,2010 Estimate
+Hungary,2011,33.700001,UNSD Estimate,2011 Estimate,31.6,UNSD Estimate,2011 Estimate
+Hungary,2012,34,UNSD Estimate,2012 Estimate,31.799999,UNSD Estimate,2012 Estimate
+Hungary,2014,34.599998,UNSD Estimate,2014 Estimate,32.5,UNSD Estimate,2014 Estimate
+Hungary,2015,34.799999,UNSD Estimate,2015 Estimate,32.799999,UNSD Estimate,2015 Estimate
+Hungary,2016,34.900002,UNSD Estimate,2016 Estimate,32.900002,UNSD Estimate,2016 Estimate
+Hungary,2017,35,UNSD Estimate,2017 Estimate,32.900002,UNSD Estimate,2017 Estimate
+Hungary,2018,35,UNSD Estimate,2018 Estimate,32.900002,UNSD Estimate,2018 Estimate
+Iceland,1974,24.1,UNSD Estimate,1974 Estimate,21.9,UNSD Estimate,1974 Estimate
+Iceland,1975,24.4,UNSD Estimate,1975 Estimate,22.200001,UNSD Estimate,1975 Estimate
+Iceland,1976,24.5,UNSD Estimate,1976 Estimate,22.299999,UNSD Estimate,1976 Estimate
+Iceland,1977,24.799999,UNSD Estimate,1977 Estimate,22.6,UNSD Estimate,1977 Estimate
+Iceland,1978,25.1,UNSD Estimate,1978 Estimate,23,UNSD Estimate,1978 Estimate
+Iceland,1979,25.4,UNSD Estimate,1979 Estimate,23.299999,UNSD Estimate,1979 Estimate
+Iceland,1980,25.700001,UNSD Estimate,1980 Estimate,23.799999,UNSD Estimate,1980 Estimate
+Iceland,1981,26.1,UNSD Estimate,1981 Estimate,24.299999,UNSD Estimate,1981 Estimate
+Iceland,1982,26.6,UNSD Estimate,1982 Estimate,24.799999,UNSD Estimate,1982 Estimate
+Iceland,1983,27,UNSD Estimate,1983 Estimate,25.200001,UNSD Estimate,1983 Estimate
+Iceland,1984,27.5,UNSD Estimate,1984 Estimate,25.6,UNSD Estimate,1984 Estimate
+Iceland,1985,28,UNSD Estimate,1985 Estimate,26.1,UNSD Estimate,1985 Estimate
+Iceland,1986,28.4,UNSD Estimate,1986 Estimate,26.6,UNSD Estimate,1986 Estimate
+Iceland,1987,28.9,UNSD Estimate,1987 Estimate,27.200001,UNSD Estimate,1987 Estimate
+Iceland,1988,29.4,UNSD Estimate,1988 Estimate,27.799999,UNSD Estimate,1988 Estimate
+Iceland,1989,29.9,UNSD Estimate,1989 Estimate,28.299999,UNSD Estimate,1989 Estimate
+Iceland,1990,30.4,UNSD Estimate,1990 Estimate,28.799999,UNSD Estimate,1990 Estimate
+Iceland,1991,30.9,UNSD Estimate,1991 Estimate,29.299999,UNSD Estimate,1991 Estimate
+Iceland,1992,31.299999,UNSD Estimate,1992 Estimate,29.700001,UNSD Estimate,1992 Estimate
+Iceland,1993,31.700001,UNSD Estimate,1993 Estimate,30.200001,UNSD Estimate,1993 Estimate
+Iceland,1995,32.5,UNSD Estimate,1995 Estimate,30.9,UNSD Estimate,1995 Estimate
+Iceland,1996,32.900002,UNSD Estimate,1996 Estimate,31.4,UNSD Estimate,1996 Estimate
+Iceland,1997,28.200001,UNSD Estimate,1997 Estimate,26.5,UNSD Estimate,1997 Estimate
+Iceland,1998,28.5,UNSD Estimate,1998 Estimate,26.799999,UNSD Estimate,1998 Estimate
+Iceland,1999,28.9,UNSD Estimate,1999 Estimate,27,UNSD Estimate,1999 Estimate
+Iceland,2005,29.6,UNSD Estimate,2005 Estimate,27.700001,UNSD Estimate,2005 Estimate
+Iceland,2006,29.700001,UNSD Estimate,2006 Estimate,27.700001,UNSD Estimate,2006 Estimate
+Iceland,2007,29.700001,UNSD Estimate,2007 Estimate,27.6,UNSD Estimate,2007 Estimate
+Iceland,2008,29.6,UNSD Estimate,2008 Estimate,27.6,UNSD Estimate,2008 Estimate
+Iceland,2009,29.700001,UNSD Estimate,2009 Estimate,27.6,UNSD Estimate,2009 Estimate
+Iceland,2010,29.799999,UNSD Estimate,2010 Estimate,27.799999,UNSD Estimate,2010 Estimate
+Iceland,2012,29.9,UNSD Estimate,2012 Estimate,28,UNSD Estimate,2012 Estimate
+Iceland,2013,30,UNSD Estimate,2013 Estimate,28.1,UNSD Estimate,2013 Estimate
+Iceland,2014,30.1,UNSD Estimate,2014 Estimate,28.1,UNSD Estimate,2014 Estimate
+Iceland,2015,30.200001,UNSD Estimate,2015 Estimate,28.1,UNSD Estimate,2015 Estimate
+Iceland,2016,29.5,UNSD Estimate,2016 Estimate,27.700001,UNSD Estimate,2016 Estimate
+Iceland,2017,29.1,UNSD Estimate,2017 Estimate,27.5,UNSD Estimate,2017 Estimate
+Iceland,2018,33.700001,UNSD Estimate,2018 Estimate,32.400002,UNSD Estimate,2018 Estimate
+India,1992,24.299999,Survey,1992-1993 NFHS,19.200001,Survey,1992-1993 NFHS
+India,1998,24.9,Survey,1998-1999 NFHS,19.700001,Survey,1998-1999 NFHS
+India,2005,25.299999,Survey,2005-2006 NFHS,20.200001,Survey,2005-2006 NFHS
+India,2015,26,Survey,2015-2016 NFHS,21.4,Survey,2015-2016 NFHS
 Indonesia,1976,23.799999,Survey,1976 WFS,19.4,Survey,1976 WFS
 Indonesia,1985,24.799999,Survey,1985 IPS,21.1,Survey,1985 IPS
 Indonesia,1995,25.799999,Survey,1995 SUPAS,22.200001,Survey,1995 SUPAS
+Indonesia,2000,26.5,Survey,2000 MICS_HH,22.5,Survey,2000 MICS_HH
 Indonesia,2002,25.9,Survey,2002-2003 DHS,22.1,Survey,2002-2003 DHS
 Indonesia,2005,27,Survey,2005 SUPAS,23.4,Survey,2005 SUPAS
 Indonesia,2007,26.9,Survey,2007 DHS,22.299999,Survey,2007 DHS
@@ -394,34 +676,73 @@ Iran,1996,25.299999,Census,1996 Census,22.1,Census,1996 Census
 Iran,2006,26.4,Census,2006 Census,23.5,Census,2006 Census
 Iran,2011,26.799999,Census,2011 Census,23.5,Census,2011 Census
 Iran,2016,27.5,Census,2016 Census,23.1,Census,2016 Census
-Iraq,2000,28,Survey,2000 MICS_HH,25.299999,Survey,2000 MICS
-Iraq,2004,28.200001,Survey,2004 LCS,25.299999,Survey,2004 LCS
-Iraq,2012,26.200001,Survey,2012 PMMS,22.700001,Survey,2012 PMMS
-Ireland,1971,25.799999,Census,1971 Census,23.5,Census,1971 Census
-Ireland,1979,24.200001,Census,1979 Census,23.1,Census,1979 Census
-Ireland,1981,24.4,Census,1981 Census,23.4,Census,1981 Census
-Ireland,1986,26.1,Census,1986 Census,25,Census,1986 Census
-Ireland,1991,27.9,Census,1991 Census,26.700001,Census,1991 Census
-Ireland,1996,30,Census,1996 Census,28.700001,Census,1996 Census
-Ireland,2002,31.9,Census,2002 Census,30.700001,Census,2002 Census
-Ireland,2006,32.400002,Census,2006 Census,31.4,Census,2006 Census
-Ireland,2011,29.700001,Census,2011 Census,28.5,Census,2011 Census
-Ireland,2016,33.400002,Census,2016 Census,32.400002,Census,2016 Census
+Iraq,1977,25.299999,Census,1977 Census,,N/A,N/A
+Iraq,1987,26.299999,Census,1987 Census,,N/A,N/A
+Iraq,1997,26.9,Census,1997 Census,,N/A,N/A
+Ireland,1983,25.700001,UNSD Estimate,1983 Estimate,24.4,UNSD Estimate,1983 Estimate
+Ireland,1984,25.6,UNSD Estimate,1984 Estimate,24.6,UNSD Estimate,1984 Estimate
+Ireland,1985,26.200001,UNSD Estimate,1985 Estimate,24.6,UNSD Estimate,1985 Estimate
+Ireland,1988,26.700001,UNSD Estimate,1988 Estimate,25.299999,UNSD Estimate,1988 Estimate
+Ireland,1989,27.1,UNSD Estimate,1989 Estimate,25.799999,UNSD Estimate,1989 Estimate
+Ireland,1990,27.6,UNSD Estimate,1990 Estimate,26,UNSD Estimate,1990 Estimate
+Ireland,1994,29,UNSD Estimate,1994 Estimate,27.700001,UNSD Estimate,1994 Estimate
+Ireland,1999,30.9,UNSD Estimate,1999 Estimate,29.5,UNSD Estimate,1999 Estimate
+Ireland,2005,32.400002,UNSD Estimate,2005 Estimate,31.1,UNSD Estimate,2005 Estimate
+Ireland,2006,32.400002,UNSD Estimate,2006 Estimate,31.299999,UNSD Estimate,2006 Estimate
+Ireland,2011,33,UNSD Estimate,2011 Estimate,31.9,UNSD Estimate,2011 Estimate
+Ireland,2016,33.400002,UNSD Estimate,2016 Estimate,32.400002,UNSD Estimate,2016 Estimate
 Isle of Man,1981,25.700001,Census,1981 Census,23.200001,Census,1981 Census
 Isle of Man,1991,28.799999,Census,1991 Census,26.4,Census,1991 Census
 Isle of Man,2001,31.200001,Census,2001 Census,29.299999,Census,2001 Census
 Isle of Man,2011,32.799999,Census,2011 Census,30.700001,Census,2011 Census
-Israel,1972,25.4,Census,1972 Census,22.799999,Census,1972 Census
-Israel,1983,26.1,Census,1983 Census,23.5,Census,1983 Census
-Israel,1995,27.6,Census,1995 Census,24.6,Census,1995 Census
-Italy,1971,27.200001,Census,1971 Census,22.6,Census,1971 Census
-Italy,1981,27.1,Census,1981 Census,23.200001,Census,1981 Census
-Italy,1991,29.299999,Census,1991 Census,26.1,Census,1991 Census
-Italy,2001,32,Census,2001 Census,28.9,Census,2001 Census
-Italy,2011,32.400002,Census,2011 Census,29.200001,Census,2011 Census
-Jamaica,1970,33,Census,1970 Census,,N/A,N/A
-Jamaica,1982,33.799999,Census,1982 Census,,N/A,N/A
-Jamaica,1991,34.599998,Census,1991 Census,,N/A,N/A
+Israel,1980,25.799999,UNSD Estimate,1980 Estimate,23.299999,UNSD Estimate,1980 Estimate
+Israel,1981,25.9,UNSD Estimate,1981 Estimate,23.4,UNSD Estimate,1981 Estimate
+Israel,1982,26.1,UNSD Estimate,1982 Estimate,23.5,UNSD Estimate,1982 Estimate
+Israel,1984,26.200001,UNSD Estimate,1984 Estimate,23.4,UNSD Estimate,1984 Estimate
+Israel,1985,26.4,UNSD Estimate,1985 Estimate,23.700001,UNSD Estimate,1985 Estimate
+Israel,1986,26.6,UNSD Estimate,1986 Estimate,23.799999,UNSD Estimate,1986 Estimate
+Israel,1987,26.700001,UNSD Estimate,1987 Estimate,23.9,UNSD Estimate,1987 Estimate
+Israel,1990,27.1,UNSD Estimate,1990 Estimate,24,UNSD Estimate,1990 Estimate
+Israel,1992,27.4,UNSD Estimate,1992 Estimate,24.200001,UNSD Estimate,1992 Estimate
+Israel,1993,27.5,UNSD Estimate,1993 Estimate,24.299999,UNSD Estimate,1993 Estimate
+Israel,1995,27.799999,UNSD Estimate,1995 Estimate,24.5,UNSD Estimate,1995 Estimate
+Israel,1999,27.9,UNSD Estimate,1999 Estimate,25,UNSD Estimate,1999 Estimate
+Israel,2000,28,UNSD Estimate,2000 Estimate,25,UNSD Estimate,2000 Estimate
+Israel,2002,28.299999,UNSD Estimate,2002 Estimate,25.299999,UNSD Estimate,2002 Estimate
+Israel,2003,28.799999,UNSD Estimate,2003 Estimate,25.9,UNSD Estimate,2003 Estimate
+Israel,2004,28.5,UNSD Estimate,2004 Estimate,25.5,UNSD Estimate,2004 Estimate
+Israel,2005,28.6,UNSD Estimate,2005 Estimate,25.6,UNSD Estimate,2005 Estimate
+Israel,2006,28.700001,UNSD Estimate,2006 Estimate,25.799999,UNSD Estimate,2006 Estimate
+Israel,2007,28.799999,UNSD Estimate,2007 Estimate,25.799999,UNSD Estimate,2007 Estimate
+Israel,2008,28.799999,UNSD Estimate,2008 Estimate,25.9,UNSD Estimate,2008 Estimate
+Israel,2009,29.1,UNSD Estimate,2009 Estimate,26.200001,UNSD Estimate,2009 Estimate
+Israel,2010,29.200001,UNSD Estimate,2010 Estimate,26.200001,UNSD Estimate,2010 Estimate
+Israel,2011,29.200001,UNSD Estimate,2011 Estimate,26.200001,UNSD Estimate,2011 Estimate
+Israel,2012,29.200001,UNSD Estimate,2012 Estimate,26.200001,UNSD Estimate,2012 Estimate
+Israel,2013,29.200001,UNSD Estimate,2013 Estimate,26.200001,UNSD Estimate,2013 Estimate
+Israel,2014,29.200001,UNSD Estimate,2014 Estimate,26.200001,UNSD Estimate,2014 Estimate
+Israel,2015,29.200001,UNSD Estimate,2015 Estimate,26.200001,UNSD Estimate,2015 Estimate
+Israel,2016,29.200001,UNSD Estimate,2016 Estimate,26.200001,UNSD Estimate,2016 Estimate
+Italy,1972,27.1,UNSD Estimate,1972 Estimate,22.4,UNSD Estimate,1972 Estimate
+Italy,1973,27.1,UNSD Estimate,1973 Estimate,22.5,UNSD Estimate,1973 Estimate
+Italy,1999,31.5,UNSD Estimate,1999 Estimate,28.4,UNSD Estimate,1999 Estimate
+Italy,2000,31.799999,UNSD Estimate,2000 Estimate,28.6,UNSD Estimate,2000 Estimate
+Italy,2002,32.400002,UNSD Estimate,2002 Estimate,29.200001,UNSD Estimate,2002 Estimate
+Italy,2004,32.700001,UNSD Estimate,2004 Estimate,29.5,UNSD Estimate,2004 Estimate
+Italy,2006,33.299999,UNSD Estimate,2006 Estimate,30,UNSD Estimate,2006 Estimate
+Italy,2007,33.5,UNSD Estimate,2007 Estimate,30.200001,UNSD Estimate,2007 Estimate
+Italy,2008,32,UNSD Estimate,2008 Estimate,28.5,UNSD Estimate,2008 Estimate
+Italy,2009,33.799999,UNSD Estimate,2009 Estimate,30.4,UNSD Estimate,2009 Estimate
+Italy,2010,34,UNSD Estimate,2010 Estimate,30.6,UNSD Estimate,2010 Estimate
+Italy,2012,34.299999,UNSD Estimate,2012 Estimate,31,UNSD Estimate,2012 Estimate
+Italy,2013,34.5,UNSD Estimate,2013 Estimate,31.200001,UNSD Estimate,2013 Estimate
+Italy,2014,34.599998,UNSD Estimate,2014 Estimate,31.299999,UNSD Estimate,2014 Estimate
+Italy,2016,35.099998,UNSD Estimate,2016 Estimate,31.9,UNSD Estimate,2016 Estimate
+Italy,2017,35.200001,UNSD Estimate,2017 Estimate,32.099998,UNSD Estimate,2017 Estimate
+Italy,2018,35.299999,UNSD Estimate,2018 Estimate,32.200001,UNSD Estimate,2018 Estimate
+Jamaica,1970,33,Census,1970 Census,21.1,Census,1970 Census
+Jamaica,1982,33.799999,Census,1982 Census,32.200001,Census,1982 Census
+Jamaica,1991,34.599998,Census,1991 Census,33.200001,Census,1991 Census
 Japan,1970,27.5,Census,1970 Census,24.700001,Census,1970 Census
 Japan,1975,27.6,Census,1975 Census,24.5,Census,1975 Census
 Japan,1980,28.700001,Census,1980 Census,25.1,Census,1980 Census
@@ -442,7 +763,7 @@ Jordan,2012,29.799999,Survey,2012 DHS,25,Survey,2012 DHS
 Jordan,2017,30.9,Survey,2017-2018 DHS,24.6,Survey,2017-2018 DHS
 Kazakhstan,1979,24.1,Census,1979 Census,,N/A,N/A
 Kazakhstan,1989,24.6,Census,1989 Census,,N/A,N/A
-Kazakhstan,1999,26.1,Census,1999 Census,,N/A,N/A
+Kazakhstan,1999,26.1,Census,1999 Census,21.6,Survey,1999 DHS
 Kazakhstan,2009,27.6,Census,2009 Census,,N/A,N/A
 Kenya,1998,26.299999,Survey,1998 DHS,21.700001,Survey,1998 DHS
 Kenya,2000,25.200001,Survey,2000 MICS_HH,22.1,Survey,2000 MICS_HH
@@ -481,10 +802,21 @@ Kyrgyzstan,2009,26.299999,Census,2009 Census,,N/A,N/A
 Laos,2000,23.200001,Survey,2000 MICS_HH,20.5,Survey,2000 RHS
 Laos,2011,23.299999,Survey,2011-2012 DHS-MICS Special,20.5,Survey,2011-2012 DHS-MICS Special
 Laos,2017,24.6,Survey,2017 DHS-MICS Special,20.700001,Survey,2017 DHS-MICS Special
-Latvia,1979,24.700001,Census,1979 Census,21.9,Census,1979 Census
-Latvia,1989,24.299999,Census,1989 Census,22.200001,Census,1989 Census
-Latvia,2000,28.6,Census,2000 Census,26.700001,Census,2000 Census
-Latvia,2011,30,Census,2011 Census,27.200001,Census,2011 Census
+Latvia,2000,28.5,UNSD Estimate,2000 Estimate,26.5,UNSD Estimate,2000 Estimate
+Latvia,2002,29.5,UNSD Estimate,2002 Estimate,27.299999,UNSD Estimate,2002 Estimate
+Latvia,2005,30.4,UNSD Estimate,2005 Estimate,28.1,UNSD Estimate,2005 Estimate
+Latvia,2006,30.700001,UNSD Estimate,2006 Estimate,28.5,UNSD Estimate,2006 Estimate
+Latvia,2007,31,UNSD Estimate,2007 Estimate,28.700001,UNSD Estimate,2007 Estimate
+Latvia,2008,31.200001,UNSD Estimate,2008 Estimate,28.799999,UNSD Estimate,2008 Estimate
+Latvia,2009,31.5,UNSD Estimate,2009 Estimate,29.1,UNSD Estimate,2009 Estimate
+Latvia,2010,31.9,UNSD Estimate,2010 Estimate,29.5,UNSD Estimate,2010 Estimate
+Latvia,2011,32.400002,UNSD Estimate,2011 Estimate,29.9,UNSD Estimate,2011 Estimate
+Latvia,2013,32.799999,UNSD Estimate,2013 Estimate,30.1,UNSD Estimate,2013 Estimate
+Latvia,2014,33,UNSD Estimate,2014 Estimate,30.299999,UNSD Estimate,2014 Estimate
+Latvia,2015,33.099998,UNSD Estimate,2015 Estimate,30.4,UNSD Estimate,2015 Estimate
+Latvia,2016,33.099998,UNSD Estimate,2016 Estimate,30.4,UNSD Estimate,2016 Estimate
+Latvia,2017,33.099998,UNSD Estimate,2017 Estimate,30.4,UNSD Estimate,2017 Estimate
+Latvia,2018,33.099998,UNSD Estimate,2018 Estimate,30.4,UNSD Estimate,2018 Estimate
 Lebanon,1997,31.4,Survey,1997 HLCS,27.9,Survey,1997 HLCS
 Lebanon,2004,31.4,Survey,2004 HLCS,27.4,Survey,2004 HLCS
 Lebanon,2007,32.299999,Survey,2007 LCS,28.299999,Survey,2007 LCS
@@ -495,16 +827,47 @@ Lesotho,2004,27.200001,Survey,2004 DHS,22.5,Survey,2004 DHS
 Lesotho,2009,27,Survey,2009 DHS,22.5,Survey,2009 DHS
 Lesotho,2011,28.5,Survey,2011 DS,24.4,Survey,2011 DS
 Lesotho,2014,28,Survey,2014 DHS,22.200001,Survey,2014 DHS
-Liberia,1974,26.6,Census,1974 Census,,N/A,N/A
-Liberia,1984,26.9,Census,1984 Census,,N/A,N/A
-Liberia,2008,27.200001,Census,2008 Census,,N/A,N/A
+Liberia,1969,26.700001,Survey,1969-1970 PGS,18.700001,Survey,1969-1970 PGS
+Liberia,1970,27,Survey,1970-1971 PGS,19,Survey,1970-1971 PGS
+Liberia,2006,25.299999,Survey,2007 DHS,22.1,Survey,2007 DHS
+Liberia,2013,26.4,Survey,2013 DHS,22.6,Survey,2013 DHS
 Libya,1973,24.6,Census,1973 Census,18.700001,Census,1973 Census
 Libya,1984,27.4,Census,1984 Census,23,Census,1984 Census
-Liechtenstein,1980,26.9,Census,1980 Census,24,Census,1980 Census
-Liechtenstein,2010,32.599998,Census,2010 Census,29.700001,Census,2010 Census
-Lithuania,1989,24.700001,Census,1989 Census,22.299999,Census,1989 Census
-Lithuania,2001,26.9,Census,2001 Census,24.799999,Census,2001 Census
-Lithuania,2011,28.9,Census,2011 Census,26.1,Census,2011 Census
+Liechtenstein,1981,27.9,UNSD Estimate,1981 Estimate,24.6,UNSD Estimate,1981 Estimate
+Liechtenstein,1982,28,UNSD Estimate,1982 Estimate,24.9,UNSD Estimate,1982 Estimate
+Liechtenstein,1983,27.9,UNSD Estimate,1983 Estimate,25,UNSD Estimate,1983 Estimate
+Liechtenstein,1985,28.5,UNSD Estimate,1985 Estimate,25.6,UNSD Estimate,1985 Estimate
+Liechtenstein,1986,28.700001,UNSD Estimate,1986 Estimate,25.799999,UNSD Estimate,1986 Estimate
+Liechtenstein,1987,28.799999,UNSD Estimate,1987 Estimate,26.1,UNSD Estimate,1987 Estimate
+Liechtenstein,1997,30.6,UNSD Estimate,1997 Estimate,28,UNSD Estimate,1997 Estimate
+Liechtenstein,2000,31,UNSD Estimate,2000 Estimate,28.299999,UNSD Estimate,2000 Estimate
+Liechtenstein,2003,31.4,UNSD Estimate,2003 Estimate,28.5,UNSD Estimate,2003 Estimate
+Liechtenstein,2004,31.6,UNSD Estimate,2004 Estimate,,N/A,N/A
+Liechtenstein,2005,31.799999,UNSD Estimate,2005 Estimate,28.799999,UNSD Estimate,2005 Estimate
+Liechtenstein,2006,32.099998,UNSD Estimate,2006 Estimate,28.9,UNSD Estimate,2006 Estimate
+Liechtenstein,2007,32.299999,UNSD Estimate,2007 Estimate,29.299999,UNSD Estimate,2007 Estimate
+Liechtenstein,2008,32.400002,UNSD Estimate,2008 Estimate,29.4,UNSD Estimate,2008 Estimate
+Liechtenstein,2009,32.5,UNSD Estimate,2009 Estimate,29.4,UNSD Estimate,2009 Estimate
+Liechtenstein,2010,32.700001,UNSD Estimate,2010 Estimate,29.6,UNSD Estimate,2010 Estimate
+Liechtenstein,2011,32.599998,UNSD Estimate,2011 Estimate,29.799999,UNSD Estimate,2011 Estimate
+Liechtenstein,2014,32.700001,UNSD Estimate,2014 Estimate,29.799999,UNSD Estimate,2014 Estimate
+Liechtenstein,2015,32.700001,UNSD Estimate,2015 Estimate,29.9,UNSD Estimate,2015 Estimate
+Liechtenstein,2016,32.599998,UNSD Estimate,2016 Estimate,29.9,UNSD Estimate,2016 Estimate
+Liechtenstein,2017,32.5,UNSD Estimate,2017 Estimate,29.9,UNSD Estimate,2017 Estimate
+Liechtenstein,2018,32.400002,UNSD Estimate,2018 Estimate,29.9,UNSD Estimate,2018 Estimate
+Lithuania,2005,28.6,UNSD Estimate,2005 Estimate,26.200001,UNSD Estimate,2005 Estimate
+Lithuania,2006,28.799999,UNSD Estimate,2006 Estimate,26.299999,UNSD Estimate,2006 Estimate
+Lithuania,2007,29.4,UNSD Estimate,2007 Estimate,26.9,UNSD Estimate,2007 Estimate
+Lithuania,2008,29.700001,UNSD Estimate,2008 Estimate,27.1,UNSD Estimate,2008 Estimate
+Lithuania,2009,29.799999,UNSD Estimate,2009 Estimate,27.299999,UNSD Estimate,2009 Estimate
+Lithuania,2010,30.799999,UNSD Estimate,2010 Estimate,28.200001,UNSD Estimate,2010 Estimate
+Lithuania,2011,31.700001,UNSD Estimate,2011 Estimate,29.1,UNSD Estimate,2011 Estimate
+Lithuania,2013,31.9,UNSD Estimate,2013 Estimate,29.1,UNSD Estimate,2013 Estimate
+Lithuania,2014,32.700001,UNSD Estimate,2014 Estimate,30,UNSD Estimate,2014 Estimate
+Lithuania,2015,33.599998,UNSD Estimate,2015 Estimate,30.9,UNSD Estimate,2015 Estimate
+Lithuania,2016,34.400002,UNSD Estimate,2016 Estimate,31.799999,UNSD Estimate,2016 Estimate
+Lithuania,2017,35.299999,UNSD Estimate,2017 Estimate,32.799999,UNSD Estimate,2017 Estimate
+Lithuania,2018,35.299999,UNSD Estimate,2018 Estimate,32.700001,UNSD Estimate,2018 Estimate
 Luxembourg,1970,25.6,Census,1970 Census,21.4,Census,1970 Census
 Luxembourg,1981,26.200001,Census,1981 Census,23.1,Census,1981 Census
 Luxembourg,1991,28.5,Census,1991 Census,26,Census,1991 Census
@@ -537,7 +900,11 @@ Mali,2006,24,Survey,2006 DHS,17.799999,Survey,2006 DHS
 Mali,2012,25.9,Survey,2012-2013 DHS,18.5,Survey,2012-2013 DHS
 Mali,2015,27.200001,Survey,2015 MICS,19.299999,Survey,2015 MICS
 Mali,2018,25.799999,Survey,2018 DHS,18.799999,Survey,2018 DHS
-Malta,2011,30.299999,Census,2011 Census,28,Census,2011 Census
+Malta,1985,26.200001,UNSD Estimate,1985 Estimate,22.200001,UNSD Estimate,1985 Estimate
+Malta,2008,30.9,UNSD Estimate,2008 Estimate,28.1,UNSD Estimate,2008 Estimate
+Malta,2009,30.4,UNSD Estimate,2009 Estimate,28.1,UNSD Estimate,2009 Estimate
+Malta,2010,31,UNSD Estimate,2010 Estimate,28.200001,UNSD Estimate,2010 Estimate
+Malta,2011,31.700001,UNSD Estimate,2011 Estimate,29,UNSD Estimate,2011 Estimate
 Marshall Islands,1988,23.700001,Census,1988 Census,21,Census,1988 Census
 Marshall Islands,2011,25.700001,Census,2011 Census,24.200001,Census,2011 Census
 Martinique,1982,30.200001,Census,1982 Census,28.799999,Census,1982 Census
@@ -567,10 +934,10 @@ Monaco,2000,32.5,Census,2000 Census,29.200001,Census,2000 Census
 Monaco,2008,33.400002,Census,2008 Census,30.4,Census,2008 Census
 Mongolia,1979,24.9,Census,1979 Census,,N/A,N/A
 Mongolia,1989,25,Census,1989 Census,,N/A,N/A
-Mongolia,2000,25.700001,Census,2000 Census,,N/A,N/A
-Mongolia,2010,26.200001,Census,2010 Census,,N/A,N/A
-Montenegro,2003,30.700001,Census,2003 Census,,N/A,N/A
-Montenegro,2011,31.1,Census,2011 Census,,N/A,N/A
+Mongolia,2000,25.700001,Census,2000 Census,21.9,Survey,2000 MICS
+Mongolia,2010,26.200001,Census,2010 Census,23.4,Survey,2010 MICS
+Montenegro,2003,30.700001,Census,2003 Census,26.200001,Census,2003 Census
+Montenegro,2011,31.1,Census,2011 Census,27.1,Census,2011 Census
 Montserrat,1970,31.5,Census,1970 Census,27.5,Census,1970 Census
 Montserrat,1980,31.1,Census,1980 Census,28.5,Census,1980 Census
 Montserrat,2011,31.5,Census,2011 Census,31.9,Census,2011 Census
@@ -578,12 +945,10 @@ Morocco,1971,25,Census,1971 Census,,N/A,N/A
 Morocco,1982,27.1,Census,1982 Census,,N/A,N/A
 Morocco,1994,29.799999,Census,1994 Census,,N/A,N/A
 Morocco,2004,31.200001,Census,2004 Census,,N/A,N/A
-Mozambique,1960,22.9,Census,1960 Census,18.4,Census,1960 Census
-Mozambique,1970,24.700001,Census,1970 Census,19.9,Census,1970 Census
-Mozambique,1980,22.6,Census,1980 Census,17.799999,Census,1980 Census
-Mozambique,1997,22.799999,Census,1997 Census,18.4,Census,1997 Census
-Mozambique,2007,23.299999,Census,2007 Census,18.9,Census,2007 Census
-Mozambique,2017,23.4,Census,2017 Census,18.700001,Census,2017 Census
+Mozambique,1997,22.6,Survey,1997 DHS,18.1,Survey,1997 DHS
+Mozambique,2009,22.700001,Survey,2009 AIS,18.299999,Survey,2009 AIS
+Mozambique,2011,22.9,Survey,2011 DHS,18.9,Survey,2011 DHS
+Mozambique,2015,22.799999,Survey,2015 AIS,18.9,Survey,2015 AIS
 Myanmar,1991,26.4,Survey,1991 PCFS,24.5,Survey,1991 PCFS
 Myanmar,2000,26.9,Survey,2000 MICS_HH,24.799999,Survey,2000 MICS
 Myanmar,2007,27.700001,Survey,2007 FRHS,26.1,Survey,2007 FRHS
@@ -592,14 +957,54 @@ Namibia,2000,30.1,Survey,2000 DHS,27.5,Survey,2000 DHS
 Namibia,2006,30.200001,Survey,2006-2007 DHS,28.299999,Survey,2006-2007 DHS
 Namibia,2013,32.200001,Survey,2013 DHS,27.9,Survey,2013 DHS
 Namibia,2016,34.299999,Survey,2016 NIDS,30.299999,Survey,2016 NIDS
-Nepal,1971,21.1,Census,1971 Census,,N/A,N/A
-Nepal,1981,21.5,Census,1981 Census,,N/A,N/A
-Nepal,1991,21.700001,Census,1991 Census,,N/A,N/A
-Nepal,2001,23,Census,2001 Census,,N/A,N/A
-Nepal,2011,23.799999,Census,2011 Census,,N/A,N/A
-Netherlands,1971,24.9,Census,1971 Census,22.1,Census,1971 Census
-Netherlands,2001,32.299999,Census,2001 Census,30.4,Census,2001 Census
-Netherlands,2011,28.700001,Census,2011 Census,26.200001,Census,2011 Census
+Nepal,1976,20.799999,Survey,1976 WFS,17.1,Survey,1976 WFS
+Nepal,1996,22,Survey,1996 DHS,18.6,Survey,1996 DHS
+Nepal,2001,22.6,Survey,2001 DHS,18.9,Survey,2001 DHS
+Nepal,2006,22.4,Survey,2006 DHS,19.4,Survey,2006 DHS
+Nepal,2011,23.700001,Survey,2011 DHS,20,Survey,2011 DHS
+Nepal,2016,23.6,Survey,2016 DHS,20.1,Survey,2016 DHS
+Netherlands,1970,25.200001,UNSD Estimate,1970 Estimate,22,UNSD Estimate,1970 Estimate
+Netherlands,1971,25.1,UNSD Estimate,1971 Estimate,21.9,UNSD Estimate,1971 Estimate
+Netherlands,1972,25.200001,UNSD Estimate,1972 Estimate,21.9,UNSD Estimate,1972 Estimate
+Netherlands,1973,25.200001,UNSD Estimate,1973 Estimate,22,UNSD Estimate,1973 Estimate
+Netherlands,1974,25.299999,UNSD Estimate,1974 Estimate,22,UNSD Estimate,1974 Estimate
+Netherlands,1975,25.299999,UNSD Estimate,1975 Estimate,22.1,UNSD Estimate,1975 Estimate
+Netherlands,1976,25.4,UNSD Estimate,1976 Estimate,22.200001,UNSD Estimate,1976 Estimate
+Netherlands,1977,25.4,UNSD Estimate,1977 Estimate,22.299999,UNSD Estimate,1977 Estimate
+Netherlands,1978,25.700001,UNSD Estimate,1978 Estimate,22.5,UNSD Estimate,1978 Estimate
+Netherlands,1979,25.9,UNSD Estimate,1979 Estimate,22.799999,UNSD Estimate,1979 Estimate
+Netherlands,1980,26.200001,UNSD Estimate,1980 Estimate,23.200001,UNSD Estimate,1980 Estimate
+Netherlands,1981,26.4,UNSD Estimate,1981 Estimate,23.5,UNSD Estimate,1981 Estimate
+Netherlands,1982,26.700001,UNSD Estimate,1982 Estimate,23.799999,UNSD Estimate,1982 Estimate
+Netherlands,1983,26.9,UNSD Estimate,1983 Estimate,24.200001,UNSD Estimate,1983 Estimate
+Netherlands,1984,27.299999,UNSD Estimate,1984 Estimate,24.6,UNSD Estimate,1984 Estimate
+Netherlands,1985,27.9,UNSD Estimate,1985 Estimate,25.200001,UNSD Estimate,1985 Estimate
+Netherlands,1986,28.200001,UNSD Estimate,1986 Estimate,25.6,UNSD Estimate,1986 Estimate
+Netherlands,1987,28.6,UNSD Estimate,1987 Estimate,26,UNSD Estimate,1987 Estimate
+Netherlands,1988,28.9,UNSD Estimate,1988 Estimate,26.299999,UNSD Estimate,1988 Estimate
+Netherlands,1989,29.299999,UNSD Estimate,1989 Estimate,26.700001,UNSD Estimate,1989 Estimate
+Netherlands,1990,29.5,UNSD Estimate,1990 Estimate,26.9,UNSD Estimate,1990 Estimate
+Netherlands,1991,29.6,UNSD Estimate,1991 Estimate,27.1,UNSD Estimate,1991 Estimate
+Netherlands,1992,29.9,UNSD Estimate,1992 Estimate,27.299999,UNSD Estimate,1992 Estimate
+Netherlands,1993,30.200001,UNSD Estimate,1993 Estimate,27.6,UNSD Estimate,1993 Estimate
+Netherlands,1994,30.5,UNSD Estimate,1994 Estimate,27.9,UNSD Estimate,1994 Estimate
+Netherlands,1995,30.799999,UNSD Estimate,1995 Estimate,28.200001,UNSD Estimate,1995 Estimate
+Netherlands,1996,31.200001,UNSD Estimate,1996 Estimate,28.6,UNSD Estimate,1996 Estimate
+Netherlands,1997,31.5,UNSD Estimate,1997 Estimate,28.9,UNSD Estimate,1997 Estimate
+Netherlands,1998,31.9,UNSD Estimate,1998 Estimate,29.299999,UNSD Estimate,1998 Estimate
+Netherlands,2001,32.299999,UNSD Estimate,2001 Estimate,30.4,UNSD Estimate,2001 Estimate
+Netherlands,2003,32.799999,UNSD Estimate,2003 Estimate,30.200001,UNSD Estimate,2003 Estimate
+Netherlands,2006,33.200001,UNSD Estimate,2006 Estimate,30.700001,UNSD Estimate,2006 Estimate
+Netherlands,2007,33.400002,UNSD Estimate,2007 Estimate,31,UNSD Estimate,2007 Estimate
+Netherlands,2008,33.599998,UNSD Estimate,2008 Estimate,31.200001,UNSD Estimate,2008 Estimate
+Netherlands,2009,33.700001,UNSD Estimate,2009 Estimate,31.299999,UNSD Estimate,2009 Estimate
+Netherlands,2010,33.799999,UNSD Estimate,2010 Estimate,31.4,UNSD Estimate,2010 Estimate
+Netherlands,2011,33.900002,UNSD Estimate,2011 Estimate,31.5,UNSD Estimate,2011 Estimate
+Netherlands,2014,34.200001,UNSD Estimate,2014 Estimate,32,UNSD Estimate,2014 Estimate
+Netherlands,2015,34.299999,UNSD Estimate,2015 Estimate,32.200001,UNSD Estimate,2015 Estimate
+Netherlands,2016,34.299999,UNSD Estimate,2016 Estimate,32.299999,UNSD Estimate,2016 Estimate
+Netherlands,2017,34.299999,UNSD Estimate,2017 Estimate,32.299999,UNSD Estimate,2017 Estimate
+Netherlands,2018,34.299999,UNSD Estimate,2018 Estimate,32.400002,UNSD Estimate,2018 Estimate
 Netherlands Antilles,1981,28.700001,Census,1981 Census,26.5,Census,1981 Census
 Netherlands Antilles,2001,32.599998,Census,2001 Census,30.200001,Census,2001 Census
 New Caledonia,1976,26.5,Census,1976 Census,22.5,Census,1976 Census
@@ -632,10 +1037,47 @@ Niue,2006,26.799999,Census,2006 Census,26.1,Census,2006 Census
 Niue,2011,23.9,Census,2011 Census,24.6,Census,2011 Census
 Northern Mariana Islands,1990,28.5,Census,1990 Census,28.5,Census,1990 Census
 Northern Mariana Islands,2010,30.1,Census,2010 Census,28.1,Census,2010 Census
-Norway,1970,24.9,Census,1970 Census,21.9,Census,1970 Census
-Norway,1990,30.5,Census,1990 Census,28,Census,1990 Census
-Norway,2001,29.4,Census,2001 Census,26.700001,Census,2001 Census
-Norway,2011,29.1,Census,2011 Census,26.6,Census,2011 Census
+Norway,1972,24.799999,UNSD Estimate,1972 Estimate,22,UNSD Estimate,1972 Estimate
+Norway,1973,24.700001,UNSD Estimate,1973 Estimate,22.1,UNSD Estimate,1973 Estimate
+Norway,1974,24.799999,UNSD Estimate,1974 Estimate,22.200001,UNSD Estimate,1974 Estimate
+Norway,1975,24.9,UNSD Estimate,1975 Estimate,22.4,UNSD Estimate,1975 Estimate
+Norway,1976,25.1,UNSD Estimate,1976 Estimate,22.700001,UNSD Estimate,1976 Estimate
+Norway,1977,25.4,UNSD Estimate,1977 Estimate,23,UNSD Estimate,1977 Estimate
+Norway,1978,25.700001,UNSD Estimate,1978 Estimate,23.299999,UNSD Estimate,1978 Estimate
+Norway,1979,26,UNSD Estimate,1979 Estimate,23.700001,UNSD Estimate,1979 Estimate
+Norway,1980,26.299999,UNSD Estimate,1980 Estimate,24,UNSD Estimate,1980 Estimate
+Norway,1981,26.700001,UNSD Estimate,1981 Estimate,24.4,UNSD Estimate,1981 Estimate
+Norway,1982,27,UNSD Estimate,1982 Estimate,24.700001,UNSD Estimate,1982 Estimate
+Norway,1983,27.5,UNSD Estimate,1983 Estimate,25.200001,UNSD Estimate,1983 Estimate
+Norway,1984,27.9,UNSD Estimate,1984 Estimate,25.6,UNSD Estimate,1984 Estimate
+Norway,1986,28.299999,UNSD Estimate,1986 Estimate,26,UNSD Estimate,1986 Estimate
+Norway,1987,28.700001,UNSD Estimate,1987 Estimate,26.4,UNSD Estimate,1987 Estimate
+Norway,1988,29.200001,UNSD Estimate,1988 Estimate,26.799999,UNSD Estimate,1988 Estimate
+Norway,1989,29.6,UNSD Estimate,1989 Estimate,27.1,UNSD Estimate,1989 Estimate
+Norway,1990,30,UNSD Estimate,1990 Estimate,27.5,UNSD Estimate,1990 Estimate
+Norway,1991,30.4,UNSD Estimate,1991 Estimate,27.9,UNSD Estimate,1991 Estimate
+Norway,1992,30.9,UNSD Estimate,1992 Estimate,28.299999,UNSD Estimate,1992 Estimate
+Norway,1993,31.1,UNSD Estimate,1993 Estimate,28.6,UNSD Estimate,1993 Estimate
+Norway,1996,32.5,UNSD Estimate,1996 Estimate,29.9,UNSD Estimate,1996 Estimate
+Norway,1997,32.799999,UNSD Estimate,1997 Estimate,30.299999,UNSD Estimate,1997 Estimate
+Norway,1998,33,UNSD Estimate,1998 Estimate,30.5,UNSD Estimate,1998 Estimate
+Norway,1999,33.299999,UNSD Estimate,1999 Estimate,30.799999,UNSD Estimate,1999 Estimate
+Norway,2000,33.700001,UNSD Estimate,2000 Estimate,31.4,UNSD Estimate,2000 Estimate
+Norway,2002,33.799999,UNSD Estimate,2002 Estimate,31.4,UNSD Estimate,2002 Estimate
+Norway,2004,33.900002,UNSD Estimate,2004 Estimate,31.6,UNSD Estimate,2004 Estimate
+Norway,2005,34,UNSD Estimate,2005 Estimate,31.700001,UNSD Estimate,2005 Estimate
+Norway,2006,34,UNSD Estimate,2006 Estimate,31.799999,UNSD Estimate,2006 Estimate
+Norway,2007,34,UNSD Estimate,2007 Estimate,31.9,UNSD Estimate,2007 Estimate
+Norway,2008,34,UNSD Estimate,2008 Estimate,31.9,UNSD Estimate,2008 Estimate
+Norway,2009,33.900002,UNSD Estimate,2009 Estimate,31.799999,UNSD Estimate,2009 Estimate
+Norway,2010,33.900002,UNSD Estimate,2010 Estimate,31.799999,UNSD Estimate,2010 Estimate
+Norway,2011,33.799999,UNSD Estimate,2011 Estimate,31.799999,UNSD Estimate,2011 Estimate
+Norway,2012,33.799999,UNSD Estimate,2012 Estimate,31.799999,UNSD Estimate,2012 Estimate
+Norway,2014,33.799999,UNSD Estimate,2014 Estimate,31.799999,UNSD Estimate,2014 Estimate
+Norway,2015,33.799999,UNSD Estimate,2015 Estimate,31.799999,UNSD Estimate,2015 Estimate
+Norway,2016,33.900002,UNSD Estimate,2016 Estimate,31.9,UNSD Estimate,2016 Estimate
+Norway,2017,33.900002,UNSD Estimate,2017 Estimate,32,UNSD Estimate,2017 Estimate
+Norway,2018,34.099998,UNSD Estimate,2018 Estimate,32.099998,UNSD Estimate,2018 Estimate
 Oman,1993,24.700001,Census,1993 Census,20.700001,Census,1993 Census
 Oman,2003,28.1,Census,2003 Census,24.799999,Census,2003 Census
 Oman,2010,27.700001,Census,2010 Census,25.6,Census,2010 Census
@@ -660,6 +1102,7 @@ Paraguay,1992,25.799999,Census,1992 Census,21.5,Census,1992 Census
 Paraguay,2002,26.799999,Census,2002 Census,22.700001,Census,2002 Census
 Peru,1996,26.5,Survey,1996 DHS,23.1,Survey,1996 DHS
 Peru,2003,28.200001,Survey,2004-2006 DHS,24.4,Survey,2004-2006 DHS
+Peru,2007,28.200001,Survey,2007-2008 DHS,24.1,Survey,2007-2008 DHS
 Peru,2009,27.5,Survey,2009 DHS,23.200001,Survey,2009 DHS
 Peru,2010,27.799999,Survey,2010 DHS,23.1,Survey,2010 DHS
 Peru,2011,28,Survey,2011 DHS,23.6,Survey,2011 DHS
@@ -670,11 +1113,14 @@ Philippines,1980,24.799999,Census,1980 Census,,N/A,N/A
 Philippines,1995,26.6,Census,1995 Census,,N/A,N/A
 Philippines,2010,26.9,Census,2010 Census,,N/A,N/A
 Philippines,2015,27.200001,Census,2015 Census,,N/A,N/A
-Poland,1978,25.700001,Census,1978 Census,22.5,Census,1978 Census
-Poland,1984,25.9,Census,1984 Microcensus,22.799999,Census,1984 Microcensus
-Poland,1988,26.200001,Census,1988 Census,23,Census,1988 Census
-Poland,2002,28,Census,2002 Census,25.299999,Census,2002 Census
-Poland,2011,28.700001,Census,2011 Census,26.6,Census,2011 Census
+Poland,1972,25.700001,UNSD Estimate,1972 Estimate,22,UNSD Estimate,1972 Estimate
+Poland,1974,25.700001,UNSD Estimate,1974 Estimate,22.299999,UNSD Estimate,1974 Estimate
+Poland,1980,25.700001,UNSD Estimate,1980 Estimate,22.6,UNSD Estimate,1980 Estimate
+Poland,1990,26.299999,UNSD Estimate,1990 Estimate,23.1,UNSD Estimate,1990 Estimate
+Poland,1996,27.4,UNSD Estimate,1996 Estimate,24.4,UNSD Estimate,1996 Estimate
+Poland,1997,27.6,UNSD Estimate,1997 Estimate,24.700001,UNSD Estimate,1997 Estimate
+Poland,1998,27.799999,UNSD Estimate,1998 Estimate,25,UNSD Estimate,1998 Estimate
+Poland,1999,28,UNSD Estimate,1999 Estimate,25.200001,UNSD Estimate,1999 Estimate
 Portugal,1970,25.6,Census,1970 Census,23.200001,Census,1970 Census
 Portugal,1981,24.700001,Census,1981 Census,22.1,Census,1981 Census
 Portugal,1991,26.700001,Census,1991 Census,23.9,Census,1991 Census
@@ -687,13 +1133,24 @@ Puerto Rico,2010,30.799999,Census,2010 Census,29.200001,Census,2010 Census
 Qatar,1986,26.6,Census,1986 Census,22.700001,Census,1986 Census
 Qatar,1997,27.700001,Census,1997 Census,25.299999,Census,1997 Census
 Qatar,2004,27.6,Census,2004 Census,25.799999,Census,2004 Census
-Moldova,2000,25.4,Survey,2000 MICS_HH,21.9,Survey,2000 MICS
-Moldova,2005,25.4,Survey,2005 DHS,21.9,Survey,2005 DHS
-Moldova,2012,25.700001,Survey,2012 MICS,21.9,Survey,2012 MICS
-Romania,1977,24.9,Census,1977 Census,21.1,Census,1977 Census
-Romania,1992,25.700001,Census,1992 Census,22.1,Census,1992 Census
-Romania,2002,28.6,Census,2002 Census,25.200001,Census,2002 Census
-Romania,2011,29.4,Census,2011 Census,25.9,Census,2011 Census
+Moldova,1989,23.799999,Census,1989 Census,,N/A,N/A
+Moldova,2004,27.1,Census,2004 Census,,N/A,N/A
+Moldova,2014,28.700001,Census,2014 Census,,N/A,N/A
+Romania,1991,25.9,UNSD Estimate,1991 Estimate,22.1,UNSD Estimate,1991 Estimate
+Romania,1993,26.700001,UNSD Estimate,1993 Estimate,23.1,UNSD Estimate,1993 Estimate
+Romania,1994,26,UNSD Estimate,1994 Estimate,22.5,UNSD Estimate,1994 Estimate
+Romania,1995,26.200001,UNSD Estimate,1995 Estimate,22.700001,UNSD Estimate,1995 Estimate
+Romania,1997,26.6,UNSD Estimate,1997 Estimate,23.200001,UNSD Estimate,1997 Estimate
+Romania,1998,27.1,UNSD Estimate,1998 Estimate,23.799999,UNSD Estimate,1998 Estimate
+Romania,2003,28.9,UNSD Estimate,2003 Estimate,25.5,UNSD Estimate,2003 Estimate
+Romania,2004,29,UNSD Estimate,2004 Estimate,25.700001,UNSD Estimate,2004 Estimate
+Romania,2005,29,UNSD Estimate,2005 Estimate,25.700001,UNSD Estimate,2005 Estimate
+Romania,2006,29.200001,UNSD Estimate,2006 Estimate,25.9,UNSD Estimate,2006 Estimate
+Romania,2007,29.299999,UNSD Estimate,2007 Estimate,26.1,UNSD Estimate,2007 Estimate
+Romania,2008,29.200001,UNSD Estimate,2008 Estimate,26,UNSD Estimate,2008 Estimate
+Romania,2009,29.299999,UNSD Estimate,2009 Estimate,26.1,UNSD Estimate,2009 Estimate
+Romania,2010,29.5,UNSD Estimate,2010 Estimate,26.4,UNSD Estimate,2010 Estimate
+Romania,2011,29.799999,UNSD Estimate,2011 Estimate,26.6,UNSD Estimate,2011 Estimate
 Russia,1989,24.4,Census,1989 Census,21.799999,Census,1989 Census
 Russia,2010,27,Census,2010 Census,24.4,Census,2010 Census
 Rwanda,1981,25,Survey,1981 ED,21.5,Survey,1981 ED
@@ -729,6 +1186,37 @@ Samoa,2001,28.6,Census,2001 Census,24.299999,Census,2001 Census
 Samoa,2006,29,Census,2006 Census,24.299999,Census,2006 Census
 Samoa,2011,27.9,Census,2011 Census,23.5,Census,2011 Census
 Samoa,2016,27.299999,Census,2016 Census,23.799999,Census,2016 Census
+San Marino,1970,26.1,UNSD Estimate,1970 Estimate,20.6,UNSD Estimate,1970 Estimate
+San Marino,1971,26.200001,UNSD Estimate,1971 Estimate,20.700001,UNSD Estimate,1971 Estimate
+San Marino,1972,26.299999,UNSD Estimate,1972 Estimate,21.1,UNSD Estimate,1972 Estimate
+San Marino,1973,26.4,UNSD Estimate,1973 Estimate,21.200001,UNSD Estimate,1973 Estimate
+San Marino,1974,26.299999,UNSD Estimate,1974 Estimate,21.299999,UNSD Estimate,1974 Estimate
+San Marino,1975,26.4,UNSD Estimate,1975 Estimate,21.4,UNSD Estimate,1975 Estimate
+San Marino,1976,26.4,UNSD Estimate,1976 Estimate,21.700001,UNSD Estimate,1976 Estimate
+San Marino,1977,26.5,UNSD Estimate,1977 Estimate,21.799999,UNSD Estimate,1977 Estimate
+San Marino,1978,26.6,UNSD Estimate,1978 Estimate,22,UNSD Estimate,1978 Estimate
+San Marino,1979,26.700001,UNSD Estimate,1979 Estimate,22.4,UNSD Estimate,1979 Estimate
+San Marino,1980,27,UNSD Estimate,1980 Estimate,22.799999,UNSD Estimate,1980 Estimate
+San Marino,1981,27.200001,UNSD Estimate,1981 Estimate,23.200001,UNSD Estimate,1981 Estimate
+San Marino,1982,27.200001,UNSD Estimate,1982 Estimate,23.6,UNSD Estimate,1982 Estimate
+San Marino,1983,27.200001,UNSD Estimate,1983 Estimate,23.9,UNSD Estimate,1983 Estimate
+San Marino,1984,27.299999,UNSD Estimate,1984 Estimate,24.1,UNSD Estimate,1984 Estimate
+San Marino,1985,27.700001,UNSD Estimate,1985 Estimate,24.1,UNSD Estimate,1985 Estimate
+San Marino,1986,28,UNSD Estimate,1986 Estimate,24.299999,UNSD Estimate,1986 Estimate
+San Marino,1987,28.1,UNSD Estimate,1987 Estimate,24.6,UNSD Estimate,1987 Estimate
+San Marino,1988,27.9,UNSD Estimate,1988 Estimate,24.9,UNSD Estimate,1988 Estimate
+San Marino,1989,28.1,UNSD Estimate,1989 Estimate,25.1,UNSD Estimate,1989 Estimate
+San Marino,1991,28.700001,UNSD Estimate,1991 Estimate,25.700001,UNSD Estimate,1991 Estimate
+San Marino,1992,28.799999,UNSD Estimate,1992 Estimate,26,UNSD Estimate,1992 Estimate
+San Marino,1993,28.9,UNSD Estimate,1993 Estimate,26.4,UNSD Estimate,1993 Estimate
+San Marino,1994,29.299999,UNSD Estimate,1994 Estimate,26.6,UNSD Estimate,1994 Estimate
+San Marino,1995,29.5,UNSD Estimate,1995 Estimate,26.799999,UNSD Estimate,1995 Estimate
+San Marino,1997,29.799999,UNSD Estimate,1997 Estimate,27,UNSD Estimate,1997 Estimate
+San Marino,2003,30.9,UNSD Estimate,2003 Estimate,28.5,UNSD Estimate,2003 Estimate
+San Marino,2013,33.200001,UNSD Estimate,2013 Estimate,30.700001,UNSD Estimate,2013 Estimate
+San Marino,2014,33.5,UNSD Estimate,2014 Estimate,30.700001,UNSD Estimate,2014 Estimate
+San Marino,2017,34,UNSD Estimate,2017 Estimate,31.200001,UNSD Estimate,2017 Estimate
+San Marino,2018,34,UNSD Estimate,2018 Estimate,31.299999,UNSD Estimate,2018 Estimate
 Sao Tome and Principe,2000,22.9,Survey,2000 MICS_HH,19.299999,Survey,2000 MICS
 Sao Tome and Principe,2008,25,Survey,2008-2009 DHS,20.4,Survey,2008-2009 DHS
 Saudi Arabia,1987,25.6,Survey,1987 CHS,21.700001,Survey,1987 CHS
@@ -764,13 +1252,38 @@ Singapore,1990,29.9,Census,1990 Census,27,Census,1990 Census
 Singapore,2000,30,Census,2000 Census,26.5,Census,2000 Census
 Singapore,2010,30.4,Census,2010 Census,27.9,Census,2010 Census
 Sint Maarten (Dutch part),2011,32.299999,Census,2011 Census,28,Census,2011 Census
-Slovakia,1980,25,Census,1980 Census,22.200001,Census,1980 Census
-Slovakia,1991,25.5,Census,1991 Census,22.6,Census,1991 Census
-Slovakia,2001,28.299999,Census,2001 Census,25.4,Census,2001 Census
-Slovakia,2011,31.200001,Census,2011 Census,28.6,Census,2011 Census
-Slovenia,1991,28.5,Census,1991 Census,24.799999,Census,1991 Census
-Slovenia,2011,33.200001,Census,2011 Census,30.700001,Census,2011 Census
-Slovenia,2015,32.900002,Census,2015 Census,30.6,Census,2015 Census
+Slovakia,2003,29.1,UNSD Estimate,2003 Estimate,26.4,UNSD Estimate,2003 Estimate
+Slovakia,2006,30.1,UNSD Estimate,2006 Estimate,27.6,UNSD Estimate,2006 Estimate
+Slovakia,2007,30.4,UNSD Estimate,2007 Estimate,27.9,UNSD Estimate,2007 Estimate
+Slovakia,2008,30.700001,UNSD Estimate,2008 Estimate,28.299999,UNSD Estimate,2008 Estimate
+Slovakia,2009,31.1,UNSD Estimate,2009 Estimate,28.700001,UNSD Estimate,2009 Estimate
+Slovakia,2010,31.4,UNSD Estimate,2010 Estimate,29.1,UNSD Estimate,2010 Estimate
+Slovakia,2012,32,UNSD Estimate,2012 Estimate,29.6,UNSD Estimate,2012 Estimate
+Slovakia,2013,32.400002,UNSD Estimate,2013 Estimate,29.9,UNSD Estimate,2013 Estimate
+Slovakia,2014,32.599998,UNSD Estimate,2014 Estimate,30.1,UNSD Estimate,2014 Estimate
+Slovakia,2015,33.099998,UNSD Estimate,2015 Estimate,30.6,UNSD Estimate,2015 Estimate
+Slovakia,2016,33.299999,UNSD Estimate,2016 Estimate,30.799999,UNSD Estimate,2016 Estimate
+Slovakia,2017,33.5,UNSD Estimate,2017 Estimate,30.9,UNSD Estimate,2017 Estimate
+Slovakia,2018,33.599998,UNSD Estimate,2018 Estimate,31,UNSD Estimate,2018 Estimate
+Slovenia,1998,31.299999,UNSD Estimate,1998 Estimate,28.700001,UNSD Estimate,1998 Estimate
+Slovenia,2000,31.9,UNSD Estimate,2000 Estimate,29.5,UNSD Estimate,2000 Estimate
+Slovenia,2001,32,UNSD Estimate,2001 Estimate,29.799999,UNSD Estimate,2001 Estimate
+Slovenia,2003,32.400002,UNSD Estimate,2003 Estimate,30.299999,UNSD Estimate,2003 Estimate
+Slovenia,2004,32.700001,UNSD Estimate,2004 Estimate,30.6,UNSD Estimate,2004 Estimate
+Slovenia,2005,33,UNSD Estimate,2005 Estimate,30.9,UNSD Estimate,2005 Estimate
+Slovenia,2006,33.400002,UNSD Estimate,2006 Estimate,31.200001,UNSD Estimate,2006 Estimate
+Slovenia,2007,33.700001,UNSD Estimate,2007 Estimate,31.6,UNSD Estimate,2007 Estimate
+Slovenia,2008,34.700001,UNSD Estimate,2008 Estimate,32.5,UNSD Estimate,2008 Estimate
+Slovenia,2009,35,UNSD Estimate,2009 Estimate,32.900002,UNSD Estimate,2009 Estimate
+Slovenia,2010,35.299999,UNSD Estimate,2010 Estimate,33.200001,UNSD Estimate,2010 Estimate
+Slovenia,2011,35.400002,UNSD Estimate,2011 Estimate,33.5,UNSD Estimate,2011 Estimate
+Slovenia,2012,35.5,UNSD Estimate,2012 Estimate,33.599998,UNSD Estimate,2012 Estimate
+Slovenia,2013,35.599998,UNSD Estimate,2013 Estimate,33.799999,UNSD Estimate,2013 Estimate
+Slovenia,2014,35.700001,UNSD Estimate,2014 Estimate,33.900002,UNSD Estimate,2014 Estimate
+Slovenia,2015,35.799999,UNSD Estimate,2015 Estimate,34.099998,UNSD Estimate,2015 Estimate
+Slovenia,2016,35.900002,UNSD Estimate,2016 Estimate,34.099998,UNSD Estimate,2016 Estimate
+Slovenia,2017,35.900002,UNSD Estimate,2017 Estimate,34.099998,UNSD Estimate,2017 Estimate
+Slovenia,2018,35.599998,UNSD Estimate,2018 Estimate,34,UNSD Estimate,2018 Estimate
 Solomon Islands,1970,27.4,Census,1970 Census,22.299999,Census,1970 Census
 Solomon Islands,1976,25.5,Census,1976 Census,21.1,Census,1976 Census
 Solomon Islands,1986,25,Census,1986 Census,21.200001,Census,1986 Census
@@ -805,20 +1318,77 @@ Sudan,2000,29.700001,Survey,2000 MICS_HH,15,Survey,2000 MICS
 Sudan,2010,28.9,Survey,2010 MICS_HH,22,Survey,2010 MICS
 Suriname,2004,31.799999,Census,2004 Census,,N/A,N/A
 Suriname,2012,32.799999,Census,2012 Census,,N/A,N/A
-Sweden,1970,26.200001,Census,1970 Census,23.700001,Census,1970 Census
-Sweden,1975,28,Census,1975 Census,25.700001,Census,1975 Census
-Sweden,1980,26.200001,Census,1980 Census,23.6,Census,1980 Census
-Sweden,1985,27.4,Census,1985 Census,24.700001,Census,1985 Census
-Sweden,2011,33.200001,Census,2011 Census,31.200001,Census,2011 Census
-Switzerland,1970,26,Census,1970 Census,22.6,Census,1970 Census
-Switzerland,1980,27.9,Census,1980 Census,25,Census,1980 Census
-Switzerland,1990,29.4,Census,1990 Census,26.700001,Census,1990 Census
-Switzerland,2000,31.1,Census,2000 Census,28.299999,Census,2000 Census
-Switzerland,2011,29.700001,Census,2010 Census,27,Census,2010 Census
+Sweden,1971,26.700001,UNSD Estimate,1971 Estimate,24.200001,UNSD Estimate,1971 Estimate
+Sweden,1972,26.799999,UNSD Estimate,1972 Estimate,24.4,UNSD Estimate,1972 Estimate
+Sweden,1973,27.299999,UNSD Estimate,1973 Estimate,25,UNSD Estimate,1973 Estimate
+Sweden,1974,27.6,UNSD Estimate,1974 Estimate,25.299999,UNSD Estimate,1974 Estimate
+Sweden,1975,27.9,UNSD Estimate,1975 Estimate,25.6,UNSD Estimate,1975 Estimate
+Sweden,1976,28.1,UNSD Estimate,1976 Estimate,25.799999,UNSD Estimate,1976 Estimate
+Sweden,1977,28.6,UNSD Estimate,1977 Estimate,26.299999,UNSD Estimate,1977 Estimate
+Sweden,1978,29.1,UNSD Estimate,1978 Estimate,26.799999,UNSD Estimate,1978 Estimate
+Sweden,1979,29.5,UNSD Estimate,1979 Estimate,27.200001,UNSD Estimate,1979 Estimate
+Sweden,1980,30,UNSD Estimate,1980 Estimate,27.6,UNSD Estimate,1980 Estimate
+Sweden,1981,30.4,UNSD Estimate,1981 Estimate,28,UNSD Estimate,1981 Estimate
+Sweden,1982,30.799999,UNSD Estimate,1982 Estimate,28.4,UNSD Estimate,1982 Estimate
+Sweden,1983,31.299999,UNSD Estimate,1983 Estimate,28.799999,UNSD Estimate,1983 Estimate
+Sweden,1984,31.700001,UNSD Estimate,1984 Estimate,29.299999,UNSD Estimate,1984 Estimate
+Sweden,1985,32.099998,UNSD Estimate,1985 Estimate,29.6,UNSD Estimate,1985 Estimate
+Sweden,1986,32.400002,UNSD Estimate,1986 Estimate,29.9,UNSD Estimate,1986 Estimate
+Sweden,1987,33,UNSD Estimate,1987 Estimate,30.5,UNSD Estimate,1987 Estimate
+Sweden,1988,32.900002,UNSD Estimate,1988 Estimate,30.4,UNSD Estimate,1988 Estimate
+Sweden,1989,32.400002,UNSD Estimate,1989 Estimate,29.9,UNSD Estimate,1989 Estimate
+Sweden,1991,32.700001,UNSD Estimate,1991 Estimate,30.299999,UNSD Estimate,1991 Estimate
+Sweden,1992,32.900002,UNSD Estimate,1992 Estimate,30.5,UNSD Estimate,1992 Estimate
+Sweden,1994,33.299999,UNSD Estimate,1994 Estimate,31,UNSD Estimate,1994 Estimate
+Sweden,1995,33.599998,UNSD Estimate,1995 Estimate,31.299999,UNSD Estimate,1995 Estimate
+Sweden,1996,33.799999,UNSD Estimate,1996 Estimate,31.5,UNSD Estimate,1996 Estimate
+Sweden,1997,34,UNSD Estimate,1997 Estimate,31.799999,UNSD Estimate,1997 Estimate
+Sweden,1998,34.200001,UNSD Estimate,1998 Estimate,32,UNSD Estimate,1998 Estimate
+Sweden,2001,34.5,UNSD Estimate,2001 Estimate,32.299999,UNSD Estimate,2001 Estimate
+Sweden,2002,34.5,UNSD Estimate,2002 Estimate,32.400002,UNSD Estimate,2002 Estimate
+Sweden,2004,34.5,UNSD Estimate,2004 Estimate,32.400002,UNSD Estimate,2004 Estimate
+Sweden,2005,34.400002,UNSD Estimate,2005 Estimate,32.299999,UNSD Estimate,2005 Estimate
+Sweden,2006,34.299999,UNSD Estimate,2006 Estimate,32.200001,UNSD Estimate,2006 Estimate
+Sweden,2007,34.099998,UNSD Estimate,2007 Estimate,32,UNSD Estimate,2007 Estimate
+Sweden,2008,33.900002,UNSD Estimate,2008 Estimate,31.799999,UNSD Estimate,2008 Estimate
+Sweden,2009,33.700001,UNSD Estimate,2009 Estimate,31.6,UNSD Estimate,2009 Estimate
+Sweden,2010,33.5,UNSD Estimate,2010 Estimate,31.4,UNSD Estimate,2010 Estimate
+Sweden,2011,33.299999,UNSD Estimate,2011 Estimate,31.299999,UNSD Estimate,2011 Estimate
+Sweden,2012,33.200001,UNSD Estimate,2012 Estimate,31.200001,UNSD Estimate,2012 Estimate
+Sweden,2014,33.099998,UNSD Estimate,2014 Estimate,31,UNSD Estimate,2014 Estimate
+Sweden,2015,33.099998,UNSD Estimate,2015 Estimate,31,UNSD Estimate,2015 Estimate
+Sweden,2016,33.099998,UNSD Estimate,2016 Estimate,31,UNSD Estimate,2016 Estimate
+Sweden,2017,33.099998,UNSD Estimate,2017 Estimate,31,UNSD Estimate,2017 Estimate
+Sweden,2018,33.200001,UNSD Estimate,2018 Estimate,31,UNSD Estimate,2018 Estimate
+Switzerland,1986,29,UNSD Estimate,1986 Estimate,26.200001,UNSD Estimate,1986 Estimate
+Switzerland,1987,29.200001,UNSD Estimate,1987 Estimate,26.4,UNSD Estimate,1987 Estimate
+Switzerland,1988,29.4,UNSD Estimate,1988 Estimate,26.700001,UNSD Estimate,1988 Estimate
+Switzerland,1989,29.5,UNSD Estimate,1989 Estimate,26.799999,UNSD Estimate,1989 Estimate
+Switzerland,1990,29.5,UNSD Estimate,1990 Estimate,26.9,UNSD Estimate,1990 Estimate
+Switzerland,1991,29.6,UNSD Estimate,1991 Estimate,27,UNSD Estimate,1991 Estimate
+Switzerland,1993,29.9,UNSD Estimate,1993 Estimate,27.1,UNSD Estimate,1993 Estimate
+Switzerland,1994,30,UNSD Estimate,1994 Estimate,27.299999,UNSD Estimate,1994 Estimate
+Switzerland,1995,30.200001,UNSD Estimate,1995 Estimate,27.5,UNSD Estimate,1995 Estimate
+Switzerland,1996,30.299999,UNSD Estimate,1996 Estimate,27.700001,UNSD Estimate,1996 Estimate
+Switzerland,1998,30.700001,UNSD Estimate,1998 Estimate,28.200001,UNSD Estimate,1998 Estimate
+Switzerland,2001,31.6,UNSD Estimate,2001 Estimate,29.1,UNSD Estimate,2001 Estimate
+Switzerland,2003,32.099998,UNSD Estimate,2003 Estimate,29.200001,UNSD Estimate,2003 Estimate
+Switzerland,2005,32.400002,UNSD Estimate,2005 Estimate,29.5,UNSD Estimate,2005 Estimate
+Switzerland,2006,32.099998,UNSD Estimate,2006 Estimate,29.200001,UNSD Estimate,2006 Estimate
+Switzerland,2007,32.700001,UNSD Estimate,2007 Estimate,29.9,UNSD Estimate,2007 Estimate
+Switzerland,2008,32.5,UNSD Estimate,2008 Estimate,29.700001,UNSD Estimate,2008 Estimate
+Switzerland,2009,32.700001,UNSD Estimate,2009 Estimate,29.799999,UNSD Estimate,2009 Estimate
+Switzerland,2011,33.099998,UNSD Estimate,2011 Estimate,30.5,UNSD Estimate,2011 Estimate
+Switzerland,2012,33.200001,UNSD Estimate,2012 Estimate,30.6,UNSD Estimate,2012 Estimate
+Switzerland,2013,32.799999,UNSD Estimate,2013 Estimate,30.4,UNSD Estimate,2013 Estimate
+Switzerland,2014,32.900002,UNSD Estimate,2014 Estimate,30.5,UNSD Estimate,2014 Estimate
+Switzerland,2015,33,UNSD Estimate,2015 Estimate,30.6,UNSD Estimate,2015 Estimate
+Switzerland,2016,33,UNSD Estimate,2016 Estimate,30.700001,UNSD Estimate,2016 Estimate
+Switzerland,2017,33.099998,UNSD Estimate,2017 Estimate,30.9,UNSD Estimate,2017 Estimate
 Syria,1978,30.799999,Survey,1978 WFS,22.200001,Survey,1978 WFS
 Syria,2001,29.299999,Survey,2001 FHS,25.4,Survey,2001 FHS
 Tajikistan,1989,23.200001,Census,1989 Census,,N/A,N/A
-Tajikistan,2000,24.1,Census,2000 Census,,N/A,N/A
+Tajikistan,2000,24.1,Census,2000 Census,21.4,Survey,2000 MICS
 Tajikistan,2010,24.700001,Census,2010 Census,,N/A,N/A
 Thailand,1970,24.700001,Census,1970 Census,22,Census,1970 Census
 Thailand,1980,24.9,Census,1980 Census,22.799999,Census,1980 Census
@@ -826,13 +1396,12 @@ Thailand,1990,26,Census,1990 Census,23.5,Census,1990 Census
 Thailand,2000,27.4,Census,2000 Census,24.1,Census,2000 Census
 Thailand,2010,28.5,Census,2010 Census,24.9,Census,2010 Census
 Macedonia,1994,26.700001,Census,1994 Census,22.9,Census,1994 Census
-Timor,2003,24.6,Survey,2003 DHS,21.799999,Survey,2003 DHS
-Timor,2009,26.9,Survey,2009-2010 DHS,23.1,Survey,2009-2010 DHS
-Timor,2016,27.9,Survey,2016 DHS,23,Survey,2016 DHS
-Togo,1998,27,Survey,1998 DHS,21.4,Survey,1998 DHS
-Togo,2000,28.200001,Survey,2000 MICS_HH,21.1,Survey,2000 MICS
-Togo,2013,27.6,Survey,2013-2014 DHS-MICS,22.299999,Survey,2013-2014 DHS-MICS
-Togo,2017,27.6,Survey,2017 MIS,21.299999,Survey,2017 MIS
+Timor,2004,27,Census,2004 Census,,N/A,N/A
+Timor,2010,27.799999,Census,2010 Census,,N/A,N/A
+Timor,2015,28.1,Census,2015 Census,,N/A,N/A
+Togo,1970,26,Census,1970 Census,,N/A,N/A
+Togo,1981,25.6,Census,1981 Census,,N/A,N/A
+Togo,2010,27.6,Census,2010 Census,22.4,Survey,2010 MICS
 Tokelau,1972,22.700001,Census,1972 Census,23.6,Census,1972 Census
 Tokelau,1976,24,Census,1976 Census,25.299999,Census,1976 Census
 Tokelau,1986,26.6,Census,1986 Census,26,Census,1986 Census
@@ -871,12 +1440,24 @@ Uganda,2006,23.799999,Survey,2006 DHS,20.4,Survey,2006 DHS
 Uganda,2011,24.299999,Survey,2011 DHS,20,Survey,2011 DHS
 Uganda,2016,24.299999,Survey,2016 DHS,20.700001,Survey,2016 DHS
 Ukraine,2007,25.9,Survey,2007 DHS,23.1,Survey,2007 DHS
-United Arab Emirates,1987,25.6,Survey,1987-1988 CHS,23.1,Survey,1987-1988 CHS
-United Arab Emirates,1995,26.6,Survey,1995 FHS,24.4,Survey,1995 FHS
-United Kingdom,1971,24.200001,Census,1971 Census,21.299999,Census,1971 Census
-United Kingdom,1991,28.4,Census,1991 Census,26.4,Census,1991 Census
-United Kingdom,2001,28.1,Census,2001 Census,26.299999,Census,2001 Census
-United Kingdom,2011,28.700001,Census,2011 Census,27,Census,2011 Census
+United Arab Emirates,1975,25.9,Census,1975 Census,18,Census,1975 Census
+United Arab Emirates,2005,26.799999,Census,2005 Census,25.299999,Census,2005 Census
+United Kingdom,1982,25.799999,UNSD Estimate,1982 Estimate,23.4,UNSD Estimate,1982 Estimate
+United Kingdom,1983,26.1,UNSD Estimate,1983 Estimate,23.799999,UNSD Estimate,1983 Estimate
+United Kingdom,1984,26.4,UNSD Estimate,1984 Estimate,24.1,UNSD Estimate,1984 Estimate
+United Kingdom,1985,26.700001,UNSD Estimate,1985 Estimate,24.5,UNSD Estimate,1985 Estimate
+United Kingdom,1986,27.1,UNSD Estimate,1986 Estimate,24.799999,UNSD Estimate,1986 Estimate
+United Kingdom,1987,27.299999,UNSD Estimate,1987 Estimate,25.1,UNSD Estimate,1987 Estimate
+United Kingdom,1988,27.6,UNSD Estimate,1988 Estimate,25.4,UNSD Estimate,1988 Estimate
+United Kingdom,1989,27.9,UNSD Estimate,1989 Estimate,25.700001,UNSD Estimate,1989 Estimate
+United Kingdom,1990,28.200001,UNSD Estimate,1990 Estimate,26,UNSD Estimate,1990 Estimate
+United Kingdom,1991,28.5,UNSD Estimate,1991 Estimate,26.299999,UNSD Estimate,1991 Estimate
+United Kingdom,1992,28.9,UNSD Estimate,1992 Estimate,26.700001,UNSD Estimate,1992 Estimate
+United Kingdom,1993,29.200001,UNSD Estimate,1993 Estimate,27.1,UNSD Estimate,1993 Estimate
+United Kingdom,1994,29.6,UNSD Estimate,1994 Estimate,27.4,UNSD Estimate,1994 Estimate
+United Kingdom,1997,30.799999,UNSD Estimate,1997 Estimate,28.700001,UNSD Estimate,1997 Estimate
+United Kingdom,2009,33.200001,UNSD Estimate,2009 Estimate,31.799999,UNSD Estimate,2009 Estimate
+United Kingdom,2010,33.299999,UNSD Estimate,2010 Estimate,32,UNSD Estimate,2010 Estimate
 Tanzania,1991,25.1,Survey,1991-1992 DHS,20.5,Survey,1991-1992 DHS
 Tanzania,1994,25.1,Survey,1994 KAP Survey,20.5,Survey,1994 KAP Survey
 Tanzania,1996,25.1,Survey,1996 DHS,20.5,Survey,1996 DHS
@@ -941,13 +1522,17 @@ Zimbabwe,2017,26,Survey,2017 ICDS,21.1,Survey,2017 ICDS
 Afghanistan,2010,,N/A,N/A,21.5,Survey,2010 DHS Special
 Albania,2005,,N/A,N/A,24.6,Survey,2005 MICS
 Algeria,1992,,N/A,N/A,25.9,Survey,1992 MCH
-Bahrain,1991,,N/A,N/A,25.6,Census,1991 Census
-Bahrain,2001,,N/A,N/A,26.299999,Census,2001 Census
+Algeria,2002,,N/A,N/A,29.5,Survey,2002 MCH
+Algeria,2006,,N/A,N/A,29.700001,Survey,2006 MICS
+Algeria,2012,,N/A,N/A,28.200001,Survey,2012 MICS
 Bahrain,2010,,N/A,N/A,26.9,Census,2010 Census
+Bangladesh,1975,,N/A,N/A,16.700001,Survey,1975-1976 WFS
 Bangladesh,1993,,N/A,N/A,18.299999,Survey,1993-1994 DHS
 Bangladesh,1996,,N/A,N/A,18.6,Survey,1996-1997 DHS
 Bangladesh,1999,,N/A,N/A,18.799999,Survey,1999-2000 DHS
+Bangladesh,2004,,N/A,N/A,18.700001,Survey,2004 DHS
 Bangladesh,2006,,N/A,N/A,18.700001,Survey,2006 MICS
+Bangladesh,2007,,N/A,N/A,18.4,Survey,2007 DHS
 Bangladesh,2012,,N/A,N/A,19.200001,Survey,2012-2013 MICS
 Bangladesh,2014,,N/A,N/A,18.799999,Survey,2014 DHS
 Benin,1996,,N/A,N/A,19.9,Survey,1996 DHS
@@ -956,7 +1541,9 @@ Bolivia,1989,,N/A,N/A,22.200001,Survey,1989 DHS
 Bolivia,1993,,N/A,N/A,22,Survey,1994 DHS
 Bolivia,2016,,N/A,N/A,24,Survey,2016 DHS
 Bosnia and Herzegovina,2006,,N/A,N/A,24.5,Survey,2006 MICS
+Burkina Faso,2006,,N/A,N/A,20.299999,Survey,2006 MICS
 Burundi,1987,,N/A,N/A,21.799999,Survey,1987 DHS
+Cambodia,1998,,N/A,N/A,22.1,Survey,1998 DHS Special
 Cambodia,2000,,N/A,N/A,22.299999,Survey,2000 DHS
 Cameroon,1991,,N/A,N/A,19.1,Survey,1991 DHS
 Cameroon,2006,,N/A,N/A,22.1,Survey,2006 MICS
@@ -984,12 +1571,11 @@ El Salvador,2014,,N/A,N/A,22.6,Survey,2014 MICS
 Swaziland,2010,,N/A,N/A,26.200001,Survey,2010 MICS
 Swaziland,2014,,N/A,N/A,26.5,Survey,2014 MICS
 Ethiopia,1990,,N/A,N/A,19.4,Survey,1990 FFS
-France,2006,,N/A,N/A,22.700001,Census,2008 Census
+Faeroe Islands,2008,,N/A,N/A,30.700001,UNSD Estimate,2008 Estimate
 Gambia,2005,,N/A,N/A,21.1,Survey,2005-2006 MICS
 Ghana,1988,,N/A,N/A,20.200001,Survey,1988 DHS
 Ghana,2006,,N/A,N/A,22.799999,Survey,2006 MICS
 Ghana,2017,,N/A,N/A,23.700001,Survey,2017 MHS
-Greenland,2000,,N/A,N/A,30.799999,Census,2000 Census
 Guatemala,1987,,N/A,N/A,20.6,Survey,1987 DHS
 Guatemala,1995,,N/A,N/A,20.5,Survey,1995 DHS
 Guatemala,1998,,N/A,N/A,20.4,Survey,1998-1999 DHS Interim
@@ -1011,11 +1597,11 @@ Indonesia,1991,,N/A,N/A,21.5,Survey,1991 DHS
 Indonesia,1994,,N/A,N/A,21.799999,Survey,1994 DHS
 Indonesia,1997,,N/A,N/A,21.799999,Survey,1997 DHS
 Indonesia,2012,,N/A,N/A,21.799999,Survey,2012 DHS Special
+Iraq,2000,,N/A,N/A,25.299999,Survey,2000 MICS
+Iraq,2004,,N/A,N/A,25.299999,Survey,2004 LCS
 Iraq,2006,,N/A,N/A,22.799999,Survey,2006-2007 FHS
 Iraq,2011,,N/A,N/A,22,Survey,2011 MICS
-Jamaica,2005,,N/A,N/A,25.200001,Survey,2005 MICS
-Jamaica,2008,,N/A,N/A,15.9,Survey,2008 RHS
-Jamaica,2011,,N/A,N/A,25.299999,Survey,2011 MICS
+Iraq,2012,,N/A,N/A,22.700001,Survey,2012 PMMS
 Kazakhstan,1995,,N/A,N/A,21.4,Survey,1995 DHS
 Kazakhstan,2006,,N/A,N/A,23.299999,Survey,2006 MICS
 Kazakhstan,2010,,N/A,N/A,23.1,Survey,2010-2011 MICS
@@ -1028,15 +1614,17 @@ Kyrgyzstan,1997,,N/A,N/A,20.299999,Survey,1997 DHS
 Kyrgyzstan,2005,,N/A,N/A,22.5,Survey,2005-2006 MICS
 Kyrgyzstan,2012,,N/A,N/A,21.799999,Survey,2012 DHS
 Kyrgyzstan,2014,,N/A,N/A,21.200001,Survey,2014 MICS
+Laos,2005,,N/A,N/A,20.5,Survey,2005 RHS
 Lesotho,1977,,N/A,N/A,19.4,Survey,1977 WFS
 Liberia,1986,,N/A,N/A,20.200001,Survey,1986 DHS
-Liberia,2006,,N/A,N/A,22.1,Survey,2007 DHS
-Liberia,2013,,N/A,N/A,22.6,Survey,2013 DHS
+Liechtenstein,2001,,N/A,N/A,28.9,UNSD Estimate,2001 Estimate
 Madagascar,1992,,N/A,N/A,20.799999,Survey,1992 DHS
 Madagascar,1997,,N/A,N/A,20.6,Survey,1997 DHS
 Malawi,1984,,N/A,N/A,18.1,Survey,1984 FFS
 Malawi,1992,,N/A,N/A,18.700001,Survey,1992 DHS
 Malawi,2006,,N/A,N/A,18.799999,Survey,2006 MICS
+Mali,1987,,N/A,N/A,16.4,Survey,1987 DHS
+Mali,2009,,N/A,N/A,19.200001,Survey,2009-2010 MICS
 Mauritania,2003,,N/A,N/A,22,Survey,2003-2004 EMIP Special
 Mauritania,2007,,N/A,N/A,21.6,Survey,2007 MICS
 Micronesia (country),2010,,N/A,N/A,25.299999,Census,2010 Census
@@ -1047,8 +1635,6 @@ Mongolia,2003,,N/A,N/A,22.299999,Survey,2003 RHS
 Mongolia,2005,,N/A,N/A,23,Survey,2005 MICS
 Mongolia,2008,,N/A,N/A,22.5,Survey,2008 RHS
 Mongolia,2013,,N/A,N/A,23,Survey,2013 MICS
-Montenegro,2005,,N/A,N/A,25.200001,Survey,2005-2006 MICS
-Montenegro,2013,,N/A,N/A,26.299999,Survey,2013 MICS
 Morocco,1987,,N/A,N/A,24,Survey,1987 DHS
 Morocco,1992,,N/A,N/A,25,Survey,1992 DHS
 Morocco,1995,,N/A,N/A,26.299999,Survey,1995 DHS
@@ -1056,22 +1642,21 @@ Morocco,1997,,N/A,N/A,28.1,Survey,1997 ENSME
 Morocco,2003,,N/A,N/A,26.4,Survey,2003-2004 DHS
 Morocco,2010,,N/A,N/A,26.299999,Survey,2011 ENPSF
 Morocco,2018,,N/A,N/A,24.4,Survey,2018 ENPSF
+Mozambique,2003,,N/A,N/A,18.700001,Survey,2003 DHS
+Mozambique,2008,,N/A,N/A,18.799999,Survey,2008 MICS
 Myanmar,1997,,N/A,N/A,26,Survey,1997 FRHS
 Myanmar,2001,,N/A,N/A,25.799999,Survey,2001 FRHS
 Namibia,1989,,N/A,N/A,19.4,Survey,1989 Demographic and Health Survey
 Namibia,1992,,N/A,N/A,26.4,Survey,1992 DHS
 Nauru,2007,,N/A,N/A,20.200001,Survey,2007 DHS
-Nepal,1976,,N/A,N/A,17.1,Survey,1976 WFS
-Nepal,1996,,N/A,N/A,18.6,Survey,1996 DHS
-Nepal,2006,,N/A,N/A,19.4,Survey,2006 DHS
 Nepal,2014,,N/A,N/A,20.700001,Survey,2014 MICS
-Nepal,2016,,N/A,N/A,20.1,Survey,2016 DHS
 Nicaragua,1992,,N/A,N/A,19.799999,Survey,1992-1993 ESF
 Nicaragua,2006,,N/A,N/A,20.9,Survey,2006-2007 RHS-DHS
 Nicaragua,2011,,N/A,N/A,21.1,Survey,2011-2012 NDHS
 Nigeria,1990,,N/A,N/A,19.6,Survey,1990 DHS
 Nigeria,2007,,N/A,N/A,21.5,Survey,2007 MICS
 Nigeria,2011,,N/A,N/A,21.700001,Survey,2011 MICS
+Norway,2001,,N/A,N/A,31.4,UNSD Estimate,2001 Estimate
 Pakistan,2012,,N/A,N/A,23.1,Survey,2012-2013 DHS
 Peru,1986,,N/A,N/A,23.1,Survey,1986 DHS
 Peru,1991,,N/A,N/A,23.9,Survey,1991-1992 DHS
@@ -1089,10 +1674,14 @@ Philippines,2008,,N/A,N/A,23.299999,Survey,2008 DHS
 Philippines,2013,,N/A,N/A,23.4,Survey,2013 DHS
 Philippines,2017,,N/A,N/A,23.4,Survey,2017 DHS
 Moldova,1997,,N/A,N/A,20.799999,Survey,1997 RHS
+Moldova,2000,,N/A,N/A,21.9,Survey,2000 MICS
+Moldova,2005,,N/A,N/A,21.9,Survey,2005 DHS
+Moldova,2012,,N/A,N/A,21.9,Survey,2012 MICS
 Rwanda,1970,,N/A,N/A,20.1,Survey,1970 ED
 Rwanda,1983,,N/A,N/A,21.1,Survey,1983 WFS
 Rwanda,1992,,N/A,N/A,22.700001,Survey,1992 DHS
 Saint Pierre and Miquelon,1990,,N/A,N/A,27.4,Census,1990 Census
+San Marino,2005,,N/A,N/A,28.799999,UNSD Estimate,2005 Estimate
 Sao Tome and Principe,2014,,N/A,N/A,21,Survey,2014 MICS
 Senegal,1978,,N/A,N/A,17.9,Survey,1978 WFS
 Senegal,1986,,N/A,N/A,19.5,Survey,1986 DHS
@@ -1121,8 +1710,14 @@ Macedonia,2011,,N/A,N/A,25.5,Survey,2011 MICS
 Tajikistan,2005,,N/A,N/A,22.9,Survey,2005 MICS
 Tajikistan,2012,,N/A,N/A,21.9,Survey,2012 DHS
 Tajikistan,2017,,N/A,N/A,20.700001,Survey,2017 DHS
+Timor,2003,,N/A,N/A,21.799999,Survey,2003 DHS
+Timor,2009,,N/A,N/A,23.1,Survey,2009-2010 DHS
+Timor,2016,,N/A,N/A,23,Survey,2016 DHS
 Togo,1988,,N/A,N/A,20.299999,Survey,1988 DHS
-Togo,2010,,N/A,N/A,22.4,Survey,2010 MICS
+Togo,1998,,N/A,N/A,21.4,Survey,1998 DHS
+Togo,2000,,N/A,N/A,21.1,Survey,2000 MICS
+Togo,2013,,N/A,N/A,22.299999,Survey,2013-2014 DHS-MICS
+Togo,2017,,N/A,N/A,21.299999,Survey,2017 MIS
 Tokelau,1991,,N/A,N/A,25.6,Census,1991 Census
 Turkey,1978,,N/A,N/A,20.5,Survey,1978 WFS
 Turkey,1983,,N/A,N/A,20.799999,Survey,1983 PHS
