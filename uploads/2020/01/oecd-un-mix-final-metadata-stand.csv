@@ -1,0 +1,2012 @@
+country,year,female_age,male_age,source,women_dataprocess,women_datacatalogshortname,men_dataprocess,men_datacatalogshortname
+Afghanistan,1972,18.1,26,UN World Marriage Data 2019,Survey,1972-1974 NDFGS,Survey,1972-1974 NDFGS
+Afghanistan,2010,21.5,,UN World Marriage Data 2019,Survey,2010 DHS Special,N/A,N/A
+Afghanistan,2015,21.5,24.700001,UN World Marriage Data 2019,Survey,2015 DHS,Survey,2015 DHS
+Albania,2000,23.9,28.5,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Albania,2002,22.9,26.9,UN World Marriage Data 2019,Survey,2002 RHS,Survey,2002 RHS
+Albania,2005,24.6,,UN World Marriage Data 2019,Survey,2005 MICS,N/A,N/A
+Albania,2008,24.6,28.799999,UN World Marriage Data 2019,Survey,2008-2009 DHS,Survey,2008-2009 DHS
+Albania,2017,24.200001,30.799999,UN World Marriage Data 2019,Survey,2017-2018 DHS,Survey,2017-2018 DHS
+Algeria,1977,,25.299999,UN World Marriage Data 2019,N/A,N/A,Census,1977 Census
+Algeria,1987,,27.700001,UN World Marriage Data 2019,N/A,N/A,Census,1987 Census
+Algeria,1992,25.9,,UN World Marriage Data 2019,Survey,1992 MCH,N/A,N/A
+Algeria,2002,29.5,,UN World Marriage Data 2019,Survey,2002 MCH,N/A,N/A
+Algeria,2006,29.700001,,UN World Marriage Data 2019,Survey,2006 MICS,N/A,N/A
+Algeria,2008,,32.900002,UN World Marriage Data 2019,N/A,N/A,Census,2008 Census
+Algeria,2012,28.200001,,UN World Marriage Data 2019,Survey,2012 MICS,N/A,N/A
+American Samoa,1974,23.299999,26.200001,UN World Marriage Data 2019,Census,1974 Census,Census,1974 Census
+American Samoa,1990,25.700001,28.299999,UN World Marriage Data 2019,Census,1990 Census,Census,1990 Census
+Angola,2001,20.299999,24.1,UN World Marriage Data 2019,Survey,2001 MICS,Survey,2001 MICS_HH
+Angola,2015,21.5,25.799999,UN World Marriage Data 2019,Survey,2015-2016 DHS,Survey,2015-2016 DHS
+Anguilla,2001,28.6,31.6,UN World Marriage Data 2019,Census,2001 Census,Census,2001 Census
+Antigua and Barbuda,1991,33.200001,33.200001,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Antigua and Barbuda,2001,25.700001,29.299999,UN World Marriage Data 2019,Census,2001 Census,Census,2001 Census
+Argentina,1970,23.1,26.4,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Argentina,1991,23.299999,25.799999,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Argentina,2001,24.6,26.9,UN World Marriage Data 2019,Census,2001 Census,Census,2001 Census
+Argentina,2010,24.6,26.6,UN World Marriage Data 2019,Census,2010 Census,Census,2010 Census
+Armenia,2000,22.200001,26.1,UN World Marriage Data 2019,Survey,2000 DHS,Survey,2000 DHS
+Armenia,2005,23,27,UN World Marriage Data 2019,Survey,2005 DHS,Survey,2005 DHS
+Armenia,2010,24.5,27.799999,UN World Marriage Data 2019,Survey,2010 DHS,Survey,2010 DHS
+Armenia,2015,24.200001,28.5,UN World Marriage Data 2019,Survey,2015 DHS,Survey,2015 DHS
+Aruba,1981,25.5,27.4,UN World Marriage Data 2019,Census,1981 Census,Census,1981 Census
+Aruba,1991,26.200001,28.799999,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Aruba,2000,26.799999,29.9,UN World Marriage Data 2019,Census,2000 Census,Census,2000 Census
+Aruba,2010,28.5,31.200001,UN World Marriage Data 2019,Census,2010 Census,Census,2010 Census
+Australia,1990,24.299999,26.5,OECD,N/A,N/A,N/A,N/A
+Australia,1991,24.5,26.700001,OECD,N/A,N/A,N/A,N/A
+Australia,1992,24.700001,26.9,OECD,N/A,N/A,N/A,N/A
+Australia,1993,24.799999,27,OECD,N/A,N/A,N/A,N/A
+Australia,1994,25.1,27.200001,OECD,N/A,N/A,N/A,N/A
+Australia,1995,25.299999,27.299999,OECD,N/A,N/A,N/A,N/A
+Australia,1996,25.700001,27.6,OECD,N/A,N/A,N/A,N/A
+Australia,1997,25.9,27.799999,OECD,N/A,N/A,N/A,N/A
+Australia,1998,26.200001,27.9,OECD,N/A,N/A,N/A,N/A
+Australia,1999,26.4,28.200001,OECD,N/A,N/A,N/A,N/A
+Australia,2000,26.700001,28.5,OECD,N/A,N/A,N/A,N/A
+Australia,2001,26.9,28.700001,OECD,N/A,N/A,N/A,N/A
+Australia,2002,27.1,29,OECD,N/A,N/A,N/A,N/A
+Australia,2003,27.299999,29.200001,OECD,N/A,N/A,N/A,N/A
+Australia,2004,27.5,29.4,OECD,N/A,N/A,N/A,N/A
+Australia,2005,27.6,29.5,OECD,N/A,N/A,N/A,N/A
+Australia,2006,27.6,29.6,OECD,N/A,N/A,N/A,N/A
+Australia,2007,27.6,29.6,OECD,N/A,N/A,N/A,N/A
+Australia,2008,27.700001,29.6,OECD,N/A,N/A,N/A,N/A
+Australia,2009,27.700001,29.6,OECD,N/A,N/A,N/A,N/A
+Australia,2010,27.9,29.6,OECD,N/A,N/A,N/A,N/A
+Australia,2011,28,29.700001,OECD,N/A,N/A,N/A,N/A
+Australia,2012,28.1,29.799999,OECD,N/A,N/A,N/A,N/A
+Australia,2013,28.299999,29.9,OECD,N/A,N/A,N/A,N/A
+Australia,2014,28.4,30,OECD,N/A,N/A,N/A,N/A
+Australia,2015,28.5,30.1,OECD,N/A,N/A,N/A,N/A
+Australia,2016,28.700001,30.299999,OECD,N/A,N/A,N/A,N/A
+Australia,2017,28.799999,30.4,OECD,N/A,N/A,N/A,N/A
+Austria,1990,25.200001,27.700001,OECD,N/A,N/A,N/A,N/A
+Austria,1991,25.4,27.9,OECD,N/A,N/A,N/A,N/A
+Austria,1992,25.6,28,OECD,N/A,N/A,N/A,N/A
+Austria,1993,25.799999,28.4,OECD,N/A,N/A,N/A,N/A
+Austria,1994,26.1,28.700001,OECD,N/A,N/A,N/A,N/A
+Austria,1995,26.299999,29,OECD,N/A,N/A,N/A,N/A
+Austria,1996,26.5,29.1,OECD,N/A,N/A,N/A,N/A
+Austria,1997,26.799999,29.299999,OECD,N/A,N/A,N/A,N/A
+Austria,1998,26.9,29.6,OECD,N/A,N/A,N/A,N/A
+Austria,1999,27.299999,29.9,OECD,N/A,N/A,N/A,N/A
+Austria,2000,27.4,30,OECD,N/A,N/A,N/A,N/A
+Austria,2001,27.5,30.200001,OECD,N/A,N/A,N/A,N/A
+Austria,2002,27.700001,30.299999,OECD,N/A,N/A,N/A,N/A
+Austria,2003,27.9,30.6,OECD,N/A,N/A,N/A,N/A
+Austria,2004,28.200001,30.9,OECD,N/A,N/A,N/A,N/A
+Austria,2005,28.6,31.200001,OECD,N/A,N/A,N/A,N/A
+Austria,2006,29.1,31.799999,OECD,N/A,N/A,N/A,N/A
+Austria,2007,29.299999,32,OECD,N/A,N/A,N/A,N/A
+Austria,2008,29.5,32.200001,OECD,N/A,N/A,N/A,N/A
+Austria,2009,29.9,32.5,OECD,N/A,N/A,N/A,N/A
+Austria,2011,30.299999,32.900002,OECD,N/A,N/A,N/A,N/A
+Austria,2012,30.6,33.200001,OECD,N/A,N/A,N/A,N/A
+Austria,2017,31.5,34.200001,OECD,N/A,N/A,N/A,N/A
+Azerbaijan,2012,24.299999,28.200001,UN World Marriage Data 2019,UNSD Estimate,2012 Estimate,UNSD Estimate,2012 Estimate
+Azerbaijan,2013,24.299999,28.200001,UN World Marriage Data 2019,UNSD Estimate,2013 Estimate,UNSD Estimate,2013 Estimate
+Azerbaijan,2014,24.299999,28.200001,UN World Marriage Data 2019,UNSD Estimate,2014 Estimate,UNSD Estimate,2014 Estimate
+Azerbaijan,2015,24.299999,28.1,UN World Marriage Data 2019,UNSD Estimate,2015 Estimate,UNSD Estimate,2015 Estimate
+Azerbaijan,2016,24.200001,28.1,UN World Marriage Data 2019,UNSD Estimate,2016 Estimate,UNSD Estimate,2016 Estimate
+Azerbaijan,2017,24.200001,28.1,UN World Marriage Data 2019,UNSD Estimate,2017 Estimate,UNSD Estimate,2017 Estimate
+Azerbaijan,2018,24.200001,28.1,UN World Marriage Data 2019,UNSD Estimate,2018 Estimate,UNSD Estimate,2018 Estimate
+Bahamas,1970,22.4,26,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Bahamas,1980,24.799999,27.299999,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+Bahamas,1990,27.200001,29.1,UN World Marriage Data 2019,Census,1990 Census,Census,1990 Census
+Bahamas,2000,27.4,29.9,UN World Marriage Data 2019,Census,2000 Census,Census,2000 Census
+Bahamas,2010,27.9,30.6,UN World Marriage Data 2019,Census,2010 Census,Census,2010 Census
+Bahrain,1991,25.6,28.4,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Bahrain,2001,26.299999,30,UN World Marriage Data 2019,Census,2001 Census,Census,2001 Census
+Bahrain,2010,26.9,,UN World Marriage Data 2019,Census,2010 Census,N/A,N/A
+Bangladesh,1974,,24,UN World Marriage Data 2019,N/A,N/A,Census,1974 Census
+Bangladesh,1975,16.700001,,UN World Marriage Data 2019,Survey,1975-1976 WFS,N/A,N/A
+Bangladesh,1981,,23.9,UN World Marriage Data 2019,N/A,N/A,Census,1981 Census
+Bangladesh,1991,,24.9,UN World Marriage Data 2019,N/A,N/A,Census,1991 Census
+Bangladesh,1993,18.299999,,UN World Marriage Data 2019,Survey,1993-1994 DHS,N/A,N/A
+Bangladesh,1996,18.6,,UN World Marriage Data 2019,Survey,1996-1997 DHS,N/A,N/A
+Bangladesh,1999,18.799999,,UN World Marriage Data 2019,Survey,1999-2000 DHS,N/A,N/A
+Bangladesh,2001,,25.299999,UN World Marriage Data 2019,N/A,N/A,Census,2001 Census
+Bangladesh,2004,18.700001,,UN World Marriage Data 2019,Survey,2004 DHS,N/A,N/A
+Bangladesh,2006,18.700001,,UN World Marriage Data 2019,Survey,2006 MICS,N/A,N/A
+Bangladesh,2007,18.4,,UN World Marriage Data 2019,Survey,2007 DHS,N/A,N/A
+Bangladesh,2011,18.6,25.200001,UN World Marriage Data 2019,Survey,2011 DHS,Census,2011 Census
+Bangladesh,2012,19.200001,,UN World Marriage Data 2019,Survey,2012-2013 MICS,N/A,N/A
+Bangladesh,2014,18.799999,,UN World Marriage Data 2019,Survey,2014 DHS,N/A,N/A
+Barbados,1970,28.5,31.700001,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Barbados,1980,30.4,32.700001,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+Barbados,1990,31.799999,34.299999,UN World Marriage Data 2019,Census,1990 Census,Census,1990 Census
+Barbados,2010,31.9,34.5,UN World Marriage Data 2019,Census,2010 Census,Census,2010 Census
+Belarus,1979,21.299999,24.6,UN World Marriage Data 2019,Census,1979 Census,Census,1979 Census
+Belarus,1989,21.9,24.5,UN World Marriage Data 2019,Census,1989 Census,Census,1989 Census
+Belarus,1999,22.799999,25.4,UN World Marriage Data 2019,Census,1999 Census,Census,1999 Census
+Belarus,2009,24.6,26.9,UN World Marriage Data 2019,Census,2009 Census,Census,2009 Census
+Belgium,1990,24.4,26.5,OECD,N/A,N/A,N/A,N/A
+Belgium,1991,24,26.700001,OECD,N/A,N/A,N/A,N/A
+Belgium,1992,24.799999,27,OECD,N/A,N/A,N/A,N/A
+Belgium,1993,25.1,27.200001,OECD,N/A,N/A,N/A,N/A
+Belgium,1994,25.4,27.4,OECD,N/A,N/A,N/A,N/A
+Belgium,1995,25.6,27.799999,OECD,N/A,N/A,N/A,N/A
+Belgium,1996,25.700001,28,OECD,N/A,N/A,N/A,N/A
+Belgium,1997,25.9,28.1,OECD,N/A,N/A,N/A,N/A
+Belgium,1998,26,28.299999,OECD,N/A,N/A,N/A,N/A
+Belgium,1999,26.299999,28.6,OECD,N/A,N/A,N/A,N/A
+Belgium,2000,26.9,29.1,OECD,N/A,N/A,N/A,N/A
+Belgium,2001,26.700001,29,OECD,N/A,N/A,N/A,N/A
+Belgium,2002,27,29.299999,OECD,N/A,N/A,N/A,N/A
+Belgium,2003,27.5,29.9,OECD,N/A,N/A,N/A,N/A
+Belgium,2004,27.9,30.200001,OECD,N/A,N/A,N/A,N/A
+Belgium,2005,28.1,30.5,OECD,N/A,N/A,N/A,N/A
+Belgium,2006,28.4,30.9,OECD,N/A,N/A,N/A,N/A
+Belgium,2007,28.6,31,OECD,N/A,N/A,N/A,N/A
+Belgium,2008,28.9,31.4,OECD,N/A,N/A,N/A,N/A
+Belgium,2009,29.299999,31.700001,OECD,N/A,N/A,N/A,N/A
+Belgium,2010,29.4,31.700001,OECD,N/A,N/A,N/A,N/A
+Belgium,2017,31.200001,33.5,OECD,N/A,N/A,N/A,N/A
+Belize,1970,22.6,26,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Belize,1980,23.9,26.200001,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+Belize,1991,26.200001,28.4,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Belize,2000,21,23.700001,UN World Marriage Data 2019,Census,2000 Census,Census,2000 Census
+Belize,2010,28.6,30.1,UN World Marriage Data 2019,Census,2010 Census,Census,2010 Census
+Benin,1996,19.9,,UN World Marriage Data 2019,Survey,1996 DHS,N/A,N/A
+Benin,2001,20.299999,26.200001,UN World Marriage Data 2019,Survey,2001 DHS,Survey,2001 DHS
+Benin,2006,20.5,25.299999,UN World Marriage Data 2019,Survey,2006 DHS,Survey,2006 DHS
+Benin,2011,21.299999,26.200001,UN World Marriage Data 2019,Survey,2011-2012 DHS,Survey,2011-2012 DHS
+Benin,2014,21.200001,25.799999,UN World Marriage Data 2019,Survey,2014 MICS,Survey,2014 MICS
+Benin,2017,20.700001,25.700001,UN World Marriage Data 2019,Survey,2017-2018 DHS,Survey,2017-2018 DHS
+Bermuda,1980,25.6,27.9,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+Bermuda,1991,28.9,30.5,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Bermuda,2000,29.799999,31.299999,UN World Marriage Data 2019,Census,2000 Census,Census,2000 Census
+Bermuda,2010,30.6,31.5,UN World Marriage Data 2019,Census,2010 Census,Census,2010 Census
+Bermuda,2016,31.9,32.5,UN World Marriage Data 2019,Census,2016 Census,Census,2016 Census
+Bhutan,2005,21.799999,25.4,UN World Marriage Data 2019,Census,2005 Census,Census,2005 Census
+Bhutan,2017,23.799999,26.4,UN World Marriage Data 2019,Census,2017 Census,Census,2017 Census
+Bolivia,1988,22.200001,,UN World Marriage Data 2019,Survey,1989 EIH,N/A,N/A
+Bolivia,1989,22.200001,,UN World Marriage Data 2019,Survey,1989 DHS,N/A,N/A
+Bolivia,1993,22,,UN World Marriage Data 2019,Survey,1994 DHS,N/A,N/A
+Bolivia,1998,22.799999,25.4,UN World Marriage Data 2019,Survey,1998 DHS,Survey,1998 DHS
+Bolivia,2000,22.4,24.5,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Bolivia,2003,22.6,24.5,UN World Marriage Data 2019,Survey,2003 DHS,Survey,2003 DHS
+Bolivia,2008,22.700001,25.299999,UN World Marriage Data 2019,Survey,2008 DHS,Survey,2008 DHS
+Bolivia,2016,24,,UN World Marriage Data 2019,Survey,2016 DHS,N/A,N/A
+Bosnia and Herzegovina,2000,23.6,28,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Bosnia and Herzegovina,2006,24.5,,UN World Marriage Data 2019,Survey,2006 MICS,N/A,N/A
+Bosnia and Herzegovina,2011,25.700001,29.4,UN World Marriage Data 2019,Survey,2011-2012 MICS,Survey,2011-2012 MICS
+Botswana,1971,24.9,29.5,UN World Marriage Data 2019,Census,1971 Census,Census,1971 Census
+Botswana,1981,26.4,30.799999,UN World Marriage Data 2019,Census,1981 Census,Census,1981 Census
+Botswana,1991,26.9,30.9,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Botswana,2001,26.4,30.9,UN World Marriage Data 2019,Census,2001 Census,Census,2001 Census
+Botswana,2011,24.799999,29.799999,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Brazil,1960,22.299999,26,UN World Marriage Data 2019,Census,1960 Census,Census,1960 Census
+Brazil,1970,23,26.200001,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Brazil,1980,22.700001,25.5,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+Brazil,1991,22.5,25.799999,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Brazil,2000,23.1,26.200001,UN World Marriage Data 2019,Census,2000 Census,Census,2000 Census
+Brazil,2010,23.9,26.799999,UN World Marriage Data 2019,Census,2010 Census,Census,2010 Census
+British Virgin Islands,1970,24.299999,28.200001,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+British Virgin Islands,1980,26.4,28.200001,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+British Virgin Islands,1991,28.4,31.9,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Brunei,1971,22.4,26.299999,UN World Marriage Data 2019,Census,1971 Census,Census,1971 Census
+Brunei,1981,23.6,26.5,UN World Marriage Data 2019,Census,1981 Census,Census,1981 Census
+Brunei,1991,25.1,27.299999,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Brunei,2011,26.1,29.299999,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Bulgaria,1990,21.5,24.6,OECD,N/A,N/A,N/A,N/A
+Bulgaria,1991,21.5,24.6,OECD,N/A,N/A,N/A,N/A
+Bulgaria,1992,21.700001,24.9,OECD,N/A,N/A,N/A,N/A
+Bulgaria,1993,22,25.200001,OECD,N/A,N/A,N/A,N/A
+Bulgaria,1994,22.4,25.700001,OECD,N/A,N/A,N/A,N/A
+Bulgaria,1995,22.700001,26.200001,OECD,N/A,N/A,N/A,N/A
+Bulgaria,1996,23,26.4,OECD,N/A,N/A,N/A,N/A
+Bulgaria,1997,23.299999,26.799999,OECD,N/A,N/A,N/A,N/A
+Bulgaria,1998,23.4,26.9,OECD,N/A,N/A,N/A,N/A
+Bulgaria,1999,23.700001,27.299999,OECD,N/A,N/A,N/A,N/A
+Bulgaria,2000,24.700001,28.5,OECD,N/A,N/A,N/A,N/A
+Bulgaria,2001,24.700001,28.4,OECD,N/A,N/A,N/A,N/A
+Bulgaria,2002,24.6,28.200001,OECD,N/A,N/A,N/A,N/A
+Bulgaria,2003,25,28.5,OECD,N/A,N/A,N/A,N/A
+Bulgaria,2004,25.299999,28.799999,OECD,N/A,N/A,N/A,N/A
+Bulgaria,2005,25.6,29.1,OECD,N/A,N/A,N/A,N/A
+Bulgaria,2006,25.700001,29.200001,OECD,N/A,N/A,N/A,N/A
+Bulgaria,2007,25.799999,29.1,OECD,N/A,N/A,N/A,N/A
+Bulgaria,2008,25.9,29.200001,OECD,N/A,N/A,N/A,N/A
+Bulgaria,2009,26.200001,29.4,OECD,N/A,N/A,N/A,N/A
+Bulgaria,2010,26.6,29.799999,OECD,N/A,N/A,N/A,N/A
+Bulgaria,2011,26.6,29.9,OECD,N/A,N/A,N/A,N/A
+Bulgaria,2013,26.700001,30,OECD,N/A,N/A,N/A,N/A
+Bulgaria,2014,26.9,30.299999,OECD,N/A,N/A,N/A,N/A
+Bulgaria,2015,27,30.4,OECD,N/A,N/A,N/A,N/A
+Bulgaria,2016,27.1,30.5,OECD,N/A,N/A,N/A,N/A
+Bulgaria,2017,27.299999,30.6,OECD,N/A,N/A,N/A,N/A
+Burkina Faso,1960,16.799999,26.4,UN World Marriage Data 2019,Survey,1960-1961 ED,Survey,1960-1961 ED
+Burkina Faso,1984,18.5,25.700001,UN World Marriage Data 2019,Survey,1984 ED,Survey,1984 ED
+Burkina Faso,1991,19,27.6,UN World Marriage Data 2019,Survey,1991 ED,Survey,1991 ED
+Burkina Faso,1992,18.200001,26,UN World Marriage Data 2019,Survey,1993 DHS,Survey,1993 DHS
+Burkina Faso,1998,18.9,26.4,UN World Marriage Data 2019,Survey,1998-1999 DHS,Survey,1998-1999 DHS
+Burkina Faso,2003,19.4,26.1,UN World Marriage Data 2019,Survey,2003 DHS,Survey,2003 DHS
+Burkina Faso,2006,20.299999,,UN World Marriage Data 2019,Survey,2006 MICS,N/A,N/A
+Burkina Faso,2010,19.5,25.299999,UN World Marriage Data 2019,Survey,2010 DHS-MICS,Survey,2010 DHS-MICS
+Burkina Faso,2017,20,26.4,UN World Marriage Data 2019,Survey,2017 MIS,Survey,2017 MIS
+Burundi,1970,21.700001,23.700001,UN World Marriage Data 2019,Survey,1970-1971 DS,Survey,1970-1971 DS
+Burundi,1987,21.799999,,UN World Marriage Data 2019,Survey,1987 DHS,N/A,N/A
+Burundi,2000,23.4,26.200001,UN World Marriage Data 2019,Survey,2000 MICS_HH,Survey,2000 MICS_HH
+Burundi,2002,23.700001,26.1,UN World Marriage Data 2019,Survey,2002 Survey,Survey,2002 Survey
+Burundi,2005,21.6,25.5,UN World Marriage Data 2019,Survey,2005 MICS,Survey,2005 MICS_HH
+Burundi,2010,22.1,25.4,UN World Marriage Data 2019,Survey,2010 DHS,Survey,2010 DHS
+Burundi,2016,22.799999,26.1,UN World Marriage Data 2019,Survey,2016 DHS,Survey,2016 DHS
+Cape Verde,1960,23.299999,27.6,UN World Marriage Data 2019,Census,1960 Census,Census,1960 Census
+Cape Verde,1970,22,29.200001,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Cape Verde,1980,23.6,27.299999,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+Cape Verde,1990,25.700001,28.1,UN World Marriage Data 2019,Census,1990 Census,Census,1990 Census
+Cape Verde,2000,24.6,28.799999,UN World Marriage Data 2019,Census,2000 Census,Census,2000 Census
+Cambodia,1998,22.1,,UN World Marriage Data 2019,Survey,1998 DHS Special,N/A,N/A
+Cambodia,2000,22.299999,,UN World Marriage Data 2019,Survey,2000 DHS,N/A,N/A
+Cambodia,2004,22.799999,24.6,UN World Marriage Data 2019,Survey,2004 ICPS,Survey,2004 ICPS
+Cambodia,2005,22.6,24.4,UN World Marriage Data 2019,Survey,2005 DHS,Survey,2005 DHS
+Cambodia,2010,22,24.9,UN World Marriage Data 2019,Survey,2010 DHS,Survey,2010 DHS
+Cambodia,2014,21.6,24.5,UN World Marriage Data 2019,Survey,2014 DHS,Survey,2014 DHS
+Cameroon,1991,19.1,,UN World Marriage Data 2019,Survey,1991 DHS,N/A,N/A
+Cameroon,1998,20.200001,26.700001,UN World Marriage Data 2019,Survey,1998 DHS,Survey,1998 DHS
+Cameroon,2000,22.700001,28.1,UN World Marriage Data 2019,Survey,2000 MICS_HH,Survey,2000 MICS_HH
+Cameroon,2004,20.1,25,UN World Marriage Data 2019,Survey,2004 DHS,Survey,2004 DHS
+Cameroon,2006,22.1,,UN World Marriage Data 2019,Survey,2006 MICS,N/A,N/A
+Cameroon,2011,21.299999,27.200001,UN World Marriage Data 2019,Survey,2011 DHS-MICS,Survey,2011 DHS-MICS
+Cameroon,2014,22.200001,28.5,UN World Marriage Data 2019,Survey,2014 MICS,Survey,2014 MICS
+Canada,1990,25.5,27.6,OECD,N/A,N/A,N/A,N/A
+Canada,1991,25.799999,27.799999,OECD,N/A,N/A,N/A,N/A
+Canada,1992,26,28,OECD,N/A,N/A,N/A,N/A
+Canada,1993,26.200001,28.200001,OECD,N/A,N/A,N/A,N/A
+Canada,1994,26.299999,28.299999,OECD,N/A,N/A,N/A,N/A
+Canada,1995,26.5,28.4,OECD,N/A,N/A,N/A,N/A
+Canada,1996,26.700001,28.6,OECD,N/A,N/A,N/A,N/A
+Canada,1997,26.9,28.799999,OECD,N/A,N/A,N/A,N/A
+Canada,1998,27,28.9,OECD,N/A,N/A,N/A,N/A
+Canada,1999,27.200001,29.1,OECD,N/A,N/A,N/A,N/A
+Canada,2000,27.5,29.5,OECD,N/A,N/A,N/A,N/A
+Canada,2001,27.700001,29.700001,OECD,N/A,N/A,N/A,N/A
+Canada,2002,27.799999,29.799999,OECD,N/A,N/A,N/A,N/A
+Canada,2003,28.200001,30.200001,OECD,N/A,N/A,N/A,N/A
+Canada,2004,28.5,30.5,OECD,N/A,N/A,N/A,N/A
+Canada,2005,28.700001,30.6,OECD,N/A,N/A,N/A,N/A
+Canada,2006,28.9,30.9,OECD,N/A,N/A,N/A,N/A
+Canada,2007,29,31,OECD,N/A,N/A,N/A,N/A
+Canada,2008,29.1,31.1,OECD,N/A,N/A,N/A,N/A
+Cayman Islands,1970,19.700001,25.4,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Cayman Islands,1979,25.5,27.299999,UN World Marriage Data 2019,Census,1979 Census,Census,1979 Census
+Cayman Islands,1989,25.200001,27.6,UN World Marriage Data 2019,Census,1989 Census,Census,1989 Census
+Cayman Islands,2010,28,29.9,UN World Marriage Data 2019,Census,2010 Census,Census,2010 Census
+Central African Republic,1994,19.4,24.4,UN World Marriage Data 2019,Survey,1994-1995 DHS,Survey,1994-1995 DHS
+Central African Republic,2000,17.9,24.799999,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Central African Republic,2006,17,,UN World Marriage Data 2019,Survey,2006 MICS,N/A,N/A
+Central African Republic,2010,17.299999,21.700001,UN World Marriage Data 2019,Survey,2010 MICS,Survey,2010 MICS
+Chad,1996,18.1,24.1,UN World Marriage Data 2019,Survey,1996-1997 DHS,Survey,1996-1997 DHS
+Chad,2000,18.299999,25.200001,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Chad,2004,18.4,24.5,UN World Marriage Data 2019,Survey,2004 DHS,Survey,2004 DHS
+Chad,2010,18.200001,,UN World Marriage Data 2019,Survey,2010 MICS,N/A,N/A
+Chad,2014,18.799999,24.700001,UN World Marriage Data 2019,Survey,2014-2015 DHS-MICS,Survey,2014-2015 DHS-MICS
+Channel Islands,1981,24.6,26.5,UN World Marriage Data 2019,Census,1981 Census,Census,1981 Census
+Channel Islands,1986,26.799999,28.200001,UN World Marriage Data 2019,Census,1986 Census,Census,1986 Census
+Channel Islands,1991,28.200001,29.299999,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Channel Islands,2001,29.700001,31.299999,UN World Marriage Data 2019,Census,2001 Census,Census,2001 Census
+Chile,1997,24.9,27,OECD,N/A,N/A,N/A,N/A
+Chile,1998,25.200001,27.299999,OECD,N/A,N/A,N/A,N/A
+Chile,1999,25.5,27.5,OECD,N/A,N/A,N/A,N/A
+Chile,2000,25.6,27.700001,OECD,N/A,N/A,N/A,N/A
+Chile,2001,25.9,28,OECD,N/A,N/A,N/A,N/A
+Chile,2002,26.299999,28.4,OECD,N/A,N/A,N/A,N/A
+Chile,2003,26.6,28.700001,OECD,N/A,N/A,N/A,N/A
+Chile,2004,26.799999,28.9,OECD,N/A,N/A,N/A,N/A
+Chile,2005,27.299999,29.6,OECD,N/A,N/A,N/A,N/A
+Chile,2006,27.4,29.299999,OECD,N/A,N/A,N/A,N/A
+Chile,2007,27.700001,29.5,OECD,N/A,N/A,N/A,N/A
+Chile,2008,28.1,29.799999,OECD,N/A,N/A,N/A,N/A
+Chile,2009,29,30.299999,OECD,N/A,N/A,N/A,N/A
+Chile,2010,29.9,31.299999,OECD,N/A,N/A,N/A,N/A
+Chile,2011,30.200001,31.5,OECD,N/A,N/A,N/A,N/A
+Chile,2012,30,31.299999,OECD,N/A,N/A,N/A,N/A
+Chile,2013,28.5,30.4,OECD,N/A,N/A,N/A,N/A
+Chile,2014,29.700001,31.1,OECD,N/A,N/A,N/A,N/A
+Chile,2015,30.9,32.200001,OECD,N/A,N/A,N/A,N/A
+Chile,2016,31.5,32.700001,OECD,N/A,N/A,N/A,N/A
+China,1995,22.6,24.200001,UN World Marriage Data 2019,Survey,1995 One-percent Survey,Survey,1995 One-percent Survey
+China,2005,23.5,25.6,UN World Marriage Data 2019,Survey,2005 One-percent Survey,Survey,2005 One-percent Survey
+China,2013,24.4,26.200001,UN World Marriage Data 2019,Survey,2013 Annual APC,Survey,2013 Annual APC
+China,2015,24.799999,26.9,UN World Marriage Data 2019,Survey,2015 Annual APC,Survey,2015 Annual APC
+China,2016,25.4,27.1,UN World Marriage Data 2019,Survey,2016 Annual APC,Survey,2016 Annual APC
+Hong Kong,1971,23.799999,30.200001,UN World Marriage Data 2019,Census,1971 Census,Census,1971 Census
+Hong Kong,1981,25.299999,28.700001,UN World Marriage Data 2019,Census,1981 Census,Census,1981 Census
+Hong Kong,1986,26.6,29.200001,UN World Marriage Data 2019,Census,1986 Census,Census,1986 Census
+Hong Kong,1991,27.700001,30,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Hong Kong,1996,28.6,30.700001,UN World Marriage Data 2019,Census,1996 Census,Census,1996 Census
+Hong Kong,2001,29.5,31.6,UN World Marriage Data 2019,Census,2001 Census,Census,2001 Census
+Hong Kong,2006,30.299999,32.799999,UN World Marriage Data 2019,Census,2006 Census,Census,2006 Census
+Hong Kong,2011,30.299999,32.700001,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Hong Kong,2016,29.9,32.099998,UN World Marriage Data 2019,Census,2016 Census,Census,2016 Census
+Macao,1970,25.6,29,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Macao,1981,26.9,29.6,UN World Marriage Data 2019,Census,1981 Census,Census,1981 Census
+Macao,1991,26.4,28.1,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Macao,2001,27.9,29.5,UN World Marriage Data 2019,Census,2001 Census,Census,2001 Census
+Macao,2006,28,29.799999,UN World Marriage Data 2019,Census,2006 Census,Census,2006 Census
+Macao,2011,30.299999,32.700001,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Taiwan,1980,23.799999,25.299999,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+Taiwan,1990,25.9,28.799999,UN World Marriage Data 2019,Census,1990 Census,Census,1990 Census
+Taiwan,2000,27.6,30.5,UN World Marriage Data 2019,Census,2000 Census,Census,2000 Census
+Colombia,1986,23.5,,UN World Marriage Data 2019,Survey,1986 DHS,N/A,N/A
+Colombia,1990,23.1,,UN World Marriage Data 2019,Survey,1990 DHS,N/A,N/A
+Colombia,1995,22.200001,26.799999,UN World Marriage Data 2019,Survey,1995 DHS,Survey,1995 DHS
+Colombia,2000,23.1,27,UN World Marriage Data 2019,Survey,2000 DHS,Survey,2000 DHS
+Colombia,2004,23,26.9,UN World Marriage Data 2019,Survey,2005 DHS,Survey,2005 DHS
+Colombia,2009,22.299999,26.799999,UN World Marriage Data 2019,Survey,2010 DHS,Survey,2010 DHS
+Colombia,2015,22.700001,26.200001,UN World Marriage Data 2019,Survey,2015 DHS,Survey,2015 DHS
+Comoros,1996,23.6,28.5,UN World Marriage Data 2019,Survey,1996 DHS,Survey,1996 DHS
+Comoros,2000,20.799999,26.799999,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Comoros,2012,22.6,25.5,UN World Marriage Data 2019,Survey,2012 DHS-MICS,Survey,2012 DHS-MICS
+Congo,2005,21.9,25.799999,UN World Marriage Data 2019,Survey,2005 DHS,Survey,2005 DHS
+Congo,2009,21.1,26,UN World Marriage Data 2019,Survey,2009 AIS,Survey,2009 AIS
+Congo,2011,21.299999,26.9,UN World Marriage Data 2019,Survey,2011-2012 DHS,Survey,2011-2012 DHS
+Congo,2014,21.9,27.5,UN World Marriage Data 2019,Survey,2014-2015 MICS,Survey,2014-2015 MICS
+Cook Islands,1971,23.1,23.6,UN World Marriage Data 2019,Census,1971 Census,Census,1971 Census
+Cook Islands,1976,24.4,24.299999,UN World Marriage Data 2019,Census,1976 Census,Census,1976 Census
+Cook Islands,1981,25.6,26.200001,UN World Marriage Data 2019,Census,1981 Census,Census,1981 Census
+Cook Islands,1986,27.700001,28.5,UN World Marriage Data 2019,Census,1986 Census,Census,1986 Census
+Cook Islands,1996,29.6,31.200001,UN World Marriage Data 2019,Census,1996 Census,Census,1996 Census
+Cook Islands,2006,28,27.9,UN World Marriage Data 2019,Census,2006 Census,Census,2006 Census
+Costa Rica,2003,23.4,26.9,UN World Marriage Data 2019,UNSD Estimate,2003 Estimate,UNSD Estimate,2003 Estimate
+Costa Rica,2006,23.6,27,UN World Marriage Data 2019,UNSD Estimate,2006 Estimate,UNSD Estimate,2006 Estimate
+Costa Rica,2007,24.1,27.6,UN World Marriage Data 2019,UNSD Estimate,2007 Estimate,UNSD Estimate,2007 Estimate
+Costa Rica,2009,24.4,27.9,UN World Marriage Data 2019,UNSD Estimate,2009 Estimate,UNSD Estimate,2009 Estimate
+Costa Rica,2010,24.200001,27.799999,UN World Marriage Data 2019,UNSD Estimate,2010 Estimate,UNSD Estimate,2010 Estimate
+Costa Rica,2013,26.6,29.1,UN World Marriage Data 2019,UNSD Estimate,2013 Estimate,UNSD Estimate,2013 Estimate
+Costa Rica,2014,25.700001,28.799999,UN World Marriage Data 2019,UNSD Estimate,2014 Estimate,UNSD Estimate,2014 Estimate
+Costa Rica,2015,24.9,28.1,UN World Marriage Data 2019,UNSD Estimate,2015 Estimate,UNSD Estimate,2015 Estimate
+Costa Rica,2016,25.299999,28.299999,UN World Marriage Data 2019,UNSD Estimate,2016 Estimate,UNSD Estimate,2016 Estimate
+Costa Rica,2017,25.9,28.6,UN World Marriage Data 2019,UNSD Estimate,2017 Estimate,UNSD Estimate,2017 Estimate
+Costa Rica,2018,26.4,29.200001,UN World Marriage Data 2019,UNSD Estimate,2018 Estimate,UNSD Estimate,2018 Estimate
+Croatia,2001,25.4,28.5,OECD,N/A,N/A,N/A,N/A
+Croatia,2002,25.6,28.799999,OECD,N/A,N/A,N/A,N/A
+Croatia,2003,25.799999,29,OECD,N/A,N/A,N/A,N/A
+Croatia,2004,26,29.1,OECD,N/A,N/A,N/A,N/A
+Croatia,2005,26.200001,29.4,OECD,N/A,N/A,N/A,N/A
+Croatia,2006,26.299999,29.5,OECD,N/A,N/A,N/A,N/A
+Croatia,2007,26.6,29.700001,OECD,N/A,N/A,N/A,N/A
+Croatia,2008,26.6,29.700001,OECD,N/A,N/A,N/A,N/A
+Croatia,2009,26.9,29.799999,OECD,N/A,N/A,N/A,N/A
+Croatia,2010,27.1,30,OECD,N/A,N/A,N/A,N/A
+Croatia,2011,27.299999,30.200001,OECD,N/A,N/A,N/A,N/A
+Croatia,2012,27.299999,30.299999,OECD,N/A,N/A,N/A,N/A
+Croatia,2013,27.6,30.5,OECD,N/A,N/A,N/A,N/A
+Croatia,2014,27.799999,30.6,OECD,N/A,N/A,N/A,N/A
+Croatia,2015,27.9,30.700001,OECD,N/A,N/A,N/A,N/A
+Croatia,2016,28,30.799999,OECD,N/A,N/A,N/A,N/A
+Croatia,2017,28.200001,31,OECD,N/A,N/A,N/A,N/A
+Cuba,1970,19.5,23.4,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Cuba,1981,19.799999,23.5,UN World Marriage Data 2019,Census,1981 Census,Census,1981 Census
+Cuba,2002,21.1,25.299999,UN World Marriage Data 2019,Census,2002 Census,Census,2002 Census
+Cuba,2012,21.299999,25.4,UN World Marriage Data 2019,Census,2012 Census,Census,2012 Census
+Cyprus,1990,24.9,27.9,OECD,N/A,N/A,N/A,N/A
+Cyprus,1991,24.6,27.5,OECD,N/A,N/A,N/A,N/A
+Cyprus,1992,25.4,27.9,OECD,N/A,N/A,N/A,N/A
+Cyprus,1993,25.200001,27.9,OECD,N/A,N/A,N/A,N/A
+Cyprus,1994,25.799999,28.4,OECD,N/A,N/A,N/A,N/A
+Cyprus,1995,25.700001,28.200001,OECD,N/A,N/A,N/A,N/A
+Cyprus,1996,26,28.6,OECD,N/A,N/A,N/A,N/A
+Cyprus,1997,26.200001,28.700001,OECD,N/A,N/A,N/A,N/A
+Cyprus,1998,26.4,28.9,OECD,N/A,N/A,N/A,N/A
+Cyprus,1999,26.4,29,OECD,N/A,N/A,N/A,N/A
+Cyprus,2000,26.9,29.299999,OECD,N/A,N/A,N/A,N/A
+Cyprus,2001,27.200001,29.700001,OECD,N/A,N/A,N/A,N/A
+Cyprus,2002,27.299999,30.1,OECD,N/A,N/A,N/A,N/A
+Cyprus,2003,27.799999,30.5,OECD,N/A,N/A,N/A,N/A
+Cyprus,2004,27.299999,30.1,OECD,N/A,N/A,N/A,N/A
+Cyprus,2005,27.299999,29.9,OECD,N/A,N/A,N/A,N/A
+Cyprus,2006,27.700001,30.4,OECD,N/A,N/A,N/A,N/A
+Czech Republic,1990,21.6,24.299999,OECD,N/A,N/A,N/A,N/A
+Czech Republic,1991,21.6,24.299999,OECD,N/A,N/A,N/A,N/A
+Czech Republic,1992,21.9,24.5,OECD,N/A,N/A,N/A,N/A
+Czech Republic,1993,22.1,24.700001,OECD,N/A,N/A,N/A,N/A
+Czech Republic,1994,22.4,25.1,OECD,N/A,N/A,N/A,N/A
+Czech Republic,1995,22.799999,25.5,OECD,N/A,N/A,N/A,N/A
+Czech Republic,1996,23.1,25.9,OECD,N/A,N/A,N/A,N/A
+Czech Republic,1997,23.6,26.5,OECD,N/A,N/A,N/A,N/A
+Czech Republic,1998,23.799999,26.799999,OECD,N/A,N/A,N/A,N/A
+Czech Republic,1999,24.200001,27.200001,OECD,N/A,N/A,N/A,N/A
+Czech Republic,2000,24.6,27.6,OECD,N/A,N/A,N/A,N/A
+Czech Republic,2001,25,27.9,OECD,N/A,N/A,N/A,N/A
+Czech Republic,2002,25.4,28.4,OECD,N/A,N/A,N/A,N/A
+Czech Republic,2003,25.799999,28.799999,OECD,N/A,N/A,N/A,N/A
+Czech Republic,2004,26.1,29.1,OECD,N/A,N/A,N/A,N/A
+Czech Republic,2005,26.4,29.4,OECD,N/A,N/A,N/A,N/A
+Czech Republic,2006,26.799999,29.700001,OECD,N/A,N/A,N/A,N/A
+Czech Republic,2007,27,30,OECD,N/A,N/A,N/A,N/A
+Czech Republic,2008,27.200001,30.200001,OECD,N/A,N/A,N/A,N/A
+Czech Republic,2009,27.6,30.6,OECD,N/A,N/A,N/A,N/A
+Czech Republic,2010,27.9,30.799999,OECD,N/A,N/A,N/A,N/A
+Czech Republic,2011,28.1,31,OECD,N/A,N/A,N/A,N/A
+Czech Republic,2012,28.299999,31.200001,OECD,N/A,N/A,N/A,N/A
+Czech Republic,2013,28.5,31.299999,OECD,N/A,N/A,N/A,N/A
+Czech Republic,2014,28.700001,31.4,OECD,N/A,N/A,N/A,N/A
+Czech Republic,2015,28.799999,31.6,OECD,N/A,N/A,N/A,N/A
+Czech Republic,2016,29,31.700001,OECD,N/A,N/A,N/A,N/A
+Czech Republic,2017,29.1,31.799999,OECD,N/A,N/A,N/A,N/A
+Cote d'Ivoire,1994,20.9,28.1,UN World Marriage Data 2019,Survey,1994 DHS,Survey,1994 DHS
+Cote d'Ivoire,1998,21.9,28,UN World Marriage Data 2019,Survey,1998-1999 DHS,Survey,1998-1999 DHS
+Cote d'Ivoire,2000,22.799999,29.200001,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Cote d'Ivoire,2005,21.700001,27.299999,UN World Marriage Data 2019,Survey,2005 EIS,Survey,2005 EIS
+Cote d'Ivoire,2006,19.700001,,UN World Marriage Data 2019,Survey,2006 MICS,N/A,N/A
+Cote d'Ivoire,2011,22.299999,28,UN World Marriage Data 2019,Survey,2011-2012 DHS-MICS,Survey,2011-2012 DHS-MICS
+Cote d'Ivoire,2016,23,29.200001,UN World Marriage Data 2019,Survey,2016 MICS,Survey,2016 MICS
+North Korea,2008,25.5,29,UN World Marriage Data 2019,Census,2008 Census,Census,2008 Census
+Democratic Republic of Congo,1991,19.700001,24.6,UN World Marriage Data 2019,Survey,1991 Survey,Survey,1991 Survey
+Democratic Republic of Congo,2001,21,26.799999,UN World Marriage Data 2019,Survey,2001 MICS,Survey,2001 MICS_HH
+Democratic Republic of Congo,2007,20.799999,25.200001,UN World Marriage Data 2019,Survey,2007 DHS,Survey,2007 DHS
+Democratic Republic of Congo,2010,20.200001,,UN World Marriage Data 2019,Survey,2010 MICS,N/A,N/A
+Democratic Republic of Congo,2013,20.9,25.5,UN World Marriage Data 2019,Survey,2013-2014 DHS,Survey,2013-2014 DHS
+Denmark,1990,27.799999,30.5,OECD,N/A,N/A,N/A,N/A
+Denmark,1991,28,30.6,OECD,N/A,N/A,N/A,N/A
+Denmark,1992,28.299999,31,OECD,N/A,N/A,N/A,N/A
+Denmark,1993,28.799999,31.4,OECD,N/A,N/A,N/A,N/A
+Denmark,1994,29.200001,31.799999,OECD,N/A,N/A,N/A,N/A
+Denmark,1995,29.200001,31.9,OECD,N/A,N/A,N/A,N/A
+Denmark,1996,29.9,32.5,OECD,N/A,N/A,N/A,N/A
+Denmark,1997,30.1,32.200001,OECD,N/A,N/A,N/A,N/A
+Denmark,1998,29.799999,32.400002,OECD,N/A,N/A,N/A,N/A
+Denmark,1999,30,32.5,OECD,N/A,N/A,N/A,N/A
+Denmark,2000,29.9,32.5,OECD,N/A,N/A,N/A,N/A
+Denmark,2001,29.9,32.599998,OECD,N/A,N/A,N/A,N/A
+Denmark,2002,30.1,32.700001,OECD,N/A,N/A,N/A,N/A
+Denmark,2003,30.6,33.200001,OECD,N/A,N/A,N/A,N/A
+Denmark,2004,30.9,33.400002,OECD,N/A,N/A,N/A,N/A
+Denmark,2005,30.9,33.400002,OECD,N/A,N/A,N/A,N/A
+Denmark,2006,30.9,33.400002,OECD,N/A,N/A,N/A,N/A
+Denmark,2007,31.299999,33.599998,OECD,N/A,N/A,N/A,N/A
+Denmark,2008,31.4,33.799999,OECD,N/A,N/A,N/A,N/A
+Denmark,2009,31.1,33.5,OECD,N/A,N/A,N/A,N/A
+Denmark,2010,31.200001,33.599998,OECD,N/A,N/A,N/A,N/A
+Denmark,2011,31.4,33.799999,OECD,N/A,N/A,N/A,N/A
+Denmark,2012,31.799999,34.299999,OECD,N/A,N/A,N/A,N/A
+Denmark,2013,31.9,34.400002,OECD,N/A,N/A,N/A,N/A
+Denmark,2014,31.9,34.400002,OECD,N/A,N/A,N/A,N/A
+Denmark,2015,31.9,34.299999,OECD,N/A,N/A,N/A,N/A
+Denmark,2016,32.200001,34.700001,OECD,N/A,N/A,N/A,N/A
+Denmark,2017,32.400002,34.799999,OECD,N/A,N/A,N/A,N/A
+Djibouti,1991,26.799999,29.299999,UN World Marriage Data 2019,Survey,1991 ICS,Survey,1991 ICS
+Djibouti,2002,27.700001,30.799999,UN World Marriage Data 2019,Survey,2002 FHS,Survey,2002 FHS
+Djibouti,2006,26.9,,UN World Marriage Data 2019,Survey,2006 MICS,N/A,N/A
+Djibouti,2012,29.9,33,UN World Marriage Data 2019,Survey,2012 FHS,Survey,2012 FHS
+Dominica,1970,29.6,32.5,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Dominica,1981,30.799999,33.299999,UN World Marriage Data 2019,Census,1981 Census,Census,1981 Census
+Dominica,1991,31.6,35.400002,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Dominica,2001,32.5,36.5,UN World Marriage Data 2019,Census,2001 Census,Census,2001 Census
+Dominican Republic,1986,21.5,,UN World Marriage Data 2019,Survey,1986 DHS,N/A,N/A
+Dominican Republic,1991,21.799999,,UN World Marriage Data 2019,Survey,1991 DHS,N/A,N/A
+Dominican Republic,1996,21.299999,25.5,UN World Marriage Data 2019,Survey,1996 DHS,Survey,1996 DHS
+Dominican Republic,1999,21.6,24.299999,UN World Marriage Data 2019,Survey,1999 DHS,Survey,1999 DHS
+Dominican Republic,2000,21.4,26.1,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Dominican Republic,2002,21,26.1,UN World Marriage Data 2019,Survey,2002 DHS,Survey,2002 DHS
+Dominican Republic,2007,21,25.4,UN World Marriage Data 2019,Survey,2007 DHS,Survey,2007 DHS
+Dominican Republic,2013,21,24.799999,UN World Marriage Data 2019,Survey,2013 DHS,Survey,2013 DHS
+Dominican Republic,2014,21.5,,UN World Marriage Data 2019,Survey,2014 MICS,N/A,N/A
+Ecuador,1974,,25,UN World Marriage Data 2019,N/A,N/A,Census,1974 Census
+Ecuador,1982,22,24.799999,UN World Marriage Data 2019,Survey,1982 ESMIVD,Census,1982 Census
+Ecuador,1987,22.200001,,UN World Marriage Data 2019,Survey,1987 DHS,N/A,N/A
+Ecuador,1989,22.299999,,UN World Marriage Data 2019,Survey,1989 ENDEMAIN,N/A,N/A
+Ecuador,1990,,25.200001,UN World Marriage Data 2019,N/A,N/A,Census,1990 Census
+Ecuador,1994,22.799999,,UN World Marriage Data 2019,Survey,1994 ENDEMAIN,N/A,N/A
+Ecuador,1999,22.299999,,UN World Marriage Data 2019,Survey,1999 ENDEMAIN,N/A,N/A
+Ecuador,2001,,24.6,UN World Marriage Data 2019,N/A,N/A,Census,2001 Census
+Ecuador,2004,22.200001,,UN World Marriage Data 2019,Survey,2004 ENDEMAIN,N/A,N/A
+Ecuador,2010,,25,UN World Marriage Data 2019,N/A,N/A,Census,2010 Census
+Egypt,1980,21.4,27,UN World Marriage Data 2019,Survey,1980 WFS,Survey,1980 WFS
+Egypt,1988,22.1,,UN World Marriage Data 2019,Survey,1988 DHS,N/A,N/A
+Egypt,1992,22.4,28,UN World Marriage Data 2019,Survey,1992 DHS,Survey,1992 DHS
+Egypt,1995,22.299999,28.1,UN World Marriage Data 2019,Survey,1995 DHS,Survey,1995 DHS
+Egypt,2000,22.700001,28.200001,UN World Marriage Data 2019,Survey,2000 DHS,Survey,2000 DHS
+Egypt,2003,22.700001,28.299999,UN World Marriage Data 2019,Survey,2003 DHS Interim,Survey,2003 DHS Interim
+Egypt,2005,23,28,UN World Marriage Data 2019,Survey,2005 DHS,Survey,2005 DHS
+Egypt,2008,22.700001,27.700001,UN World Marriage Data 2019,Survey,2008 DHS,Survey,2008 DHS
+Egypt,2014,22,27.5,UN World Marriage Data 2019,Survey,2014 DHS,Survey,2014 DHS
+El Salvador,1971,,24.700001,UN World Marriage Data 2019,N/A,N/A,Census,1971 Census
+El Salvador,1985,20,,UN World Marriage Data 2019,Survey,1985 DHS,N/A,N/A
+El Salvador,1992,,25.299999,UN World Marriage Data 2019,N/A,N/A,Census,1992 Census
+El Salvador,1998,21.5,,UN World Marriage Data 2019,Survey,1998 FESAL,N/A,N/A
+El Salvador,2002,22,,UN World Marriage Data 2019,Survey,2002-2003 FESAL,N/A,N/A
+El Salvador,2007,,25.5,UN World Marriage Data 2019,N/A,N/A,Census,2007 Census
+El Salvador,2008,21.9,,UN World Marriage Data 2019,Survey,2008 FESAL,N/A,N/A
+El Salvador,2014,22.6,,UN World Marriage Data 2019,Survey,2014 MICS,N/A,N/A
+Equatorial Guinea,2000,21.299999,28.799999,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Equatorial Guinea,2011,20.5,26.1,UN World Marriage Data 2019,Survey,2011 DHS,Survey,2011 DHS
+Eritrea,1995,19.5,25.299999,UN World Marriage Data 2019,Survey,1995 DHS,Survey,1995 DHS
+Eritrea,2002,20.6,29.1,UN World Marriage Data 2019,Survey,2002 DHS,Survey,2002 DHS
+Estonia,1992,23,25.200001,OECD,N/A,N/A,N/A,N/A
+Estonia,1993,23.6,26,OECD,N/A,N/A,N/A,N/A
+Estonia,1994,24.1,26.5,OECD,N/A,N/A,N/A,N/A
+Estonia,1995,24.200001,26.5,OECD,N/A,N/A,N/A,N/A
+Estonia,1996,24.200001,26.9,OECD,N/A,N/A,N/A,N/A
+Estonia,1997,24.4,27.200001,OECD,N/A,N/A,N/A,N/A
+Estonia,1998,24.799999,27.4,OECD,N/A,N/A,N/A,N/A
+Estonia,1999,25,27.700001,OECD,N/A,N/A,N/A,N/A
+Estonia,2000,25.200001,28.1,OECD,N/A,N/A,N/A,N/A
+Estonia,2001,25.5,28.200001,OECD,N/A,N/A,N/A,N/A
+Estonia,2002,25.799999,28.5,OECD,N/A,N/A,N/A,N/A
+Estonia,2003,25.9,28.5,OECD,N/A,N/A,N/A,N/A
+Estonia,2004,26.200001,29,OECD,N/A,N/A,N/A,N/A
+Estonia,2005,26.4,29.1,OECD,N/A,N/A,N/A,N/A
+Estonia,2006,26.6,29.299999,OECD,N/A,N/A,N/A,N/A
+Estonia,2007,27.1,29.6,OECD,N/A,N/A,N/A,N/A
+Estonia,2008,27.4,29.9,OECD,N/A,N/A,N/A,N/A
+Estonia,2009,27.799999,30.200001,OECD,N/A,N/A,N/A,N/A
+Estonia,2010,28,30.5,OECD,N/A,N/A,N/A,N/A
+Estonia,2011,28.4,31.1,OECD,N/A,N/A,N/A,N/A
+Estonia,2012,28.9,31.299999,OECD,N/A,N/A,N/A,N/A
+Estonia,2013,28.799999,31.299999,OECD,N/A,N/A,N/A,N/A
+Estonia,2014,29,31.6,OECD,N/A,N/A,N/A,N/A
+Estonia,2015,29.299999,31.9,OECD,N/A,N/A,N/A,N/A
+Estonia,2016,29.700001,32.200001,OECD,N/A,N/A,N/A,N/A
+Swaziland,2000,23.799999,30.1,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Swaziland,2006,26,30,UN World Marriage Data 2019,Survey,2006-2007 DHS,Survey,2006-2007 DHS
+Swaziland,2010,26.200001,,UN World Marriage Data 2019,Survey,2010 MICS,N/A,N/A
+Swaziland,2014,26.5,,UN World Marriage Data 2019,Survey,2014 MICS,N/A,N/A
+Ethiopia,1964,19,26.200001,UN World Marriage Data 2019,Survey,1964-1967 NSS Rural,Survey,1964-1967 NSS Rural
+Ethiopia,1968,16.799999,22.9,UN World Marriage Data 2019,Survey,1968-1971 NSS Rural,Survey,1968-1971 NSS Rural
+Ethiopia,1981,17.6,23.799999,UN World Marriage Data 2019,Survey,1981 DS,Survey,1981 DS
+Ethiopia,1990,19.4,,UN World Marriage Data 2019,Survey,1990 FFS,N/A,N/A
+Ethiopia,2000,20.6,25.799999,UN World Marriage Data 2019,Survey,2000 DHS,Survey,2000 DHS
+Ethiopia,2005,20.9,25.700001,UN World Marriage Data 2019,Survey,2005 DHS,Survey,2005 DHS
+Ethiopia,2010,21.200001,25.700001,UN World Marriage Data 2019,Survey,2011 DHS,Survey,2011 DHS
+Ethiopia,2016,21.299999,25.799999,UN World Marriage Data 2019,Survey,2016 DHS,Survey,2016 DHS
+Faeroe Islands,1991,28.200001,30.9,UN World Marriage Data 2019,UNSD Estimate,1991 Estimate,UNSD Estimate,1991 Estimate
+Faeroe Islands,1992,28.299999,31,UN World Marriage Data 2019,UNSD Estimate,1992 Estimate,UNSD Estimate,1992 Estimate
+Faeroe Islands,2008,30.700001,,UN World Marriage Data 2019,UNSD Estimate,2008 Estimate,N/A,N/A
+Faeroe Islands,2013,31,33.599998,UN World Marriage Data 2019,UNSD Estimate,2013 Estimate,UNSD Estimate,2013 Estimate
+Faeroe Islands,2014,31.700001,34.599998,UN World Marriage Data 2019,UNSD Estimate,2014 Estimate,UNSD Estimate,2014 Estimate
+Faeroe Islands,2015,30.9,34,UN World Marriage Data 2019,UNSD Estimate,2015 Estimate,UNSD Estimate,2015 Estimate
+Faeroe Islands,2016,30.799999,34,UN World Marriage Data 2019,UNSD Estimate,2016 Estimate,UNSD Estimate,2016 Estimate
+Faeroe Islands,2017,30.9,34.099998,UN World Marriage Data 2019,UNSD Estimate,2017 Estimate,UNSD Estimate,2017 Estimate
+Faeroe Islands,2018,31,34.099998,UN World Marriage Data 2019,UNSD Estimate,2018 Estimate,UNSD Estimate,2018 Estimate
+Falkland Islands,2016,29,29.799999,UN World Marriage Data 2019,Census,2016 Census,Census,2016 Census
+Fiji,1976,21.700001,24.700001,UN World Marriage Data 2019,Census,1976 Census,Census,1976 Census
+Fiji,1986,22.5,25.299999,UN World Marriage Data 2019,Census,1986 Census,Census,1986 Census
+Fiji,2007,24.1,27.700001,UN World Marriage Data 2019,Census,2007 Census,Census,2007 Census
+Finland,1990,26.299999,28.4,OECD,N/A,N/A,N/A,N/A
+Finland,1991,26.299999,28.5,OECD,N/A,N/A,N/A,N/A
+Finland,1992,26.6,28.6,OECD,N/A,N/A,N/A,N/A
+Finland,1993,26.799999,28.9,OECD,N/A,N/A,N/A,N/A
+Finland,1994,26.9,29,OECD,N/A,N/A,N/A,N/A
+Finland,1995,27.200001,29.299999,OECD,N/A,N/A,N/A,N/A
+Finland,1997,27.6,29.700001,OECD,N/A,N/A,N/A,N/A
+Finland,1998,27.799999,29.9,OECD,N/A,N/A,N/A,N/A
+Finland,1999,28,30.200001,OECD,N/A,N/A,N/A,N/A
+Finland,2000,28.299999,30.5,OECD,N/A,N/A,N/A,N/A
+Finland,2001,28.4,30.6,OECD,N/A,N/A,N/A,N/A
+Finland,2002,28.799999,31,OECD,N/A,N/A,N/A,N/A
+Finland,2003,29,31.200001,OECD,N/A,N/A,N/A,N/A
+Finland,2004,29.5,31.799999,OECD,N/A,N/A,N/A,N/A
+Finland,2005,29.4,31.5,OECD,N/A,N/A,N/A,N/A
+Finland,2006,29.5,31.799999,OECD,N/A,N/A,N/A,N/A
+Finland,2007,29.700001,32,OECD,N/A,N/A,N/A,N/A
+Finland,2008,30,32.299999,OECD,N/A,N/A,N/A,N/A
+Finland,2009,30,32.299999,OECD,N/A,N/A,N/A,N/A
+Finland,2010,30.200001,32.5,OECD,N/A,N/A,N/A,N/A
+Finland,2011,30.4,32.700001,OECD,N/A,N/A,N/A,N/A
+Finland,2012,30.700001,33,OECD,N/A,N/A,N/A,N/A
+Finland,2013,30.4,32.700001,OECD,N/A,N/A,N/A,N/A
+Finland,2014,30.6,32.900002,OECD,N/A,N/A,N/A,N/A
+Finland,2015,31,33.400002,OECD,N/A,N/A,N/A,N/A
+Finland,2016,31.299999,33.700001,OECD,N/A,N/A,N/A,N/A
+Finland,2017,31.6,33.900002,OECD,N/A,N/A,N/A,N/A
+France,1998,28.1,30.299999,OECD,N/A,N/A,N/A,N/A
+France,1999,28.200001,30.4,OECD,N/A,N/A,N/A,N/A
+France,2000,28.4,30.700001,OECD,N/A,N/A,N/A,N/A
+France,2001,28.5,30.700001,OECD,N/A,N/A,N/A,N/A
+France,2002,28.700001,30.9,OECD,N/A,N/A,N/A,N/A
+France,2003,28.9,31.200001,OECD,N/A,N/A,N/A,N/A
+France,2004,29.200001,31.5,OECD,N/A,N/A,N/A,N/A
+France,2005,29.6,31.799999,OECD,N/A,N/A,N/A,N/A
+France,2006,29.799999,32,OECD,N/A,N/A,N/A,N/A
+France,2007,30,32.200001,OECD,N/A,N/A,N/A,N/A
+France,2008,30.200001,32.400002,OECD,N/A,N/A,N/A,N/A
+France,2009,30.4,32.599998,OECD,N/A,N/A,N/A,N/A
+France,2010,30.700001,32.799999,OECD,N/A,N/A,N/A,N/A
+France,2011,30.799999,33,OECD,N/A,N/A,N/A,N/A
+France,2013,31.700001,34.099998,OECD,N/A,N/A,N/A,N/A
+France,2014,32.099998,34.400002,OECD,N/A,N/A,N/A,N/A
+France,2015,32.200001,34.400002,OECD,N/A,N/A,N/A,N/A
+French Guiana,1982,27.5,30.200001,UN World Marriage Data 2019,Census,1982 Census,Census,1982 Census
+French Guiana,1999,31.700001,34.200001,UN World Marriage Data 2019,Census,1999 Census,Census,1999 Census
+French Guiana,2006,32,33.700001,UN World Marriage Data 2019,Census,2006 Census,Census,2006 Census
+French Polynesia,1977,25.799999,28.5,UN World Marriage Data 2019,Census,1977 Census,Census,1977 Census
+French Polynesia,1996,29.9,32.099998,UN World Marriage Data 2019,Census,1996 Census,Census,1996 Census
+French Polynesia,2007,33.099998,35.5,UN World Marriage Data 2019,Census,2007 Census,Census,2007 Census
+French Polynesia,2012,33.799999,35.799999,UN World Marriage Data 2019,Census,2012 Census,Census,2012 Census
+Gabon,2000,22.1,26.200001,UN World Marriage Data 2019,Survey,2000 DHS,Survey,2000 DHS
+Gabon,2012,22.9,27.799999,UN World Marriage Data 2019,Survey,2012 DHS,Survey,2012 DHS
+Gambia,2000,20.4,29,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Gambia,2005,21.1,,UN World Marriage Data 2019,Survey,2005-2006 MICS,N/A,N/A
+Gambia,2013,21.5,29.700001,UN World Marriage Data 2019,Survey,2013 DHS,Survey,2013 DHS
+Georgia,1979,22.5,26,UN World Marriage Data 2019,Census,1979 Census,Census,1979 Census
+Georgia,1989,22.4,26.1,UN World Marriage Data 2019,Census,1989 Census,Census,1989 Census
+Georgia,2002,23.700001,28,UN World Marriage Data 2019,Census,2002 Census,Census,2002 Census
+Georgia,2014,22.799999,27.4,UN World Marriage Data 2019,Census,2014 Census,Census,2014 Census
+Germany,1990,25.5,28.200001,OECD,N/A,N/A,N/A,N/A
+Germany,1991,25.9,28.700001,OECD,N/A,N/A,N/A,N/A
+Germany,1992,26.1,28.9,OECD,N/A,N/A,N/A,N/A
+Germany,1993,26.4,29.200001,OECD,N/A,N/A,N/A,N/A
+Germany,1994,26.6,29.4,OECD,N/A,N/A,N/A,N/A
+Germany,1995,26.700001,29.5,OECD,N/A,N/A,N/A,N/A
+Germany,1996,26.9,29.700001,OECD,N/A,N/A,N/A,N/A
+Germany,1997,27,29.799999,OECD,N/A,N/A,N/A,N/A
+Germany,1998,27.200001,30.1,OECD,N/A,N/A,N/A,N/A
+Germany,1999,27.5,30.299999,OECD,N/A,N/A,N/A,N/A
+Germany,2000,27.700001,30.5,OECD,N/A,N/A,N/A,N/A
+Germany,2001,28,30.9,OECD,N/A,N/A,N/A,N/A
+Germany,2003,28.4,31.200001,OECD,N/A,N/A,N/A,N/A
+Germany,2004,28.799999,31.6,OECD,N/A,N/A,N/A,N/A
+Germany,2005,29.1,31.9,OECD,N/A,N/A,N/A,N/A
+Germany,2006,29.1,31.9,OECD,N/A,N/A,N/A,N/A
+Germany,2007,29.299999,32.099998,OECD,N/A,N/A,N/A,N/A
+Germany,2008,29.6,32.400002,OECD,N/A,N/A,N/A,N/A
+Germany,2009,29.799999,32.5,OECD,N/A,N/A,N/A,N/A
+Germany,2011,30.200001,32.900002,OECD,N/A,N/A,N/A,N/A
+Germany,2013,30.5,33.200001,OECD,N/A,N/A,N/A,N/A
+Germany,2014,30.700001,33.400002,OECD,N/A,N/A,N/A,N/A
+Germany,2015,30.9,33.599998,OECD,N/A,N/A,N/A,N/A
+Germany,2016,31.1,33.799999,OECD,N/A,N/A,N/A,N/A
+Germany,2017,31.200001,34,OECD,N/A,N/A,N/A,N/A
+Ghana,1988,20.200001,,UN World Marriage Data 2019,Survey,1988 DHS,N/A,N/A
+Ghana,1993,20.5,26.200001,UN World Marriage Data 2019,Survey,1993 DHS,Survey,1993 DHS
+Ghana,1998,21,26.6,UN World Marriage Data 2019,Survey,1998 DHS,Survey,1998 DHS
+Ghana,2003,22.4,26.6,UN World Marriage Data 2019,Survey,2003 DHS,Survey,2003 DHS
+Ghana,2006,22.799999,,UN World Marriage Data 2019,Survey,2006 MICS,N/A,N/A
+Ghana,2008,23.4,27.700001,UN World Marriage Data 2019,Survey,2008 DHS,Survey,2008 DHS
+Ghana,2011,23.799999,27.9,UN World Marriage Data 2019,Survey,2011 MICS,Survey,2011 MICS
+Ghana,2014,24.5,27.799999,UN World Marriage Data 2019,Survey,2014 DHS,Survey,2014 DHS
+Ghana,2017,23.700001,,UN World Marriage Data 2019,Survey,2017 MHS,N/A,N/A
+Gibraltar,1970,21.5,25.9,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Gibraltar,1981,21.1,24.799999,UN World Marriage Data 2019,Census,1981 Census,Census,1981 Census
+Gibraltar,1991,23.200001,26.299999,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Gibraltar,2001,26.799999,29.299999,UN World Marriage Data 2019,Census,2001 Census,Census,2001 Census
+Gibraltar,2012,29.1,31.799999,UN World Marriage Data 2019,Census,2012 Census,Census,2012 Census
+Greece,1990,24.9,29,OECD,N/A,N/A,N/A,N/A
+Greece,1991,25.200001,29.299999,OECD,N/A,N/A,N/A,N/A
+Greece,1992,25.5,29.6,OECD,N/A,N/A,N/A,N/A
+Greece,1993,25.5,29.700001,OECD,N/A,N/A,N/A,N/A
+Greece,1994,25.799999,29.9,OECD,N/A,N/A,N/A,N/A
+Greece,1995,26,30.1,OECD,N/A,N/A,N/A,N/A
+Greece,1996,26.299999,30.200001,OECD,N/A,N/A,N/A,N/A
+Greece,1997,26.6,30.6,OECD,N/A,N/A,N/A,N/A
+Greece,1998,26.799999,30.799999,OECD,N/A,N/A,N/A,N/A
+Greece,1999,26.9,31,OECD,N/A,N/A,N/A,N/A
+Greece,2000,27.200001,31.1,OECD,N/A,N/A,N/A,N/A
+Greece,2001,27.299999,31.200001,OECD,N/A,N/A,N/A,N/A
+Greece,2002,27.6,31.5,OECD,N/A,N/A,N/A,N/A
+Greece,2003,27.9,31.700001,OECD,N/A,N/A,N/A,N/A
+Greece,2004,28,31.799999,OECD,N/A,N/A,N/A,N/A
+Greece,2005,28.299999,32,OECD,N/A,N/A,N/A,N/A
+Greece,2006,28.6,32.200001,OECD,N/A,N/A,N/A,N/A
+Greece,2007,28.799999,32.400002,OECD,N/A,N/A,N/A,N/A
+Greece,2008,28.9,32.400002,OECD,N/A,N/A,N/A,N/A
+Greece,2009,29,32.5,OECD,N/A,N/A,N/A,N/A
+Greece,2010,29.299999,32.599998,OECD,N/A,N/A,N/A,N/A
+Greece,2011,29.4,32.700001,OECD,N/A,N/A,N/A,N/A
+Greece,2012,29.5,32.799999,OECD,N/A,N/A,N/A,N/A
+Greece,2013,29.700001,32.900002,OECD,N/A,N/A,N/A,N/A
+Greece,2014,29.9,33,OECD,N/A,N/A,N/A,N/A
+Greece,2015,30.1,33.200001,OECD,N/A,N/A,N/A,N/A
+Greece,2016,30.1,33.200001,OECD,N/A,N/A,N/A,N/A
+Greece,2017,30.299999,33.299999,OECD,N/A,N/A,N/A,N/A
+Greenland,1974,25.4,30.1,UN World Marriage Data 2019,UNSD Estimate,1974 Estimate,UNSD Estimate,1974 Estimate
+Greenland,1975,25.799999,30.4,UN World Marriage Data 2019,UNSD Estimate,1975 Estimate,UNSD Estimate,1975 Estimate
+Greenland,1976,26.5,30.9,UN World Marriage Data 2019,UNSD Estimate,1976 Estimate,UNSD Estimate,1976 Estimate
+Greenland,1977,27,31.1,UN World Marriage Data 2019,UNSD Estimate,1977 Estimate,UNSD Estimate,1977 Estimate
+Greenland,1978,27.5,31.5,UN World Marriage Data 2019,UNSD Estimate,1978 Estimate,UNSD Estimate,1978 Estimate
+Greenland,1979,27.6,31.799999,UN World Marriage Data 2019,UNSD Estimate,1979 Estimate,UNSD Estimate,1979 Estimate
+Greenland,1980,27.9,31.9,UN World Marriage Data 2019,UNSD Estimate,1980 Estimate,UNSD Estimate,1980 Estimate
+Greenland,1981,28.200001,32.299999,UN World Marriage Data 2019,UNSD Estimate,1981 Estimate,UNSD Estimate,1981 Estimate
+Greenland,1982,28.5,32.5,UN World Marriage Data 2019,UNSD Estimate,1982 Estimate,UNSD Estimate,1982 Estimate
+Greenland,1983,29,32.700001,UN World Marriage Data 2019,UNSD Estimate,1983 Estimate,UNSD Estimate,1983 Estimate
+Greenland,1984,29.4,32.900002,UN World Marriage Data 2019,UNSD Estimate,1984 Estimate,UNSD Estimate,1984 Estimate
+Greenland,1985,29.6,33.200001,UN World Marriage Data 2019,UNSD Estimate,1985 Estimate,UNSD Estimate,1985 Estimate
+Greenland,1986,29.9,33.5,UN World Marriage Data 2019,UNSD Estimate,1986 Estimate,UNSD Estimate,1986 Estimate
+Greenland,1987,30.299999,33.900002,UN World Marriage Data 2019,UNSD Estimate,1987 Estimate,UNSD Estimate,1987 Estimate
+Greenland,1988,30.700001,34.099998,UN World Marriage Data 2019,UNSD Estimate,1988 Estimate,UNSD Estimate,1988 Estimate
+Greenland,1990,31,34.099998,UN World Marriage Data 2019,UNSD Estimate,1990 Estimate,UNSD Estimate,1990 Estimate
+Greenland,1991,31.1,34.200001,UN World Marriage Data 2019,UNSD Estimate,1991 Estimate,UNSD Estimate,1991 Estimate
+Greenland,1992,31.200001,34.200001,UN World Marriage Data 2019,UNSD Estimate,1992 Estimate,UNSD Estimate,1992 Estimate
+Greenland,1997,31.5,33.700001,UN World Marriage Data 2019,UNSD Estimate,1997 Estimate,UNSD Estimate,1997 Estimate
+Greenland,1998,31.299999,33.700001,UN World Marriage Data 2019,UNSD Estimate,1998 Estimate,UNSD Estimate,1998 Estimate
+Greenland,1999,31.299999,33.5,UN World Marriage Data 2019,UNSD Estimate,1999 Estimate,UNSD Estimate,1999 Estimate
+Greenland,2009,30.9,33.700001,UN World Marriage Data 2019,UNSD Estimate,2009 Estimate,UNSD Estimate,2009 Estimate
+Greenland,2010,31.200001,33.700001,UN World Marriage Data 2019,UNSD Estimate,2010 Estimate,UNSD Estimate,2010 Estimate
+Greenland,2011,31.5,33.799999,UN World Marriage Data 2019,UNSD Estimate,2011 Estimate,UNSD Estimate,2011 Estimate
+Greenland,2012,31.6,33.900002,UN World Marriage Data 2019,UNSD Estimate,2012 Estimate,UNSD Estimate,2012 Estimate
+Greenland,2013,31.700001,34,UN World Marriage Data 2019,UNSD Estimate,2013 Estimate,UNSD Estimate,2013 Estimate
+Greenland,2014,32,34.099998,UN World Marriage Data 2019,UNSD Estimate,2014 Estimate,UNSD Estimate,2014 Estimate
+Greenland,2015,32.299999,34.200001,UN World Marriage Data 2019,UNSD Estimate,2015 Estimate,UNSD Estimate,2015 Estimate
+Greenland,2016,32.400002,34.5,UN World Marriage Data 2019,UNSD Estimate,2016 Estimate,UNSD Estimate,2016 Estimate
+Greenland,2018,32.900002,34.700001,UN World Marriage Data 2019,UNSD Estimate,2018 Estimate,UNSD Estimate,2018 Estimate
+Grenada,1970,28.200001,31.5,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Grenada,1981,29.4,33.299999,UN World Marriage Data 2019,Census,1981 Census,Census,1981 Census
+Grenada,1991,31,34.400002,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Guadeloupe,1982,26.6,29.6,UN World Marriage Data 2019,Census,1982 Census,Census,1982 Census
+Guadeloupe,1999,31.6,34.200001,UN World Marriage Data 2019,Census,1999 Census,Census,1999 Census
+Guatemala,1973,,23.700001,UN World Marriage Data 2019,N/A,N/A,Census,1973 Census
+Guatemala,1981,,23.6,UN World Marriage Data 2019,N/A,N/A,Census,1981 Census
+Guatemala,1987,20.6,,UN World Marriage Data 2019,Survey,1987 DHS,N/A,N/A
+Guatemala,1994,,23.6,UN World Marriage Data 2019,N/A,N/A,Census,1994 Census
+Guatemala,1995,20.5,,UN World Marriage Data 2019,Survey,1995 DHS,N/A,N/A
+Guatemala,1998,20.4,,UN World Marriage Data 2019,Survey,1998-1999 DHS Interim,N/A,N/A
+Guatemala,2002,21.6,,UN World Marriage Data 2019,Survey,2002 ENSMI,N/A,N/A
+Guatemala,2008,22,,UN World Marriage Data 2019,Survey,2008-2009 ENSMI,N/A,N/A
+Guatemala,2014,22.200001,,UN World Marriage Data 2019,Survey,2014-2015 DHS,N/A,N/A
+Guatemala,2018,,25,UN World Marriage Data 2019,N/A,N/A,Census,2018 Census
+Guinea,1992,18.9,26.1,UN World Marriage Data 2019,Survey,1992  DHS,Survey,1992  DHS
+Guinea,1999,18.700001,27.700001,UN World Marriage Data 2019,Survey,1999 DHS,Survey,1999 DHS
+Guinea,2005,19.299999,26.299999,UN World Marriage Data 2019,Survey,2005 DHS,Survey,2005 DHS
+Guinea,2012,20.6,27.9,UN World Marriage Data 2019,Survey,2012 DHS,Survey,2012 DHS
+Guinea-Bissau,1960,,28,UN World Marriage Data 2019,N/A,N/A,Census,1960 Census
+Guinea-Bissau,1979,,26.6,UN World Marriage Data 2019,N/A,N/A,Census,1979 Census
+Guinea-Bissau,1991,,28.1,UN World Marriage Data 2019,N/A,N/A,Census,1991 Census
+Guinea-Bissau,2000,20.200001,,UN World Marriage Data 2019,Survey,2000 MICS,N/A,N/A
+Guinea-Bissau,2006,21.700001,,UN World Marriage Data 2019,Survey,2006 MICS,N/A,N/A
+Guinea-Bissau,2010,21.700001,,UN World Marriage Data 2019,Survey,2010 MICS,N/A,N/A
+Guinea-Bissau,2014,24.1,,UN World Marriage Data 2019,Survey,2014 MICS,N/A,N/A
+Guyana,2000,20.200001,27.200001,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Guyana,2005,22.700001,26.200001,UN World Marriage Data 2019,Survey,2005 AIS,Survey,2005 AIS
+Guyana,2006,22.5,,UN World Marriage Data 2019,Survey,2006 MICS,N/A,N/A
+Guyana,2009,21.5,25.4,UN World Marriage Data 2019,Survey,2009 DHS,Survey,2009 DHS
+Guyana,2014,19.200001,21.299999,UN World Marriage Data 2019,Survey,2014 MICS,Survey,2014 MICS
+Haiti,1977,21.6,,UN World Marriage Data 2019,Survey,1977 WFS,N/A,N/A
+Haiti,1994,22.200001,26.6,UN World Marriage Data 2019,Survey,1994-1995 DHS,Survey,1994-1995 DHS
+Haiti,2000,22.200001,27.200001,UN World Marriage Data 2019,Survey,2000 DHS,Survey,2000 DHS
+Haiti,2005,22.200001,27.5,UN World Marriage Data 2019,Survey,2005-2006 DHS,Survey,2005-2006 DHS
+Haiti,2012,23.700001,28.299999,UN World Marriage Data 2019,Survey,2012 DHS-MICS,Survey,2012 DHS-MICS
+Haiti,2013,26.1,,UN World Marriage Data 2019,Survey,2013 DHS-NS,N/A,N/A
+Haiti,2016,24.9,28.700001,UN World Marriage Data 2019,Survey,2016 DHS,Survey,2016 DHS
+Honduras,1974,,24.4,UN World Marriage Data 2019,N/A,N/A,Census,1974 Census
+Honduras,1988,,24.700001,UN World Marriage Data 2019,N/A,N/A,Census,1988 Census
+Honduras,1996,20.299999,,UN World Marriage Data 2019,Survey,1996 ENESF,N/A,N/A
+Honduras,2001,20.4,24.700001,UN World Marriage Data 2019,Survey,2001 ENESF,Census,2001 Census
+Honduras,2005,21.299999,,UN World Marriage Data 2019,Survey,2005-2006 DHS,N/A,N/A
+Honduras,2011,21.200001,,UN World Marriage Data 2019,Survey,2011-2012 DHS,N/A,N/A
+Hungary,1990,22,24.700001,OECD,N/A,N/A,N/A,N/A
+Hungary,1991,22.1,24.799999,OECD,N/A,N/A,N/A,N/A
+Hungary,1992,22.299999,25,OECD,N/A,N/A,N/A,N/A
+Hungary,1993,22.5,25.1,OECD,N/A,N/A,N/A,N/A
+Hungary,1994,22.799999,25.5,OECD,N/A,N/A,N/A,N/A
+Hungary,1995,23.1,25.799999,OECD,N/A,N/A,N/A,N/A
+Hungary,1996,23.4,26.1,OECD,N/A,N/A,N/A,N/A
+Hungary,1997,23.700001,26.6,OECD,N/A,N/A,N/A,N/A
+Hungary,1998,24.1,26.799999,OECD,N/A,N/A,N/A,N/A
+Hungary,1999,24.4,27.299999,OECD,N/A,N/A,N/A,N/A
+Hungary,2000,24.799999,27.6,OECD,N/A,N/A,N/A,N/A
+Hungary,2001,25.200001,28.200001,OECD,N/A,N/A,N/A,N/A
+Hungary,2002,25.700001,28.5,OECD,N/A,N/A,N/A,N/A
+Hungary,2003,26,28.9,OECD,N/A,N/A,N/A,N/A
+Hungary,2004,26.4,29.200001,OECD,N/A,N/A,N/A,N/A
+Hungary,2005,26.700001,29.4,OECD,N/A,N/A,N/A,N/A
+Hungary,2006,27,29.799999,OECD,N/A,N/A,N/A,N/A
+Hungary,2007,27.200001,30.1,OECD,N/A,N/A,N/A,N/A
+Hungary,2008,27.5,30.4,OECD,N/A,N/A,N/A,N/A
+Hungary,2009,28,30.799999,OECD,N/A,N/A,N/A,N/A
+Hungary,2010,28.299999,31.200001,OECD,N/A,N/A,N/A,N/A
+Hungary,2011,28.6,31.6,OECD,N/A,N/A,N/A,N/A
+Hungary,2013,29,31.9,OECD,N/A,N/A,N/A,N/A
+Hungary,2014,29.299999,32.099998,OECD,N/A,N/A,N/A,N/A
+Hungary,2015,29.200001,32,OECD,N/A,N/A,N/A,N/A
+Hungary,2016,29.200001,32.099998,OECD,N/A,N/A,N/A,N/A
+Hungary,2017,29.4,32.299999,OECD,N/A,N/A,N/A,N/A
+Iceland,1990,26.9,29.4,OECD,N/A,N/A,N/A,N/A
+Iceland,1991,27.200001,29.5,OECD,N/A,N/A,N/A,N/A
+Iceland,1992,27.9,30.6,OECD,N/A,N/A,N/A,N/A
+Iceland,1993,28,30.200001,OECD,N/A,N/A,N/A,N/A
+Iceland,1994,28.799999,31.200001,OECD,N/A,N/A,N/A,N/A
+Iceland,1995,28.799999,31.700001,OECD,N/A,N/A,N/A,N/A
+Iceland,1996,29.200001,31.9,OECD,N/A,N/A,N/A,N/A
+Iceland,1997,30.6,32.700001,OECD,N/A,N/A,N/A,N/A
+Iceland,1998,30.1,32.5,OECD,N/A,N/A,N/A,N/A
+Iceland,1999,30.200001,32.5,OECD,N/A,N/A,N/A,N/A
+Iceland,2000,30.6,33.299999,OECD,N/A,N/A,N/A,N/A
+Iceland,2001,30.200001,32.900002,OECD,N/A,N/A,N/A,N/A
+Iceland,2002,30.799999,33.299999,OECD,N/A,N/A,N/A,N/A
+Iceland,2003,31,33.200001,OECD,N/A,N/A,N/A,N/A
+Iceland,2004,31.4,33.799999,OECD,N/A,N/A,N/A,N/A
+Iceland,2005,31.5,33.900002,OECD,N/A,N/A,N/A,N/A
+Iceland,2006,31.799999,34.200001,OECD,N/A,N/A,N/A,N/A
+Iceland,2007,32.099998,34.400002,OECD,N/A,N/A,N/A,N/A
+Iceland,2008,32.400002,34.799999,OECD,N/A,N/A,N/A,N/A
+Iceland,2009,32.099998,35.099998,OECD,N/A,N/A,N/A,N/A
+Iceland,2010,32.400002,34.700001,OECD,N/A,N/A,N/A,N/A
+Iceland,2011,32.400002,34.400002,OECD,N/A,N/A,N/A,N/A
+India,1992,19.200001,24.299999,UN World Marriage Data 2019,Survey,1992-1993 NFHS,Survey,1992-1993 NFHS
+India,1998,19.700001,24.9,UN World Marriage Data 2019,Survey,1998-1999 NFHS,Survey,1998-1999 NFHS
+India,2005,20.200001,25.299999,UN World Marriage Data 2019,Survey,2005-2006 NFHS,Survey,2005-2006 NFHS
+India,2015,21.4,26,UN World Marriage Data 2019,Survey,2015-2016 NFHS,Survey,2015-2016 NFHS
+Indonesia,1976,19.4,23.799999,UN World Marriage Data 2019,Survey,1976 WFS,Survey,1976 WFS
+Indonesia,1985,21.1,24.799999,UN World Marriage Data 2019,Survey,1985 IPS,Survey,1985 IPS
+Indonesia,1987,21.700001,,UN World Marriage Data 2019,Survey,1987 CPS,N/A,N/A
+Indonesia,1991,21.5,,UN World Marriage Data 2019,Survey,1991 DHS,N/A,N/A
+Indonesia,1994,21.799999,,UN World Marriage Data 2019,Survey,1994 DHS,N/A,N/A
+Indonesia,1995,22.200001,25.799999,UN World Marriage Data 2019,Survey,1995 SUPAS,Survey,1995 SUPAS
+Indonesia,1997,21.799999,,UN World Marriage Data 2019,Survey,1997 DHS,N/A,N/A
+Indonesia,2000,22.5,26.5,UN World Marriage Data 2019,Survey,2000 MICS_HH,Survey,2000 MICS_HH
+Indonesia,2002,22.1,25.9,UN World Marriage Data 2019,Survey,2002-2003 DHS,Survey,2002-2003 DHS
+Indonesia,2005,23.4,27,UN World Marriage Data 2019,Survey,2005 SUPAS,Survey,2005 SUPAS
+Indonesia,2007,22.299999,26.9,UN World Marriage Data 2019,Survey,2007 DHS,Survey,2007 DHS
+Indonesia,2012,21.799999,,UN World Marriage Data 2019,Survey,2012 DHS Special,N/A,N/A
+Indonesia,2017,22.4,27.1,UN World Marriage Data 2019,Survey,2017 DHS,Survey,2017 DHS
+Iran,1976,19.700001,24.200001,UN World Marriage Data 2019,Census,1976 Census,Census,1976 Census
+Iran,1986,20.200001,23.799999,UN World Marriage Data 2019,Census,1986 Census,Census,1986 Census
+Iran,1991,21.1,24.4,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Iran,1996,22.1,25.299999,UN World Marriage Data 2019,Census,1996 Census,Census,1996 Census
+Iran,2006,23.5,26.4,UN World Marriage Data 2019,Census,2006 Census,Census,2006 Census
+Iran,2011,23.5,26.799999,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Iran,2016,23.1,27.5,UN World Marriage Data 2019,Census,2016 Census,Census,2016 Census
+Iraq,1977,,25.299999,UN World Marriage Data 2019,N/A,N/A,Census,1977 Census
+Iraq,1987,,26.299999,UN World Marriage Data 2019,N/A,N/A,Census,1987 Census
+Iraq,1997,,26.9,UN World Marriage Data 2019,N/A,N/A,Census,1997 Census
+Iraq,2000,25.299999,,UN World Marriage Data 2019,Survey,2000 MICS,N/A,N/A
+Iraq,2004,25.299999,,UN World Marriage Data 2019,Survey,2004 LCS,N/A,N/A
+Iraq,2006,22.799999,,UN World Marriage Data 2019,Survey,2006-2007 FHS,N/A,N/A
+Iraq,2011,22,,UN World Marriage Data 2019,Survey,2011 MICS,N/A,N/A
+Iraq,2012,22.700001,,UN World Marriage Data 2019,Survey,2012 PMMS,N/A,N/A
+Ireland,1990,26.6,28.700001,OECD,N/A,N/A,N/A,N/A
+Ireland,1991,26.9,28.799999,OECD,N/A,N/A,N/A,N/A
+Ireland,1992,27.1,29.1,OECD,N/A,N/A,N/A,N/A
+Ireland,1993,27.5,29.4,OECD,N/A,N/A,N/A,N/A
+Ireland,1994,27.799999,29.799999,OECD,N/A,N/A,N/A,N/A
+Ireland,1995,28.1,30,OECD,N/A,N/A,N/A,N/A
+Ireland,1996,28.5,30.4,OECD,N/A,N/A,N/A,N/A
+Ireland,2005,30.5,32.400002,OECD,N/A,N/A,N/A,N/A
+Ireland,2006,30.700001,32.5,OECD,N/A,N/A,N/A,N/A
+Ireland,2007,30.9,32.700001,OECD,N/A,N/A,N/A,N/A
+Ireland,2009,31.200001,33.099998,OECD,N/A,N/A,N/A,N/A
+Ireland,2010,31.299999,33.099998,OECD,N/A,N/A,N/A,N/A
+Ireland,2013,31.799999,33.5,OECD,N/A,N/A,N/A,N/A
+Ireland,2014,30.700001,32.400002,OECD,N/A,N/A,N/A,N/A
+Ireland,2015,32,33.799999,OECD,N/A,N/A,N/A,N/A
+Isle of Man,1981,23.200001,25.700001,UN World Marriage Data 2019,Census,1981 Census,Census,1981 Census
+Isle of Man,1991,26.4,28.799999,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Isle of Man,2001,29.299999,31.200001,UN World Marriage Data 2019,Census,2001 Census,Census,2001 Census
+Isle of Man,2011,30.700001,32.799999,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Israel,2002,24.200001,27.1,OECD,N/A,N/A,N/A,N/A
+Israel,2003,24.299999,27.200001,OECD,N/A,N/A,N/A,N/A
+Israel,2004,24.5,27.4,OECD,N/A,N/A,N/A,N/A
+Israel,2005,24.6,27.5,OECD,N/A,N/A,N/A,N/A
+Israel,2006,24.6,27.6,OECD,N/A,N/A,N/A,N/A
+Israel,2007,24.799999,27.6,OECD,N/A,N/A,N/A,N/A
+Israel,2008,24.700001,27.5,OECD,N/A,N/A,N/A,N/A
+Israel,2009,24.799999,27.6,OECD,N/A,N/A,N/A,N/A
+Israel,2010,24.799999,27.6,OECD,N/A,N/A,N/A,N/A
+Israel,2011,25,27.700001,OECD,N/A,N/A,N/A,N/A
+Israel,2012,25,27.700001,OECD,N/A,N/A,N/A,N/A
+Israel,2013,25.1,27.700001,OECD,N/A,N/A,N/A,N/A
+Israel,2014,25,27.6,OECD,N/A,N/A,N/A,N/A
+Israel,2015,25.200001,27.6,OECD,N/A,N/A,N/A,N/A
+Israel,2016,24.5,27.200001,OECD,N/A,N/A,N/A,N/A
+Israel,2017,25.1,27.5,OECD,N/A,N/A,N/A,N/A
+Italy,1990,25.9,28.9,OECD,N/A,N/A,N/A,N/A
+Italy,1991,26,29,OECD,N/A,N/A,N/A,N/A
+Italy,1992,26.200001,29.200001,OECD,N/A,N/A,N/A,N/A
+Italy,1993,26.4,29.4,OECD,N/A,N/A,N/A,N/A
+Italy,1994,26.6,29.700001,OECD,N/A,N/A,N/A,N/A
+Italy,1995,26.9,29.9,OECD,N/A,N/A,N/A,N/A
+Italy,1996,27.1,30.1,OECD,N/A,N/A,N/A,N/A
+Italy,1997,27.299999,30.4,OECD,N/A,N/A,N/A,N/A
+Italy,1998,27,30.299999,OECD,N/A,N/A,N/A,N/A
+Italy,1999,27.200001,30.4,OECD,N/A,N/A,N/A,N/A
+Italy,2000,27.799999,30.9,OECD,N/A,N/A,N/A,N/A
+Italy,2001,28.1,31.200001,OECD,N/A,N/A,N/A,N/A
+Italy,2002,28.4,31.799999,OECD,N/A,N/A,N/A,N/A
+Italy,2003,28.6,31.700001,OECD,N/A,N/A,N/A,N/A
+Italy,2004,28.799999,32,OECD,N/A,N/A,N/A,N/A
+Italy,2005,29.1,32.299999,OECD,N/A,N/A,N/A,N/A
+Italy,2006,29.299999,32.5,OECD,N/A,N/A,N/A,N/A
+Italy,2007,29.6,32.599998,OECD,N/A,N/A,N/A,N/A
+Italy,2008,29.799999,32.799999,OECD,N/A,N/A,N/A,N/A
+Italy,2009,30,33,OECD,N/A,N/A,N/A,N/A
+Italy,2010,30.299999,33.200001,OECD,N/A,N/A,N/A,N/A
+Italy,2011,30.5,33.5,OECD,N/A,N/A,N/A,N/A
+Italy,2013,31.1,34,OECD,N/A,N/A,N/A,N/A
+Italy,2014,31.299999,34.200001,OECD,N/A,N/A,N/A,N/A
+Italy,2016,31.9,34.700001,OECD,N/A,N/A,N/A,N/A
+Italy,2017,32.200001,35,OECD,N/A,N/A,N/A,N/A
+Jamaica,1970,21.1,33,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Jamaica,1982,32.200001,33.799999,UN World Marriage Data 2019,Census,1982 Census,Census,1982 Census
+Jamaica,1991,33.200001,34.599998,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Japan,1990,25.9,28.4,OECD,N/A,N/A,N/A,N/A
+Japan,1991,25.9,28.4,OECD,N/A,N/A,N/A,N/A
+Japan,1992,26,28.4,OECD,N/A,N/A,N/A,N/A
+Japan,1993,26.1,28.4,OECD,N/A,N/A,N/A,N/A
+Japan,1994,26.200001,28.5,OECD,N/A,N/A,N/A,N/A
+Japan,1995,26.299999,28.5,OECD,N/A,N/A,N/A,N/A
+Japan,1996,26.4,28.5,OECD,N/A,N/A,N/A,N/A
+Japan,1997,26.6,28.5,OECD,N/A,N/A,N/A,N/A
+Japan,1998,26.700001,28.6,OECD,N/A,N/A,N/A,N/A
+Japan,1999,26.799999,28.700001,OECD,N/A,N/A,N/A,N/A
+Japan,2000,27,28.799999,OECD,N/A,N/A,N/A,N/A
+Japan,2001,27.200001,29,OECD,N/A,N/A,N/A,N/A
+Japan,2002,27.4,29.1,OECD,N/A,N/A,N/A,N/A
+Japan,2003,27.6,29.4,OECD,N/A,N/A,N/A,N/A
+Japan,2004,27.799999,29.6,OECD,N/A,N/A,N/A,N/A
+Japan,2005,28,29.799999,OECD,N/A,N/A,N/A,N/A
+Japan,2006,28.200001,30,OECD,N/A,N/A,N/A,N/A
+Japan,2007,28.299999,30.1,OECD,N/A,N/A,N/A,N/A
+Japan,2008,28.5,30.200001,OECD,N/A,N/A,N/A,N/A
+Japan,2009,28.6,30.4,OECD,N/A,N/A,N/A,N/A
+Japan,2010,28.799999,30.5,OECD,N/A,N/A,N/A,N/A
+Japan,2011,29,30.700001,OECD,N/A,N/A,N/A,N/A
+Japan,2012,29.200001,30.799999,OECD,N/A,N/A,N/A,N/A
+Japan,2013,29.299999,30.9,OECD,N/A,N/A,N/A,N/A
+Japan,2014,29.4,31.1,OECD,N/A,N/A,N/A,N/A
+Japan,2015,29.4,31.1,OECD,N/A,N/A,N/A,N/A
+Japan,2016,29.4,31.1,OECD,N/A,N/A,N/A,N/A
+Japan,2017,29.4,31.1,OECD,N/A,N/A,N/A,N/A
+Jordan,1976,21.5,26.200001,UN World Marriage Data 2019,Survey,1976 WFS,Survey,1976 WFS
+Jordan,1990,24.1,27.200001,UN World Marriage Data 2019,Survey,1990 DHS,Survey,1990 DHS
+Jordan,1997,25.299999,28.6,UN World Marriage Data 2019,Survey,1997 DHS,Survey,1997 DHS
+Jordan,2002,25.9,29.4,UN World Marriage Data 2019,Survey,2002 DHS,Survey,2002 DHS
+Jordan,2007,25.799999,29.5,UN World Marriage Data 2019,Survey,2007 DHS,Survey,2007 DHS
+Jordan,2009,24.700001,29.200001,UN World Marriage Data 2019,Survey,2009 DHS Interim,Survey,2009 DHS Interim
+Jordan,2012,25,29.799999,UN World Marriage Data 2019,Survey,2012 DHS,Survey,2012 DHS
+Jordan,2017,24.6,30.9,UN World Marriage Data 2019,Survey,2017-2018 DHS,Survey,2017-2018 DHS
+Kazakhstan,1979,,24.1,UN World Marriage Data 2019,N/A,N/A,Census,1979 Census
+Kazakhstan,1989,,24.6,UN World Marriage Data 2019,N/A,N/A,Census,1989 Census
+Kazakhstan,1995,21.4,,UN World Marriage Data 2019,Survey,1995 DHS,N/A,N/A
+Kazakhstan,1999,21.6,26.1,UN World Marriage Data 2019,Survey,1999 DHS,Census,1999 Census
+Kazakhstan,2006,23.299999,,UN World Marriage Data 2019,Survey,2006 MICS,N/A,N/A
+Kazakhstan,2009,,27.6,UN World Marriage Data 2019,N/A,N/A,Census,2009 Census
+Kazakhstan,2010,23.1,,UN World Marriage Data 2019,Survey,2010-2011 MICS,N/A,N/A
+Kazakhstan,2015,22.4,,UN World Marriage Data 2019,Survey,2015 MICS,N/A,N/A
+Kenya,1977,20,,UN World Marriage Data 2019,Survey,1977-1978 WFS,N/A,N/A
+Kenya,1984,18.299999,,UN World Marriage Data 2019,Survey,1984 CPS,N/A,N/A
+Kenya,1988,21.1,,UN World Marriage Data 2019,Survey,1989 DHS,N/A,N/A
+Kenya,1993,21.299999,,UN World Marriage Data 2019,Survey,1993 DHS,N/A,N/A
+Kenya,1998,21.700001,26.299999,UN World Marriage Data 2019,Survey,1998 DHS,Survey,1998 DHS
+Kenya,2000,22.1,25.200001,UN World Marriage Data 2019,Survey,2000 MICS_HH,Survey,2000 MICS_HH
+Kenya,2003,21.4,26.299999,UN World Marriage Data 2019,Survey,2003 DHS,Survey,2003 DHS
+Kenya,2008,21.9,26.6,UN World Marriage Data 2019,Survey,2008-2009 DHS,Survey,2008-2009 DHS
+Kenya,2014,21.9,26.299999,UN World Marriage Data 2019,Survey,2014 DHS,Survey,2014 DHS
+Kiribati,1973,20.9,24.200001,UN World Marriage Data 2019,Census,1973 Census,Census,1973 Census
+Kiribati,1978,20.799999,23.799999,UN World Marriage Data 2019,Census,1978 Census,Census,1978 Census
+Kiribati,1985,21.1,24.200001,UN World Marriage Data 2019,Census,1985 Census,Census,1985 Census
+Kiribati,1990,21.5,24.5,UN World Marriage Data 2019,Census,1990 Census,Census,1990 Census
+Kiribati,1995,21.700001,24.799999,UN World Marriage Data 2019,Census,1995 Census,Census,1995 Census
+Kiribati,2005,22.200001,24.700001,UN World Marriage Data 2019,Census,2005 Census,Census,2005 Census
+Kiribati,2010,21.6,24.1,UN World Marriage Data 2019,Census,2010 Census,Census,2010 Census
+Korea,1990,24.799999,27.799999,OECD,N/A,N/A,N/A,N/A
+Korea,1991,24.799999,27.9,OECD,N/A,N/A,N/A,N/A
+Korea,1992,24.9,28,OECD,N/A,N/A,N/A,N/A
+Korea,1993,25,28.1,OECD,N/A,N/A,N/A,N/A
+Korea,1994,25.1,28.200001,OECD,N/A,N/A,N/A,N/A
+Korea,1995,25.299999,28.4,OECD,N/A,N/A,N/A,N/A
+Korea,1996,25.5,28.4,OECD,N/A,N/A,N/A,N/A
+Korea,1997,25.700001,28.6,OECD,N/A,N/A,N/A,N/A
+Korea,1998,26,28.799999,OECD,N/A,N/A,N/A,N/A
+Korea,1999,26.299999,29.1,OECD,N/A,N/A,N/A,N/A
+Korea,2000,26.5,29.299999,OECD,N/A,N/A,N/A,N/A
+Korea,2001,26.799999,29.6,OECD,N/A,N/A,N/A,N/A
+Korea,2002,27,29.799999,OECD,N/A,N/A,N/A,N/A
+Korea,2003,27.299999,30.1,OECD,N/A,N/A,N/A,N/A
+Korea,2004,27.5,30.5,OECD,N/A,N/A,N/A,N/A
+Korea,2005,27.700001,30.9,OECD,N/A,N/A,N/A,N/A
+Korea,2006,27.799999,31,OECD,N/A,N/A,N/A,N/A
+Korea,2007,28.1,31.1,OECD,N/A,N/A,N/A,N/A
+Korea,2008,28.299999,31.4,OECD,N/A,N/A,N/A,N/A
+Korea,2009,28.700001,31.6,OECD,N/A,N/A,N/A,N/A
+Korea,2010,28.9,31.799999,OECD,N/A,N/A,N/A,N/A
+Korea,2011,29.1,31.9,OECD,N/A,N/A,N/A,N/A
+Korea,2012,29.4,32.099998,OECD,N/A,N/A,N/A,N/A
+Korea,2013,29.6,32.200001,OECD,N/A,N/A,N/A,N/A
+Korea,2014,29.799999,32.400002,OECD,N/A,N/A,N/A,N/A
+Korea,2015,30,32.599998,OECD,N/A,N/A,N/A,N/A
+Korea,2016,30.1,32.799999,OECD,N/A,N/A,N/A,N/A
+Korea,2017,30.200001,32.900002,OECD,N/A,N/A,N/A,N/A
+Kosovo,2011,25.200001,28.200001,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Kuwait,1970,19.6,26.5,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Kuwait,1975,20.5,26.4,UN World Marriage Data 2019,Census,1975 Census,Census,1975 Census
+Kuwait,1980,21.700001,26.799999,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+Kuwait,1985,22.9,26.299999,UN World Marriage Data 2019,Census,1985 Census,Census,1985 Census
+Kuwait,1995,27,28.5,UN World Marriage Data 2019,Census,1995 Census,Census,1995 Census
+Kuwait,2005,27.5,28.9,UN World Marriage Data 2019,Census,2005 Census,Census,2005 Census
+Kuwait,2011,25.700001,27.799999,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Kyrgyzstan,1979,,23.700001,UN World Marriage Data 2019,N/A,N/A,Census,1979 Census
+Kyrgyzstan,1989,,24,UN World Marriage Data 2019,N/A,N/A,Census,1989 Census
+Kyrgyzstan,1997,20.299999,,UN World Marriage Data 2019,Survey,1997 DHS,N/A,N/A
+Kyrgyzstan,1999,,25,UN World Marriage Data 2019,N/A,N/A,Census,1999 Census
+Kyrgyzstan,2005,22.5,,UN World Marriage Data 2019,Survey,2005-2006 MICS,N/A,N/A
+Kyrgyzstan,2009,,26.299999,UN World Marriage Data 2019,N/A,N/A,Census,2009 Census
+Kyrgyzstan,2012,21.799999,,UN World Marriage Data 2019,Survey,2012 DHS,N/A,N/A
+Kyrgyzstan,2014,21.200001,,UN World Marriage Data 2019,Survey,2014 MICS,N/A,N/A
+Laos,2000,20.5,23.200001,UN World Marriage Data 2019,Survey,2000 RHS,Survey,2000 MICS_HH
+Laos,2005,20.5,,UN World Marriage Data 2019,Survey,2005 RHS,N/A,N/A
+Laos,2011,20.5,23.299999,UN World Marriage Data 2019,Survey,2011-2012 DHS-MICS Special,Survey,2011-2012 DHS-MICS Special
+Laos,2017,20.700001,24.6,UN World Marriage Data 2019,Survey,2017 DHS-MICS Special,Survey,2017 DHS-MICS Special
+Latvia,2002,25,27.200001,OECD,N/A,N/A,N/A,N/A
+Latvia,2003,25.1,27.299999,OECD,N/A,N/A,N/A,N/A
+Latvia,2004,25.299999,27.6,OECD,N/A,N/A,N/A,N/A
+Latvia,2005,25.799999,28,OECD,N/A,N/A,N/A,N/A
+Latvia,2006,26.1,28.299999,OECD,N/A,N/A,N/A,N/A
+Latvia,2007,26.200001,28.5,OECD,N/A,N/A,N/A,N/A
+Latvia,2008,26.5,28.799999,OECD,N/A,N/A,N/A,N/A
+Latvia,2009,26.9,29.299999,OECD,N/A,N/A,N/A,N/A
+Latvia,2010,27.1,29.4,OECD,N/A,N/A,N/A,N/A
+Latvia,2011,27.299999,29.6,OECD,N/A,N/A,N/A,N/A
+Latvia,2012,27.5,30,OECD,N/A,N/A,N/A,N/A
+Latvia,2013,27.9,30.200001,OECD,N/A,N/A,N/A,N/A
+Latvia,2014,28.200001,30.6,OECD,N/A,N/A,N/A,N/A
+Latvia,2015,28.5,31,OECD,N/A,N/A,N/A,N/A
+Latvia,2016,28.799999,31.1,OECD,N/A,N/A,N/A,N/A
+Latvia,2017,28.9,31.5,OECD,N/A,N/A,N/A,N/A
+Lebanon,1997,27.9,31.4,UN World Marriage Data 2019,Survey,1997 HLCS,Survey,1997 HLCS
+Lebanon,2004,27.4,31.4,UN World Marriage Data 2019,Survey,2004 HLCS,Survey,2004 HLCS
+Lebanon,2007,28.299999,32.299999,UN World Marriage Data 2019,Survey,2007 LCS,Survey,2007 LCS
+Lesotho,1977,19.4,,UN World Marriage Data 2019,Survey,1977 WFS,N/A,N/A
+Lesotho,2000,21.700001,26.700001,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Lesotho,2001,23.9,27.700001,UN World Marriage Data 2019,Survey,2001 DS,Survey,2001 DS
+Lesotho,2002,21.9,26.200001,UN World Marriage Data 2019,Survey,2002 RHS,Survey,2002 RHS
+Lesotho,2004,22.5,27.200001,UN World Marriage Data 2019,Survey,2004 DHS,Survey,2004 DHS
+Lesotho,2009,22.5,27,UN World Marriage Data 2019,Survey,2009 DHS,Survey,2009 DHS
+Lesotho,2011,24.4,28.5,UN World Marriage Data 2019,Survey,2011 DS,Survey,2011 DS
+Lesotho,2014,22.200001,28,UN World Marriage Data 2019,Survey,2014 DHS,Survey,2014 DHS
+Liberia,1969,18.700001,26.700001,UN World Marriage Data 2019,Survey,1969-1970 PGS,Survey,1969-1970 PGS
+Liberia,1970,19,27,UN World Marriage Data 2019,Survey,1970-1971 PGS,Survey,1970-1971 PGS
+Liberia,1986,20.200001,,UN World Marriage Data 2019,Survey,1986 DHS,N/A,N/A
+Liberia,2006,22.1,25.299999,UN World Marriage Data 2019,Survey,2007 DHS,Survey,2007 DHS
+Liberia,2013,22.6,26.4,UN World Marriage Data 2019,Survey,2013 DHS,Survey,2013 DHS
+Libya,1973,18.700001,24.6,UN World Marriage Data 2019,Census,1973 Census,Census,1973 Census
+Libya,1984,23,27.4,UN World Marriage Data 2019,Census,1984 Census,Census,1984 Census
+Liechtenstein,1981,24.6,27.9,UN World Marriage Data 2019,UNSD Estimate,1981 Estimate,UNSD Estimate,1981 Estimate
+Liechtenstein,1982,24.9,28,UN World Marriage Data 2019,UNSD Estimate,1982 Estimate,UNSD Estimate,1982 Estimate
+Liechtenstein,1983,25,27.9,UN World Marriage Data 2019,UNSD Estimate,1983 Estimate,UNSD Estimate,1983 Estimate
+Liechtenstein,1985,25.6,28.5,UN World Marriage Data 2019,UNSD Estimate,1985 Estimate,UNSD Estimate,1985 Estimate
+Liechtenstein,1986,25.799999,28.700001,UN World Marriage Data 2019,UNSD Estimate,1986 Estimate,UNSD Estimate,1986 Estimate
+Liechtenstein,1987,26.1,28.799999,UN World Marriage Data 2019,UNSD Estimate,1987 Estimate,UNSD Estimate,1987 Estimate
+Liechtenstein,1997,28,30.6,UN World Marriage Data 2019,UNSD Estimate,1997 Estimate,UNSD Estimate,1997 Estimate
+Liechtenstein,2000,28.299999,31,UN World Marriage Data 2019,UNSD Estimate,2000 Estimate,UNSD Estimate,2000 Estimate
+Liechtenstein,2001,28.9,,UN World Marriage Data 2019,UNSD Estimate,2001 Estimate,N/A,N/A
+Liechtenstein,2003,28.5,31.4,UN World Marriage Data 2019,UNSD Estimate,2003 Estimate,UNSD Estimate,2003 Estimate
+Liechtenstein,2004,,31.6,UN World Marriage Data 2019,N/A,N/A,UNSD Estimate,2004 Estimate
+Liechtenstein,2005,28.799999,31.799999,UN World Marriage Data 2019,UNSD Estimate,2005 Estimate,UNSD Estimate,2005 Estimate
+Liechtenstein,2006,28.9,32.099998,UN World Marriage Data 2019,UNSD Estimate,2006 Estimate,UNSD Estimate,2006 Estimate
+Liechtenstein,2007,29.299999,32.299999,UN World Marriage Data 2019,UNSD Estimate,2007 Estimate,UNSD Estimate,2007 Estimate
+Liechtenstein,2008,29.4,32.400002,UN World Marriage Data 2019,UNSD Estimate,2008 Estimate,UNSD Estimate,2008 Estimate
+Liechtenstein,2009,29.4,32.5,UN World Marriage Data 2019,UNSD Estimate,2009 Estimate,UNSD Estimate,2009 Estimate
+Liechtenstein,2010,29.6,32.700001,UN World Marriage Data 2019,UNSD Estimate,2010 Estimate,UNSD Estimate,2010 Estimate
+Liechtenstein,2011,29.799999,32.599998,UN World Marriage Data 2019,UNSD Estimate,2011 Estimate,UNSD Estimate,2011 Estimate
+Liechtenstein,2014,29.799999,32.700001,UN World Marriage Data 2019,UNSD Estimate,2014 Estimate,UNSD Estimate,2014 Estimate
+Liechtenstein,2015,29.9,32.700001,UN World Marriage Data 2019,UNSD Estimate,2015 Estimate,UNSD Estimate,2015 Estimate
+Liechtenstein,2016,29.9,32.599998,UN World Marriage Data 2019,UNSD Estimate,2016 Estimate,UNSD Estimate,2016 Estimate
+Liechtenstein,2017,29.9,32.5,UN World Marriage Data 2019,UNSD Estimate,2017 Estimate,UNSD Estimate,2017 Estimate
+Liechtenstein,2018,29.9,32.400002,UN World Marriage Data 2019,UNSD Estimate,2018 Estimate,UNSD Estimate,2018 Estimate
+Lithuania,1990,22.700001,24.6,OECD,N/A,N/A,N/A,N/A
+Lithuania,1991,22.5,24.4,OECD,N/A,N/A,N/A,N/A
+Lithuania,1992,22.4,24.299999,OECD,N/A,N/A,N/A,N/A
+Lithuania,1993,22.4,24.4,OECD,N/A,N/A,N/A,N/A
+Lithuania,1994,22.5,24.5,OECD,N/A,N/A,N/A,N/A
+Lithuania,1995,22.6,24.6,OECD,N/A,N/A,N/A,N/A
+Lithuania,1996,22.799999,24.9,OECD,N/A,N/A,N/A,N/A
+Lithuania,1997,23,25,OECD,N/A,N/A,N/A,N/A
+Lithuania,1998,23.1,25.200001,OECD,N/A,N/A,N/A,N/A
+Lithuania,1999,23.4,25.6,OECD,N/A,N/A,N/A,N/A
+Lithuania,2000,23.799999,26.1,OECD,N/A,N/A,N/A,N/A
+Lithuania,2001,24.1,26.4,OECD,N/A,N/A,N/A,N/A
+Lithuania,2002,24.299999,26.700001,OECD,N/A,N/A,N/A,N/A
+Lithuania,2003,24.6,27,OECD,N/A,N/A,N/A,N/A
+Lithuania,2004,24.799999,27.1,OECD,N/A,N/A,N/A,N/A
+Lithuania,2005,25,27.299999,OECD,N/A,N/A,N/A,N/A
+Lithuania,2006,25.1,27.4,OECD,N/A,N/A,N/A,N/A
+Lithuania,2007,25.5,27.799999,OECD,N/A,N/A,N/A,N/A
+Lithuania,2008,25.799999,28,OECD,N/A,N/A,N/A,N/A
+Lithuania,2009,26.200001,28.6,OECD,N/A,N/A,N/A,N/A
+Lithuania,2010,26.5,28.700001,OECD,N/A,N/A,N/A,N/A
+Lithuania,2011,26.700001,29,OECD,N/A,N/A,N/A,N/A
+Lithuania,2013,27.1,29.5,OECD,N/A,N/A,N/A,N/A
+Lithuania,2014,27.299999,29.700001,OECD,N/A,N/A,N/A,N/A
+Lithuania,2015,27.5,28.9,OECD,N/A,N/A,N/A,N/A
+Lithuania,2016,27.9,30.299999,OECD,N/A,N/A,N/A,N/A
+Lithuania,2017,27.799999,30.5,OECD,N/A,N/A,N/A,N/A
+Luxembourg,1990,25.6,27.700001,OECD,N/A,N/A,N/A,N/A
+Luxembourg,1991,26.1,28.4,OECD,N/A,N/A,N/A,N/A
+Luxembourg,1992,26.200001,28.5,OECD,N/A,N/A,N/A,N/A
+Luxembourg,1993,25.799999,28.5,OECD,N/A,N/A,N/A,N/A
+Luxembourg,1994,26.4,28.799999,OECD,N/A,N/A,N/A,N/A
+Luxembourg,1995,26.700001,29.200001,OECD,N/A,N/A,N/A,N/A
+Luxembourg,1996,26.6,29.1,OECD,N/A,N/A,N/A,N/A
+Luxembourg,1997,27.200001,29.6,OECD,N/A,N/A,N/A,N/A
+Luxembourg,1998,27.5,30,OECD,N/A,N/A,N/A,N/A
+Luxembourg,1999,27.700001,30.200001,OECD,N/A,N/A,N/A,N/A
+Luxembourg,2000,27.4,30.299999,OECD,N/A,N/A,N/A,N/A
+Luxembourg,2001,27.9,30.6,OECD,N/A,N/A,N/A,N/A
+Luxembourg,2002,27.9,30.5,OECD,N/A,N/A,N/A,N/A
+Luxembourg,2003,28.200001,30.799999,OECD,N/A,N/A,N/A,N/A
+Luxembourg,2004,28.5,31.5,OECD,N/A,N/A,N/A,N/A
+Luxembourg,2005,28.9,31.5,OECD,N/A,N/A,N/A,N/A
+Luxembourg,2006,29.4,31.799999,OECD,N/A,N/A,N/A,N/A
+Luxembourg,2007,29.5,32,OECD,N/A,N/A,N/A,N/A
+Luxembourg,2008,29.799999,32.099998,OECD,N/A,N/A,N/A,N/A
+Luxembourg,2009,29.700001,32.400002,OECD,N/A,N/A,N/A,N/A
+Luxembourg,2010,30.200001,32.799999,OECD,N/A,N/A,N/A,N/A
+Luxembourg,2011,30.299999,32.900002,OECD,N/A,N/A,N/A,N/A
+Luxembourg,2013,29.700001,32.700001,OECD,N/A,N/A,N/A,N/A
+Luxembourg,2014,30.9,33,OECD,N/A,N/A,N/A,N/A
+Luxembourg,2015,32.099998,34.799999,OECD,N/A,N/A,N/A,N/A
+Luxembourg,2016,31.6,33.799999,OECD,N/A,N/A,N/A,N/A
+Luxembourg,2017,31.6,34,OECD,N/A,N/A,N/A,N/A
+Madagascar,1992,20.799999,,UN World Marriage Data 2019,Survey,1992 DHS,N/A,N/A
+Madagascar,1997,20.6,,UN World Marriage Data 2019,Survey,1997 DHS,N/A,N/A
+Madagascar,2000,19.799999,23.9,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Madagascar,2003,19.799999,24.1,UN World Marriage Data 2019,Survey,2003-2004 DHS,Survey,2003-2004 DHS
+Madagascar,2008,19,22.4,UN World Marriage Data 2019,Survey,2008-2009 DHS,Survey,2008-2009 DHS
+Malawi,1970,19.1,24.200001,UN World Marriage Data 2019,Survey,1970-1972 PCS,Survey,1970-1972 PCS
+Malawi,1982,18.200001,23.200001,UN World Marriage Data 2019,Survey,1982 MDS,Survey,1982 MDS
+Malawi,1984,18.1,,UN World Marriage Data 2019,Survey,1984 FFS,N/A,N/A
+Malawi,1992,18.700001,,UN World Marriage Data 2019,Survey,1992 DHS,N/A,N/A
+Malawi,1996,,26.4,UN World Marriage Data 2019,N/A,N/A,Survey,1996 KAP Survey
+Malawi,2000,18.9,23.5,UN World Marriage Data 2019,Survey,2000 DHS,Survey,2000 DHS
+Malawi,2004,18.9,23.6,UN World Marriage Data 2019,Survey,2004 DHS,Survey,2004 DHS
+Malawi,2006,18.799999,,UN World Marriage Data 2019,Survey,2006 MICS,N/A,N/A
+Malawi,2010,19.700001,23.9,UN World Marriage Data 2019,Survey,2010 DHS,Survey,2010 DHS
+Malawi,2013,19.799999,24.6,UN World Marriage Data 2019,Survey,2013-2014 MICS,Survey,2013-2014 MICS
+Malawi,2015,19.9,23.700001,UN World Marriage Data 2019,Survey,2015-2016 DHS,Survey,2015-2016 DHS
+Malaysia,1991,24.6,27.9,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Malaysia,2000,25.1,28.6,UN World Marriage Data 2019,Census,2000 Census,Census,2000 Census
+Malaysia,2010,25.700001,28,UN World Marriage Data 2019,Census,2010 Census,Census,2010 Census
+Maldives,1977,17.5,22.4,UN World Marriage Data 2019,Census,1977 Census,Census,1977 Census
+Maldives,1985,17.9,22.1,UN World Marriage Data 2019,Census,1985 Census,Census,1985 Census
+Maldives,1990,19.1,23.200001,UN World Marriage Data 2019,Census,1990 Census,Census,1990 Census
+Maldives,1995,18.9,24,UN World Marriage Data 2019,Census,1995 Census,Census,1995 Census
+Maldives,2000,21.799999,25.700001,UN World Marriage Data 2019,Census,2000 Census,Census,2000 Census
+Maldives,2014,22.5,25.799999,UN World Marriage Data 2019,Census,2014 Census,Census,2014 Census
+Mali,1960,16.200001,26.4,UN World Marriage Data 2019,Survey,1960-1961 ED,Survey,1960-1961 ED
+Mali,1987,16.4,,UN World Marriage Data 2019,Survey,1987 DHS,N/A,N/A
+Mali,1995,18.4,25.799999,UN World Marriage Data 2019,Survey,1995-1996 DHS,Survey,1995-1996 DHS
+Mali,2001,18.5,25.9,UN World Marriage Data 2019,Survey,2001 DHS,Survey,2001 DHS
+Mali,2006,17.799999,24,UN World Marriage Data 2019,Survey,2006 DHS,Survey,2006 DHS
+Mali,2009,19.200001,,UN World Marriage Data 2019,Survey,2009-2010 MICS,N/A,N/A
+Mali,2012,18.5,25.9,UN World Marriage Data 2019,Survey,2012-2013 DHS,Survey,2012-2013 DHS
+Mali,2015,19.299999,27.200001,UN World Marriage Data 2019,Survey,2015 MICS,Survey,2015 MICS
+Mali,2018,18.799999,25.799999,UN World Marriage Data 2019,Survey,2018 DHS,Survey,2018 DHS
+Malta,1990,24.6,27.200001,OECD,N/A,N/A,N/A,N/A
+Malta,1991,24.9,27.6,OECD,N/A,N/A,N/A,N/A
+Malta,1992,25.1,27.700001,OECD,N/A,N/A,N/A,N/A
+Malta,1993,25,27.5,OECD,N/A,N/A,N/A,N/A
+Malta,1994,25.299999,27.700001,OECD,N/A,N/A,N/A,N/A
+Malta,1995,25.6,28.1,OECD,N/A,N/A,N/A,N/A
+Malta,1996,25.6,27.9,OECD,N/A,N/A,N/A,N/A
+Malta,2003,26.799999,29.299999,OECD,N/A,N/A,N/A,N/A
+Malta,2004,27.299999,29.700001,OECD,N/A,N/A,N/A,N/A
+Malta,2006,27.799999,30.4,OECD,N/A,N/A,N/A,N/A
+Malta,2007,28.1,30.200001,OECD,N/A,N/A,N/A,N/A
+Malta,2008,28.5,30.799999,OECD,N/A,N/A,N/A,N/A
+Malta,2009,28.700001,31.1,OECD,N/A,N/A,N/A,N/A
+Malta,2010,28.6,31.299999,OECD,N/A,N/A,N/A,N/A
+Malta,2011,29.200001,31.6,OECD,N/A,N/A,N/A,N/A
+Marshall Islands,1988,21,23.700001,UN World Marriage Data 2019,Census,1988 Census,Census,1988 Census
+Marshall Islands,2011,24.200001,25.700001,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Martinique,1982,28.799999,30.200001,UN World Marriage Data 2019,Census,1982 Census,Census,1982 Census
+Martinique,1999,33.299999,35.599998,UN World Marriage Data 2019,Census,1999 Census,Census,1999 Census
+Mauritania,1964,19.5,28.9,UN World Marriage Data 2019,Survey,1964-1965 PS,Survey,1964-1965 PS
+Mauritania,1990,23,29.6,UN World Marriage Data 2019,Survey,1990-1991 MCHS,Survey,1990-1991 MCHS
+Mauritania,2000,21.799999,29.4,UN World Marriage Data 2019,Survey,2000-2001 DHS,Survey,2000-2001 DHS
+Mauritania,2003,22,,UN World Marriage Data 2019,Survey,2003-2004 EMIP Special,N/A,N/A
+Mauritania,2007,21.6,,UN World Marriage Data 2019,Survey,2007 MICS,N/A,N/A
+Mauritania,2011,21.6,29.5,UN World Marriage Data 2019,Survey,2011 MICS,Survey,2011 MICS_HH
+Mauritania,2015,21.799999,29.200001,UN World Marriage Data 2019,Survey,2015 MICS,Survey,2015 MICS
+Mauritius,1962,16.5,26.200001,UN World Marriage Data 2019,Census,1962 Census,Census,1962 Census
+Mauritius,1990,23.799999,28.200001,UN World Marriage Data 2019,Census,1990 Census,Census,1990 Census
+Mauritius,2000,22.6,28.5,UN World Marriage Data 2019,Census,2000 Census,Census,2000 Census
+Mauritius,2011,23.9,29.200001,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Mayotte,2002,21.200001,26.1,UN World Marriage Data 2019,Census,2002 Census,Census,2002 Census
+Mayotte,2012,26.1,29.799999,UN World Marriage Data 2019,Census,2012 Census,Census,2012 Census
+Mexico,1995,20,23.200001,OECD,N/A,N/A,N/A,N/A
+Mexico,2009,25.799999,28.700001,OECD,N/A,N/A,N/A,N/A
+Mexico,2010,26.200001,29.1,OECD,N/A,N/A,N/A,N/A
+Mexico,2011,26.299999,29.200001,OECD,N/A,N/A,N/A,N/A
+Mexico,2012,26.6,29.4,OECD,N/A,N/A,N/A,N/A
+Mexico,2013,26.9,29.799999,OECD,N/A,N/A,N/A,N/A
+Mexico,2014,27.5,30.4,OECD,N/A,N/A,N/A,N/A
+Micronesia (country),1985,22.6,25.5,UN World Marriage Data 2019,Census,1985 Census,Census,1985 Census
+Micronesia (country),1986,24.200001,26.4,UN World Marriage Data 2019,Census,1986 Census,Census,1986 Census
+Micronesia (country),2010,25.299999,,UN World Marriage Data 2019,Census,2010 Census,N/A,N/A
+Monaco,1975,24.799999,27.200001,UN World Marriage Data 2019,Census,1975 Census,Census,1975 Census
+Monaco,1982,26.200001,28.700001,UN World Marriage Data 2019,Census,1982 Census,Census,1982 Census
+Monaco,2000,29.200001,32.5,UN World Marriage Data 2019,Census,2000 Census,Census,2000 Census
+Monaco,2008,30.4,33.400002,UN World Marriage Data 2019,Census,2008 Census,Census,2008 Census
+Mongolia,1979,,24.9,UN World Marriage Data 2019,N/A,N/A,Census,1979 Census
+Mongolia,1989,,25,UN World Marriage Data 2019,N/A,N/A,Census,1989 Census
+Mongolia,1994,23.299999,,UN World Marriage Data 2019,Survey,1994 DS,N/A,N/A
+Mongolia,1996,23.6,,UN World Marriage Data 2019,Survey,1996 DS,N/A,N/A
+Mongolia,1998,22.5,,UN World Marriage Data 2019,Survey,1998 RHS,N/A,N/A
+Mongolia,2000,21.9,25.700001,UN World Marriage Data 2019,Survey,2000 MICS,Census,2000 Census
+Mongolia,2003,22.299999,,UN World Marriage Data 2019,Survey,2003 RHS,N/A,N/A
+Mongolia,2005,23,,UN World Marriage Data 2019,Survey,2005 MICS,N/A,N/A
+Mongolia,2008,22.5,,UN World Marriage Data 2019,Survey,2008 RHS,N/A,N/A
+Mongolia,2010,23.4,26.200001,UN World Marriage Data 2019,Survey,2010 MICS,Census,2010 Census
+Mongolia,2013,23,,UN World Marriage Data 2019,Survey,2013 MICS,N/A,N/A
+Montenegro,2003,26.200001,30.700001,UN World Marriage Data 2019,Census,2003 Census,Census,2003 Census
+Montenegro,2011,27.1,31.1,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Montserrat,1970,27.5,31.5,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Montserrat,1980,28.5,31.1,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+Montserrat,2011,31.9,31.5,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Morocco,1971,,25,UN World Marriage Data 2019,N/A,N/A,Census,1971 Census
+Morocco,1982,,27.1,UN World Marriage Data 2019,N/A,N/A,Census,1982 Census
+Morocco,1987,24,,UN World Marriage Data 2019,Survey,1987 DHS,N/A,N/A
+Morocco,1992,25,,UN World Marriage Data 2019,Survey,1992 DHS,N/A,N/A
+Morocco,1994,,29.799999,UN World Marriage Data 2019,N/A,N/A,Census,1994 Census
+Morocco,1995,26.299999,,UN World Marriage Data 2019,Survey,1995 DHS,N/A,N/A
+Morocco,1997,28.1,,UN World Marriage Data 2019,Survey,1997 ENSME,N/A,N/A
+Morocco,2003,26.4,,UN World Marriage Data 2019,Survey,2003-2004 DHS,N/A,N/A
+Morocco,2004,,31.200001,UN World Marriage Data 2019,N/A,N/A,Census,2004 Census
+Morocco,2010,26.299999,,UN World Marriage Data 2019,Survey,2011 ENPSF,N/A,N/A
+Morocco,2018,24.4,,UN World Marriage Data 2019,Survey,2018 ENPSF,N/A,N/A
+Mozambique,1997,18.1,22.6,UN World Marriage Data 2019,Survey,1997 DHS,Survey,1997 DHS
+Mozambique,2003,18.700001,,UN World Marriage Data 2019,Survey,2003 DHS,N/A,N/A
+Mozambique,2008,18.799999,,UN World Marriage Data 2019,Survey,2008 MICS,N/A,N/A
+Mozambique,2009,18.299999,22.700001,UN World Marriage Data 2019,Survey,2009 AIS,Survey,2009 AIS
+Mozambique,2011,18.9,22.9,UN World Marriage Data 2019,Survey,2011 DHS,Survey,2011 DHS
+Mozambique,2015,18.9,22.799999,UN World Marriage Data 2019,Survey,2015 AIS,Survey,2015 AIS
+Myanmar,1991,24.5,26.4,UN World Marriage Data 2019,Survey,1991 PCFS,Survey,1991 PCFS
+Myanmar,1997,26,,UN World Marriage Data 2019,Survey,1997 FRHS,N/A,N/A
+Myanmar,2000,24.799999,26.9,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Myanmar,2001,25.799999,,UN World Marriage Data 2019,Survey,2001 FRHS,N/A,N/A
+Myanmar,2007,26.1,27.700001,UN World Marriage Data 2019,Survey,2007 FRHS,Survey,2007 FRHS
+Myanmar,2015,22.9,25.4,UN World Marriage Data 2019,Survey,2015-2016 DHS,Survey,2015-2016 DHS
+Namibia,1989,19.4,,UN World Marriage Data 2019,Survey,1989 Demographic and Health Survey,N/A,N/A
+Namibia,1992,26.4,,UN World Marriage Data 2019,Survey,1992 DHS,N/A,N/A
+Namibia,2000,27.5,30.1,UN World Marriage Data 2019,Survey,2000 DHS,Survey,2000 DHS
+Namibia,2006,28.299999,30.200001,UN World Marriage Data 2019,Survey,2006-2007 DHS,Survey,2006-2007 DHS
+Namibia,2013,27.9,32.200001,UN World Marriage Data 2019,Survey,2013 DHS,Survey,2013 DHS
+Namibia,2016,30.299999,34.299999,UN World Marriage Data 2019,Survey,2016 NIDS,Survey,2016 NIDS
+Nauru,2007,20.200001,,UN World Marriage Data 2019,Survey,2007 DHS,N/A,N/A
+Nepal,1976,17.1,20.799999,UN World Marriage Data 2019,Survey,1976 WFS,Survey,1976 WFS
+Nepal,1996,18.6,22,UN World Marriage Data 2019,Survey,1996 DHS,Survey,1996 DHS
+Nepal,2001,18.9,22.6,UN World Marriage Data 2019,Survey,2001 DHS,Survey,2001 DHS
+Nepal,2006,19.4,22.4,UN World Marriage Data 2019,Survey,2006 DHS,Survey,2006 DHS
+Nepal,2011,20,23.700001,UN World Marriage Data 2019,Survey,2011 DHS,Survey,2011 DHS
+Nepal,2014,20.700001,,UN World Marriage Data 2019,Survey,2014 MICS,N/A,N/A
+Nepal,2016,20.1,23.6,UN World Marriage Data 2019,Survey,2016 DHS,Survey,2016 DHS
+Netherlands,1990,26.1,28.5,OECD,N/A,N/A,N/A,N/A
+Netherlands,1991,26.5,28.799999,OECD,N/A,N/A,N/A,N/A
+Netherlands,1992,26.700001,29.1,OECD,N/A,N/A,N/A,N/A
+Netherlands,1993,26.9,29.299999,OECD,N/A,N/A,N/A,N/A
+Netherlands,1994,27.200001,29.6,OECD,N/A,N/A,N/A,N/A
+Netherlands,1995,27.299999,29.700001,OECD,N/A,N/A,N/A,N/A
+Netherlands,1996,27.4,30,OECD,N/A,N/A,N/A,N/A
+Netherlands,1997,27.6,30.200001,OECD,N/A,N/A,N/A,N/A
+Netherlands,1998,27.799999,30.299999,OECD,N/A,N/A,N/A,N/A
+Netherlands,1999,27.9,30.5,OECD,N/A,N/A,N/A,N/A
+Netherlands,2000,28,30.700001,OECD,N/A,N/A,N/A,N/A
+Netherlands,2001,28.1,30.700001,OECD,N/A,N/A,N/A,N/A
+Netherlands,2002,28.5,31.200001,OECD,N/A,N/A,N/A,N/A
+Netherlands,2004,29,31.700001,OECD,N/A,N/A,N/A,N/A
+Netherlands,2005,29.200001,31.799999,OECD,N/A,N/A,N/A,N/A
+Netherlands,2006,29.4,32,OECD,N/A,N/A,N/A,N/A
+Netherlands,2007,29.5,32.299999,OECD,N/A,N/A,N/A,N/A
+Netherlands,2008,29.799999,32.400002,OECD,N/A,N/A,N/A,N/A
+Netherlands,2009,29.9,32.5,OECD,N/A,N/A,N/A,N/A
+Netherlands,2010,29.799999,32.400002,OECD,N/A,N/A,N/A,N/A
+Netherlands,2011,30.1,32.599998,OECD,N/A,N/A,N/A,N/A
+Netherlands,2013,30.299999,32.900002,OECD,N/A,N/A,N/A,N/A
+Netherlands,2014,30.4,33,OECD,N/A,N/A,N/A,N/A
+Netherlands,2015,30.799999,33.299999,OECD,N/A,N/A,N/A,N/A
+Netherlands,2016,31.1,33.599998,OECD,N/A,N/A,N/A,N/A
+Netherlands,2017,31.4,33.900002,OECD,N/A,N/A,N/A,N/A
+Netherlands Antilles,1981,26.5,28.700001,UN World Marriage Data 2019,Census,1981 Census,Census,1981 Census
+Netherlands Antilles,2001,30.200001,32.599998,UN World Marriage Data 2019,Census,2001 Census,Census,2001 Census
+New Caledonia,1976,22.5,26.5,UN World Marriage Data 2019,Census,1976 Census,Census,1976 Census
+New Caledonia,1989,27.799999,30.5,UN World Marriage Data 2019,Census,1989 Census,Census,1989 Census
+New Caledonia,1996,30.4,32.5,UN World Marriage Data 2019,Census,1996 Census,Census,1996 Census
+New Caledonia,2004,31.9,33.700001,UN World Marriage Data 2019,Census,2004 Census,Census,2004 Census
+New Caledonia,2014,32.799999,34.299999,UN World Marriage Data 2019,Census,2014 Census,Census,2014 Census
+New Zealand,1990,24.5,26.799999,OECD,N/A,N/A,N/A,N/A
+New Zealand,1991,24.6,26.9,OECD,N/A,N/A,N/A,N/A
+New Zealand,1992,24.9,27,OECD,N/A,N/A,N/A,N/A
+New Zealand,1993,25.200001,27.299999,OECD,N/A,N/A,N/A,N/A
+New Zealand,1994,25.5,27.5,OECD,N/A,N/A,N/A,N/A
+New Zealand,1995,25.799999,27.799999,OECD,N/A,N/A,N/A,N/A
+New Zealand,1996,26.1,28.1,OECD,N/A,N/A,N/A,N/A
+New Zealand,1997,26.5,28.299999,OECD,N/A,N/A,N/A,N/A
+New Zealand,1998,26.700001,28.6,OECD,N/A,N/A,N/A,N/A
+New Zealand,1999,27,28.9,OECD,N/A,N/A,N/A,N/A
+New Zealand,2000,27.4,29.200001,OECD,N/A,N/A,N/A,N/A
+New Zealand,2001,27.5,29.299999,OECD,N/A,N/A,N/A,N/A
+New Zealand,2002,27.6,29.4,OECD,N/A,N/A,N/A,N/A
+New Zealand,2003,27.700001,29.5,OECD,N/A,N/A,N/A,N/A
+New Zealand,2004,28.1,29.9,OECD,N/A,N/A,N/A,N/A
+New Zealand,2005,28.200001,30.1,OECD,N/A,N/A,N/A,N/A
+New Zealand,2006,28.299999,30,OECD,N/A,N/A,N/A,N/A
+New Zealand,2007,28.200001,30,OECD,N/A,N/A,N/A,N/A
+New Zealand,2008,28.200001,30,OECD,N/A,N/A,N/A,N/A
+New Zealand,2009,28.200001,29.799999,OECD,N/A,N/A,N/A,N/A
+New Zealand,2010,28.200001,29.9,OECD,N/A,N/A,N/A,N/A
+New Zealand,2011,28.4,29.9,OECD,N/A,N/A,N/A,N/A
+New Zealand,2012,28.5,30,OECD,N/A,N/A,N/A,N/A
+New Zealand,2013,28.6,30.1,OECD,N/A,N/A,N/A,N/A
+New Zealand,2014,28.700001,30.200001,OECD,N/A,N/A,N/A,N/A
+New Zealand,2015,28.799999,30.200001,OECD,N/A,N/A,N/A,N/A
+New Zealand,2016,29,30.299999,OECD,N/A,N/A,N/A,N/A
+New Zealand,2017,29,30.200001,OECD,N/A,N/A,N/A,N/A
+Nicaragua,1992,19.799999,,UN World Marriage Data 2019,Survey,1992-1993 ESF,N/A,N/A
+Nicaragua,1997,20,22.6,UN World Marriage Data 2019,Survey,1998 DHS,Survey,1998 DHS
+Nicaragua,1998,20,22.6,UN World Marriage Data 2019,Survey,1998-1999 LSMS,Survey,1998-1999 LSMS
+Nicaragua,2001,20.4,25.1,UN World Marriage Data 2019,Survey,2001 DHS,Survey,2001 DHS
+Nicaragua,2006,20.9,,UN World Marriage Data 2019,Survey,2006-2007 RHS-DHS,N/A,N/A
+Nicaragua,2011,21.1,,UN World Marriage Data 2019,Survey,2011-2012 NDHS,N/A,N/A
+Niger,1992,17.5,25.1,UN World Marriage Data 2019,Survey,1992 DHS,Survey,1992 DHS
+Niger,1998,17.6,23.9,UN World Marriage Data 2019,Survey,1998 DHS,Survey,1998 DHS
+Niger,2000,17.700001,24.799999,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Niger,2006,17.700001,25.1,UN World Marriage Data 2019,Survey,2006 DHS,Survey,2006 DHS
+Niger,2012,17.200001,25,UN World Marriage Data 2019,Survey,2012 DHS-MICS,Survey,2012 DHS-MICS
+Niger,2015,17.200001,24,UN World Marriage Data 2019,Survey,2015 ENISED,Survey,2015 ENISED
+Nigeria,1990,19.6,,UN World Marriage Data 2019,Survey,1990 DHS,N/A,N/A
+Nigeria,2003,20.9,28,UN World Marriage Data 2019,Survey,2003 DHS,Survey,2003 DHS
+Nigeria,2007,21.5,,UN World Marriage Data 2019,Survey,2007 MICS,N/A,N/A
+Nigeria,2008,21.5,28.5,UN World Marriage Data 2019,Survey,2008 DHS,Survey,2008 DHS
+Nigeria,2011,21.700001,,UN World Marriage Data 2019,Survey,2011 MICS,N/A,N/A
+Nigeria,2013,21.200001,28.6,UN World Marriage Data 2019,Survey,2013 DHS,Survey,2013 DHS
+Niue,1971,25,25.700001,UN World Marriage Data 2019,Census,1971 Census,Census,1971 Census
+Niue,1976,25,27.1,UN World Marriage Data 2019,Census,1976 Census,Census,1976 Census
+Niue,1986,23.6,26.299999,UN World Marriage Data 2019,Census,1986 Census,Census,1986 Census
+Niue,1997,,29.1,UN World Marriage Data 2019,N/A,N/A,Census,1997 Census
+Niue,2006,26.1,26.799999,UN World Marriage Data 2019,Census,2006 Census,Census,2006 Census
+Niue,2011,24.6,23.9,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Northern Mariana Islands,1990,28.5,28.5,UN World Marriage Data 2019,Census,1990 Census,Census,1990 Census
+Northern Mariana Islands,2010,28.1,30.1,UN World Marriage Data 2019,Census,2010 Census,Census,2010 Census
+Norway,1990,26.4,29,OECD,N/A,N/A,N/A,N/A
+Norway,1991,26.6,29.200001,OECD,N/A,N/A,N/A,N/A
+Norway,1992,26.799999,29.4,OECD,N/A,N/A,N/A,N/A
+Norway,1993,27,29.700001,OECD,N/A,N/A,N/A,N/A
+Norway,1994,27.200001,30,OECD,N/A,N/A,N/A,N/A
+Norway,1995,27.5,30.200001,OECD,N/A,N/A,N/A,N/A
+Norway,1996,27.9,30.6,OECD,N/A,N/A,N/A,N/A
+Norway,1997,28.200001,30.799999,OECD,N/A,N/A,N/A,N/A
+Norway,1998,28.4,31.200001,OECD,N/A,N/A,N/A,N/A
+Norway,1999,28.9,31.6,OECD,N/A,N/A,N/A,N/A
+Norway,2000,28.4,30.9,OECD,N/A,N/A,N/A,N/A
+Norway,2001,28.6,31,OECD,N/A,N/A,N/A,N/A
+Norway,2002,28.700001,31.1,OECD,N/A,N/A,N/A,N/A
+Norway,2006,30.4,33.099998,OECD,N/A,N/A,N/A,N/A
+Norway,2007,30.6,33.400002,OECD,N/A,N/A,N/A,N/A
+Norway,2008,31,33.799999,OECD,N/A,N/A,N/A,N/A
+Norway,2009,30.9,33.5,OECD,N/A,N/A,N/A,N/A
+Norway,2010,30.799999,33.700001,OECD,N/A,N/A,N/A,N/A
+Norway,2011,31.1,33.900002,OECD,N/A,N/A,N/A,N/A
+Norway,2012,31.4,34.099998,OECD,N/A,N/A,N/A,N/A
+Norway,2013,31.5,34.299999,OECD,N/A,N/A,N/A,N/A
+Norway,2014,31.6,34.400002,OECD,N/A,N/A,N/A,N/A
+Norway,2015,31.9,34.599998,OECD,N/A,N/A,N/A,N/A
+Norway,2016,31.9,34.700001,OECD,N/A,N/A,N/A,N/A
+Norway,2017,32.299999,35,OECD,N/A,N/A,N/A,N/A
+Oman,1993,20.700001,24.700001,UN World Marriage Data 2019,Census,1993 Census,Census,1993 Census
+Oman,2003,24.799999,28.1,UN World Marriage Data 2019,Census,2003 Census,Census,2003 Census
+Oman,2010,25.6,27.700001,UN World Marriage Data 2019,Census,2010 Census,Census,2010 Census
+Pakistan,1975,19.6,25.299999,UN World Marriage Data 2019,Survey,1975 WFS,Survey,1975 WFS
+Pakistan,1990,21.4,26.5,UN World Marriage Data 2019,Survey,1990-1991 DHS,Survey,1990-1991 DHS
+Pakistan,2000,22.700001,27.1,UN World Marriage Data 2019,Survey,2000-2001 RHFPS,Survey,2000-2001 RHFPS
+Pakistan,2006,23.1,26.9,UN World Marriage Data 2019,Survey,2006-2007 DHS,Survey,2006-2007 DHS
+Pakistan,2012,23.1,,UN World Marriage Data 2019,Survey,2012-2013 DHS,N/A,N/A
+Pakistan,2017,23.200001,26.9,UN World Marriage Data 2019,Survey,2017 DHS,Survey,2017 DHS
+Palau,2015,28.5,29.1,UN World Marriage Data 2019,Census,2015 Census,Census,2015 Census
+Panama,1970,20.4,24.799999,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Panama,1980,21.4,25.200001,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+Panama,1990,21.9,25.4,UN World Marriage Data 2019,Census,1990 Census,Census,1990 Census
+Panama,2000,21.9,25.799999,UN World Marriage Data 2019,Census,2000 Census,Census,2000 Census
+Panama,2010,21.6,25.299999,UN World Marriage Data 2019,Census,2010 Census,Census,2010 Census
+Papua New Guinea,1971,19.4,24.1,UN World Marriage Data 2019,Census,1971 Census,Census,1971 Census
+Papua New Guinea,1980,20.6,24.9,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+Papua New Guinea,1990,20.9,24.700001,UN World Marriage Data 2019,Census,1990 Census,Census,1990 Census
+Papua New Guinea,2011,22.6,27.1,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Paraguay,1972,21.700001,26.5,UN World Marriage Data 2019,Census,1972 Census,Census,1972 Census
+Paraguay,1982,21.799999,26.299999,UN World Marriage Data 2019,Census,1982 Census,Census,1982 Census
+Paraguay,1992,21.5,25.799999,UN World Marriage Data 2019,Census,1992 Census,Census,1992 Census
+Paraguay,2002,22.700001,26.799999,UN World Marriage Data 2019,Census,2002 Census,Census,2002 Census
+Peru,1986,23.1,,UN World Marriage Data 2019,Survey,1986 DHS,N/A,N/A
+Peru,1991,23.9,,UN World Marriage Data 2019,Survey,1991-1992 DHS,N/A,N/A
+Peru,1996,23.1,26.5,UN World Marriage Data 2019,Survey,1996 DHS,Survey,1996 DHS
+Peru,2000,23.6,,UN World Marriage Data 2019,Survey,2000 DHS,N/A,N/A
+Peru,2003,24.4,28.200001,UN World Marriage Data 2019,Survey,2004-2006 DHS,Survey,2004-2006 DHS
+Peru,2007,24.1,28.200001,UN World Marriage Data 2019,Survey,2007-2008 DHS,Survey,2007-2008 DHS
+Peru,2009,23.200001,27.5,UN World Marriage Data 2019,Survey,2009 DHS,Survey,2009 DHS
+Peru,2010,23.1,27.799999,UN World Marriage Data 2019,Survey,2010 DHS,Survey,2010 DHS
+Peru,2011,23.6,28,UN World Marriage Data 2019,Survey,2011 DHS,Survey,2011 DHS
+Peru,2012,23.5,27.5,UN World Marriage Data 2019,Survey,2012 DHS,Survey,2012 DHS
+Peru,2013,23.4,,UN World Marriage Data 2019,Survey,2013 DHS,N/A,N/A
+Peru,2014,23.5,,UN World Marriage Data 2019,Survey,2014 DHS,N/A,N/A
+Peru,2015,22.9,,UN World Marriage Data 2019,Survey,2015 DHS,N/A,N/A
+Peru,2016,23.299999,,UN World Marriage Data 2019,Survey,2016 DHS,N/A,N/A
+Philippines,1970,,25.4,UN World Marriage Data 2019,N/A,N/A,Census,1970 Census
+Philippines,1975,,25.5,UN World Marriage Data 2019,N/A,N/A,Census,1975 Census
+Philippines,1978,24.5,,UN World Marriage Data 2019,Survey,1978 WFS,N/A,N/A
+Philippines,1980,,24.799999,UN World Marriage Data 2019,N/A,N/A,Census,1980 Census
+Philippines,1993,23.4,,UN World Marriage Data 2019,Survey,1993 DHS,N/A,N/A
+Philippines,1995,,26.6,UN World Marriage Data 2019,N/A,N/A,Census,1995 Census
+Philippines,1998,23.5,,UN World Marriage Data 2019,Survey,1998 DHS,N/A,N/A
+Philippines,1999,24.200001,,UN World Marriage Data 2019,Survey,1999 MICS,N/A,N/A
+Philippines,2003,23.200001,,UN World Marriage Data 2019,Survey,2003 DHS,N/A,N/A
+Philippines,2008,23.299999,,UN World Marriage Data 2019,Survey,2008 DHS,N/A,N/A
+Philippines,2010,,26.9,UN World Marriage Data 2019,N/A,N/A,Census,2010 Census
+Philippines,2013,23.4,,UN World Marriage Data 2019,Survey,2013 DHS,N/A,N/A
+Philippines,2015,,27.200001,UN World Marriage Data 2019,N/A,N/A,Census,2015 Census
+Philippines,2017,23.4,,UN World Marriage Data 2019,Survey,2017 DHS,N/A,N/A
+Poland,1993,23,25.299999,OECD,N/A,N/A,N/A,N/A
+Poland,1994,23.200001,25.5,OECD,N/A,N/A,N/A,N/A
+Poland,1995,23.299999,25.6,OECD,N/A,N/A,N/A,N/A
+Poland,1996,23.4,25.700001,OECD,N/A,N/A,N/A,N/A
+Poland,1997,23.6,26,OECD,N/A,N/A,N/A,N/A
+Poland,1998,23.799999,26.1,OECD,N/A,N/A,N/A,N/A
+Poland,1999,23.9,26.200001,OECD,N/A,N/A,N/A,N/A
+Poland,2000,24.1,26.5,OECD,N/A,N/A,N/A,N/A
+Poland,2001,24.4,26.700001,OECD,N/A,N/A,N/A,N/A
+Poland,2002,24.6,27,OECD,N/A,N/A,N/A,N/A
+Poland,2003,24.9,27.299999,OECD,N/A,N/A,N/A,N/A
+Poland,2004,25.1,27.5,OECD,N/A,N/A,N/A,N/A
+Poland,2005,25.299999,27.700001,OECD,N/A,N/A,N/A,N/A
+Poland,2006,25.5,27.9,OECD,N/A,N/A,N/A,N/A
+Poland,2007,25.6,28.1,OECD,N/A,N/A,N/A,N/A
+Poland,2008,25.700001,28.200001,OECD,N/A,N/A,N/A,N/A
+Poland,2009,25.9,28.299999,OECD,N/A,N/A,N/A,N/A
+Poland,2010,26.1,28.4,OECD,N/A,N/A,N/A,N/A
+Poland,2011,26.200001,28.6,OECD,N/A,N/A,N/A,N/A
+Poland,2012,26.299999,28.700001,OECD,N/A,N/A,N/A,N/A
+Poland,2013,26.6,29,OECD,N/A,N/A,N/A,N/A
+Poland,2014,26.700001,29.1,OECD,N/A,N/A,N/A,N/A
+Poland,2015,26.9,29.299999,OECD,N/A,N/A,N/A,N/A
+Poland,2016,27.1,29.5,OECD,N/A,N/A,N/A,N/A
+Poland,2017,27.299999,29.6,OECD,N/A,N/A,N/A,N/A
+Portugal,1991,24,26.4,OECD,N/A,N/A,N/A,N/A
+Portugal,1992,24.1,26.6,OECD,N/A,N/A,N/A,N/A
+Portugal,1993,24.299999,26.700001,OECD,N/A,N/A,N/A,N/A
+Portugal,1994,24.4,26.799999,OECD,N/A,N/A,N/A,N/A
+Portugal,1995,24.5,26.9,OECD,N/A,N/A,N/A,N/A
+Portugal,1996,24.700001,27,OECD,N/A,N/A,N/A,N/A
+Portugal,1997,24.799999,27.1,OECD,N/A,N/A,N/A,N/A
+Portugal,1998,24.9,27.200001,OECD,N/A,N/A,N/A,N/A
+Portugal,1999,25,27.299999,OECD,N/A,N/A,N/A,N/A
+Portugal,2000,25.200001,27.4,OECD,N/A,N/A,N/A,N/A
+Portugal,2001,25.5,27.700001,OECD,N/A,N/A,N/A,N/A
+Portugal,2002,25.700001,27.9,OECD,N/A,N/A,N/A,N/A
+Portugal,2003,25.9,28.1,OECD,N/A,N/A,N/A,N/A
+Portugal,2004,26,28.200001,OECD,N/A,N/A,N/A,N/A
+Portugal,2005,26.299999,28.5,OECD,N/A,N/A,N/A,N/A
+Portugal,2006,26.4,28.5,OECD,N/A,N/A,N/A,N/A
+Portugal,2007,26.6,28.700001,OECD,N/A,N/A,N/A,N/A
+Portugal,2008,26.799999,29,OECD,N/A,N/A,N/A,N/A
+Portugal,2009,27.200001,29.299999,OECD,N/A,N/A,N/A,N/A
+Portugal,2010,27.700001,29.9,OECD,N/A,N/A,N/A,N/A
+Portugal,2011,28,30.1,OECD,N/A,N/A,N/A,N/A
+Portugal,2012,28.4,30.4,OECD,N/A,N/A,N/A,N/A
+Portugal,2014,29.799999,31.5,OECD,N/A,N/A,N/A,N/A
+Portugal,2015,30.200001,31.9,OECD,N/A,N/A,N/A,N/A
+Portugal,2016,30.4,32.200001,OECD,N/A,N/A,N/A,N/A
+Portugal,2017,30.700001,32.5,OECD,N/A,N/A,N/A,N/A
+Puerto Rico,1970,22.1,24,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Puerto Rico,1980,22.5,24.299999,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+Puerto Rico,1990,23.799999,25.799999,UN World Marriage Data 2019,Census,1990 Census,Census,1990 Census
+Puerto Rico,2010,29.200001,30.799999,UN World Marriage Data 2019,Census,2010 Census,Census,2010 Census
+Qatar,1986,22.700001,26.6,UN World Marriage Data 2019,Census,1986 Census,Census,1986 Census
+Qatar,1997,25.299999,27.700001,UN World Marriage Data 2019,Census,1997 Census,Census,1997 Census
+Qatar,2004,25.799999,27.6,UN World Marriage Data 2019,Census,2004 Census,Census,2004 Census
+Moldova,1989,,23.799999,UN World Marriage Data 2019,N/A,N/A,Census,1989 Census
+Moldova,1997,20.799999,,UN World Marriage Data 2019,Survey,1997 RHS,N/A,N/A
+Moldova,2000,21.9,,UN World Marriage Data 2019,Survey,2000 MICS,N/A,N/A
+Moldova,2004,,27.1,UN World Marriage Data 2019,N/A,N/A,Census,2004 Census
+Moldova,2005,21.9,,UN World Marriage Data 2019,Survey,2005 DHS,N/A,N/A
+Moldova,2012,21.9,,UN World Marriage Data 2019,Survey,2012 MICS,N/A,N/A
+Moldova,2014,,28.700001,UN World Marriage Data 2019,N/A,N/A,Census,2014 Census
+Romania,1990,22.4,25.6,OECD,N/A,N/A,N/A,N/A
+Romania,1991,22.299999,25.6,OECD,N/A,N/A,N/A,N/A
+Romania,1992,22.4,25.700001,OECD,N/A,N/A,N/A,N/A
+Romania,1993,22.5,25.799999,OECD,N/A,N/A,N/A,N/A
+Romania,1994,22.700001,26,OECD,N/A,N/A,N/A,N/A
+Romania,1995,23.1,26.5,OECD,N/A,N/A,N/A,N/A
+Romania,1996,23.1,26.5,OECD,N/A,N/A,N/A,N/A
+Romania,1997,23.200001,26.6,OECD,N/A,N/A,N/A,N/A
+Romania,1998,23.4,26.9,OECD,N/A,N/A,N/A,N/A
+Romania,1999,23.4,27,OECD,N/A,N/A,N/A,N/A
+Romania,2000,23.700001,27.299999,OECD,N/A,N/A,N/A,N/A
+Romania,2001,23.9,27.6,OECD,N/A,N/A,N/A,N/A
+Romania,2002,24.1,27.700001,OECD,N/A,N/A,N/A,N/A
+Romania,2003,24.4,28,OECD,N/A,N/A,N/A,N/A
+Romania,2004,25,28.700001,OECD,N/A,N/A,N/A,N/A
+Romania,2005,25.1,28.799999,OECD,N/A,N/A,N/A,N/A
+Romania,2006,25.200001,28.799999,OECD,N/A,N/A,N/A,N/A
+Romania,2007,26.200001,30,OECD,N/A,N/A,N/A,N/A
+Romania,2008,25.6,29.1,OECD,N/A,N/A,N/A,N/A
+Romania,2009,25.5,28.9,OECD,N/A,N/A,N/A,N/A
+Romania,2010,25.6,29,OECD,N/A,N/A,N/A,N/A
+Romania,2011,25.799999,29.200001,OECD,N/A,N/A,N/A,N/A
+Romania,2013,26.299999,29.700001,OECD,N/A,N/A,N/A,N/A
+Romania,2014,26.700001,30.200001,OECD,N/A,N/A,N/A,N/A
+Romania,2015,26.799999,30.299999,OECD,N/A,N/A,N/A,N/A
+Romania,2016,27,30.4,OECD,N/A,N/A,N/A,N/A
+Romania,2017,27.5,31,OECD,N/A,N/A,N/A,N/A
+Russia,1989,21.799999,24.4,UN World Marriage Data 2019,Census,1989 Census,Census,1989 Census
+Russia,2010,24.4,27,UN World Marriage Data 2019,Census,2010 Census,Census,2010 Census
+Rwanda,1970,20.1,,UN World Marriage Data 2019,Survey,1970 ED,N/A,N/A
+Rwanda,1981,21.5,25,UN World Marriage Data 2019,Survey,1981 ED,Survey,1981 ED
+Rwanda,1983,21.1,,UN World Marriage Data 2019,Survey,1983 WFS,N/A,N/A
+Rwanda,1992,22.700001,,UN World Marriage Data 2019,Survey,1992 DHS,N/A,N/A
+Rwanda,1996,23.299999,24.799999,UN World Marriage Data 2019,Survey,1996 SDS,Survey,1996 SDS
+Rwanda,2000,22.6,25.5,UN World Marriage Data 2019,Survey,2000 DHS,Survey,2000 MICS_HH
+Rwanda,2005,23.700001,26.5,UN World Marriage Data 2019,Survey,2005 DHS,Survey,2005 DHS
+Rwanda,2007,23.4,26.5,UN World Marriage Data 2019,Survey,2007-2008 DHS Interim,Survey,2007-2008 DHS Interim
+Rwanda,2011,24.4,26.6,UN World Marriage Data 2019,Survey,2010 DHS,Survey,2010 DHS
+Rwanda,2014,24.299999,27,UN World Marriage Data 2019,Survey,2014-2015 DHS,Survey,2014-2015 DHS
+Reunion,1974,22.5,25.200001,UN World Marriage Data 2019,Census,1974 Census,Census,1974 Census
+Reunion,1982,25.799999,28.1,UN World Marriage Data 2019,Census,1982 Census,Census,1982 Census
+Reunion,1999,30.5,32.799999,UN World Marriage Data 2019,Census,1999 Census,Census,1999 Census
+Reunion,2004,31,33.200001,UN World Marriage Data 2019,Census,2006 Annual Census Survey,Census,2006 Annual Census Survey
+Saint Kitts and Nevis,1970,28.9,33,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Saint Kitts and Nevis,1980,31.299999,32.099998,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+Saint Lucia,1970,28.700001,32,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Saint Lucia,1980,31.4,34.099998,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+Saint Lucia,1991,33.700001,35.099998,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Saint Pierre and Miquelon,1974,21.799999,25.6,UN World Marriage Data 2019,Census,1974 Census,Census,1974 Census
+Saint Pierre and Miquelon,1982,23.9,26.4,UN World Marriage Data 2019,Census,1982 Census,Census,1982 Census
+Saint Pierre and Miquelon,1990,27.4,,UN World Marriage Data 2019,Census,1990 Census,N/A,N/A
+Saint Pierre and Miquelon,1999,31.1,34.900002,UN World Marriage Data 2019,Census,1999 Census,Census,1999 Census
+Saint Vincent and the Grenadines,1970,28.4,32.799999,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Saint Vincent and the Grenadines,1980,28.200001,32.200001,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+Saint Vincent and the Grenadines,1991,30.9,34.5,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Saint Vincent and the Grenadines,2001,21.200001,27.799999,UN World Marriage Data 2019,Census,2001 Census,Census,2001 Census
+Saint Vincent and the Grenadines,2012,21.200001,27.799999,UN World Marriage Data 2019,Census,2012 Census,Census,2012 Census
+Samoa,1971,22,26.299999,UN World Marriage Data 2019,Census,1971 Census,Census,1971 Census
+Samoa,1976,22.1,26.299999,UN World Marriage Data 2019,Census,1976 Census,Census,1976 Census
+Samoa,1981,23.200001,27.299999,UN World Marriage Data 2019,Census,1981 Census,Census,1981 Census
+Samoa,1986,24.799999,28,UN World Marriage Data 2019,Census,1986 Census,Census,1986 Census
+Samoa,1991,24.299999,28.299999,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Samoa,2001,24.299999,28.6,UN World Marriage Data 2019,Census,2001 Census,Census,2001 Census
+Samoa,2006,24.299999,29,UN World Marriage Data 2019,Census,2006 Census,Census,2006 Census
+Samoa,2011,23.5,27.9,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Samoa,2016,23.799999,27.299999,UN World Marriage Data 2019,Census,2016 Census,Census,2016 Census
+San Marino,1970,20.6,26.1,UN World Marriage Data 2019,UNSD Estimate,1970 Estimate,UNSD Estimate,1970 Estimate
+San Marino,1971,20.700001,26.200001,UN World Marriage Data 2019,UNSD Estimate,1971 Estimate,UNSD Estimate,1971 Estimate
+San Marino,1972,21.1,26.299999,UN World Marriage Data 2019,UNSD Estimate,1972 Estimate,UNSD Estimate,1972 Estimate
+San Marino,1973,21.200001,26.4,UN World Marriage Data 2019,UNSD Estimate,1973 Estimate,UNSD Estimate,1973 Estimate
+San Marino,1974,21.299999,26.299999,UN World Marriage Data 2019,UNSD Estimate,1974 Estimate,UNSD Estimate,1974 Estimate
+San Marino,1975,21.4,26.4,UN World Marriage Data 2019,UNSD Estimate,1975 Estimate,UNSD Estimate,1975 Estimate
+San Marino,1976,21.700001,26.4,UN World Marriage Data 2019,UNSD Estimate,1976 Estimate,UNSD Estimate,1976 Estimate
+San Marino,1977,21.799999,26.5,UN World Marriage Data 2019,UNSD Estimate,1977 Estimate,UNSD Estimate,1977 Estimate
+San Marino,1978,22,26.6,UN World Marriage Data 2019,UNSD Estimate,1978 Estimate,UNSD Estimate,1978 Estimate
+San Marino,1979,22.4,26.700001,UN World Marriage Data 2019,UNSD Estimate,1979 Estimate,UNSD Estimate,1979 Estimate
+San Marino,1980,22.799999,27,UN World Marriage Data 2019,UNSD Estimate,1980 Estimate,UNSD Estimate,1980 Estimate
+San Marino,1981,23.200001,27.200001,UN World Marriage Data 2019,UNSD Estimate,1981 Estimate,UNSD Estimate,1981 Estimate
+San Marino,1982,23.6,27.200001,UN World Marriage Data 2019,UNSD Estimate,1982 Estimate,UNSD Estimate,1982 Estimate
+San Marino,1983,23.9,27.200001,UN World Marriage Data 2019,UNSD Estimate,1983 Estimate,UNSD Estimate,1983 Estimate
+San Marino,1984,24.1,27.299999,UN World Marriage Data 2019,UNSD Estimate,1984 Estimate,UNSD Estimate,1984 Estimate
+San Marino,1985,24.1,27.700001,UN World Marriage Data 2019,UNSD Estimate,1985 Estimate,UNSD Estimate,1985 Estimate
+San Marino,1986,24.299999,28,UN World Marriage Data 2019,UNSD Estimate,1986 Estimate,UNSD Estimate,1986 Estimate
+San Marino,1987,24.6,28.1,UN World Marriage Data 2019,UNSD Estimate,1987 Estimate,UNSD Estimate,1987 Estimate
+San Marino,1988,24.9,27.9,UN World Marriage Data 2019,UNSD Estimate,1988 Estimate,UNSD Estimate,1988 Estimate
+San Marino,1989,25.1,28.1,UN World Marriage Data 2019,UNSD Estimate,1989 Estimate,UNSD Estimate,1989 Estimate
+San Marino,1991,25.700001,28.700001,UN World Marriage Data 2019,UNSD Estimate,1991 Estimate,UNSD Estimate,1991 Estimate
+San Marino,1992,26,28.799999,UN World Marriage Data 2019,UNSD Estimate,1992 Estimate,UNSD Estimate,1992 Estimate
+San Marino,1993,26.4,28.9,UN World Marriage Data 2019,UNSD Estimate,1993 Estimate,UNSD Estimate,1993 Estimate
+San Marino,1994,26.6,29.299999,UN World Marriage Data 2019,UNSD Estimate,1994 Estimate,UNSD Estimate,1994 Estimate
+San Marino,1995,26.799999,29.5,UN World Marriage Data 2019,UNSD Estimate,1995 Estimate,UNSD Estimate,1995 Estimate
+San Marino,1997,27,29.799999,UN World Marriage Data 2019,UNSD Estimate,1997 Estimate,UNSD Estimate,1997 Estimate
+San Marino,2003,28.5,30.9,UN World Marriage Data 2019,UNSD Estimate,2003 Estimate,UNSD Estimate,2003 Estimate
+San Marino,2005,28.799999,,UN World Marriage Data 2019,UNSD Estimate,2005 Estimate,N/A,N/A
+San Marino,2013,30.700001,33.200001,UN World Marriage Data 2019,UNSD Estimate,2013 Estimate,UNSD Estimate,2013 Estimate
+San Marino,2014,30.700001,33.5,UN World Marriage Data 2019,UNSD Estimate,2014 Estimate,UNSD Estimate,2014 Estimate
+San Marino,2017,31.200001,34,UN World Marriage Data 2019,UNSD Estimate,2017 Estimate,UNSD Estimate,2017 Estimate
+San Marino,2018,31.299999,34,UN World Marriage Data 2019,UNSD Estimate,2018 Estimate,UNSD Estimate,2018 Estimate
+Sao Tome and Principe,2000,19.299999,22.9,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Sao Tome and Principe,2008,20.4,25,UN World Marriage Data 2019,Survey,2008-2009 DHS,Survey,2008-2009 DHS
+Sao Tome and Principe,2014,21,,UN World Marriage Data 2019,Survey,2014 MICS,N/A,N/A
+Saudi Arabia,1987,21.700001,25.6,UN World Marriage Data 2019,Survey,1987 CHS,Survey,1987 CHS
+Saudi Arabia,1996,24,27.700001,UN World Marriage Data 2019,Survey,1996 FHS,Survey,1996 FHS
+Saudi Arabia,2007,24.9,28,UN World Marriage Data 2019,Survey,2007 DS,Survey,2007 DS
+Saudi Arabia,2016,27.1,30.5,UN World Marriage Data 2019,Survey,2016 DS,Survey,2016 DS
+Saudi Arabia,2017,26.6,30,UN World Marriage Data 2019,Survey,2017 DS,Survey,2017 DS
+Senegal,1960,17.4,28,UN World Marriage Data 2019,Survey,1960-1961 ED,Survey,1960-1961 ED
+Senegal,1970,18.6,28.700001,UN World Marriage Data 2019,Survey,1970-1971 ED,Survey,1970-1971 ED
+Senegal,1978,17.9,,UN World Marriage Data 2019,Survey,1978 WFS,N/A,N/A
+Senegal,1986,19.5,,UN World Marriage Data 2019,Survey,1986 DHS,N/A,N/A
+Senegal,1992,20.9,,UN World Marriage Data 2019,Survey,1992-1993 DHS,N/A,N/A
+Senegal,1997,21.5,,UN World Marriage Data 2019,Survey,1997 DHS,N/A,N/A
+Senegal,1999,21.6,,UN World Marriage Data 2019,Survey,1999 DHS,N/A,N/A
+Senegal,2000,21.5,29.700001,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Senegal,2005,21.200001,27.799999,UN World Marriage Data 2019,Survey,2005 DHS,Survey,2005 DHS
+Senegal,2010,21.6,30,UN World Marriage Data 2019,Survey,2010-2011 DHS-MICS,Survey,2010-2011 DHS-MICS
+Senegal,2012,21.799999,29.9,UN World Marriage Data 2019,Survey,2012-2013 DHS,Survey,2012-2014 DHS
+Senegal,2014,22,30.299999,UN World Marriage Data 2019,Survey,2014 DHS,Survey,2014 DHS
+Senegal,2015,22,29.799999,UN World Marriage Data 2019,Survey,2015 DHS,Survey,2015 DHS
+Senegal,2016,21.799999,30.5,UN World Marriage Data 2019,Survey,2016 DHS,Survey,2016 DHS
+Senegal,2017,22.200001,30.6,UN World Marriage Data 2019,Survey,2017 DHS,Survey,2017 DHS
+Serbia,2002,,29.799999,UN World Marriage Data 2019,N/A,N/A,Census,2002 Census
+Serbia,2005,25.1,,UN World Marriage Data 2019,Survey,2005-2006 MICS,N/A,N/A
+Serbia,2010,26,,UN World Marriage Data 2019,Survey,2010 MICS,N/A,N/A
+Serbia,2011,,30.4,UN World Marriage Data 2019,N/A,N/A,Census,2011 Census
+Serbia,2014,26.6,,UN World Marriage Data 2019,Survey,2014 MICS,N/A,N/A
+Seychelles,1971,25.6,29.1,UN World Marriage Data 2019,Census,1971 Census,Census,1971 Census
+Seychelles,1981,22.799999,26.4,UN World Marriage Data 2019,Census,1981-1982 Census Update,Census,1981-1982 Census Update
+Seychelles,1987,23.799999,26.4,UN World Marriage Data 2019,Census,1987 Census,Census,1987 Census
+Seychelles,1994,24.799999,26.9,UN World Marriage Data 2019,Census,1994 Census,Census,1994 Census
+Seychelles,2002,25.200001,27.299999,UN World Marriage Data 2019,Census,2002 Census,Census,2002 Census
+Sierra Leone,1992,19.799999,27.700001,UN World Marriage Data 2019,Survey,1992 DSMS,Survey,1992 DSMS
+Sierra Leone,2000,18.6,26.6,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Sierra Leone,2005,19.5,,UN World Marriage Data 2019,Survey,2005 MICS,N/A,N/A
+Sierra Leone,2008,20.5,26.200001,UN World Marriage Data 2019,Survey,2008 DHS,Survey,2008 DHS
+Sierra Leone,2010,21,,UN World Marriage Data 2019,Survey,2010 MICS,N/A,N/A
+Sierra Leone,2013,21.799999,26.799999,UN World Marriage Data 2019,Survey,2013 DHS,Survey,2013 DHS
+Sierra Leone,2017,23.1,27.9,UN World Marriage Data 2019,Survey,2017 MICS,Survey,2017 MICS
+Singapore,1970,24.200001,27.799999,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Singapore,1980,26.200001,28.4,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+Singapore,1990,27,29.9,UN World Marriage Data 2019,Census,1990 Census,Census,1990 Census
+Singapore,2000,26.5,30,UN World Marriage Data 2019,Census,2000 Census,Census,2000 Census
+Singapore,2010,27.9,30.4,UN World Marriage Data 2019,Census,2010 Census,Census,2010 Census
+Sint Maarten (Dutch part),2011,28,32.299999,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Slovakia,1999,23.299999,25.9,OECD,N/A,N/A,N/A,N/A
+Slovakia,2000,24.1,26.9,OECD,N/A,N/A,N/A,N/A
+Slovakia,2001,24.299999,27.1,OECD,N/A,N/A,N/A,N/A
+Slovakia,2002,24.700001,27.6,OECD,N/A,N/A,N/A,N/A
+Slovakia,2003,25.1,27.9,OECD,N/A,N/A,N/A,N/A
+Slovakia,2004,25.4,28.299999,OECD,N/A,N/A,N/A,N/A
+Slovakia,2006,26.299999,29.200001,OECD,N/A,N/A,N/A,N/A
+Slovakia,2007,26.5,29.299999,OECD,N/A,N/A,N/A,N/A
+Slovakia,2008,26.700001,29.5,OECD,N/A,N/A,N/A,N/A
+Slovakia,2009,26.9,29.700001,OECD,N/A,N/A,N/A,N/A
+Slovakia,2010,27.200001,30,OECD,N/A,N/A,N/A,N/A
+Slovakia,2012,27.6,30.1,OECD,N/A,N/A,N/A,N/A
+Slovakia,2013,27.799999,30.6,OECD,N/A,N/A,N/A,N/A
+Slovakia,2014,28.1,30.799999,OECD,N/A,N/A,N/A,N/A
+Slovakia,2015,28.200001,31.1,OECD,N/A,N/A,N/A,N/A
+Slovakia,2016,28.299999,31.1,OECD,N/A,N/A,N/A,N/A
+Slovakia,2017,28.6,31.200001,OECD,N/A,N/A,N/A,N/A
+Slovenia,1990,23.9,26.9,OECD,N/A,N/A,N/A,N/A
+Slovenia,1991,24.1,26.9,OECD,N/A,N/A,N/A,N/A
+Slovenia,1992,24.4,27.4,OECD,N/A,N/A,N/A,N/A
+Slovenia,1993,24.799999,27.799999,OECD,N/A,N/A,N/A,N/A
+Slovenia,1994,25.1,28,OECD,N/A,N/A,N/A,N/A
+Slovenia,1995,25.299999,28.1,OECD,N/A,N/A,N/A,N/A
+Slovenia,1996,25.6,28.4,OECD,N/A,N/A,N/A,N/A
+Slovenia,1997,25.9,28.799999,OECD,N/A,N/A,N/A,N/A
+Slovenia,1998,26.200001,29.200001,OECD,N/A,N/A,N/A,N/A
+Slovenia,1999,26.5,29.6,OECD,N/A,N/A,N/A,N/A
+Slovenia,2000,27,29.9,OECD,N/A,N/A,N/A,N/A
+Slovenia,2001,27.299999,30.299999,OECD,N/A,N/A,N/A,N/A
+Slovenia,2002,27.700001,30.700001,OECD,N/A,N/A,N/A,N/A
+Slovenia,2003,27.799999,30.700001,OECD,N/A,N/A,N/A,N/A
+Slovenia,2004,28.1,30.9,OECD,N/A,N/A,N/A,N/A
+Slovenia,2005,28.700001,31.5,OECD,N/A,N/A,N/A,N/A
+Slovenia,2006,28.4,31.1,OECD,N/A,N/A,N/A,N/A
+Slovenia,2007,28.6,31.200001,OECD,N/A,N/A,N/A,N/A
+Slovenia,2008,28.6,31.299999,OECD,N/A,N/A,N/A,N/A
+Slovenia,2009,28.5,31.200001,OECD,N/A,N/A,N/A,N/A
+Slovenia,2010,29,31.700001,OECD,N/A,N/A,N/A,N/A
+Slovenia,2011,29.4,32,OECD,N/A,N/A,N/A,N/A
+Slovenia,2012,29.4,32.099998,OECD,N/A,N/A,N/A,N/A
+Slovenia,2013,29.6,32.299999,OECD,N/A,N/A,N/A,N/A
+Slovenia,2014,29.700001,32.200001,OECD,N/A,N/A,N/A,N/A
+Slovenia,2015,30,32.299999,OECD,N/A,N/A,N/A,N/A
+Slovenia,2016,30.299999,32.599998,OECD,N/A,N/A,N/A,N/A
+Slovenia,2017,30.4,32.900002,OECD,N/A,N/A,N/A,N/A
+Solomon Islands,1970,22.299999,27.4,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Solomon Islands,1976,21.1,25.5,UN World Marriage Data 2019,Census,1976 Census,Census,1976 Census
+Solomon Islands,1986,21.200001,25,UN World Marriage Data 2019,Census,1986 Census,Census,1986 Census
+Solomon Islands,1999,22.6,26.1,UN World Marriage Data 2019,Census,1999 Census,Census,1999 Census
+Solomon Islands,2009,23.299999,27.1,UN World Marriage Data 2019,Census,2009 Census,Census,2009 Census
+Somalia,1980,20.1,26.4,UN World Marriage Data 2019,Survey,1980-1981 NSP,Survey,1980-1981 NSP
+Somalia,1982,20.6,26.5,UN World Marriage Data 2019,Survey,1982 LFS,Survey,1982 LFS
+Somalia,2006,20.4,,UN World Marriage Data 2019,Survey,2006 MICS,N/A,N/A
+South Africa,1980,25.700001,27.799999,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+South Africa,1985,26.1,27.9,UN World Marriage Data 2019,Census,1985 Census,Census,1985 Census
+South Africa,1991,26.799999,28.9,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+South Africa,1996,27.9,30.299999,UN World Marriage Data 2019,Census,1996 Census,Census,1996 Census
+South Africa,2011,28,31.200001,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+South Sudan,1973,18.700001,25.799999,UN World Marriage Data 2019,Census,1973 Census,Census,1973 Census
+South Sudan,1983,20.700001,27.200001,UN World Marriage Data 2019,Census,1983 Census,Census,1983 Census
+South Sudan,1993,20.5,28.200001,UN World Marriage Data 2019,Census,1993 Census,Census,1993 Census
+South Sudan,2008,20.700001,27.1,UN World Marriage Data 2019,Census,2008 Census,Census,2008 Census
+Spain,1990,25.6,27.799999,OECD,N/A,N/A,N/A,N/A
+Spain,1991,25.9,28.1,OECD,N/A,N/A,N/A,N/A
+Spain,1992,26.200001,28.4,OECD,N/A,N/A,N/A,N/A
+Spain,1993,26.6,28.700001,OECD,N/A,N/A,N/A,N/A
+Spain,1994,26.9,28.9,OECD,N/A,N/A,N/A,N/A
+Spain,1995,27.1,29.200001,OECD,N/A,N/A,N/A,N/A
+Spain,1996,27.4,29.5,OECD,N/A,N/A,N/A,N/A
+Spain,1997,27.6,29.700001,OECD,N/A,N/A,N/A,N/A
+Spain,1998,27.799999,29.799999,OECD,N/A,N/A,N/A,N/A
+Spain,1999,28,30,OECD,N/A,N/A,N/A,N/A
+Spain,2000,28.1,30.200001,OECD,N/A,N/A,N/A,N/A
+Spain,2002,28.6,30.700001,OECD,N/A,N/A,N/A,N/A
+Spain,2003,28.9,30.9,OECD,N/A,N/A,N/A,N/A
+Spain,2004,29.200001,31.299999,OECD,N/A,N/A,N/A,N/A
+Spain,2005,29.4,31.6,OECD,N/A,N/A,N/A,N/A
+Spain,2006,29.6,31.799999,OECD,N/A,N/A,N/A,N/A
+Spain,2007,29.799999,32,OECD,N/A,N/A,N/A,N/A
+Spain,2008,30.1,32.299999,OECD,N/A,N/A,N/A,N/A
+Spain,2009,30.5,32.700001,OECD,N/A,N/A,N/A,N/A
+Spain,2010,30.9,33.099998,OECD,N/A,N/A,N/A,N/A
+Spain,2011,31.299999,33.400002,OECD,N/A,N/A,N/A,N/A
+Spain,2012,31.6,33.700001,OECD,N/A,N/A,N/A,N/A
+Spain,2013,32.200001,34.400002,OECD,N/A,N/A,N/A,N/A
+Spain,2014,32.299999,34.5,OECD,N/A,N/A,N/A,N/A
+Spain,2015,32.700001,34.900002,OECD,N/A,N/A,N/A,N/A
+Spain,2016,33,35.099998,OECD,N/A,N/A,N/A,N/A
+Spain,2017,33.200001,35.400002,OECD,N/A,N/A,N/A,N/A
+Sri Lanka,1971,23.5,28.1,UN World Marriage Data 2019,Census,1971 Census,Census,1971 Census
+Sri Lanka,1981,24.4,27.9,UN World Marriage Data 2019,Census,1981 Census,Census,1981 Census
+Sri Lanka,2001,23.799999,27.6,UN World Marriage Data 2019,Census,2001 Census,Census,2001 Census
+Sri Lanka,2012,23.4,27.200001,UN World Marriage Data 2019,Census,2012 Census,Census,2012 Census
+Palestine,1967,,25.200001,UN World Marriage Data 2019,N/A,N/A,Census,1967 Census
+Palestine,1996,21.6,,UN World Marriage Data 2019,Survey,1996 HS,N/A,N/A
+Palestine,1997,,24.9,UN World Marriage Data 2019,N/A,N/A,Census,1997 Census
+Palestine,2000,21.700001,,UN World Marriage Data 2019,Survey,2000 HS,N/A,N/A
+Palestine,2004,22.4,,UN World Marriage Data 2019,Survey,2004 DHS,N/A,N/A
+Palestine,2006,22.9,,UN World Marriage Data 2019,Survey,2006 FHS-MICS,N/A,N/A
+Palestine,2007,,26.6,UN World Marriage Data 2019,N/A,N/A,Census,2007 Census
+Palestine,2010,23.200001,,UN World Marriage Data 2019,Survey,2010 MICS_HH,N/A,N/A
+Palestine,2014,22.5,,UN World Marriage Data 2019,Survey,2014 MICS,N/A,N/A
+Palestine,2017,,26.5,UN World Marriage Data 2019,N/A,N/A,Census,2017 Census
+Sudan,1978,21.4,27.9,UN World Marriage Data 2019,Survey,1978-1979 WFS,Survey,1978-1979 WFS
+Sudan,1989,24.1,,UN World Marriage Data 2019,Survey,1989-1990 DHS,N/A,N/A
+Sudan,2000,15,29.700001,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Sudan,2010,22,28.9,UN World Marriage Data 2019,Survey,2010 MICS,Survey,2010 MICS_HH
+Sudan,2014,21.9,,UN World Marriage Data 2019,Survey,2014 MICS,N/A,N/A
+Suriname,1999,20.799999,,UN World Marriage Data 2019,Survey,2000 MICS,N/A,N/A
+Suriname,2004,,31.799999,UN World Marriage Data 2019,N/A,N/A,Census,2004 Census
+Suriname,2006,22.700001,,UN World Marriage Data 2019,Survey,2006 MICS,N/A,N/A
+Suriname,2010,22.799999,,UN World Marriage Data 2019,Survey,2010 MICS,N/A,N/A
+Suriname,2012,,32.799999,UN World Marriage Data 2019,N/A,N/A,Census,2012 Census
+Sweden,1990,27.700001,30.299999,OECD,N/A,N/A,N/A,N/A
+Sweden,1991,27.9,30.6,OECD,N/A,N/A,N/A,N/A
+Sweden,1992,28.200001,30.9,OECD,N/A,N/A,N/A,N/A
+Sweden,1993,28.299999,31.1,OECD,N/A,N/A,N/A,N/A
+Sweden,1994,28.700001,31.299999,OECD,N/A,N/A,N/A,N/A
+Sweden,1996,29.200001,31.799999,OECD,N/A,N/A,N/A,N/A
+Sweden,1997,29.5,32.200001,OECD,N/A,N/A,N/A,N/A
+Sweden,1998,29.700001,32.400002,OECD,N/A,N/A,N/A,N/A
+Sweden,1999,30.200001,32.900002,OECD,N/A,N/A,N/A,N/A
+Sweden,2000,30.4,33,OECD,N/A,N/A,N/A,N/A
+Sweden,2001,30.299999,33,OECD,N/A,N/A,N/A,N/A
+Sweden,2002,30.6,33.299999,OECD,N/A,N/A,N/A,N/A
+Sweden,2003,31,33.799999,OECD,N/A,N/A,N/A,N/A
+Sweden,2004,31.299999,34.099998,OECD,N/A,N/A,N/A,N/A
+Sweden,2005,31.700001,34.599998,OECD,N/A,N/A,N/A,N/A
+Sweden,2006,31.5,34.400002,OECD,N/A,N/A,N/A,N/A
+Sweden,2008,32.299999,35.200001,OECD,N/A,N/A,N/A,N/A
+Sweden,2009,32.299999,35.200001,OECD,N/A,N/A,N/A,N/A
+Sweden,2010,32.700001,35.599998,OECD,N/A,N/A,N/A,N/A
+Sweden,2011,33,35.5,OECD,N/A,N/A,N/A,N/A
+Sweden,2012,33.299999,35.900002,OECD,N/A,N/A,N/A,N/A
+Sweden,2013,33,35.700001,OECD,N/A,N/A,N/A,N/A
+Sweden,2014,33.299999,35.799999,OECD,N/A,N/A,N/A,N/A
+Sweden,2015,33.599998,36.200001,OECD,N/A,N/A,N/A,N/A
+Sweden,2016,33.799999,36.5,OECD,N/A,N/A,N/A,N/A
+Sweden,2017,33.799999,36.599998,OECD,N/A,N/A,N/A,N/A
+Switzerland,1990,27,29.4,OECD,N/A,N/A,N/A,N/A
+Switzerland,1991,27.1,29.5,OECD,N/A,N/A,N/A,N/A
+Switzerland,1992,27.1,29.5,OECD,N/A,N/A,N/A,N/A
+Switzerland,1993,27.200001,29.9,OECD,N/A,N/A,N/A,N/A
+Switzerland,1994,27.4,29.9,OECD,N/A,N/A,N/A,N/A
+Switzerland,1995,27.5,30.1,OECD,N/A,N/A,N/A,N/A
+Switzerland,1997,27.799999,,OECD,N/A,N/A,N/A,N/A
+Switzerland,1998,27.9,30.4,OECD,N/A,N/A,N/A,N/A
+Switzerland,1999,28,,OECD,N/A,N/A,N/A,N/A
+Switzerland,2000,28.200001,30.799999,OECD,N/A,N/A,N/A,N/A
+Switzerland,2001,28.4,31.1,OECD,N/A,N/A,N/A,N/A
+Switzerland,2003,28.700001,31.200001,OECD,N/A,N/A,N/A,N/A
+Switzerland,2004,29,31.4,OECD,N/A,N/A,N/A,N/A
+Switzerland,2005,29.1,31.5,OECD,N/A,N/A,N/A,N/A
+Switzerland,2006,29.1,31.6,OECD,N/A,N/A,N/A,N/A
+Switzerland,2007,29.299999,31.700001,OECD,N/A,N/A,N/A,N/A
+Switzerland,2008,29.6,32.099998,OECD,N/A,N/A,N/A,N/A
+Switzerland,2009,29.6,32.099998,OECD,N/A,N/A,N/A,N/A
+Switzerland,2010,29.799999,32.200001,OECD,N/A,N/A,N/A,N/A
+Switzerland,2011,29.9,32.400002,OECD,N/A,N/A,N/A,N/A
+Switzerland,2012,29.9,32.400002,OECD,N/A,N/A,N/A,N/A
+Switzerland,2013,30.1,32.5,OECD,N/A,N/A,N/A,N/A
+Switzerland,2014,30.1,32.5,OECD,N/A,N/A,N/A,N/A
+Switzerland,2015,30.200001,32.599998,OECD,N/A,N/A,N/A,N/A
+Switzerland,2016,30.4,32.700001,OECD,N/A,N/A,N/A,N/A
+Switzerland,2017,30.4,32.799999,OECD,N/A,N/A,N/A,N/A
+Syria,1978,22.200001,30.799999,UN World Marriage Data 2019,Survey,1978 WFS,Survey,1978 WFS
+Syria,2001,25.4,29.299999,UN World Marriage Data 2019,Survey,2001 FHS,Survey,2001 FHS
+Syria,2006,25.4,,UN World Marriage Data 2019,Survey,2006 MICS,N/A,N/A
+Macedonia,2011,25.5,,UN World Marriage Data 2019,Survey,2011 MICS,N/A,N/A
+Tajikistan,1989,,23.200001,UN World Marriage Data 2019,N/A,N/A,Census,1989 Census
+Tajikistan,2000,21.4,24.1,UN World Marriage Data 2019,Survey,2000 MICS,Census,2000 Census
+Tajikistan,2005,22.9,,UN World Marriage Data 2019,Survey,2005 MICS,N/A,N/A
+Tajikistan,2010,,24.700001,UN World Marriage Data 2019,N/A,N/A,Census,2010 Census
+Tajikistan,2012,21.9,,UN World Marriage Data 2019,Survey,2012 DHS,N/A,N/A
+Tajikistan,2017,20.700001,,UN World Marriage Data 2019,Survey,2017 DHS,N/A,N/A
+Thailand,1970,22,24.700001,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Thailand,1980,22.799999,24.9,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+Thailand,1990,23.5,26,UN World Marriage Data 2019,Census,1990 Census,Census,1990 Census
+Thailand,2000,24.1,27.4,UN World Marriage Data 2019,Census,2000 Census,Census,2000 Census
+Thailand,2010,24.9,28.5,UN World Marriage Data 2019,Census,2010 Census,Census,2010 Census
+Macedonia,1994,22.9,26.700001,UN World Marriage Data 2019,Census,1994 Census,Census,1994 Census
+Timor,2003,21.799999,,UN World Marriage Data 2019,Survey,2003 DHS,N/A,N/A
+Timor,2004,,27,UN World Marriage Data 2019,N/A,N/A,Census,2004 Census
+Timor,2009,23.1,,UN World Marriage Data 2019,Survey,2009-2010 DHS,N/A,N/A
+Timor,2010,,27.799999,UN World Marriage Data 2019,N/A,N/A,Census,2010 Census
+Timor,2015,,28.1,UN World Marriage Data 2019,N/A,N/A,Census,2015 Census
+Timor,2016,23,,UN World Marriage Data 2019,Survey,2016 DHS,N/A,N/A
+Togo,1970,,26,UN World Marriage Data 2019,N/A,N/A,Census,1970 Census
+Togo,1981,,25.6,UN World Marriage Data 2019,N/A,N/A,Census,1981 Census
+Togo,1988,20.299999,,UN World Marriage Data 2019,Survey,1988 DHS,N/A,N/A
+Togo,1998,21.4,,UN World Marriage Data 2019,Survey,1998 DHS,N/A,N/A
+Togo,2000,21.1,,UN World Marriage Data 2019,Survey,2000 MICS,N/A,N/A
+Togo,2010,22.4,27.6,UN World Marriage Data 2019,Survey,2010 MICS,Census,2010 Census
+Togo,2013,22.299999,,UN World Marriage Data 2019,Survey,2013-2014 DHS-MICS,N/A,N/A
+Togo,2017,21.299999,,UN World Marriage Data 2019,Survey,2017 MIS,N/A,N/A
+Tokelau,1972,23.6,22.700001,UN World Marriage Data 2019,Census,1972 Census,Census,1972 Census
+Tokelau,1976,25.299999,24,UN World Marriage Data 2019,Census,1976 Census,Census,1976 Census
+Tokelau,1986,26,26.6,UN World Marriage Data 2019,Census,1986 Census,Census,1986 Census
+Tokelau,1991,25.6,,UN World Marriage Data 2019,Census,1991 Census,N/A,N/A
+Tokelau,2011,27.9,27,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Tonga,1976,24.299999,27.1,UN World Marriage Data 2019,Census,1976 Census,Census,1976 Census
+Tonga,1986,24.799999,27.1,UN World Marriage Data 2019,Census,1986 Census,Census,1986 Census
+Tonga,1996,25.5,28,UN World Marriage Data 2019,Census,1996 Census,Census,1996 Census
+Tonga,2006,25.6,28,UN World Marriage Data 2019,Census,2006 Census,Census,2006 Census
+Tonga,2011,24.700001,27.200001,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Tonga,2016,25.299999,27.4,UN World Marriage Data 2019,Census,2016 Census,Census,2016 Census
+Trinidad and Tobago,1970,24,27.4,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Trinidad and Tobago,1980,25.299999,28.1,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+Trinidad and Tobago,1990,26.799999,29.799999,UN World Marriage Data 2019,Census,1990 Census,Census,1990 Census
+Trinidad and Tobago,2000,28.1,31.4,UN World Marriage Data 2019,Census,2000 Census,Census,2000 Census
+Trinidad and Tobago,2011,29.200001,31.799999,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Tunisia,1975,22.6,27.1,UN World Marriage Data 2019,Census,1975 Census,Census,1975 Census
+Tunisia,1984,24.299999,28.1,UN World Marriage Data 2019,Census,1984 Census,Census,1984 Census
+Tunisia,1994,26.6,30.299999,UN World Marriage Data 2019,Census,1994 Census,Census,1994 Census
+Tunisia,2004,28.700001,32.599998,UN World Marriage Data 2019,Census,2004 Census,Census,2004 Census
+Tunisia,2014,28.200001,32.900002,UN World Marriage Data 2019,Census,2014 Census,Census,2014 Census
+Turkey,2003,24.1,27.5,OECD,N/A,N/A,N/A,N/A
+Turkey,2006,23.5,26.9,OECD,N/A,N/A,N/A,N/A
+Turkey,2007,23.5,26.799999,OECD,N/A,N/A,N/A,N/A
+Turkey,2008,23.6,26.9,OECD,N/A,N/A,N/A,N/A
+Turkey,2009,23.700001,27,OECD,N/A,N/A,N/A,N/A
+Turkey,2010,23.799999,27.1,OECD,N/A,N/A,N/A,N/A
+Turkey,2011,23.9,27.200001,OECD,N/A,N/A,N/A,N/A
+Turkey,2013,24.200001,27.299999,OECD,N/A,N/A,N/A,N/A
+Turkey,2014,24.299999,27.4,OECD,N/A,N/A,N/A,N/A
+Turkey,2015,24.5,27.5,OECD,N/A,N/A,N/A,N/A
+Turkey,2016,24.700001,27.700001,OECD,N/A,N/A,N/A,N/A
+Turkey,2017,24.799999,27.799999,OECD,N/A,N/A,N/A,N/A
+Turkmenistan,2000,23.4,,UN World Marriage Data 2019,Survey,2000 DHS,N/A,N/A
+Turkmenistan,2006,24.799999,,UN World Marriage Data 2019,Survey,2006 MICS,N/A,N/A
+Turkmenistan,2015,23.5,,UN World Marriage Data 2019,Survey,2015 MICS,N/A,N/A
+Turks and Caicos Islands,1970,23.4,,UN World Marriage Data 2019,Census,1970 Census,N/A,N/A
+Turks and Caicos Islands,1980,22.5,26.6,UN World Marriage Data 2019,Census,1980 Census,Census,1980 Census
+Turks and Caicos Islands,2001,25.200001,,UN World Marriage Data 2019,Census,2001 Census,N/A,N/A
+Tuvalu,1979,25.4,29.1,UN World Marriage Data 2019,Census,1979 Census,Census,1979 Census
+Tuvalu,1991,21.4,26.700001,UN World Marriage Data 2019,Census,1991 Census,Census,1991 Census
+Tuvalu,2002,20.700001,26.5,UN World Marriage Data 2019,Census,2002 Census,Census,2002 Census
+Uganda,1988,19,,UN World Marriage Data 2019,Survey,1988-1989 DHS,N/A,N/A
+Uganda,1995,18.200001,22.5,UN World Marriage Data 2019,Survey,1995 DHS,Survey,1995 DHS
+Uganda,2000,19.6,23.4,UN World Marriage Data 2019,Survey,2000-2001 DHS,Survey,2000-2001 DHS
+Uganda,2004,20,23.799999,UN World Marriage Data 2019,Survey,2004-2005 AIS,Survey,2004-2005 AIS
+Uganda,2006,20.4,23.799999,UN World Marriage Data 2019,Survey,2006 DHS,Survey,2006 DHS
+Uganda,2011,20,24.299999,UN World Marriage Data 2019,Survey,2011 DHS,Survey,2011 DHS
+Uganda,2016,20.700001,24.299999,UN World Marriage Data 2019,Survey,2016 DHS,Survey,2016 DHS
+Ukraine,1999,21.5,,UN World Marriage Data 2019,Survey,1999 RHS,N/A,N/A
+Ukraine,2005,23.9,,UN World Marriage Data 2019,Survey,2005 MICS,N/A,N/A
+Ukraine,2007,23.1,25.9,UN World Marriage Data 2019,Survey,2007 DHS,Survey,2007 DHS
+Ukraine,2012,23,,UN World Marriage Data 2019,Survey,2012 MICS,N/A,N/A
+United Arab Emirates,1975,18,25.9,UN World Marriage Data 2019,Census,1975 Census,Census,1975 Census
+United Arab Emirates,2005,25.299999,26.799999,UN World Marriage Data 2019,Census,2005 Census,Census,2005 Census
+United Kingdom,1990,25.200001,27.200001,OECD,N/A,N/A,N/A,N/A
+United Kingdom,1991,25.5,27.5,OECD,N/A,N/A,N/A,N/A
+United Kingdom,1992,25.9,27.9,OECD,N/A,N/A,N/A,N/A
+United Kingdom,1993,26.200001,28.200001,OECD,N/A,N/A,N/A,N/A
+United Kingdom,1994,26.5,28.5,OECD,N/A,N/A,N/A,N/A
+United Kingdom,1995,26.799999,28.9,OECD,N/A,N/A,N/A,N/A
+United Kingdom,1996,27.200001,29.299999,OECD,N/A,N/A,N/A,N/A
+United Kingdom,1997,27.5,29.6,OECD,N/A,N/A,N/A,N/A
+United Kingdom,1998,27.700001,29.799999,OECD,N/A,N/A,N/A,N/A
+United Kingdom,1999,28,30.1,OECD,N/A,N/A,N/A,N/A
+United Kingdom,2000,28.200001,30.5,OECD,N/A,N/A,N/A,N/A
+United Kingdom,2001,28.4,30.6,OECD,N/A,N/A,N/A,N/A
+United Kingdom,2002,28.700001,30.9,OECD,N/A,N/A,N/A,N/A
+United Kingdom,2003,28.9,31.200001,OECD,N/A,N/A,N/A,N/A
+United Kingdom,2004,29.1,31.4,OECD,N/A,N/A,N/A,N/A
+United Kingdom,2005,29.5,31.700001,OECD,N/A,N/A,N/A,N/A
+United Kingdom,2006,29.700001,31.799999,OECD,N/A,N/A,N/A,N/A
+United Kingdom,2007,29.799999,32,OECD,N/A,N/A,N/A,N/A
+United Kingdom,2008,29.9,32.099998,OECD,N/A,N/A,N/A,N/A
+United Kingdom,2009,29.9,32.099998,OECD,N/A,N/A,N/A,N/A
+United Kingdom,2010,30,32.099998,OECD,N/A,N/A,N/A,N/A
+United Kingdom,2011,30.200001,32.200001,OECD,N/A,N/A,N/A,N/A
+United Kingdom,2012,30.299999,32.400002,OECD,N/A,N/A,N/A,N/A
+United Kingdom,2013,30.6,32.5,OECD,N/A,N/A,N/A,N/A
+United Kingdom,2014,30.799999,32.700001,OECD,N/A,N/A,N/A,N/A
+United Kingdom,2015,31.200001,33.200001,OECD,N/A,N/A,N/A,N/A
+Tanzania,1973,18.5,,UN World Marriage Data 2019,Survey,1973 NDS,N/A,N/A
+Tanzania,1991,20.5,25.1,UN World Marriage Data 2019,Survey,1991-1992 DHS,Survey,1991-1992 DHS
+Tanzania,1994,20.5,25.1,UN World Marriage Data 2019,Survey,1994 KAP Survey,Survey,1994 KAP Survey
+Tanzania,1996,20.5,25.1,UN World Marriage Data 2019,Survey,1996 DHS,Survey,1996 DHS
+Tanzania,1999,20.4,24.700001,UN World Marriage Data 2019,Survey,1999 RCHS,Survey,1999 RCHS
+Tanzania,2003,20.700001,25,UN World Marriage Data 2019,Survey,2003-2004 AIS,Survey,2003-2004 AIS
+Tanzania,2004,20,25.1,UN World Marriage Data 2019,Survey,2004-2005 DHS,Survey,2004-2005 DHS
+Tanzania,2007,20.299999,25.200001,UN World Marriage Data 2019,Survey,2007-2008 AIS,Survey,2007-2008 AIS
+Tanzania,2009,21,25.1,UN World Marriage Data 2019,Survey,2010 DHS,Survey,2010 DHS
+Tanzania,2011,20.9,25.4,UN World Marriage Data 2019,Survey,2011-2012 AIS,Survey,2011-2012 AIS
+Tanzania,2015,21,25.200001,UN World Marriage Data 2019,Survey,2015-2016 DHS,Survey,2015-2016 DHS
+United States,1990,23.9,26.1,OECD,N/A,N/A,N/A,N/A
+United States,1991,24.1,26.299999,OECD,N/A,N/A,N/A,N/A
+United States,1992,24.4,26.5,OECD,N/A,N/A,N/A,N/A
+United States,1993,24.5,26.5,OECD,N/A,N/A,N/A,N/A
+United States,1994,24.5,26.700001,OECD,N/A,N/A,N/A,N/A
+United States,1995,24.5,26.9,OECD,N/A,N/A,N/A,N/A
+United States,1996,24.799999,27.1,OECD,N/A,N/A,N/A,N/A
+United States,1997,25,26.799999,OECD,N/A,N/A,N/A,N/A
+United States,1998,25,26.700001,OECD,N/A,N/A,N/A,N/A
+United States,1999,25.1,26.9,OECD,N/A,N/A,N/A,N/A
+United States,2000,25.1,26.799999,OECD,N/A,N/A,N/A,N/A
+United States,2001,25.1,26.9,OECD,N/A,N/A,N/A,N/A
+United States,2002,25.299999,26.9,OECD,N/A,N/A,N/A,N/A
+United States,2003,25.299999,27.1,OECD,N/A,N/A,N/A,N/A
+United States,2004,25.299999,27.4,OECD,N/A,N/A,N/A,N/A
+United States,2005,25.299999,27.1,OECD,N/A,N/A,N/A,N/A
+United States,2006,25.5,27.5,OECD,N/A,N/A,N/A,N/A
+United States,2007,25.6,27.5,OECD,N/A,N/A,N/A,N/A
+United States,2008,25.9,27.6,OECD,N/A,N/A,N/A,N/A
+United States,2009,25.9,28.1,OECD,N/A,N/A,N/A,N/A
+United States,2010,26.1,28.200001,OECD,N/A,N/A,N/A,N/A
+United States,2011,26.4,28.4,OECD,N/A,N/A,N/A,N/A
+United States,2012,26.6,28.6,OECD,N/A,N/A,N/A,N/A
+United States,2013,26.6,29,OECD,N/A,N/A,N/A,N/A
+United States,2014,27,29.299999,OECD,N/A,N/A,N/A,N/A
+United States,2015,27.1,29.200001,OECD,N/A,N/A,N/A,N/A
+United States,2016,27.4,29.5,OECD,N/A,N/A,N/A,N/A
+United States,2017,27.4,29.5,OECD,N/A,N/A,N/A,N/A
+United States Virgin Islands,1990,27.5,30.1,UN World Marriage Data 2019,Census,1990 Census,Census,1990 Census
+United States Virgin Islands,2010,30.9,32.5,UN World Marriage Data 2019,Census,2010 Census,Census,2010 Census
+Uruguay,1975,22.5,25.4,UN World Marriage Data 2019,Census,1975 Census,Census,1975 Census
+Uruguay,1985,22.9,25.200001,UN World Marriage Data 2019,Census,1985 Census,Census,1985 Census
+Uruguay,1996,23.299999,25.6,UN World Marriage Data 2019,Census,1996 Census,Census,1996 Census
+Uruguay,2011,24,26.5,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Uzbekistan,1996,20.6,,UN World Marriage Data 2019,Survey,1996 DHS,N/A,N/A
+Uzbekistan,2000,21.6,24.1,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Uzbekistan,2002,21.5,24,UN World Marriage Data 2019,Survey,2002 DHS Special,Survey,2002 DHS Special
+Uzbekistan,2006,22.5,,UN World Marriage Data 2019,Survey,2006 MICS,N/A,N/A
+Vanuatu,1979,22,25.799999,UN World Marriage Data 2019,Census,1979 Census,Census,1979 Census
+Vanuatu,1989,22.6,25.299999,UN World Marriage Data 2019,Census,1989 Census,Census,1989 Census
+Vanuatu,1999,23,25.299999,UN World Marriage Data 2019,Census,1999 Census,Census,1999 Census
+Vanuatu,2009,22.5,25.5,UN World Marriage Data 2019,Census,2009 Census,Census,2009 Census
+Venezuela,1971,20.1,25.6,UN World Marriage Data 2019,Census,1971 Census,Census,1971 Census
+Venezuela,1981,21.299999,25,UN World Marriage Data 2019,Census,1981 Census,Census,1981 Census
+Venezuela,1990,22.1,25.4,UN World Marriage Data 2019,Census,1990 Census,Census,1990 Census
+Venezuela,2001,22.700001,26,UN World Marriage Data 2019,Census,2001 Census,Census,2001 Census
+Venezuela,2011,22.9,25.799999,UN World Marriage Data 2019,Census,2011 Census,Census,2011 Census
+Vietnam,1988,23.6,,UN World Marriage Data 2019,Survey,1988 DHS,N/A,N/A
+Vietnam,1997,22.200001,26.1,UN World Marriage Data 2019,Survey,1997 DHS,Survey,1997 DHS
+Vietnam,2000,22.9,26,UN World Marriage Data 2019,Survey,2000 MICS,Survey,2000 MICS_HH
+Vietnam,2002,23.200001,26.1,UN World Marriage Data 2019,Survey,2002 DHS,Survey,2002 DHS
+Vietnam,2005,23.200001,25.9,UN World Marriage Data 2019,Survey,2005 AIS,Survey,2005 AIS
+Vietnam,2006,22.799999,,UN World Marriage Data 2019,Survey,2006 MICS,N/A,N/A
+Vietnam,2007,23.299999,26.6,UN World Marriage Data 2019,Survey,2007 Annual APC,Survey,2007 Annual APC
+Vietnam,2010,22.299999,,UN World Marriage Data 2019,Survey,2011 MICS,N/A,N/A
+Vietnam,2011,22.799999,26.4,UN World Marriage Data 2019,Survey,2011 Annual APC,Survey,2011 Annual APC
+Vietnam,2013,22.4,,UN World Marriage Data 2019,Survey,2013-2014 MICS,N/A,N/A
+Vietnam,2015,22.799999,26.9,UN World Marriage Data 2019,Survey,2015 Annual APC,Survey,2015 Annual APC
+Wallis and Futuna,1976,25.1,27,UN World Marriage Data 2019,Census,1976 Census,Census,1976 Census
+Wallis and Futuna,1983,22.9,26.200001,UN World Marriage Data 2019,Census,1983 Census,Census,1983 Census
+Wallis and Futuna,1990,23.4,28.5,UN World Marriage Data 2019,Census,1990 Census,Census,1990 Census
+Wallis and Futuna,1996,24.299999,28.4,UN World Marriage Data 2019,Census,1996 Census,Census,1996 Census
+Wallis and Futuna,2003,26.200001,28.4,UN World Marriage Data 2019,Census,2003 Census,Census,2003 Census
+Wallis and Futuna,2013,27.799999,28.799999,UN World Marriage Data 2019,Census,2013 Census,Census,2013 Census
+Western Sahara,1970,18,25.299999,UN World Marriage Data 2019,Census,1970 Census,Census,1970 Census
+Yemen,1991,20.799999,24.700001,UN World Marriage Data 2019,Survey,1991-1992 DHS,Survey,1991-1992 DHS
+Yemen,1997,20.700001,,UN World Marriage Data 2019,Survey,1997 DHS,N/A,N/A
+Yemen,2003,22.200001,25.4,UN World Marriage Data 2019,Survey,2003 FHS,Survey,2003 FHS
+Yemen,2006,22.6,25.299999,UN World Marriage Data 2019,Survey,2006 MICS_HH,Survey,2006 MICS_HH
+Yemen,2013,22.799999,26.1,UN World Marriage Data 2019,Survey,2013 DHS,Survey,2013 DHS
+Zambia,1992,20,,UN World Marriage Data 2019,Survey,1992 DHS,N/A,N/A
+Zambia,1996,20.299999,25,UN World Marriage Data 2019,Survey,1996 DHS,Survey,1996 DHS
+Zambia,1999,22,26.6,UN World Marriage Data 2019,Survey,1999 MICS,Survey,1999 MICS_HH
+Zambia,2001,20.5,24.799999,UN World Marriage Data 2019,Survey,2001-2002 DHS,Survey,2001-2002 DHS
+Zambia,2007,21.1,25.4,UN World Marriage Data 2019,Survey,2007 DHS,Survey,2007 DHS
+Zambia,2013,21.799999,25.9,UN World Marriage Data 2019,Survey,2013-2014 DHS,Survey,2013-2014 DHS
+Zimbabwe,1987,21.5,26.4,UN World Marriage Data 2019,Survey,1987 ICDS,Survey,1987 ICDS
+Zimbabwe,1988,20.700001,,UN World Marriage Data 2019,Survey,1988 DHS,N/A,N/A
+Zimbabwe,1994,21,25.5,UN World Marriage Data 2019,Survey,1994 DHS,Survey,1994 DHS
+Zimbabwe,1997,21.5,26,UN World Marriage Data 2019,Survey,1997 ICDS,Survey,1997 ICDS
+Zimbabwe,1999,21,25.700001,UN World Marriage Data 2019,Survey,1999 DHS,Survey,1999 DHS
+Zimbabwe,2005,20.799999,25.9,UN World Marriage Data 2019,Survey,2005-2006 DHS,Survey,2005-2006 DHS
+Zimbabwe,2009,20.9,26,UN World Marriage Data 2019,Survey,2009 MICS,Survey,2009 MICS_HH
+Zimbabwe,2010,20.6,25.5,UN World Marriage Data 2019,Survey,2010-2011 DHS,Survey,2010-2011 DHS
+Zimbabwe,2014,20.299999,,UN World Marriage Data 2019,Survey,2014 MICS,N/A,N/A
+Zimbabwe,2015,20.200001,25.700001,UN World Marriage Data 2019,Survey,2015 DHS,Survey,2015 DHS
+Zimbabwe,2017,21.1,26,UN World Marriage Data 2019,Survey,2017 ICDS,Survey,2017 ICDS
