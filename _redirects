@@ -335,7 +335,7 @@
 /grapher/public-support-for-continued-nuclear-energy-builds /grapher/public-opposition-to-nuclear-energy-production 302
 /grapher/public-opposition-continued-nuclear-energy-builds /grapher/public-opposition-to-nuclear-energy-production 302
 /grapher/how-many-deaths-does-it-take-to-receive-news-coverage /grapher/how-many-deaths-does-it-take-for-a-disaster-to-receive-news-coverage 302
-/grapher/cereal-production--test-only /grapher/index-of-cereal-production-yield-and-land-use-1961-2014 302
+/grapher/cereal-production--test-only /grapher/index-of-cereal-production-yield-and-land-use 302
 /grapher/daily-per-capita-protein-availability-1961-2013 /grapher/daily-per-capita-protein-supply 302
 /grapher/percentage-of-children-underweight /grapher/percentage-of-children-underweight-low-weight-for-age 302
 /grapher/share-of-men-who-are-underweight-healthy-overweight-and-obese-1975-2014 /grapher/men-weight-categories 302
@@ -534,7 +534,6 @@
 /grapher/total-number-of-teachers-across-education-levels /grapher/number-of-teachers-across-education-levels 302
 /grapher/wealth-per-capita-by-asset-type---world-bank-2017 /grapher/total-wealth-per-capita-by-asset 302
 /grapher/total-wealth /grapher/total-wealth-per-capita-by-income-groups-in-2014-us-dollars 302
-/grapher/resource-and-socioeconomic-change-over-the-last-50-years /grapher/resource-and-socioeconomic-change-per-capita 302
 /grapher/absolute-net-change-in-global-population /grapher/absolute-increase-global-population 302
 /grapher/absolute-net-increase-in-global-population /grapher/absolute-increase-global-population 302
 /grapher/absolute-increase-in-global-population-per-year /grapher/absolute-increase-global-population 302
@@ -855,3 +854,4 @@
 /grapher/death-rate-from-particulate-pollution-vs-gdp-per-capita /grapher/outdoor-pollution-rate-vs-gdp 302
 /grapher/land-cover-distribution-percentage-land-area /grapher/land-use 302
 /grapher/disability-adjusted-life-years-per-100000-all-causes /grapher/dalys-rate-from-all-causes 302
+/grapher/index-of-cereal-production-yield-and-land-use-1961-2014 /grapher/index-of-cereal-production-yield-and-land-use 302
