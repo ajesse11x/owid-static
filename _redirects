@@ -401,7 +401,7 @@
 /grapher/median-monthly-per-capita-expenditure-in-198x-versus-median-monthly-per-capita-expenditure-in-2014 /grapher/median-monthly-per-capita-expenditure-around-1985-versus-median-monthly-per-capita-expenditure-around-2010 302
 /grapher/share-of-habitable-land-needed-for-agriculture-vs-gdp-per-capita /grapher/dietary-land-use-vs-gdp-per-capita 302
 /grapher/aquaculture-production-by-region-1960-2015 /grapher/aquaculture-farmed-fish-production 302
-/grapher/total-fertility-rate /grapher/tfr-vs-gdp-pc 302
+/grapher/total-fertility-rate /grapher/children-born-per-woman 302
 /grapher/public-health-insurance-coverage2 /grapher/public-health-insurance-coverage 302
 /grapher/per-capita-caloric-production-per-person-per-day /grapher/caloric-production 302
 /grapher/correlation-between-internet-users-as-a-share-of-the-population-and-gdp-per-capita-2014 /grapher/correlation-between-internet-users-as-a-share-of-the-population-and-gdp-per-capita 302
@@ -855,3 +855,4 @@
 /grapher/land-cover-distribution-percentage-land-area /grapher/land-use 302
 /grapher/disability-adjusted-life-years-per-100000-all-causes /grapher/dalys-rate-from-all-causes 302
 /grapher/index-of-cereal-production-yield-and-land-use-1961-2014 /grapher/index-of-cereal-production-yield-and-land-use 302
+/grapher/tfr-vs-gdp-pc /grapher/children-born-per-woman 302
