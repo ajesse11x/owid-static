@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2019-12-11T15:39:34.000Z</updated>
+<updated>2020-01-24T06:20:24.000Z</updated>
+<entry>
+    <title><![CDATA[You want to reduce the carbon footprint of your food? Focus on what you eat, not whether your food is local]]></title>
+    <id>https://ourworldindata.org/food-choice-vs-eating-local</id>
+    <link rel="alternate" href="https://ourworldindata.org/food-choice-vs-eating-local"/>
+    <published>2020-01-24T06:20:24.000Z</published>
+    <updated>2020-01-24T11:54:34.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[‘Eat local’ is a common recommendation to reduce the carbon footprint of your diet. But transport tends to account for a small share of greenhouse gas emissions. How does the impact of what you eat compare to where it’s come from? ]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Is there a loneliness epidemic?]]></title>
     <id>https://ourworldindata.org/loneliness-epidemic</id>
@@ -86,14 +95,5 @@
     <updated>2019-11-07T15:44:48.000Z</updated>
     <author><name>Esteban Ortiz-Ospina</name></author>
     <summary><![CDATA[Social networks facilitate the diffusion of ideas across individuals and firms, and because of this, they play an important role in productivity growth. In this post we explain how this works.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Food production is responsible for one-quarter of  the world’s greenhouse gas emissions]]></title>
-    <id>https://ourworldindata.org/food-ghg-emissions</id>
-    <link rel="alternate" href="https://ourworldindata.org/food-ghg-emissions"/>
-    <published>2019-11-06T17:00:25.000Z</published>
-    <updated>2020-01-15T20:30:42.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[One-quarter of the world’s greenhouse gas emissions result from food and agriculture. What are the main contributors to food’s emissions?]]></summary>
 </entry>
 </feed>
