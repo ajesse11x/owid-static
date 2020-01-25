@@ -15815,4 +15815,8 @@
         <loc>https://ourworldindata.org/grapher/freshwater-withdrawals-per-1000kcal</loc>
         <lastmod>2020-01-25</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/scarcity-water-use-kcals</loc>
+        <lastmod>2020-01-25</lastmod>
+    </url>
 </urlset>
