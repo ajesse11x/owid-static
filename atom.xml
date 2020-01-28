@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2020-01-24T06:20:24.000Z</updated>
+<updated>2020-01-28T09:30:30.000Z</updated>
+<entry>
+    <title><![CDATA[Very little of global food is transported by air; this greatly reduces the climate benefits of eating local]]></title>
+    <id>https://ourworldindata.org/food-transport-by-mode</id>
+    <link rel="alternate" href="https://ourworldindata.org/food-transport-by-mode"/>
+    <published>2020-01-28T09:30:30.000Z</published>
+    <updated>2020-01-28T10:09:20.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[Transporting food by plane can come with a large carbon footprint. But very little of our food travels this way – just 0.16% of food miles are from air travel.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[You want to reduce the carbon footprint of your food? Focus on what you eat, not whether your food is local]]></title>
     <id>https://ourworldindata.org/food-choice-vs-eating-local</id>
@@ -86,14 +95,5 @@
     <updated>2019-11-11T10:57:24.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[Half of the world’s habitable land is used for agriculture. More than three-quarters of this is used for livestock production, despite meat and dairy making up a much smaller share of the world’s protein and calorie supply.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[The importance of social networks for innovation and productivity]]></title>
-    <id>https://ourworldindata.org/social-networks-innovation-and-productivity</id>
-    <link rel="alternate" href="https://ourworldindata.org/social-networks-innovation-and-productivity"/>
-    <published>2019-11-07T11:40:41.000Z</published>
-    <updated>2019-11-07T15:44:48.000Z</updated>
-    <author><name>Esteban Ortiz-Ospina</name></author>
-    <summary><![CDATA[Social networks facilitate the diffusion of ideas across individuals and firms, and because of this, they play an important role in productivity growth. In this post we explain how this works.]]></summary>
 </entry>
 </feed>
