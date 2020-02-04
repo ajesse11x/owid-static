@@ -1,4 +1,4 @@
-country,year,years until divorce,measure used
+country,year,yrdiv,measure
 Australia,1997,11.10000038,Median
 Australia,1998,11.19999981,Median
 Australia,1999,11.30000019,Median
@@ -306,3 +306,5 @@ United States,1985,6.800000191,Median
 United States,1986,6.900000095,Median
 United States,1987,7,Median
 United States,1988,7.099999905,Median
+United States,2001,8.050000191,Median
+United States,2009,8,Median
