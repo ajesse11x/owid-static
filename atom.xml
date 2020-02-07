@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2020-02-04T08:00:00.000Z</updated>
+<updated>2020-02-06T18:27:40.000Z</updated>
+<entry>
+    <title><![CDATA[Redesigning Our World in Data: from posts and articles to posts in articles]]></title>
+    <id>https://ourworldindata.org/redesigning-our-world-in-data-from-posts-and-articles-to-posts-in-articles</id>
+    <link rel="alternate" href="https://ourworldindata.org/redesigning-our-world-in-data-from-posts-and-articles-to-posts-in-articles"/>
+    <published>2020-02-06T18:27:40.000Z</published>
+    <updated>2020-02-07T14:01:20.000Z</updated>
+    <author><name>Matthieu Bergel</name></author>
+    <summary><![CDATA[]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Less meat is nearly always better than sustainable meat, to reduce your carbon footprint]]></title>
     <id>https://ourworldindata.org/less-meat-or-sustainable-meat</id>
@@ -86,14 +95,5 @@
     <updated>2019-11-25T11:19:03.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[We’ve just updated all available data on the 232 indicators of our UN Sustainable Development Goals Tracker (SDG-Tracker).]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[The importance of personal relations for economic outcomes]]></title>
-    <id>https://ourworldindata.org/personal-relations-econ-outcomes</id>
-    <link rel="alternate" href="https://ourworldindata.org/personal-relations-econ-outcomes"/>
-    <published>2019-11-15T11:00:52.000Z</published>
-    <updated>2020-01-30T17:46:33.000Z</updated>
-    <author><name>Esteban Ortiz-Ospina</name></author>
-    <summary><![CDATA[Social connections matter for economic outcomes. Personal relations, even those that we maintain for non-economic reasons, often give us access to information and provide us with social collateral for economic transactions]]></summary>
 </entry>
 </feed>
