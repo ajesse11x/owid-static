@@ -15919,4 +15919,8 @@
         <loc>https://ourworldindata.org/grapher/number-with-without-safe-water</loc>
         <lastmod>2020-02-09</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/number-without-access-to-safe-sanitation</loc>
+        <lastmod>2020-02-09</lastmod>
+    </url>
 </urlset>
