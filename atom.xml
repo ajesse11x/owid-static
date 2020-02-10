@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2020-02-07T14:00:00.000Z</updated>
+<updated>2020-02-10T09:00:00.000Z</updated>
+<entry>
+    <title><![CDATA[What are the safest sources of energy?]]></title>
+    <id>https://ourworldindata.org/safest-sources-of-energy</id>
+    <link rel="alternate" href="https://ourworldindata.org/safest-sources-of-energy"/>
+    <published>2020-02-10T09:00:00.000Z</published>
+    <updated>2020-02-10T09:15:11.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[Based on safety and carbon emissions, fossil fuels are the dirtiest and most dangerous, while nuclear and modern renewable energy sources are vastly safer and cleaner.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Redesigning Our World in Data: from posts and articles to posts in articles]]></title>
     <id>https://ourworldindata.org/redesigning-from-posts-and-articles-to-posts-in-articles</id>
@@ -86,14 +95,5 @@
     <updated>2019-12-24T07:27:31.000Z</updated>
     <author><name>Bernadeta Dadonaite</name></author>
     <summary><![CDATA[38 million people had HIV/AIDS in 2018. A couple of decades ago, the chances of surviving more than ten years with HIV were slim. Today, thanks to antiretroviral therapy (ART), people with HIV/AIDS can expect to live long lives. How many lives has ART saved?]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[We’ve just updated our Sustainable Development Goals Tracker]]></title>
-    <id>https://ourworldindata.org/update-sdg-tracker-2019</id>
-    <link rel="alternate" href="https://ourworldindata.org/update-sdg-tracker-2019"/>
-    <published>2019-11-25T11:18:34.000Z</published>
-    <updated>2019-11-25T11:19:03.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[We’ve just updated all available data on the 232 indicators of our UN Sustainable Development Goals Tracker (SDG-Tracker).]]></summary>
 </entry>
 </feed>
