@@ -5876,14 +5876,6 @@
         <lastmod>2019-01-16</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/producer-price-index-of-cereal-crops-2004-2006-100</loc>
-        <lastmod>2018-03-15</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/produce-price-index-of-food-commodity-categories-2004-2006-100</loc>
-        <lastmod>2018-03-15</lastmod>
-    </url>
-    <url>
         <loc>https://ourworldindata.org/grapher/commodity-price-index-of-cereal-crops-and-petroleum-1850-2015</loc>
         <lastmod>2019-02-19</lastmod>
     </url>
@@ -15937,11 +15929,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/groundnuts-yield</loc>
-        <lastmod>2020-02-11</lastmod>
+        <lastmod>2020-02-14</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/cashew-nut-yields</loc>
-        <lastmod>2020-02-11</lastmod>
+        <lastmod>2020-02-14</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/global-meat-production</loc>
