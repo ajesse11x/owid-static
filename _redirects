@@ -352,7 +352,7 @@
 /grapher/cereal-yield-vs-land-under-cereal-production /grapher/change-of-cereal-yield-vs-land-used 302
 /grapher/index-of-cereal-yield-vs-land-used-for-cereal-production-1961-2014 /grapher/change-of-cereal-yield-vs-land-used 302
 /grapher/prevalence-of-night-blindness-in-children /grapher/prevalence-of-night-blindness-in-pre-school-children 302
-/grapher/share-of-land-area-used-for-permanent-meadows-and-pastures-1961-2014 /grapher/share-of-land-area-used-for-permanent-meadows-and-pastures 302
+/grapher/share-of-land-area-used-for-permanent-meadows-and-pastures-1961-2014 /grapher/area-meadows-and-pastures 302
 /grapher/incidence-of-hiv-among-uninfected-population-ages-15-49 /grapher/incidence-of-hiv-the-share-of-new-infections-among-the-previously-uninfected-population-ages-15-49 302
 /grapher/global-hunger-index-vs /grapher/global-hunger-index-vs-extreme-poverty 302
 /grapher/continents-according-to-our-worldin-data /grapher/continents-according-to-our-world-in-data 302
@@ -863,3 +863,4 @@
 /grapher/index-of-cereal-production-yield-and-land-use-1961-2014 /grapher/index-of-cereal-production-yield-and-land-use 302
 /grapher/tfr-vs-gdp-pc /grapher/children-born-per-woman 302
 /grapher/primary-energy-consumption-by-source-and-region /grapher/energy-consumption-by-source-and-region 302
+/grapher/share-of-land-area-used-for-permanent-meadows-and-pastures /grapher/area-meadows-and-pastures 302
