@@ -752,7 +752,7 @@
 /grapher/gini-index-of-income-in-2015-vs-1990-including-non-survey-years /grapher/gini-index-of-income-in-2015-vs-1990-gcip-including-non-survey-years 302
 /grapher/protein-supply-by-region-in-grams-per-person-per-day-1961-2013 /grapher/protein-supply-by-region 302
 /grapher/fat-supply-by-region-in-grams-per-person-per-day-1961-2013 /grapher/fat-supply-by-region 302
-/grapher/food-supply-by-region-in-kilocalories-per-person-per-day-1961-2013 /grapher/food-supply-by-region-kilocalories 302
+/grapher/food-supply-by-region-in-kilocalories-per-person-per-day-1961-2013 /grapher/food-supply-kcal 302
 /grapher/dietary-composition-by-country-1961-2013 /grapher/dietary-composition-by-country 302
 /grapher/dietary-compositions-by-commodity-group-1961-2013 /grapher/dietary-compositions-by-commodity-group 302
 /grapher/global-and-between-country-income-inequality-19522015 /grapher/global-and-between-country-income-inequality 302
@@ -866,3 +866,4 @@
 /grapher/share-of-land-area-used-for-permanent-meadows-and-pastures /grapher/area-meadows-and-pastures 302
 /grapher/agricultural-yields-in-key-crops-per-hectare-1961-2014 /grapher/key-crop-yields 302
 /grapher/primary-energy-cons-by-source /grapher/primary-energy-consumption-by-source 302
+/grapher/food-supply-by-region-kilocalories /grapher/food-supply-kcal 302
