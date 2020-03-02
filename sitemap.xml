@@ -8525,7 +8525,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/tuberculosis-death-rates-by-age</loc>
-        <lastmod>2019-12-13</lastmod>
+        <lastmod>2020-03-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-homicide-deaths</loc>
@@ -16026,5 +16026,9 @@
     <url>
         <loc>https://ourworldindata.org/grapher/share-cereals-industrial-uses</loc>
         <lastmod>2020-02-26</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-upper-respiratory-age</loc>
+        <lastmod>2020-03-02</lastmod>
     </url>
 </urlset>
