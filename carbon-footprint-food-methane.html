@@ -1,0 +1,204 @@
+<!doctype html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"/><title>The carbon footprint of foods: are differences explained by the impacts of methane? - Our World in Data</title><meta name="description" content="How we treat the climate impacts of methane has a significant difference on the carbon footprint of foods. But even if we exclude methane, meat and dairy products have the highest footprint."/><link rel="canonical" href="https://ourworldindata.org/carbon-footprint-food-methane"/><link rel="alternate" type="application/atom+xml" href="/atom.xml"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><meta property="fb:app_id" content="1149943818390250"/><meta property="og:url" content="https://ourworldindata.org/carbon-footprint-food-methane"/><meta property="og:title" content="The carbon footprint of foods: are differences explained by the impacts of methane?"/><meta property="og:description" content="How we treat the climate impacts of methane has a significant difference on the carbon footprint of foods. But even if we exclude methane, meat and dairy products have the highest footprint."/><meta property="og:image" content="https://ourworldindata.org/app/uploads/2020/03/GHG-emissions-by-food-type-with-and-without-CH4-768x742.png"/><meta property="og:site_name" content="Our World in Data"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@OurWorldInData"/><meta name="twitter:creator" content="@OurWorldInData"/><meta name="twitter:title" content="The carbon footprint of foods: are differences explained by the impacts of methane?"/><meta name="twitter:description" content="How we treat the climate impacts of methane has a significant difference on the carbon footprint of foods. But even if we exclude methane, meat and dairy products have the highest footprint."/><meta name="twitter:image" content="https://ourworldindata.org/app/uploads/2020/03/GHG-emissions-by-food-type-with-and-without-CH4-768x742.png"/><link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Playfair+Display:400,700" rel="stylesheet"/><link rel="stylesheet" href="https://ourworldindata.org/assets/css/commons.css"/><link rel="stylesheet" href="https://ourworldindata.org/assets/css/owid.css"/></head><body class=""><header class="site-header"><div class="wrapper site-navigation-bar"><div class="site-logo"><a href="/">Our World<br/> in Data</a></div><nav class="site-navigation"><div class="topics-button-wrapper"><a href="/#entries" class="topics-button"><div class="label">Articles <br/><strong>by topic</strong></div><div class="icon"><svg width="12" height="6"><path d="M0,0 L12,0 L6,6 Z" fill="currentColor"></path></svg></div></a></div><div><div class="site-primary-navigation"><form class="HeaderSearch" action="/search" method="GET"><input type="search" name="q" placeholder="Search..."/><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg></div></form><ul class="site-primary-links"><li><a href="/blog" data-track-click="true" data-track-note="header-navigation">Latest</a></li><li><a href="/about" data-track-click="true" data-track-note="header-navigation">About</a></li><li><a href="/donate" data-track-click="true" data-track-note="header-navigation">Donate</a></li></ul></div><div class="site-secondary-navigation"><ul class="site-secondary-links"><li><a href="/charts" data-track-click="true" data-track-note="header-navigation">All charts</a></li><li><a href="https://sdg-tracker.org" data-track-click="true" data-track-note="header-navigation">Sustainable Development Goals Tracker</a></li></ul></div></div></nav><div class="header-logos-wrapper"><a href="https://www.oxfordmartin.ox.ac.uk/global-development" class="oxford-logo"><img src="/oxford-logo-transparent.png" alt="University of Oxford logo"/></a><a href="https://global-change-data-lab.org/" class="gcdl-logo"><img src="/gcdl-logo-narrow.png" alt="Global Change Data Lab logo"/></a></div><div class="mobile-site-navigation"><button data-track-click="true" data-track-note="mobile-search-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg></button><button data-track-click="true" data-track-note="mobile-hamburger-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg></button></div></div></header><main><article class="page no-sidebar thin-banner"><div class="offset-header"><header class="article-header"><h1 class="entry-title">The carbon footprint of foods: are differences explained by the impacts of methane?</h1><div class="authors-byline"><a href="/team">by Hannah Ritchie</a></div><time>March 10, 2020</time><div class="blog-info">Our World in Data presents the data and research to make progress against the world&#x2019;s largest problems.<br>This blog post draws on data and research discussed in our entry on <strong><a href="https://ourworldindata.org/environmental-impacts-of-food" target="_blank" rel="noopener noreferrer">Environmental impacts of food production</a> </strong>and <strong><a href="https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions" target="_blank" rel="noopener noreferrer">CO<sub>2</sub> and Greenhouse Gas Emissions</a></strong>.
+<p>We would like to thank Dr Joseph Poore for providing the underlying data for this analysis, and Dr Michelle Cain for feedback on earlier drafts of this article.</p></div></header></div><div class="content-wrapper"><div class="offset-content"><div class="content-and-footnotes"><div class="article-content">
+
+
+
+<section><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>As I have shown before, there are <a href="https://ourworldindata.org/less-meat-or-sustainable-meat">large differences</a> in the carbon footprint of different foods. Beef and lamb, in particular, have much higher greenhouse gas emissions than chicken,pork, or plant-based alternatives.</p><p>This data suggests that the most effective way to reduce the climate impact of your diet is to eat less meat overall, especially red meat and dairy (see <a href="https://ourworldindata.org/food-choice-vs-eating-local"><strong>here</strong></a>).</p></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="metrics-to-quantify-greenhouse-gas-emissions"><a class="deep-link" href="#metrics-to-quantify-greenhouse-gas-emissions"></a><strong>Metrics to quantify greenhouse gas emissions</strong></h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>In this post I want to investigate whether these conclusions depend on the particular metric we rely on to quantify greenhouse gas (GHG) emissions. It could be argued that red meat and dairy have a much higher footprint because its emissions are dominated by methane &#x2013; a greenhouse gas that is much more potent but has a shorter lifetime in the atmosphere than carbon dioxide. Methane emissions have so far driven a significant amount of warming &#x2013; with estimates ranging from around 23% to 40% of the total &#x2013; to date.<a id="ref-1" class="ref" href="#note-1"><sup>1</sup></a>&#xA0;</p><p>In the box at the end of this article I discuss the debate on emissions metrics and the treatment of methane in more detail. But, here, I&#x2019;ll keep it short:&#xA0;</p><p>Since there are many different greenhouse gases researchers often aggregate them into a common unit of measurement when they want to make comparisons.<a id="ref-2" class="ref" href="#note-2"><sup>2</sup></a> The most common way to do this is to rely on a metric called &#x2018;carbon dioxide-equivalents&#x2019;. This is the metric adopted by the Intergovernmental Panel on Climate Change (IPCC); and is used as the official reporting and target-setting metric within the Paris Agreement.<a id="ref-3" class="ref" href="#note-3"><sup>3</sup></a></p><p>&#x2018;Carbon dioxide-equivalents&#x2019; (CO<sub>2</sub>eq) aggregate the impacts of all greenhouse gases into a single metric using &#x2018;global warming potential&#x2019;. More specifically, global warming potential over a 100-year timescale (GWP<sub>100</sub>) &#x2013; a timeframe which represents a mid-to-long term period for climate policy.&#xA0;</p><p>To calculate CO<sub>2</sub>eq one needs to multiply the amount of each greenhouse gas emissions by its GWP<sub>100</sub> value &#x2013; a value which aims to represent the amount of warming that each specific gas generates relative to CO<sub>2</sub>. For example, the IPCC adopts a GWP<sub>100</sub> value of 28 for methane based on the rationale that emitting one kilogram of methane will have 28 times the warming impact over 100 years as one kilogram of CO<sub>2</sub>.<a id="ref-4" class="ref" href="#note-4"><sup>4</sup></a></p></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="methane-is-short-lived-co2-is-long-lived-this-makes-aggregation-difficult"><a class="deep-link" href="#methane-is-short-lived-co2-is-long-lived-this-makes-aggregation-difficult"></a><strong>Methane is short-lived, CO</strong><strong><sub>2</sub></strong><strong> is long lived: this makes aggregation difficult</strong></h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>To understand why the conversion factor of 28 is criticised one needs to know that different greenhouse gases remain in the atmosphere for different lengths of time. In contrast to CO<sub>2</sub>, methane is a short-lived greenhouse gas. It has a very strong impact on warming in the short-term but decays fast. This is in contrast to CO<sub>2</sub> which can persist in the atmosphere for many centuries.<a id="ref-5" class="ref" href="#note-5"><sup>5</sup></a> Methane therefore has a high impact on warming in the short term, but a low impact in the long run. This means there is often confusion as to <a href="https://foodsource.org.uk/building-blocks/agricultural-methane-and-its-role-greenhouse-gas">how we should quantify</a> the climate impacts of methane. </p><p>Researchers therefore develop new metrics and methods with the aim to provide a closer representation of the warming potential of different gases.&#xA0;</p><p>Michelle Cain, Myles Allen and colleagues at the the <a href="https://www.oxfordmartin.ox.ac.uk/">University of Oxford&#x2019;s Martin School</a> lead a <a href="https://www.oxfordmartin.ox.ac.uk/pollutants/https://www.oxfordmartin.ox.ac.uk/pollutants/">research programme</a> on climate pollutants, which takes on this challenge.&#xA0; Dr Michelle Cain, one of the lead researchers in this area, discusses the challenges of GHG metrics and the role of a new way of using GWP which accounts for methane&#x2019;s shorter lifetime&#xA0; (called GWP*), in an article in <em>Carbon Brief </em><a href="https://www.carbonbrief.org/guest-post-a-new-way-to-assess-global-warming-potential-of-short-lived-pollutantshttps://www.carbonbrief.org/guest-post-a-new-way-to-assess-global-warming-potential-of-short-lived-pollutants"><strong>here</strong></a>.</p><p>Methane&#x2019;s shorter lifetime means that the usual CO<sub>2</sub>-equivalence does not reflect how it affects global temperatures. So CO<sub>2</sub>eq footprints of foods which generate a high proportion of methane emissions &#x2013; mainly beef and lamb &#x2013; don&#x2019;t by definition reflect their short-term or long-term impact on temperature.</p></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="how-big-are-the-differences-with-or-without-methane"><a class="deep-link" href="#how-big-are-the-differences-with-or-without-methane"></a><strong>How big are the differences with or without methane?</strong></h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>The question then is: Do these measurement issues matter for the carbon footprint of different foods? Are the large differences only because of methane?</p><p>In the visualization I compare the global average footprint of different food products, with and without including methane emissions.<a id="ref-6" class="ref" href="#note-6"><sup>6</sup></a></p><p>As in my original post, this data is sourced from the largest meta-analysis of global food systems to date, by Joseph Poore and Thomas Nemecek (2018), published in the journal <em>Science</em>.<a id="ref-7" class="ref" href="#note-7"><sup>7</sup></a> The study looks at the environmental impacts of foods across more than 38,000 commercially viable farms in 119 countries.</p><p>This chart compares emissions in kilograms of CO<sub>2</sub>eq produced <em>per kilogram</em> of food product.&#xA0;</p><p>The red bars show greenhouse emissions we would have if we removed methane completely; the grey bar shows the emissions from methane. The red and grey bar combined is therefore the total emissions including methane.&#xA0;</p><p>As an example: the global mean emissions for one kilogram of beef from non-dairy beef herds is 100 kilograms of CO<sub>2</sub>eq. Methane accounts for 49% of its emissions. So, if we remove methane, the remaining footprint is 51 kgCO<sub>2</sub>eq (shown in red).</p><p>As we see, methane emissions are large for beef and lamb. This is because cattle and lamb are what we call &#x2018;<a href="https://en.wikipedia.org/wiki/Ruminant">ruminants</a>&#x2019;, in the process of digesting food they produce a lot of methane. If we removed methane their emissions would fall by around half. It also matters a lot for dairy production, and a reasonable amount for farmed shrimps and fish.&#xA0;</p><p>This is not the case for plant-based foods, with the exception of rice. Paddy rice is typically grown in flooded fields: the microbes in these waterlogged soils produce methane.&#xA0;</p><p>This means that beef, lamb and dairy products are particularly sensitive to how we treat methane in our metrics of greenhouse gas emissions. Few would argue that we should eliminate methane completely, but, as explained, there is an ongoing debate as to how to weigh the methane emissions &#x2013; whether the grey bar should shrink or grow in these comparisons.</p><p>So is it true that red meat and dairy only has a large carbon footprint because of methane? As the red bars show it is not.&#xA0;</p><p>Although the magnitude of the differences change, the ranking of different food products does not.&#xA0;</p><p>The differences are still large. The average footprint of beef, excluding methane, is 36 kilograms of CO<sub>2</sub>eq per kilogram. This is still nearly four times the mean footprint of chicken. Or 10 to 100 times the footprint of most plant-based foods.&#xA0;</p><p>Where do the non-methane emissions from cattle and lamb come from? For most producers the key emissions sources are due land use changes; the conversion of peat soils to agriculture; the land required to grow animal feed; the pasture management (including liming, fertilizing, and irrigation); and the emissions from slaughter waste.&#xA0;</p><p>What about the impact of producers who are not raising livestock on converted land? Do they have a low footprint? In our <a href="https://ourworldindata.org/less-meat-or-sustainable-meathttps://ourworldindata.org/less-meat-or-sustainable-meat">related article</a> I look in detail at the distribution of GHG emissions for each product, from the lowest to highest emitters. When we exclude methane, the absolute lowest beef producer in this large global dataset of 38,000 farms in 119 countries had a footprint of 6 kilograms of CO<sub>2</sub>eq per kilogram. Emissions in this case were the result of nitrous oxide from manure; machinery and equipment; transport of cows to slaughter; emissions from slaughter; and food waste (which can be high for fresh meat). 6 kilograms of CO<sub>2</sub>eq (excluding methane) is of course much lower than the average for beef, but still several times higher than most plant-based foods.</p></div><div class="wp-block-column"><figure class="wp-block-image size-full"><img src="https://ourworldindata.org/uploads/2020/03/GHG-emissions-by-food-type-with-and-without-CH4.png" alt="Ghg emissions by food type with and without ch4" class="wp-image-30425" srcset="https://ourworldindata.org/uploads/2020/03/GHG-emissions-by-food-type-with-and-without-CH4.png 2073w, https://ourworldindata.org/uploads/2020/03/GHG-emissions-by-food-type-with-and-without-CH4-400x386.png 400w, https://ourworldindata.org/uploads/2020/03/GHG-emissions-by-food-type-with-and-without-CH4-570x550.png 570w, https://ourworldindata.org/uploads/2020/03/GHG-emissions-by-food-type-with-and-without-CH4-150x145.png 150w, https://ourworldindata.org/uploads/2020/03/GHG-emissions-by-food-type-with-and-without-CH4-768x742.png 768w, https://ourworldindata.org/uploads/2020/03/GHG-emissions-by-food-type-with-and-without-CH4-1536x1483.png 1536w, https://ourworldindata.org/uploads/2020/03/GHG-emissions-by-food-type-with-and-without-CH4-2048x1978.png 2048w" sizes="(max-width: 2073px) 100vw, 2073px" data-high-res-src="https://ourworldindata.org/uploads/2020/03/GHG-emissions-by-food-type-with-and-without-CH4.png"></figure></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="comparing-the-footprints-of-protein-rich-foods"><a class="deep-link" href="#comparing-the-footprints-of-protein-rich-foods"></a>Comparing the footprints of protein-rich foods</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>Is it perhaps misleading to compare foods on the basis of mass? After all one kilogram of beef does not have the same nutritional value as one kilogram of tofu.&#xA0;</p><p>In the other visualization I therefore show these comparisons as the carbon footprint per 100 grams of <em>protein</em>. Again, emissions from methane are shown in grey; but this time, emissions excluding methane are shown in blue.</p><p>The results are again similar: even if we excluded methane completely, the footprint of lamb or beef from dairy herds is five times higher than tofu; ten times higher than beans; and more than twenty times higher than peas for the same amount of protein.</p><p>The weight we give to methane matters for the magnitude of the differences in carbon footprint we see between food products. However, it doesn&#x2019;t change the general conclusion: meat and dairy products still top the list, and the differences between foods remain large.</p></div><div class="wp-block-column"><figure class="wp-block-image size-full"><img src="https://ourworldindata.org/uploads/2020/03/GHG-emissions-per-100g-protein-with-and-without-CH4.png" alt="Ghg emissions per 100g protein with and without ch4" class="wp-image-30424" srcset="https://ourworldindata.org/uploads/2020/03/GHG-emissions-per-100g-protein-with-and-without-CH4.png 2123w, https://ourworldindata.org/uploads/2020/03/GHG-emissions-per-100g-protein-with-and-without-CH4-400x383.png 400w, https://ourworldindata.org/uploads/2020/03/GHG-emissions-per-100g-protein-with-and-without-CH4-574x550.png 574w, https://ourworldindata.org/uploads/2020/03/GHG-emissions-per-100g-protein-with-and-without-CH4-150x144.png 150w, https://ourworldindata.org/uploads/2020/03/GHG-emissions-per-100g-protein-with-and-without-CH4-768x736.png 768w, https://ourworldindata.org/uploads/2020/03/GHG-emissions-per-100g-protein-with-and-without-CH4-1536x1472.png 1536w, https://ourworldindata.org/uploads/2020/03/GHG-emissions-per-100g-protein-with-and-without-CH4-2048x1962.png 2048w" sizes="(max-width: 2123px) 100vw, 2123px" data-high-res-src="https://ourworldindata.org/uploads/2020/03/GHG-emissions-per-100g-protein-with-and-without-CH4.png"></figure></div></div><div class="block-wrapper" data-reactroot><div data-variation="full-width" class="wp-block-owid-additional-information"><h3 id="additional-information-how-to-we-quantify-greenhouse-gas-emissions"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-8 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg>Additional information: how to we quantify greenhouse gas emissions?</h3><div style="height:0;overflow:hidden" aria-hidden="true" class="rah-static rah-static--height-zero"><div style="transition:opacity 250ms ease 0ms;-webkit-transition:opacity 250ms ease 0ms;opacity:0"><div class="content">
+
+
+
+
+
+<p>The standard metric used to quantify GHG emissions is &#x2018;carbon dioxide-equivalents&#x2019;. This is the metric adopted by the United Nations Framework Convention on Climate Change (UNFCCC); is used in official GHG reporting and target-setting by countries and institutions; and is the most widely adopted metric used within the scientific literature. As some researchers have highlighted, the lack of life-cycle assessment data disaggregated by gas can result in the loss of important information which could help us develop more optimal strategies for climate mitigation.<a id="ref-8" class="ref" href="#note-8"><sup>8</sup></a></p>
+
+
+
+<p>What are carbon dioxide-equivalents? Carbon dioxide (CO<sub>2</sub>) is the most important greenhouse gas, but not the only one &#x2013; gases such as methane and nitrous oxide are also a driver of global warming. Carbon dioxide-equivalents (CO<sub>2</sub>eq) try to sum all of the warming impacts of the different greenhouse gases together in order to give a single measure of total greenhouse gas emissions. Two things make this more complicated: the gases have different &#x2018;strengths&#x2019; of warming; and gases persist for different amounts of time in the atmosphere.</p>
+
+
+
+<p>To convert non-CO<sub>2</sub> gases into their carbon dioxide-equivalents we multiply their mass (e.g. kilograms of methane emitted) by their &#x2018;global warming potential&#x2019; (GWP). GWP measures the warming impacts of a gas compared to CO<sub>2</sub>; it basically measures the &#x2018;strength&#x2019; of the greenhouse gas averaged over a chosen time horizon. The standard way to do this is to evaluate the GWP over a 100-year timescale (GWP<sub>100</sub>). GWP<sub>100</sub> is the accounting metric adopted by the Intergovernmental Panel on Climate Change (IPCC) in inventory guidelines, although their Fifth Assessment report (AR5) did not explicitly recommend its use. Chapter 8 of this report described both GWP and Global Temperature-change Potential (GTP) as examples of different metrics which were useful dependent on the question being asked.&#xA0;&#xA0;</p>
+
+
+
+<p>The GWP<sub>100</sub> value for methane from AR5 is 28 (or 34 if climate feedback processes are included).<a id="ref-9" class="ref" href="#note-9"><sup>9</sup></a> This means that emitting one kilogram of methane creates 28 times the amount of warming as one kilogram of CO<sub>2</sub> averaged over the next 100 years. But what this doesn&#x2019;t account for is the fact that methane is a short-lived greenhouse gas. It has a very strong warming impact when it&#x2019;s first emitted, but this warming impact diminishes over the following decades. Whereas, if you emitted the same amount of CO<sub>2</sub>, it could persist for centuries.</p>
+
+
+
+<p>Using this GWP<sub>100</sub> metric can therefore misrepresent the impact of short-lived gases such as methane in both directions.<a id="ref-10" class="ref" href="#note-10"><sup>10</sup></a> &#xA0;It underestimates short-term warming: the warming impact of methane when it&#x2019;s first emitted and the following years is much higher than the &#x2018;28&#x2019; value assigned by GWP<sub>100</sub>. Some people therefore argue we should use a value which represents the global warming potential over 20 years (GWP<sub>20</sub>) since it gives a better indication of short-term warming. The IPCC report a GWP<sub>20</sub> value of 84 for methane (86 if feedbacks are included). Others argue that GWP<sub>100</sub> <em>overestimates long-term impacts</em> of methane; the methane emitted today will not be around a century from now. These differences are reflected by the large changes in GTP over different time horizons. The GTP<sub>100</sub> value for methane is 4, whereas GTP<sub>20</sub> is 67.</p>
+
+
+
+<p>This makes it difficult to reconcile these warming impacts into a single metric. And our choice of metric can have an impact on how we prioritise GHG reduction strategies: do we first target strong but short-lived gases such as methane? This may slow warming in the short-term &#x2013; a reasonable argument if we are concerned about approaching temperature-induced tipping points. Or do we focus instead on the persistent CO<sub>2</sub> emissions which will be the primary driver of long-term temperature impacts?</p>
+
+
+
+<p>Some researchers have developed new methods which aim to provide a closer representation of the actual temperature response to different gases. Myles Allen, Michelle Cain and colleagues at the University of Oxford&#x2019;s Martin School lead a <a href="https://www.oxfordmartin.ox.ac.uk/pollutants/">research programme</a> on climate pollutants, which look directly at this challenge.&#xA0;&#xA0;</p>
+
+
+
+<p>They have proposed a new way to represent short-lived greenhouse gas emissions &#x2013; GWP* &#x2013; which aims to be more representative of warming response.<a id="ref-11" class="ref" href="#note-11"><sup>11</sup></a><sup>,</sup><a id="ref-12" class="ref" href="#note-12"><sup>12</sup></a> Dr Michelle Cain, one of the lead researchers in this area, discusses the challenges of GHG metrics and the role of a new GWP* metric, in an article in the <em>Carbon Brief</em> <a href="https://www.carbonbrief.org/guest-post-a-new-way-to-assess-global-warming-potential-of-short-lived-pollutants"><strong>here</strong></a>.&#xA0;</p>
+
+
+
+<p>GWP* is used to calculate CO<sub>2</sub>-warming-equivalent emissions, which reflects that (a) increasing methane emissions would immediately increase global temperature, (b) rapidly decreasing methane emissions would immediately reduce global temperature, and (c) a gradual decline in methane emissions would stabilise the global temperature attributed to methane. Scenarios (b) and (c) are very different to CO<sub>2</sub>, as rapidly or gradually decreasing CO<sub>2</sub> emissions leads to further global temperature increases (only the rate of temperature increase slows).&#xA0;</p>
+
+
+
+<p>This is explored further in a Oxford Martin School briefing note, found <a href="https://www.oxfordmartin.ox.ac.uk/publications/net-zero-for-agriculture/https://www.oxfordmartin.ox.ac.uk/publications/net-zero-for-agriculture/"><strong>here</strong></a>, and the recent publication by researchers John Lynch, Michelle Cain, Raymond Pierrehumbert and Myles Allen (2020).<a id="ref-13" class="ref" href="#note-13"><sup>13</sup></a><br></p>
+
+</div></div></div></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div><footer class="article-footer"><div class="wp-block-columns"><div class="wp-block-column"><h3 id="references">References</h3><ol class="references"><li id="note-1"><p>Etminan et al. (2016) estimated the radiative forcing of the change in methane concentration from 1750 to 2011 to be 0.62 watts per meter squared. The total radiative forcing over this period has been estimated at 2.75 watts per meter squared. Methane was therefore responsible for 23% [0.62 / 2.75 *100] of warming.<br><br>This 23% is also referenced by the Global Methane Budget. However, it also acknowledges that its total impact is likely to be higher once we include feedback processes on other forcings: CH<sub>4</sub> contributes to the production of ozone, stratospheric water vapour, and CO2, and most importantly affects its own lifetime.” The IPCC AR5 report suggests the radiation forcing from methane from 1750 to 2011 to be 0.97 Wm<sup>2</sup><sub> </sub>– around 40% of the total forcing of 2.29 Wm<sup>2</sup>.&nbsp;</p>
+
+
+
+<p>Etminan, M., Myhre, G., Highwood, E. J., &amp; Shine, K. P. (2016). <a href="https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1002/2016GL071930">Radiative forcing of carbon dioxide, methane, and nitrous oxide: A significant revision of the methane radiative forcing</a>. <em>Geophysical Research Letters</em>, 43(24), 12-614.<br><br>Myhre, G., D. Shindell, F.-M. Bréon, W. Collins, J. Fuglestvedt, J. Huang, D. Koch, J.-F. Lamarque, D. Lee, B. Mendoza, T. Nakajima, A. Robock, G. Stephens, T. Takemura and H. Zhang, 2013: <a href="https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_Chapter08_FINAL.pdf">Anthropogenic and Natural Radiative Forcing. In: Climate Change 2013: The Physical Science Basis. Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change</a> [Stocker, T.F., D. Qin, G.-K. Plattner, M. Tignor, S.K. Allen, J. Boschung, A. Nauels, Y. Xia, V. Bex and P.M. Midgley (eds.)]. Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA.</p></li><li id="note-2"><p>Carbon dioxide, methane and nitrous oxide are most commonly discussed greenhouse gases, but this list also includes chlorofluorocarbons, hydrofluorocarbons, perfluorocarbons, sulphur hexafluoride, ozone and water vapour.</p></li><li id="note-3"><p>IPCC, 2013: Climate Change 2013: <a href="https://www.ipcc.ch/report/ar5/wg1/"><em>The Physical Science Basis. Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change</em></a> [Stocker, T.F., D. Qin, G.-K. Plattner, M. Tignor, S.K. Allen, J. Boschung, A. Nauels, Y. Xia, V. Bex and P.M. Midgley (eds.)]. Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA, 1535 pp.</p></li><li id="note-4"><p>This GWP<sub>100</sub> value for methane is 34 if climate change feedbacks are included.</p></li><li id="note-5"><p>Most greenhouse gases are assigned a ‘lifetime’ estimate – this measures how long a ‘pulse’ of that gas emitted into the atmosphere would take to decay to around one-third (0.368 (=1/e)) of its original value. CO<sub>2</sub> is a gas for which it’s difficult to assign a single lifetime value to: this is because there are many, complex biogeochemical processes and cycles which can remove CO<sub>2</sub> from the atmosphere. Most estimates <a href="https://cdiac.ess-dive.lbl.gov/pns/current_ghg.html">fall in the range</a> of 100 to 300 years, but this can range from decades to thousands of years.</p></li><li id="note-6"><p>The data represents the global <em>mean</em> emissions for each food product. This can be quite different from the <em>median</em> footprint – which we present <a href="https://ourworldindata.org/food-choice-vs-eating-local"><strong>here</strong></a> – when there is a significant amount of skew in the data. Skew in food footprint data can arise when impacts are dominated by a small number of high-impact producers.</p></li><li id="note-7"><p>Poore, J., &amp; Nemecek, T. (2018). <a href="https://science.sciencemag.org/content/360/6392/987">Reducing food’s environmental impacts through producers and consumers</a>. <em>Science</em>, 360(6392), 987-992.</p></li><li id="note-8"><p>Lynch, J. (2019). <a href="https://www.sciencedirect.com/science/article/pii/S0195925518303603?via%3Dihubhttps://www.sciencedirect.com/science/article/pii/S0195925518303603?via%3Dihub">Availability of disaggregated greenhouse gas emissions from beef cattle production: A systematic review</a>. <em>Environmental Impact Assessment Review</em>, 76, 69-78.</p></li><li id="note-9"><p>IPCC, 2013: Climate Change 2013: <a href="https://www.ipcc.ch/report/ar5/wg1/"><em>The Physical Science Basis. Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change</em></a> [Stocker, T.F., D. Qin, G.-K. Plattner, M. Tignor, S.K. Allen, J. Boschung, A. Nauels, Y. Xia, V. Bex and P.M. Midgley (eds.)]. Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA, 1535 pp.</p></li><li id="note-10"><p>Balcombe, P., Speirs, J. F., Brandon, N. P., &amp; Hawkes, A. D. (2018). <a href="https://pubs.rsc.org/en/content/articlelanding/2018/em/c8em00414e#!divAbstract">Methane emissions: choosing the right climate metric and time horizon</a>. <em>Environmental Science: Processes &amp; Impacts</em>, 20(10), 1323-1339.</p></li><li id="note-11"><p>Allen, M. R., Shine, K. P., Fuglestvedt, J. S., Millar, R. J., Cain, M., Frame, D. J., &amp; Macey, A. H. (2018). <a href="https://www.nature.com/articles/nclimate2998">A solution to the misrepresentations of CO 2-equivalent emissions of short-lived climate pollutants under ambitious mitigation</a>. <em>Npj Climate and Atmospheric Science</em>, 1(1), 1-8.</p></li><li id="note-12"><p>Allen, M. R., Fuglestvedt, J. S., Shine, K. P., Reisinger, A., Pierrehumbert, R. T., &amp; Forster, P. M. (2016). <a href="https://www.nature.com/articles/nclimate2998">New use of global warming potentials to compare cumulative and short-lived climate pollutants</a>. <em>Nature Climate Change</em>, <em>6</em>(8), 773.</p></li><li id="note-13"><p>Lynch, J. M., Cain, M., Pierrehumbert, R. T., &amp; Allen, M. (2020). <a href="https://iopscience.iop.org/article/10.1088/1748-9326/ab6d7e">Demonstrating GWP*: a means of reporting warming-equivalent emissions that captures the contrasting impacts of short-and long-lived climate pollutants</a>. <em>Environmental Research Letters</em>.</p></li></ol></div><div class="wp-block-column"></div></div></footer></div></div></div></article></main><div id="wpadminbar" style="display:none"><div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar"><ul id="wp-admin-bar-root-default" class="ab-top-menu"><li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="https://owid.cloud/wp/wp-admin">Wordpress</a></li> <li id="wp-admin-bar-edit"><a class="ab-item" href="https://owid.cloud/wp/wp-admin/post.php?post=30422&amp;action=edit">Edit Page</a></li></ul></div></div><section class="donate-footer"><div class="wrapper"><div class="owid-row flex-align-center"><div class="owid-col owid-col--lg-3 owid-padding-bottom--sm-3"><p>Our World in Data is free and accessible for everyone.</p><p>Help us do this work by making a donation.</p></div><div class="owid-col owid-col--lg-1"><a href="/donate" class="owid-button donate-button" data-track-click="true" data-track-note="donate-footer"><span class="label">Donate now</span><span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-8 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg></span></a></div></div></div></section><footer class="site-footer"><div class="wrapper"><div class="owid-row"><div class="owid-col owid-col--lg-1"><ul><li><a href="/about" data-track-click="true" data-track-note="footer-navigation">About</a></li><li><a href="/about#contact" data-track-click="true" data-track-note="footer-navigation">Contact</a></li><li><a href="/feedback" data-track-click="true" data-track-note="footer-navigation">Feedback</a></li><li><a href="/jobs" data-track-click="true" data-track-note="footer-navigation">Jobs</a></li><li><a href="/supporters" data-track-click="true" data-track-note="footer-navigation">Supporters</a></li><li><a href="/about/how-to-use-our-world-in-data" data-track-click="true" data-track-note="footer-navigation">How to use</a></li><li><a href="/donate" data-track-click="true" data-track-note="footer-navigation">Donate</a></li><li><a href="/privacy-policy" data-track-click="true" data-track-note="footer-navigation">Privacy policy</a></li></ul></div><div class="owid-col owid-col--lg-1"><ul><li><a href="/blog" data-track-click="true" data-track-note="footer-navigation">Latest publications</a></li><li><a href="/charts" data-track-click="true" data-track-note="footer-navigation">All charts</a></li></ul><ul><li><a href="https://twitter.com/OurWorldInData" data-track-click="true" data-track-note="footer-navigation">Twitter</a></li><li><a href="https://www.facebook.com/OurWorldinData" data-track-click="true" data-track-note="footer-navigation">Facebook</a></li><li><a href="https://github.com/owid" data-track-click="true" data-track-note="footer-navigation">GitHub</a></li><li><a href="/feed" data-track-click="true" data-track-note="footer-navigation">RSS Feed</a></li></ul></div><div class="owid-col owid-col--lg-1"><div class="logos"><a href="https://www.oxfordmartin.ox.ac.uk/research/programmes/global-development" class="partner-logo" data-track-click="true" data-track-note="footer-navigation"><img src="/oxford-logo-rect.png" alt="University of Oxford logo"/></a><a href="https://global-change-data-lab.org/" class="partner-logo" data-track-click="true" data-track-note="footer-navigation"><img src="/gcdl-logo.png" alt="Global Change Data Lab logo"/></a><a href="/owid-at-ycombinator" class="partner-logo" data-track-click="true" data-track-note="footer-navigation"><img src="/yc-logo.png" alt="Y Combinator logo"/></a></div></div><div class="owid-col flex-2"><div class="legal"><p>License: All of Our World in Data is completely open access and all work is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY license</a>. You have the permission to use, distribute, and reproduce in any medium, provided the source and authors are credited.</p><p>Please consult our full <a href="/about#legal">legal disclaimer</a>.</p><p>Our World In Data is a project of the <a href="https://global-change-data-lab.org/">Global Change Data Lab</a>, a registered charity in England and Wales (Charity Number 1186433).</p></div></div></div></div><div class="injectFeedback"></div><script src="https://ourworldindata.org/assets/js/commons.js"></script><script src="https://ourworldindata.org/assets/js/owid.js"></script><script>
+                runHeaderMenus();
+                runBlocks();
+                runLightbox();
+                runFeedback();
+                runCookieNotice();
+                if (!document.querySelector(".ChartPage")) {
+                    Grapher.embedAll();
+                }
+            </script></footer><script>
+                        runTableOfContents({"headings":[],"pageTitle":"The carbon footprint of foods: are differences explained by the impacts of methane?"})
+                        </script></body></html>

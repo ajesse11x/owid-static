@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2020-03-05T13:20:30.000Z</updated>
+<updated>2020-03-10T11:27:00.000Z</updated>
+<entry>
+    <title><![CDATA[The carbon footprint of foods: are differences explained by the impacts of methane?]]></title>
+    <id>https://ourworldindata.org/carbon-footprint-food-methane</id>
+    <link rel="alternate" href="https://ourworldindata.org/carbon-footprint-food-methane"/>
+    <published>2020-03-10T11:27:00.000Z</published>
+    <updated>2020-03-10T12:41:05.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[How we treat the climate impacts of methane has a significant difference on the carbon footprint of foods. But even if we exclude methane, meat and dairy products have the highest footprint.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Coronavirus Disease (COVID-19)]]></title>
     <id>https://ourworldindata.org/coronavirus-disease-covid-19</id>
@@ -88,14 +97,5 @@ We will extend this page in the days ahead.]]></summary>
     <updated>2020-02-20T17:03:14.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[‘Eat local’ is a common recommendation to reduce the carbon footprint of your diet. But transport tends to account for a small share of greenhouse gas emissions. How does the impact of what you eat compare to where it’s come from? ]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Is there a loneliness epidemic?]]></title>
-    <id>https://ourworldindata.org/loneliness-epidemic</id>
-    <link rel="alternate" href="https://ourworldindata.org/loneliness-epidemic"/>
-    <published>2019-12-11T15:39:34.000Z</published>
-    <updated>2020-01-30T18:00:31.000Z</updated>
-    <author><name>Esteban Ortiz-Ospina</name></author>
-    <summary><![CDATA[The media claims we are experiencing a ‘loneliness epidemic’. What is the evidence for this?]]></summary>
 </entry>
 </feed>
