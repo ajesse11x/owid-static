@@ -5,16 +5,7 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2020-03-13T14:13:23.000Z</updated>
-<entry>
-    <title><![CDATA[How many tests for COVID-19 are being performed around the world?]]></title>
-    <id>https://ourworldindata.org/covid-testing</id>
-    <link rel="alternate" href="https://ourworldindata.org/covid-testing"/>
-    <published>2020-03-13T14:13:23.000Z</published>
-    <updated>2020-03-13T16:27:31.000Z</updated>
-    <author><name>Esteban Ortiz-Ospina</name></author>
-    <summary><![CDATA[Testing is crucial to understand the prevalence of the disease, to provide timely treatment to those infected, to understand how the disease evolves, and to ensure that we take measures to stop the disease from spreading. ]]></summary>
-</entry>
+<updated>2020-03-10T21:03:49.000Z</updated>
 <entry>
     <title><![CDATA[How many tests for COVID-19 are being performed around the world?]]></title>
     <id>https://ourworldindata.org/covid-testing-10march</id>
@@ -95,5 +86,14 @@
     <updated>2020-01-28T13:53:36.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[Transporting food by plane can come with a large carbon footprint. But very little of our food travels this way – just 0.16% of food miles are from air travel.]]></summary>
+</entry>
+<entry>
+    <title><![CDATA[You want to reduce the carbon footprint of your food? Focus on what you eat, not whether your food is local]]></title>
+    <id>https://ourworldindata.org/food-choice-vs-eating-local</id>
+    <link rel="alternate" href="https://ourworldindata.org/food-choice-vs-eating-local"/>
+    <published>2020-01-24T06:20:24.000Z</published>
+    <updated>2020-02-20T17:03:14.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[‘Eat local’ is a common recommendation to reduce the carbon footprint of your diet. But transport tends to account for a small share of greenhouse gas emissions. How does the impact of what you eat compare to where it’s come from? ]]></summary>
 </entry>
 </feed>
