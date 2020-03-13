@@ -16156,7 +16156,15 @@
         <lastmod>2020-03-12</lastmod>
     </url>
     <url>
+        <loc>https://ourworldindata.org/grapher/covid-19-tests-country</loc>
+        <lastmod>2020-03-13</lastmod>
+    </url>
+    <url>
         <loc>https://ourworldindata.org/grapher/covid19-tests-per-million-people</loc>
+        <lastmod>2020-03-13</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/population-wdi</loc>
         <lastmod>2020-03-13</lastmod>
     </url>
 </urlset>
