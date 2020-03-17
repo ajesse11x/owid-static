@@ -16187,4 +16187,8 @@
         <loc>https://ourworldindata.org/grapher/total-covid-deaths-per-million</loc>
         <lastmod>2020-03-17</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/new-covid-deaths-per-million</loc>
+        <lastmod>2020-03-17</lastmod>
+    </url>
 </urlset>
