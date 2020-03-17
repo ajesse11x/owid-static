@@ -16175,4 +16175,8 @@
         <loc>https://ourworldindata.org/grapher/covid-confirmed-cases-since-100th-case</loc>
         <lastmod>2020-03-16</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/total-confirmed-cases-of-covid-19-per-million-people</loc>
+        <lastmod>2020-03-17</lastmod>
+    </url>
 </urlset>
