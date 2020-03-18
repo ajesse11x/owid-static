@@ -16207,4 +16207,12 @@
         <loc>https://ourworldindata.org/grapher/total-covid-19-tests-performed-or-individuals-tested-per-million-people</loc>
         <lastmod>2020-03-17</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/tests-vs-confirmed-cases-covid-19-per-million</loc>
+        <lastmod>2020-03-18</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/tests-vs-confirmed-cases-covid-19</loc>
+        <lastmod>2020-03-18</lastmod>
+    </url>
 </urlset>
