@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2020-03-18T17:13:00.000Z</updated>
+<updated>2020-03-19T17:17:51.000Z</updated>
+<entry>
+    <title><![CDATA[COVID-19 deaths and cases: how do sources compare?]]></title>
+    <id>https://ourworldindata.org/covid-sources-comparison</id>
+    <link rel="alternate" href="https://ourworldindata.org/covid-sources-comparison"/>
+    <published>2020-03-19T17:17:51.000Z</published>
+    <updated>2020-03-19T17:44:44.000Z</updated>
+    <author><name>Hannah Ritchie</name></author><author><name>Esteban Ortiz-Ospina</name></author><author><name>Max Roser</name></author><author><name>Joe Hasell</name></author>
+    <summary><![CDATA[There are three main data sources on the latest Coronavirus outbreak (COVID-19). How do estimates of confirmed cases and deaths compare?]]></summary>
+</entry>
 <entry>
     <title><![CDATA[How many tests for COVID-19 are being performed around the world?]]></title>
     <id>https://ourworldindata.org/covid-testing</id>
@@ -86,14 +95,5 @@
     <updated>2020-02-03T16:06:36.000Z</updated>
     <author><name>Max Roser</name></author>
     <summary><![CDATA[Adjusted for both population growth and aging, mortality from cancer is falling globally.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Very little of global food is transported by air; this greatly reduces the climate benefits of eating local]]></title>
-    <id>https://ourworldindata.org/food-transport-by-mode</id>
-    <link rel="alternate" href="https://ourworldindata.org/food-transport-by-mode"/>
-    <published>2020-01-28T09:30:30.000Z</published>
-    <updated>2020-01-28T13:53:36.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[Transporting food by plane can come with a large carbon footprint. But very little of our food travels this way – just 0.16% of food miles are from air travel.]]></summary>
 </entry>
 </feed>
