@@ -16235,4 +16235,8 @@
         <loc>https://ourworldindata.org/grapher/deaths-from-covid-by-source</loc>
         <lastmod>2020-03-19</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/covid-confirmed-deaths-since-10th-death</loc>
+        <lastmod>2020-03-20</lastmod>
+    </url>
 </urlset>
