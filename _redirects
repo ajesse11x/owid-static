@@ -872,5 +872,6 @@
 /grapher/primary-energy-cons-by-source /grapher/primary-energy-consumption-by-source 302
 /grapher/food-supply-by-region-kilocalories /grapher/food-supply-kcal 302
 /grapher/daily-new-confirmed-deaths-due-to-covid-19 /grapher/daily-deaths-covid-19-who 302
-/grapher/total-confirmed-cases-of-covid-19 /grapher/total-cases-covid-19-who 302
+/grapher/total-confirmed-cases-of-covid-19 /grapher/total-cases-covid-19 302
 /grapher/daily-new-confirmed-cases-of-covid-19 /grapher/daily-cases-covid-19-who 302
+/grapher/total-cases-covid-19-who /grapher/total-cases-covid-19 302
