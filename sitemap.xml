@@ -16267,4 +16267,8 @@
         <loc>https://ourworldindata.org/grapher/tests-of-covid-19-per-million-people-vs-gdp-per-capita</loc>
         <lastmod>2020-03-22</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/total-confirmed-deaths-of-covid-19-per-million-people-vs-gdp-per-capita</loc>
+        <lastmod>2020-03-22</lastmod>
+    </url>
 </urlset>
