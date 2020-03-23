@@ -2993,7 +2993,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/coronavirus</loc>
-        <lastmod>2020-03-22</lastmod>
+        <lastmod>2020-03-23</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/agricultural-production</loc>
@@ -3038,6 +3038,10 @@
     <url>
         <loc>https://ourworldindata.org/covid-sources-comparison</loc>
         <lastmod>2020-03-19</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/kurzgesagt-coronavirus-video</loc>
+        <lastmod>2020-03-23</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/suicide-rates-by-country</loc>
