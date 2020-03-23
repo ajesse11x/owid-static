@@ -16291,4 +16291,8 @@
         <loc>https://ourworldindata.org/grapher/case-fatality-rate-covid-19</loc>
         <lastmod>2020-03-23</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/total-daily-covid-deaths</loc>
+        <lastmod>2020-03-23</lastmod>
+    </url>
 </urlset>
