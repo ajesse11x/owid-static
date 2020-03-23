@@ -16303,4 +16303,8 @@
         <loc>https://ourworldindata.org/grapher/total-covid-cases-deaths-per-million</loc>
         <lastmod>2020-03-23</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/total-daily-covid-deaths-per-million</loc>
+        <lastmod>2020-03-23</lastmod>
+    </url>
 </urlset>
