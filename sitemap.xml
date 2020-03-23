@@ -16307,4 +16307,8 @@
         <loc>https://ourworldindata.org/grapher/total-daily-covid-deaths-per-million</loc>
         <lastmod>2020-03-23</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/rate-confirmed-cases-vs-rate-confirmed-deaths</loc>
+        <lastmod>2020-03-23</lastmod>
+    </url>
 </urlset>
