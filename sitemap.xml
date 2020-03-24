@@ -16323,4 +16323,8 @@
         <loc>https://ourworldindata.org/grapher/coronavirus-cfr</loc>
         <lastmod>2020-03-24</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/covid-deaths-days-since-per-million</loc>
+        <lastmod>2020-03-24</lastmod>
+    </url>
 </urlset>
