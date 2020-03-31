@@ -16399,4 +16399,8 @@
         <loc>https://ourworldindata.org/grapher/full-list-daily-covid-19-tests-per-million-people</loc>
         <lastmod>2020-03-31</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/full-list-total-tests-for-covid-19</loc>
+        <lastmod>2020-03-31</lastmod>
+    </url>
 </urlset>
