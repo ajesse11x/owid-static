@@ -16391,4 +16391,8 @@
         <loc>https://ourworldindata.org/grapher/full-list-cumulative-total-tests-per-million</loc>
         <lastmod>2020-03-31</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/full-list-covid-19-tests-per-day</loc>
+        <lastmod>2020-03-31</lastmod>
+    </url>
 </urlset>
