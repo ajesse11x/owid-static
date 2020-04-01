@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2020-03-25T15:16:42.000Z</updated>
+<updated>2020-03-31T21:06:00.000Z</updated>
+<entry>
+    <title><![CDATA[Data on COVID-19 testing]]></title>
+    <id>https://ourworldindata.org/covid-testing</id>
+    <link rel="alternate" href="https://ourworldindata.org/covid-testing"/>
+    <published>2020-03-31T21:06:00.000Z</published>
+    <updated>2020-04-01T15:26:56.000Z</updated>
+    <author><name>Joe Hasell</name></author><author><name>Max Roser</name></author><author><name>Esteban Ortiz-Ospina</name></author>
+    <summary><![CDATA[Without testing for COVID-19 we cannot know how many people are infected with the disease. And without this data we cannot know what is happening. That is why we are bringing together the available data on testing from countries around the world.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[What do we know about the risk of dying from COVID-19?]]></title>
     <id>https://ourworldindata.org/covid-mortality-risk</id>
@@ -86,14 +95,5 @@
     <updated>2020-03-03T22:23:14.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[Based on safety and carbon emissions, fossil fuels are the dirtiest and most dangerous, while nuclear and modern renewable energy sources are vastly safer and cleaner.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Redesigning Our World in Data: from posts and articles to posts in articles]]></title>
-    <id>https://ourworldindata.org/redesigning-from-posts-and-articles-to-posts-in-articles</id>
-    <link rel="alternate" href="https://ourworldindata.org/redesigning-from-posts-and-articles-to-posts-in-articles"/>
-    <published>2020-02-07T14:00:00.000Z</published>
-    <updated>2020-02-07T14:12:18.000Z</updated>
-    <author><name>Matthieu Bergel</name></author>
-    <summary><![CDATA[]]></summary>
 </entry>
 </feed>
