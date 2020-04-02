@@ -16352,7 +16352,7 @@
         <lastmod>2020-03-31</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/covid-confirmed-daily-cases-since-100th-case</loc>
+        <loc>https://ourworldindata.org/grapher/covid-confirmed-daily-cases-epidemiological-trajectory</loc>
         <lastmod>2020-04-02</lastmod>
     </url>
     <url>
@@ -16405,6 +16405,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/covid-stringency-index</loc>
+        <lastmod>2020-04-02</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/covid-confirmed-daily-deaths-epidemiological-trajectory</loc>
         <lastmod>2020-04-02</lastmod>
     </url>
 </urlset>
