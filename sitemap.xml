@@ -16415,4 +16415,8 @@
         <loc>https://ourworldindata.org/grapher/intensive-care-beds-per-100000</loc>
         <lastmod>2020-04-03</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/number-intensive-care-beds</loc>
+        <lastmod>2020-04-03</lastmod>
+    </url>
 </urlset>
