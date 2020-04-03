@@ -16403,4 +16403,8 @@
         <loc>https://ourworldindata.org/grapher/number-acute-care-beds</loc>
         <lastmod>2020-04-03</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/critical-care-beds-per-1000</loc>
+        <lastmod>2020-04-03</lastmod>
+    </url>
 </urlset>
