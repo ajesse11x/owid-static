@@ -31,4 +31,20 @@
             figure.setAttribute("id", "fallback");
             throw err;
         }
+    </script></body></html>on":8,"subtitle":"Maternal Neonatal Tetanus (MNT) is considered eliminated in a country when less than 1 case occurs in 1000 live births. This map shows the decade elimination was achieved. As of 2018, 14 countries have not yet eliminated tetanus.","hasMapTab":true,"stackMode":"absolute","dimensions":[{"display":{},"property":"y","variableId":85620}],"entityType":"","hasChartTab":false,"isAutoTitle":true,"isPublished":true,"selectedData":[{"index":0,"entityId":168},{"index":0,"entityId":147},{"index":0,"entityId":137}],"addCountryMode":"add-country","baseColorScheme":"RdPu","invertColorScheme":true,"hideRelativeToggle":true,"hideTitleAnnotation":true};
+        var figure = document.getElementsByTagName("figure")[0];
+
+        try {
+            window.App = {};
+            var view = window.ChartView.bootstrap({
+                jsonConfig: jsonConfig,
+                containerNode: figure,
+                queryStr: window.location.search
+            });
+            view.bindToWindow();
+        } catch (err) {
+            figure.innerHTML = "<img src=\"/grapher/exports/year-of-maternal-neonatal-tetanus-mnt-elimination.svg\"/><p>Unable to load interactive visualization</p>";
+            figure.setAttribute("id", "fallback");
+            throw err;
+        }
     </script></body></html>

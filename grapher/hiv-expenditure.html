@@ -31,4 +31,20 @@
             figure.setAttribute("id", "fallback");
             throw err;
         }
+    </script></body></html>":0,"entityId":23},{"index":0,"entityId":25},{"index":0,"entityId":26},{"index":0,"entityId":28},{"index":0,"entityId":29},{"index":0,"entityId":30},{"index":0,"entityId":4},{"index":0,"entityId":31},{"index":0,"entityId":32},{"index":0,"entityId":34},{"index":0,"entityId":35},{"index":0,"entityId":36},{"index":0,"entityId":37},{"index":0,"entityId":39},{"index":0,"entityId":40},{"index":0,"entityId":41},{"index":0,"entityId":18581},{"index":0,"entityId":42},{"index":0,"entityId":43},{"index":0,"entityId":174},{"index":0,"entityId":173},{"index":0,"entityId":172},{"index":0,"entityId":171},{"index":0,"entityId":170},{"index":0,"entityId":169},{"index":0,"entityId":168},{"index":0,"entityId":166},{"index":0,"entityId":143}],"addCountryMode":"add-country","hideRelativeToggle":true,"hideTitleAnnotation":true,"id":2293};
+        var figure = document.getElementsByTagName("figure")[0];
+
+        try {
+            window.App = {};
+            var view = window.ChartView.bootstrap({
+                jsonConfig: jsonConfig,
+                containerNode: figure,
+                queryStr: window.location.search
+            });
+            view.bindToWindow();
+        } catch (err) {
+            figure.innerHTML = "<img src=\"/grapher/exports/hiv-expenditure.svg\"/><p>Unable to load interactive visualization</p>";
+            figure.setAttribute("id", "fallback");
+            throw err;
+        }
     </script></body></html>
