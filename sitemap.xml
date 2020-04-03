@@ -11765,7 +11765,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-neonatal-deaths</loc>
-        <lastmod>2019-11-15</lastmod>
+        <lastmod>2020-04-03</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/mortality-rate-attributable-to-wash</loc>
@@ -13932,10 +13932,6 @@
         <lastmod>2019-06-04</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/number-of-adolescents</loc>
-        <lastmod>2019-04-17</lastmod>
-    </url>
-    <url>
         <loc>https://ourworldindata.org/grapher/change-of-gdp-per-capita-extremely-poor</loc>
         <lastmod>2019-05-01</lastmod>
     </url>
@@ -15297,7 +15293,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-adolescents</loc>
-        <lastmod>2019-11-17</lastmod>
+        <lastmod>2020-04-03</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-deaths-suicide</loc>
@@ -15352,8 +15348,8 @@
         <lastmod>2019-11-19</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/number-of-neonatal-deaths</loc>
-        <lastmod>2019-11-19</lastmod>
+        <loc>https://ourworldindata.org/grapher/number-of-neonatal-deaths-ihme</loc>
+        <lastmod>2020-04-03</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-infant-deaths</loc>
