@@ -729,7 +729,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/child-mortality</loc>
-        <lastmod>2020-03-28</lastmod>
+        <lastmod>2020-04-03</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/vaccination</loc>
@@ -2481,7 +2481,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-101</loc>
-        <lastmod>2020-01-04</lastmod>
+        <lastmod>2020-04-03</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-102</loc>
@@ -12944,6 +12944,10 @@
         <lastmod>2019-06-19</lastmod>
     </url>
     <url>
+        <loc>https://ourworldindata.org/grapher/estimated-lifetime-hours-of-work-and-leisure</loc>
+        <lastmod>2020-04-03</lastmod>
+    </url>
+    <url>
         <loc>https://ourworldindata.org/grapher/homicide-rate-ihme-vs-world-bank</loc>
         <lastmod>2019-11-13</lastmod>
     </url>
@@ -13054,6 +13058,10 @@
     <url>
         <loc>https://ourworldindata.org/grapher/firm-size-in-the-us-number-of-employees</loc>
         <lastmod>2019-05-02</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/estimated-lifetime-hours-of-work-and-leisure-alt</loc>
+        <lastmod>2020-04-03</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/significant-earthquakes</loc>
