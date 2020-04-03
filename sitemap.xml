@@ -16423,4 +16423,8 @@
         <loc>https://ourworldindata.org/grapher/number-of-medical-ventilators</loc>
         <lastmod>2020-04-03</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/medical-ventilators-per-100000</loc>
+        <lastmod>2020-04-03</lastmod>
+    </url>
 </urlset>
