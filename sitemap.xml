@@ -865,7 +865,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/economic-growth</loc>
-        <lastmod>2020-03-16</lastmod>
+        <lastmod>2020-04-03</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/global-economic-inequality</loc>
@@ -5804,8 +5804,8 @@
         <lastmod>2020-01-22</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/output-of-key-industries-in-england-and-the-uk</loc>
-        <lastmod>2018-03-15</lastmod>
+        <loc>https://ourworldindata.org/grapher/output-of-key-industries-in-england</loc>
+        <lastmod>2020-04-03</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/meat-production-tonnes</loc>
@@ -15138,10 +15138,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/death-rates-natural-disasters</loc>
         <lastmod>2019-11-07</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/reported-tetanus-cases</loc>
-        <lastmod>2019-11-08</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/tetanus-deaths-by-region</loc>
