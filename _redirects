@@ -883,3 +883,6 @@
 /grapher/covid-confirmed-daily-cases-since-100th-case /grapher/covid-confirmed-daily-cases-epidemiological-trajectory 302!
 /grapher/diarrheal-death-rates-vs-gdp-per-capita /grapher/diarrheal-death-rates-children-vs-gdp-per-capita 302!
 /grapher/number-of-neonatal-deaths /grapher/number-of-neonatal-deaths-ihme 302!
+/grapher/cumulative-total-tests-for-covid-19 /grapher/full-list-total-tests-for-covid-19 302!
+/grapher/covid-19-tests-per-day /grapher/full-list-covid-19-tests-per-day 302!
+/grapher/cumulative-total-tests-per-million /grapher/full-list-cumulative-total-tests-per-million 302!
