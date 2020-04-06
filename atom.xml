@@ -34,15 +34,6 @@
     <summary><![CDATA[We worked with the Youtube channel, Kurzgesagt, to make a video on the COVID-19 pandemic and what to do about it. ]]></summary>
 </entry>
 <entry>
-    <title><![CDATA[How many tests for COVID-19 are being performed around the world?]]></title>
-    <id>https://ourworldindata.org/covid-testing-20march</id>
-    <link rel="alternate" href="https://ourworldindata.org/covid-testing-20march"/>
-    <published>2020-03-20T21:13:00.000Z</published>
-    <updated>2020-04-01T13:59:42.000Z</updated>
-    <author><name>Esteban Ortiz-Ospina</name></author><author><name>Joe Hasell</name></author>
-    <summary><![CDATA[Testing is crucial to understand the prevalence of the disease, to provide timely treatment to those infected, to understand how the disease evolves, and to ensure that we take measures to stop the disease from spreading. ]]></summary>
-</entry>
-<entry>
     <title><![CDATA[COVID-19 deaths and cases: how do sources compare?]]></title>
     <id>https://ourworldindata.org/covid-sources-comparison</id>
     <link rel="alternate" href="https://ourworldindata.org/covid-sources-comparison"/>
@@ -95,5 +86,14 @@
     <updated>2020-03-03T22:23:14.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[Based on safety and carbon emissions, fossil fuels are the dirtiest and most dangerous, while nuclear and modern renewable energy sources are vastly safer and cleaner.]]></summary>
+</entry>
+<entry>
+    <title><![CDATA[Redesigning Our World in Data: from posts and articles to posts in articles]]></title>
+    <id>https://ourworldindata.org/redesigning-from-posts-and-articles-to-posts-in-articles</id>
+    <link rel="alternate" href="https://ourworldindata.org/redesigning-from-posts-and-articles-to-posts-in-articles"/>
+    <published>2020-02-07T14:00:00.000Z</published>
+    <updated>2020-02-07T14:12:18.000Z</updated>
+    <author><name>Matthieu Bergel</name></author>
+    <summary><![CDATA[]]></summary>
 </entry>
 </feed>
