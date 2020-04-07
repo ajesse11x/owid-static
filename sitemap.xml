@@ -16435,4 +16435,8 @@
         <loc>https://ourworldindata.org/grapher/daily-covid-deaths-region</loc>
         <lastmod>2020-04-07</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/daily-cases-covid-region</loc>
+        <lastmod>2020-04-07</lastmod>
+    </url>
 </urlset>
