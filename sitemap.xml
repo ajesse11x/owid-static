@@ -16447,4 +16447,8 @@
         <loc>https://ourworldindata.org/grapher/population-in-2020</loc>
         <lastmod>2020-04-08</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/total-tests-per-thousand-since-100th-case</loc>
+        <lastmod>2020-04-08</lastmod>
+    </url>
 </urlset>
