@@ -895,3 +895,4 @@
 /grapher/covid-tests-since-100th-case /grapher/covid-confirmed-cases-since-100th-case 302!
 /grapher/full-list-cumulative-total-tests-per-million /grapher/full-list-cumulative-total-tests-per-thousand 302!
 /grapher/full-list-daily-covid-19-tests-per-million-people /grapher/full-list-daily-covid-19-tests-per-thousand 302!
+/grapher/daily-tests-per-million /grapher/full-list-daily-covid-19-tests-per-thousand 302!
