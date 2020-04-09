@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2020-03-31T21:06:00.000Z</updated>
+<updated>2020-04-09T16:00:00.000Z</updated>
+<entry>
+    <title><![CDATA[How to embed interactive COVID-19 charts in your articles]]></title>
+    <id>https://ourworldindata.org/how-to-embed-charts</id>
+    <link rel="alternate" href="https://ourworldindata.org/how-to-embed-charts"/>
+    <published>2020-04-09T16:00:00.000Z</published>
+    <updated>2020-04-09T16:44:02.000Z</updated>
+    <author><name>Hannah Ritchie</name></author><author><name>Max Roser</name></author>
+    <summary><![CDATA[Our goal is to bring together the best data and build the visualization tools that allows you to understand the spread of the pandemic. Our free, open-access charts cover all countries in the world. Here we show how to customize and embed charts in your own articles.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[To understand the global pandemic, we need global testing – the Our World in Data COVID-19 Testing dataset]]></title>
     <id>https://ourworldindata.org/covid-testing</id>
@@ -86,14 +95,5 @@
     <updated>2020-03-03T22:23:14.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[Based on safety and carbon emissions, fossil fuels are the dirtiest and most dangerous, while nuclear and modern renewable energy sources are vastly safer and cleaner.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Redesigning Our World in Data: from posts and articles to posts in articles]]></title>
-    <id>https://ourworldindata.org/redesigning-from-posts-and-articles-to-posts-in-articles</id>
-    <link rel="alternate" href="https://ourworldindata.org/redesigning-from-posts-and-articles-to-posts-in-articles"/>
-    <published>2020-02-07T14:00:00.000Z</published>
-    <updated>2020-02-07T14:12:18.000Z</updated>
-    <author><name>Matthieu Bergel</name></author>
-    <summary><![CDATA[]]></summary>
 </entry>
 </feed>
