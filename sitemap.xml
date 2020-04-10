@@ -16459,4 +16459,8 @@
         <loc>https://ourworldindata.org/grapher/total-confirmed-deaths-due-to-covid-19-vs-population</loc>
         <lastmod>2020-04-10</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/total-tests-per-thousand-since-5th-death</loc>
+        <lastmod>2020-04-10</lastmod>
+    </url>
 </urlset>
