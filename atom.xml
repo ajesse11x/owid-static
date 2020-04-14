@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2020-04-13T19:50:33.000Z</updated>
+<updated>2020-04-14T08:26:06.000Z</updated>
+<entry>
+    <title><![CDATA[The COVID-19 pandemic slide deck]]></title>
+    <id>https://ourworldindata.org/the-covid-19-pandemic-slide-deck</id>
+    <link rel="alternate" href="https://ourworldindata.org/the-covid-19-pandemic-slide-deck"/>
+    <published>2020-04-14T08:26:06.000Z</published>
+    <updated>2020-04-14T08:26:07.000Z</updated>
+    <author><name>Max Roser</name></author>
+    <summary><![CDATA[]]></summary>
+</entry>
 <entry>
     <title><![CDATA[What can data on testing tell us about the pandemic?]]></title>
     <id>https://ourworldindata.org/what-can-data-on-testing-tell-us-about-the-pandemic</id>
@@ -85,15 +94,6 @@
     <published>2020-03-04T10:23:59.000Z</published>
     <updated>2020-03-05T23:24:08.000Z</updated>
     <author><name>Max Roser</name></author>
-    <summary><![CDATA[]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Redesigning Our World in Data: from one to two columns]]></title>
-    <id>https://ourworldindata.org/redesigning-from-one-to-two-columns</id>
-    <link rel="alternate" href="https://ourworldindata.org/redesigning-from-one-to-two-columns"/>
-    <published>2020-02-14T15:00:00.000Z</published>
-    <updated>2020-02-14T15:40:18.000Z</updated>
-    <author><name>Matthieu Bergel</name></author>
     <summary><![CDATA[]]></summary>
 </entry>
 </feed>
