@@ -16507,4 +16507,8 @@
         <loc>https://ourworldindata.org/grapher/daily-covid-deaths-per-million-3-day-avg</loc>
         <lastmod>2020-04-15</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/number-of-observations-in-testing-dataset-vs-gdp-per-capita</loc>
+        <lastmod>2020-04-15</lastmod>
+    </url>
 </urlset>
