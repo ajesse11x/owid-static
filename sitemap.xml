@@ -16499,4 +16499,8 @@
         <loc>https://ourworldindata.org/grapher/number-of-tests-per-confirmed-case-vs-estimated-percentage-of-symptomatic-covid-19-cases-reported-russel-et-al-no-russia</loc>
         <lastmod>2020-04-14</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/daily-covid-cases-per-million-three-day-avg</loc>
+        <lastmod>2020-04-15</lastmod>
+    </url>
 </urlset>
