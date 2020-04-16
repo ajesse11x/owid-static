@@ -16519,4 +16519,8 @@
         <loc>https://ourworldindata.org/grapher/three-day-daily-tests-per-thousand-since-5th-death</loc>
         <lastmod>2020-04-16</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/the-number-of-tests-for-each-confirmed-case-since-5th-death</loc>
+        <lastmod>2020-04-16</lastmod>
+    </url>
 </urlset>
