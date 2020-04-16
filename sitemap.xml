@@ -16531,4 +16531,8 @@
         <loc>https://ourworldindata.org/grapher/daily-covid-19-tests-per-thousand-rolling-3-day-average</loc>
         <lastmod>2020-04-16</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/total-tests-per-thousand-since-per-cap-death-threshold</loc>
+        <lastmod>2020-04-16</lastmod>
+    </url>
 </urlset>
