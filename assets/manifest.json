@@ -1,9 +1,9 @@
 {
-  "commons.js": "js/commons.js",
   "commons.css": "css/commons.css",
-  "admin.js": "js/admin.js",
+  "commons.js": "js/commons.js",
   "admin.css": "css/admin.css",
-  "owid.js": "js/owid.js",
+  "admin.js": "js/admin.js",
   "owid.css": "css/owid.css",
-  "WorldMapDark2.png": "29c08ea7d10038206f32241cfc578603.png"
+  "owid.js": "js/owid.js",
+  "owid.scss": "29c08ea7d10038206f32241cfc578603.png"
 }
