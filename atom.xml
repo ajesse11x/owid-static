@@ -20,7 +20,7 @@
     <id>https://ourworldindata.org/what-can-data-on-testing-tell-us-about-the-pandemic</id>
     <link rel="alternate" href="https://ourworldindata.org/what-can-data-on-testing-tell-us-about-the-pandemic"/>
     <published>2020-04-13T19:50:33.000Z</published>
-    <updated>2020-04-17T12:00:09.000Z</updated>
+    <updated>2020-04-17T12:14:17.000Z</updated>
     <author><name>Joe Hasell</name></author>
     <summary><![CDATA[Data on the extent of testing for COVID-19 provides important information about the reliability of the data we use to understand the spread of the virus’. Here we discuss two measures of the extent testing and what they can tell us about the pandemic.]]></summary>
 </entry>
@@ -29,7 +29,7 @@
     <id>https://ourworldindata.org/how-to-embed-charts</id>
     <link rel="alternate" href="https://ourworldindata.org/how-to-embed-charts"/>
     <published>2020-04-09T16:00:00.000Z</published>
-    <updated>2020-04-17T12:02:40.000Z</updated>
+    <updated>2020-04-17T12:13:47.000Z</updated>
     <author><name>Hannah Ritchie</name></author><author><name>Max Roser</name></author>
     <summary><![CDATA[Our goal is to bring together the best data and build the visualization tools that allows you to understand the spread of the pandemic. Our free, open-access charts cover all countries in the world. Here we show how to customize and embed charts in your own articles.]]></summary>
 </entry>
@@ -56,7 +56,7 @@
     <id>https://ourworldindata.org/kurzgesagt-coronavirus-video</id>
     <link rel="alternate" href="https://ourworldindata.org/kurzgesagt-coronavirus-video"/>
     <published>2020-03-23T08:52:00.000Z</published>
-    <updated>2020-03-23T09:46:13.000Z</updated>
+    <updated>2020-04-17T12:13:29.000Z</updated>
     <author><name>Max Roser</name></author><author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[We worked with the Youtube channel, Kurzgesagt, to make a video on the COVID-19 pandemic and what to do about it. ]]></summary>
 </entry>
