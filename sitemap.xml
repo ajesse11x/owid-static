@@ -13085,7 +13085,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-of-employees-whose-wages-are-covered-by-collective-bargaining-agreements</loc>
-        <lastmod>2019-05-02</lastmod>
+        <lastmod>2020-04-17</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-from-volcanic-eruptions</loc>
@@ -16545,6 +16545,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/annual-hours-of-free-time-per-worker-and-income-finn</loc>
+        <lastmod>2020-04-17</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/share-of-employees-whose-wages-are-covered-by-collective-bargaining-agreements-finn</loc>
         <lastmod>2020-04-17</lastmod>
     </url>
 </urlset>
