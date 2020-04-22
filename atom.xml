@@ -11,7 +11,7 @@
     <id>https://ourworldindata.org/the-covid-19-pandemic-slide-deck</id>
     <link rel="alternate" href="https://ourworldindata.org/the-covid-19-pandemic-slide-deck"/>
     <published>2020-04-14T08:26:06.000Z</published>
-    <updated>2020-04-14T09:09:07.000Z</updated>
+    <updated>2020-04-22T13:07:28.000Z</updated>
     <author><name>Max Roser</name></author><author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[]]></summary>
 </entry>
@@ -20,7 +20,7 @@
     <id>https://ourworldindata.org/what-can-data-on-testing-tell-us-about-the-pandemic</id>
     <link rel="alternate" href="https://ourworldindata.org/what-can-data-on-testing-tell-us-about-the-pandemic"/>
     <published>2020-04-13T19:50:33.000Z</published>
-    <updated>2020-04-17T12:14:17.000Z</updated>
+    <updated>2020-04-22T13:07:28.000Z</updated>
     <author><name>Joe Hasell</name></author>
     <summary><![CDATA[Data on the extent of testing for COVID-19 provides important information about the reliability of the data we use to understand the spread of the virus’. Here we discuss two measures of the extent testing and what they can tell us about the pandemic.]]></summary>
 </entry>
@@ -29,7 +29,7 @@
     <id>https://ourworldindata.org/how-to-embed-charts</id>
     <link rel="alternate" href="https://ourworldindata.org/how-to-embed-charts"/>
     <published>2020-04-09T16:00:00.000Z</published>
-    <updated>2020-04-20T11:52:16.000Z</updated>
+    <updated>2020-04-22T13:07:28.000Z</updated>
     <author><name>Hannah Ritchie</name></author><author><name>Max Roser</name></author>
     <summary><![CDATA[Our goal is to bring together the best data and build the visualization tools that allows you to understand the spread of the pandemic. Our free, open-access charts cover all countries in the world. Here we show how to customize and embed charts in your own articles.]]></summary>
 </entry>
@@ -38,7 +38,7 @@
     <id>https://ourworldindata.org/covid-testing</id>
     <link rel="alternate" href="https://ourworldindata.org/covid-testing"/>
     <published>2020-03-31T21:06:00.000Z</published>
-    <updated>2020-04-21T22:36:43.000Z</updated>
+    <updated>2020-04-22T13:07:28.000Z</updated>
     <author><name>Joe Hasell</name></author><author><name>Esteban Ortiz-Ospina</name></author><author><name>Edouard Mathieu</name></author><author><name>Hannah Ritchie</name></author><author><name>Diana Beltekian</name></author><author><name>Max Roser</name></author>
     <summary><![CDATA[Without testing for COVID-19 we cannot know how many people are infected with the disease. And without this data we cannot know what is happening. That is why we are bringing together the available data on testing from countries around the world.]]></summary>
 </entry>
@@ -47,7 +47,7 @@
     <id>https://ourworldindata.org/covid-mortality-risk</id>
     <link rel="alternate" href="https://ourworldindata.org/covid-mortality-risk"/>
     <published>2020-03-25T15:16:42.000Z</published>
-    <updated>2020-04-02T22:05:12.000Z</updated>
+    <updated>2020-04-22T13:07:28.000Z</updated>
     <author><name>Hannah Ritchie</name></author><author><name>Max Roser</name></author>
     <summary><![CDATA[If someone is infected with COVID-19, how likely is that person to die? We look closer at the metrics used to discuss mortality risk, and what we can and cannot say from the available data.]]></summary>
 </entry>
@@ -56,7 +56,7 @@
     <id>https://ourworldindata.org/kurzgesagt-coronavirus-video</id>
     <link rel="alternate" href="https://ourworldindata.org/kurzgesagt-coronavirus-video"/>
     <published>2020-03-23T08:52:00.000Z</published>
-    <updated>2020-04-17T12:13:29.000Z</updated>
+    <updated>2020-04-22T13:07:28.000Z</updated>
     <author><name>Max Roser</name></author><author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[We worked with the Youtube channel, Kurzgesagt, to make a video on the COVID-19 pandemic and what to do about it. ]]></summary>
 </entry>
@@ -65,7 +65,7 @@
     <id>https://ourworldindata.org/covid-sources-comparison</id>
     <link rel="alternate" href="https://ourworldindata.org/covid-sources-comparison"/>
     <published>2020-03-19T17:17:51.000Z</published>
-    <updated>2020-03-24T20:49:03.000Z</updated>
+    <updated>2020-04-22T13:07:28.000Z</updated>
     <author><name>Hannah Ritchie</name></author><author><name>Esteban Ortiz-Ospina</name></author><author><name>Max Roser</name></author><author><name>Joe Hasell</name></author>
     <summary><![CDATA[There are three main data sources on the latest Coronavirus outbreak (COVID-19). How do estimates of confirmed cases and deaths compare?]]></summary>
 </entry>
@@ -74,7 +74,7 @@
     <id>https://ourworldindata.org/food-waste-emissions</id>
     <link rel="alternate" href="https://ourworldindata.org/food-waste-emissions"/>
     <published>2020-03-18T10:00:00.000Z</published>
-    <updated>2020-03-25T10:13:28.000Z</updated>
+    <updated>2020-04-22T13:07:28.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[Food losses and waste – in supply chains and by consumers – account for around one-quarter of greenhouse gas emissions from food. That’s 6% of total global emissions. ]]></summary>
 </entry>
@@ -83,7 +83,7 @@
     <id>https://ourworldindata.org/carbon-footprint-food-methane</id>
     <link rel="alternate" href="https://ourworldindata.org/carbon-footprint-food-methane"/>
     <published>2020-03-10T11:27:00.000Z</published>
-    <updated>2020-03-11T05:31:01.000Z</updated>
+    <updated>2020-04-22T13:07:28.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[How we treat the climate impacts of methane has a significant difference on the carbon footprint of foods. But even if we exclude methane, meat and dairy products have the highest footprint.]]></summary>
 </entry>
@@ -92,7 +92,7 @@
     <id>https://ourworldindata.org/spanish-flu-largest-influenza-pandemic-in-history</id>
     <link rel="alternate" href="https://ourworldindata.org/spanish-flu-largest-influenza-pandemic-in-history"/>
     <published>2020-03-04T10:23:59.000Z</published>
-    <updated>2020-03-05T23:24:08.000Z</updated>
+    <updated>2020-04-22T13:07:29.000Z</updated>
     <author><name>Max Roser</name></author>
     <summary><![CDATA[]]></summary>
 </entry>
