@@ -37,6 +37,7 @@
                 runCovid();
                 if (!document.querySelector(".ChartPage")) {
                     Grapher.embedAll();
+                    runGlobalEntityControl(Grapher.globalEntitySelection);
                 }
             </script></footer><script>
                         runTableOfContents({"headings":[],"pageTitle":"Introducing the new Our World in Data child mortality series"})

@@ -184,6 +184,7 @@
                 runCovid();
                 if (!document.querySelector(".ChartPage")) {
                     Grapher.embedAll();
+                    runGlobalEntityControl(Grapher.globalEntitySelection);
                 }
             </script></footer><script>
                         runTableOfContents({"headings":[],"pageTitle":"How many people support vaccination across the world?"})

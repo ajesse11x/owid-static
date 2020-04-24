@@ -16,6 +16,7 @@
                 runCovid();
                 if (!document.querySelector(".ChartPage")) {
                     Grapher.embedAll();
+                    runGlobalEntityControl(Grapher.globalEntitySelection);
                 }
             </script></footer><script>
                         runTableOfContents({"headings":[],"pageTitle":"Is trade a major driver of income inequality?"})

@@ -79,6 +79,7 @@
                 runCovid();
                 if (!document.querySelector(".ChartPage")) {
                     Grapher.embedAll();
+                    runGlobalEntityControl(Grapher.globalEntitySelection);
                 }
             </script></footer><script>
                         runTableOfContents({"headings":[],"pageTitle":"What’s happening to life expectancy in Britain?"})

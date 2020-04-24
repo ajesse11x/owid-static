@@ -13,6 +13,7 @@
                 runCovid();
                 if (!document.querySelector(".ChartPage")) {
                     Grapher.embedAll();
+                    runGlobalEntityControl(Grapher.globalEntitySelection);
                 }
             </script></footer><script>
         var jsonConfig = {"id":4090,"map":{"projection":"World","targetYear":2016,"variableId":110009,"colorSchemeLabels":[],"colorSchemeValues":[],"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","data":{"availableEntities":["United Kingdom"]},"note":"Data prior to 1700 refers to England; data thereafter refers to the UK","slug":"population-of-england-millennium","type":"LineChart","title":"The population of England","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"maxTime":2016,"minTime":1086,"version":3,"hasMapTab":true,"stackMode":"absolute","dimensions":[{"display":{},"property":"y","variableId":110009}],"hasChartTab":true,"isPublished":true,"isExplorable":false,"selectedData":[{"index":0,"entityId":1}],"hideRelativeToggle":true};
