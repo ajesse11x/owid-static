@@ -32,4 +32,20 @@
             figure.setAttribute("id", "fallback");
             throw err;
         }
+    </script></body></html>dex":0,"entityId":37},{"index":0,"entityId":171},{"index":0,"entityId":101}],"addCountryMode":"add-country","hideRelativeToggle":true};
+        var figure = document.getElementsByTagName("figure")[0];
+
+        try {
+            window.App = {};
+            var view = window.ChartView.bootstrap({
+                jsonConfig: jsonConfig,
+                containerNode: figure,
+                queryStr: window.location.search
+            });
+            view.bindToWindow();
+        } catch (err) {
+            figure.innerHTML = "<img src=\"/grapher/exports/number-of-infant-deaths.svg\"/><p>Unable to load interactive visualization</p>";
+            figure.setAttribute("id", "fallback");
+            throw err;
+        }
     </script></body></html>
