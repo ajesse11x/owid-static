@@ -16595,4 +16595,8 @@
         <loc>https://ourworldindata.org/grapher/ghg-emissions-by-sector</loc>
         <lastmod>2020-04-26</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/total-ghg-emissions</loc>
+        <lastmod>2020-04-27</lastmod>
+    </url>
 </urlset>
