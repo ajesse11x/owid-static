@@ -16623,4 +16623,8 @@
         <loc>https://ourworldindata.org/grapher/cfr-vs-covid-cases-per-capita</loc>
         <lastmod>2020-04-28</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/total-tests-per-thousand-since-per-cap-death-threshold-incl-before-outbreak</loc>
+        <lastmod>2020-04-29</lastmod>
+    </url>
 </urlset>
