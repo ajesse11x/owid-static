@@ -1,0 +1,834 @@
+<!doctype html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Coronavirus (COVID-19) Cases - Statistics and Research - Our World in Data</title><meta name="description" content="‘Data to understand the big global problems and research that helps to make progress against them.’"/><link rel="canonical" href="https://ourworldindata.org/covid-cases"/><link rel="alternate" type="application/atom+xml" href="/atom.xml"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><meta property="fb:app_id" content="1149943818390250"/><meta property="og:url" content="https://ourworldindata.org/covid-cases"/><meta property="og:title" content="Coronavirus (COVID-19) Cases - Statistics and Research"/><meta property="og:description" content="‘Data to understand the big global problems and research that helps to make progress against them.’"/><meta property="og:image" content="https://ourworldindata.org/default-thumbnail.jpg"/><meta property="og:site_name" content="Our World in Data"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@OurWorldInData"/><meta name="twitter:creator" content="@OurWorldInData"/><meta name="twitter:title" content="Coronavirus (COVID-19) Cases - Statistics and Research"/><meta name="twitter:description" content="‘Data to understand the big global problems and research that helps to make progress against them.’"/><meta name="twitter:image" content="https://ourworldindata.org/default-thumbnail.jpg"/><link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Playfair+Display:400,700&amp;display=swap" rel="stylesheet"/><link rel="stylesheet" href="https://ourworldindata.org/assets/css/commons.css"/><link rel="stylesheet" href="https://ourworldindata.org/assets/css/owid.css"/></head><body class=""><header class="site-header"><div class="wrapper site-navigation-bar"><div class="site-logo"><a href="/">Our World<br/> in Data</a></div><nav class="site-navigation"><div class="topics-button-wrapper"><a href="/#entries" class="topics-button"><div class="label">Articles <br/><strong>by topic</strong></div><div class="icon"><svg width="12" height="6"><path d="M0,0 L12,0 L6,6 Z" fill="currentColor"></path></svg></div></a></div><div><div class="site-primary-navigation"><form class="HeaderSearch" action="/search" method="GET"><input type="search" name="q" placeholder="Search..."/><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg></div></form><ul class="site-primary-links"><li><a href="/blog" data-track-note="header-navigation">Latest</a></li><li><a href="/about" data-track-note="header-navigation">About</a></li><li><a href="/donate" data-track-note="header-navigation">Donate</a></li></ul></div><div class="site-secondary-navigation"><ul class="site-secondary-links"><li><a href="/charts" data-track-note="header-navigation">All charts</a></li><li><a href="https://sdg-tracker.org" data-track-note="header-navigation">Sustainable Development Goals Tracker</a></li></ul></div></div></nav><div class="header-logos-wrapper"><a href="https://www.oxfordmartin.ox.ac.uk/global-development" class="oxford-logo"><img src="https://ourworldindata.org/oms-logo.svg" alt="Oxford Martin School logo"/></a><a href="https://global-change-data-lab.org/" class="gcdl-logo"><img src="https://ourworldindata.org/gcdl-logo-narrow.png" alt="Global Change Data Lab logo"/></a></div><div class="mobile-site-navigation"><button data-track-note="mobile-search-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg></button><button data-track-note="mobile-newsletter-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-open-text" class="svg-inline--fa fa-envelope-open-text fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M176 216h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16H176c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16zm-16 80c0 8.84 7.16 16 16 16h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16H176c-8.84 0-16 7.16-16 16v16zm96 121.13c-16.42 0-32.84-5.06-46.86-15.19L0 250.86V464c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V250.86L302.86 401.94c-14.02 10.12-30.44 15.19-46.86 15.19zm237.61-254.18c-8.85-6.94-17.24-13.47-29.61-22.81V96c0-26.51-21.49-48-48-48h-77.55c-3.04-2.2-5.87-4.26-9.04-6.56C312.6 29.17 279.2-.35 256 0c-23.2-.35-56.59 29.17-73.41 41.44-3.17 2.3-6 4.36-9.04 6.56H96c-26.51 0-48 21.49-48 48v44.14c-12.37 9.33-20.76 15.87-29.61 22.81A47.995 47.995 0 0 0 0 200.72v10.65l96 69.35V96h320v184.72l96-69.35v-10.65c0-14.74-6.78-28.67-18.39-37.77z"></path></svg></button><button data-track-note="mobile-hamburger-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg></button></div></div></header><div class="alert-banner"><div class="content"><div class="text"><strong>Coronavirus pandemic</strong>: daily updated research and data.</div><a href="/coronavirus">Read more</a></div></div><main><article class="page with-sidebar large-banner"><div class="offset-header"><header class="article-header"><h1 class="entry-title"><span>Coronavirus (COVID-19) Cases</span><span>Statistics and Research</span></h1><div class="authors-byline"><a href="/team">by Max Roser, Hannah Ritchie, Esteban Ortiz-Ospina and Joe Hasell</a></div><div class="blog-info">
+<p>We are grateful to everyone whose editorial review and expert feedback on this work helps us to continuously improve our work on the pandemic. Thank you. <a href="#acknowledgements"><strong>Here</strong></a> you find the acknowledgements.</p>
+</div><div class="last-updated">
+		
+
+<p>Updated daily. Last update: <strong>May 1, 2020</strong> (11:30, London time).</p>
+
+
+	</div></header></div><div class="content-wrapper"><div><aside class="entry-sidebar"><div class="sticky-sentinel"></div><nav class="entry-toc"><ul><li><a href="#">Coronavirus (COVID-19) Cases</a></li><li class="section"><a href="#country-by-country-data-on-confirmed-covid-19-cases">Country-by-country data on confirmed COVID-19 cases</a></li><li class="section"><a href="#confirmed-cases">Confirmed cases</a></li><li class="subsection"><a href="#what-is-the-total-number-of-confirmed-cases">What is the total number of confirmed cases?</a></li><li class="subsection"><a href="#total-confirmed-cases-how-rapidly-have-they-increased-compared-to-other-countries">Total confirmed cases: how rapidly have they increased compared to other countries?</a></li><li class="subsection"><a href="#what-is-the-daily-number-of-confirmed-cases">What is the daily number of confirmed cases?</a></li><li class="subsection"><a href="#confirmed-cases-how-did-the-total-and-daily-number-change-over-time">Confirmed cases: How did the total and daily number change over time?</a></li><li class="subsection"><a href="#daily-confirmed-cases-are-we-bending-the-curve">Daily confirmed cases: are we bending the curve?</a></li><li class="subsection"><a href="#global-comparison-where-are-confirmed-cases-increasing-most-rapidly">Global comparison: where are confirmed cases increasing most rapidly?</a></li><li class="subsection"><a href="#world-maps-confirmed-cases-relative-to-the-size-of-the-population">World maps: Confirmed cases relative to the size of the population</a></li><li class="section"><a href="#deaths-and-cases-our-data-source">Deaths and cases: our data source</a></li><li class="section"><a href="#cases-of-covid-19-background">Cases of COVID-19: background</a></li><li class="section"><a href="#acknowledgements">Acknowledgements</a></li><li class="section"><a href="#references">References</a></li><li class="section"><a href="#licence">Licence</a></li></ul></nav><div class="toggle-toc"><button data-track-note="page-toggle-toc" aria-label="Open table of contents"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="list-alt" class="svg-inline--fa fa-list-alt fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M464 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h416c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zM128 120c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 96c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 96c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm288-136v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12zm0 96v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12zm0 96v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12z"></path></svg></button></div></aside></div><div class="offset-content"><div class="content-and-footnotes"><div class="article-content"><style>
+  .alert-banner {
+    display: none;
+  }
+</style>
+
+
+
+
+
+
+	
+
+
+<section><div class="wp-block-columns is-style-side-by-side">
+<div class="wp-block-column">      <div class="wp-block-owid-prominent-link is-style-thin with-image">
+        <a href="https://ourworldindata.org/about">
+          <figure><img src="https://ourworldindata.org/uploads/2020/04/owid_logo.svg" class="attachment-medium_large size-medium_large" alt="Owid logo" height="120" width="210" loading="lazy"></figure>
+          <div class="content-wrapper">
+            <div class="content">
+              
+
+<p>&#x2018;Data to understand the big global problems and research that helps to make progress against them.&#x2019;</p>
+
+
+            </div>
+            <div class="title">Our mission at Our World in Data<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></div>
+          </div>
+        </a>
+      </div>
+
+
+<div style="border: 1px solid #6e87a2; padding: 1rem; border-radius: 3px; background-color: #fff; margin-bottom: 2rem;">
+<h4 style="margin-top: 0;" id="build-on-top-of-our-work-freely"><a class="deep-link" href="#build-on-top-of-our-work-freely"></a>Build on top of our work freely</h4>
+
+<div style="margin-bottom: 1rem;">Download <a rel="noreferrer noopener" href="https://github.com/owid/covid-19-data/tree/master/public/data" target="_blank">the complete <em>Our World in Data</em> COVID-19 dataset</a><br>
+<div style="font-size: 0.9rem;">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cloud-download-alt" class="svg-inline--fa fa-cloud-download-alt fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 640 512"><path fill="currentColor" d="M537.6 226.6c4.1-10.7 6.4-22.4 6.4-34.6 0-53-43-96-96-96-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32c-88.4 0-160 71.6-160 160 0 2.7.1 5.4.2 8.1C40.2 219.8 0 273.2 0 336c0 79.5 64.5 144 144 144h368c70.7 0 128-57.3 128-128 0-61.9-44-113.6-102.4-125.4zm-132.9 88.7L299.3 420.7c-6.2 6.2-16.4 6.2-22.6 0L171.3 315.3c-10.1-10.1-2.9-27.3 11.3-27.3H248V176c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v112h65.4c14.2 0 21.4 17.2 11.3 27.3z"/></svg>
+    <a style="display: inline-block; margin-left: 0.5rem;" href="https://covid.ourworldindata.org/data/owid-covid-data.xlsx" rel="noreferrer noopener" target="_blank">.xslx</a>
+    <a style="display: inline-block; margin-left: 0.5rem;" href="https://covid.ourworldindata.org/data/owid-covid-data.csv" rel="noreferrer noopener" target="_blank">.csv</a>
+    <span style="margin-left: 0.5rem;">(daily updated)</span>
+</div>
+</div>
+
+<ul style="list-style-type:none; padding: 0; margin: 0; font-size: 0.9rem; color: #577291">
+<li><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="svg-inline--fa fa-github fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg><span style="margin-left: 0.5rem;">All <a style="text-decoration: underline; color: #577291;" rel="noreferrer noopener" target="_blank" href="https://github.com/owid">our code is open-source</a></span></li>
+<li><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons" class="svg-inline--fa fa-creative-commons fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 496 512"><path fill="currentColor" d="M245.83 214.87l-33.22 17.28c-9.43-19.58-25.24-19.93-27.46-19.93-22.13 0-33.22 14.61-33.22 43.84 0 23.57 9.21 43.84 33.22 43.84 14.47 0 24.65-7.09 30.57-21.26l30.55 15.5c-6.17 11.51-25.69 38.98-65.1 38.98-22.6 0-73.96-10.32-73.96-77.05 0-58.69 43-77.06 72.63-77.06 30.72-.01 52.7 11.95 65.99 35.86zm143.05 0l-32.78 17.28c-9.5-19.77-25.72-19.93-27.9-19.93-22.14 0-33.22 14.61-33.22 43.84 0 23.55 9.23 43.84 33.22 43.84 14.45 0 24.65-7.09 30.54-21.26l31 15.5c-2.1 3.75-21.39 38.98-65.09 38.98-22.69 0-73.96-9.87-73.96-77.05 0-58.67 42.97-77.06 72.63-77.06 30.71-.01 52.58 11.95 65.56 35.86zM247.56 8.05C104.74 8.05 0 123.11 0 256.05c0 138.49 113.6 248 247.56 248 129.93 0 248.44-100.87 248.44-248 0-137.87-106.62-248-248.44-248zm.87 450.81c-112.54 0-203.7-93.04-203.7-202.81 0-105.42 85.43-203.27 203.72-203.27 112.53 0 202.82 89.46 202.82 203.26-.01 121.69-99.68 202.82-202.84 202.82z"/></svg><span style="margin-left: 0.5rem;">All our research and visualizations are <a style="text-decoration: underline; color: #577291;" href="https://ourworldindata.org/how-to-use-our-world-in-data#how-is-our-work-copyrighted">free for everyone to use for all purposes</a></span></li>
+</ul>
+</div>
+</div>
+
+
+
+<div class="wp-block-column">      <div class="wp-block-owid-prominent-link is-style-default with-image">
+        <a href="https://ourworldindata.org/coronavirus">
+          <h3 id="our-world-in-data-s-main-page-on-the-coronavirus-pandemic">Our World in Data&#x2019;s main page on the coronavirus pandemic<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></h3>
+          <div class="content-wrapper">
+            <figure><img width="768" height="402" src="https://ourworldindata.org/uploads/2020/04/Coronavirus-entry-banner-on-OWID-background-1-768x402.png" class="attachment-medium_large size-medium_large" alt="Coronavirus entry banner on owid background 1" srcset="https://ourworldindata.org/uploads/2020/04/Coronavirus-entry-banner-on-OWID-background-1-768x402.png 768w, https://ourworldindata.org/uploads/2020/04/Coronavirus-entry-banner-on-OWID-background-1-400x209.png 400w, https://ourworldindata.org/uploads/2020/04/Coronavirus-entry-banner-on-OWID-background-1-800x419.png 800w, https://ourworldindata.org/uploads/2020/04/Coronavirus-entry-banner-on-OWID-background-1-150x79.png 150w, https://ourworldindata.org/uploads/2020/04/Coronavirus-entry-banner-on-OWID-background-1.png 1200w" sizes="(max-width: 768px) 100vw, 768px" data-high-res-src="https://ourworldindata.org/uploads/2020/04/Coronavirus-entry-banner-on-OWID-background-1.png" loading="lazy"></figure>
+            <div class="content">
+              
+
+<p>On our main page on the pandemic you find a daily updated comprehensive overview of the data and research on the pandemic.</p>
+
+
+            </div>
+          </div>
+        </a>
+      </div></div>
+</div></section>
+
+
+
+<section><h2 id="country-by-country-data-on-confirmed-covid-19-cases"><a class="deep-link" href="#country-by-country-data-on-confirmed-covid-19-cases"></a>Country-by-country data on confirmed COVID-19 cases</h2><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>This page has a large number of charts on the pandemic. In the box below you can select any country you are interested in &#x2013; or several, if you want to compare countries.</p><p>All charts on this page will then&#xA0;<strong>show data for the countries that you selected</strong>.</p></div><div class="wp-block-column"></div></div></section><div data-global-entity-control class="global-entity-control-container"><div class="global-entity-control is-narrow" data-reactroot><div class="narrow-summary narrow-summary-selected-items">None selected</div><div class="narrow-actions"><button class="button">Select countries</button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><h2 id="confirmed-cases"><a class="deep-link" href="#confirmed-cases"></a>Confirmed cases</h2><h3 id="what-is-the-total-number-of-confirmed-cases"><a class="deep-link" href="#what-is-the-total-number-of-confirmed-cases"></a>What is the <strong>total</strong> number of <strong>confirmed cases</strong>?</h3><div class="wp-block-columns is-style-sticky-left">
+<div class="wp-block-column">
+
+                <figure data-grapher-src="https://ourworldindata.org/grapher/total-cases-covid-19" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/total-cases-covid-19" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/total-cases-covid-19_v135_850x600.svg" width="850" height="600" loading="lazy" alt="Total cases covid 19 v135 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure>
+
+
+
+<h5>Related charts:</h5>
+
+
+      <div class="wp-block-owid-prominent-link is-style-thin with-image">
+        <a href="https://ourworldindata.org/grapher/total-confirmed-cases-of-covid-19-per-million-people" target="_blank">
+          <figure><img src="https://ourworldindata.org/uploads/2020/04/total-confirmed-cases-of-covid-19-per-million-people.svg" class="attachment-medium_large size-medium_large" alt="Total confirmed cases of covid 19 per million people" height="600" width="850" loading="lazy"></figure>
+          <div class="content-wrapper">
+            <div class="content">
+              
+
+<p>How do total confirmed cases compare when we <strong>adjust for population</strong>?</p>
+
+
+            </div>
+            <div class="title">Total confirmed cases per capita<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></div>
+          </div>
+        </a>
+      </div>
+
+      <div class="wp-block-owid-prominent-link is-style-thin with-image">
+        <a href="https://ourworldindata.org/grapher/total-covid-cases-region" target="_blank">
+          <figure><img src="https://ourworldindata.org/uploads/2020/04/total-covid-cases-region.svg" class="attachment-medium_large size-medium_large" alt="Total covid cases region" height="600" width="850" loading="lazy"></figure>
+          <div class="content-wrapper">
+            <div class="content">
+              
+
+<p>Which <strong>world regions</strong> have the most total confirmed cases?</p>
+
+
+            </div>
+            <div class="title">Total confirmed cases by region<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></div>
+          </div>
+        </a>
+      </div>
+
+      <div class="wp-block-owid-prominent-link is-style-thin with-image">
+        <a href="https://ourworldindata.org/grapher/total-and-daily-cases-covid-19" target="_blank">
+          <figure><img src="https://ourworldindata.org/uploads/2020/04/total-and-daily-cases-covid-19.svg" class="attachment-medium_large size-medium_large" alt="Total and daily cases covid 19" height="600" width="850" loading="lazy"></figure>
+          <div class="content-wrapper">
+            <div class="content">
+              
+
+<p>How are total <em>and</em> daily confirmed cases changing for each country?</p>
+
+
+            </div>
+            <div class="title">Total <em>and </em>daily confirmed cases [on a single chart]<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></div>
+          </div>
+        </a>
+      </div>
+
+      <div class="wp-block-owid-prominent-link is-style-thin with-image">
+        <a href="https://ourworldindata.org/grapher/covid-19-total-confirmed-cases-vs-total-tests-conducted" target="_blank">
+          <figure><img src="https://ourworldindata.org/uploads/2020/04/covid-19-total-confirmed-cases-vs-total-tests-conducted.svg" class="attachment-medium_large size-medium_large" alt="Covid 19 total confirmed cases vs total tests conducted" height="600" width="850" loading="lazy"></figure>
+          <div class="content-wrapper">
+            <div class="content">
+              
+
+<p>How do the number of tests compare to the number of confirmed COVID-19 cases? See them plotted against each other.</p>
+
+
+            </div>
+            <div class="title">Tests conducted vs. confirmed cases [scatterplot]<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></div>
+          </div>
+        </a>
+      </div></div>
+
+
+
+<div class="wp-block-column">
+<p>This chart shows the&#xA0;number of confirmed COVID-19 cases.</p>
+
+
+
+<h5>What is important to note about these case figures?</h5>
+
+
+
+<ul><li>the reported case figures on a given date does not necessarily show the number of new cases on that day: this is due to delays in reporting;</li><li>the actual number of cases is likely to be much higher than the number of confirmed cases &#x2013; this is due to limited testing.</li></ul>
+
+
+
+<p>&#x2192; We provide more detail on these points in the section &#x2018;<a href="https://ourworldindata.org/coronavirus#cases-of-covid-19-background">Cases of COVID-19: background</a>&#x2018;.</p>
+
+
+	<div class="wp-block-help"><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lightbulb" class="svg-inline--fa fa-lightbulb fa-w-11 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M96.06 454.35c.01 6.29 1.87 12.45 5.36 17.69l17.09 25.69a31.99 31.99 0 0 0 26.64 14.28h61.71a31.99 31.99 0 0 0 26.64-14.28l17.09-25.69a31.989 31.989 0 0 0 5.36-17.69l.04-38.35H96.01l.05 38.35zM0 176c0 44.37 16.45 84.85 43.56 115.78 16.52 18.85 42.36 58.23 52.21 91.45.04.26.07.52.11.78h160.24c.04-.26.07-.51.11-.78 9.85-33.22 35.69-72.6 52.21-91.45C335.55 260.85 352 220.37 352 176 352 78.61 272.91-.3 175.45 0 73.44.31 0 82.97 0 176zm176-80c-44.11 0-80 35.89-80 80 0 8.84-7.16 16-16 16s-16-7.16-16-16c0-61.76 50.24-112 112-112 8.84 0 16 7.16 16 16s-7.16 16-16 16z"/></svg></div><div><h4 id="five-quick-reminders-on-how-to-interact-with-this-chart">Five quick reminders on how to interact with this chart</h4><div class="content">
+
+
+
+
+
+<ul><li>By clicking on <span class="add-country">
+            <span class="icon">
+                <svg width="16" height="16"><path d="M3,8 h10 m-5,-5 v10"/></svg>
+            </span>
+            Add country
+        </span> you can show and compare the data for any country in the world you are interested in.</li><li>If you click on the title of the chart, the chart will open in a new tab. You can then copy-paste the URL and share it.</li><li>You can switch the chart to a linear axis, by clicking on &#x2018;LOG&#x2019;.</li><li>If you move both ends of the time-slider to a single point you will see a bar chart for this point in time.</li><li>You can switch to the &#x2018;MAP&#x2019; tab.</li></ul>
+
+</div></div></div></div>
+</div><h3 id="total-confirmed-cases-how-rapidly-have-they-increased-compared-to-other-countries"><a class="deep-link" href="#total-confirmed-cases-how-rapidly-have-they-increased-compared-to-other-countries"></a><strong>Total confirmed cases</strong>: how rapidly have they increased compared to other countries?</h3><div class="wp-block-columns is-style-sticky-left">
+<div class="wp-block-column">
+
+                <figure data-grapher-src="https://ourworldindata.org/grapher/covid-confirmed-cases-since-100th-case" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/covid-confirmed-cases-since-100th-case" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/covid-confirmed-cases-since-100th-case_v96_850x600.svg" width="850" height="600" loading="lazy" alt="Covid confirmed cases since 100th case v96 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure>
+
+
+
+<h5>Related chart: </h5>
+
+
+      <div class="wp-block-owid-prominent-link is-style-thin with-image">
+        <a href="https://ourworldindata.org/grapher/covid-confirmed-cases-per-million-since-1-per-million" target="_blank">
+          <figure><img src="https://ourworldindata.org/uploads/2020/04/covid-confirmed-cases-per-million-since-1-per-million.svg" class="attachment-medium_large size-medium_large" alt="Covid confirmed cases per million since 1 per million" height="600" width="850" loading="lazy"></figure>
+          <div class="content-wrapper">
+            <div class="content">
+              
+
+<p>How does the growth rate of confirmed cases look when we adjust for population?</p>
+
+
+            </div>
+            <div class="title"><strong>Total confirmed cases</strong> <em>per capita</em>: how rapidly have they increased compared to other countries?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></div>
+          </div>
+        </a>
+      </div></div>
+
+
+
+<div class="wp-block-column">
+<p>The trajectory for every country begins on the day when that country had 100 confirmed cases. This allows you to make comparisons of how quickly the number of confirmed cases has grown in different countries.</p>
+
+
+
+<p>Keep in mind that in countries that do very little testing the total number of cases can be much higher than the number of confirmed cases shown here.</p>
+
+
+	<div class="wp-block-help"><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lightbulb" class="svg-inline--fa fa-lightbulb fa-w-11 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M96.06 454.35c.01 6.29 1.87 12.45 5.36 17.69l17.09 25.69a31.99 31.99 0 0 0 26.64 14.28h61.71a31.99 31.99 0 0 0 26.64-14.28l17.09-25.69a31.989 31.989 0 0 0 5.36-17.69l.04-38.35H96.01l.05 38.35zM0 176c0 44.37 16.45 84.85 43.56 115.78 16.52 18.85 42.36 58.23 52.21 91.45.04.26.07.52.11.78h160.24c.04-.26.07-.51.11-.78 9.85-33.22 35.69-72.6 52.21-91.45C335.55 260.85 352 220.37 352 176 352 78.61 272.91-.3 175.45 0 73.44.31 0 82.97 0 176zm176-80c-44.11 0-80 35.89-80 80 0 8.84-7.16 16-16 16s-16-7.16-16-16c0-61.76 50.24-112 112-112 8.84 0 16 7.16 16 16s-7.16 16-16 16z"/></svg></div><div><h4 id="how-you-can-interact-with-this-chart">How you can interact with this chart</h4><div class="content">
+
+
+
+
+
+<p>Clicking on any country in the chart highlights that country. If you click on several countries you can create a view in which you can compare several countries.</p>
+
+
+
+<p>Any country you might not see immediately you can find via the <strong>&#x2018;Select Countries&#x2019;</strong> in the bottom left. Just type the name in the search box there.</p>
+
+</div></div></div></div>
+</div><h3 id="what-is-the-daily-number-of-confirmed-cases"><a class="deep-link" href="#what-is-the-daily-number-of-confirmed-cases"></a>What is the <strong>daily</strong> number of <strong>confirmed cases</strong>?</h3><div class="wp-block-columns is-style-sticky-left">
+<div class="wp-block-column">
+
+                <figure data-grapher-src="https://ourworldindata.org/grapher/daily-cases-covid-19" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/daily-cases-covid-19" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/daily-cases-covid-19_v120_850x600.svg" width="850" height="600" loading="lazy" alt="Daily cases covid 19 v120 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure>
+
+
+
+<h5>Related charts:</h5>
+
+
+      <div class="wp-block-owid-prominent-link is-style-thin with-image">
+        <a href="https://ourworldindata.org/grapher/daily-covid-cases-3-day-average" target="_blank">
+          <figure><img src="https://ourworldindata.org/uploads/2020/04/daily-covid-cases-3-day-average.svg" class="attachment-medium_large size-medium_large" alt="Daily covid cases 3 day average" height="600" width="850" loading="lazy"></figure>
+          <div class="content-wrapper">
+            <div class="content">
+              
+
+<p>How do daily cases look when we average over several days?</p>
+
+
+            </div>
+            <div class="title">Daily confirmed cases (rolling 3-day average)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></div>
+          </div>
+        </a>
+      </div>
+
+      <div class="wp-block-owid-prominent-link is-style-thin with-image">
+        <a href="https://ourworldindata.org/grapher/daily-cases-covid-region" target="_blank">
+          <figure><img src="https://ourworldindata.org/uploads/2020/04/daily-cases-covid-region.svg" class="attachment-medium_large size-medium_large" alt="Daily cases covid region" height="600" width="850" loading="lazy"></figure>
+          <div class="content-wrapper">
+            <div class="content">
+              
+
+<p>Which <strong>world regions</strong> have the most daily confirmed cases?</p>
+
+
+            </div>
+            <div class="title">Daily confirmed cases by region<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></div>
+          </div>
+        </a>
+      </div>
+
+      <div class="wp-block-owid-prominent-link is-style-thin with-image">
+        <a href="https://ourworldindata.org/grapher/new-covid-cases-per-million" target="_blank">
+          <figure><img src="https://ourworldindata.org/uploads/2020/04/new-covid-cases-per-million.svg" class="attachment-medium_large size-medium_large" alt="New covid cases per million" height="600" width="850" loading="lazy"></figure>
+          <div class="content-wrapper">
+            <div class="content">
+              
+
+<p>How do daily case figures compare when we <strong>adjust for population</strong>?</p>
+
+
+            </div>
+            <div class="title">Daily confirmed cases per capita<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></div>
+          </div>
+        </a>
+      </div>
+
+      <div class="wp-block-owid-prominent-link is-style-thin with-image">
+        <a href="https://ourworldindata.org/grapher/daily-covid-cases-per-million-three-day-avg" target="_blank">
+          <figure><img src="https://ourworldindata.org/uploads/2020/04/daily-covid-cases-per-million-three-day-avg.svg" class="attachment-medium_large size-medium_large" alt="Daily covid cases per million three day avg" height="600" width="850" loading="lazy"></figure>
+          <div class="content-wrapper">
+            <div class="content">
+              
+
+<p>How do daily <em>per capita</em> case figures look when we average over several days?</p>
+
+
+            </div>
+            <div class="title">Daily confirmed cases per capita (rolling 3-day average)<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></div>
+          </div>
+        </a>
+      </div></div>
+
+
+
+<div class="wp-block-column">
+<p>The previous charts looked at the increase of <em>total</em> confirmed cases &#x2013; this chart shows&#xA0;<strong>the number of confirmed cases&#xA0;<em>per day</em></strong>.</p>
+
+
+
+<p>Again you have the option to switch to the rolling three-day average via the link below the chart.</p>
+
+
+	<div class="wp-block-help"><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lightbulb" class="svg-inline--fa fa-lightbulb fa-w-11 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M96.06 454.35c.01 6.29 1.87 12.45 5.36 17.69l17.09 25.69a31.99 31.99 0 0 0 26.64 14.28h61.71a31.99 31.99 0 0 0 26.64-14.28l17.09-25.69a31.989 31.989 0 0 0 5.36-17.69l.04-38.35H96.01l.05 38.35zM0 176c0 44.37 16.45 84.85 43.56 115.78 16.52 18.85 42.36 58.23 52.21 91.45.04.26.07.52.11.78h160.24c.04-.26.07-.51.11-.78 9.85-33.22 35.69-72.6 52.21-91.45C335.55 260.85 352 220.37 352 176 352 78.61 272.91-.3 175.45 0 73.44.31 0 82.97 0 176zm176-80c-44.11 0-80 35.89-80 80 0 8.84-7.16 16-16 16s-16-7.16-16-16c0-61.76 50.24-112 112-112 8.84 0 16 7.16 16 16s-7.16 16-16 16z"/></svg></div><div><h4 id="confirmed-cases-how-you-can-interact-with-this-chart">How you can interact with this chart</h4><div class="content">
+
+
+
+
+
+<ul><li><strong>Add countries:</strong> add and compare any selection of countries using the <span class="add-country">
+            <span class="icon">
+                <svg width="16" height="16"><path d="M3,8 h10 m-5,-5 v10"/></svg>
+            </span>
+            Add country
+        </span> button.</li><li><strong>Map view: </strong>switch to a global map of confirmed cases using the &#x2018;MAP&#x2019; tab at the bottom of the chart.</li></ul>
+
+</div></div></div></div>
+</div><h3 id="confirmed-cases-how-did-the-total-and-daily-number-change-over-time"><a class="deep-link" href="#confirmed-cases-how-did-the-total-and-daily-number-change-over-time"></a><strong>Confirmed cases:</strong> How did the <strong>total and daily number</strong> change over time?</h3><div class="wp-block-columns is-style-sticky-left">
+<div class="wp-block-column">
+
+                <figure data-grapher-src="https://ourworldindata.org/grapher/total-and-daily-cases-covid-19" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/total-and-daily-cases-covid-19" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/total-and-daily-cases-covid-19_v71_850x600.svg" width="850" height="600" loading="lazy" alt="Total and daily cases covid 19 v71 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure>
+
+
+
+<h5>Related chart: </h5>
+
+
+      <div class="wp-block-owid-prominent-link is-style-thin with-image">
+        <a href="https://ourworldindata.org/grapher/total-daily-covid-cases-per-million" target="_blank">
+          <figure><img src="https://ourworldindata.org/uploads/2020/04/total-daily-covid-cases-per-million.svg" class="attachment-medium_large size-medium_large" alt="Total daily covid cases per million" height="600" width="850" loading="lazy"></figure>
+          <div class="content-wrapper">
+            <div class="content">
+              
+
+<p>How are total <em>and</em> daily confirmed cases changing when we <strong>adjust for population</strong>?</p>
+
+
+            </div>
+            <div class="title">Total and daily confirmed cases per capita<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></div>
+          </div>
+        </a>
+      </div></div>
+
+
+
+<div class="wp-block-column">
+<p>The previous charts allowed you to compare countries.</p>
+
+
+
+<p>This is a chart that is&#xA0;<strong>helpful to understand the spread of the disease in a single country</strong>.</p>
+
+
+
+<p>In yellow you see the number of daily new confirmed cases and in red the total sum of confirmed cases.</p>
+
+
+	<div class="wp-block-help"><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lightbulb" class="svg-inline--fa fa-lightbulb fa-w-11 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M96.06 454.35c.01 6.29 1.87 12.45 5.36 17.69l17.09 25.69a31.99 31.99 0 0 0 26.64 14.28h61.71a31.99 31.99 0 0 0 26.64-14.28l17.09-25.69a31.989 31.989 0 0 0 5.36-17.69l.04-38.35H96.01l.05 38.35zM0 176c0 44.37 16.45 84.85 43.56 115.78 16.52 18.85 42.36 58.23 52.21 91.45.04.26.07.52.11.78h160.24c.04-.26.07-.51.11-.78 9.85-33.22 35.69-72.6 52.21-91.45C335.55 260.85 352 220.37 352 176 352 78.61 272.91-.3 175.45 0 73.44.31 0 82.97 0 176zm176-80c-44.11 0-80 35.89-80 80 0 8.84-7.16 16-16 16s-16-7.16-16-16c0-61.76 50.24-112 112-112 8.84 0 16 7.16 16 16s-7.16 16-16 16z"/></svg></div><div><h4 id="confirmed-cases-how-you-can-interact-with-this-chart">How you can interact with this chart</h4><div class="content">
+
+
+
+
+
+<p>On these charts you see the button <strong>Change Country </strong>in the bottom left corner &#x2013; with this option you can switch the chart to any other country in the world.</p>
+
+</div></div></div></div>
+</div><h3 id="daily-confirmed-cases-are-we-bending-the-curve"><a class="deep-link" href="#daily-confirmed-cases-are-we-bending-the-curve"></a><strong>Daily confirmed cases</strong>: are we bending the curve?</h3><div class="wp-block-columns is-style-sticky-left">
+<div class="wp-block-column">
+
+                <figure data-grapher-src="https://ourworldindata.org/grapher/covid-confirmed-daily-cases-epidemiological-trajectory" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/covid-confirmed-daily-cases-epidemiological-trajectory" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/covid-confirmed-daily-cases-epidemiological-trajectory_v100_850x600.svg" width="850" height="600" loading="lazy" alt="Covid confirmed daily cases epidemiological trajectory v100 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure>
+
+
+
+<h5>Related chart: </h5>
+
+
+      <div class="wp-block-owid-prominent-link is-style-thin with-image">
+        <a href="https://ourworldindata.org/grapher/covid-daily-cases-trajectory-per-million" target="_blank">
+          <figure><img src="https://ourworldindata.org/uploads/2020/04/covid-daily-cases-trajectory-per-million.svg" class="attachment-medium_large size-medium_large" alt="Covid daily cases trajectory per million" height="600" width="850" loading="lazy"></figure>
+          <div class="content-wrapper">
+            <div class="content">
+              
+
+<p>How does this trajectory look when we adjust for population?</p>
+
+
+            </div>
+            <div class="title">Daily confirmed cases <em>per capita</em>: are we bending the curve?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></div>
+          </div>
+        </a>
+      </div></div>
+
+
+
+<div class="wp-block-column">
+<p>To bring the pandemic to an end, <strong>every country has to bring the curve of daily cases down to zero.</strong></p>
+
+
+
+<p>This chart allows you to track whether countries are achieving this or not.</p>
+
+
+
+<p>This chart shows the same data as before, but now adjusted for the size of the population &#x2013; it shows&#xA0;<strong>daily confirmed cases per million people</strong>.</p>
+
+
+	<div class="wp-block-help"><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lightbulb" class="svg-inline--fa fa-lightbulb fa-w-11 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M96.06 454.35c.01 6.29 1.87 12.45 5.36 17.69l17.09 25.69a31.99 31.99 0 0 0 26.64 14.28h61.71a31.99 31.99 0 0 0 26.64-14.28l17.09-25.69a31.989 31.989 0 0 0 5.36-17.69l.04-38.35H96.01l.05 38.35zM0 176c0 44.37 16.45 84.85 43.56 115.78 16.52 18.85 42.36 58.23 52.21 91.45.04.26.07.52.11.78h160.24c.04-.26.07-.51.11-.78 9.85-33.22 35.69-72.6 52.21-91.45C335.55 260.85 352 220.37 352 176 352 78.61 272.91-.3 175.45 0 73.44.31 0 82.97 0 176zm176-80c-44.11 0-80 35.89-80 80 0 8.84-7.16 16-16 16s-16-7.16-16-16c0-61.76 50.24-112 112-112 8.84 0 16 7.16 16 16s-7.16 16-16 16z"/></svg></div><div><h4 id="confirmed-cases-how-you-can-interact-with-this-chart">How you can interact with this chart</h4><div class="content">
+
+
+
+
+
+<p>The default log view is helpful to compare the growth rates between countries: on a logarithmic scale the steepness of the line corresponds to the growth rate.</p>
+
+
+
+<p>But in this chart, as in many of our charts, you can switch to a linear axis. Just click on &#x2018;LOG&#x2019;.</p>
+
+
+
+<p><a rel="noreferrer noopener" target="_blank" href="https://blog.datawrapper.de/weeklychart-logscale/">Here</a>&#xA0;is an explanation for how to read logarithmic axes.</p>
+
+</div></div></div></div>
+</div><h3 id="global-comparison-where-are-confirmed-cases-increasing-most-rapidly"><a class="deep-link" href="#global-comparison-where-are-confirmed-cases-increasing-most-rapidly"></a><strong>Global comparison</strong>: where are confirmed cases increasing most rapidly?</h3><div class="wp-block-columns is-style-sticky-left">
+<div class="wp-block-column">
+<div id="covid-table-embed"></div>
+</div>
+
+
+
+<div class="wp-block-column">
+<p>Simply looking at the total or daily <em>number</em> of confirmed cases does not allow us to understand or compare the <em>speed</em> at which this figure is rising.</p>
+
+
+
+<p>The table here shows how long it has taken for the number of confirmed cases to double in each country for which we have data. The table <em>also</em> shows how the total number of confirmed cases, and the number of daily new confirmed cases, and how those numbers have changed over the last 14 days.</p>
+
+
+	<div class="wp-block-help"><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lightbulb" class="svg-inline--fa fa-lightbulb fa-w-11 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M96.06 454.35c.01 6.29 1.87 12.45 5.36 17.69l17.09 25.69a31.99 31.99 0 0 0 26.64 14.28h61.71a31.99 31.99 0 0 0 26.64-14.28l17.09-25.69a31.989 31.989 0 0 0 5.36-17.69l.04-38.35H96.01l.05 38.35zM0 176c0 44.37 16.45 84.85 43.56 115.78 16.52 18.85 42.36 58.23 52.21 91.45.04.26.07.52.11.78h160.24c.04-.26.07-.51.11-.78 9.85-33.22 35.69-72.6 52.21-91.45C335.55 260.85 352 220.37 352 176 352 78.61 272.91-.3 175.45 0 73.44.31 0 82.97 0 176zm176-80c-44.11 0-80 35.89-80 80 0 8.84-7.16 16-16 16s-16-7.16-16-16c0-61.76 50.24-112 112-112 8.84 0 16 7.16 16 16s-7.16 16-16 16z"/></svg></div><div><h4 id="how-you-can-interact-with-this-table">How you can interact with this table</h4><div class="content">
+
+
+
+
+
+<p>You can sort the table by any of the columns by clicking on the column header.</p>
+
+</div></div></div></div>
+</div><h3 id="world-maps-confirmed-cases-relative-to-the-size-of-the-population"><a class="deep-link" href="#world-maps-confirmed-cases-relative-to-the-size-of-the-population"></a><strong>World maps:</strong> Confirmed cases relative to the size of the population</h3><div class="wp-block-columns is-style-side-by-side">
+<div class="wp-block-column">
+<p>For the same reason as before &#x2013; differences in the population size between different countries are often large &#x2013; it is insightful to compare the number of confirmed cases per million people.</p>
+
+
+	<div class="wp-block-help"><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lightbulb" class="svg-inline--fa fa-lightbulb fa-w-11 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M96.06 454.35c.01 6.29 1.87 12.45 5.36 17.69l17.09 25.69a31.99 31.99 0 0 0 26.64 14.28h61.71a31.99 31.99 0 0 0 26.64-14.28l17.09-25.69a31.989 31.989 0 0 0 5.36-17.69l.04-38.35H96.01l.05 38.35zM0 176c0 44.37 16.45 84.85 43.56 115.78 16.52 18.85 42.36 58.23 52.21 91.45.04.26.07.52.11.78h160.24c.04-.26.07-.51.11-.78 9.85-33.22 35.69-72.6 52.21-91.45C335.55 260.85 352 220.37 352 176 352 78.61 272.91-.3 175.45 0 73.44.31 0 82.97 0 176zm176-80c-44.11 0-80 35.89-80 80 0 8.84-7.16 16-16 16s-16-7.16-16-16c0-61.76 50.24-112 112-112 8.84 0 16 7.16 16 16s-7.16 16-16 16z"/></svg></div><div><h4 id="three-tips-on-how-to-interact-with-these-maps">Three tips on how to interact with these maps</h4><div class="content">
+
+
+
+
+
+<ul><li>By clicking on any country on the map you see the change over time in this country.</li><li>By moving the time slider (below the map) you can see how the global situation has changed over time.</li><li>You can focus on a particular world region using the dropdown menu to the top-right of the map.</li></ul>
+
+</div></div></div></div>
+
+
+
+<div class="wp-block-column"></div>
+</div><div class="wp-block-columns is-style-side-by-side">
+<div class="wp-block-column">
+
+                <figure data-grapher-src="https://ourworldindata.org/grapher/total-confirmed-cases-of-covid-19-per-million-people" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/total-confirmed-cases-of-covid-19-per-million-people" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/total-confirmed-cases-of-covid-19-per-million-people_v96_850x600.svg" width="850" height="600" loading="lazy" alt="Total confirmed cases of covid 19 per million people v96 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure>
+</div>
+
+
+
+<div class="wp-block-column">
+
+                <figure data-grapher-src="https://ourworldindata.org/grapher/new-covid-cases-per-million" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/new-covid-cases-per-million" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/new-covid-cases-per-million_v83_850x600.svg" width="850" height="600" loading="lazy" alt="New covid cases per million v83 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure>
+</div>
+</div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><h2 id="deaths-and-cases-our-data-source"><a class="deep-link" href="#deaths-and-cases-our-data-source"></a>Deaths and cases: our data source</h2><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="our-world-in-data-relies-on-data-from-the-european-cdc"><a class="deep-link" href="#our-world-in-data-relies-on-data-from-the-european-cdc"></a>Our World in Data relies on data from the European CDC</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>In this document and the many embedded and linked charts we report and visualize the data from the <em>European Center for Disease Prevention and Control</em> (ECDC).<a id="ref-1" class="ref" href="#note-1"><sup>1</sup></a> <strong>We make the data used in our charts and tables downloadable as a complete and structured .csv file <a href="https://covid.ourworldindata.org/data/ecdc/full_data.csv">here</a></strong>.</p><p>The European CDC publishes daily statistics on the COVID-19 pandemic. Not just for Europe, but for the entire world. We rely on the ECDC as they collect and harmonize data from around the world which allows us to compare what is happening in different countries. The European CDC data provides a global perspective on the evolving pandemic.</p><p>The <em>European Centre for Disease Prevention and Control </em>ECDC provides three statistical resources on the COVID-19 pandemic:</p><ul><li><a href="https://qap.ecdc.europa.eu/public/extensions/COVID-19/COVID-19.html"><strong>COVID-19 Dashboard</strong></a>&#xA0;</li><li><a href="https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases"><strong>Situation reports</strong></a></li><li><a href="https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide"><strong>The daily data tables</strong></a></li></ul><p>The ECDC makes all their data available in a daily updated clean downloadable file. This gets updated daily reflecting data collected up to 6:00 and 10:00 CET.</p><p>The European CDC collects and aggregates data from countries around the world. The most up-to-date data for any particular country is therefore typically available earlier via the national health agencies than via the ECDC. This lag between nationally available data and the ECDC data is not very long as the ECDC publishes new data daily. But it can be several hours.</p></div><div class="wp-block-column"></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><h2 id="cases-of-covid-19-background"><a class="deep-link" href="#cases-of-covid-19-background"></a>Cases of COVID-19: background</h2><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="how-is-a-covid-19-case-defined"><a class="deep-link" href="#how-is-a-covid-19-case-defined"></a>How is a COVID-19 case defined?</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>In epidemiology, individuals which meet the case definition of a disease <a href="https://www.britannica.com/science/case-definition">are often categorized</a> on three different levels.</p><p>These <a href="https://www.who.int/hac/techguidance/training/case%20definitions_en.pdf">definitions</a> are often specific to the particular disease, but generally have some clear and overlapping criteria.</p><p>Cases of COVID-19 &#x2013; as with other diseases &#x2013; are broadly defined under a three-tier system: <strong>suspected</strong>, <strong>probable</strong> and <strong>confirmed</strong> cases.</p><ol><li><strong>Suspected case</strong><br>A suspected case is someone who shows clinical signs and symptoms of having COVID-19, but has not been laboratory-tested.<br></li><li><strong>Probable case</strong><br>A suspected case with an epidemiological link to a confirmed case. This means someone who is showing symptoms of COVID-19 and has either been in close contact with a positive case, or, in a particularly COVID-affected area.<a id="ref-2" class="ref" href="#note-2"><sup>2</sup></a><br></li><li><strong>Confirmed case</strong><br>A confirmed case is &#x201C;a person with laboratory confirmation of COVID-19 infection&#x201D; as the World Health Organization (WHO) explains.<a id="ref-3" class="ref" href="#note-3"><sup>3</sup></a></li></ol><p>Typically, for a case to be confirmed, a person must have a positive result from laboratory tests. This is true, regardless of whether they have shown symptoms of COVID-19 or not.</p><p>This means that the number of confirmed cases is lower than the number of probable cases, which is in turn lower than the number of suspected cases. The gap between these figures is partially explained by limited testing for the disease.</p></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="how-are-cases-reported"><a class="deep-link" href="#how-are-cases-reported"></a>How are cases reported?</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>We have three levels of case definition: suspected, probable and confirmed cases. What is measured and reported by governments and international organizations?</p><p>International organizations &#x2013; namely the WHO and European CDC &#x2013; report case figures submitted by national governments. Wherever possible they aim to <strong>report </strong><strong><em>confirmed</em></strong><strong> cases</strong>, for two key reasons:</p><p>1. They have a higher degree of certainty because they have laboratory confirmation;</p><p>2. They held to provide standardised comparisons between countries.</p><p>However, international bodies can only provide figures as submitted by national governments and reporting institutions. Countries can define slightly different criteria for how cases are defined and reported.<a id="ref-4" class="ref" href="#note-4"><sup>4</sup></a> Some countries have, over the course of the outbreak, changed their reporting methodologies to also include probable cases.</p><p>One example of this is the United States. Until 14<sup>th</sup> April the US CDC provided daily reports on the number of confirmed cases. However, as of 14<sup>th</sup> April,<a href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html"> it now provides</a> a single figure of cases: the sum of confirmed <em>and</em> probable.</p><p>Suspected case figures are usually <em>not</em> reported. The European CDC notes that suspected cases should not be reported at the European level (although countries may record this information for national records) but <em>are</em> used to understand who should be tested for the disease.</p></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="reported-new-cases-on-a-particular-day-do-not-necessarily-represent-new-cases-on-that-day"><a class="deep-link" href="#reported-new-cases-on-a-particular-day-do-not-necessarily-represent-new-cases-on-that-day"></a>Reported new cases on a particular day do not necessarily represent new cases on that day</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>The number of confirmed cases reported by any institution &#x2013; including the WHO, the ECDC, Johns Hopkins and others &#x2013; on a given day does not represent the actual number of new cases on that date. This is because of the long reporting chain that exists between a new case and its inclusion in national or international statistics.</p><p>The steps in this chain are different across countries, but for many countries the reporting chain includes most of the following steps:<a href="https://ourworldindata.org/coronavirus#note-3"><sup>3</sup></a></p><ol><li>Doctor or laboratory diagnoses a COVID-19 case based on testing or combination of symptoms and epidemiological probability (such as a close family member testing positive).</li><li>Doctor or laboratory submits a report to the health department of the city or local district.</li><li>Health department receives the report and records each individual case in the reporting system, including patient information.</li><li>The ministry or another governmental organization brings this data together and publishes the latest figures.</li><li>International data bodies such as the WHO or the ECDC can then collate statistics from hundreds of such national accounts.</li></ol><p>This reporting chain can take several days. This is why the figures reported on any given date do not necessarily reflect the number of new cases on that specific date.</p></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="the-number-of-total-cases-is-higher-than-the-number-of-confirmed-cases"><a class="deep-link" href="#the-number-of-total-cases-is-higher-than-the-number-of-confirmed-cases"></a>The number of total cases is higher than the number of confirmed cases</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>To understand the scale of the COVID-19 outbreak, and respond appropriately, we would want to know how many people are infected by COVID-19. We would want to know the <em>total </em>number of<em> </em>cases.</p><p>However, the total number of COVID-19 cases is not known. When media outlets claim to report the &#x2018;number of cases&#x2019; they are not being precise and omit to say that it is the number of <em>confirmed cases</em> they speak about.</p><p>The total number of cases is not known, not by us at <em>Our World in Data,</em> nor by any other research, governmental or reporting institution.</p><p>The number of confirmed cases is lower than the number of total cases because not everyone is tested. Not all cases have a &#x201C;laboratory confirmation&#x201D;, testing is what makes the difference between the number of confirmed and total cases.</p><p>All countries have been struggling to test a large number of cases, which meant that not every person that should have been tested, has in fact been tested.</p><p>Since an understanding of testing for COVID-19 is crucial for an interpretation of the reported numbers of confirmed cases we have looked into the testing for COVID-19 in more detail.</p><p>You find our work on testing further below in this document (click <a href="https://ourworldindata.org/coronavirus#testing-for-covid-19"><strong>here</strong></a> to scroll there).</p></div><div class="wp-block-column"></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><h2 id="acknowledgements"><a class="deep-link" href="#acknowledgements"></a>Acknowledgements</h2><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>We would like to acknowledge and thank a number of people in the development of this work:<br><br><strong>Tom Chivers</strong> for editorial review and feedback.</p><p><strong>Bernadeta Dadonaite</strong>, <strong>Jason Hendry</strong>, and <strong>Moritz Kraemer</strong> for helpful comments and suggestions on earlier versions of this work.</p><p><strong>Natalie Dean</strong>, <strong>Eric Topol</strong>, <strong>Carl Bergstrom</strong> and <strong>Adam Kucharski</strong> for their immediate and helpful feedback on our testing database.</p><p>And we would like to thank the many hundreds of readers who give us feedback on this work every day. Your feedback is what allows us to continuously clarify and improve it. We very much appreciate you taking the time to write.</p><p>Even if we can&#x2019;t respond to every message we receive, we do read all feedback and take it all into account.</p></div><div class="wp-block-column"></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div><footer class="article-footer"><div class="wp-block-columns"><div class="wp-block-column"><h3 id="references">References</h3><ol class="references"><li id="note-1"><p>Established in 2005 and based in Stockholm it is an EU agency with the aim to strengthen Europe&#8217;s defense against infectious diseases.</p></li><li id="note-2"><p>The European CDC discusses the criteria for what constitutes a probable case, and a ‘close contact’ <a href="https://www.ecdc.europa.eu/en/case-definition-and-european-surveillance-human-infection-novel-coronavirus-2019-ncov"><strong>here</strong></a>.</p></li><li id="note-3"><p>See any Situation Report by the WHO – for example <a href="https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200310-sitrep-50-covid-19.pdf?sfvrsn=55e904fb_2">Situation Report 50</a>.<br><br>The WHO also speaks of ‘suspected cases’ and ‘probable cases’, but the WHO Situation Reports do not provide figures on ‘probable cases’, and only report ‘suspected cases’ for Chinese provinces (‘suspected cases’ by country is not available).<br><br>In <a href="https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200310-sitrep-50-covid-19.pdf?sfvrsn=55e904fb_2">Situation Report 50</a> they define these as follows:<br><em>Suspect case</em><br><em>A. A patient with acute respiratory illness (fever and at least one sign/symptom of respiratory disease (e.g., cough, shortness of breath), AND with no other etiology that fully explains the clinical presentation AND a history of travel to or residence in a country/area or territory reporting local transmission (See situation report) of COVID-19 disease during the 14 days prior to symptom onset.</em><br><em>OR</em><br><em>B. A patient with any acute respiratory illness AND having been in contact with a confirmed or probable COVID19 case (see definition of contact) in the last 14 days prior to onset of symptoms;</em><br><em>OR</em><br><em>C. A patient with severe acute respiratory infection (fever and at least one sign/symptom of respiratory disease (e.g., cough, shortness breath) AND requiring hospitalization AND with no other etiology that fully explains the clinical presentation.</em><br><br><em>Probable case</em><br><em>A suspect case for whom testing for COVID-19 is inconclusive. Inconclusive being the result of the test reported by the laboratory.</em></p></li><li id="note-4"><p>The US, for example, uses the following<a href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html"> definitions</a>: “A confirmed case or death is defined by meeting confirmatory laboratory evidence for COVID-19. A probable case or death is defined by i) meeting clinical criteria AND epidemiologic evidence with no confirmatory laboratory testing performed for COVID-19; or ii) meeting presumptive laboratory evidence AND either clinical criteria OR epidemiologic evidence; or iii) meeting vital records criteria with no confirmatory laboratory testing performed for COVID19.”</p></li></ol></div><div class="wp-block-column"></div></div></footer></div></div></div></article></main><div id="wpadminbar" style="display:none"><div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar"><ul id="wp-admin-bar-root-default" class="ab-top-menu"><li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="https://owid.cloud/wp/wp-admin">Wordpress</a></li> <li id="wp-admin-bar-edit"><a class="ab-item" href="https://owid.cloud/wp/wp-admin/post.php?post=32531&amp;action=edit">Edit Page</a></li></ul></div></div><section class="donate-footer"><div class="wrapper"><div class="owid-row flex-align-center"><div class="owid-col owid-col--lg-3 owid-padding-bottom--sm-3"><p>Our World in Data is free and accessible for everyone.</p><p>Help us do this work by making a donation.</p></div><div class="owid-col owid-col--lg-1"><a href="/donate" class="owid-button donate-button" data-track-note="donate-footer"><span class="label">Donate now</span><span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-8 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg></span></a></div></div></div></section><footer class="site-footer"><div class="wrapper"><div class="owid-row"><div class="owid-col owid-col--lg-1"><ul><li><a href="/about" data-track-note="footer-navigation">About</a></li><li><a href="/about#contact" data-track-note="footer-navigation">Contact</a></li><li><a href="/feedback" data-track-note="footer-navigation">Feedback</a></li><li><a href="/jobs" data-track-note="footer-navigation">Jobs</a></li><li><a href="/supporters" data-track-note="footer-navigation">Supporters</a></li><li><a href="/about/how-to-use-our-world-in-data" data-track-note="footer-navigation">How to use</a></li><li><a href="/donate" data-track-note="footer-navigation">Donate</a></li><li><a href="/privacy-policy" data-track-note="footer-navigation">Privacy policy</a></li></ul></div><div class="owid-col owid-col--lg-1"><ul><li><a href="/blog" data-track-note="footer-navigation">Latest publications</a></li><li><a href="/charts" data-track-note="footer-navigation">All charts</a></li></ul><ul><li><a href="https://twitter.com/OurWorldInData" data-track-note="footer-navigation">Twitter</a></li><li><a href="https://www.facebook.com/OurWorldinData" data-track-note="footer-navigation">Facebook</a></li><li><a href="https://github.com/owid" data-track-note="footer-navigation">GitHub</a></li><li><a href="/feed" data-track-note="footer-navigation">RSS Feed</a></li></ul></div><div class="owid-col owid-col--lg-1"><div class="logos"><a href="https://www.oxfordmartin.ox.ac.uk/research/programmes/global-development" class="partner-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/oms-logo.svg" alt="Oxford Martin School logo" loading="lazy"/></a><a href="/owid-at-ycombinator" class="partner-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/yc-logo.png" alt="Y Combinator logo" loading="lazy"/></a></div></div><div class="owid-col flex-2"><div class="legal"><p>License: All of Our World in Data is completely open access and all work is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY license</a>. You have the permission to use, distribute, and reproduce in any medium, provided the source and authors are credited.</p><p>Please consult our full <a href="/about#legal">legal disclaimer</a>.</p><p><a href="https://global-change-data-lab.org/" class="partner-logo gcdl-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/gcdl-logo-narrow.png" alt="Global Change Data Lab logo" loading="lazy"/></a>Our World In Data is a project of the <a href="https://global-change-data-lab.org/">Global Change Data Lab</a>, a registered charity in England and Wales (Charity Number 1186433).</p></div></div></div></div><div class="site-tools"></div><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="https://ourworldindata.org/assets/js/commons.js"></script><script src="https://ourworldindata.org/assets/js/owid.js"></script><script>
+                runHeaderMenus();
+                runBlocks();
+                runLightbox();
+                runSiteTools();
+                runCookieNotice();
+                runCovid();
+                if (!document.querySelector(".ChartPage")) {
+                    Grapher.embedAll();
+                    runGlobalEntityControl(Grapher.globalEntitySelection);
+                }
+            </script></footer><script>
+                        runTableOfContents({"headings":[{"text":"Country-by-country data on confirmed COVID-19 cases","slug":"country-by-country-data-on-confirmed-covid-19-cases","isSubheading":false},{"text":"Confirmed cases","slug":"confirmed-cases","isSubheading":false},{"text":"What is the total number of confirmed cases?","slug":"what-is-the-total-number-of-confirmed-cases","isSubheading":true},{"text":"Total confirmed cases: how rapidly have they increased compared to other countries?","slug":"total-confirmed-cases-how-rapidly-have-they-increased-compared-to-other-countries","isSubheading":true},{"text":"What is the daily number of confirmed cases?","slug":"what-is-the-daily-number-of-confirmed-cases","isSubheading":true},{"text":"Confirmed cases: How did the total and daily number change over time?","slug":"confirmed-cases-how-did-the-total-and-daily-number-change-over-time","isSubheading":true},{"text":"Daily confirmed cases: are we bending the curve?","slug":"daily-confirmed-cases-are-we-bending-the-curve","isSubheading":true},{"text":"Global comparison: where are confirmed cases increasing most rapidly?","slug":"global-comparison-where-are-confirmed-cases-increasing-most-rapidly","isSubheading":true},{"text":"World maps: Confirmed cases relative to the size of the population","slug":"world-maps-confirmed-cases-relative-to-the-size-of-the-population","isSubheading":true},{"text":"Deaths and cases: our data source","slug":"deaths-and-cases-our-data-source","isSubheading":false},{"text":"Cases of COVID-19: background","slug":"cases-of-covid-19-background","isSubheading":false},{"text":"Acknowledgements","slug":"acknowledgements","isSubheading":false},{"text":"References","slug":"references","isSubheading":false},{"text":"Licence","slug":"licence","isSubheading":false}],"pageTitle":"Coronavirus (COVID-19) Cases"})
+                        runRelatedCharts([])
+                        </script></body></html>
