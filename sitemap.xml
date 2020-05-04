@@ -16647,4 +16647,8 @@
         <loc>https://ourworldindata.org/grapher/covid-cases-per-capita-vs-doubling-time</loc>
         <lastmod>2020-05-01</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/total-confirmed-covid-19-deaths-per-million-vs-doubling-time-of-confirmed-deaths-7-day-period</loc>
+        <lastmod>2020-05-04</lastmod>
+    </url>
 </urlset>
