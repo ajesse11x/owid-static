@@ -1,0 +1,685 @@
+<!doctype html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Mortality Risk of COVID-19 - Statistics and Research - Our World in Data</title><meta name="description" content="‘Data to understand the big global problems and research that helps to make progress against them.’"/><link rel="canonical" href="https://ourworldindata.org/mortality-risk-covid"/><link rel="alternate" type="application/atom+xml" href="/atom.xml"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><meta property="fb:app_id" content="1149943818390250"/><meta property="og:url" content="https://ourworldindata.org/mortality-risk-covid"/><meta property="og:title" content="Mortality Risk of COVID-19 - Statistics and Research"/><meta property="og:description" content="‘Data to understand the big global problems and research that helps to make progress against them.’"/><meta property="og:image" content="https://ourworldindata.org/app/uploads/2020/03/COVID-CFR-by-age-768x595.png"/><meta property="og:site_name" content="Our World in Data"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@OurWorldInData"/><meta name="twitter:creator" content="@OurWorldInData"/><meta name="twitter:title" content="Mortality Risk of COVID-19 - Statistics and Research"/><meta name="twitter:description" content="‘Data to understand the big global problems and research that helps to make progress against them.’"/><meta name="twitter:image" content="https://ourworldindata.org/app/uploads/2020/03/COVID-CFR-by-age-768x595.png"/><link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Playfair+Display:400,700&amp;display=swap" rel="stylesheet"/><link rel="stylesheet" href="https://ourworldindata.org/assets/css/commons.css"/><link rel="stylesheet" href="https://ourworldindata.org/assets/css/owid.css"/></head><body class=""><header class="site-header"><div class="wrapper site-navigation-bar"><div class="site-logo"><a href="/">Our World<br/> in Data</a></div><nav class="site-navigation"><div class="topics-button-wrapper"><a href="/#entries" class="topics-button"><div class="label">Articles <br/><strong>by topic</strong></div><div class="icon"><svg width="12" height="6"><path d="M0,0 L12,0 L6,6 Z" fill="currentColor"></path></svg></div></a></div><div><div class="site-primary-navigation"><form class="HeaderSearch" action="/search" method="GET"><input type="search" name="q" placeholder="Search..."/><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg></div></form><ul class="site-primary-links"><li><a href="/blog" data-track-note="header-navigation">Latest</a></li><li><a href="/about" data-track-note="header-navigation">About</a></li><li><a href="/donate" data-track-note="header-navigation">Donate</a></li></ul></div><div class="site-secondary-navigation"><ul class="site-secondary-links"><li><a href="/charts" data-track-note="header-navigation">All charts</a></li><li><a href="https://sdg-tracker.org" data-track-note="header-navigation">Sustainable Development Goals Tracker</a></li></ul></div></div></nav><div class="header-logos-wrapper"><a href="https://www.oxfordmartin.ox.ac.uk/global-development" class="oxford-logo"><img src="https://ourworldindata.org/oms-logo.svg" alt="Oxford Martin School logo"/></a><a href="https://global-change-data-lab.org/" class="gcdl-logo"><img src="https://ourworldindata.org/gcdl-logo-narrow.png" alt="Global Change Data Lab logo"/></a></div><div class="mobile-site-navigation"><button data-track-note="mobile-search-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg></button><button data-track-note="mobile-newsletter-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-open-text" class="svg-inline--fa fa-envelope-open-text fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M176 216h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16H176c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16zm-16 80c0 8.84 7.16 16 16 16h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16H176c-8.84 0-16 7.16-16 16v16zm96 121.13c-16.42 0-32.84-5.06-46.86-15.19L0 250.86V464c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V250.86L302.86 401.94c-14.02 10.12-30.44 15.19-46.86 15.19zm237.61-254.18c-8.85-6.94-17.24-13.47-29.61-22.81V96c0-26.51-21.49-48-48-48h-77.55c-3.04-2.2-5.87-4.26-9.04-6.56C312.6 29.17 279.2-.35 256 0c-23.2-.35-56.59 29.17-73.41 41.44-3.17 2.3-6 4.36-9.04 6.56H96c-26.51 0-48 21.49-48 48v44.14c-12.37 9.33-20.76 15.87-29.61 22.81A47.995 47.995 0 0 0 0 200.72v10.65l96 69.35V96h320v184.72l96-69.35v-10.65c0-14.74-6.78-28.67-18.39-37.77z"></path></svg></button><button data-track-note="mobile-hamburger-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg></button></div></div></header><div class="alert-banner"><div class="content"><div class="text"><strong>Coronavirus pandemic</strong>: daily updated research and data.</div><a href="/coronavirus">Read more</a></div></div><main><article class="page with-sidebar large-banner"><div class="offset-header"><header class="article-header"><h1 class="entry-title"><span>Mortality Risk of COVID-19</span><span>Statistics and Research</span></h1><div class="authors-byline"><a href="/team">by Max Roser, Hannah Ritchie, Esteban Ortiz-Ospina and Joe Hasell</a></div><div class="blog-info">
+<p>We are grateful to everyone whose editorial review and expert feedback on this work helps us to continuously improve our work on the pandemic. Thank you. <a href="#acknowledgements"><strong>Here</strong></a> you find the acknowledgements.</p>
+</div><div class="last-updated">
+		
+
+<p>Updated daily. Last update: <strong>May 4, 2020</strong> (11:45, London time).</p>
+
+
+	</div></header></div><div class="content-wrapper"><div><aside class="entry-sidebar"><div class="sticky-sentinel"></div><nav class="entry-toc"><ul><li><a href="#">Mortality Risk of COVID-19</a></li><li class="section"><a href="#country-by-country-data-on-mortality-risk-of-the-covid-19-pandemic">Country-by-country data on mortality risk of the COVID-19 pandemic</a></li><li class="section"><a href="#case-fatality-rate">Case fatality rate</a></li><li class="subsection"><a href="#how-did-confirmed-deaths-and-cases-change-over-time">How did confirmed deaths and cases change over time?</a></li><li class="subsection"><a href="#the-case-fatality-rate">The case fatality rate</a></li><li class="section"><a href="#what-do-we-know-about-the-risk-of-dying-from-covid-19">What do we know about the risk of dying from COVID-19?</a></li><li class="subsection"><a href="#interpreting-the-case-fatality-rate">Interpreting the case fatality rate</a></li><li class="subsection"><a href="#the-current-case-fatality-rate-of-covid-19">The current case fatality rate of COVID-19</a></li><li class="subsection"><a href="#case-fatality-rate-of-covid-19-by-age">Case fatality rate of COVID-19 by age</a></li><li class="subsection"><a href="#case-fatality-rate-of-covid-19-by-preexisting-health-conditions">Case fatality rate of COVID-19 by preexisting health conditions</a></li><li class="subsection"><a href="#case-fatality-rate-of-covid-19-compared-to-other-diseases">Case fatality rate of COVID-19 compared to other diseases</a></li><li class="section"><a href="#acknowledgements">Acknowledgements</a></li><li class="section"><a href="#references">References</a></li><li class="section"><a href="#licence">Licence</a></li></ul></nav><div class="toggle-toc"><button data-track-note="page-toggle-toc" aria-label="Open table of contents"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="list-alt" class="svg-inline--fa fa-list-alt fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M464 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h416c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zM128 120c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 96c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 96c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm288-136v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12zm0 96v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12zm0 96v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12z"></path></svg></button></div></aside></div><div class="offset-content"><div class="content-and-footnotes"><div class="article-content"><style>
+  .alert-banner {
+    display: none;
+  }
+</style>
+
+
+
+
+
+
+	
+
+
+<section><div class="wp-block-columns is-style-side-by-side">
+<div class="wp-block-column">      <div class="wp-block-owid-prominent-link is-style-thin with-image">
+        <a href="https://ourworldindata.org/about">
+          <figure><img src="https://ourworldindata.org/uploads/2020/04/owid_logo.svg" class="attachment-medium_large size-medium_large" alt="Owid logo" height="120" width="210" loading="lazy"></figure>
+          <div class="content-wrapper">
+            <div class="content">
+              
+
+<p>&#x2018;Data to understand the big global problems and research that helps to make progress against them.&#x2019;</p>
+
+
+            </div>
+            <div class="title">Our mission at Our World in Data<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></div>
+          </div>
+        </a>
+      </div>
+
+
+<div style="border: 1px solid #6e87a2; padding: 1rem; border-radius: 3px; background-color: #fff; margin-bottom: 2rem;">
+<h4 style="margin-top: 0;" id="build-on-top-of-our-work-freely"><a class="deep-link" href="#build-on-top-of-our-work-freely"></a>Build on top of our work freely</h4>
+
+<div style="margin-bottom: 1rem;">Download <a rel="noreferrer noopener" href="https://github.com/owid/covid-19-data/tree/master/public/data" target="_blank">the complete <em>Our World in Data</em> COVID-19 dataset</a><br>
+<div style="font-size: 0.9rem;">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cloud-download-alt" class="svg-inline--fa fa-cloud-download-alt fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 640 512"><path fill="currentColor" d="M537.6 226.6c4.1-10.7 6.4-22.4 6.4-34.6 0-53-43-96-96-96-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32c-88.4 0-160 71.6-160 160 0 2.7.1 5.4.2 8.1C40.2 219.8 0 273.2 0 336c0 79.5 64.5 144 144 144h368c70.7 0 128-57.3 128-128 0-61.9-44-113.6-102.4-125.4zm-132.9 88.7L299.3 420.7c-6.2 6.2-16.4 6.2-22.6 0L171.3 315.3c-10.1-10.1-2.9-27.3 11.3-27.3H248V176c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16v112h65.4c14.2 0 21.4 17.2 11.3 27.3z"/></svg>
+    <a style="display: inline-block; margin-left: 0.5rem;" href="https://covid.ourworldindata.org/data/owid-covid-data.xlsx" rel="noreferrer noopener" target="_blank">.xslx</a>
+    <a style="display: inline-block; margin-left: 0.5rem;" href="https://covid.ourworldindata.org/data/owid-covid-data.csv" rel="noreferrer noopener" target="_blank">.csv</a>
+    <span style="margin-left: 0.5rem;">(daily updated)</span>
+</div>
+</div>
+
+<ul style="list-style-type:none; padding: 0; margin: 0; font-size: 0.9rem; color: #577291">
+<li><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="svg-inline--fa fa-github fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg><span style="margin-left: 0.5rem;">All <a style="text-decoration: underline; color: #577291;" rel="noreferrer noopener" target="_blank" href="https://github.com/owid">our code is open-source</a></span></li>
+<li><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons" class="svg-inline--fa fa-creative-commons fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 496 512"><path fill="currentColor" d="M245.83 214.87l-33.22 17.28c-9.43-19.58-25.24-19.93-27.46-19.93-22.13 0-33.22 14.61-33.22 43.84 0 23.57 9.21 43.84 33.22 43.84 14.47 0 24.65-7.09 30.57-21.26l30.55 15.5c-6.17 11.51-25.69 38.98-65.1 38.98-22.6 0-73.96-10.32-73.96-77.05 0-58.69 43-77.06 72.63-77.06 30.72-.01 52.7 11.95 65.99 35.86zm143.05 0l-32.78 17.28c-9.5-19.77-25.72-19.93-27.9-19.93-22.14 0-33.22 14.61-33.22 43.84 0 23.55 9.23 43.84 33.22 43.84 14.45 0 24.65-7.09 30.54-21.26l31 15.5c-2.1 3.75-21.39 38.98-65.09 38.98-22.69 0-73.96-9.87-73.96-77.05 0-58.67 42.97-77.06 72.63-77.06 30.71-.01 52.58 11.95 65.56 35.86zM247.56 8.05C104.74 8.05 0 123.11 0 256.05c0 138.49 113.6 248 247.56 248 129.93 0 248.44-100.87 248.44-248 0-137.87-106.62-248-248.44-248zm.87 450.81c-112.54 0-203.7-93.04-203.7-202.81 0-105.42 85.43-203.27 203.72-203.27 112.53 0 202.82 89.46 202.82 203.26-.01 121.69-99.68 202.82-202.84 202.82z"/></svg><span style="margin-left: 0.5rem;">All our research and visualizations are <a style="text-decoration: underline; color: #577291;" href="https://ourworldindata.org/how-to-use-our-world-in-data#how-is-our-work-copyrighted">free for everyone to use for all purposes</a></span></li>
+</ul>
+</div>
+</div>
+
+
+
+<div class="wp-block-column">
+
+</div>
+</div></section>
+
+
+
+<section><h2 id="country-by-country-data-on-mortality-risk-of-the-covid-19-pandemic"><a class="deep-link" href="#country-by-country-data-on-mortality-risk-of-the-covid-19-pandemic"></a>Country-by-country data on mortality risk of the COVID-19 pandemic</h2><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>This page has a number of charts on the pandemic. In the box below you can select any country you are interested in &#x2013; or several, if you want to compare countries.</p><p>The primary charts on this page will then&#xA0;<strong>show data for the countries that you selected</strong>.</p></div><div class="wp-block-column"></div></div></section><div data-global-entity-control class="global-entity-control-container"><div class="global-entity-control is-narrow" data-reactroot><div class="narrow-summary narrow-summary-selected-items">None selected</div><div class="narrow-actions"><button class="button">Select countries</button></div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><h2 id="case-fatality-rate"><a class="deep-link" href="#case-fatality-rate"></a>Case fatality rate</h2><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="what-does-the-data-on-deaths-and-cases-tell-us-about-the-mortality-risk-of-covid-19"><a class="deep-link" href="#what-does-the-data-on-deaths-and-cases-tell-us-about-the-mortality-risk-of-covid-19"></a>What does the data on deaths and cases tell us about the mortality risk of COVID-19?</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>To understand the risks and respond appropriately we would also want to know the mortality risk of COVID-19 &#x2013; the likelihood that someone who catches the disease will die from it.</p><p>We look into this question in more detail <a href="https://ourworldindata.org/coronavirus#what-do-we-know-about-the-risk-of-dying-from-covid-19"><strong>here</strong></a> and explain that this requires us to know &#x2013; or estimate &#x2013; the number of total cases and the final number of deaths for a given infected population. Because these are not known, we discuss what the current data can and can not tell us about the risk of death (<a href="https://ourworldindata.org/coronavirus#what-do-we-know-about-the-risk-of-dying-from-covid-19">here</a>).</p></div><div class="wp-block-column"></div></div><h3 id="how-did-confirmed-deaths-and-cases-change-over-time"><a class="deep-link" href="#how-did-confirmed-deaths-and-cases-change-over-time"></a>How did <strong>confirmed deaths and cases</strong> change over time?</h3><div class="wp-block-columns is-style-sticky-left">
+<div class="wp-block-column">
+
+                <figure data-grapher-src="https://ourworldindata.org/grapher/daily-covid-cases-deaths" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/daily-covid-cases-deaths" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/daily-covid-cases-deaths_v74_850x600.svg" width="850" height="600" loading="lazy" alt="Daily covid cases deaths v74 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure>
+
+
+
+<h5>Related chart:</h5>
+
+
+      <div class="wp-block-owid-prominent-link is-style-thin with-image">
+        <a href="https://ourworldindata.org/grapher/total-deaths-and-cases-covid-19" target="_blank">
+          <figure><img src="https://ourworldindata.org/uploads/2020/04/total-deaths-and-cases-covid-19.svg" class="attachment-medium_large size-medium_large" alt="Total deaths and cases covid 19" height="600" width="850" loading="lazy"></figure>
+          <div class="content-wrapper">
+            <div class="content">
+              
+
+<p>How are the total number of confirmed deaths and cases changing over time? See both time-series on a single chart.</p>
+
+
+            </div>
+            <div class="title">Total confirmed deaths and cases<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></div>
+          </div>
+        </a>
+      </div></div>
+
+
+
+<div class="wp-block-column">
+<p>So far we focused first on confirmed&#xA0;<strong>deaths</strong>&#xA0;and then on confirmed&#xA0;<strong>cases</strong>.</p>
+
+
+
+<p>This chart shows&#xA0;<em>both</em>&#xA0;metrics.</p>
+
+
+	<div class="wp-block-help"><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lightbulb" class="svg-inline--fa fa-lightbulb fa-w-11 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M96.06 454.35c.01 6.29 1.87 12.45 5.36 17.69l17.09 25.69a31.99 31.99 0 0 0 26.64 14.28h61.71a31.99 31.99 0 0 0 26.64-14.28l17.09-25.69a31.989 31.989 0 0 0 5.36-17.69l.04-38.35H96.01l.05 38.35zM0 176c0 44.37 16.45 84.85 43.56 115.78 16.52 18.85 42.36 58.23 52.21 91.45.04.26.07.52.11.78h160.24c.04-.26.07-.51.11-.78 9.85-33.22 35.69-72.6 52.21-91.45C335.55 260.85 352 220.37 352 176 352 78.61 272.91-.3 175.45 0 73.44.31 0 82.97 0 176zm176-80c-44.11 0-80 35.89-80 80 0 8.84-7.16 16-16 16s-16-7.16-16-16c0-61.76 50.24-112 112-112 8.84 0 16 7.16 16 16s-7.16 16-16 16z"/></svg></div><div><h4 id="how-you-can-interact-with-this-chart">How you can interact with this chart</h4><div class="content">
+
+
+
+
+
+<p>By now you know that in these charts it is always possible to switch to any other country in the world by choosing <strong>Change Country</strong> in the bottom left corner.You can sort the table by any of the columns by clicking on the column header.</p>
+
+</div></div></div></div>
+</div><h3 id="the-case-fatality-rate"><a class="deep-link" href="#the-case-fatality-rate"></a>The case fatality rate</h3><div class="wp-block-columns is-style-sticky-left">
+<div class="wp-block-column">
+
+                <figure data-grapher-src="https://ourworldindata.org/grapher/coronavirus-cfr" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/coronavirus-cfr" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/coronavirus-cfr_v66_850x600.svg" width="850" height="600" loading="lazy" alt="Coronavirus cfr v66 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure>
+
+
+
+<h5>Related chart:</h5>
+
+
+      <div class="wp-block-owid-prominent-link is-style-thin with-image">
+        <a href="https://ourworldindata.org/grapher/covid-19-total-confirmed-cases-vs-total-confirmed-deaths" target="_blank">
+          <figure><img src="https://ourworldindata.org/uploads/2020/04/covid-19-total-confirmed-cases-vs-total-confirmed-deaths.svg" class="attachment-medium_large size-medium_large" alt="Covid 19 total confirmed cases vs total confirmed deaths" height="600" width="850" loading="lazy"></figure>
+          <div class="content-wrapper">
+            <div class="content">
+              
+
+<p>How do the total number of confirmed deaths and cases compare? See them plotted against each other.</p>
+
+
+            </div>
+            <div class="title">Total confirmed deaths vs. cases [scatterplot]<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg></div>
+          </div>
+        </a>
+      </div></div>
+
+
+
+<div class="wp-block-column">
+<p>The case fatality rate is simply the ratio of the two metrics shown in the chart above.</p>
+
+
+
+<p><strong>The case fatality rate is the number of confirmed deaths divided by the number of confirmed cases.</strong></p>
+
+
+
+<p>This chart here plots the CFR calculated in just that way.&#xA0;</p>
+
+
+
+<p>During an outbreak &#x2013; and especially when the total number of cases is not known &#x2013; <strong>one has to be very careful in interpreting the CFR</strong>. We wrote a&#xA0;<a rel="noreferrer noopener" target="_blank" href="https://ourworldindata.org/covid-mortality-risk">detailed explainer</a>&#xA0;on what can and can not be said based on current CFR figures.</p>
+</div>
+</div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><h2 id="what-do-we-know-about-the-risk-of-dying-from-covid-19"><a class="deep-link" href="#what-do-we-know-about-the-risk-of-dying-from-covid-19"></a>What do we know about the risk of dying from COVID-19?</h2><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>There is a straightforward question that most people would like answered. If someone is infected with COVID-19, how likely is that person to die?&#xA0;</p><p>This question is simple, but surprisingly hard to answer. </p><p>Here we explain why that is. We&#x2019;ll discuss the &#x201C;case fatality rate&#x201D;, the &#x201C;crude mortality rate&#x201D;, and the &#x201C;infection fatality rate&#x201D;, and why they&#x2019;re all different.</p><p>The key point is that the &#x201C;case fatality rate&#x201D;, the most commonly discussed measure of the risk of dying, is not the answer to the question, for two reasons. One, it relies on the number of <em>confirmed</em> cases, and many cases are not confirmed; and two, it relies on the total number of deaths, and with COVID-19, some people who are sick and will die soon have not yet died. These two facts mean that it is extremely difficult to make accurate estimates of the true risk of death.</p></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="the-case-fatality-rate-cfr"><a class="deep-link" href="#the-case-fatality-rate-cfr"></a>The case fatality rate (CFR)</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>In the media, it is often the &#x201C;case fatality rate&#x201D; that is talked about when the risk of death from COVID-19 is discussed.<a id="ref-1" class="ref" href="#note-1"><sup>1</sup></a> This measure is sometimes called case fatality risk or case fatality ratio, or CFR.</p><p>But this is not the same as the risk of death for an infected person &#x2013; even though, unfortunately, journalists often suggest that it is. It is relevant and important, but far from the whole story.</p><p>The CFR is very easy to calculate. You take the number of people who have died, and you divide it by the total number of people diagnosed with the disease. So if 10 people have died, and 100 people have been diagnosed with the disease, the CFR is [10 / 100], or 10%.</p><p><mjx-container class="MathJax" jax="SVG" display="true"><svg style="vertical-align: -0.452ex" xmlns="http://www.w3.org/2000/svg" width="184.615ex" height="2.149ex" role="img" focusable="false" viewBox="0 -750 81600 950"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g data-mml-node="math"><g data-mml-node="merror" data-mjx-error="Extra open brace or missing close brace"><rect data-background="true" width="81600" height="950" y="-200"/><g data-mml-node="mtext"><text data-variant="-explicitFont" transform="matrix(1 0 0 -1 0 0)" font-size="884px">text{ Case Fatality Rate (CFR, in %) }=frac{text{ Number of deaths from disease }}{text{ Number of diagnosed cases of disease }}times100</text></g></g></g></g></svg></mjx-container></p><p>But it&#x2019;s important to note that it is the ratio between the number of <em>confirmed</em> deaths from the disease and the number of <em>confirmed </em>cases, not total cases. That means that it is not the same as &#x2013; and, in fast-moving situations like COVID-19, probably not even very close to &#x2013; the true risk for an infected person.</p><p>Another important metric, which should not be confused with the CFR, is the crude mortality rate.</p></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="the-crude-mortality-rate"><a class="deep-link" href="#the-crude-mortality-rate"></a>The crude mortality rate</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>The &#x201C;crude mortality rate&#x201D; is another very simple measure, which like the CFR gives something that might <em>sound</em> like the answer to the question that we asked earlier: if someone is infected, how likely are they to die? </p><p>But, just as with CFR, it is actually very different.</p><p>The crude mortality rate &#x2013; sometimes called the crude death rate &#x2013; measures the probability that any individual in the population will die from the disease; not just those who are infected, or are confirmed as being infected. It&#x2019;s calculated by dividing the number of deaths from the disease by the <em>total population</em>. For instance, if there were 10 deaths in a population of 1,000, the crude mortality rate would be [10 / 1,000], or 1%, even if only 100 people had been diagnosed with the disease.</p><p>This difference is important: unfortunately, people sometimes confuse case fatality rates with crude death rates. A common example is the Spanish flu pandemic in 1918. One estimate, by Johnson and Mueller (2002), is that that pandemic killed 50 million people.<a id="ref-2" class="ref" href="#note-2"><sup>2</sup></a> That would have been 2.7% of the world population at the time. This means the <em>crude</em> mortality rate was 2.7%. </p><p>But 2.7% is often misreported as the <em>case</em> fatality rate &#x2013; which is wrong, because not everyone in the world was infected with Spanish flu. If the crude mortality rate really was 2.7%, then the case fatality rate was much higher &#x2013;&#xA0;it would be the percentage of people who died <em>after being diagnosed with</em> the disease. <em>[We look at the global death count of this pandemic and others </em><a href="https://ourworldindata.org/spanish-flu-largest-influenza-pandemic-in-history"><strong><em>here</em></strong></a><em>.]</em></p></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="what-we-want-to-know-isn-t-the-case-fatality-rate-it-s-the-infection-fatality-rate"><a class="deep-link" href="#what-we-want-to-know-isn-t-the-case-fatality-rate-it-s-the-infection-fatality-rate"></a><strong>What we want to know isn&#x2019;t the <em>case fatality rate</em>: it&#x2019;s the </strong><em>infection fatality rate</em></h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>Before we look at what the CFR does tell us about the mortality risk, it is helpful to see what it doesn&#x2019;t.</p><p>Remember the question we asked at the beginning: if someone is infected with COVID-19, how likely is it that they will die? The answer to that question is captured by the <em>infection fatality rate</em>, or IFR.</p><p>The IFR is the number of deaths from a disease divided by the <em>total number of cases</em>. If 10 people die of the disease, and 500 actually have it, then the IFR is [10 / 500], or 2%.<a id="ref-3" class="ref" href="#note-3"><sup>3</sup></a><sup>,</sup><a id="ref-4" class="ref" href="#note-4"><sup>4</sup></a><sup>,</sup><a id="ref-5" class="ref" href="#note-5"><sup>5</sup></a><sup>,</sup><a id="ref-6" class="ref" href="#note-6"><sup>6</sup></a><sup>,</sup><a id="ref-7" class="ref" href="#note-7"><sup>7</sup></a></p><p>To work out the IFR, we need two numbers: the <em>total</em> number of cases and the <em>total</em> number of deaths.&#xA0;</p><p>However, as we explain <strong><a href="https://ourworldindata.org/coronavirus#cases-of-covid-19">here</a></strong>, the <em>total</em> number of cases of COVID-19 is not known. That&#x2019;s partly because not everyone with COVID-19 is tested.<a id="ref-8" class="ref" href="#note-8"><sup>8</sup></a><sup>,</sup><a id="ref-9" class="ref" href="#note-9"><sup>9</sup></a>&#xA0;</p><p>We may be able to <em>estimate</em> the total number of cases and use it to calculate the IFR &#x2013; and researchers do this.&#xA0;But the total number of cases is not known, so the IFR cannot be accurately calculated. And, despite what some media reports imply, the CFR is not the same as &#x2013; or, probably, even similar to &#x2013; the IFR. Next, we&#x2019;ll discuss why.</p></div><div class="wp-block-column"></div></div><h3 id="interpreting-the-case-fatality-rate"><a class="deep-link" href="#interpreting-the-case-fatality-rate"></a>Interpreting the case fatality rate</h3><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>In order to understand what the case fatality rate can and cannot tell us about a disease outbreak such as COVID-19, it&#x2019;s important to understand why it is difficult to measure and interpret the numbers.</p></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="the-case-fatality-rate-isn-t-constant-it-changes-with-the-context"><a class="deep-link" href="#the-case-fatality-rate-isn-t-constant-it-changes-with-the-context"></a>The case fatality rate isn&#x2019;t constant: it changes with the context</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>Sometimes journalists talk about the CFR as if it&#x2019;s a single, steady number, an unchanging fact about the disease. <a href="https://www.nytimes.com/interactive/2020/world/asia/china-coronavirus-contain.html">This</a> is a particular bad example from the New York Times in the early days of the COVID-19 outbreak.</p><p>But it&#x2019;s not a biological constant; instead, it reflects the severity of the disease <em>in a particular context, at a particular&#xA0;time, in a particular population.</em>&#xA0;</p><p>The probability that someone dies from a disease doesn&#x2019;t just depend on the disease itself, but also on the treatment they receive, and on the patient&#x2019;s own ability to recover from it.</p><p>This means that the CFR can decrease or increase over time, as responses change; and that it can vary by location and by the characteristics of the infected population, such as age, or sex. For instance, older populations would expect to see a higher CFR from COVID-19 than younger ones.</p></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="the-cfr-of-covid-19-differs-by-location-and-has-changed-during-the-early-period-of-the-outbreak"><a class="deep-link" href="#the-cfr-of-covid-19-differs-by-location-and-has-changed-during-the-early-period-of-the-outbreak"></a>The CFR of COVID-19 differs by location, and has changed during the early period of the outbreak</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>The case fatality rate of COVID-19 is not constant. You can see that in the chart below, first published in the <em>Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19)</em>, in February 2020.<a id="ref-10" class="ref" href="#note-10"><sup>10</sup></a></p><p>It shows the CFR values for COVID-19 in several locations in China during the early stages of the outbreak, from the beginning of January to 20th February 2020.</p><p>You can see that in the earliest stages of the outbreak the CFR was much higher: 17.3% across China as a whole (in yellow) and greater than 20% in the centre of the outbreak, in Wuhan (in blue).</p><p>But in the weeks that followed, the CFR declined, reaching as low as 0.7% for patients who first showed symptoms after February 1st. The WHO says that that is because &#x201C;the standard of care has evolved over the course of the outbreak&#x201D;.</p><p>You can also see that the CFR was different in different places. By 1st February, the CFR in Wuhan was still 5.8% while it was 0.7% across the rest of China.</p><p>This shows that what we said about the CFR generally &#x2013; that it changes from time to time and place to place &#x2013; is true for the CFR of COVID-19 specifically. When we talk about the CFR of a disease, we need to talk about it <em>in a specific time and place </em>&#x2013; the CFR in Wuhan on 23rd February, or in Italy on 4th March &#x2013; rather than as a single unchanging value.</p></div><div class="wp-block-column"><h6>Case fatality ratio for COVID-19 in China over time and by location, as of 20 February 2020 &#x2013; Figure 4 in WHO (2020)<a id="ref-11" class="ref" href="#note-11"><sup>11</sup></a></h6><div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://ourworldindata.org/uploads/2020/03/Covid-CFR-in-China-over-time.png" alt="Covid cfr in china over time" class="wp-image-30232" srcset="https://ourworldindata.org/uploads/2020/03/Covid-CFR-in-China-over-time.png 627w, https://ourworldindata.org/uploads/2020/03/Covid-CFR-in-China-over-time-400x246.png 400w, https://ourworldindata.org/uploads/2020/03/Covid-CFR-in-China-over-time-150x92.png 150w" sizes="(max-width: 627px) 100vw, 627px" data-high-res-src="https://ourworldindata.org/uploads/2020/03/Covid-CFR-in-China-over-time.png" loading="lazy"></figure></div></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="there-are-two-reasons-why-the-case-fatality-rate-does-not-reflect-the-risk-of-death"><a class="deep-link" href="#there-are-two-reasons-why-the-case-fatality-rate-does-not-reflect-the-risk-of-death"></a>There are two reasons why the case fatality rate does not reflect the risk of death</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>If the case fatality rate does not tell us the risk of death for someone infected with the disease, what does it tell us? And how does the CFR compare with the actual (unknown) probability?</p><p>There are two reasons why we would expect the CFR not to represent the real risk. One of them would tend to make the CFR an overestimate &#x2013; the other would tend to make it an underestimate.</p><p><strong>When there are people who have the disease but are not diagnosed, the CFR will <em>overestimate </em>the true risk of death. With COVID-19, we think there are many undiagnosed people.</strong></p><p>As we saw above, in our discussion on the difference between total and confirmed cases (<a href="https://ourworldindata.org/coronavirus#cases-of-covid-19"><strong>here</strong></a>), we do not know the number of total cases. Not everyone is tested for COVID-19, so the total number of cases is higher than the number of confirmed cases.</p><p>And whenever there are cases of the disease that are not counted, then the probability of dying from the disease is lower than the reported case fatality rate. Remember our imaginary scenario with 10 deaths and 100 cases. The CFR in that example is 10% &#x2013; but if there are 500 real cases, then the real risk (the IFR) is just 2%.</p><p>Or in one sentence. If the number of total cases is higher than the number of confirmed cases, then the ratio between deaths and <em>total cases</em> is smaller than the ratio between deaths and <em>confirmed cases</em>. This of course assumes that there is not also significant undercounting in the number of deaths; it&#x2019;s plausible that some deaths are missed or go unreported, but we&#x2019;d expect the magnitude of undercounting to be less than for cases. </p><p>Importantly, this means that the number of tests carried out affects the CFR &#x2013; you can only confirm a case by testing a patient. So when we compare the CFR between different countries, the differences do not only reflect rates of mortality, but also differences in the scale of testing efforts.</p><p><strong>When some people are currently sick and will die of the disease, but have not died yet, the CFR will <em>underestimate</em> the true risk of death. With COVID-19, many of those who are currently sick and will die have not yet died.</strong> <strong>Or, they may die from the disease but be listed as having died from something else.</strong></p><p>In ongoing outbreaks, people who are currently sick will eventually die from the disease. This means that they are currently counted as a case, but will eventually be counted as a death too. This means the CFR right now is an underestimate of what it will be when the disease has run its course.</p><p>With the COVID-19 outbreak, it can take between two to eight weeks for people to go from first symptoms to death, according to data from early cases (we discuss this <a href="https://ourworldindata.org/coronavirus#how-long-does-covid-19-last">here</a>).<a id="ref-12" class="ref" href="#note-12"><sup>12</sup></a>&#xA0;</p><p>This is not a problem once an outbreak has finished. Afterwards, the total number of deaths will be known, and we can use it to calculate the CFR. But during an outbreak, we need to be careful with how to interpret the CFR because the outcome (recovery or death) of a large number of cases is still unknown.</p><p>This is a common source for misinterpretation of a rising CFR in the earlier stages of an outbreak.<a id="ref-13" class="ref" href="#note-13"><sup>13</sup></a></p><p>This is what happened during the SARS-CoV outbreak in 2003: the CFR was initially reported to be 3-5% during the early stages of the outbreak, but had risen to around 10% by the end.<a id="ref-14" class="ref" href="#note-14"><sup>14</sup></a><sup>,</sup><a id="ref-15" class="ref" href="#note-15"><sup>15</sup></a></p><p>This is not just a problem for statisticians: it had real negative consequences for our understanding of the outbreak. The low numbers that were published initially resulted in an underestimate of the severity of the outbreak. And the rise of the CFR over time gave the wrong impression that SARS was becoming more deadly over time. These errors made it harder to come up with the right response.</p></div><div class="wp-block-column"></div></div><h3 id="the-current-case-fatality-rate-of-covid-19"><a class="deep-link" href="#the-current-case-fatality-rate-of-covid-19"></a>The current case fatality rate of COVID-19</h3><div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<p>We should stress again that there is no single figure of CFR for any particular disease. The CFR varies by location, and is typically changing over time. </p>
+
+
+
+<p>As this paper shows<a id="ref-16" class="ref" href="#note-16"><sup>16</sup></a>, CFRs vary widely between countries, from 0.2% in Germany to 7.7% in Italy. But it says that this is not necessarily an accurate comparison of the true likelihood that someone with COVID-19 will die of it. </p>
+
+
+
+<p>We do not know how many cases are asymptomatic versus symptomatic, or whether the same criteria for <a href="https://ourworldindata.org/coronavirus#testing-for-covid-19">testing</a> are being applied between countries. Without better and more standardised criteria for testing and for the recording of deaths, the real mortality rate is unknown. As the<em> </em>paper says, to understand the differences in CFR and how they should guide decision-making, we need better data.</p>
+
+
+
+<p>But if we&#x2019;re careful to acknowledge its limitations, CFR can help us to better understand the severity of the disease and what we should do about it.</p>
+
+
+
+<p>This chart shows how these early CFR values compare. You can see the total number of confirmed cases of COVID-19 (on the x-axis, going across) versus the total number of deaths (on the y-axis, going up). </p>
+
+
+
+<p>The grey lines show a range of CFR values &#x2013; from 0.25% to 10%. </p>
+
+
+
+<p>Where each country lies indicates its CFR &#x2013; for instance, if a country lies along the 2% line, its current confirmed cases and death figures indicate it has a CFR of 2%.</p>
+
+
+
+<p>The second chart shows how the CFR has changed over time in countries that have had over 100 confirmed cases. </p>
+
+
+
+<p>We have excluded countries which still have a relatively small number of confirmed cases, because CFR is a particularly poor metric to understand mortality risk with a small sample size. </p>
+
+
+
+<p>We see this if we <a href="https://ourworldindata.org/grapher/covid-19-total-confirmed-cases-vs-total-confirmed-deaths?time=17..63&amp;country=IRN"><strong>look at</strong></a> the trajectory of cases and deaths in Iran: on February 24th it had 2 confirmed cases and 2 deaths, an implausible CFR of 100%. With time its CFR begins to fall, as the number of confirmed cases increases. By the time it has seen hundreds of cases, the CFR drops to around the level seen in other countries.</p>
+</div>
+
+
+
+<div class="wp-block-column">
+
+                <figure data-grapher-src="https://ourworldindata.org/grapher/covid-19-total-confirmed-cases-vs-total-confirmed-deaths" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/covid-19-total-confirmed-cases-vs-total-confirmed-deaths" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/covid-19-total-confirmed-cases-vs-total-confirmed-deaths_v82_850x600.svg" width="850" height="600" loading="lazy" alt="Covid 19 total confirmed cases vs total confirmed deaths v82 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure>
+
+
+
+
+                <figure data-grapher-src="https://ourworldindata.org/grapher/coronavirus-cfr" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/coronavirus-cfr" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/coronavirus-cfr_v66_850x600.svg" width="850" height="600" loading="lazy" alt="Coronavirus cfr v66 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure>
+</div>
+</div><h3 id="case-fatality-rate-of-covid-19-by-age"><a class="deep-link" href="#case-fatality-rate-of-covid-19-by-age"></a>Case fatality rate of COVID-19 by age</h3><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="current-data-across-countries-suggests-that-the-elderly-are-most-at-risk"><a class="deep-link" href="#current-data-across-countries-suggests-that-the-elderly-are-most-at-risk"></a>Current data across countries suggests that the elderly are most at risk</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<p>It&#x2019;s helpful to estimate the risk of death across a population &#x2013; the average IFR, the chance of death if a random person in the country were to catch the disease, which we discussed <a href="https://ourworldindata.org/coronavirus#what-do-we-know-about-the-risk-of-dying-from-covid-19">above</a>. It helps us know the severity of an outbreak.</p>
+
+
+
+<p>But during an outbreak, it&#x2019;s also crucial to know which groups within a population are most at risk. If we know which sections of society are most likely to die, or suffer other serious consequences, then that allows us to direct our resources towards the most vulnerable, who need them the most.</p>
+
+
+
+<p>In the chart below, we see a breakdown of the CFR by age group across various countries who have made demographic data on confirmed cases and deaths available. It shows very large differences of the CFR by age.&#xA0;</p>
+
+
+
+<p>This data is based on the number of confirmed cases and deaths in each age group as reported by national agencies. The figures come from the Chinese Center for Disease Control and Prevention (CDC) as of 17th February; <a href="https://www.isciii.es/QueHacemos/Servicios/VigilanciaSaludPublicaRENAVE/EnfermedadesTransmisibles/Paginas/InformesCOVID-19.aspx">Spanish Ministry of Health</a> as of 24th March; Korea Centers for Disease Control and Prevention (<a href="https://www.cdc.go.kr/board/board.es?mid=a30402000000&amp;bid=0030">KCDC</a>) as of 24th March; and the Italian National Institute of Health, as presented in the paper by Onder et al. (2020) as of 17th March.<a id="ref-17" class="ref" href="#note-17"><sup>17</sup></a><sup>,</sup><a id="ref-18" class="ref" href="#note-18"><sup>18</sup></a></p>
+
+
+
+<p>Again it&#x2019;s important to stress that the CFR simply represents the number of deaths divided by the number of confirmed cases. It does not tell us the true risk of death, which (<a href="https://ourworldindata.org/coronavirus#what-do-we-know-about-the-risk-of-dying-from-covid-19">as we say above</a>) is much harder to estimate. The CFR changes over time, and differences between countries do not necessarily reflect real differences in the risk of dying from COVID-19. Instead, they may reflect differences in the extent of testing, or the stage a country is in its trajectory through the outbreak.</p>
+
+
+
+<p>For many infectious diseases young children are most at risk. For instance, in the case of malaria, the <a href="https://ourworldindata.org/grapher/malaria-deaths-by-age">majority of deaths</a> (57% globally) are in children under five. The same was true for the largest pandemic in recorded history: During the &#x2018;Spanish flu&#x2019; in 1918, children and young adults were at the greatest risk from the pandemic (we write more about this in the article <a href="https://ourworldindata.org/spanish-flu-largest-influenza-pandemic-in-history">here</a>).</p>
+
+
+
+<p>For COVID-19 cases the opposite seems to be true. The elderly are at the greatest risk of dying, if infected with this virus.</p>
+
+
+
+<p>It may not simply be that the older you get, the more at risk you are, though. As we show in the <a href="https://ourworldindata.org/coronavirus#case-fatality-rate-of-covid-19-by-preexisting-health-conditions">next section</a>, the CFR for people with underlying health conditions &#x2013; such as cardiovascular diseases, respiratory diseases or diabetes &#x2013; is higher than for those without. Elderly people are more likely to have those conditions, which is likely to be part of the reason why the elderly are most at risk from COVID-19.&#xA0;</p>
+</div>
+
+
+
+<div class="wp-block-column">
+<h6>Case fatality rate of COVID-19 by age group across countries.<a id="ref-19" class="ref" href="#note-19"><sup>19</sup></a><sup>,</sup><a id="ref-20" class="ref" href="#note-20"><sup>20</sup></a></h6>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://ourworldindata.org/uploads/2020/03/COVID-CFR-by-age-710x550.png" alt="Covid cfr by age" class="wp-image-31253" srcset="https://ourworldindata.org/uploads/2020/03/COVID-CFR-by-age-710x550.png 710w, https://ourworldindata.org/uploads/2020/03/COVID-CFR-by-age-400x310.png 400w, https://ourworldindata.org/uploads/2020/03/COVID-CFR-by-age-150x116.png 150w, https://ourworldindata.org/uploads/2020/03/COVID-CFR-by-age-768x595.png 768w, https://ourworldindata.org/uploads/2020/03/COVID-CFR-by-age-1536x1190.png 1536w, https://ourworldindata.org/uploads/2020/03/COVID-CFR-by-age.png 1577w" sizes="(max-width: 710px) 100vw, 710px" data-high-res-src="https://ourworldindata.org/uploads/2020/03/COVID-CFR-by-age.png" loading="lazy"></figure>
+</div>
+</div><h3 id="case-fatality-rate-of-covid-19-by-preexisting-health-conditions"><a class="deep-link" href="#case-fatality-rate-of-covid-19-by-preexisting-health-conditions"></a>Case fatality rate of COVID-19 by preexisting health conditions</h3><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="early-data-from-china-suggests-that-those-with-underlying-health-conditions-are-at-a-higher-risk"><a class="deep-link" href="#early-data-from-china-suggests-that-those-with-underlying-health-conditions-are-at-a-higher-risk"></a>Early data from China suggests that those with underlying health conditions are at a higher risk</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>The chart here shows the case fatality rate for populations within China based on their health status or underlying health condition.</p><p>This is based on the same data from the Center for Disease Control and Prevention as we discussed in <a href="https://ourworldindata.org/coronavirus#case-fatality-rate-of-covid-19-by-age">the section on age</a>.<a id="ref-21" class="ref" href="#note-21"><sup>21</sup></a> This analysis was based on recorded deaths and cases in China in the period up to February 11th 2020.</p><p>The researchers found that the CFR for those with an underlying health condition is much higher than for those without. For instance, more than 10% of people with a <a href="https://ourworldindata.org/causes-of-death#cardiovascular-diseases">cardiovascular disease</a>, and who were diagnosed with COVID-19, died. <a href="https://ourworldindata.org/grapher/diabetes-prevalence">Diabetes</a>, chronic respiratory diseases, hypertension, and <a href="https://ourworldindata.org/cancer">cancer</a> were all risk factors as well, as we see in the chart.</p><p>By comparison, the CFR was 0.9% &#x2013; more than ten times lower &#x2013; for those without a preexisting health condition.</p><p><a href="https://ourworldindata.org/coronavirus#case-fatality-rate-of-covid-19-by-age">Above</a> we saw that the elderly are most at risk of dying from COVID-19. As we said there, that might be partly explained by the fact that they are also most likely to have underlying health conditions such as cardiovascular disease, respiratory disease and diabetes; these health conditions make it more difficult to recover from the COVID-19 infection.</p></div><div class="wp-block-column"><figure class="wp-block-image size-full"><img src="https://ourworldindata.org/uploads/2020/03/Coronavirus-CFR-by-health-condition-in-China.png" alt="Coronavirus cfr by health condition in china" class="wp-image-30235" srcset="https://ourworldindata.org/uploads/2020/03/Coronavirus-CFR-by-health-condition-in-China.png 1309w, https://ourworldindata.org/uploads/2020/03/Coronavirus-CFR-by-health-condition-in-China-400x214.png 400w, https://ourworldindata.org/uploads/2020/03/Coronavirus-CFR-by-health-condition-in-China-800x428.png 800w, https://ourworldindata.org/uploads/2020/03/Coronavirus-CFR-by-health-condition-in-China-150x80.png 150w, https://ourworldindata.org/uploads/2020/03/Coronavirus-CFR-by-health-condition-in-China-768x411.png 768w" sizes="(max-width: 1309px) 100vw, 1309px" data-high-res-src="https://ourworldindata.org/uploads/2020/03/Coronavirus-CFR-by-health-condition-in-China.png" loading="lazy"></figure></div></div><h3 id="case-fatality-rate-of-covid-19-compared-to-other-diseases"><a class="deep-link" href="#case-fatality-rate-of-covid-19-compared-to-other-diseases"></a>Case fatality rate of COVID-19 compared to other diseases</h3><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="how-does-the-case-fatality-rate-cfr-of-covid-19-compare-to-other-virus-outbreaks-and-diseases"><a class="deep-link" href="#how-does-the-case-fatality-rate-cfr-of-covid-19-compare-to-other-virus-outbreaks-and-diseases"></a>How does the case fatality rate (CFR) of COVID-19 compare to other virus outbreaks and diseases?</h4></div><div class="wp-block-column"></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>Once again, we should stress what we discussed above. One has to understand the measurement challenges and the definitions to interpret estimates of the CFR for COVID-19, particularly those relating to an ongoing outbreak.</p><p>As comparisons, the table shows the case fatality rates for other disease outbreaks. The CFR of SARS-CoV and MERS-CoV were high: 10% and 34%, respectively.<a id="ref-22" class="ref" href="#note-22"><sup>22</sup></a></p><p>The US seasonal flu has a case fatality rate of approximately 0.1% &#x2013; much lower than the current CFR for COVID-19.</p><p style="font-size:11px"><strong>Sources of data shown in the table:</strong><br><strong>SARS-CoV: </strong>Venkatesh, S. &amp; Memish, Z.A. (&#x200E;2004)&#x200E;. <a href="https://apps.who.int/iris/handle/10665/119464">SARS: the new challenge to international health and travel medicine</a>. <em>EMHJ &#x2013; Eastern Mediterranean Health Journal, 10 (&#x200E;4-5)&#x200E;, 655-662, 2004.</em><br><strong>SARS-CoV and MERS-CoV:</strong> Munster, V. J., Koopmans, M., van Doremalen, N., van Riel, D., &amp; de Wit, E. (2020). <a href="https://www.nejm.org/doi/full/10.1056/NEJMp2000929">A novel coronavirus emerging in China&#x2014;key questions for impact assessment</a>. <em>New England Journal of Medicine</em>, <em>382</em>(8), 692-694.<br><strong>Seasonal flu:</strong> US Centers for Disease Control and Prevention (CDC). <a href="https://www.cdc.gov/flu/about/burden/2018-2019.html">Influenza Burden, 2018-19</a>.<br><strong>Ebola:</strong> Shultz, J. M., Espinel, Z., Espinola, M., &amp; Rechkemmer, A. (2016). <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5314891/">Distinguishing epidemiological features of the 2013&#x2013;2016 West Africa Ebola virus disease outbreak</a>. <em>Disaster Health</em>, <em>3</em>(3), 78-88.<br><strong>Ebola:</strong> World Health Organization (2020). <a href="https://www.who.int/en/news-room/fact-sheets/detail/ebola-virus-disease">Ebola virus disease: Factsheet</a>.</p></div><div class="wp-block-column"><figure class="wp-block-table is-style-regular"><div class="tableContainer"><table class="has-fixed-layout"><tbody><tr><td><strong>Disease</strong></td><td><strong>Estimated case fatality rate (CFR)</strong></td></tr><tr><td>SARS-CoV</td><td>10%<br>Venkatesh and Memish (&#x200E;2004)&#x200E;<br>Munster et al. (2020)</td></tr><tr><td>MERS-CoV</td><td>34%<br>Munster et al. (2020)</td></tr><tr><td>Seasonal flu (US)</td><td>0.1-0.2% <br>US CDC</td></tr><tr><td>Ebola</td><td>50%<br>40% in the 2013-16 outbreak<p>WHO (2020)<br>Shultz et al. (2016)</p> </td></tr></tbody></table></div></figure></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><h2 id="acknowledgements"><a class="deep-link" href="#acknowledgements"></a>Acknowledgements</h2><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>We would like to acknowledge and thank a number of people in the development of this work:<br><br><strong>Tom Chivers</strong> for editorial review and feedback.</p><p><strong>Bernadeta Dadonaite</strong>, <strong>Jason Hendry</strong>, and <strong>Moritz Kraemer</strong> for helpful comments and suggestions on earlier versions of this work.</p><p><strong>Natalie Dean</strong>, <strong>Eric Topol</strong>, <strong>Carl Bergstrom</strong> and <strong>Adam Kucharski</strong> for their immediate and helpful feedback on our testing database.</p><p>And we would like to thank the many hundreds of readers who give us feedback on this work every day. Your feedback is what allows us to continuously clarify and improve it. We very much appreciate you taking the time to write.</p><p>Even if we can&#x2019;t respond to every message we receive, we do read all feedback and take it all into account.</p></div><div class="wp-block-column"></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div><footer class="article-footer"><div class="wp-block-columns"><div class="wp-block-column"><h3 id="references">References</h3><ol class="references"><li id="note-1"><p>Worldometers lists many poor examples of &#8216;mortality rates&#8217; for COVID-19 without discussion <a href="https://www.worldometers.info/coronavirus/coronavirus-death-rate/">here</a>.</p>
+
+
+
+<p>See the New York Times <a href="https://www.nytimes.com/interactive/2020/world/asia/china-coronavirus-contain.html">here</a>.</p></li><li id="note-2"><p><em>Taubenberger, J. K., &amp; Morens, D. M. (2006). </em><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3291398/"><em>1918 Influenza: the mother of all pandemics</em></a><em>. Revista Biomedica, 17(1), 69-79.</em></p></li><li id="note-3"><p>We would therefore calculate the infection fatality rate as:<br><strong>Infection fatality risk (IFR, in %)</strong> = [Number of deaths from disease / total number of cases of disease] x 100</p></li><li id="note-4"><p>Wong, J. Y., Heath Kelly, D. K., Wu, J. T., Leung, G. M., &amp; Cowling, B. J. (2013). <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3809029/">Case fatality risk of influenza A (H1N1pdm09): a systematic review</a>. <em>Epidemiology</em>, 24(6).</p></li><li id="note-5"><p>Lipsitch, M., Donnelly, C. A., Fraser, C., Blake, I. M., Cori, A., Dorigatti, I., &#8230; &amp; Van Kerkhove, M. D. (2015). Potential biases in estimating absolute and relative case-fatality risks during outbreaks. <em>PLoS Neglected Tropical Diseases</em>, <em>9</em>(7).</p></li><li id="note-6"><p>Kobayashi, T., Jung, S. M., Linton, N. M., Kinoshita, R., Hayashi, K., Miyama, T., &#8230; &amp; Suzuki, A. (2020). <a href="https://www.mdpi.com/2077-0383/9/2/580">Communicating the Risk of Death from Novel Coronavirus Disease (COVID-19)</a>. <em>Journal of Clinical Medicine</em>.</p></li><li id="note-7"><p>Nishiura, H. (2010). <a href="https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(10)70120-1/fulltext">Case fatality ratio of pandemic influenza</a>. <em>The Lancet Infectious Diseases</em>, 10(7), 443.</p></li><li id="note-8"><p>Read JM, Bridgen JR, Cummings DA, Ho A, Jewell CP.<a href="https://www.medrxiv.org/content/10.1101/2020.01.23.20018549v2"> Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions</a>. medRxiv. 2020;2020.01.23.20018549.</p></li><li id="note-9"><p>World Health Organization (2020). Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19). Available online at: https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf</p></li><li id="note-10"><p>World Health Organization (2020). Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19). Available online at: <a href="https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf">https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf</a>.</p></li><li id="note-11"><p>World Health Organization (2020). Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19). Available online at: https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf.</p></li><li id="note-12"><p>World Health Organization (2020). Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19). Available online at: https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf</p></li><li id="note-13"><p>Ghani, A. C., Donnelly, C. A., Cox, D. R., Griffin, J. T., Fraser, C., Lam, T. H., &#8230; &amp; Leung, G. M. (2005). <a href="https://academic.oup.com/aje/article/162/5/479/82647">Methods for estimating the case fatality ratio for a novel, emerging infectious disease</a>. <em>American Journal of Epidemiology</em>, 162(5), 479-486.</p></li><li id="note-14"><p>Ghani, A. C., Donnelly, C. A., Cox, D. R., Griffin, J. T., Fraser, C., Lam, T. H., &#8230; &amp; Leung, G. M. (2005).<a href="https://academic.oup.com/aje/article/162/5/479/82647"> Methods for estimating the case fatality ratio for a novel, emerging infectious disease</a>. American Journal of Epidemiology, 162(5), 479-486.</p></li><li id="note-15"><p>Wilder-Smith, A., &amp; Freedman, D. O. (2003).<a href="https://apps.who.int/iris/handle/10665/119464"> Confronting the new challenge in travel medicine: SARS</a>. Journal of Travel Medicine, 10(5), 257-258.</p></li><li id="note-16"><p>Lazzerini, M., &amp; Putoto, G. (2020). <a href="https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(20)30110-8/fulltext">COVID-19 in Italy: momentous decisions and many uncertainties</a>.&nbsp;<em>The Lancet Global Health</em>.</p></li><li id="note-17"><p>Epidemiological group of emergency response mechanism of new coronavirus pneumonia in Chinese Center for Disease Control and Prevention. <a href="https://www.ncbi.nlm.nih.gov/pubmed/32064853?fbclid=IwAR3JCxH50VTfg3Q_02YTLdz2Tk7yBTmt-5oCxE4KlBe0evh7ByK3HPVU-pU">Epidemiological characteristics of new coronavirus pneumonia</a>. <em>Chinese Journal of Epidemiology</em>, 2020,41 (2020-02-17 ).</p></li><li id="note-18"><p>Onder G, Rezza G, Brusaferro S. <a href="https://jamanetwork.com/journals/jama/fullarticle/2763667">Case-Fatality Rate and Characteristics of Patients Dying in Relation to COVID-19 in Italy</a>.&nbsp;<em>JAMA.</em>&nbsp;Published online March 23, 2020. doi:10.1001/jama.2020.4683.</p></li><li id="note-19"><p>Onder G, Rezza G, Brusaferro S. <a href="https://jamanetwork.com/journals/jama/fullarticle/2763667">Case-Fatality Rate and Characteristics of Patients Dying in Relation to COVID-19 in Italy</a>.&nbsp;<em>JAMA.</em>&nbsp;Published online March 23, 2020. doi:10.1001/jama.2020.4683.</p></li><li id="note-20"><p>The Epidemiological Characteristics of an Outbreak of 2019 Novel Coronavirus Diseases (COVID-19) — China, 2020. The&nbsp;Novel&nbsp;Coronavirus&nbsp;Pneumonia&nbsp;Emergency&nbsp;Response&nbsp;Epidemiology&nbsp;Team.&nbsp;<em>Chinese CDC Weekly</em>. Available at:&nbsp;<a rel="noreferrer noopener" target="_blank" href="https://cdn.onb.it/2020/03/COVID-19.pdf.pdf">https://cdn.onb.it/2020/03/COVID-19.pdf.pdf</a>.</p></li><li id="note-21"><p>Epidemiological group of emergency response mechanism of new coronavirus pneumonia in Chinese Center for Disease Control and Prevention. <a href="https://www.ncbi.nlm.nih.gov/pubmed/32064853?fbclid=IwAR3JCxH50VTfg3Q_02YTLdz2Tk7yBTmt-5oCxE4KlBe0evh7ByK3HPVU-pU">Epidemiological characteristics of new coronavirus pneumonia</a>. <em>Chinese Journal of Epidemiology</em>, 2020,41 (2020-02-17).</p></li><li id="note-22"><p>Munster, V. J., Koopmans, M., van Doremalen, N., van Riel, D., &amp; de Wit, E. (2020). <a href="https://www.nejm.org/doi/full/10.1056/NEJMp2000929">A novel coronavirus emerging in China—key questions for impact assessment</a>. <em>New England Journal of Medicine</em>, <em>382</em>(8), 692-694.</p></li></ol></div><div class="wp-block-column"></div></div></footer></div></div></div></article></main><div id="wpadminbar" style="display:none"><div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar"><ul id="wp-admin-bar-root-default" class="ab-top-menu"><li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="https://owid.cloud/wp/wp-admin">Wordpress</a></li> <li id="wp-admin-bar-edit"><a class="ab-item" href="https://owid.cloud/wp/wp-admin/post.php?post=32535&amp;action=edit">Edit Page</a></li></ul></div></div><section class="donate-footer"><div class="wrapper"><div class="owid-row flex-align-center"><div class="owid-col owid-col--lg-3 owid-padding-bottom--sm-3"><p>Our World in Data is free and accessible for everyone.</p><p>Help us do this work by making a donation.</p></div><div class="owid-col owid-col--lg-1"><a href="/donate" class="owid-button donate-button" data-track-note="donate-footer"><span class="label">Donate now</span><span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-8 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg></span></a></div></div></div></section><footer class="site-footer"><div class="wrapper"><div class="owid-row"><div class="owid-col owid-col--lg-1"><ul><li><a href="/about" data-track-note="footer-navigation">About</a></li><li><a href="/about#contact" data-track-note="footer-navigation">Contact</a></li><li><a href="/feedback" data-track-note="footer-navigation">Feedback</a></li><li><a href="/jobs" data-track-note="footer-navigation">Jobs</a></li><li><a href="/supporters" data-track-note="footer-navigation">Supporters</a></li><li><a href="/about/how-to-use-our-world-in-data" data-track-note="footer-navigation">How to use</a></li><li><a href="/donate" data-track-note="footer-navigation">Donate</a></li><li><a href="/privacy-policy" data-track-note="footer-navigation">Privacy policy</a></li></ul></div><div class="owid-col owid-col--lg-1"><ul><li><a href="/blog" data-track-note="footer-navigation">Latest publications</a></li><li><a href="/charts" data-track-note="footer-navigation">All charts</a></li></ul><ul><li><a href="https://twitter.com/OurWorldInData" data-track-note="footer-navigation">Twitter</a></li><li><a href="https://www.facebook.com/OurWorldinData" data-track-note="footer-navigation">Facebook</a></li><li><a href="https://github.com/owid" data-track-note="footer-navigation">GitHub</a></li><li><a href="/feed" data-track-note="footer-navigation">RSS Feed</a></li></ul></div><div class="owid-col owid-col--lg-1"><div class="logos"><a href="https://www.oxfordmartin.ox.ac.uk/research/programmes/global-development" class="partner-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/oms-logo.svg" alt="Oxford Martin School logo" loading="lazy"/></a><a href="/owid-at-ycombinator" class="partner-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/yc-logo.png" alt="Y Combinator logo" loading="lazy"/></a></div></div><div class="owid-col flex-2"><div class="legal"><p>License: All of Our World in Data is completely open access and all work is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY license</a>. You have the permission to use, distribute, and reproduce in any medium, provided the source and authors are credited.</p><p>Please consult our full <a href="/about#legal">legal disclaimer</a>.</p><p><a href="https://global-change-data-lab.org/" class="partner-logo gcdl-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/gcdl-logo-narrow.png" alt="Global Change Data Lab logo" loading="lazy"/></a>Our World In Data is a project of the <a href="https://global-change-data-lab.org/">Global Change Data Lab</a>, a registered charity in England and Wales (Charity Number 1186433).</p></div></div></div></div><div class="site-tools"></div><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="https://ourworldindata.org/assets/js/commons.js"></script><script src="https://ourworldindata.org/assets/js/owid.js"></script><script>
+                runHeaderMenus();
+                runBlocks();
+                runLightbox();
+                runSiteTools();
+                runCookieNotice();
+                runCovid();
+                if (!document.querySelector(".ChartPage")) {
+                    Grapher.embedAll();
+                    runGlobalEntityControl(Grapher.globalEntitySelection);
+                }
+            </script></footer><script>
+                        runTableOfContents({"headings":[{"text":"Country-by-country data on mortality risk of the COVID-19 pandemic","slug":"country-by-country-data-on-mortality-risk-of-the-covid-19-pandemic","isSubheading":false},{"text":"Case fatality rate","slug":"case-fatality-rate","isSubheading":false},{"text":"How did confirmed deaths and cases change over time?","slug":"how-did-confirmed-deaths-and-cases-change-over-time","isSubheading":true},{"text":"The case fatality rate","slug":"the-case-fatality-rate","isSubheading":true},{"text":"What do we know about the risk of dying from COVID-19?","slug":"what-do-we-know-about-the-risk-of-dying-from-covid-19","isSubheading":false},{"text":"Interpreting the case fatality rate","slug":"interpreting-the-case-fatality-rate","isSubheading":true},{"text":"The current case fatality rate of COVID-19","slug":"the-current-case-fatality-rate-of-covid-19","isSubheading":true},{"text":"Case fatality rate of COVID-19 by age","slug":"case-fatality-rate-of-covid-19-by-age","isSubheading":true},{"text":"Case fatality rate of COVID-19 by preexisting health conditions","slug":"case-fatality-rate-of-covid-19-by-preexisting-health-conditions","isSubheading":true},{"text":"Case fatality rate of COVID-19 compared to other diseases","slug":"case-fatality-rate-of-covid-19-compared-to-other-diseases","isSubheading":true},{"text":"Acknowledgements","slug":"acknowledgements","isSubheading":false},{"text":"References","slug":"references","isSubheading":false},{"text":"Licence","slug":"licence","isSubheading":false}],"pageTitle":"Mortality Risk of COVID-19"})
+                        runRelatedCharts([])
+                        </script></body></html>
