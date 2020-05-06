@@ -16661,7 +16661,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/full-list-total-tests-for-covid-19-map</loc>
-        <lastmod>2020-05-04</lastmod>
+        <lastmod>2020-05-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/full-list-cumulative-total-tests-per-thousand-bar-chart</loc>
@@ -16721,6 +16721,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/international-travel-covid</loc>
+        <lastmod>2020-05-06</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/internal-movement-covid</loc>
         <lastmod>2020-05-06</lastmod>
     </url>
 </urlset>
