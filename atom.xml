@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2020-04-14T08:26:06.000Z</updated>
+<updated>2020-05-07T12:42:10.000Z</updated>
+<entry>
+    <title><![CDATA[How are governments responding to the Coronavirus pandemic?]]></title>
+    <id>https://ourworldindata.org/government-responses-covid</id>
+    <link rel="alternate" href="https://ourworldindata.org/government-responses-covid"/>
+    <published>2020-05-07T12:42:10.000Z</published>
+    <updated>2020-05-07T12:50:44.000Z</updated>
+    <author><name>Hannah Ritchie</name></author><author><name>Max Roser</name></author>
+    <summary><![CDATA[How are countries responding to the pandemic? When and what measures have countries put in place?]]></summary>
+</entry>
 <entry>
     <title><![CDATA[The COVID-19 pandemic slide deck]]></title>
     <id>https://ourworldindata.org/the-covid-19-pandemic-slide-deck</id>
@@ -86,14 +95,5 @@
     <updated>2020-04-30T15:00:11.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[How we treat the climate impacts of methane has a significant difference on the carbon footprint of foods. But even if we exclude methane, meat and dairy products have the highest footprint.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[The Spanish flu (1918-20): The global impact of the largest influenza pandemic in history]]></title>
-    <id>https://ourworldindata.org/spanish-flu-largest-influenza-pandemic-in-history</id>
-    <link rel="alternate" href="https://ourworldindata.org/spanish-flu-largest-influenza-pandemic-in-history"/>
-    <published>2020-03-04T10:23:59.000Z</published>
-    <updated>2020-04-30T15:00:11.000Z</updated>
-    <author><name>Max Roser</name></author>
-    <summary><![CDATA[]]></summary>
 </entry>
 </feed>
