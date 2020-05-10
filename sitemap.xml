@@ -16771,4 +16771,8 @@
         <loc>https://ourworldindata.org/grapher/covid-stringency-vs-days-cases-reached-100</loc>
         <lastmod>2020-05-08</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/confirmed-cases-of-covid-19-per-million-people-vs-bcg-immunization-coverage</loc>
+        <lastmod>2020-05-10</lastmod>
+    </url>
 </urlset>
