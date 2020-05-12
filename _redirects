@@ -436,6 +436,15 @@
 /coronavirus-testing-source-data /covid-testing 301!
 /covid-testing /coronavirus-testing 301!
 /coronavirus-country /coronavirus-country-by-country 301!
+/coronavirus-usa /coronavirus-usa?country=USA 301!
+/coronavirus-india /coronavirus-india?country=IND 301!
+/coronavirus-uk /coronavirus-uk?country=GBR 301!
+/coronavirus-germany /coronavirus-germany?country=DEU 301!
+/coronavirus-spain /coronavirus-spain?country=ESP 301!
+/coronavirus-france /coronavirus-france?country=FRA 301!
+/coronavirus-australia /coronavirus-australia?country=AUS 301!
+/coronavirus-canada /coronavirus-canada?country=CAN 301!
+/coronavirus-brazil /coronavirus-brazil?country=BRA 301!
 /grapher/latest /grapher/share-of-children-vaccinated-against-measles 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302!
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221 /grapher/share-of-the-population-suffering-from-depression 302!
