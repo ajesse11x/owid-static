@@ -29,7 +29,7 @@
     <id>https://ourworldindata.org/government-responses-covid</id>
     <link rel="alternate" href="https://ourworldindata.org/government-responses-covid"/>
     <published>2020-05-07T12:42:10.000Z</published>
-    <updated>2020-05-07T12:50:44.000Z</updated>
+    <updated>2020-05-14T11:51:41.000Z</updated>
     <author><name>Hannah Ritchie</name></author><author><name>Max Roser</name></author>
     <summary><![CDATA[How are countries responding to the pandemic? When and what measures have countries put in place?]]></summary>
 </entry>
@@ -38,7 +38,7 @@
     <id>https://ourworldindata.org/the-covid-19-pandemic-slide-deck</id>
     <link rel="alternate" href="https://ourworldindata.org/the-covid-19-pandemic-slide-deck"/>
     <published>2020-04-14T08:26:06.000Z</published>
-    <updated>2020-04-30T15:00:10.000Z</updated>
+    <updated>2020-05-14T11:52:20.000Z</updated>
     <author><name>Max Roser</name></author><author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[]]></summary>
 </entry>
@@ -47,7 +47,7 @@
     <id>https://ourworldindata.org/what-can-data-on-testing-tell-us-about-the-pandemic</id>
     <link rel="alternate" href="https://ourworldindata.org/what-can-data-on-testing-tell-us-about-the-pandemic"/>
     <published>2020-04-13T19:50:33.000Z</published>
-    <updated>2020-04-30T15:00:10.000Z</updated>
+    <updated>2020-05-14T11:52:54.000Z</updated>
     <author><name>Joe Hasell</name></author>
     <summary><![CDATA[Data on the extent of testing for COVID-19 provides important information about the reliability of the data we use to understand the spread of the virus’. Here we discuss two measures of the extent testing and what they can tell us about the pandemic.]]></summary>
 </entry>
@@ -56,7 +56,7 @@
     <id>https://ourworldindata.org/how-to-embed-charts</id>
     <link rel="alternate" href="https://ourworldindata.org/how-to-embed-charts"/>
     <published>2020-04-09T16:00:00.000Z</published>
-    <updated>2020-04-30T15:00:10.000Z</updated>
+    <updated>2020-05-14T11:53:17.000Z</updated>
     <author><name>Hannah Ritchie</name></author><author><name>Max Roser</name></author>
     <summary><![CDATA[Our goal is to bring together the best data and build the visualization tools that allows you to understand the spread of the pandemic. Our free, open-access charts cover all countries in the world. Here we show how to customize and embed charts in your own articles.]]></summary>
 </entry>
@@ -74,7 +74,7 @@
     <id>https://ourworldindata.org/covid-mortality-risk</id>
     <link rel="alternate" href="https://ourworldindata.org/covid-mortality-risk"/>
     <published>2020-03-25T15:16:42.000Z</published>
-    <updated>2020-05-06T05:58:34.000Z</updated>
+    <updated>2020-05-14T11:54:12.000Z</updated>
     <author><name>Hannah Ritchie</name></author><author><name>Max Roser</name></author>
     <summary><![CDATA[If someone is infected with COVID-19, how likely is that person to die? We look closer at the metrics used to discuss mortality risk, and what we can and cannot say from the available data.]]></summary>
 </entry>
@@ -92,7 +92,7 @@
     <id>https://ourworldindata.org/covid-sources-comparison</id>
     <link rel="alternate" href="https://ourworldindata.org/covid-sources-comparison"/>
     <published>2020-03-19T17:17:51.000Z</published>
-    <updated>2020-04-30T15:00:10.000Z</updated>
+    <updated>2020-05-14T11:54:37.000Z</updated>
     <author><name>Hannah Ritchie</name></author><author><name>Esteban Ortiz-Ospina</name></author><author><name>Max Roser</name></author><author><name>Joe Hasell</name></author>
     <summary><![CDATA[There are three main data sources on the latest Coronavirus outbreak (COVID-19). How do estimates of confirmed cases and deaths compare?]]></summary>
 </entry>
