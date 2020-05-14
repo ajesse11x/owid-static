@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2020-05-07T12:42:10.000Z</updated>
+<updated>2020-05-14T10:47:53.000Z</updated>
+<entry>
+    <title><![CDATA[How do the carbon footprint of foods compare? – Our article as a video]]></title>
+    <id>https://ourworldindata.org/vox-carbon-footprint</id>
+    <link rel="alternate" href="https://ourworldindata.org/vox-carbon-footprint"/>
+    <published>2020-05-14T10:47:53.000Z</published>
+    <updated>2020-05-14T10:52:10.000Z</updated>
+    <author><name>Hannah Ritchie</name></author>
+    <summary><![CDATA[]]></summary>
+</entry>
 <entry>
     <title><![CDATA[How are governments responding to the Coronavirus pandemic?]]></title>
     <id>https://ourworldindata.org/government-responses-covid</id>
@@ -86,14 +95,5 @@
     <updated>2020-04-30T15:00:10.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[Food losses and waste – in supply chains and by consumers – account for around one-quarter of greenhouse gas emissions from food. That’s 6% of total global emissions. ]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[The carbon footprint of foods: are differences explained by the impacts of methane?]]></title>
-    <id>https://ourworldindata.org/carbon-footprint-food-methane</id>
-    <link rel="alternate" href="https://ourworldindata.org/carbon-footprint-food-methane"/>
-    <published>2020-03-10T11:27:00.000Z</published>
-    <updated>2020-04-30T15:00:11.000Z</updated>
-    <author><name>Hannah Ritchie</name></author>
-    <summary><![CDATA[How we treat the climate impacts of methane has a significant difference on the carbon footprint of foods. But even if we exclude methane, meat and dairy products have the highest footprint.]]></summary>
 </entry>
 </feed>
