@@ -18,6 +18,7 @@
 /grapher/public/* /grapher/:splat 301
 /grapher/view/* /grapher/:splat 301
 /slides/* https://slides.ourworldindata.org/:splat 301
+/coronavirus country=:country /coronavirus-country-by-country?country=:country 302
 /detect-country-redirect /detect-country.js?ABW 302! Country=aw
 /detect-country-redirect /detect-country.js?AFG 302! Country=af
 /detect-country-redirect /detect-country.js?AGO 302! Country=ao
