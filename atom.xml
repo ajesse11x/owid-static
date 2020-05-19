@@ -5,7 +5,18 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2020-05-15T20:43:09.000Z</updated>
+<updated>2020-05-19T09:49:00.000Z</updated>
+<entry>
+    <title><![CDATA[Testing early, testing late: four countries’ approaches to COVID-19 testing compared]]></title>
+    <id>https://ourworldindata.org/covid-testing-us-uk-korea-italy</id>
+    <link rel="alternate" href="https://ourworldindata.org/covid-testing-us-uk-korea-italy"/>
+    <published>2020-05-19T09:49:00.000Z</published>
+    <updated>2020-05-19T10:49:53.000Z</updated>
+    <author><name>Joe Hasell</name></author>
+    <summary><![CDATA[It is by looking at data on confirmed cases alongside data on testing that we get the best view of how the outbreak has developed in different countries, and how successfully countries have responded to it.
+
+In this post, we compare the approach to testing taken over the outbreak in South Korea, Italy, UK and US. ]]></summary>
+</entry>
 <entry>
     <title><![CDATA[The Coronavirus Pandemic Data Explorer]]></title>
     <id>https://ourworldindata.org/the-coronavirus-pandemic-data-explorer</id>
@@ -32,17 +43,6 @@
     <updated>2020-05-14T10:52:10.000Z</updated>
     <author><name>Hannah Ritchie</name></author>
     <summary><![CDATA[]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[Testing early, testing late: four countries’ approaches to COVID-19 testing compared]]></title>
-    <id>https://ourworldindata.org/covid-testing-us-uk-korea-italy</id>
-    <link rel="alternate" href="https://ourworldindata.org/covid-testing-us-uk-korea-italy"/>
-    <published>2020-05-11T12:49:37.000Z</published>
-    <updated>2020-05-19T10:40:20.000Z</updated>
-    <author><name>Joe Hasell</name></author>
-    <summary><![CDATA[It is by looking at data on confirmed cases alongside data on testing that we get the best view of how the outbreak has developed in different countries, and how successfully countries have responded to it.
-
-In this post, we compare the approach to testing taken over the outbreak in South Korea, Italy, UK and US. ]]></summary>
 </entry>
 <entry>
     <title><![CDATA[How are governments responding to the Coronavirus pandemic?]]></title>
