@@ -29,7 +29,6 @@
 /detect-country-redirect /detect-country.js?ARG 302! Country=ar
 /detect-country-redirect /detect-country.js?ARM 302! Country=am
 /detect-country-redirect /detect-country.js?ASM 302! Country=as
-/detect-country-redirect /detect-country.js?ATA 302! Country=aq
 /detect-country-redirect /detect-country.js?ATG 302! Country=ag
 /detect-country-redirect /detect-country.js?AUS 302! Country=au
 /detect-country-redirect /detect-country.js?AUT 302! Country=at
