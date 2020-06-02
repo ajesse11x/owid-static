@@ -17546,7 +17546,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/tests-per-confirmed-case-daily-smoothed</loc>
-        <lastmod>2020-05-29</lastmod>
+        <lastmod>2020-06-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/positive-rate-daily-smoothed</loc>
@@ -17575,6 +17575,10 @@
     <url>
         <loc>https://ourworldindata.org/grapher/case-fatality-rate-vs-tests-per-confirmed-case</loc>
         <lastmod>2020-05-30</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/changes-visitors-covid</loc>
+        <lastmod>2020-06-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/week-by-week-change-of-covid-deaths-vs-gdp-per-capita</loc>
