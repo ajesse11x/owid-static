@@ -5,7 +5,18 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2020-06-02T10:38:53.000Z</updated>
+<updated>2020-06-03T10:00:00.000Z</updated>
+<entry>
+    <title><![CDATA[Best practices for governments reporting COVID-19 testing data]]></title>
+    <id>https://ourworldindata.org/covid-testing-data-guidelines</id>
+    <link rel="alternate" href="https://ourworldindata.org/covid-testing-data-guidelines"/>
+    <published>2020-06-03T10:00:00.000Z</published>
+    <updated>2020-06-03T10:22:06.000Z</updated>
+    <author><name>Joe Hasell</name></author><author><name>Edouard Mathieu</name></author><author><name>Esteban Ortiz-Ospina</name></author><author><name>Max Roser</name></author>
+    <summary><![CDATA[Data on COVID-19 testing is crucial. But not all countries report their data in a helpful way.
+
+To help official providers of testing data, we set out some simple recommendations based the best reporting practices across the countries included in our testing dataset.]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Google Mobility Trends: How has the pandemic changed the movement of people around the world?]]></title>
     <id>https://ourworldindata.org/covid-mobility-trends</id>
@@ -88,14 +99,5 @@ In this post, we compare the approach to testing taken over the outbreak in Sout
     <updated>2020-05-14T11:53:17.000Z</updated>
     <author><name>Hannah Ritchie</name></author><author><name>Max Roser</name></author>
     <summary><![CDATA[Our goal is to bring together the best data and build the visualization tools that allows you to understand the spread of the pandemic. Our free, open-access charts cover all countries in the world. Here we show how to customize and embed charts in your own articles.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[To understand the global pandemic, we need global testing – the Our World in Data COVID-19 Testing dataset]]></title>
-    <id>https://ourworldindata.org/covid-testing</id>
-    <link rel="alternate" href="https://ourworldindata.org/covid-testing"/>
-    <published>2020-03-31T21:06:00.000Z</published>
-    <updated>2020-05-08T14:20:38.000Z</updated>
-    <author><name>Joe Hasell</name></author><author><name>Esteban Ortiz-Ospina</name></author><author><name>Edouard Mathieu</name></author><author><name>Hannah Ritchie</name></author><author><name>Diana Beltekian</name></author><author><name>Bobbie Macdonald</name></author><author><name>Max Roser</name></author>
-    <summary><![CDATA[Without testing for COVID-19 we cannot know how many people are infected with the disease. And without this data we cannot know what is happening. That is why we are bringing together the available data on testing from countries around the world.]]></summary>
 </entry>
 </feed>
