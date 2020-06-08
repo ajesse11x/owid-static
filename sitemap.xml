@@ -17660,4 +17660,8 @@
         <loc>https://ourworldindata.org/grapher/covid-deaths-per-million-vs-days-since-exemplar</loc>
         <lastmod>2020-06-08</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/total-covid-tests-per-1000-exemplars</loc>
+        <lastmod>2020-06-08</lastmod>
+    </url>
 </urlset>
