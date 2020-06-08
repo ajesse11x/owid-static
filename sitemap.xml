@@ -3766,7 +3766,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/covid-19-project-charts</loc>
-        <lastmod>2020-05-18</lastmod>
+        <lastmod>2020-06-08</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/covid-deaths</loc>
@@ -17662,6 +17662,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/total-covid-tests-per-1000-exemplars</loc>
+        <lastmod>2020-06-08</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/covid-tests-per-case-exemplars</loc>
         <lastmod>2020-06-08</lastmod>
     </url>
 </urlset>
