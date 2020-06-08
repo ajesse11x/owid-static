@@ -17680,4 +17680,8 @@
         <loc>https://ourworldindata.org/grapher/covid-deaths-per-million-exemplars</loc>
         <lastmod>2020-06-08</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/covid-cfr-exemplars</loc>
+        <lastmod>2020-06-08</lastmod>
+    </url>
 </urlset>
