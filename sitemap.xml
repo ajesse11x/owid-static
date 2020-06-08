@@ -17652,4 +17652,8 @@
         <loc>https://ourworldindata.org/grapher/government-response-stringency-index-vs-biweekly-change-in-confirmed-covid-19-cases</loc>
         <lastmod>2020-06-05</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/covid-confirmed-deaths-since-5th-death-exemplar</loc>
+        <lastmod>2020-06-08</lastmod>
+    </url>
 </urlset>
