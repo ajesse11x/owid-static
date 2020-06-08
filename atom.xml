@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2020-06-03T10:00:00.000Z</updated>
+<updated>2020-06-08T15:35:29.000Z</updated>
+<entry>
+    <title><![CDATA[Is the world making progress against the pandemic? We built the chart to answer this question]]></title>
+    <id>https://ourworldindata.org/is-the-world-making-progress-against-the-pandemic-we-built-the-chart-to-answer-this-question</id>
+    <link rel="alternate" href="https://ourworldindata.org/is-the-world-making-progress-against-the-pandemic-we-built-the-chart-to-answer-this-question"/>
+    <published>2020-06-08T15:35:29.000Z</published>
+    <updated>2020-06-08T15:44:29.000Z</updated>
+    <author><name>Max Roser</name></author>
+    <summary><![CDATA[]]></summary>
+</entry>
 <entry>
     <title><![CDATA[Best practices for governments reporting COVID-19 testing data]]></title>
     <id>https://ourworldindata.org/covid-testing-data-guidelines</id>
@@ -90,14 +99,5 @@ In this post, we compare the approach to testing taken over the outbreak in Sout
     <updated>2020-05-14T11:52:54.000Z</updated>
     <author><name>Joe Hasell</name></author>
     <summary><![CDATA[Data on the extent of testing for COVID-19 provides important information about the reliability of the data we use to understand the spread of the virus’. Here we discuss two measures of the extent testing and what they can tell us about the pandemic.]]></summary>
-</entry>
-<entry>
-    <title><![CDATA[How to embed interactive COVID-19 charts in your articles]]></title>
-    <id>https://ourworldindata.org/how-to-embed-charts</id>
-    <link rel="alternate" href="https://ourworldindata.org/how-to-embed-charts"/>
-    <published>2020-04-09T16:00:00.000Z</published>
-    <updated>2020-05-14T11:53:17.000Z</updated>
-    <author><name>Hannah Ritchie</name></author><author><name>Max Roser</name></author>
-    <summary><![CDATA[Our goal is to bring together the best data and build the visualization tools that allows you to understand the spread of the pandemic. Our free, open-access charts cover all countries in the world. Here we show how to customize and embed charts in your own articles.]]></summary>
 </entry>
 </feed>
