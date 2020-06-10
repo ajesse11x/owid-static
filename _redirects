@@ -455,6 +455,7 @@
 /coronavirus-country-by-country /coronavirus#coronavirus-country-profiles 301!
 /grapher/methane-emissions-by-sector-gg-coe /grapher/methane-emissions-by-sector 301!
 /is-the-world-making-progress-against-the-pandemic-we-built-the-chart-to-answer-this-question /epi-curve-covid-19 301!
+/grapher/covid-daily-tests-cases-deaths-rolling-average /grapher/covid-tests-cases-deaths 301!
 /grapher/latest /grapher/share-of-children-vaccinated-against-measles 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302!
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221 /grapher/share-of-the-population-suffering-from-depression 302!
@@ -1126,7 +1127,8 @@
 /grapher/https://ourworldindata.org/grapher/covid19-tests-per-million-people /grapher/full-list-cumulative-total-tests-per-thousand 302!
 /grapher/covid19-tests-per-million-people /grapher/full-list-cumulative-total-tests-per-thousand 302!
 /grapher/tests-of-covid-19-per-million-people-vs-gdp-per-capita /grapher/tests-of-covid-19-per-thousand-people-vs-gdp-per-capita 302!
-/grapher/three-day-daily-tests-per-thousand-since-5th-death /grapher/three-day-daily-tests-per-thousand-since-1-per-mil-confirmed-cases 302!
+/grapher/three-day-daily-tests-per-thousand-since-5th-death /grapher/seven-day-daily-tests-per-thousand-since-1-per-mil-confirmed-cases 302!
 /grapher/restrictions-on-internal-movement-oxbsg /grapher/internal-movement-covid 302!
 /grapher/covid-contract-tracing /grapher/covid-contact-tracing 302!
 /grapher/no2-concentration /grapher/n2o-concentration 302!
+/grapher/three-day-daily-tests-per-thousand-since-1-per-mil-confirmed-cases /grapher/seven-day-daily-tests-per-thousand-since-1-per-mil-confirmed-cases 302!
