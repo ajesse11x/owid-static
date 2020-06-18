@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2020-06-08T15:35:29.000Z</updated>
+<updated>2020-06-18T10:26:55.000Z</updated>
+<entry>
+            <title><![CDATA[How experts use data to identify emerging COVID-19 success stories]]></title>
+            <id>https://ourworldindata.org/identify-covid-exemplars</id>
+            <link rel="alternate" href="https://ourworldindata.org/identify-covid-exemplars"/>
+            <published>2020-06-18T10:26:55.000Z</published>
+            <updated>2020-06-18T11:28:18.000Z</updated>
+            <author><name>Hannah Ritchie</name></author>
+            <summary><![CDATA[<br><br><a href="https://ourworldindata.org/identify-covid-exemplars" target="_blank"><img src="https://ourworldindata.org/default-thumbnail.jpg"/></a>]]></summary>
+            </entry>
 <entry>
             <title><![CDATA[Is the world making progress against the pandemic? We built the chart to answer this question]]></title>
             <id>https://ourworldindata.org/epi-curve-covid-19</id>
@@ -90,14 +99,5 @@ In this post, we compare the approach to testing taken over the outbreak in Sout
             <updated>2020-05-14T11:52:20.000Z</updated>
             <author><name>Max Roser</name></author><author><name>Hannah Ritchie</name></author>
             <summary><![CDATA[<br><br><a href="https://ourworldindata.org/the-covid-19-pandemic-slide-deck" target="_blank"><img src="https://ourworldindata.org/app/uploads/2020/04/Coronavirus-slide-deck-banner-on-OWID-background-768x402.png"/></a>]]></summary>
-            </entry>
-<entry>
-            <title><![CDATA[What can data on testing tell us about the pandemic?]]></title>
-            <id>https://ourworldindata.org/what-can-data-on-testing-tell-us-about-the-pandemic</id>
-            <link rel="alternate" href="https://ourworldindata.org/what-can-data-on-testing-tell-us-about-the-pandemic"/>
-            <published>2020-04-13T19:50:33.000Z</published>
-            <updated>2020-05-14T11:52:54.000Z</updated>
-            <author><name>Joe Hasell</name></author>
-            <summary><![CDATA[Data on the extent of testing for COVID-19 provides important information about the reliability of the data we use to understand the spread of the virus’. Here we discuss two measures of the extent testing and what they can tell us about the pandemic.<br><br><a href="https://ourworldindata.org/what-can-data-on-testing-tell-us-about-the-pandemic" target="_blank"><img src="https://ourworldindata.org/app/uploads/2020/04/number-of-covid-19-tests-per-confirmed-case-2-768x542.png"/></a>]]></summary>
             </entry>
 </feed>
