@@ -3866,7 +3866,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/coronavirus-country-profile</loc>
-        <lastmod>2020-06-15</lastmod>
+        <lastmod>2020-06-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/covid-mobility-trends</loc>
@@ -3895,6 +3895,10 @@
     <url>
         <loc>https://ourworldindata.org/covid-testing-country-profile</loc>
         <lastmod>2020-06-15</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/untitled-reusable-block-222</loc>
+        <lastmod>2020-06-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/suicide-rates-by-country</loc>
