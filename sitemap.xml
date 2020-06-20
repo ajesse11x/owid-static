@@ -17704,4 +17704,8 @@
         <loc>https://ourworldindata.org/grapher/per-million-daily-new-confirmed-cases-of-covid-19-vs-cumulative-cases-tests-per-case</loc>
         <lastmod>2020-06-19</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/daily-confirmed-covid-19-deaths-vs-confirmed-cases</loc>
+        <lastmod>2020-06-20</lastmod>
+    </url>
 </urlset>
