@@ -17756,4 +17756,8 @@
         <loc>https://ourworldindata.org/grapher/annual-co2-gas</loc>
         <lastmod>2020-06-23</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/per-capita-co2-gas</loc>
+        <lastmod>2020-06-23</lastmod>
+    </url>
 </urlset>
