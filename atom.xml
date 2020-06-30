@@ -5,7 +5,25 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2020-06-30T15:01:00.000Z</updated>
+<updated>2020-06-30T15:03:00.000Z</updated>
+<entry>
+            <title><![CDATA[Emerging COVID-19 success story: Vietnam’s commitment to containment]]></title>
+            <id>https://ourworldindata.org/covid-exemplar-vietnam</id>
+            <link rel="alternate" href="https://ourworldindata.org/covid-exemplar-vietnam"/>
+            <published>2020-06-30T15:03:00.000Z</published>
+            <updated>2020-06-30T16:04:16.000Z</updated>
+            <author><name>Hannah Ritchie</name></author>
+            <summary><![CDATA[Vietnam is one country which has responded well to the Coronavirus pandemic. How did they do so? In-country experts provide key insights.<br><br><a href="https://ourworldindata.org/covid-exemplar-vietnam" target="_blank"><img src="https://ourworldindata.org/app/uploads/2020/06/daily-cases-covid-19.svg"/></a>]]></summary>
+            </entry>
+<entry>
+            <title><![CDATA[Emerging COVID-19 success story: Germany’s strong enabling environment]]></title>
+            <id>https://ourworldindata.org/covid-exemplar-germany</id>
+            <link rel="alternate" href="https://ourworldindata.org/covid-exemplar-germany"/>
+            <published>2020-06-30T15:02:00.000Z</published>
+            <updated>2020-06-30T16:03:52.000Z</updated>
+            <author><name>Hannah Ritchie</name></author>
+            <summary><![CDATA[Germany is one country which has responded well to the Coronavirus pandemic. How did they do so? In-country experts provide key insights.<br><br><a href="https://ourworldindata.org/covid-exemplar-germany" target="_blank"><img src="https://ourworldindata.org/app/uploads/2020/06/germany-covid.svg"/></a>]]></summary>
+            </entry>
 <entry>
             <title><![CDATA[Emerging COVID-19 success story: South Korea learned the lessons of MERS]]></title>
             <id>https://ourworldindata.org/covid-exemplar-south-korea</id>
@@ -81,23 +99,5 @@ To help official providers of testing data, we set out some simple recommendatio
             <summary><![CDATA[It is by looking at data on confirmed cases alongside data on testing that we get the best view of how the outbreak has developed in different countries, and how successfully countries have responded to it.
 
 In this post, we compare the approach to testing taken over the outbreak in South Korea, Italy, UK and US. <br><br><a href="https://ourworldindata.org/covid-testing-us-uk-korea-italy" target="_blank"><img src="https://ourworldindata.org/app/uploads/2020/05/covid-19-daily-tests-vs-daily-new-confirmed-cases-1-768x542.png"/></a>]]></summary>
-            </entry>
-<entry>
-            <title><![CDATA[The Coronavirus Pandemic Data Explorer]]></title>
-            <id>https://ourworldindata.org/the-coronavirus-pandemic-data-explorer</id>
-            <link rel="alternate" href="https://ourworldindata.org/the-coronavirus-pandemic-data-explorer"/>
-            <published>2020-05-15T20:43:09.000Z</published>
-            <updated>2020-05-15T21:06:07.000Z</updated>
-            <author><name>Max Roser</name></author>
-            <summary><![CDATA[<br><br><a href="https://ourworldindata.org/the-coronavirus-pandemic-data-explorer" target="_blank"><img src="https://ourworldindata.org/app/uploads/2020/05/data-explorer.svg"/></a>]]></summary>
-            </entry>
-<entry>
-            <title><![CDATA[How to read the famous Coronavirus trajectory chart – Video Explainer]]></title>
-            <id>https://ourworldindata.org/how-to-read-the-famous-coronavirus-trajectory-chart-video-explainer</id>
-            <link rel="alternate" href="https://ourworldindata.org/how-to-read-the-famous-coronavirus-trajectory-chart-video-explainer"/>
-            <published>2020-05-14T11:07:21.000Z</published>
-            <updated>2020-05-15T17:14:18.000Z</updated>
-            <author><name>Hannah Ritchie</name></author>
-            <summary><![CDATA[<br><br><a href="https://ourworldindata.org/how-to-read-the-famous-coronavirus-trajectory-chart-video-explainer" target="_blank"><img src="https://ourworldindata.org/app/uploads/2020/05/vox-trajectory-explainer-768x386.png"/></a>]]></summary>
             </entry>
 </feed>
