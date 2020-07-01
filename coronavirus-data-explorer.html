@@ -14,4 +14,12 @@
                     Grapher.embedAll();
                     runGlobalEntityControl(Grapher.globalEntitySelection);
                 }
-            </script></footer><script>window.CovidDataExplorer.bootstrap()</script></body></html>
+            </script></footer><script>
+    var div = document.getElementById("covidDataExplorerContainer");
+    window.CovidDataExplorer.bootstrap({
+        containerNode: div,
+        queryStr: window.location.search
+    }).then(function(view) {
+        view.bindToWindow();
+    })
+</script></body></html>
