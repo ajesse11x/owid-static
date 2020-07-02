@@ -17830,7 +17830,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/annual-change-co2</loc>
-        <lastmod>2020-07-01</lastmod>
+        <lastmod>2020-07-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/co2-per-unit-energy</loc>
@@ -17854,6 +17854,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/the-great-depression-and-the-global-financial-crisis-fiscal-policy</loc>
+        <lastmod>2020-07-02</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/annual-change-co2</loc>
         <lastmod>2020-07-02</lastmod>
     </url>
 </urlset>
