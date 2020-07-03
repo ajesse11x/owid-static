@@ -17880,4 +17880,8 @@
         <loc>https://ourworldindata.org/grapher/biweekly-deaths-per-million-people</loc>
         <lastmod>2020-07-03</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/weekly-cases-per-million-people</loc>
+        <lastmod>2020-07-03</lastmod>
+    </url>
 </urlset>
