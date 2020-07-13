@@ -1,0 +1,383 @@
+<!doctype html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Emissions by sector - Our World in Data</title><meta name="description" content="Global greenhouse gas emissions continue to rise, at a time when they need to be rapidly falling. "/><link rel="canonical" href="https://ourworldindata.org/emissions-by-sector"/><link rel="alternate" type="application/atom+xml" href="/atom.xml"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><meta property="fb:app_id" content="1149943818390250"/><meta property="og:url" content="https://ourworldindata.org/emissions-by-sector"/><meta property="og:title" content="Emissions by sector"/><meta property="og:description" content="Global greenhouse gas emissions continue to rise, at a time when they need to be rapidly falling. "/><meta property="og:image" content="https://ourworldindata.org/default-thumbnail.jpg"/><meta property="og:site_name" content="Our World in Data"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@OurWorldInData"/><meta name="twitter:creator" content="@OurWorldInData"/><meta name="twitter:title" content="Emissions by sector"/><meta name="twitter:description" content="Global greenhouse gas emissions continue to rise, at a time when they need to be rapidly falling. "/><meta name="twitter:image" content="https://ourworldindata.org/default-thumbnail.jpg"/><link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Playfair+Display:400,700&amp;display=swap" rel="stylesheet"/><link rel="stylesheet" href="https://ourworldindata.org/assets/css/commons.css"/><link rel="stylesheet" href="https://ourworldindata.org/assets/css/owid.css"/></head><body class=""><header class="site-header"><div class="wrapper site-navigation-bar"><div class="site-logo"><a href="/">Our World<br/> in Data</a></div><nav class="site-navigation"><div class="topics-button-wrapper"><a href="/#entries" class="topics-button"><div class="label">Articles <br/><strong>by topic</strong></div><div class="icon"><svg width="12" height="6"><path d="M0,0 L12,0 L6,6 Z" fill="currentColor"></path></svg></div></a></div><div><div class="site-primary-navigation"><form class="HeaderSearch" action="/search" method="GET"><input type="search" name="q" placeholder="Search..."/><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg></div></form><ul class="site-primary-links"><li><a href="/blog" data-track-note="header-navigation">Latest</a></li><li><a href="/about" data-track-note="header-navigation">About</a></li><li><a href="/donate" data-track-note="header-navigation">Donate</a></li></ul></div><div class="site-secondary-navigation"><ul class="site-secondary-links"><li><a href="/charts" data-track-note="header-navigation">All charts</a></li><li><a href="https://sdg-tracker.org" data-track-note="header-navigation">Sustainable Development Goals Tracker</a></li></ul></div></div></nav><div class="header-logos-wrapper"><a href="https://www.oxfordmartin.ox.ac.uk/global-development" class="oxford-logo"><img src="https://ourworldindata.org/oms-logo.svg" alt="Oxford Martin School logo"/></a><a href="https://global-change-data-lab.org/" class="gcdl-logo"><img src="https://ourworldindata.org/gcdl-logo-narrow.png" alt="Global Change Data Lab logo"/></a></div><div class="mobile-site-navigation"><button data-track-note="mobile-search-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg></button><button data-track-note="mobile-newsletter-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-open-text" class="svg-inline--fa fa-envelope-open-text fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M176 216h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16H176c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16zm-16 80c0 8.84 7.16 16 16 16h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16H176c-8.84 0-16 7.16-16 16v16zm96 121.13c-16.42 0-32.84-5.06-46.86-15.19L0 250.86V464c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V250.86L302.86 401.94c-14.02 10.12-30.44 15.19-46.86 15.19zm237.61-254.18c-8.85-6.94-17.24-13.47-29.61-22.81V96c0-26.51-21.49-48-48-48h-77.55c-3.04-2.2-5.87-4.26-9.04-6.56C312.6 29.17 279.2-.35 256 0c-23.2-.35-56.59 29.17-73.41 41.44-3.17 2.3-6 4.36-9.04 6.56H96c-26.51 0-48 21.49-48 48v44.14c-12.37 9.33-20.76 15.87-29.61 22.81A47.995 47.995 0 0 0 0 200.72v10.65l96 69.35V96h320v184.72l96-69.35v-10.65c0-14.74-6.78-28.67-18.39-37.77z"></path></svg></button><button data-track-note="mobile-hamburger-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg></button></div></div></header><div class="alert-banner"><div class="content"><div class="text"><strong>Coronavirus pandemic</strong>: daily updated research and data.</div><a href="/coronavirus" data-track-note="covid-banner-click">Read more</a></div></div><main><article class="page with-sidebar large-banner"><div class="offset-header"><header class="article-header"><h1 class="entry-title"><span>Emissions by sector</span></h1><div class="authors-byline"><a href="/team">by Hannah Ritchie and Max Roser</a></div></header></div><div class="content-wrapper"><div><aside class="entry-sidebar"><div class="sticky-sentinel"></div><nav class="entry-toc"><ul><li><a href="#">Emissions by sector</a></li><li class="section"><a href="#total-greenhouse-gas-emissions-by-sector">Total greenhouse gas emissions by sector</a></li><li class="subsection"><a href="#annual-greenhouse-gas-emissions-by-sector">Annual greenhouse gas emissions by sector</a></li><li class="subsection"><a href="#per-capita-greenhouse-gas-emissions-where-do-our-emissions-come-from">Per capita greenhouse gas emissions: where do our emissions come from?</a></li><li class="section"><a href="#co2-emissions-by-sector">CO2 emissions by sector</a></li><li class="subsection"><a href="#annual-co2-emissions-by-sector">Annual CO2 emissions by sector</a></li><li class="subsection"><a href="#per-capita-co2-where-do-our-emissions-come-from">Per capita CO2: where do our emissions come from?</a></li><li class="section"><a href="#methane-ch4-emissions-by-sector">Methane (CH4) emissions by sector</a></li><li class="subsection"><a href="#annual-ch4-emissions-by-sector">Annual CH4 emissions by sector</a></li><li class="subsection"><a href="#per-capita-ch4-where-do-our-emissions-come-from">Per capita CH4: where do our emissions come from?</a></li><li class="section"><a href="#nitrous-oxide-n2o-emissions-by-sector">Nitrous oxide (N2O) emissions by sector</a></li><li class="subsection"><a href="#annual-n2o-emissions-by-sector">Annual N2O emissions by sector</a></li><li class="subsection"><a href="#per-capita-n2o-where-do-our-emissions-come-from">Per capita N2O: where do our emissions come from?</a></li></ul></nav><div class="toggle-toc"><button data-track-note="page-toggle-toc" aria-label="Open table of contents"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="list-alt" class="svg-inline--fa fa-list-alt fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M464 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h416c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zM128 120c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 96c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 96c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm288-136v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12zm0 96v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12zm0 96v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12z"></path></svg></button></div></aside></div><div class="offset-content"><div class="content-and-footnotes"><div class="article-content"><section><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>Global greenhouse gas emissions continue to rise, at a time when they need to be rapidly falling. </p><p>To effectively reduce emissions we need to know where they are coming from &#x2013; which sectors contribute the most? How can we use this understanding to develop effective solutions and mitigation strategies?</p><p>Below we look at the breakdown of emissions &#x2013; total greenhouse gases, plus carbon dioxide, methane and nitrous oxide individually &#x2013; by sector.</p></div><div class="wp-block-column"></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+<section><div class="section-heading"><div class="wrapper"><div><h2 id="total-greenhouse-gas-emissions-by-sector"><a class="deep-link" href="#total-greenhouse-gas-emissions-by-sector"></a>Total greenhouse gas emissions by sector</h2></div><div class="in-this-section"><div class="label">In this section</div><div class="border"></div></div><ul class="subheadings"><li><a href="#annual-greenhouse-gas-emissions-by-sector"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"/></svg><span><strong>Annual</strong> greenhouse gas emissions by sector</span></a></li><li><a href="#per-capita-greenhouse-gas-emissions-where-do-our-emissions-come-from"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"/></svg><span><strong>Per capita </strong>greenhouse gas emissions: where do our emissions come from?</span></a></li></ul></div></div><h3 id="annual-greenhouse-gas-emissions-by-sector"><a class="deep-link" href="#annual-greenhouse-gas-emissions-by-sector"></a><strong>Annual</strong> greenhouse gas emissions by sector</h3><div class="wp-block-columns is-style-sticky-left">
+<div class="wp-block-column">
+
+                <figure data-grapher-src="https://ourworldindata.org/grapher/ghg-emissions-by-sector" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/ghg-emissions-by-sector" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/ghg-emissions-by-sector_v10_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox alt="Ghg emissions by sector v10 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure>
+</div>
+
+
+
+<div class="wp-block-column">
+<p>Where do our greenhouse gas emissions come from? </p>
+
+
+
+<p>This chart shows the breakdown of total greenhouse gases (the sum of all greenhouse gases, measured in tonnes of carbon dioxide equivalents) by sector. </p>
+
+
+
+<p>Here we see that electricity and heat production are the largest contributor to global emissions. This is followed by transport, manufacturing and construction (largely cement and similar materials), and agriculture. </p>
+
+
+
+<p>But this is not the same everywhere. If we look at the United States, for example, transport is a much larger contributor than the global average. In Brazil, the majority of emissions come from agriculture and land use change.</p>
+
+
+	<div class="wp-block-help"><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lightbulb" class="svg-inline--fa fa-lightbulb fa-w-11 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M96.06 454.35c.01 6.29 1.87 12.45 5.36 17.69l17.09 25.69a31.99 31.99 0 0 0 26.64 14.28h61.71a31.99 31.99 0 0 0 26.64-14.28l17.09-25.69a31.989 31.989 0 0 0 5.36-17.69l.04-38.35H96.01l.05 38.35zM0 176c0 44.37 16.45 84.85 43.56 115.78 16.52 18.85 42.36 58.23 52.21 91.45.04.26.07.52.11.78h160.24c.04-.26.07-.51.11-.78 9.85-33.22 35.69-72.6 52.21-91.45C335.55 260.85 352 220.37 352 176 352 78.61 272.91-.3 175.45 0 73.44.31 0 82.97 0 176zm176-80c-44.11 0-80 35.89-80 80 0 8.84-7.16 16-16 16s-16-7.16-16-16c0-61.76 50.24-112 112-112 8.84 0 16 7.16 16 16s-7.16 16-16 16z"/></svg></div><div><h4 id="how-you-can-interact-with-this-chart">How you can interact with this chart</h4><div class="content">
+
+
+
+
+
+<p>On these charts you see the button <strong>Change Country </strong>in the bottom left corner &#x2013; with this option you can switch the chart to any other country in the world.</p>
+
+</div></div></div></div>
+</div><h3 id="per-capita-greenhouse-gas-emissions-where-do-our-emissions-come-from"><a class="deep-link" href="#per-capita-greenhouse-gas-emissions-where-do-our-emissions-come-from"></a><strong>Per capita </strong>greenhouse gas emissions: where do our emissions come from?</h3><div class="wp-block-columns is-style-sticky-left">
+<div class="wp-block-column">
+
+                <figure data-grapher-src="https://ourworldindata.org/grapher/per-capita-ghg-sector" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/per-capita-ghg-sector" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/per-capita-ghg-sector_v3_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox alt="Per capita ghg sector v3 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure>
+</div>
+
+
+
+<div class="wp-block-column">
+<p>Looking at the breakdown of greenhouse gases by sector on aggregate is essential for countries to understand where emissions reductions could have the largest impact. But it can often be unintuitive for individuals to see where there emissions are coming from.</p>
+
+
+
+<p>In this chart we show how the <em>average person&#x2019;s</em> emissions would be distributed across the different sectors &#x2013; in effect, this shows the average &#x2018;footprint&#x2019;, measured in tonnes of carbon dioxide equivalents per year.</p>
+
+
+	<div class="wp-block-help"><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lightbulb" class="svg-inline--fa fa-lightbulb fa-w-11 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M96.06 454.35c.01 6.29 1.87 12.45 5.36 17.69l17.09 25.69a31.99 31.99 0 0 0 26.64 14.28h61.71a31.99 31.99 0 0 0 26.64-14.28l17.09-25.69a31.989 31.989 0 0 0 5.36-17.69l.04-38.35H96.01l.05 38.35zM0 176c0 44.37 16.45 84.85 43.56 115.78 16.52 18.85 42.36 58.23 52.21 91.45.04.26.07.52.11.78h160.24c.04-.26.07-.51.11-.78 9.85-33.22 35.69-72.6 52.21-91.45C335.55 260.85 352 220.37 352 176 352 78.61 272.91-.3 175.45 0 73.44.31 0 82.97 0 176zm176-80c-44.11 0-80 35.89-80 80 0 8.84-7.16 16-16 16s-16-7.16-16-16c0-61.76 50.24-112 112-112 8.84 0 16 7.16 16 16s-7.16 16-16 16z"/></svg></div><div><h4 id="total-greenhouse-gas-emissions-by-sector-how-you-can-interact-with-this-chart">How you can interact with this chart</h4><div class="content">
+
+
+
+
+
+<ul><li>On these charts you see the button <strong>Change Country </strong>in the bottom left corner &#x2013; with this option you can switch the chart to any other country in the world.</li><li>If you drag the blue time-slider you will see the bar chart transform into a line chart, and show the change over time.</li></ul>
+
+</div></div></div></div>
+</div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><div class="section-heading"><div class="wrapper"><div><h2 id="co2-emissions-by-sector"><a class="deep-link" href="#co2-emissions-by-sector"></a>CO<sub>2</sub> emissions by sector</h2></div><div class="in-this-section"><div class="label">In this section</div><div class="border"></div></div><ul class="subheadings"><li><a href="#annual-co2-emissions-by-sector"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"/></svg><span><strong>Annual CO<sub>2</sub></strong> emissions by sector</span></a></li><li><a href="#per-capita-co2-where-do-our-emissions-come-from"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"/></svg><span><strong>Per capita CO<sub>2</sub>:</strong> where do our emissions come from?</span></a></li></ul></div></div><h3 id="annual-co2-emissions-by-sector"><a class="deep-link" href="#annual-co2-emissions-by-sector"></a><strong>Annual CO<sub>2</sub></strong> emissions by sector</h3><div class="wp-block-columns is-style-sticky-left">
+<div class="wp-block-column">
+
+                <figure data-grapher-src="https://ourworldindata.org/grapher/co-emissions-by-sector" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/co-emissions-by-sector" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/co-emissions-by-sector_v4_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox alt="Co emissions by sector v4 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure>
+</div>
+
+
+
+<div class="wp-block-column">
+<p>The above charts looked total greenhouse gas emissions &#x2013; this included other gases such as methane, nitrous oxide, and smaller trace gases.</p>
+
+
+
+<p>How does this breakdown look if we focus only on carbon dioxide (CO<sub>2</sub>) emissions? Where does our CO<sub>2</sub> come from?</p>
+
+
+
+<p>This chart shows the distribution of CO<sub>2</sub> emissions across sectors.</p>
+
+
+
+<p>The global breakdown for CO<sub>2</sub> is similar to that of total greenhouse gases &#x2013; electricity and heat production dominates, followed by transport, and manufacturing and construction. One key difference is that <em>direct</em> agricultural emissions (if we exclude land use change and forestry) are not shown; most direct emissions from agriculture result from methane (production from <a href="https://ourworldindata.org/meat-production">livestock</a>) and nitrous oxide (released from the application of <a href="https://ourworldindata.org/fertilizers">fertilizers</a>).</p>
+
+
+
+<p>Like total greenhouse gas emissions, this breakdown varies between countries. </p>
+</div>
+</div><h3 id="per-capita-co2-where-do-our-emissions-come-from"><a class="deep-link" href="#per-capita-co2-where-do-our-emissions-come-from"></a><strong>Per capita CO<sub>2</sub>:</strong> where do our emissions come from?</h3><div class="wp-block-columns is-style-sticky-left">
+<div class="wp-block-column">
+
+                <figure data-grapher-src="https://ourworldindata.org/grapher/per-capita-co2-sector" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/per-capita-co2-sector" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/per-capita-co2-sector_v2_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox alt="Per capita co2 sector v2 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure>
+</div>
+
+
+
+<div class="wp-block-column">
+<p>In this chart we show the per capita breakdown of CO<sub>2</sub> emissions by sector. This is measured in tonnes per person per year.</p>
+
+
+
+<p>This allows us to better understand our domestic carbon footprint. However, it does not correct for the goods and services we buy from other countries.</p>
+</div>
+</div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><div class="section-heading"><div class="wrapper"><div><h2 id="methane-ch4-emissions-by-sector"><a class="deep-link" href="#methane-ch4-emissions-by-sector"></a>Methane (CH<sub>4</sub>) emissions by sector</h2></div><div class="in-this-section"><div class="label">In this section</div><div class="border"></div></div><ul class="subheadings"><li><a href="#annual-ch4-emissions-by-sector"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"/></svg><span><strong>Annual CH<sub>4</sub></strong> emissions by sector</span></a></li><li><a href="#per-capita-ch4-where-do-our-emissions-come-from"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"/></svg><span><strong>Per capita CH<sub>4</sub>:</strong> where do our emissions come from?</span></a></li></ul></div></div><h3 id="annual-ch4-emissions-by-sector"><a class="deep-link" href="#annual-ch4-emissions-by-sector"></a><strong>Annual CH<sub>4</sub></strong> emissions by sector</h3><div class="wp-block-columns is-style-sticky-left">
+<div class="wp-block-column">
+
+                <figure data-grapher-src="https://ourworldindata.org/grapher/methane-emissions-by-sector" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/methane-emissions-by-sector" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/methane-emissions-by-sector_v2_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox alt="Methane emissions by sector v2 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure>
+</div>
+
+
+
+<div class="wp-block-column">
+<p>The breakdown of CO<sub>2</sub> emissions mirrors total greenhouse gas emissions closely.</p>
+
+
+
+<p>The distribution of methane emissions across sectors is notably different. This chart shows methane emissions by sector, measured in tonnes of carbon dioxide equivalents. </p>
+
+
+
+<p>We see that, globally, agriculture is the largest contributor to methane emissions. Most of this methane <a href="https://ourworldindata.org/environmental-impacts-of-food#food-production-is-responsible-for-one-quarter-of-the-world-s-greenhouse-gas-emissions">comes from livestock</a> (they produce methane through their digestive processes, in a process known as &#x2018;enteric fermentation&#x2019;). Rice production is also a large contributor to methane emissions.</p>
+
+
+
+<p>Aside from agriculture, fugitive emissions produce a significant amount of methane. &#x2018;Fugitive emissions&#x2019; represent the unintentional leaks of gas from processes such as fracking, and more traditional oil and gas extraction and transportation. This can happen when gas is transported through poorly maintained pipes, for example.</p>
+
+
+
+<p>Waste is third largest contributor. Methane is produced in landfills when organic materials decompose.</p>
+</div>
+</div><h3 id="per-capita-ch4-where-do-our-emissions-come-from"><a class="deep-link" href="#per-capita-ch4-where-do-our-emissions-come-from"></a><strong>Per capita CH<sub>4</sub>:</strong> where do our emissions come from?</h3><div class="wp-block-columns is-style-sticky-left">
+<div class="wp-block-column">
+
+                <figure data-grapher-src="https://ourworldindata.org/grapher/per-capita-methane-sector" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/per-capita-methane-sector" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/per-capita-methane-sector_v2_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox alt="Per capita methane sector v2 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure>
+</div>
+
+
+
+<div class="wp-block-column">
+<p>In this chart we show the per capita breakdown of methane (CH<sub>4</sub>) emissions by sector. This is measured in tonnes per person per year.</p>
+
+
+	<div class="wp-block-help"><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lightbulb" class="svg-inline--fa fa-lightbulb fa-w-11 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M96.06 454.35c.01 6.29 1.87 12.45 5.36 17.69l17.09 25.69a31.99 31.99 0 0 0 26.64 14.28h61.71a31.99 31.99 0 0 0 26.64-14.28l17.09-25.69a31.989 31.989 0 0 0 5.36-17.69l.04-38.35H96.01l.05 38.35zM0 176c0 44.37 16.45 84.85 43.56 115.78 16.52 18.85 42.36 58.23 52.21 91.45.04.26.07.52.11.78h160.24c.04-.26.07-.51.11-.78 9.85-33.22 35.69-72.6 52.21-91.45C335.55 260.85 352 220.37 352 176 352 78.61 272.91-.3 175.45 0 73.44.31 0 82.97 0 176zm176-80c-44.11 0-80 35.89-80 80 0 8.84-7.16 16-16 16s-16-7.16-16-16c0-61.76 50.24-112 112-112 8.84 0 16 7.16 16 16s-7.16 16-16 16z"/></svg></div><div><h4 id="methane-ch4-emissions-by-sector-how-you-can-interact-with-this-chart">How you can interact with this chart</h4><div class="content">
+
+
+
+
+
+<ul><li>On these charts you see the button <strong>Change Country </strong>in the bottom left corner &#x2013; with this option you can switch the chart to any other country in the world.</li><li>If you drag the blue time-slider you will see the bar chart transform into a line chart, and show the change over time.</li></ul>
+
+
+
+
+
+</div></div></div></div>
+</div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><div class="section-heading"><div class="wrapper"><div><h2 id="nitrous-oxide-n2o-emissions-by-sector"><a class="deep-link" href="#nitrous-oxide-n2o-emissions-by-sector"></a>Nitrous oxide (N<sub>2</sub>O) emissions by sector</h2></div><div class="in-this-section"><div class="label">In this section</div><div class="border"></div></div><ul class="subheadings"><li><a href="#annual-n2o-emissions-by-sector"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"/></svg><span><strong>Annual N<sub>2</sub></strong>O emissions by sector</span></a></li><li><a href="#per-capita-n2o-where-do-our-emissions-come-from"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"/></svg><span><strong>Per capita <strong>N<sub>2</sub></strong>O:</strong> where do our emissions come from?</span></a></li></ul></div></div><h3 id="annual-n2o-emissions-by-sector"><a class="deep-link" href="#annual-n2o-emissions-by-sector"></a><strong>Annual N<sub>2</sub></strong>O emissions by sector</h3><div class="wp-block-columns is-style-sticky-left">
+<div class="wp-block-column">
+
+                <figure data-grapher-src="https://ourworldindata.org/grapher/nitrous-oxide-emissions-by-sector" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/nitrous-oxide-emissions-by-sector" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/nitrous-oxide-emissions-by-sector_v5_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox alt="Nitrous oxide emissions by sector v5 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure>
+</div>
+
+
+
+<div class="wp-block-column">
+<p>Nearly all of our nitrous oxide (N<sub>2</sub>O) emissions come from agriculture, as this chart shows.</p>
+
+
+
+<p>Nitrous oxide is produced by microbes in nearly all soils. But the application of nitrogen fertilizers makes much more nitrogen readily available for microbes to convert to N<sub>2</sub>O &#x2013; this is because not all of the applied nutrients are taken up by crops.</p>
+
+
+
+<p>As the application of nitrogen fertilizers has <a href="https://ourworldindata.org/grapher/nitrogen-fertilizer-production">rapidly increased</a> over the past 50 years in particular, N<sub>2</sub>O emissions <a href="https://ourworldindata.org/grapher/nitrous-oxide-emissions?tab=chart&amp;country=~OWID_WRL">have also increased</a>. But nitrous oxide is not only produced when synthetic nitrogen fertilizer is applied; the same processes occur when we use organic fertilizers such as animal manure.</p>
+</div>
+</div><h3 id="per-capita-n2o-where-do-our-emissions-come-from"><a class="deep-link" href="#per-capita-n2o-where-do-our-emissions-come-from"></a><strong>Per capita <strong>N<sub>2</sub></strong>O:</strong> where do our emissions come from?</h3><div class="wp-block-columns is-style-sticky-left">
+<div class="wp-block-column">
+
+                <figure data-grapher-src="https://ourworldindata.org/grapher/per-capita-nitrous-oxide-sector" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/per-capita-nitrous-oxide-sector" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/per-capita-nitrous-oxide-sector_v2_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox alt="Per capita nitrous oxide sector v2 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"/>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"/>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure>
+</div>
+
+
+
+<div class="wp-block-column">
+<p>In this chart we show the per capita breakdown of nitrous oxide (N<sub>2</sub>O) emissions by sector. This is measured in tonnes per person per year.</p>
+
+
+
+<p>As expected, nearly all of our nitrous oxide emissions come from agriculture.</p>
+</div>
+</div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div><footer class="article-footer"><div class="wp-block-columns"><div class="wp-block-column"></div><div class="wp-block-column"></div></div></footer></div></div></div></article></main><div id="wpadminbar" style="display:none"><div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar"><ul id="wp-admin-bar-root-default" class="ab-top-menu"><li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="https://owid.cloud/wp/wp-admin">Wordpress</a></li> <li id="wp-admin-bar-edit"><a class="ab-item" href="https://owid.cloud/wp/wp-admin/post.php?post=34070&amp;action=edit">Edit Page</a></li></ul></div></div><section class="donate-footer"><div class="wrapper"><div class="owid-row flex-align-center"><div class="owid-col owid-col--lg-3 owid-padding-bottom--sm-3"><p>Our World in Data is free and accessible for everyone.</p><p>Help us do this work by making a donation.</p></div><div class="owid-col owid-col--lg-1"><a href="/donate" class="owid-button donate-button" data-track-note="donate-footer"><span class="label">Donate now</span><span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-8 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg></span></a></div></div></div></section><footer class="site-footer"><div class="wrapper"><div class="owid-row"><div class="owid-col owid-col--lg-1"><ul><li><a href="/about" data-track-note="footer-navigation">About</a></li><li><a href="/about#contact" data-track-note="footer-navigation">Contact</a></li><li><a href="/feedback" data-track-note="footer-navigation">Feedback</a></li><li><a href="/jobs" data-track-note="footer-navigation">Jobs</a></li><li><a href="/supporters" data-track-note="footer-navigation">Supporters</a></li><li><a href="/about/how-to-use-our-world-in-data" data-track-note="footer-navigation">How to use</a></li><li><a href="/donate" data-track-note="footer-navigation">Donate</a></li><li><a href="/privacy-policy" data-track-note="footer-navigation">Privacy policy</a></li></ul></div><div class="owid-col owid-col--lg-1"><ul><li><a href="/blog" data-track-note="footer-navigation">Latest publications</a></li><li><a href="/charts" data-track-note="footer-navigation">All charts</a></li></ul><ul><li><a href="https://twitter.com/OurWorldInData" data-track-note="footer-navigation">Twitter</a></li><li><a href="https://www.facebook.com/OurWorldinData" data-track-note="footer-navigation">Facebook</a></li><li><a href="https://github.com/owid" data-track-note="footer-navigation">GitHub</a></li><li><a href="/feed" data-track-note="footer-navigation">RSS Feed</a></li></ul></div><div class="owid-col owid-col--lg-1"><div class="logos"><a href="https://www.oxfordmartin.ox.ac.uk/research/programmes/global-development" class="partner-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/oms-logo.svg" alt="Oxford Martin School logo" loading="lazy"/></a><a href="/owid-at-ycombinator" class="partner-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/yc-logo.png" alt="Y Combinator logo" loading="lazy"/></a></div></div><div class="owid-col flex-2"><div class="legal"><p>License: All of Our World in Data is completely open access and all work is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY license</a>. You have the permission to use, distribute, and reproduce in any medium, provided the source and authors are credited.</p><p>Please consult our full <a href="/about#legal">legal disclaimer</a>.</p><p><a href="https://global-change-data-lab.org/" class="partner-logo gcdl-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/gcdl-logo-narrow.png" alt="Global Change Data Lab logo" loading="lazy"/></a>Our World In Data is a project of the <a href="https://global-change-data-lab.org/">Global Change Data Lab</a>, a registered charity in England and Wales (Charity Number 1186433).</p></div></div></div></div><div class="site-tools"></div><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="https://ourworldindata.org/assets/js/commons.js"></script><script src="https://ourworldindata.org/assets/js/owid.js"></script><script>
+                runHeaderMenus();
+                runBlocks();
+                runLightbox();
+                runSiteTools();
+                runCookieNotice();
+                runCovid();
+                runFootnotes();
+                if (!document.querySelector(".ChartPage")) {
+                    Grapher.embedAll();
+                    runGlobalEntityControl(Grapher.globalEntitySelection);
+                }
+            </script></footer><script>
+                        runTableOfContents({"headings":[{"text":"Total greenhouse gas emissions by sector","slug":"total-greenhouse-gas-emissions-by-sector","isSubheading":false},{"text":"Annual greenhouse gas emissions by sector","html":"<strong>Annual</strong> greenhouse gas emissions by sector","slug":"annual-greenhouse-gas-emissions-by-sector","isSubheading":true},{"text":"Per capita greenhouse gas emissions: where do our emissions come from?","html":"<strong>Per capita </strong>greenhouse gas emissions: where do our emissions come from?","slug":"per-capita-greenhouse-gas-emissions-where-do-our-emissions-come-from","isSubheading":true},{"text":"CO2 emissions by sector","slug":"co2-emissions-by-sector","isSubheading":false},{"text":"Annual CO2 emissions by sector","html":"<strong>Annual CO<sub>2</sub></strong> emissions by sector","slug":"annual-co2-emissions-by-sector","isSubheading":true},{"text":"Per capita CO2: where do our emissions come from?","html":"<strong>Per capita CO<sub>2</sub>:</strong> where do our emissions come from?","slug":"per-capita-co2-where-do-our-emissions-come-from","isSubheading":true},{"text":"Methane (CH4) emissions by sector","slug":"methane-ch4-emissions-by-sector","isSubheading":false},{"text":"Annual CH4 emissions by sector","html":"<strong>Annual CH<sub>4</sub></strong> emissions by sector","slug":"annual-ch4-emissions-by-sector","isSubheading":true},{"text":"Per capita CH4: where do our emissions come from?","html":"<strong>Per capita CH<sub>4</sub>:</strong> where do our emissions come from?","slug":"per-capita-ch4-where-do-our-emissions-come-from","isSubheading":true},{"text":"Nitrous oxide (N2O) emissions by sector","slug":"nitrous-oxide-n2o-emissions-by-sector","isSubheading":false},{"text":"Annual N2O emissions by sector","html":"<strong>Annual N<sub>2</sub></strong>O emissions by sector","slug":"annual-n2o-emissions-by-sector","isSubheading":true},{"text":"Per capita N2O: where do our emissions come from?","html":"<strong>Per capita <strong>N<sub>2</sub></strong>O:</strong> where do our emissions come from?","slug":"per-capita-n2o-where-do-our-emissions-come-from","isSubheading":true}],"pageTitle":"Emissions by sector"})
+                        runRelatedCharts([])
+                        </script></body></html>
