@@ -18036,4 +18036,8 @@
         <loc>https://ourworldindata.org/grapher/electricity-prod-source-stacked</loc>
         <lastmod>2020-07-18</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/share-electricity-coal</loc>
+        <lastmod>2020-07-18</lastmod>
+    </url>
 </urlset>
