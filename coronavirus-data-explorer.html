@@ -15,11 +15,15 @@
                     runGlobalEntityControl(Grapher.globalEntitySelection);
                 }
             </script></footer><script>
-    var div = document.getElementById("covidDataExplorerContainer");
-    window.CovidDataExplorer.bootstrap({
-        containerNode: div,
-        queryStr: window.location.search
-    }).then(function(view) {
+    var props = {
+        containerNode: document.getElementById("covidDataExplorerContainer"),
+        queryStr: window.location.search,
+        isEmbed: window != window.top
+    };
+    window.CovidDataExplorer.replaceStateAndBootstrap(
+        "",
+        props
+    ).then(function(view) {
         view.bindToWindow();
     })
 </script></body></html>
