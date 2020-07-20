@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2020-06-30T15:03:00.000Z</updated>
+<updated>2020-07-20T16:27:50.000Z</updated>
+<entry>
+            <title><![CDATA[Our history is a battle against the microbes: we lost terribly before we developed vaccines to protect ourselves]]></title>
+            <id>https://ourworldindata.org/microbes-battle-science-vaccines</id>
+            <link rel="alternate" href="https://ourworldindata.org/microbes-battle-science-vaccines"/>
+            <published>2020-07-20T16:27:50.000Z</published>
+            <updated>2020-07-20T16:53:49.000Z</updated>
+            <author><name>Max Roser</name></author>
+            <summary><![CDATA[For most of our history we were losing terribly against the microbes. Only recently did we turn the battle in our favour. Vaccines were a major breakthrough, as the data shows. Now in the fight against the coronavirus too, our biggest hope is to find an effective vaccine.<br><br><a href="https://ourworldindata.org/microbes-battle-science-vaccines" target="_blank"><img src="https://ourworldindata.org/app/uploads/2020/07/Vaccination-introduction-and-cases-or-deaths-768x1076.jpg"/></a>]]></summary>
+            </entry>
 <entry>
             <title><![CDATA[Emerging COVID-19 success story: Vietnam’s commitment to containment]]></title>
             <id>https://ourworldindata.org/covid-exemplar-vietnam</id>
@@ -88,16 +97,5 @@ To help official providers of testing data, we set out some simple recommendatio
             <updated>2020-06-02T13:12:30.000Z</updated>
             <author><name>Hannah Ritchie</name></author>
             <summary><![CDATA[<br><br><a href="https://ourworldindata.org/covid-mobility-trends" target="_blank"><img src="https://ourworldindata.org/app/uploads/2020/06/change-visitors-grocery-stores-768x542.png"/></a>]]></summary>
-            </entry>
-<entry>
-            <title><![CDATA[Testing early, testing late: four countries’ approaches to COVID-19 testing compared]]></title>
-            <id>https://ourworldindata.org/covid-testing-us-uk-korea-italy</id>
-            <link rel="alternate" href="https://ourworldindata.org/covid-testing-us-uk-korea-italy"/>
-            <published>2020-05-19T09:49:00.000Z</published>
-            <updated>2020-06-03T09:01:24.000Z</updated>
-            <author><name>Joe Hasell</name></author>
-            <summary><![CDATA[It is by looking at data on confirmed cases alongside data on testing that we get the best view of how the outbreak has developed in different countries, and how successfully countries have responded to it.
-
-In this post, we compare the approach to testing taken over the outbreak in South Korea, Italy, UK and US. <br><br><a href="https://ourworldindata.org/covid-testing-us-uk-korea-italy" target="_blank"><img src="https://ourworldindata.org/app/uploads/2020/05/covid-19-daily-tests-vs-daily-new-confirmed-cases-1-768x542.png"/></a>]]></summary>
             </entry>
 </feed>
