@@ -550,7 +550,7 @@
 /grapher/comparison-between-original-series-and-owid-new-series /grapher/various-measures-of-health-expenditure-as-share-of-gdp 302!
 /grapher/social-expenditure-gdp-comparing-different-original-series /grapher/various-measures-of-social-expenditure-as-share-of-gdp 302!
 /grapher/comparison-between-original-series-and-owid-new-series-on-health-expenditure-in-the-long-run /grapher/various-measures-of-health-expenditure-as-share-of-gdp 302!
-/grapher/nuclear-and-renewables-as-share-electricity-production /grapher/nuclear-versus-renewables-as-share-electricity-production 302!
+/grapher/nuclear-and-renewables-as-share-electricity-production /grapher/nuclear-renewables-electricity 302!
 /grapher/world-region /grapher/continents-according-to-our-world-in-data 302!
 /grapher/solar-pv-through-time /grapher/solar-pv-prices-vs-cumulative-capacity 302!
 /grapher/healthcare-expenditure-per-capita /grapher/annual-healthcare-expenditure-per-capita 302!
@@ -1144,3 +1144,4 @@
 /grapher/co-emissions-in-imported-goods-as-a-share-of-domestic-emissions /grapher/share-co2-embedded-in-trade 302!
 /grapher/the-ratio-scale-and-an-exponential-function-1950-2016 /grapher/the-ratio-scale-and-an-exponential-function 302!
 /grapher/the-linear-scale-in-natural-logs-and-a-linear-function-1950-2016 /grapher/the-linear-scale-in-natural-logs-and-a-linear-function 302!
+/grapher/nuclear-versus-renewables-as-share-electricity-production /grapher/nuclear-renewables-electricity 302!
