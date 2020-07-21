@@ -567,8 +567,8 @@
 /grapher/population-growth-rate-by-world-region-1955-2015-and-projections-for-2020-2100 /grapher/population-growth-rate-by-level-of-development 302!
 /grapher/the-decline-of-child-mortality-vs-share-of-vaccinated-children /grapher/child-mortality-vs-share-of-children-immunized-against-diphtheria-pertussis-and-typhoid 302!
 /grapher/child-mortality-vs-share-of-vaccinated-children /grapher/child-mortality-vs-share-of-children-immunized-against-diphtheria-pertussis-and-typhoid 302!
-/grapher/co2-emissions-embedded-in-trade-as-a-share-of-domestic-emissions /grapher/co-emissions-in-imported-goods-as-a-share-of-domestic-emissions 302!
-/grapher/co-emissions-embedded-in-trade-as-a-share-of-domestic-emissions /grapher/co-emissions-in-imported-goods-as-a-share-of-domestic-emissions 302!
+/grapher/co2-emissions-embedded-in-trade-as-a-share-of-domestic-emissions /grapher/share-co2-embedded-in-trade 302!
+/grapher/co-emissions-embedded-in-trade-as-a-share-of-domestic-emissions /grapher/share-co2-embedded-in-trade 302!
 /grapher/military-expenditure-of-gdp /grapher/military-expenditure-as-share-of-gdp 302!
 /grapher/the-decline-of-child-mortality-by-level-of-prosperity-regression /grapher/child-mortality-byvs-level-of-prosperity-regression 302!
 /grapher/fertilizer-vs-crop-yield /grapher/cereal-crop-yield-vs-fertilizer-application 302!
@@ -1142,3 +1142,4 @@
 /grapher/the-ratio-scale-and-an-exponential-function-1950-2010 /grapher/the-ratio-scale-and-an-exponential-function-1950-2016 302!
 /grapher/per-capita-co2-emissions-1990-vs-2016 /grapher/per-capita-co2-emissions-1990-vs-2017 302!
 /grapher/carbon-emission-intensity-of-economies /grapher/co2-intensity 302!
+/grapher/co-emissions-in-imported-goods-as-a-share-of-domestic-emissions /grapher/share-co2-embedded-in-trade 302!
