@@ -21,7 +21,7 @@
         isEmbed: window != window.top
     };
     window.CovidDataExplorer.replaceStateAndBootstrap(
-        "yScale=log&zoomToSelection=true&minPopulationFilter=1000000&casesMetric=true&dailyFreq=true&aligned=true&perCapita=true&smoothing=7&country=",
+        "?hideControls=true&yScale=log&zoomToSelection=true&minPopulationFilter=1000000&casesMetric=true&dailyFreq=true&aligned=true&perCapita=true&smoothing=7&country=",
         props
     ).then(function(view) {
         view.bindToWindow();

@@ -21,7 +21,7 @@
         isEmbed: window != window.top
     };
     window.CovidDataExplorer.replaceStateAndBootstrap(
-        "yScale=log&zoomToSelection=true&casesMetric=true&totalFreq=true&aligned=true&smoothing=0&country=",
+        "?hideControls=true&yScale=log&zoomToSelection=true&casesMetric=true&totalFreq=true&aligned=true&smoothing=0&country=",
         props
     ).then(function(view) {
         view.bindToWindow();

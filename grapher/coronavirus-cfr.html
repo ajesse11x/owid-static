@@ -21,7 +21,7 @@
         isEmbed: window != window.top
     };
     window.CovidDataExplorer.replaceStateAndBootstrap(
-        "zoomToSelection=true&time=2020-03-14..&cfrMetric=true&totalFreq=true&aligned=true&smoothing=0&country=OWID_WRL~USA~ITA~BRA~ESP~SWE~DEU~IND~IRN",
+        "?hideControls=true&zoomToSelection=true&time=2020-03-14..&cfrMetric=true&totalFreq=true&aligned=true&smoothing=0&country=OWID_WRL~USA~ITA~BRA~ESP~SWE~DEU~IND~IRN",
         props
     ).then(function(view) {
         view.bindToWindow();

@@ -21,7 +21,7 @@
         isEmbed: window != window.top
     };
     window.CovidDataExplorer.replaceStateAndBootstrap(
-        "zoomToSelection=true&deathsMetric=true&totalFreq=true&smoothing=0&country=~OWID_WRL",
+        "?hideControls=true&zoomToSelection=true&deathsMetric=true&totalFreq=true&smoothing=0&country=~OWID_WRL",
         props
     ).then(function(view) {
         view.bindToWindow();
