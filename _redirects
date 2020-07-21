@@ -522,7 +522,7 @@
 /grapher/co2-emissions-per-capita-tonnes-per-year /grapher/co-emissions-per-capita 302!
 /grapher/solar-pv-prices-2016-int--per-watt /grapher/solar-pv-prices 302!
 /grapher/solar-pv-cumulative-capacity-mw /grapher/solar-pv-cumulative-capacity 302!
-/grapher/co2-intensity-of-economies-kgco2-per-unit-gdp /grapher/carbon-emission-intensity-of-economies 302!
+/grapher/co2-intensity-of-economies-kgco2-per-unit-gdp /grapher/co2-intensity 302!
 /grapher/cumulative-co2-million-tonnes /grapher/cumulative-co-emissions 302!
 /grapher/co2-emissions-per-year-gtco2year /grapher/annual-co-emissions-by-region 302!
 /grapher/average-meat-consumption-per-person-kgyear /grapher/meat-supply-per-person 302!
@@ -532,7 +532,7 @@
 /grapher/installed-renewable-energy-capacity-by-technology /grapher/installed-global-renewable-energy-capacity-by-technology 302!
 /grapher/annual-co2-emissions /grapher/annual-co2-emissions-per-country 302!
 /grapher/co2-emissions-per-capita-vs-gdp-per-capita-ppp-international- /grapher/co2-emissions-vs-gdp 302!
-/grapher/carbon-intensity-of-economies /grapher/carbon-emission-intensity-of-economies 302!
+/grapher/carbon-intensity-of-economies /grapher/co2-intensity 302!
 /grapher/carbon-intensity /grapher/carbon-emission-intensity 302!
 /grapher/annual-co2-emissions-per-countryy /grapher/annual-co2-emissions-per-country 302!
 /grapher/annual-co2-emissions-by-region /grapher/annual-co-emissions-by-region 302!
@@ -1141,3 +1141,4 @@
 /grapher/measles-cases-and-death-rate-alt-to-delete /grapher/measles-cases-and-death 302!
 /grapher/the-ratio-scale-and-an-exponential-function-1950-2010 /grapher/the-ratio-scale-and-an-exponential-function-1950-2016 302!
 /grapher/per-capita-co2-emissions-1990-vs-2016 /grapher/per-capita-co2-emissions-1990-vs-2017 302!
+/grapher/carbon-emission-intensity-of-economies /grapher/co2-intensity 302!
