@@ -21,7 +21,7 @@
         isEmbed: window != window.top
     };
     window.CovidDataExplorer.replaceStateAndBootstrap(
-        "?hideControls=true&zoomToSelection=true&casesMetric=true&dailyFreq=true&smoothing=0&country=~OWID_WRL",
+        "?hideControls=true&zoomToSelection=true&casesMetric=true&totalFreq=true&smoothing=0&country=~OWID_WRL",
         props
     ).then(function(view) {
         view.bindToWindow();
