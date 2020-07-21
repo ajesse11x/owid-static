@@ -459,6 +459,7 @@
 /coronavirus-max-version /coronavirus 301!
 /coronavirus-country-comparisons /coronavirus#coronavirus-country-profiles 301!
 /coronavirus/country-by-country /coronavirus#coronavirus-country-profiles 301!
+/grapher/carbon-emission-intensity /grapher/co2-intensity 301!
 /grapher/latest /grapher/share-of-children-vaccinated-against-measles 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302!
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221 /grapher/share-of-the-population-suffering-from-depression 302!
@@ -528,12 +529,10 @@
 /grapher/average-meat-consumption-per-person-kgyear /grapher/meat-supply-per-person 302!
 /grapher/per-capita-energy-use-vs-share-of-population-in-extreme-poverty /grapher/energy-use-per-capita-vs-share-of-population-in-extreme-poverty 302!
 /grapher/co2-emissions-per-capita-vs-the-share-of-people-living-in-poverty /grapher/co-emissions-per-capita-vs-the-share-of-people-living-in-extreme-poverty 302!
-/grapher/test--carbon-intensity /grapher/carbon-emission-intensity 302!
 /grapher/installed-renewable-energy-capacity-by-technology /grapher/installed-global-renewable-energy-capacity-by-technology 302!
 /grapher/annual-co2-emissions /grapher/annual-co2-emissions-per-country 302!
 /grapher/co2-emissions-per-capita-vs-gdp-per-capita-ppp-international- /grapher/co2-emissions-vs-gdp 302!
 /grapher/carbon-intensity-of-economies /grapher/co2-intensity 302!
-/grapher/carbon-intensity /grapher/carbon-emission-intensity 302!
 /grapher/annual-co2-emissions-per-countryy /grapher/annual-co2-emissions-per-country 302!
 /grapher/annual-co2-emissions-by-region /grapher/annual-co-emissions-by-region 302!
 /grapher/cumulative-co2-emissions /grapher/cumulative-co-emissions 302!
