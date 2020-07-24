@@ -2,10 +2,14 @@
     .content-and-footnotes, .article-header {
         max-width: 50rem !important;
     }
+    .page .wp-block-columns{
+        display: block;
+    }
 
     @media (min-width: 800px) {
         ul.TeamMembers > li:not(.Director) {
             /*width: 47%;*/
+            min-width: 100%;
         }
 
         ul.TeamMembers > li.Director {
@@ -81,6 +85,7 @@
         font-weight: 600;
         font-size: 1em;
         margin: 0;
+        padding: 0;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         color: #444;
     }
@@ -98,8 +103,9 @@
     }
     
     p.role {
-        color: #999;
-        font-size: 1em;
+        color: #999 !important;
+        font-size: 1em !important;
+        margin: 0;
     }
 
     ul.TeamMembers > li ul {
@@ -149,7 +155,7 @@
             <img src="https://ourworldindata.org/uploads/2019/10/max-roser-sq.jpg" data-high-res-src="https://ourworldindata.org/uploads/2019/10/max-roser-sq.jpg" alt="Max roser sq" loading="lazy">
             <div>
                 <h4 id="max-roser"><a class="deep-link" href="#max-roser"></a>Max Roser</h4>
-                <p>Founder and Director</p>
+                <p class="role">Founder and Director</p>
                 <p>Max is the founder and director of Our World in Data. He <a href="https://ourworldindata.org/history-of-our-world-in-data">began</a> the project in 2011 and for several years was the sole author, until receiving funding for the formation of a team. Max&#x2019;s research focuses on poverty, global health, and the distribution of incomes. He is also Programme Director of the Oxford Martin Programme on Global Development at the University of Oxford, and Co-executive Director of Global Change Data Lab, the non-profit organization that publishes and maintains the website and the data tools that make our work possible.</p>
                 <a href="http://twitter.com/MaxCRoser">@MaxCRoser</a>
             </div>
@@ -161,7 +167,7 @@
             <img src="https://ourworldindata.org/uploads/2020/04/Esteban-square.png" data-high-res-src="https://ourworldindata.org/uploads/2020/04/Esteban-square.png" alt="Esteban square" loading="lazy">
             <div>
                 <h4 id="esteban-ortiz-ospina"><a class="deep-link" href="#esteban-ortiz-ospina"></a>Esteban Ortiz-Ospina</h4>
-                <p>Senior Researcher and Head of Operations</p>
+                <p class="role">Senior Researcher and Head of Operations</p>
                 <p>Esteban joined us in 2016. He is Senior Researcher and Content Lead at Our World In Data, as well as executive co-director of Global Change Data Lab, the non-profit organization that publishes and maintains the website and the data tools that make our work possible. Esteban does research on economic development, the public sector, education, and a wide range of related topics. Esteban completed his doctoral studies at the University of Oxford (DPhil Economics).</p>
                 <a href="mailto:esteban@ourworldindata.org">esteban@ourworldindata.org</a> / <a href="http://twitter.com/eortizospina">@eortizospina</a>
             </div>
@@ -170,7 +176,7 @@
             <img src="https://ourworldindata.org/uploads/2018/10/Hannah_Ritchie-e1540908209929.jpg" data-high-res-src="https://ourworldindata.org/uploads/2018/10/Hannah_Ritchie-e1540908209929.jpg" alt="Hannah ritchie e1540908209929" loading="lazy">
             <div>
                 <h4 id="hannah-ritchie"><a class="deep-link" href="#hannah-ritchie"></a>Hannah Ritchie</h4>
-                <p>Senior Researcher and Head of Research</p>
+                <p class="role">Senior Researcher and Head of Research</p>
                 <p>Hannah joined us in 2017. She is Senior Researcher and Head of Research at Our World In Data. She focuses on the long-term development of food supply, agriculture, energy, and environment, and their compatibility with global development. Hannah completed her PhD in GeoSciences at the University of Edinburgh.</p>
                 <a href="mailto:hannah@ourworldindata.org">hannah@ourworldindata.org</a> / <a href="http://twitter.com/_HannahRitchie">@_HannahRitchie</a>
             </div>
@@ -180,7 +186,7 @@
             <img src="https://ourworldindata.org/uploads/2017/09/preview-full-Joe-Hasell-2-cropped.png" data-high-res-src="https://ourworldindata.org/uploads/2017/09/preview-full-Joe-Hasell-2-cropped.png" alt="Preview full joe hasell 2 cropped" loading="lazy">
             <div>
                 <h4 id="joe-hasell"><a class="deep-link" href="#joe-hasell"></a>Joe Hasell</h4>
-                <p>Research Project Manager</p>
+                <p class="role">Research Project Manager</p>
                 <p>Joe joined us in 2017. He is leading large research projects that require the composition of new datasets. He researched the long-term history of <a href="https://ourworldindata.org/famines/">famines</a> and is currently researching the history of war.</p>
                  <a href="mailto:joe@ourworldindata.org">joe@ourworldindata.org</a> / <a href="http://twitter.com/JoeHasell">@JoeHasell</a>
             </div>
@@ -195,7 +201,7 @@
             <img src="https://ourworldindata.org/uploads/2020/04/X34NkpVs_400x400-1.png" data-high-res-src="https://ourworldindata.org/uploads/2020/04/X34NkpVs_400x400-1.png" alt="X34nkpvs 400x400 1" loading="lazy">
             <div>
                 <h4 id="breck-yunits"><a class="deep-link" href="#breck-yunits"></a>Breck Yunits</h4>
-                <p>Software engineer</p>
+                <p class="role">Software engineer</p>
                 <p>Breck joined us in 2020. He is helping us extend our data model to support timespans, subregions, and transformation pipelines, as well as help maintain and modularize OWID-Grapher. Most recently he was a software engineer working on multiomics research at the University of Hawaii Cancer Center and cloud computing at Microsoft. His hobbies include maintaining a database of all the world&#x2019;s computer languages.</p>
                 <a href="mailto:breck@ourworldindata.org">breck@ourworldindata.org</a>
             </div>
@@ -205,7 +211,7 @@
             <img src="https://ourworldindata.org/uploads/2020/04/ernst_small.jpg" data-high-res-src="https://ourworldindata.org/uploads/2020/04/ernst_small.jpg" alt="Ernst small" loading="lazy">
             <div>
                 <h4 id="ernst-van-woerden"><a class="deep-link" href="#ernst-van-woerden"></a>Ernst van Woerden</h4>
-                <p>Product designer</p>
+                <p class="role">Product designer</p>
                 <p>Ernst joined us in 2020. He is a designer at the intersection of data and storytelling. Over the past 10 years, he has explained complex startup technology using explainer animations, designed interfaces to help diabetes patients make sense of their health data, worked on the storyline of product launch keynotes at Xiaomi, and tried to give job seekers insight into their salary.</p>
                 <a href="mailto:ernst@ourworldindata.org">ernst@ourworldindata.org</a> / <a href="http://twitter.com/erniedesigns">@erniedesigns</a>
             </div>
@@ -216,7 +222,7 @@
             <img src="https://ourworldindata.org/uploads/2018/11/daniel-gavrilov-square.jpg" data-high-res-src="https://ourworldindata.org/uploads/2018/11/daniel-gavrilov-square.jpg" alt="Daniel gavrilov square" loading="lazy">
             <div>
                 <h4 id="daniel-gavrilov"><a class="deep-link" href="#daniel-gavrilov"></a>Daniel Gavrilov</h4>
-                <p>Software engineer</p>
+                <p class="role">Software engineer</p>
                 <p>Daniel joined us in 2018 and is helping develop the <em>OWID-Grapher</em> and maintain the website as well as the automated fetchers that keep our datasets up to date.</p>
                 <a href="mailto:daniel@ourworldindata.org">daniel@ourworldindata.org</a>
             </div>
@@ -225,7 +231,7 @@
             <img src="https://ourworldindata.org/uploads/2020/01/matthieu_bergel.jpg" data-high-res-src="https://ourworldindata.org/uploads/2020/01/matthieu_bergel.jpg" alt="Matthieu bergel" loading="lazy">
             <div>
                 <h4 id="matthieu-bergel"><a class="deep-link" href="#matthieu-bergel"></a>Matthieu Bergel</h4>
-                <p>Software engineer</p>
+                <p class="role">Software engineer</p>
                 <p>Matthieu joined in 2019 with the overall mission of providing readers with a seamless experience throughout the publication, while creating intuitive pathways between data and research. He is putting his previous consulting experiences with communication agencies in Paris to good use by building the next iteration of our content management system.</p>
 <a href="mailto:matthieu@ourworldindata.org">matthieu@ourworldindata.org</a>            
 </div>
@@ -234,7 +240,7 @@
             <img src="https://ourworldindata.org/uploads/2020/04/Shahid-Square.png" data-high-res-src="https://ourworldindata.org/uploads/2020/04/Shahid-Square.png" alt="Shahid square" loading="lazy">
             <div>
                 <h4 id="shahid-ahmad"><a class="deep-link" href="#shahid-ahmad"></a>Shahid Ahmad</h4>
-                <p>Software engineer</p>
+                <p class="role">Software engineer</p>
                 <p>Shahid joined us in 2020. He is helping us build our data visualization and exploration tools. Most recently, he led product development at Jasmine, a conversational AI startup.</p>
             </div>
         </li>
@@ -242,7 +248,7 @@
             <img src="https://ourworldindata.org/uploads/2020/04/Edouard_NX_Color_Square_Mid.jpg" data-high-res-src="https://ourworldindata.org/uploads/2020/04/Edouard_NX_Color_Square_Mid.jpg" alt="Edouard nx color square mid" loading="lazy">
             <div>
                 <h4 id="edouard-mathieu"><a class="deep-link" href="#edouard-mathieu"></a>Edouard Mathieu</h4>
-                <p>Data Manager</p>
+                <p class="role">Data Manager</p>
                 <p>Edouard joined us in 2020 as our Data Manager, working on the whole chain of collection, transformation, documentation and dissemination of our data. He previously worked as a data scientist at the University of Oxford, at the departments of Population Health and Primary Care Health Sciences. He holds a master&#x2019;s degree from Sciences Po Paris.</p>
 <a href="#">edouard at ourworldindata.org</a> / <a href="http://twitter.com/redouad">@redouad</a>  
 </div>
@@ -255,7 +261,7 @@
             <img src="https://ourworldindata.org/uploads/2020/04/T3DR40MTQ-UPKG25UES-g6db63e3993e-512.jpeg" data-high-res-src="https://ourworldindata.org/uploads/2020/04/T3DR40MTQ-UPKG25UES-g6db63e3993e-512.jpeg" alt="T3dr40mtq upkg25ues g6db63e3993e 512" loading="lazy">
             <div>
                 <h4 id="jason-crawford"><a class="deep-link" href="#jason-crawford"></a>Jason Crawford</h4>
-                <p>Software team lead &#x2013; part-time advisor</p>
+                <p class="role">Software team lead &#x2013; part-time advisor</p>
                 <p>Jason Crawford is the former CEO and co-founder of Fieldbook, and has been an engineering manager at companies including Amazon and Flexport. He is the author of <a href="https://rootsofprogress.org/">The Roots of Progress</a>, where he writes about the history of technology and industry.</p>
 <a href="mailto:jason@ourworldindata.org">jason@ourworldindata.org</a> / <a href="http://twitter.com/jasoncrawford">@jasoncrawford</a>
             </div>
@@ -267,7 +273,7 @@
             <img src="https://ourworldindata.org/uploads/2017/12/Diana-small.png" data-high-res-src="https://ourworldindata.org/uploads/2017/12/Diana-small.png" alt="Diana small" loading="lazy">
             <div>
                 <h4 id="diana-beltekian"><a class="deep-link" href="#diana-beltekian"></a>Diana Beltekian</h4>
-                <p>Research Assistant (part-time)</p>
+                <p class="role">Research Assistant (part-time)</p>
                 <p>Diana joined us in 2017 and as a research assistant she is researching on the long-term history of a large number of aspects including trade, education, and technological change.</p>
                 <a href="mailto:diana@ourworldindata.org">diana@ourworldindata.org</a> / <a href="https://twitter.com/diana_beltekian">@diana_beltekian</a>
             </div>
@@ -276,7 +282,7 @@
             <img src="https://ourworldindata.org/uploads/2019/01/Anstey-small-e1547772966920.jpg" data-high-res-src="https://ourworldindata.org/uploads/2019/01/Anstey-small-e1547772966920.jpg" alt="Anstey small e1547772966920" loading="lazy">
             <div>
                 <h4 id="anstey-brock"><a class="deep-link" href="#anstey-brock"></a>Anstey Brock</h4>
-                <p>Research Assistant (part-time)</p>
+                <p class="role">Research Assistant (part-time)</p>
                 <p>Anstey joined us as a research assistant in December 2018. She has a graduate degree in International Development and Conflict, as well as past experience as a survey researcher. She is working with us on an extensive database on the history of war.</p>
             </div>
         </li>
@@ -284,7 +290,7 @@
             <img src="https://ourworldindata.org/uploads/2018/10/Sonya-square-e1539615904321.jpg" data-high-res-src="https://ourworldindata.org/uploads/2018/10/Sonya-square-e1539615904321.jpg" alt="Sonya square e1539615904321" loading="lazy">
             <div>
                 <h4 id="sonya-bhatt"><a class="deep-link" href="#sonya-bhatt"></a>Sonya Bhatt</h4>
-                <p>Administrative and Finance Officer (part-time)</p>
+                <p class="role">Administrative and Finance Officer (part-time)</p>
                 <p>Sonya joined the team in 2018 and is supporting our work on the administrative and financial side.</p>
                 <a href="mailto:sonya.bhatt@oxfordmartin.ox.ac.uk">sonya.bhatt@oxfordmartin.ox.ac.uk</a>
             </div>
