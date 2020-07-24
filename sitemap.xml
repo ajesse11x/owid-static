@@ -18113,7 +18113,11 @@
         <lastmod>2020-07-24</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/uk-gdp-per-capita</loc>
+        <loc>https://ourworldindata.org/grapher/uk-real-gdp-per-capita-in-2011-us-dollars</loc>
+        <lastmod>2020-07-24</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/marriages-uk-ended-in-divorce</loc>
         <lastmod>2020-07-24</lastmod>
     </url>
 </urlset>
