@@ -18,6 +18,7 @@
     var props = {
         containerNode: document.getElementById("covidDataExplorerContainer"),
         queryStr: window.location.search,
+        isExplorerPage: true,
         isEmbed: window != window.top
     };
     window.CovidDataExplorer.replaceStateAndBootstrap(
