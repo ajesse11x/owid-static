@@ -7934,7 +7934,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/fossil-fuel-consumption-by-fuel-type</loc>
-        <lastmod>2019-11-22</lastmod>
+        <lastmod>2020-07-28</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/oil-production-by-country</loc>
@@ -18167,5 +18167,9 @@
     <url>
         <loc>https://ourworldindata.org/grapher/cereal-yield-vs-extreme-poverty-scatter</loc>
         <lastmod>2020-07-27</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/uk-inflation-rate-19892019</loc>
+        <lastmod>2020-07-28</lastmod>
     </url>
 </urlset>
