@@ -18134,7 +18134,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/uk-gdp-growth-and-unemployment-rate</loc>
-        <lastmod>2020-07-24</lastmod>
+        <lastmod>2020-07-28</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/daily-confirmed-deaths-of-covid-19-per-million-people-vs-gdp-per-capita</loc>
@@ -18178,6 +18178,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/fossil-fuel-cons-per-capita</loc>
+        <lastmod>2020-07-28</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/fluctuations-in-output-and-the-size-of-government-in-the-us</loc>
         <lastmod>2020-07-28</lastmod>
     </url>
 </urlset>
