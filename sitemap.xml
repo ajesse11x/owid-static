@@ -18176,4 +18176,8 @@
         <loc>https://ourworldindata.org/grapher/fossil-fuel-consumption</loc>
         <lastmod>2020-07-28</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/fossil-fuel-cons-per-capita</loc>
+        <lastmod>2020-07-28</lastmod>
+    </url>
 </urlset>
