@@ -3754,7 +3754,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-207</loc>
-        <lastmod>2020-07-29</lastmod>
+        <lastmod>2020-07-30</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/covid-19-project-charts</loc>
@@ -3782,7 +3782,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/policy-responses-covid</loc>
-        <lastmod>2020-07-29</lastmod>
+        <lastmod>2020-07-30</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/coronavirus-testing</loc>
@@ -17190,7 +17190,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/school-closures-covid</loc>
-        <lastmod>2020-06-19</lastmod>
+        <lastmod>2020-07-30</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/full-list-covid-19-tests-per-day</loc>
@@ -18243,5 +18243,9 @@
     <url>
         <loc>https://ourworldindata.org/grapher/share-of-children-who-are-stunted-vs-co-emissions-per-capita</loc>
         <lastmod>2020-07-29</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/energy-intensity-vs-gdp</loc>
+        <lastmod>2020-07-30</lastmod>
     </url>
 </urlset>
