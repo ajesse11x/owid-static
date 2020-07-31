@@ -18340,4 +18340,8 @@
         <loc>https://ourworldindata.org/grapher/annual-change-hydro</loc>
         <lastmod>2020-07-31</lastmod>
     </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/annual-percentage-change-hydro</loc>
+        <lastmod>2020-07-31</lastmod>
+    </url>
 </urlset>
