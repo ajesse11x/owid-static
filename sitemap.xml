@@ -3754,7 +3754,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-207</loc>
-        <lastmod>2020-08-02</lastmod>
+        <lastmod>2020-08-03</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/covid-19-project-charts</loc>
@@ -17989,12 +17989,12 @@
         <lastmod>2020-07-12</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/final-energy-fossil-renewables-nuclear</loc>
-        <lastmod>2020-07-12</lastmod>
+        <loc>https://ourworldindata.org/grapher/sub-energy-fossil-renewables-nuclear</loc>
+        <lastmod>2020-08-03</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/low-carbon-share-energy</loc>
-        <lastmod>2020-08-02</lastmod>
+        <lastmod>2020-08-03</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/annual-change-primary-energy-source</loc>
@@ -18387,5 +18387,33 @@
     <url>
         <loc>https://ourworldindata.org/grapher/maddison-data-gdp-per-capita-in-2011us-slopechart</loc>
         <lastmod>2020-08-02</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/real-wages-and-output-per-production-worker-in-manufacturing-in-the-us</loc>
+        <lastmod>2020-08-03</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/government-expenditure-vs-gdp</loc>
+        <lastmod>2020-08-03</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/the-growth-of-government-in-the-uk</loc>
+        <lastmod>2020-08-03</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/low-carbon-energy-vs-global</loc>
+        <lastmod>2020-08-03</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/per-capita-low-carbon-vs-gdp</loc>
+        <lastmod>2020-08-03</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/share-of-low-carbon-energy-vs-gdp</loc>
+        <lastmod>2020-08-03</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/the-share-of-total-income-received-by-the-top-1</loc>
+        <lastmod>2020-08-03</lastmod>
     </url>
 </urlset>
