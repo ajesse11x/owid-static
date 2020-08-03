@@ -2474,7 +2474,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/economic-growth-since-1950</loc>
-        <lastmod>2020-07-26</lastmod>
+        <lastmod>2020-08-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/estimates-of-the-number-of-missing-women-in-the-world</loc>
@@ -3102,7 +3102,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-89</loc>
-        <lastmod>2020-01-06</lastmod>
+        <lastmod>2020-08-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-90</loc>
@@ -3754,7 +3754,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-207</loc>
-        <lastmod>2020-08-01</lastmod>
+        <lastmod>2020-08-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/covid-19-project-charts</loc>
@@ -3782,7 +3782,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/policy-responses-covid</loc>
-        <lastmod>2020-08-01</lastmod>
+        <lastmod>2020-08-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/coronavirus-testing</loc>
@@ -3858,7 +3858,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/coronavirus-country-profile</loc>
-        <lastmod>2020-07-16</lastmod>
+        <lastmod>2020-08-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/covid-mobility-trends</loc>
@@ -3962,7 +3962,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/marriages-and-divorces</loc>
-        <lastmod>2020-07-31</lastmod>
+        <lastmod>2020-08-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/same-sex-marriage-around-the-world</loc>
@@ -5594,7 +5594,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/energy-consumption-by-source-and-region</loc>
-        <lastmod>2020-06-05</lastmod>
+        <lastmod>2020-08-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/crude-oil-prices</loc>
@@ -17942,47 +17942,47 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/coal-energy-share</loc>
-        <lastmod>2020-07-12</lastmod>
+        <lastmod>2020-08-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/oil-share-energy</loc>
-        <lastmod>2020-07-12</lastmod>
+        <lastmod>2020-08-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/gas-share-energy</loc>
-        <lastmod>2020-07-12</lastmod>
+        <lastmod>2020-08-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/fossil-fuels-share-energy</loc>
-        <lastmod>2020-07-12</lastmod>
+        <lastmod>2020-08-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/nuclear-primary-energy</loc>
-        <lastmod>2020-07-12</lastmod>
+        <lastmod>2020-08-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/renewable-share-energy</loc>
-        <lastmod>2020-07-12</lastmod>
+        <lastmod>2020-08-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/hydro-share-energy</loc>
-        <lastmod>2020-07-12</lastmod>
+        <lastmod>2020-08-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/solar-share-energy</loc>
-        <lastmod>2020-07-12</lastmod>
+        <lastmod>2020-08-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/wind-share-energy</loc>
-        <lastmod>2020-07-12</lastmod>
+        <lastmod>2020-08-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-of-primary-energy-consumption-by-source</loc>
-        <lastmod>2020-07-12</lastmod>
+        <lastmod>2020-08-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-energy-source-sub</loc>
-        <lastmod>2020-07-12</lastmod>
+        <lastmod>2020-08-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/primary-energy-fossil-nuclear-renewables</loc>
@@ -17994,15 +17994,15 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/low-carbon-share-energy</loc>
-        <lastmod>2020-07-12</lastmod>
+        <lastmod>2020-08-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/annual-change-primary-energy-source</loc>
-        <lastmod>2020-07-12</lastmod>
+        <lastmod>2020-08-03</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/annual-primary-energy-fossil-vs-low-carbon</loc>
-        <lastmod>2020-07-12</lastmod>
+        <lastmod>2020-08-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/daily-tests-map-colors-for-explorer</loc>
@@ -18375,5 +18375,17 @@
     <url>
         <loc>https://ourworldindata.org/grapher/life-satisfaction-vs-co-emissions-per-capita</loc>
         <lastmod>2020-08-01</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/share-that-has-access-to-electricity-vs-per-capita-co-emissions</loc>
+        <lastmod>2020-08-01</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/expected-years-of-schooling-vs-co-emissions-per-capita</loc>
+        <lastmod>2020-08-01</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/maddison-data-gdp-per-capita-in-2011us-slopechart</loc>
+        <lastmod>2020-08-02</lastmod>
     </url>
 </urlset>
